@@ -16,15 +16,17 @@ from wtforms.form import Form
 from wtforms import validators
 from wtforms import StringField, IntegerField, TextAreaField, BooleanField
 
+from xml.sax.saxutils import *
+
 Base = declarative_base()
 engine = create_engine('mysql://root:edurs6k@localhost/test?charset=utf8', echo=True)
 
 plugin = sqlalchemy.Plugin(
     engine,
     Base.metadata,
-    keyword='db',  # 関数内で挿入される場合の変数名
-    create=False,  # テーブルを作成するか
-    commit=False,  # 関数終了時にコミットするか
+    keyword='db',
+    create=False,
+    commit=False,
     use_kwargs=True
 )
 
@@ -110,8 +112,8 @@ def do_search(db):
     poquery = db.query(Pos).filter(*filters).filter(or_(*filters1))
     polist = poquery.all()
     for i, row in enumerate(polist):
-        polist[i].msgid = add_red(keyword,row.msgid)
-        polist[i].msgstr = add_red(jkeyword,row.msgstr)
+        polist[i].msgid = add_red(keyword,escape(row.msgid))
+        polist[i].msgstr = add_red(jkeyword,escape(row.msgstr))
 
     return template('index', form=form, polist=polist, request=request)
 
