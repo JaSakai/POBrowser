@@ -30,7 +30,6 @@ plugin = sqlalchemy.Plugin(
     use_kwargs=True
 )
 
-# プラグインのインストール
 bottle.install(plugin)
 
 Base.metadata.reflect(engine)
@@ -45,9 +44,9 @@ class SearchForm(Form):
     moodle = BooleanField(u'Moodle')
     mahara = BooleanField(u'Mahara')    
 
-def add_red(keyword,word):
+def add_red(keyword,string):
     import re
-    if (len(word) != 0 and len(keyword) != 0):
+    if (len(string) != 0 and len(keyword) != 0):
 
         header = "<font color='red'>"
         trailer = "</font>"
@@ -55,22 +54,46 @@ def add_red(keyword,word):
         s=''
         e=''
         r = re.compile(keyword, re.IGNORECASE)
-        matches = re.finditer(r, word)
+        matches = re.finditer(r, string)
         for i, m in enumerate(matches):
             s = m.start()
             e = m.end()
 
             if i == 0:
-                outs.append(word[:s])
+                outs.append(string[:s])
             else:
-                outs.append(word[e_before:s])
-            outs.append(header + word[s:e] + trailer)
+                outs.append(string[e_before:s])
+            outs.append(header + string[s:e] + trailer)
             e_before = e
-        outs.append(word[e:])
+        outs.append(string[e:])
         out = "".join(outs)
     else:
-        out = word
+        out = string
     return out    
+
+
+from HTMLParser import HTMLParser
+
+class MLStripper(HTMLParser):
+
+    def __init__(self):
+        self.reset()
+        # stripしたテキストを保存するバッファー
+        self.fed = []
+
+    def handle_data(self, d):
+        # 任意のタグの中身のみを追加していく
+        self.fed.append(d)
+
+    def get_data(self):
+        # バッファーを連結して返す
+        return ''.join(self.fed)
+
+def strip_tags(html):
+    s = MLStripper()
+    s.feed(html)
+    return s.get_data()
+
 
 @get('/pobrowser')
 def index():
@@ -80,23 +103,24 @@ def index():
 @post('/pobrowser/search')
 def do_search(db):
 
-    filters = []
-    filters1 = []
+    filters_msgid = []
+    filters_msgstr = []
+    filters_oss = []
     osss = []
     
     form = SearchForm(request.forms.decode())
-    keyword=form.word.data
-    jkeyword=form.jword.data
+
+    keywords=form.word.data
+    for keyword in keywords.split():
+        filters_msgid.append(Pos.msgid.like('%'+keyword+'%'))
+
+    jkeywords=form.jword.data    
+    for jkeyword in jkeywords.split():
+        filters_msgstr.append(Pos.msgstr.like('%'+jkeyword+'%' ))
 
     sw_sakai=form.sakai.data
     sw_moodle=form.moodle.data
     sw_mahara=form.mahara.data
-
-    word = '%'+keyword+'%'
-    jword = '%'+jkeyword+'%'   
-
-    filters.append(Pos.msgid.like(word))
-    filters.append(Pos.msgstr.like(jword))
 
     if sw_sakai == True:
         osss = osss + ['sakai']
@@ -105,15 +129,18 @@ def do_search(db):
     if sw_mahara == True:
         osss = osss + ['mahara']
 
-    filters1 = []
     for oss in osss:
-        filters1.append(Pos.oss.like(oss))
+        filters_oss.append(Pos.oss.like(oss))
 
-    poquery = db.query(Pos).filter(*filters).filter(or_(*filters1))
+    poquery = db.query(Pos).filter(and_(*filters_msgid)).filter(and_(*filters_msgstr)).filter(or_(*filters_oss))
     polist = poquery.all()
     for i, row in enumerate(polist):
-        polist[i].msgid = add_red(keyword,escape(row.msgid))
-        polist[i].msgstr = add_red(jkeyword,escape(row.msgstr))
+        strip_tags(row.msgid)
+        strip_tags(row.msgstr)
+        for keyword in keywords.split():
+            polist[i].msgid = add_red(keyword,row.msgid)   
+        for jkeyword in jkeywords.split():
+            polist[i].msgstr = add_red(jkeyword,row.msgstr)
 
     return template('index', form=form, polist=polist, request=request)
 
