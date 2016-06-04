@@ -47,13 +47,14 @@ class SearchForm(Form):
 def add_red(keyword,string):
     import re
     if (len(string) != 0 and len(keyword) != 0):
-
         header = "<font color='red'>"
         trailer = "</font>"
         outs = []
         s=''
         e=''
-        r = re.compile(keyword, re.IGNORECASE)
+        # Temporary fix for keyword with underscore
+        keyword_re = keyword.replace("_","")
+        r = re.compile(keyword_re, re.IGNORECASE)
         matches = re.finditer(r, string)
         for i, m in enumerate(matches):
             s = m.start()
@@ -78,15 +79,12 @@ class MLStripper(HTMLParser):
 
     def __init__(self):
         self.reset()
-        # stripしたテキストを保存するバッファー
         self.fed = []
 
     def handle_data(self, d):
-        # 任意のタグの中身のみを追加していく
         self.fed.append(d)
 
     def get_data(self):
-        # バッファーを連結して返す
         return ''.join(self.fed)
 
 def strip_tags(html):
