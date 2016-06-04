@@ -34,7 +34,7 @@ bottle.install(plugin)
 
 Base.metadata.reflect(engine)
 class Pos(Base):
-    __tablename__ = 'pos'
+    __tablename__ = 'po_test'
     __table_args__ = {'autoload':True}
 
 class SearchForm(Form):
