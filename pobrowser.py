@@ -103,7 +103,6 @@ def do_search(db):
 
     keywords=form.word.data
     for keyword in keywords.split():
-        print "**keyword:",keyword
         filters_msgid.append(Pos.msgid.like('%'+keyword+'%'))
 
     jkeywords=form.jword.data    
