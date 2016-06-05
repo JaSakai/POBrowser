@@ -42,37 +42,30 @@ class SearchForm(Form):
     jword = StringField(u'検索語')
     sakai = BooleanField(u'Sakai')
     moodle = BooleanField(u'Moodle')
-    mahara = BooleanField(u'Mahara')    
+    mahara = BooleanField(u'Mahara')
+
+def insert(pos, s, x):
+  return x.join([s[:pos], s[pos:] ])
 
 def add_red(keyword,string):
     import re
+    out = string
     if (len(string) != 0 and len(keyword) != 0):
         header = "<font color='red'>"
-        trailer = "</font>"
-        outs = []
-        s=''
-        e=''
-        # Temporary fix for keyword with underscore
-        keyword_re = keyword.replace("_","")
-        r = re.compile(keyword_re, re.IGNORECASE)
+        trailer = "</font>" 
+        r = re.compile(keyword, re.IGNORECASE)
         matches = re.finditer(r, string)
-        for i, m in enumerate(matches):
-            s = m.start()
-            e = m.end()
-
-            if i == 0:
-                outs.append(string[:s])
+        pos = ()
+        for m in matches:
+            pos = pos + m.span()
+        for i, m in enumerate(reversed(pos)):
+            if i%2 == 0:
+                x = trailer
             else:
-                outs.append(string[e_before:s])
-            outs.append(header + string[s:e] + trailer)
-            e_before = e
-        outs.append(string[e:])
-        out = "".join(outs)
-    else:
-        out = string
-    return out    
-
-
+                x = header
+            out = insert(m,out,x)
+    return out
+  
 from HTMLParser import HTMLParser
 
 class MLStripper(HTMLParser):
@@ -110,6 +103,7 @@ def do_search(db):
 
     keywords=form.word.data
     for keyword in keywords.split():
+        print "**keyword:",keyword
         filters_msgid.append(Pos.msgid.like('%'+keyword+'%'))
 
     jkeywords=form.jword.data    
@@ -136,7 +130,7 @@ def do_search(db):
         strip_tags(row.msgid)
         strip_tags(row.msgstr)
         for keyword in keywords.split():
-            polist[i].msgid = add_red(keyword,row.msgid)   
+            polist[i].msgid = add_red(keyword,row.msgid) 
         for jkeyword in jkeywords.split():
             polist[i].msgstr = add_red(jkeyword,row.msgstr)
 
