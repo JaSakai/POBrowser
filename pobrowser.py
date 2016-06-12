@@ -34,7 +34,7 @@ bottle.install(plugin)
 
 Base.metadata.reflect(engine)
 class Pos(Base):
-    __tablename__ = 'po_test'
+    __tablename__ = 'pos'
     __table_args__ = {'autoload':True}
 
 class SearchForm(Form):
@@ -44,26 +44,76 @@ class SearchForm(Form):
     moodle = BooleanField(u'Moodle')
     mahara = BooleanField(u'Mahara')
 
+def span(a, b):
+
+    # detect a correlation for two spans by keyword 
+    # a: tuple: start and end positions in byte for 1st kwyword
+    # b: tuple: start and end positions in byte for 2nd kwyword 
+    # to be used with finction "tab"
+
+    if a[1] < b[0]:
+        x = [a,b]
+    elif b[0]<=a[1]< b[1]:
+        x = (a[0],b[1])
+    else:
+        x  = a
+    return x
+
+def tag(ls):
+
+    # correct duplicated spans by plural keywords 
+    # ls: list: spans detected :by finditer
+
+    if len(ls) > 1 :
+        ls.sort(key=lambda x:(x[0],x[1]))
+        len_ls = len(ls)
+        rs = []
+        for i, l in enumerate(ls):
+            if i==0: a=l
+            else:
+                r = span(a,l)
+                if isinstance(r, list):
+                    rs.append(r[0])
+                    if i == len_ls-1:
+                        rs.append(r[1])
+                    else:
+                        a=r[1]
+                else:
+                    if i == len_ls-1:
+                        rs.append(r)
+                    else:
+                        a=r
+    else:
+        rs = ls
+    return rs
+
 def insert(pos, s, x):
   return x.join([s[:pos], s[pos:] ])
 
-def add_red(keyword,string):
+def add_red(keywords,string):
+
+    # keywords: list, input keyword
+    # string: string to be added by keywords in red
+
     import re
     out = string
-    if (len(string) != 0 and len(keyword) != 0):
-        header = "<font color='red'>"
-        trailer = "</font>" 
-        r = re.compile(keyword, re.IGNORECASE)
-        matches = re.finditer(r, string)
-        pos = ()
-        for m in matches:
-            pos = pos + m.span()
-        for i, m in enumerate(reversed(pos)):
-            if i%2 == 0:
-                x = trailer
-            else:
-                x = header
-            out = insert(m,out,x)
+
+    pos = []
+    for keyword in keywords:
+        if (len(string) != 0 and len(keyword) != 0):
+ 
+            r = re.compile(keyword, re.IGNORECASE)
+            matches = re.finditer(r, string)
+            for m in matches:
+                pos.append(m.span())
+
+    header = "<font color='red'>"
+    trailer = "</font>"
+    for m in reversed(tag(pos)):
+        s = m[0]
+        e = m[1]
+        out = insert(e,out,trailer)
+        out = insert(s,out,header)
     return out
   
 from HTMLParser import HTMLParser
@@ -128,10 +178,8 @@ def do_search(db):
     for i, row in enumerate(polist):
         strip_tags(row.msgid)
         strip_tags(row.msgstr)
-        for keyword in keywords.split():
-            polist[i].msgid = add_red(keyword,row.msgid) 
-        for jkeyword in jkeywords.split():
-            polist[i].msgstr = add_red(jkeyword,row.msgstr)
+        polist[i].msgid = add_red(keywords.split(),row.msgid) 
+        polist[i].msgstr = add_red(jkeywords.split(),row.msgstr)
 
     return template('index', form=form, polist=polist, request=request)
 
