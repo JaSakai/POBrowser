@@ -13,14 +13,14 @@
 
 <div class="row">
     <div class="table-responsive">
-        <table class="table table-striped">
+        <table class="table table-striped" style="table-layout:fixed;">
             <thead>
             <tr>
-                <th>id</th>
-                <th>OSS</th>
-                <th>Module</th>
-                <th>msgid</th>
-                <th>msgstr</th>
+                <th style="width:50px;">id</th>
+                <th style="width:50px;">OSS</th>
+                <th style="width:100px;">Module</th>
+                <th style="width:500px;">msgid</th>
+                <th style="width:500px;">msgstr</th>
             </tr>
             </thead>
             <tbody>
