@@ -135,9 +135,12 @@ def strip_tags(html):
     s.feed(html)
     return s.get_data()
 
+def user_auth(username, password):
+    return username == "tmx" and password == "kakenhi"
 
 @get('/pobrowser')
-def index():
+@bottle.auth_basic(user_auth)
+def index(db):
     form = SearchForm()
     return template('top', form=form, request=request)
 
@@ -151,13 +154,25 @@ def do_search(db):
     
     form = SearchForm(request.forms.decode())
 
+    # For both keuwords and jkeywords
+    # when first word is !, "not like %keyword%" operation will be executed
+    # otherwise, "like %keyword%" operation will be executed
+
     keywords=form.word.data
     for keyword in keywords.split():
-        filters_msgid.append(Pos.msgid.like('%'+keyword+'%'))
+        if keyword[0] == "!":
+            keyword = keyword[1:]
+            filters_msgid.append(Pos.msgid.notlike('%'+keyword+'%'))
+        else:
+            filters_msgid.append(Pos.msgid.like('%'+keyword+'%'))
 
     jkeywords=form.jword.data    
     for jkeyword in jkeywords.split():
-        filters_msgstr.append(Pos.msgstr.like('%'+jkeyword+'%' ))
+        if jkeyword[0] == "!":
+            jkeyword = jkeyword[1:]
+            filters_msgstr.append(Pos.msgstr.notlike('%'+jkeyword+'%'))
+        else:
+            filters_msgstr.append(Pos.msgstr.like('%'+jkeyword+'%'))
 
     sw_sakai=form.sakai.data
     sw_moodle=form.moodle.data
