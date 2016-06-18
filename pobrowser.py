@@ -18,8 +18,23 @@ from wtforms import StringField, IntegerField, TextAreaField, BooleanField
 
 from xml.sax.saxutils import *
 
+import ConfigParser
+
+def getconf():
+    config = ConfigParser.ConfigParser()
+    config.read("pobrowser.conf")
+
+    user = config.get("mysql", "user")
+    password = config.get("mysql", "password")
+    server = config.get("mysql", "server")
+    database = config.get("mysql", "database")
+
+    table = config.get("misc", "table")
+
+    return {'mysql':"mysql://%s:%s@%s/%s?charset=utf8" % (user, password, server, database),'table':table}
+
 Base = declarative_base()
-engine = create_engine('mysql://root:edurs6k@localhost/test?charset=utf8', echo=True)
+engine = create_engine(getconf()['mysql'], echo=True)
 
 plugin = sqlalchemy.Plugin(
     engine,
@@ -139,7 +154,10 @@ def user_auth(username, password):
     return username == "tmx" and password == "kakenhi"
 
 @get('/pobrowser')
-@bottle.auth_basic(user_auth)
+
+# If authorization will be required, enable following line
+# @bottle.auth_basic(user_auth)
+
 def index(db):
     form = SearchForm()
     return template('top', form=form, request=request)
