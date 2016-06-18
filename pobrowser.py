@@ -221,8 +221,8 @@ def do_search(db):
     poquery = db.query(Pos).filter(and_(*filters_msgid)).filter(and_(*filters_msgstr)).filter(or_(*filters_oss))
     polist = poquery.all()
     for i, row in enumerate(polist):
-        strip_tags(row.msgid)
-        strip_tags(row.msgstr)
+        row.msgid = strip_tags(row.msgid)
+        row.msgstr = strip_tags(row.msgstr)
         polist[i].msgid = add_red(keywords.split(),row.msgid) 
         polist[i].msgstr = add_red(jkeywords.split(),row.msgstr)
 
