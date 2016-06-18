@@ -49,7 +49,7 @@ bottle.install(plugin)
 
 Base.metadata.reflect(engine)
 class Pos(Base):
-    __tablename__ = 'pos'
+    __tablename__ = getconf()['table']
     __table_args__ = {'autoload':True}
 
 class SearchForm(Form):
@@ -117,6 +117,8 @@ def add_red(keywords,string):
     for keyword in keywords:
         if (len(string) != 0 and len(keyword) != 0):
  
+            if keyword[0] in ["="]:
+                keyword = keyword[1:]
             r = re.compile(keyword, re.IGNORECASE)
             matches = re.finditer(r, string)
             for m in matches:
@@ -182,7 +184,12 @@ def do_search(db):
             keyword = keyword[1:]
             filters_msgid.append(Pos.msgid.notlike('%'+keyword+'%'))
         else:
-            filters_msgid.append(Pos.msgid.like('%'+keyword+'%'))
+            if keyword[0] == "=":
+                keyword_exe = keyword[1:]
+            else:
+                keyword_exe = '%'+keyword+'%'
+
+            filters_msgid.append(Pos.msgid.like(keyword_exe))
 
     jkeywords=form.jword.data    
     for jkeyword in jkeywords.split():
@@ -190,7 +197,12 @@ def do_search(db):
             jkeyword = jkeyword[1:]
             filters_msgstr.append(Pos.msgstr.notlike('%'+jkeyword+'%'))
         else:
-            filters_msgstr.append(Pos.msgstr.like('%'+jkeyword+'%'))
+            if jkeyword[0] == "=":
+                jkeyword_exe = jkeyword[1:]
+            else:
+                jkeyword_exe = '%'+jkeyword+'%'
+
+            filters_msgstr.append(Pos.msgstr.like(jkeyword_exe))
 
     sw_sakai=form.sakai.data
     sw_moodle=form.moodle.data

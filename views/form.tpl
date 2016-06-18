@@ -12,7 +12,6 @@
           % end
           </div>
       % end
-
   </div>
 
   <div class="form-group">
@@ -26,7 +25,6 @@
           % end
           </div>
       % end
-
   </div>
 
   <div class="form-group">
@@ -37,15 +35,14 @@
        {{ !form.sakai.label }}
        {{ !form.sakai(class_="form-control", checked=False)}}
       % end
-
-
-
   </div>
+
   <div class="form-group">
       {{ !form.moodle.label }}
       {{ !form.moodle(class_="form-control", checked=False)}}
 
   </div>
+
   <div class="form-group">
       {{ !form.mahara.label }}
       {{ !form.mahara(class_="form-control", checked=False)}}
