@@ -14,7 +14,7 @@ Pythonにて開発しました。理由としてはgettext POファイルをた�
 * pobrowser.conf: MySQL関連設定などを記載します。
 
 ###### POImporter
-* poimporter.py: POファイルをデータベースにインポートするメインプロログラムです。
+* poimporter.py: POファイルをデータベースにインポートするメインプログラムです。
 * pos/{oss名}/*.po: データベースにインポートされるPOファイルです。
 * DB_setting_example.txt: データベース環境構築事例です。
 
