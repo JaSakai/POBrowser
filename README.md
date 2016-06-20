@@ -12,14 +12,14 @@
 ###### POImporter
 * poimporter.py: メインプロログラムです。
 * pos/{oss名}/*.po: データベースにインポートされるPOファイルです。
-* DB_setting_example.txt: データベース環境構築事例
+* DB_setting_example.txt: データベース環境構築事例です。
 
-#### 実行環境
-下記環境にて稼働しています。
+#### Pre-Requisite
+下記、いずれの環境でも稼働実績があります。
 * AWS LINUX amzn-ami-hvm-2016.03.2.x86_64-gp2 (ami-6154bb00)
 * OSX Yosemite (10.10.5))
 
-######yumにて導入
+######yumにて導入(Amazon LINUX)
 * python 2.7.10
 * MySQL 5.6.25
 * Apache 2.2.31
