@@ -30,7 +30,7 @@ engine = create_engine(getconf()['mysql'], echo=True)
 Base = declarative.declarative_base()
 
 class Po(Base):
-    __tablename__ = getconf()['table']	
+ 	__tablename__ = getconf()['table']	
 	id = Column(Integer, primary_key = True)
 	oss = Column(Unicode(255,convert_unicode=False))
 	comment = Column(Unicode(255,convert_unicode=False))	
