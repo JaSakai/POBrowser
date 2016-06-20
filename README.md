@@ -1,6 +1,10 @@
 # POBrowser
 大学教育用OSSを翻譯して生成されるPOをOSSを横断して検索するシステムです。
 ソースコードに含まれるOSSのPOはSakai, Moodle, Maharaです。
+#### システム概要
+Pythonにて開発しました。理由としてはgettext POファイルをためのPOLIBが利用できたためです。PHPでは同等のモジュールを見つけることができませんでした。
+フレームワークとしてBottle, SLQAlchemy, WTFormsを使っています。
+
 #### Contents
 データベースにPOをインポートするPOImporterとそれらを検索するPOBrowserから構成されます。
 
