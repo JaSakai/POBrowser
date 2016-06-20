@@ -1,0 +1,35 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:28+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. name
+#: calendar/type/gregorian/lang/en/calendartype_gregorian.php:1
+msgctxt "calendar/type/gregorian/lang/en/calendartype_gregorian.php:name"
+msgid "Gregorian"
+msgstr "グレゴリオ暦#"
+
+#. pluginname
+#: calendar/type/gregorian/lang/en/calendartype_gregorian.php:2
+msgctxt ""
+"calendar/type/gregorian/lang/en/calendartype_gregorian.php:pluginname"
+msgid "Gregorian calendar type"
+msgstr "グレゴリオ暦タイプ"
+
+#. pluginname2
+#: calendar/type/gregorian/lang/en/calendartype_gregorian.php:3
+msgctxt ""
+"calendar/type/gregorian/lang/en/calendartype_gregorian.php:pluginname2"
+msgid "Gregorian calendar type"
+msgstr "グレゴリオ暦タイプ"

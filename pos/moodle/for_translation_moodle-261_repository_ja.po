@@ -1,0 +1,1632 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:37+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. alfresco_url
+#: repository/alfresco/lang/en/repository_alfresco.php:1
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:alfresco_url"
+msgid "Alfresco URL"
+msgstr "Alfresco URI"
+
+#. alfrescourltext
+#: repository/alfresco/lang/en/repository_alfresco.php:2
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:alfrescourltext"
+msgid "Afresco API url should be: http://yoursite.com/alfresco/api"
+msgstr "Afresco APIのURIは、次のように入力してください: http://yoursite.com/alfresco/api"
+
+#. alfresco:view
+#: repository/alfresco/lang/en/repository_alfresco.php:3
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:alfresco:view"
+msgid "View alfresco repository"
+msgstr "Afrescoリポジトリを表示する"
+
+#. configplugin
+#: repository/alfresco/lang/en/repository_alfresco.php:4
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:configplugin"
+msgid "Alfresco configuration"
+msgstr "Alfresco設定"
+
+#. notitle
+#: repository/alfresco/lang/en/repository_alfresco.php:5
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:notitle"
+msgid "notitle"
+msgstr "タイトルなし"
+
+#. password
+#: repository/alfresco/lang/en/repository_alfresco.php:6
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:password"
+msgid "Password"
+msgstr "パスワード"
+
+#. pluginname
+#: repository/alfresco/lang/en/repository_alfresco.php:7
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:pluginname"
+msgid "Alfresco repository"
+msgstr "Alfrescoリカバリ"
+
+#. pluginname_help
+#: repository/alfresco/lang/en/repository_alfresco.php:8
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:pluginname_help"
+msgid "A plug-in for Alfresco CMS"
+msgstr "Alfresco CMSのプラグインです。"
+
+#. soapmustbeenabled
+#: repository/alfresco/lang/en/repository_alfresco.php:9
+msgctxt ""
+"repository/alfresco/lang/en/repository_alfresco.php:soapmustbeenabled"
+msgid "SOAP extension must be enabled for alfresco plugin"
+msgstr "alfrescoプラグインのため、SOAP拡張モジュールを有効にする必要があります。"
+
+#. space
+#: repository/alfresco/lang/en/repository_alfresco.php:10
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:space"
+msgid "Space"
+msgstr "スペース"
+
+#. username
+#: repository/alfresco/lang/en/repository_alfresco.php:11
+msgctxt "repository/alfresco/lang/en/repository_alfresco.php:username"
+msgid "User name"
+msgstr "ユーザ名"
+
+#. areafiles:view
+#: repository/areafiles/lang/en/repository_areafiles.php:1
+msgctxt "repository/areafiles/lang/en/repository_areafiles.php:areafiles:view"
+msgid "View repository Embedded files"
+msgstr "リポジトリ埋め込みファイルを表示する"
+
+#. configplugin
+#: repository/areafiles/lang/en/repository_areafiles.php:2
+msgctxt "repository/areafiles/lang/en/repository_areafiles.php:configplugin"
+msgid "Configuration for repository Embedded files"
+msgstr "リポジトリ埋め込みファイルの設定"
+
+#. pluginname
+#: repository/areafiles/lang/en/repository_areafiles.php:3
+msgctxt "repository/areafiles/lang/en/repository_areafiles.php:pluginname"
+msgid "Embedded files"
+msgstr "埋め込みファイル"
+
+#. pluginname_help
+#: repository/areafiles/lang/en/repository_areafiles.php:4
+msgctxt ""
+"repository/areafiles/lang/en/repository_areafiles.php:pluginname_help"
+msgid "Files embedded in the current text editor"
+msgstr "現在のテキストエディタの埋め込みファイルです。"
+
+#. apikey
+#: repository/boxnet/lang/en/repository_boxnet.php:1
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:apikey"
+msgid "API key"
+msgstr "APIキー"
+
+#. apiv1migration_message_content
+#: repository/boxnet/lang/en/repository_boxnet.php:2
+msgctxt ""
+"repository/boxnet/lang/en/repository_boxnet.php:apiv1migration_message_content"
+msgid ""
+"As part of the recent Moodle upgrade (2.6, 2.5.3, 2.4.7), the Box.net "
+"repository plugin has been disabled. To re-enable it, you need to re-"
+"configure it as described in the documentation {$a->docsurl}."
+msgstr "最新のMoodleのアップグレード (2.6, 2.5.3, 2.4.7) の一環として、Box.netリポジトリオプラグインは無効にされています。再度有効にするには、ドキュメンテーション ( {$a->docsurl} ) に記載されているとおり、あなたは再設定する必要があります。"
+
+#. apiv1migration_message_small
+#: repository/boxnet/lang/en/repository_boxnet.php:3
+msgctxt ""
+"repository/boxnet/lang/en/repository_boxnet.php:apiv1migration_message_small"
+msgid ""
+"This plugin has been disabled, as it requires configuration as described in "
+"the documentation Box.net APIv1 migration."
+msgstr "Box.net APIv1移行ドキュメンテーションで説明されている設定が必要なため、このプラグインは無効にされています。"
+
+#. apiv1migration_message_subject
+#: repository/boxnet/lang/en/repository_boxnet.php:4
+msgctxt ""
+"repository/boxnet/lang/en/repository_boxnet.php:apiv1migration_message_subject"
+msgid "Important information regarding Box.net repository plugin"
+msgstr "Box.netリポジトリプラグインに関する重要情報"
+
+#. boxnet:view
+#: repository/boxnet/lang/en/repository_boxnet.php:5
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:boxnet:view"
+msgid "View box.net repository"
+msgstr "Box.netリポジトリを表示する"
+
+#. cannotcreatereference
+#: repository/boxnet/lang/en/repository_boxnet.php:6
+msgctxt ""
+"repository/boxnet/lang/en/repository_boxnet.php:cannotcreatereference"
+msgid ""
+"Cannot create a reference, not enough permissions to share the file on "
+"Box.net."
+msgstr "Box.netのファイルを共有する十分なパーミッションがないため、リファレンスを作成できません。"
+
+#. clientid
+#: repository/boxnet/lang/en/repository_boxnet.php:7
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:clientid"
+msgid "Client ID"
+msgstr "クライアントID"
+
+#. clientsecret
+#: repository/boxnet/lang/en/repository_boxnet.php:8
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:clientsecret"
+msgid "Client secret"
+msgstr "クライアント秘密鍵"
+
+#. configplugin
+#: repository/boxnet/lang/en/repository_boxnet.php:9
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:configplugin"
+msgid "Box.net configuration"
+msgstr "Box.net設定"
+
+#. filesourceinfo
+#: repository/boxnet/lang/en/repository_boxnet.php:10
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:filesourceinfo"
+msgid "Box.net ({$a->fullname}): {$a->filename}"
+msgstr "Box.net ({$a->fullname}): {$a->filename}"
+
+#. information
+#: repository/boxnet/lang/en/repository_boxnet.php:11
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:information"
+msgid ""
+"Get a client ID and secret from the <a "
+"href=\"https://app.box.com/developers/services\">Box.net developer page</a> "
+"for your Moodle site."
+msgstr "あなたのMoodleサイトに<a href=\"https://app.box.com/developers/services\">Box.net developer page</a>Box.net開発者ページ</a>よりクライアントIDおよび秘密鍵を取得してください。"
+
+#. invalidpassword
+#: repository/boxnet/lang/en/repository_boxnet.php:12
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:invalidpassword"
+msgid "Invalid password"
+msgstr "無効なパスワードです。"
+
+#. migrationadvised
+#: repository/boxnet/lang/en/repository_boxnet.php:13
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:migrationadvised"
+msgid ""
+"It appears that you were using Box.net with the API version 1, have you run "
+"the <a href=\"{$a}\">migration tool</a> to convert the old references?"
+msgstr "あなたはAPIバージョン1のBox.netを使用しているようです。古いリファレンスを変換するため、<a href=\"{$a}\">移行ツール</a>を実行しましたか?"
+
+#. migrationinfo
+#: repository/boxnet/lang/en/repository_boxnet.php:14
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:migrationinfo"
+msgid ""
+"<p>As part of the migration to the new API provided by Box.net, your file references have to be migrated. Unfortunately the reference system is not compatible with the API v2, so we are going to download them and convert them to real files.</p><p>Please also be aware that the migration can <strong>take a very long time</strong>, depending on how many references are used, and how large their files are.</p>\n"
+"<p>You can run the migration tool by clicking the button below, or alternatively by executing the CLI script: repository/boxnet/cli/migrationv1.php.</p>\n"
+"<p>Find out more <a href=\"{$a->docsurl}\">here</a>.</p>"
+msgstr "<p>Box.netから提供されている新しいAPIへの移行の一環として、あなたのファイルリファレンスは移行される必要があります。残念ですが、リファレンスシステムはAPI v2との互換性がありません。そのため、私たちはダウンロードして実ファイルに変換する必要があります。</p><p>リファレンスの使用およびファイルの大きさにより、移行には<strong>非常に長い時間を要する場合があること</strong>に留意してください。</p>\n<p>あなたは下のボタンをクリックして移行ツールを実行することができます。または代わりにCLIスクリプトを実行することもできます: repository/boxnet/cli/migrationv1.php.</p>\n<p>詳細に関して、<a href=\"{$a->docsurl}\">こちら</a>をご覧ください。</p>"
+
+#. migrationtool
+#: repository/boxnet/lang/en/repository_boxnet.php:15
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:migrationtool"
+msgid "Box.net APIv1 migration tool"
+msgstr "Box.net APIv1移行ツール"
+
+#. nullfilelist
+#: repository/boxnet/lang/en/repository_boxnet.php:16
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:nullfilelist"
+msgid "There are no files in this repository"
+msgstr "このリポジトリにファイルはありません。"
+
+#. password
+#: repository/boxnet/lang/en/repository_boxnet.php:17
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:password"
+msgid "Password"
+msgstr "パスワード"
+
+#. pluginname
+#: repository/boxnet/lang/en/repository_boxnet.php:18
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:pluginname"
+msgid "Box.net"
+msgstr "Box.net"
+
+#. pluginname_help
+#: repository/boxnet/lang/en/repository_boxnet.php:19
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:pluginname_help"
+msgid "Repository on Box.net"
+msgstr "box.netのリポジトリ"
+
+#. runthemigrationnow
+#: repository/boxnet/lang/en/repository_boxnet.php:20
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:runthemigrationnow"
+msgid "Run the migration tool now"
+msgstr "移行ツールを実行する"
+
+#. saved
+#: repository/boxnet/lang/en/repository_boxnet.php:21
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:saved"
+msgid "Box.net data saved"
+msgstr "Box.netデータが保存されました。"
+
+#. shareurl
+#: repository/boxnet/lang/en/repository_boxnet.php:22
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:shareurl"
+msgid "Share URL"
+msgstr "共有URI"
+
+#. username
+#: repository/boxnet/lang/en/repository_boxnet.php:23
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:username"
+msgid "Username for Box.net"
+msgstr "Box.netユーザ名"
+
+#. warninghttps
+#: repository/boxnet/lang/en/repository_boxnet.php:24
+msgctxt "repository/boxnet/lang/en/repository_boxnet.php:warninghttps"
+msgid ""
+"Box.net requires your website to be using HTTPS in order for the repository "
+"to work."
+msgstr "Box.netのリポジトリを動作させるには、あなたのウェブサイトがHTTPSを使用している必要があります。"
+
+#. configplugin
+#: repository/coursefiles/lang/en/repository_coursefiles.php:1
+msgctxt ""
+"repository/coursefiles/lang/en/repository_coursefiles.php:configplugin"
+msgid "Configuration for legacy course files repository"
+msgstr "コースファイルリポジトリ設定"
+
+#. coursefiles:view
+#: repository/coursefiles/lang/en/repository_coursefiles.php:2
+msgctxt ""
+"repository/coursefiles/lang/en/repository_coursefiles.php:coursefiles:view"
+msgid "Use course files repository plugin"
+msgstr "コースファイルリポジトリプラグインを使用する"
+
+#. emptyfilelist
+#: repository/coursefiles/lang/en/repository_coursefiles.php:3
+msgctxt ""
+"repository/coursefiles/lang/en/repository_coursefiles.php:emptyfilelist"
+msgid "There are no files to show"
+msgstr "表示するファイルはありません。"
+
+#. notitle
+#: repository/coursefiles/lang/en/repository_coursefiles.php:4
+msgctxt "repository/coursefiles/lang/en/repository_coursefiles.php:notitle"
+msgid "notitle"
+msgstr "タイトルなし"
+
+#. pluginname
+#: repository/coursefiles/lang/en/repository_coursefiles.php:5
+msgctxt "repository/coursefiles/lang/en/repository_coursefiles.php:pluginname"
+msgid "Legacy course files"
+msgstr "コースファイル"
+
+#. pluginname_help
+#: repository/coursefiles/lang/en/repository_coursefiles.php:6
+msgctxt ""
+"repository/coursefiles/lang/en/repository_coursefiles.php:pluginname_help"
+msgid "Legacy course files"
+msgstr "コースファイル"
+
+#. remember
+#: repository/coursefiles/lang/en/repository_coursefiles.php:7
+msgctxt "repository/coursefiles/lang/en/repository_coursefiles.php:remember"
+msgid "Remember me"
+msgstr "次回から入力を省略する"
+
+#. apikey
+#: repository/dropbox/lang/en/repository_dropbox.php:1
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:apikey"
+msgid "Dropbox API key"
+msgstr "Dropbox APIキー"
+
+#. cachelimit
+#: repository/dropbox/lang/en/repository_dropbox.php:2
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:cachelimit"
+msgid "Cache limit"
+msgstr "キャッシュ制限"
+
+#. cachelimit_info
+#: repository/dropbox/lang/en/repository_dropbox.php:3
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:cachelimit_info"
+msgid ""
+"Enter the maximum size of files (in bytes) to be cached on server for "
+"Dropbox aliases/shortcuts. Cached files will be served when the source is no"
+" longer available. Empty value or zero mean caching of all files regardless "
+"of size."
+msgstr "Dropboxエイリアス/ショートカットのためのサーバ内キャッシュの最大ファイルサイズ (バイト) を入力してください。ソースが利用できない場合、キャッシュされたファイルが提供されます。空白またはゼロに設定した場合、サイズにかかわらず、すべてのファイルがキャッシュされます。"
+
+#. configplugin
+#: repository/dropbox/lang/en/repository_dropbox.php:4
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:configplugin"
+msgid "Dropbox configuration"
+msgstr "Dropbox設定 "
+
+#. dropbox
+#: repository/dropbox/lang/en/repository_dropbox.php:5
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:dropbox"
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#. dropbox:view
+#: repository/dropbox/lang/en/repository_dropbox.php:6
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:dropbox:view"
+msgid "View a Dropbox folder"
+msgstr "Dropboxフォルダを表示する"
+
+#. instruction
+#: repository/dropbox/lang/en/repository_dropbox.php:7
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:instruction"
+msgid ""
+"You can get your API Key and secret from <a "
+"href=\"http://www.dropbox.com/developers/apps\">Dropbox developers</a>. When"
+" setting up your key please select \"Full Dropbox\" as the \"Access level\"."
+msgstr "あなたはAPIキーおよび秘密鍵を<a href=\"http://www.dropbox.com/developers/apps\">Dropbox developers</a>から取得することができます。あなたのキーをセットアップする場合、「Access Type」を「Full Dropbox」にしてください。"
+
+#. logoutdesc
+#: repository/dropbox/lang/en/repository_dropbox.php:8
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:logoutdesc"
+msgid "(Logout when you finish using Dropbox)"
+msgstr "(Dropboxの利用終了後、ログアウトする)"
+
+#. notitle
+#: repository/dropbox/lang/en/repository_dropbox.php:9
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:notitle"
+msgid "notitle"
+msgstr "タイトルなし"
+
+#. pluginname
+#: repository/dropbox/lang/en/repository_dropbox.php:10
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:pluginname"
+msgid "Dropbox"
+msgstr "Dropbox"
+
+#. remember
+#: repository/dropbox/lang/en/repository_dropbox.php:11
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:remember"
+msgid "Remember me"
+msgstr "次回から入力を省略する"
+
+#. secret
+#: repository/dropbox/lang/en/repository_dropbox.php:12
+msgctxt "repository/dropbox/lang/en/repository_dropbox.php:secret"
+msgid "Dropbox secret"
+msgstr "Dropbox秘密鍵"
+
+#. breadcrumb
+#: repository/equella/lang/en/repository_equella.php:1
+msgctxt "repository/equella/lang/en/repository_equella.php:breadcrumb"
+msgid "EQUELLA"
+msgstr "EQUELLA"
+
+#. configplugin
+#: repository/equella/lang/en/repository_equella.php:2
+msgctxt "repository/equella/lang/en/repository_equella.php:configplugin"
+msgid "Configuration for EQUELLA repository"
+msgstr "EQUELLAリポジトリ設定"
+
+#. equellaaction
+#: repository/equella/lang/en/repository_equella.php:3
+msgctxt "repository/equella/lang/en/repository_equella.php:equellaaction"
+msgid "EQUELLA action"
+msgstr "EQUELLA操作"
+
+#. equellaoptions
+#: repository/equella/lang/en/repository_equella.php:4
+msgctxt "repository/equella/lang/en/repository_equella.php:equellaoptions"
+msgid "EQUELLA options"
+msgstr "EQUELLAオプション"
+
+#. equellaurl
+#: repository/equella/lang/en/repository_equella.php:5
+msgctxt "repository/equella/lang/en/repository_equella.php:equellaurl"
+msgid "EQUELLA URL"
+msgstr "EQUELLA URI"
+
+#. equella:view
+#: repository/equella/lang/en/repository_equella.php:6
+msgctxt "repository/equella/lang/en/repository_equella.php:equella:view"
+msgid "View EQUELLA repository"
+msgstr "EQUELLAリポジトリを表示する"
+
+#. group
+#: repository/equella/lang/en/repository_equella.php:7
+msgctxt "repository/equella/lang/en/repository_equella.php:group"
+msgid "{$a} role settings"
+msgstr "{$a} ロール設定"
+
+#. groupdefault
+#: repository/equella/lang/en/repository_equella.php:8
+msgctxt "repository/equella/lang/en/repository_equella.php:groupdefault"
+msgid "Default"
+msgstr "デフォルト"
+
+#. pluginname
+#: repository/equella/lang/en/repository_equella.php:9
+msgctxt "repository/equella/lang/en/repository_equella.php:pluginname"
+msgid "EQUELLA repository"
+msgstr "EQUELLAリポジトリ"
+
+#. restrictionattachmentsonly
+#: repository/equella/lang/en/repository_equella.php:10
+msgctxt ""
+"repository/equella/lang/en/repository_equella.php:restrictionattachmentsonly"
+msgid "Attached resource only"
+msgstr "添付リソースのみ"
+
+#. restrictionitemsonly
+#: repository/equella/lang/en/repository_equella.php:11
+msgctxt ""
+"repository/equella/lang/en/repository_equella.php:restrictionitemsonly"
+msgid "Item summary only"
+msgstr "アイテム概要のみ"
+
+#. restrictionnone
+#: repository/equella/lang/en/repository_equella.php:12
+msgctxt "repository/equella/lang/en/repository_equella.php:restrictionnone"
+msgid "No restriction"
+msgstr "制限なし"
+
+#. search
+#: repository/equella/lang/en/repository_equella.php:13
+msgctxt "repository/equella/lang/en/repository_equella.php:search"
+msgid "Search EQUELLA"
+msgstr "EQUELLAを検索する"
+
+#. selectrestriction
+#: repository/equella/lang/en/repository_equella.php:14
+msgctxt "repository/equella/lang/en/repository_equella.php:selectrestriction"
+msgid "Restrict selection"
+msgstr "選択を制限する"
+
+#. selectrestriction.desc
+#: repository/equella/lang/en/repository_equella.php:15
+msgctxt ""
+"repository/equella/lang/en/repository_equella.php:selectrestriction.desc"
+msgid ""
+"Choose whether course editors should only be able to select an item summary,"
+" an attached resources or either"
+msgstr "コースエディタがアイテム概要または添付リソースのみ選択できるか、両方とも選択できるか設定してください。"
+
+#. sharedid
+#: repository/equella/lang/en/repository_equella.php:16
+msgctxt "repository/equella/lang/en/repository_equella.php:sharedid"
+msgid "Shared secret ID"
+msgstr "共有秘密鍵ID"
+
+#. sharedidtitle
+#: repository/equella/lang/en/repository_equella.php:17
+msgctxt "repository/equella/lang/en/repository_equella.php:sharedidtitle"
+msgid "Shared secret ID"
+msgstr "共有秘密鍵ID"
+
+#. sharedsecrets
+#: repository/equella/lang/en/repository_equella.php:18
+msgctxt "repository/equella/lang/en/repository_equella.php:sharedsecrets"
+msgid "Shared secret"
+msgstr "共有秘密鍵"
+
+#. sharedsecretsheading
+#: repository/equella/lang/en/repository_equella.php:19
+msgctxt ""
+"repository/equella/lang/en/repository_equella.php:sharedsecretsheading"
+msgid "Shared Secret Settings"
+msgstr "共有秘密鍵設定"
+
+#. sharedsecretshelp
+#: repository/equella/lang/en/repository_equella.php:20
+msgctxt "repository/equella/lang/en/repository_equella.php:sharedsecretshelp"
+msgid ""
+"<p>Below you can set a default EQUELLA shared secret for single signing-on "
+"users.  You can configure different shared secrets for general (read) usage,"
+" and a specialised role based shared secret for each <em>write</em> role in "
+"your Moodle site.  If a shared secret ID is not configured for a role then "
+"the default shared secret ID and shared secret are used.</p><p>All shared "
+"secret IDs and shared secrets must also be configured within EQUELLA and the"
+" shared secret module enabled.  This configuration is found in the EQUELLA "
+"Administration Console under User Management > Shared Secrets.</p>"
+msgstr "<p>下記において、あなたはユーザのシングルサインオンのためのデフォルトEQUELLA共有秘密鍵を設定することができます。あなたのMoodleサイト内での一般的な利用 (閲覧) およびそれぞれの「書き込み」に関する特別ロールのために異なる共有秘密鍵を設定することができます。ロールに共有秘密鍵IDが設定されていない場合、デフォルト共有秘密鍵IDおよび共有秘密鍵が使用されます。</p>\n<p>すべての共有秘密鍵IDおよび共有秘密鍵はEQUELLAで設定される必要があります。同時に共有秘密鍵モジュールを有効にする必要があります。この設定はEQUELLA 管理画面の「User Management > Shared Secrets」にあります。</p>"
+
+#. sharedsecrettitle
+#: repository/equella/lang/en/repository_equella.php:21
+msgctxt "repository/equella/lang/en/repository_equella.php:sharedsecrettitle"
+msgid "Shared secret"
+msgstr "共有秘密鍵"
+
+#. blockedpath
+#: repository/filesystem/lang/en/repository_filesystem.php:1
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:blockedpath"
+msgid "Blocked root path"
+msgstr "ブロックされたrootパス"
+
+#. configplugin
+#: repository/filesystem/lang/en/repository_filesystem.php:2
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:configplugin"
+msgid "Configuration for file system repository"
+msgstr "ファイルシステムリポジトリの設定"
+
+#. donotusesysdir
+#: repository/filesystem/lang/en/repository_filesystem.php:3
+msgctxt ""
+"repository/filesystem/lang/en/repository_filesystem.php:donotusesysdir"
+msgid "Don't use system directory as repository, including"
+msgstr "以下を含むシステムディレクトリをリポジトリに使用しないでください。"
+
+#. enablecourseinstances
+#: repository/filesystem/lang/en/repository_filesystem.php:4
+msgctxt ""
+"repository/filesystem/lang/en/repository_filesystem.php:enablecourseinstances"
+msgid ""
+"Allow admins to add a file system repository instance to a course "
+"(configurable only by admins)"
+msgstr "管理者によるコースへのリポジトリインスタンス追加を許可する (管理者のみ設定可)"
+
+#. enableuserinstances
+#: repository/filesystem/lang/en/repository_filesystem.php:5
+msgctxt ""
+"repository/filesystem/lang/en/repository_filesystem.php:enableuserinstances"
+msgid ""
+"Allow admins to add a file system repository instance for personal use "
+"(configurable only by admins)"
+msgstr "管理者による個人利用のためのリポジトリインスタンス追加を許可する (管理者のみ設定可)"
+
+#. filesystem:view
+#: repository/filesystem/lang/en/repository_filesystem.php:6
+msgctxt ""
+"repository/filesystem/lang/en/repository_filesystem.php:filesystem:view"
+msgid "View file system repository"
+msgstr "ファイルシステムリポジトリを表示する"
+
+#. information
+#: repository/filesystem/lang/en/repository_filesystem.php:7
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:information"
+msgid "These folders are within the <b>{$a}</b> directory."
+msgstr "これらのフォルダは、<b>{$a}</b>ディレクトリ内にあります。"
+
+#. invalidpath
+#: repository/filesystem/lang/en/repository_filesystem.php:8
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:invalidpath"
+msgid "Invalid root path"
+msgstr "無効なrootパス"
+
+#. nosubdir
+#: repository/filesystem/lang/en/repository_filesystem.php:9
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:nosubdir"
+msgid ""
+"You need to create at least one folder inside the <b>{$a}</b> directory so "
+"you can select it here."
+msgstr "ここで選択できるよう、あなたは少なくとも1つのフォルダを<b>{$a}</b>ディレクトリ内に作成する必要があります。"
+
+#. path
+#: repository/filesystem/lang/en/repository_filesystem.php:10
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:path"
+msgid "Select a subdirectory"
+msgstr "サブディレクトリを選択する"
+
+#. pluginname
+#: repository/filesystem/lang/en/repository_filesystem.php:11
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:pluginname"
+msgid "File system"
+msgstr "ファイルシステム"
+
+#. pluginname_help
+#: repository/filesystem/lang/en/repository_filesystem.php:12
+msgctxt ""
+"repository/filesystem/lang/en/repository_filesystem.php:pluginname_help"
+msgid "Create repository from local directory"
+msgstr "ローカルディレクトリからリポジトリを作成する"
+
+#. relativefiles
+#: repository/filesystem/lang/en/repository_filesystem.php:13
+msgctxt ""
+"repository/filesystem/lang/en/repository_filesystem.php:relativefiles"
+msgid "Allow relative files"
+msgstr "相対ファイルを許可する"
+
+#. relativefiles_desc
+#: repository/filesystem/lang/en/repository_filesystem.php:14
+msgctxt ""
+"repository/filesystem/lang/en/repository_filesystem.php:relativefiles_desc"
+msgid ""
+"This allows all files in the repository to be accessible using relative "
+"links."
+msgstr "リポジトリのファイルすべてに対して、相対リンクでアクセスできるようにします。"
+
+#. root
+#: repository/filesystem/lang/en/repository_filesystem.php:15
+msgctxt "repository/filesystem/lang/en/repository_filesystem.php:root"
+msgid "Root"
+msgstr "ルート"
+
+#. apikey
+#: repository/flickr/lang/en/repository_flickr.php:1
+msgctxt "repository/flickr/lang/en/repository_flickr.php:apikey"
+msgid "API key"
+msgstr "APIキー"
+
+#. callbackurl
+#: repository/flickr/lang/en/repository_flickr.php:2
+msgctxt "repository/flickr/lang/en/repository_flickr.php:callbackurl"
+msgid "Callback URL"
+msgstr "コールバックURI"
+
+#. callbackurltext
+#: repository/flickr/lang/en/repository_flickr.php:3
+msgctxt "repository/flickr/lang/en/repository_flickr.php:callbackurltext"
+msgid ""
+"<ol><li>Visit <a href=\"http://www.flickr.com/services/api/keys/\">Flickr API Keys</a> again.</li>\n"
+"<li>Make sure you set the callback URL for this Flickr key as <strong>{$a}</strong></li></ol>"
+msgstr "<ol><li>再度、<a href=\"http://www.flickr.com/services/api/keys/\">Flickr API Keys</a>にアクセスしてください。</li>\n<li>このFlickr keyにコールバックURI <strong>{$a}</strong> を設定したかどうか確認してください。</li>\n</ol>"
+
+#. callbackwarning
+#: repository/flickr/lang/en/repository_flickr.php:4
+msgctxt "repository/flickr/lang/en/repository_flickr.php:callbackwarning"
+msgid ""
+"<ol><li>Get a <a href=\"http://www.flickr.com/services/api/keys/\">Flickr API Key and Secret</a> from Flickr for this Moodle site.</li>\n"
+"<li>Enter those details here, then click Save and then Settings to come back to this page.  You will see that Moodle has generated a callback URL for you.</li>\n"
+"<li>Edit your <a href=\"http://www.flickr.com/services/api/keys/\">Flickr</a> key details again and set the callback URL.</li></ol>"
+msgstr "<ol><li>あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキーおよびSecret</a>を取得してください。</li>\n<li>これら詳細を入力した後、「保存」ボタンをクリックしてください。そして、「設定」をクリックすることで、このページに戻ることができます。あなたには、Moodleが生成したコールバックURIが表示されます。</li>\n<li>あなたの<a href=\"http://www.flickr.com/services/api/keys/\">Flickrキー</a>詳細を編集した後、コールバックURIを設定してください。</li>\n</ol>"
+
+#. configplugin
+#: repository/flickr/lang/en/repository_flickr.php:5
+msgctxt "repository/flickr/lang/en/repository_flickr.php:configplugin"
+msgid "Flickr configuration"
+msgstr "Flickr設定"
+
+#. emailaddress
+#: repository/flickr/lang/en/repository_flickr.php:6
+msgctxt "repository/flickr/lang/en/repository_flickr.php:emailaddress"
+msgid "Email address"
+msgstr "メールアドレス"
+
+#. flickr:view
+#: repository/flickr/lang/en/repository_flickr.php:7
+msgctxt "repository/flickr/lang/en/repository_flickr.php:flickr:view"
+msgid "View Flickr repository"
+msgstr "Flickrリポジトリを表示する"
+
+#. invalidemail
+#: repository/flickr/lang/en/repository_flickr.php:8
+msgctxt "repository/flickr/lang/en/repository_flickr.php:invalidemail"
+msgid "Invalid email address for flickr"
+msgstr "無効なFlickrメールアドレスです。"
+
+#. notitle
+#: repository/flickr/lang/en/repository_flickr.php:9
+msgctxt "repository/flickr/lang/en/repository_flickr.php:notitle"
+msgid "notitle"
+msgstr "タイトルなし"
+
+#. nullphotolist
+#: repository/flickr/lang/en/repository_flickr.php:10
+msgctxt "repository/flickr/lang/en/repository_flickr.php:nullphotolist"
+msgid "There are no photos in this account"
+msgstr "このアカウントに関連する写真はありません。"
+
+#. pluginname
+#: repository/flickr/lang/en/repository_flickr.php:11
+msgctxt "repository/flickr/lang/en/repository_flickr.php:pluginname"
+msgid "Flickr"
+msgstr "Flickr"
+
+#. pluginname_help
+#: repository/flickr/lang/en/repository_flickr.php:12
+msgctxt "repository/flickr/lang/en/repository_flickr.php:pluginname_help"
+msgid "Repository on flickr.com"
+msgstr "flickr.comのリポジトリ"
+
+#. remember
+#: repository/flickr/lang/en/repository_flickr.php:13
+msgctxt "repository/flickr/lang/en/repository_flickr.php:remember"
+msgid "Remember me"
+msgstr "次回から入力を省略する"
+
+#. secret
+#: repository/flickr/lang/en/repository_flickr.php:14
+msgctxt "repository/flickr/lang/en/repository_flickr.php:secret"
+msgid "Secret"
+msgstr "秘密鍵"
+
+#. username
+#: repository/flickr/lang/en/repository_flickr.php:15
+msgctxt "repository/flickr/lang/en/repository_flickr.php:username"
+msgid "Flickr account email"
+msgstr "Flickrアカウントメール"
+
+#. all
+#: repository/flickr_public/lang/en/repository_flickr_public.php:1
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:all"
+msgid "All"
+msgstr "すべて"
+
+#. apikey
+#: repository/flickr_public/lang/en/repository_flickr_public.php:2
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:apikey"
+msgid "API key"
+msgstr "APIキー"
+
+#. backtosearch
+#: repository/flickr_public/lang/en/repository_flickr_public.php:3
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:backtosearch"
+msgid "Back to search screen"
+msgstr "検索画面に戻る"
+
+#. by
+#: repository/flickr_public/lang/en/repository_flickr_public.php:4
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:by"
+msgid "Attribution license"
+msgstr "帰属ライセンス (Attribution License)"
+
+#. by-nc
+#: repository/flickr_public/lang/en/repository_flickr_public.php:5
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:by-nc"
+msgid "Attribution-NonCommercial license"
+msgstr "帰属-非商用ライセンス (Attribution-NonCommercial License)"
+
+#. by-nc-nd
+#: repository/flickr_public/lang/en/repository_flickr_public.php:6
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:by-nc-nd"
+msgid "Attribution-NonCommercial-NoDerivs license"
+msgstr "帰属-非商用-派生禁止ライセンス (Attribution-NonCommercial-NoDerivs License)"
+
+#. by-nc-sa
+#: repository/flickr_public/lang/en/repository_flickr_public.php:7
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:by-nc-sa"
+msgid "Attribution-NonCommercial-ShareAlike license"
+msgstr "帰属-非商用-派生許可ライセンス (Attribution-NonCommercial-ShareAlike License)"
+
+#. by-nd
+#: repository/flickr_public/lang/en/repository_flickr_public.php:8
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:by-nd"
+msgid "Attribution-NoDerivs license"
+msgstr "帰属-派生禁止ライセンス (Attribution-NoDerivs License)"
+
+#. by-sa
+#: repository/flickr_public/lang/en/repository_flickr_public.php:9
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:by-sa"
+msgid "Attribution-ShareAlike license"
+msgstr "帰属-派生許可ライセンス (Attribution-ShareAlike License)"
+
+#. callbackurl
+#: repository/flickr_public/lang/en/repository_flickr_public.php:10
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:callbackurl"
+msgid "Callback URL"
+msgstr "コールバックURI"
+
+#. commercialuse
+#: repository/flickr_public/lang/en/repository_flickr_public.php:11
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:commercialuse"
+msgid "I want to be able to use the images commercially"
+msgstr "私の作品の商用利用を許可します"
+
+#. configplugin
+#: repository/flickr_public/lang/en/repository_flickr_public.php:12
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:configplugin"
+msgid "Flickr public configuration"
+msgstr "Flickrパブリック設定"
+
+#. creativecommonscommercial
+#: repository/flickr_public/lang/en/repository_flickr_public.php:13
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:creativecommonscommercial"
+msgid "Only creative commons commercial"
+msgstr "クリエイティブ・コモンズ商用 (creative commons commercial) のみ"
+
+#. emailaddress
+#: repository/flickr_public/lang/en/repository_flickr_public.php:14
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:emailaddress"
+msgid "Email address"
+msgstr "メールアドレス"
+
+#. flickr_public:view
+#: repository/flickr_public/lang/en/repository_flickr_public.php:15
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:flickr_public:view"
+msgid "Use Flickr public repository in file picker"
+msgstr "ファイルピッカ内のFlickrパブリックリポジトリを使用する"
+
+#. fulltext
+#: repository/flickr_public/lang/en/repository_flickr_public.php:16
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:fulltext"
+msgid "Full text"
+msgstr "フルテキスト"
+
+#. information
+#: repository/flickr_public/lang/en/repository_flickr_public.php:17
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:information"
+msgid ""
+"<div>Get a <a href=\"http://www.flickr.com/services/api/keys/\">Flickr API "
+"Key</a> for your Moodle site. </div>"
+msgstr "<div>あなたのMoodleサイトに<a href=\"http://www.flickr.com/services/api/keys/\">Flickr APIキー</a>を取得してください。</div>"
+
+#. invalidemail
+#: repository/flickr_public/lang/en/repository_flickr_public.php:18
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:invalidemail"
+msgid "Invalid email account for flickr"
+msgstr "無効なFlickrメールアカウントです。"
+
+#. license
+#: repository/flickr_public/lang/en/repository_flickr_public.php:19
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:license"
+msgid "License"
+msgstr "ライセンス"
+
+#. modification
+#: repository/flickr_public/lang/en/repository_flickr_public.php:20
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:modification"
+msgid "I want to be able to modify the images"
+msgstr "私の作品の修正を許可します"
+
+#. notitle
+#: repository/flickr_public/lang/en/repository_flickr_public.php:21
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:notitle"
+msgid "notitle"
+msgstr "タイトルなし"
+
+#. nullphotolist
+#: repository/flickr_public/lang/en/repository_flickr_public.php:22
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:nullphotolist"
+msgid "There are no photos in this account"
+msgstr "このアカウントに関連する写真はありません。"
+
+#. pluginname
+#: repository/flickr_public/lang/en/repository_flickr_public.php:23
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:pluginname"
+msgid "Flickr public"
+msgstr "Flickrパブリック"
+
+#. pluginname_help
+#: repository/flickr_public/lang/en/repository_flickr_public.php:24
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:pluginname_help"
+msgid "Repository on flickr.com"
+msgstr "flickr.comのリポジトリ"
+
+#. remember
+#: repository/flickr_public/lang/en/repository_flickr_public.php:25
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:remember"
+msgid "Remember me"
+msgstr "次回から入力を省略する"
+
+#. secret
+#: repository/flickr_public/lang/en/repository_flickr_public.php:26
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:secret"
+msgid "Secret"
+msgstr "秘密鍵"
+
+#. sharealike
+#: repository/flickr_public/lang/en/repository_flickr_public.php:27
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:sharealike"
+msgid "Yes, as long as others share alike"
+msgstr "はい、他のユーザが同様に共有する限り"
+
+#. tag
+#: repository/flickr_public/lang/en/repository_flickr_public.php:28
+msgctxt "repository/flickr_public/lang/en/repository_flickr_public.php:tag"
+msgid "Tag"
+msgstr "タグ"
+
+#. username
+#: repository/flickr_public/lang/en/repository_flickr_public.php:29
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:username"
+msgid "Flickr account email"
+msgstr "Flickrアカウントメール"
+
+#. watermark
+#: repository/flickr_public/lang/en/repository_flickr_public.php:30
+msgctxt ""
+"repository/flickr_public/lang/en/repository_flickr_public.php:watermark"
+msgid "Add watermark to photos"
+msgstr "写真にウォーターマークを追加する"
+
+#. clientid
+#: repository/googledocs/lang/en/repository_googledocs.php:1
+msgctxt "repository/googledocs/lang/en/repository_googledocs.php:clientid"
+msgid "Client ID"
+msgstr "クライアントID"
+
+#. configplugin
+#: repository/googledocs/lang/en/repository_googledocs.php:2
+msgctxt "repository/googledocs/lang/en/repository_googledocs.php:configplugin"
+msgid "Configure Google Drive plugin"
+msgstr "Google Driveプラグインを設定する"
+
+#. googledocs:view
+#: repository/googledocs/lang/en/repository_googledocs.php:3
+msgctxt ""
+"repository/googledocs/lang/en/repository_googledocs.php:googledocs:view"
+msgid "View Google Drive repository"
+msgstr "Google Driveリポジトリを表示する"
+
+#. oauth2upgrade_message_content
+#: repository/googledocs/lang/en/repository_googledocs.php:4
+msgctxt ""
+"repository/googledocs/lang/en/repository_googledocs.php:oauth2upgrade_message_content"
+msgid ""
+"As part of the upgrade to Moodle 2.3, the Google Docs portfolio plugin has "
+"been disabled. To re-enable it, your Moodle site needs to be registered with"
+" Google, as described in the documentation {$a->docsurl}, in order to obtain"
+" a client ID and secret. The client ID and secret can then be used to "
+"configure all Google Docs and Picasa plugins."
+msgstr "Moodle 2.3へのアップグレードの一環として、Google Docsリポジトリプラグインは無効にされました。プラグインを再度有効にするには、クライアントIDおよび秘密鍵を取得するため、ドキュメンテーション「 {$a->docsurl} 」に記述されているように、あなたのサイトをGoogleに登録する必要があります。クライアントIDおよび秘密鍵はすべてのGoogle DocsおよびPicasaプラグイン設定に使用することができます。"
+
+#. oauth2upgrade_message_small
+#: repository/googledocs/lang/en/repository_googledocs.php:5
+msgctxt ""
+"repository/googledocs/lang/en/repository_googledocs.php:oauth2upgrade_message_small"
+msgid ""
+"This plugin has been disabled, as it requires configuration as described in "
+"the documentation Google OAuth 2.0 setup."
+msgstr "Google OAuth 2.0に記載されている設定が必要なため、このプラグインは無効にされます。"
+
+#. oauth2upgrade_message_subject
+#: repository/googledocs/lang/en/repository_googledocs.php:6
+msgctxt ""
+"repository/googledocs/lang/en/repository_googledocs.php:oauth2upgrade_message_subject"
+msgid "Important information regarding Google Docs repository plugin"
+msgstr "Google Docsリポジトリプラグインに関する重要情報"
+
+#. oauthinfo
+#: repository/googledocs/lang/en/repository_googledocs.php:7
+msgctxt "repository/googledocs/lang/en/repository_googledocs.php:oauthinfo"
+msgid ""
+"<p>To use this plugin, you must register your site with Google, as described"
+" in the documentation <a href=\"{$a->docsurl}\">Google OAuth 2.0 "
+"setup</a>.</p><p>As part of the registration process, you will need to enter"
+" the following URL as 'Authorized Redirect "
+"URIs':</p><p>{$a->callbackurl}</p>Once registered, you will be provided with"
+" a client ID and secret which can be used to configure all Google Drive and "
+"Picasa plugins.</p><p>Please also note that you will have to enable the "
+"service 'Drive API'.</p>"
+msgstr "<p>このプラグインを使用するには、ドキュメンテーション「<a href=\"{$a->docsurl}\">Google OAuth 2.0セットアップ</a>」に記載されているようにあなたのサイトをGoogleに登録する必要があります。</p><p>登録処理の一環として、あなたは次のURIを「公式リダイレクトURI」として入力する必要があります:</p><p>{$a->callbackurl}</p>登録後、すべてのGoogle DriveおよびPicasaプラグインに使用することのできるクライアントIDおよび秘密鍵が提供されます。</p>"
+
+#. pluginname
+#: repository/googledocs/lang/en/repository_googledocs.php:8
+msgctxt "repository/googledocs/lang/en/repository_googledocs.php:pluginname"
+msgid "Google Drive"
+msgstr "Google Drive"
+
+#. secret
+#: repository/googledocs/lang/en/repository_googledocs.php:9
+msgctxt "repository/googledocs/lang/en/repository_googledocs.php:secret"
+msgid "Secret"
+msgstr "秘密鍵"
+
+#. servicenotenabled
+#: repository/googledocs/lang/en/repository_googledocs.php:10
+msgctxt ""
+"repository/googledocs/lang/en/repository_googledocs.php:servicenotenabled"
+msgid "Access not configured. Make sure the service 'Drive API' is enabled."
+msgstr "アクセスが設定されていません。「Drive API」が有効にされているか確認してください。"
+
+#. configplugin
+#: repository/local/lang/en/repository_local.php:1
+msgctxt "repository/local/lang/en/repository_local.php:configplugin"
+msgid "Configuration for server file repository"
+msgstr "サーバファイルリポジトリの設定"
+
+#. currentusefiles
+#: repository/local/lang/en/repository_local.php:2
+msgctxt "repository/local/lang/en/repository_local.php:currentusefiles"
+msgid "Currently used files"
+msgstr "現在使用中のファイル"
+
+#. emptyfilelist
+#: repository/local/lang/en/repository_local.php:3
+msgctxt "repository/local/lang/en/repository_local.php:emptyfilelist"
+msgid "There are no files to show"
+msgstr "表示するファイルはありません。"
+
+#. local:view
+#: repository/local/lang/en/repository_local.php:4
+msgctxt "repository/local/lang/en/repository_local.php:local:view"
+msgid "View server repository"
+msgstr "サーバリポジトリを表示する"
+
+#. notitle
+#: repository/local/lang/en/repository_local.php:5
+msgctxt "repository/local/lang/en/repository_local.php:notitle"
+msgid "notitle"
+msgstr "タイトルなし"
+
+#. pluginname
+#: repository/local/lang/en/repository_local.php:6
+msgctxt "repository/local/lang/en/repository_local.php:pluginname"
+msgid "Server files"
+msgstr "サーバファイル"
+
+#. pluginname_help
+#: repository/local/lang/en/repository_local.php:7
+msgctxt "repository/local/lang/en/repository_local.php:pluginname_help"
+msgid "Files previously uploaded to the Moodle server"
+msgstr "前回、Moodleサーバにアップロードされたファイル"
+
+#. remember
+#: repository/local/lang/en/repository_local.php:8
+msgctxt "repository/local/lang/en/repository_local.php:remember"
+msgid "Remember me"
+msgstr "次回から入力を省略する"
+
+#. configplugin
+#: repository/merlot/lang/en/repository_merlot.php:1
+msgctxt "repository/merlot/lang/en/repository_merlot.php:configplugin"
+msgid "Merlot.org configuration"
+msgstr "Merlot.org設定"
+
+#. licensekey
+#: repository/merlot/lang/en/repository_merlot.php:2
+msgctxt "repository/merlot/lang/en/repository_merlot.php:licensekey"
+msgid "License key"
+msgstr "ライセンスキー"
+
+#. merlot:view
+#: repository/merlot/lang/en/repository_merlot.php:3
+msgctxt "repository/merlot/lang/en/repository_merlot.php:merlot:view"
+msgid "View the Merlot repository"
+msgstr "Merlotリポジトリを表示する"
+
+#. pluginname
+#: repository/merlot/lang/en/repository_merlot.php:4
+msgctxt "repository/merlot/lang/en/repository_merlot.php:pluginname"
+msgid "Merlot.org"
+msgstr "Merlot.org"
+
+#. pluginname_help
+#: repository/merlot/lang/en/repository_merlot.php:5
+msgctxt "repository/merlot/lang/en/repository_merlot.php:pluginname_help"
+msgid "Merlot.org"
+msgstr "Merlot.org"
+
+#. clientid
+#: repository/picasa/lang/en/repository_picasa.php:1
+msgctxt "repository/picasa/lang/en/repository_picasa.php:clientid"
+msgid "Client ID"
+msgstr "クライアントID"
+
+#. configplugin
+#: repository/picasa/lang/en/repository_picasa.php:2
+msgctxt "repository/picasa/lang/en/repository_picasa.php:configplugin"
+msgid "Picasa repository configuration"
+msgstr "Picasaリポジトリ設定"
+
+#. oauth2upgrade_message_content
+#: repository/picasa/lang/en/repository_picasa.php:3
+msgctxt ""
+"repository/picasa/lang/en/repository_picasa.php:oauth2upgrade_message_content"
+msgid ""
+"As part of the upgrade to Moodle 2.3, the Picasa portfolio plugin has been "
+"disabled. To re-enable it, your Moodle site needs to be registered with "
+"Google, as described in the documentation {$a->docsurl}, in order to obtain "
+"a client ID and secret. The client ID and secret can then be used to "
+"configure all Google Docs and Picasa plugins."
+msgstr "Moodle 2.3へのアップグレードの一環として、Picasaリポジトリプラグインは無効にされました。プラグインを再度有効にするには、クライアントIDおよび秘密鍵を取得するため、ドキュメンテーション「 {$a->docsurl} 」に記述されているように、あなたのサイトをGoogleに登録する必要があります。クライアントIDおよび秘密鍵はすべてのGoogle DocsおよびPicasaプラグイン設定に使用することができます。"
+
+#. oauth2upgrade_message_small
+#: repository/picasa/lang/en/repository_picasa.php:4
+msgctxt ""
+"repository/picasa/lang/en/repository_picasa.php:oauth2upgrade_message_small"
+msgid ""
+"This plugin has been disabled, as it requires configuration as described in "
+"the documentation Google OAuth 2.0 setup."
+msgstr "Google OAuth 2.0に記載されている設定が必要なため、このプラグインは無効にされます。"
+
+#. oauth2upgrade_message_subject
+#: repository/picasa/lang/en/repository_picasa.php:5
+msgctxt ""
+"repository/picasa/lang/en/repository_picasa.php:oauth2upgrade_message_subject"
+msgid "Important information regarding Picasa repository plugin"
+msgstr "Picasaリポジトリプラグインに関する重要情報"
+
+#. oauthinfo
+#: repository/picasa/lang/en/repository_picasa.php:6
+msgctxt "repository/picasa/lang/en/repository_picasa.php:oauthinfo"
+msgid ""
+"<p>To use this plugin, you must register your site with Google, as described"
+" in the documentation <a href=\"{$a->docsurl}\">Google OAuth 2.0 "
+"setup</a>.</p><p>As part of the registration process, you will need to enter"
+" the following URL as 'Authorized Redirect "
+"URIs':</p><p>{$a->callbackurl}</p>Once registered, you will be provided with"
+" a client ID and secret which can be used to configure all Google Docs and "
+"Picasa plugins.</p>"
+msgstr "<p>このプラグインを使用するには、ドキュメンテーション「<a href=\"{$a->docsurl}\">Google OAuth 2.0セットアップ</a>」に記載されているようにあなたのサイトをGoogleに登録する必要があります。</p><p>登録処理の一環として、あなたは次のURIを「公式リダイレクトURI」として入力する必要があります:</p><p>{$a->callbackurl}</p>登録後、すべてのGoogle DocsおよびPicasaプラグインに使用することのできるクライアントIDおよび秘密鍵が提供されます。</p>"
+
+#. picasa:view
+#: repository/picasa/lang/en/repository_picasa.php:7
+msgctxt "repository/picasa/lang/en/repository_picasa.php:picasa:view"
+msgid "View picasa repository"
+msgstr "Picasaリポジトリを表示する"
+
+#. pluginname
+#: repository/picasa/lang/en/repository_picasa.php:8
+msgctxt "repository/picasa/lang/en/repository_picasa.php:pluginname"
+msgid "Picasa web album"
+msgstr "Picasaウェブアルバム"
+
+#. secret
+#: repository/picasa/lang/en/repository_picasa.php:9
+msgctxt "repository/picasa/lang/en/repository_picasa.php:secret"
+msgid "Secret"
+msgstr "秘密鍵"
+
+#. configplugin
+#: repository/recent/lang/en/repository_recent.php:1
+msgctxt "repository/recent/lang/en/repository_recent.php:configplugin"
+msgid "Configuration for recent files repository"
+msgstr "最近のファイルリポジトリ設定"
+
+#. emptyfilelist
+#: repository/recent/lang/en/repository_recent.php:2
+msgctxt "repository/recent/lang/en/repository_recent.php:emptyfilelist"
+msgid "There are no files to show"
+msgstr "表示するファイルはありません。"
+
+#. notitle
+#: repository/recent/lang/en/repository_recent.php:3
+msgctxt "repository/recent/lang/en/repository_recent.php:notitle"
+msgid "notitle"
+msgstr "タイトルなし"
+
+#. pluginname
+#: repository/recent/lang/en/repository_recent.php:4
+msgctxt "repository/recent/lang/en/repository_recent.php:pluginname"
+msgid "Recent files"
+msgstr "最近のファイル"
+
+#. pluginname_help
+#: repository/recent/lang/en/repository_recent.php:5
+msgctxt "repository/recent/lang/en/repository_recent.php:pluginname_help"
+msgid "Files recently used by current user"
+msgstr "現在のユーザから最近使用されたファイルです。"
+
+#. recentfilesnumber
+#: repository/recent/lang/en/repository_recent.php:6
+msgctxt "repository/recent/lang/en/repository_recent.php:recentfilesnumber"
+msgid "Number of recent files"
+msgstr "最近のファイル数"
+
+#. recent:view
+#: repository/recent/lang/en/repository_recent.php:7
+msgctxt "repository/recent/lang/en/repository_recent.php:recent:view"
+msgid "View recent files repository plugin"
+msgstr "最近のファイルリポジトリプラグインを表示する"
+
+#. access_key
+#: repository/s3/lang/en/repository_s3.php:1
+msgctxt "repository/s3/lang/en/repository_s3.php:access_key"
+msgid "Access key"
+msgstr "アクセスキー"
+
+#. configplugin
+#: repository/s3/lang/en/repository_s3.php:2
+msgctxt "repository/s3/lang/en/repository_s3.php:configplugin"
+msgid "Amazon S3 settings"
+msgstr "Amazon S3の設定"
+
+#. needaccesskey
+#: repository/s3/lang/en/repository_s3.php:3
+msgctxt "repository/s3/lang/en/repository_s3.php:needaccesskey"
+msgid "Access key must be provided"
+msgstr "アクセスキーを入力してください。"
+
+#. pluginname
+#: repository/s3/lang/en/repository_s3.php:4
+msgctxt "repository/s3/lang/en/repository_s3.php:pluginname"
+msgid "Amazon S3"
+msgstr "Amazon S3"
+
+#. s3:view
+#: repository/s3/lang/en/repository_s3.php:5
+msgctxt "repository/s3/lang/en/repository_s3.php:s3:view"
+msgid "View amazon s3 repository"
+msgstr "Amazon S3リポジトリを表示する"
+
+#. secret_key
+#: repository/s3/lang/en/repository_s3.php:6
+msgctxt "repository/s3/lang/en/repository_s3.php:secret_key"
+msgid "Secret key"
+msgstr "秘密鍵"
+
+#. cachedef_foldername
+#: repository/skydrive/lang/en/repository_skydrive.php:1
+msgctxt ""
+"repository/skydrive/lang/en/repository_skydrive.php:cachedef_foldername"
+msgid "Folder name cache"
+msgstr "フォルダ名キャッシュ"
+
+#. clientid
+#: repository/skydrive/lang/en/repository_skydrive.php:2
+msgctxt "repository/skydrive/lang/en/repository_skydrive.php:clientid"
+msgid "Client ID"
+msgstr "クライアントID"
+
+#. configplugin
+#: repository/skydrive/lang/en/repository_skydrive.php:3
+msgctxt "repository/skydrive/lang/en/repository_skydrive.php:configplugin"
+msgid "Configure Microsoft Skydrive"
+msgstr "Microsoft Skydriveを設定する"
+
+#. oauthinfo
+#: repository/skydrive/lang/en/repository_skydrive.php:4
+msgctxt "repository/skydrive/lang/en/repository_skydrive.php:oauthinfo"
+msgid ""
+"<p>To use this plugin, you must register your site <a "
+"href=\"https://account.live.com/developers/applications\">with "
+"Microsoft</a>.<p>As part of the registration process, you will need to enter"
+" the following URL as 'Redirect domain':</p><p>{$a->callbackurl}</p>Once "
+"registered, you will be provided with a client ID and secret which can be "
+"entered here.</p>"
+msgstr "<p>このプラグインを使用するためには、あなたのサイトを<a href=\"https://manage.dev.live.com/Applications/Index\">Microsoft</a>に登録する必要があります。</p>\n<p>登録処理の一環として、あなたは「リダイレクトドメイン」として、次のURIを入力する必要があります:</p>\n\n<p>{$a->callbackurl}</p>\n\n<p>登録した場合、あなたにはここで入力できるクライアントIDおよびシークレットが提供されます。</p>"
+
+#. pluginname
+#: repository/skydrive/lang/en/repository_skydrive.php:5
+msgctxt "repository/skydrive/lang/en/repository_skydrive.php:pluginname"
+msgid "Microsoft Skydrive"
+msgstr "Microsoft Skydrive"
+
+#. secret
+#: repository/skydrive/lang/en/repository_skydrive.php:6
+msgctxt "repository/skydrive/lang/en/repository_skydrive.php:secret"
+msgid "Secret"
+msgstr "秘密鍵"
+
+#. skydrive:view
+#: repository/skydrive/lang/en/repository_skydrive.php:7
+msgctxt "repository/skydrive/lang/en/repository_skydrive.php:skydrive:view"
+msgid "View Skydrive"
+msgstr "Skydriveを表示する"
+
+#. configplugin
+#: repository/upload/lang/en/repository_upload.php:1
+msgctxt "repository/upload/lang/en/repository_upload.php:configplugin"
+msgid "Configuration for upload plugin"
+msgstr "アップロードプラグインの設定"
+
+#. pluginname
+#: repository/upload/lang/en/repository_upload.php:2
+msgctxt "repository/upload/lang/en/repository_upload.php:pluginname"
+msgid "Upload a file"
+msgstr "ファイルをアップロードする"
+
+#. pluginname_help
+#: repository/upload/lang/en/repository_upload.php:3
+msgctxt "repository/upload/lang/en/repository_upload.php:pluginname_help"
+msgid "Upload a file to Moodle"
+msgstr "ファイルをMoodleにアップロードする"
+
+#. upload_error_cant_write
+#: repository/upload/lang/en/repository_upload.php:4
+msgctxt ""
+"repository/upload/lang/en/repository_upload.php:upload_error_cant_write"
+msgid "Failed to write file to disk."
+msgstr "ディスクへのファイル書き込みに失敗しました。"
+
+#. upload_error_extension
+#: repository/upload/lang/en/repository_upload.php:5
+msgctxt ""
+"repository/upload/lang/en/repository_upload.php:upload_error_extension"
+msgid "A PHP extension stopped the file upload."
+msgstr "ファイルアップロードに関して、PHP実行が停止しました。"
+
+#. upload_error_form_size
+#: repository/upload/lang/en/repository_upload.php:6
+msgctxt ""
+"repository/upload/lang/en/repository_upload.php:upload_error_form_size"
+msgid ""
+"The uploaded file exceeds the MAX_FILE_SIZE directive that was specified in "
+"the HTML form."
+msgstr "アップロードファイルがHTMLフォームで指定されているMAX_FILE_SIZEディレクティブを超えました。"
+
+#. upload_error_ini_size
+#: repository/upload/lang/en/repository_upload.php:7
+msgctxt ""
+"repository/upload/lang/en/repository_upload.php:upload_error_ini_size"
+msgid ""
+"The uploaded file exceeds the upload_max_filesize directive in php.ini."
+msgstr "アップロードファイルがphp.iniのupload_max_filesizeディレクティブを超えました。"
+
+#. upload_error_invalid_file
+#: repository/upload/lang/en/repository_upload.php:8
+msgctxt ""
+"repository/upload/lang/en/repository_upload.php:upload_error_invalid_file"
+msgid ""
+"The file '{$a}' is either empty or a folder. To upload folders zip them "
+"first."
+msgstr "ファイル「 {$a} 」は空またはフォルダです。フォルダをアップロードするには、最初にZIP圧縮してください。"
+
+#. upload_error_no_file
+#: repository/upload/lang/en/repository_upload.php:9
+msgctxt "repository/upload/lang/en/repository_upload.php:upload_error_no_file"
+msgid "No file was uploaded."
+msgstr "ファイルはアップロードされませんでした。"
+
+#. upload_error_no_tmp_dir
+#: repository/upload/lang/en/repository_upload.php:10
+msgctxt ""
+"repository/upload/lang/en/repository_upload.php:upload_error_no_tmp_dir"
+msgid "PHP is missing a temporary folder."
+msgstr "PHPの一時フォルダがありません。"
+
+#. upload_error_partial
+#: repository/upload/lang/en/repository_upload.php:11
+msgctxt "repository/upload/lang/en/repository_upload.php:upload_error_partial"
+msgid "The uploaded file was only partially uploaded."
+msgstr "ファイルは部分的にアップロードされました。"
+
+#. upload:view
+#: repository/upload/lang/en/repository_upload.php:12
+msgctxt "repository/upload/lang/en/repository_upload.php:upload:view"
+msgid "Use uploading in file picker"
+msgstr "ファイルピッカのアップロードを使用する"
+
+#. configplugin
+#: repository/url/lang/en/repository_url.php:1
+msgctxt "repository/url/lang/en/repository_url.php:configplugin"
+msgid "URL repository type configuration"
+msgstr "URIリポジトリタイプ設定"
+
+#. download
+#: repository/url/lang/en/repository_url.php:2
+msgctxt "repository/url/lang/en/repository_url.php:download"
+msgid "Download"
+msgstr "ダウンロード"
+
+#. pluginname
+#: repository/url/lang/en/repository_url.php:3
+msgctxt "repository/url/lang/en/repository_url.php:pluginname"
+msgid "URL downloader"
+msgstr "URI"
+
+#. rename
+#: repository/url/lang/en/repository_url.php:4
+msgctxt "repository/url/lang/en/repository_url.php:rename"
+msgid "Name"
+msgstr "名称"
+
+#. url
+#: repository/url/lang/en/repository_url.php:5
+msgctxt "repository/url/lang/en/repository_url.php:url"
+msgid "URL"
+msgstr "URI"
+
+#. url:view
+#: repository/url/lang/en/repository_url.php:6
+msgctxt "repository/url/lang/en/repository_url.php:url:view"
+msgid "Use URL downloader in file picker"
+msgstr "URIを表示する"
+
+#. validfiletype
+#: repository/url/lang/en/repository_url.php:7
+msgctxt "repository/url/lang/en/repository_url.php:validfiletype"
+msgid "You must provide a URL to an image file or a page containing images."
+msgstr "あなたはイメージファイルまたはイメージを含むページのURIを提供する必要があります。"
+
+#. validname
+#: repository/url/lang/en/repository_url.php:8
+msgctxt "repository/url/lang/en/repository_url.php:validname"
+msgid "You must provide a valid file name"
+msgstr "有効なファイル名を入力してください。"
+
+#. configplugin
+#: repository/user/lang/en/repository_user.php:1
+msgctxt "repository/user/lang/en/repository_user.php:configplugin"
+msgid "Configuration for user private files repository"
+msgstr "ユーザプライベートファイルリポジトリの設定"
+
+#. emptyfilelist
+#: repository/user/lang/en/repository_user.php:2
+msgctxt "repository/user/lang/en/repository_user.php:emptyfilelist"
+msgid "There are no files to show"
+msgstr "表示するファイルはありません。"
+
+#. pluginname
+#: repository/user/lang/en/repository_user.php:3
+msgctxt "repository/user/lang/en/repository_user.php:pluginname"
+msgid "Private files"
+msgstr "プライベートファイル"
+
+#. pluginname_help
+#: repository/user/lang/en/repository_user.php:4
+msgctxt "repository/user/lang/en/repository_user.php:pluginname_help"
+msgid "Files in user private area"
+msgstr "ユーザプライベートエリアのファイル"
+
+#. user:view
+#: repository/user/lang/en/repository_user.php:5
+msgctxt "repository/user/lang/en/repository_user.php:user:view"
+msgid "View user private files"
+msgstr "ユーザプライベートファイルを表示する"
+
+#. configplugin
+#: repository/webdav/lang/en/repository_webdav.php:1
+msgctxt "repository/webdav/lang/en/repository_webdav.php:configplugin"
+msgid "WebDAV configuration"
+msgstr "WebDav設定"
+
+#. http
+#: repository/webdav/lang/en/repository_webdav.php:2
+msgctxt "repository/webdav/lang/en/repository_webdav.php:http"
+msgid "HTTP"
+msgstr "HTTP"
+
+#. https
+#: repository/webdav/lang/en/repository_webdav.php:3
+msgctxt "repository/webdav/lang/en/repository_webdav.php:https"
+msgid "HTTPS"
+msgstr "HTTPS"
+
+#. pluginname
+#: repository/webdav/lang/en/repository_webdav.php:4
+msgctxt "repository/webdav/lang/en/repository_webdav.php:pluginname"
+msgid "WebDAV repository"
+msgstr "WebDAVリポジトリ"
+
+#. webdav
+#: repository/webdav/lang/en/repository_webdav.php:5
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav"
+msgid "WebDAV"
+msgstr "WebDAV"
+
+#. webdavbasicauth
+#: repository/webdav/lang/en/repository_webdav.php:6
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdavbasicauth"
+msgid "WebDAV basic authentication"
+msgstr "WebDAV基本認証"
+
+#. webdavdigestauth
+#: repository/webdav/lang/en/repository_webdav.php:7
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdavdigestauth"
+msgid "WebDAV digest authentication"
+msgstr "WebDAVダイジェスト認証"
+
+#. webdav_password
+#: repository/webdav/lang/en/repository_webdav.php:8
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav_password"
+msgid "WebDAV server password"
+msgstr "WebDAVサーバパスワード"
+
+#. webdav_path
+#: repository/webdav/lang/en/repository_webdav.php:9
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav_path"
+msgid "WebDAV path"
+msgstr "WebDAVパス"
+
+#. webdav_port
+#: repository/webdav/lang/en/repository_webdav.php:10
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav_port"
+msgid "WebDAV server port"
+msgstr "WebDAVサーバポート"
+
+#. webdav_server
+#: repository/webdav/lang/en/repository_webdav.php:11
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav_server"
+msgid "WebDAV server"
+msgstr "WebDAVサーバ"
+
+#. webdav_type
+#: repository/webdav/lang/en/repository_webdav.php:12
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav_type"
+msgid "WebDAV type"
+msgstr "WebDavタイプ"
+
+#. webdav_user
+#: repository/webdav/lang/en/repository_webdav.php:13
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav_user"
+msgid "WebDAV server user"
+msgstr "WebDAVサーバユーザ"
+
+#. webdav:view
+#: repository/webdav/lang/en/repository_webdav.php:14
+msgctxt "repository/webdav/lang/en/repository_webdav.php:webdav:view"
+msgid "View WebDav repository"
+msgstr "WebDAVリポジトリを表示する"
+
+#. configplugin
+#: repository/wikimedia/lang/en/repository_wikimedia.php:1
+msgctxt "repository/wikimedia/lang/en/repository_wikimedia.php:configplugin"
+msgid "Wikimedia repository type configuration"
+msgstr "Wikimediaリポジトリタイプ設定"
+
+#. keyword
+#: repository/wikimedia/lang/en/repository_wikimedia.php:2
+msgctxt "repository/wikimedia/lang/en/repository_wikimedia.php:keyword"
+msgid "Search for"
+msgstr "検索"
+
+#. maxheight
+#: repository/wikimedia/lang/en/repository_wikimedia.php:3
+msgctxt "repository/wikimedia/lang/en/repository_wikimedia.php:maxheight"
+msgid "Max image height (px)"
+msgstr "最大イメージ高 (px)"
+
+#. maxwidth
+#: repository/wikimedia/lang/en/repository_wikimedia.php:4
+msgctxt "repository/wikimedia/lang/en/repository_wikimedia.php:maxwidth"
+msgid "Max image width (px)"
+msgstr "最大イメージ幅 (px)"
+
+#. pluginname
+#: repository/wikimedia/lang/en/repository_wikimedia.php:5
+msgctxt "repository/wikimedia/lang/en/repository_wikimedia.php:pluginname"
+msgid "Wikimedia"
+msgstr "Wikiメディア"
+
+#. wikimedia:view
+#: repository/wikimedia/lang/en/repository_wikimedia.php:6
+msgctxt "repository/wikimedia/lang/en/repository_wikimedia.php:wikimedia:view"
+msgid "View wikimedia repository"
+msgstr "Wikiメディアリポジトリを表示する"
+
+#. configplugin
+#: repository/youtube/lang/en/repository_youtube.php:1
+msgctxt "repository/youtube/lang/en/repository_youtube.php:configplugin"
+msgid "YouTube repository type configuration"
+msgstr "YouTubeリポジトリタイプ設定"
+
+#. pluginname
+#: repository/youtube/lang/en/repository_youtube.php:2
+msgctxt "repository/youtube/lang/en/repository_youtube.php:pluginname"
+msgid "Youtube videos"
+msgstr "Youtubeビデオ"
+
+#. search
+#: repository/youtube/lang/en/repository_youtube.php:3
+msgctxt "repository/youtube/lang/en/repository_youtube.php:search"
+msgid "Search videos"
+msgstr "ビデオを検索する"
+
+#. sortby
+#: repository/youtube/lang/en/repository_youtube.php:4
+msgctxt "repository/youtube/lang/en/repository_youtube.php:sortby"
+msgid "Sort By"
+msgstr "並べ替え"
+
+#. sortpublished
+#: repository/youtube/lang/en/repository_youtube.php:5
+msgctxt "repository/youtube/lang/en/repository_youtube.php:sortpublished"
+msgid "Date Published"
+msgstr "公開日時"
+
+#. sortrating
+#: repository/youtube/lang/en/repository_youtube.php:6
+msgctxt "repository/youtube/lang/en/repository_youtube.php:sortrating"
+msgid "Rating"
+msgstr "レーティング"
+
+#. sortrelevance
+#: repository/youtube/lang/en/repository_youtube.php:7
+msgctxt "repository/youtube/lang/en/repository_youtube.php:sortrelevance"
+msgid "Relevance"
+msgstr "関連性"
+
+#. sortviewcount
+#: repository/youtube/lang/en/repository_youtube.php:8
+msgctxt "repository/youtube/lang/en/repository_youtube.php:sortviewcount"
+msgid "View Count"
+msgstr "閲覧回数"
+
+#. youtube:view
+#: repository/youtube/lang/en/repository_youtube.php:9
+msgctxt "repository/youtube/lang/en/repository_youtube.php:youtube:view"
+msgid "Use youtube in file picker"
+msgstr "ファイルピッカのYoutubeを使用する"

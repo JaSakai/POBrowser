@@ -1,0 +1,5008 @@
+# 
+# Translators:
+# Makoto Miyazaki <makoto.miyazaki.dc@hosei.ac.jp>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: mahara-1.8.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-07 06:14+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:47+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/mahara-181/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. title
+#: artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:1
+msgctxt "artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:title"
+msgid "Journal"
+msgstr "日誌"
+
+#. description
+#: artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:2
+msgctxt ""
+"artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:description"
+msgid "A complete journal (see Content -> Journal)"
+msgstr "日誌全体です (「コンテンツ -> 日誌」をご覧ください)。"
+
+#. defaulttitledescription
+#: artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:3
+msgctxt ""
+"artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:defaulttitledescription"
+msgid "If you leave this blank, the title of the journal will be used"
+msgstr "ここを空白にした場合、日誌のタイトルが使用されます。"
+
+#. postsperpage
+#: artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:4
+msgctxt ""
+"artefact/blog/blocktype/blog/lang/en.utf8/blocktype.blog.php:postsperpage"
+msgid "Entries per page"
+msgstr "1ページあたりの記事数"
+
+#. title
+#: artefact/blog/blocktype/blogpost/lang/en.utf8/blocktype.blogpost.php:1
+msgctxt ""
+"artefact/blog/blocktype/blogpost/lang/en.utf8/blocktype.blogpost.php:title"
+msgid "Journal entry"
+msgstr "日誌エントリ"
+
+#. description
+#: artefact/blog/blocktype/blogpost/lang/en.utf8/blocktype.blogpost.php:2
+msgctxt ""
+"artefact/blog/blocktype/blogpost/lang/en.utf8/blocktype.blogpost.php:description"
+msgid "A single entry from your journal (see Content -> Journal)"
+msgstr "あなたの日誌の単一エントリです (「コンテンツ -> 日誌」をご覧ください)。"
+
+#. defaulttitledescription
+#: artefact/blog/blocktype/blogpost/lang/en.utf8/blocktype.blogpost.php:3
+msgctxt ""
+"artefact/blog/blocktype/blogpost/lang/en.utf8/blocktype.blogpost.php:defaulttitledescription"
+msgid "If you leave this blank, the title of the journal entry will be used"
+msgstr "ここを空白にした場合、日誌エントリのタイトルが使用されます。"
+
+#. title
+#: artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:1
+msgctxt ""
+"artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:title"
+msgid "Recent journal entries"
+msgstr "最新の日誌エントリ"
+
+#. description
+#: artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:2
+msgctxt ""
+"artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:description"
+msgid "Display the most recent journal entries (see Content -> Journal)"
+msgstr "最新の日誌エントリを表示します (「コンテンツ -> 日誌」をご覧ください)。"
+
+#. itemstoshow
+#: artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:3
+msgctxt ""
+"artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:itemstoshow"
+msgid "Entries to show"
+msgstr "表示するアイテム数"
+
+#. postedin
+#: artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:4
+msgctxt ""
+"artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:postedin"
+msgid "in"
+msgstr "-"
+
+#. postedon
+#: artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:5
+msgctxt ""
+"artefact/blog/blocktype/recentposts/lang/en.utf8/blocktype.recentposts.php:postedon"
+msgid "on"
+msgstr "投稿日時"
+
+#. title
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:1
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:title"
+msgid "Tagged journal entries"
+msgstr "タグ付き日誌エントリ"
+
+#. description
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:2
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:description"
+msgid "Display journal entries with a particular tag (see Content -> Journal)"
+msgstr "特定のタグが付けられた日誌エントリを表示します (「コンテンツ -> 日誌」をご覧ください)。"
+
+#. blockheading
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:3
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:blockheading"
+msgid "Journal entries tagged"
+msgstr "タグ付き日誌エントリ"
+
+#. defaulttitledescription
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:4
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:defaulttitledescription"
+msgid "If you leave this blank, the title of the journal will be used"
+msgstr "ここを空白にした場合、日誌のタイトルが使用されます。"
+
+#. postsperpage
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:5
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:postsperpage"
+msgid "Entries per page"
+msgstr "1ページあたりのエントリ数"
+
+#. taglist
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:6
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:taglist"
+msgid "My tags"
+msgstr "マイタグ"
+
+#. notags
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:7
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:notags"
+msgid "There are no posts tagged \"%s\""
+msgstr "「 %s 」がタグ付けされた記事はありません。"
+
+#. notagsavailable
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:8
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:notagsavailable"
+msgid "You have not created any tags"
+msgstr "あなたはタグを作成していません。"
+
+#. postedin
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:9
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:postedin"
+msgid "in"
+msgstr "-"
+
+#. postedon
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:10
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:postedon"
+msgid "on"
+msgstr "-"
+
+#. itemstoshow
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:11
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:itemstoshow"
+msgid "Items to show"
+msgstr "表示するアイテム数"
+
+#. configerror
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:12
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:configerror"
+msgid "Error during block configuration"
+msgstr "ブロック設定中にエラーが発生しました。"
+
+#. showjournalitemsinfull
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:13
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:showjournalitemsinfull"
+msgid "Show journal entries in full"
+msgstr "日誌アイテムをフルに表示する"
+
+#. showjournalitemsinfulldesc
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:14
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:showjournalitemsinfulldesc"
+msgid ""
+"If checked, the journal entries will be displayed. Otherwise only the titles"
+" of the journal entries will be shown."
+msgstr "チェックした場合、日誌エントリが表示されます。そうでない場合、日誌エントリのタイトルのみ表示されます。"
+
+#. tag
+#: artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:15
+msgctxt ""
+"artefact/blog/blocktype/taggedposts/lang/en.utf8/blocktype.taggedposts.php:tag"
+msgid "Tag"
+msgstr "タグ"
+
+#. pluginname
+#: artefact/blog/lang/en.utf8/artefact.blog.php:1
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:pluginname"
+msgid "Journals"
+msgstr "日誌"
+
+#. blog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:2
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blog"
+msgid "Journal"
+msgstr "日誌"
+
+#. blogs
+#: artefact/blog/lang/en.utf8/artefact.blog.php:3
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogs"
+msgid "Journals"
+msgstr "日誌"
+
+#. addblog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:4
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:addblog"
+msgid "Create journal"
+msgstr "日誌を追加する"
+
+#. addpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:5
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:addpost"
+msgid "New entry"
+msgstr "エントリを追加する"
+
+#. alignment
+#: artefact/blog/lang/en.utf8/artefact.blog.php:6
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:alignment"
+msgid "Alignment"
+msgstr "配置"
+
+#. allowcommentsonpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:7
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:allowcommentsonpost"
+msgid "Allow comments on your entry."
+msgstr "あなたのエントリにコメントを許可します。"
+
+#. allposts
+#: artefact/blog/lang/en.utf8/artefact.blog.php:8
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:allposts"
+msgid "All entries"
+msgstr "すべてのエントリ"
+
+#. attach
+#: artefact/blog/lang/en.utf8/artefact.blog.php:9
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:attach"
+msgid "Attach"
+msgstr "添付"
+
+#. attachedfilelistloaded
+#: artefact/blog/lang/en.utf8/artefact.blog.php:10
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:attachedfilelistloaded"
+msgid "Attached file list loaded"
+msgstr "添付ファイル一覧が読み込まれました。"
+
+#. attachedfiles
+#: artefact/blog/lang/en.utf8/artefact.blog.php:11
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:attachedfiles"
+msgid "Attached files"
+msgstr "添付ファイル"
+
+#. attachment
+#: artefact/blog/lang/en.utf8/artefact.blog.php:12
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:attachment"
+msgid "Attachment"
+msgstr "添付ファイル"
+
+#. attachments
+#: artefact/blog/lang/en.utf8/artefact.blog.php:13
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:attachments"
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#. blogcopiedfromanotherview
+#: artefact/blog/lang/en.utf8/artefact.blog.php:14
+msgctxt ""
+"artefact/blog/lang/en.utf8/artefact.blog.php:blogcopiedfromanotherview"
+msgid ""
+"Note: This block has been copied from another page. You may move it around "
+"or remove it, but you cannot change what %s is in it."
+msgstr "注意: このブロックは別のページからコピーされました。あなたはこのブロックを移動したり、削除することができますが、%s の内容を変更することはできません。"
+
+#. blogdesc
+#: artefact/blog/lang/en.utf8/artefact.blog.php:15
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogdesc"
+msgid "Description"
+msgstr "説明"
+
+#. blogdescdesc
+#: artefact/blog/lang/en.utf8/artefact.blog.php:16
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogdescdesc"
+msgid "e.g., ‘A record of Jill's experiences and reflections’."
+msgstr "例) 「Jillの経験および内省の記録」"
+
+#. blogdoesnotexist
+#: artefact/blog/lang/en.utf8/artefact.blog.php:17
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogdoesnotexist"
+msgid "You are trying to access a journal that does not exist"
+msgstr "あなたは存在しない日誌へのアクセスを試みています。"
+
+#. blogpostdoesnotexist
+#: artefact/blog/lang/en.utf8/artefact.blog.php:18
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogpostdoesnotexist"
+msgid "You are trying to access a journal entry that does not exist"
+msgstr "あなたは存在しない日誌エントリへのアクセスを試みています。"
+
+#. blogpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:19
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogpost"
+msgid "Journal entry"
+msgstr "日誌エントリ"
+
+#. blogdeleted
+#: artefact/blog/lang/en.utf8/artefact.blog.php:20
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogdeleted"
+msgid "Journal deleted"
+msgstr "日誌が削除されました。"
+
+#. blogpostdeleted
+#: artefact/blog/lang/en.utf8/artefact.blog.php:21
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogpostdeleted"
+msgid "Journal entry deleted"
+msgstr "日誌エントリが削除されました。"
+
+#. blogpostpublished
+#: artefact/blog/lang/en.utf8/artefact.blog.php:22
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogpostpublished"
+msgid "Journal entry published"
+msgstr "日誌エントリが公開されました。"
+
+#. blogpostunpublished
+#: artefact/blog/lang/en.utf8/artefact.blog.php:23
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogpostunpublished"
+msgid "Journal entry unpublished"
+msgstr "日誌エントリが非公開にされました。"
+
+#. blogpostsaved
+#: artefact/blog/lang/en.utf8/artefact.blog.php:24
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogpostsaved"
+msgid "Journal entry saved"
+msgstr "日誌エントリが保存されました。"
+
+#. blogsettings
+#: artefact/blog/lang/en.utf8/artefact.blog.php:25
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogsettings"
+msgid "Journal settings"
+msgstr "日誌設定"
+
+#. blogtitle
+#: artefact/blog/lang/en.utf8/artefact.blog.php:26
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogtitle"
+msgid "Title"
+msgstr "タイトル"
+
+#. blogtitledesc
+#: artefact/blog/lang/en.utf8/artefact.blog.php:27
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:blogtitledesc"
+msgid "e.g., ‘Jill’s Nursing Practicum Journal’."
+msgstr "例) 「Jillの看護実習日誌」"
+
+#. border
+#: artefact/blog/lang/en.utf8/artefact.blog.php:28
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:border"
+msgid "Border"
+msgstr "枠線"
+
+#. by
+#: artefact/blog/lang/en.utf8/artefact.blog.php:29
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:by"
+msgid "by"
+msgstr "by"
+
+#. cancel
+#: artefact/blog/lang/en.utf8/artefact.blog.php:30
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. createandpublishdesc
+#: artefact/blog/lang/en.utf8/artefact.blog.php:31
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:createandpublishdesc"
+msgid "This will create the journal entry and make it available to others."
+msgstr "日誌エントリを作成し、他のユーザが閲覧できるようにします。"
+
+#. createasdraftdesc
+#: artefact/blog/lang/en.utf8/artefact.blog.php:32
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:createasdraftdesc"
+msgid ""
+"This will create the journal entry, but it will not become available to "
+"others until you choose to publish it."
+msgstr "日誌エントリを作成しますが、あなたが公開するまで、他のユーザは閲覧することはできません。"
+
+#. createblog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:33
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:createblog"
+msgid "Create journal"
+msgstr "日誌を作成する"
+
+#. dataimportedfrom
+#: artefact/blog/lang/en.utf8/artefact.blog.php:34
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:dataimportedfrom"
+msgid "Data imported from %s"
+msgstr "%s からインポートされたデータ"
+
+#. defaultblogtitle
+#: artefact/blog/lang/en.utf8/artefact.blog.php:35
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:defaultblogtitle"
+msgid "%s's Journal"
+msgstr "%s の日誌"
+
+#. delete
+#: artefact/blog/lang/en.utf8/artefact.blog.php:36
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:delete"
+msgid "Delete"
+msgstr "削除"
+
+#. deleteblog?
+#: artefact/blog/lang/en.utf8/artefact.blog.php:37
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:deleteblog?"
+msgid "Are you sure you want to delete this journal?"
+msgstr "本当にこの日誌を削除してもよろしいですか?"
+
+#. deleteblogpost?
+#: artefact/blog/lang/en.utf8/artefact.blog.php:38
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:deleteblogpost?"
+msgid "Are you sure you want to delete this entry?"
+msgstr "本当にこのエントリを削除してもよろしいですか?"
+
+#. description
+#: artefact/blog/lang/en.utf8/artefact.blog.php:39
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:description"
+msgid "Description"
+msgstr "説明"
+
+#. dimensions
+#: artefact/blog/lang/en.utf8/artefact.blog.php:40
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:dimensions"
+msgid "Dimensions"
+msgstr "サイズ"
+
+#. draft
+#: artefact/blog/lang/en.utf8/artefact.blog.php:41
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:draft"
+msgid "Draft"
+msgstr "下書き"
+
+#. edit
+#: artefact/blog/lang/en.utf8/artefact.blog.php:42
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:edit"
+msgid "Edit"
+msgstr "編集"
+
+#. editblogpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:43
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:editblogpost"
+msgid "Edit journal entry"
+msgstr "日誌エントリを編集する"
+
+#. entriesimportedfromleapexport
+#: artefact/blog/lang/en.utf8/artefact.blog.php:44
+msgctxt ""
+"artefact/blog/lang/en.utf8/artefact.blog.php:entriesimportedfromleapexport"
+msgid ""
+"Entries imported from a LEAP export that were not able to be imported "
+"elsewhere"
+msgstr "LEAPエクスポートよりインポートされた、他の場所にインポートできなかったエントリです。"
+
+#. errorsavingattachments
+#: artefact/blog/lang/en.utf8/artefact.blog.php:45
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:errorsavingattachments"
+msgid "An error occurred while saving journal entry attachments"
+msgstr "日誌エントリの添付ファイル保存中にエラーが発生しました。"
+
+#. horizontalspace
+#: artefact/blog/lang/en.utf8/artefact.blog.php:46
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:horizontalspace"
+msgid "Horizontal space"
+msgstr "水平方向のスペース"
+
+#. insert
+#: artefact/blog/lang/en.utf8/artefact.blog.php:47
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:insert"
+msgid "Insert"
+msgstr "挿入"
+
+#. insertimage
+#: artefact/blog/lang/en.utf8/artefact.blog.php:48
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:insertimage"
+msgid "Insert image"
+msgstr "イメージを挿入する"
+
+#. moreoptions
+#: artefact/blog/lang/en.utf8/artefact.blog.php:49
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:moreoptions"
+msgid "More options"
+msgstr "詳細オプション"
+
+#. mustspecifytitle
+#: artefact/blog/lang/en.utf8/artefact.blog.php:50
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:mustspecifytitle"
+msgid "You must specify a title for your entry"
+msgstr "あなたのエントリのタイトルを入力してください。"
+
+#. mustspecifycontent
+#: artefact/blog/lang/en.utf8/artefact.blog.php:51
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:mustspecifycontent"
+msgid "You must specify some content for your entry"
+msgstr "あなたのエントリのコンテンツを入力してください。"
+
+#. name
+#: artefact/blog/lang/en.utf8/artefact.blog.php:52
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:name"
+msgid "Name"
+msgstr "名称"
+
+#. newattachmentsexceedquota
+#: artefact/blog/lang/en.utf8/artefact.blog.php:53
+msgctxt ""
+"artefact/blog/lang/en.utf8/artefact.blog.php:newattachmentsexceedquota"
+msgid ""
+"The total size of the new files that you have uploaded to this entry would "
+"exceed your quota. You may be able to save the entry if you remove some of "
+"the attachments you have just added."
+msgstr "このエントリにアップロードした新しいファイルの合計サイズが、あなたのクオータを超えました。あなたが追加した添付ファイルを削除することで、エントリを保存することができます。"
+
+#. newblog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:54
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:newblog"
+msgid "New journal"
+msgstr "新しい日誌"
+
+#. newblogpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:55
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:newblogpost"
+msgid "New journal entry in journal \"%s\""
+msgstr "日誌「 %s 」の新しい日誌エントリ"
+
+#. newerposts
+#: artefact/blog/lang/en.utf8/artefact.blog.php:56
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:newerposts"
+msgid "Newer entries"
+msgstr "新しいエントリ"
+
+#. nodefaultblogfound
+#: artefact/blog/lang/en.utf8/artefact.blog.php:57
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:nodefaultblogfound"
+msgid ""
+"No default journal found. This is a bug in the system. To fix it, you need "
+"to enable the multiple journals option on the <a "
+"href=\"%saccount/index.php\">account settings</a> page."
+msgstr "デフォルトの日誌が見つかりませんでした。このシステムバグを修正するには、あなたは<a href=\"%saccount/index.php\">アカウント設定</a>ページにて複数日誌オプションを有効にする必要があります。"
+
+#. nopostsyet
+#: artefact/blog/lang/en.utf8/artefact.blog.php:58
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:nopostsyet"
+msgid "No entries yet."
+msgstr "まだエントリはありません"
+
+#. noimageshavebeenattachedtothispost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:59
+msgctxt ""
+"artefact/blog/lang/en.utf8/artefact.blog.php:noimageshavebeenattachedtothispost"
+msgid ""
+"No images have been attached to this entry. You need to upload or attach an "
+"image to the entry before you can insert it."
+msgstr "このエントリにイメージは追加されませんでした。イメージを挿入できるようにするには、事前にイメージをアップロードするか、添付してください。"
+
+#. nofilesattachedtothispost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:60
+msgctxt ""
+"artefact/blog/lang/en.utf8/artefact.blog.php:nofilesattachedtothispost"
+msgid "No attached files"
+msgstr "添付ファイルなし"
+
+#. noresults
+#: artefact/blog/lang/en.utf8/artefact.blog.php:61
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:noresults"
+msgid "No journal entries found"
+msgstr "日誌エントリはありません。"
+
+#. olderposts
+#: artefact/blog/lang/en.utf8/artefact.blog.php:62
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:olderposts"
+msgid "Older entries"
+msgstr "古いエントリ"
+
+#. post
+#: artefact/blog/lang/en.utf8/artefact.blog.php:63
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:post"
+msgid "entry"
+msgstr "エントリ"
+
+#. postbody
+#: artefact/blog/lang/en.utf8/artefact.blog.php:64
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:postbody"
+msgid "Entry"
+msgstr "本文"
+
+#. postbodydesc
+#: artefact/blog/lang/en.utf8/artefact.blog.php:65
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:postbodydesc"
+msgid " "
+msgstr " "
+
+#. postedon
+#: artefact/blog/lang/en.utf8/artefact.blog.php:66
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:postedon"
+msgid "Posted on"
+msgstr "投稿日時"
+
+#. postedbyon
+#: artefact/blog/lang/en.utf8/artefact.blog.php:67
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:postedbyon"
+msgid "Posted by %s on %s"
+msgstr "投稿者: %s  投稿日時: %s"
+
+#. posttitle
+#: artefact/blog/lang/en.utf8/artefact.blog.php:68
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:posttitle"
+msgid "Title"
+msgstr "タイトル"
+
+#. posts
+#: artefact/blog/lang/en.utf8/artefact.blog.php:69
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:posts"
+msgid "entries"
+msgstr "エントリ"
+
+#. nposts
+#: artefact/blog/lang/en.utf8/artefact.blog.php:70
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:nposts"
+msgid ""
+"rray(    '1 entry',\n"
+"    '%s entries',\n"
+");"
+msgstr "rray(    0 => '%s エントリ',\n);"
+
+#. publish
+#: artefact/blog/lang/en.utf8/artefact.blog.php:71
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:publish"
+msgid "Publish"
+msgstr "公開"
+
+#. unpublish
+#: artefact/blog/lang/en.utf8/artefact.blog.php:72
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:unpublish"
+msgid "Unpublish"
+msgstr "非公開"
+
+#. publishfailed
+#: artefact/blog/lang/en.utf8/artefact.blog.php:73
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:publishfailed"
+msgid "An error occurred. Your entry was not published."
+msgstr "エラーが発生しました。あなたのエントリは公開されませんでした。"
+
+#. publishblogpost?
+#: artefact/blog/lang/en.utf8/artefact.blog.php:74
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:publishblogpost?"
+msgid "Are you sure you want to publish this entry?"
+msgstr "本当にこのエントリを公開してもよろしいですか?"
+
+#. published
+#: artefact/blog/lang/en.utf8/artefact.blog.php:75
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:published"
+msgid "Published"
+msgstr "公開済み"
+
+#. remove
+#: artefact/blog/lang/en.utf8/artefact.blog.php:76
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:remove"
+msgid "Remove"
+msgstr "削除"
+
+#. save
+#: artefact/blog/lang/en.utf8/artefact.blog.php:77
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:save"
+msgid "Save"
+msgstr "保存"
+
+#. saveandpublish
+#: artefact/blog/lang/en.utf8/artefact.blog.php:78
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:saveandpublish"
+msgid "Save and publish"
+msgstr "保存して公開する"
+
+#. saveasdraft
+#: artefact/blog/lang/en.utf8/artefact.blog.php:79
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:saveasdraft"
+msgid "Save as draft"
+msgstr "下書きとして保存する"
+
+#. savepost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:80
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:savepost"
+msgid "Save entry"
+msgstr "エントリを保存する"
+
+#. savesettings
+#: artefact/blog/lang/en.utf8/artefact.blog.php:81
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:savesettings"
+msgid "Save settings"
+msgstr "設定を保存する"
+
+#. settings
+#: artefact/blog/lang/en.utf8/artefact.blog.php:82
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:settings"
+msgid "Settings"
+msgstr "設定"
+
+#. thisisdraft
+#: artefact/blog/lang/en.utf8/artefact.blog.php:83
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:thisisdraft"
+msgid "This entry is a draft"
+msgstr "下書きとして保存する"
+
+#. thisisdraftdesc
+#: artefact/blog/lang/en.utf8/artefact.blog.php:84
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:thisisdraftdesc"
+msgid "When your entry is a draft, no one except you can see it."
+msgstr "あなたのエントリを下書きにした場合、あなた以外のユーザはエントリを閲覧することができません。"
+
+#. title
+#: artefact/blog/lang/en.utf8/artefact.blog.php:85
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:title"
+msgid "Title"
+msgstr "タイトル"
+
+#. update
+#: artefact/blog/lang/en.utf8/artefact.blog.php:86
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:update"
+msgid "Update"
+msgstr "更新"
+
+#. verticalspace
+#: artefact/blog/lang/en.utf8/artefact.blog.php:87
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:verticalspace"
+msgid "Vertical space"
+msgstr "垂直方向のスペース"
+
+#. viewblog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:88
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:viewblog"
+msgid "View journal"
+msgstr "日誌を表示する"
+
+#. youarenottheownerofthisblog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:89
+msgctxt ""
+"artefact/blog/lang/en.utf8/artefact.blog.php:youarenottheownerofthisblog"
+msgid "You are not the owner of this journal."
+msgstr "あなたはこの日誌のオーナーではありません。"
+
+#. youarenottheownerofthisblogpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:90
+msgctxt ""
+"artefact/blog/lang/en.utf8/artefact.blog.php:youarenottheownerofthisblogpost"
+msgid "You are not the owner of this journal entry."
+msgstr "あなたはこの日誌エントリのオーナーではありません。"
+
+#. cannotdeleteblogpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:91
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:cannotdeleteblogpost"
+msgid "An error occurred removing this journal entry."
+msgstr "この日誌エントリの削除中にエラーが発生しました。"
+
+#. baseline
+#: artefact/blog/lang/en.utf8/artefact.blog.php:92
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:baseline"
+msgid "Baseline"
+msgstr "ベースライン揃え"
+
+#. top
+#: artefact/blog/lang/en.utf8/artefact.blog.php:93
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:top"
+msgid "Top"
+msgstr "上揃え"
+
+#. middle
+#: artefact/blog/lang/en.utf8/artefact.blog.php:94
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:middle"
+msgid "Middle"
+msgstr "中央揃え"
+
+#. bottom
+#: artefact/blog/lang/en.utf8/artefact.blog.php:95
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:bottom"
+msgid "Bottom"
+msgstr "下揃え"
+
+#. texttop
+#: artefact/blog/lang/en.utf8/artefact.blog.php:96
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:texttop"
+msgid "Text top"
+msgstr "テキスト上揃え"
+
+#. textbottom
+#: artefact/blog/lang/en.utf8/artefact.blog.php:97
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:textbottom"
+msgid "Text bottom"
+msgstr "テキストボタン"
+
+#. left
+#: artefact/blog/lang/en.utf8/artefact.blog.php:98
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:left"
+msgid "Left"
+msgstr "左"
+
+#. right
+#: artefact/blog/lang/en.utf8/artefact.blog.php:99
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:right"
+msgid "Right"
+msgstr "右"
+
+#. src
+#: artefact/blog/lang/en.utf8/artefact.blog.php:100
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:src"
+msgid "Image URL"
+msgstr "イメージURI"
+
+#. image_list
+#: artefact/blog/lang/en.utf8/artefact.blog.php:101
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:image_list"
+msgid "Attached image"
+msgstr "添付イメージ"
+
+#. alt
+#: artefact/blog/lang/en.utf8/artefact.blog.php:102
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:alt"
+msgid "Description"
+msgstr "説明"
+
+#. copyfull
+#: artefact/blog/lang/en.utf8/artefact.blog.php:103
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:copyfull"
+msgid "Others will get their own copy of your %s"
+msgstr "他のユーザはあなたの %s を自分のコピーとして取得できる"
+
+#. copyreference
+#: artefact/blog/lang/en.utf8/artefact.blog.php:104
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:copyreference"
+msgid "Others may display your %s in their page"
+msgstr "他のユーザはあなたの %s をページに表示できる"
+
+#. copynocopy
+#: artefact/blog/lang/en.utf8/artefact.blog.php:105
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:copynocopy"
+msgid "Skip this block entirely when copying the page"
+msgstr "ページをコピーする場合、このブロックを完全にスキップする"
+
+#. viewposts
+#: artefact/blog/lang/en.utf8/artefact.blog.php:106
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:viewposts"
+msgid "Copied entries (%s)"
+msgstr "コピーされたエントリ (%s)"
+
+#. postscopiedfromview
+#: artefact/blog/lang/en.utf8/artefact.blog.php:107
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:postscopiedfromview"
+msgid "Entries copied from %s"
+msgstr "%s からコピーされたエントリ"
+
+#. youhavenoblogs
+#: artefact/blog/lang/en.utf8/artefact.blog.php:108
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:youhavenoblogs"
+msgid "You have no journals."
+msgstr "あなたには日誌がありません。"
+
+#. youhaveoneblog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:109
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:youhaveoneblog"
+msgid "You have 1 journal."
+msgstr "あなたには 1件の日誌があります。"
+
+#. youhaveblogs
+#: artefact/blog/lang/en.utf8/artefact.blog.php:110
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:youhaveblogs"
+msgid "You have %s journals."
+msgstr "あなたには %s 件の日誌があります。"
+
+#. feedsnotavailable
+#: artefact/blog/lang/en.utf8/artefact.blog.php:111
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:feedsnotavailable"
+msgid "Feeds are not available for this artefact type."
+msgstr "このアーティファクトタイプではフィードは利用できません。"
+
+#. feedrights
+#: artefact/blog/lang/en.utf8/artefact.blog.php:112
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:feedrights"
+msgid "Copyright %s."
+msgstr "著作権 %s"
+
+#. enablemultipleblogstext
+#: artefact/blog/lang/en.utf8/artefact.blog.php:113
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:enablemultipleblogstext"
+msgid ""
+"You have one journal. If you would like to start a second one, enable the "
+"multiple journals option on the <a href=\"%saccount/index.php\">account "
+"settings</a> page."
+msgstr "あなたには1件の日誌があります。あなたが2件目の日誌を作成したい場合、<a href=\"%saccount/index.php\">アカウント設定</a>ページにて、複数日誌オプションを有効にしてください。"
+
+#. hiddenblogsnotification
+#: artefact/blog/lang/en.utf8/artefact.blog.php:114
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:hiddenblogsnotification"
+msgid ""
+"Additional journal(s) have been made for you, but your account does not have"
+" the multiple journals option activated. You can enable it on the <a "
+"href=\"%saccount/index.php\">account settings</a> page."
+msgstr "新たに日誌が作成されましたが、あなたのアカウントでは複数日誌オプションが有効にされていません。あなたは<a href=\"%saccount/index.php\">アカウント設定</a>ページにて、複数日誌オプションを設定することができます。"
+
+#. shortcutaddpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:115
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:shortcutaddpost"
+msgid "Add a new entry to"
+msgstr "新しいエントリを追加する:"
+
+#. shortcutgo
+#: artefact/blog/lang/en.utf8/artefact.blog.php:116
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:shortcutgo"
+msgid "Go"
+msgstr "Go"
+
+#. shortcutnewentry
+#: artefact/blog/lang/en.utf8/artefact.blog.php:117
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:shortcutnewentry"
+msgid "New entry"
+msgstr "新しいエントリ"
+
+#. duplicatedblog
+#: artefact/blog/lang/en.utf8/artefact.blog.php:118
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:duplicatedblog"
+msgid "Duplicated journal"
+msgstr "複製日誌"
+
+#. existingblogs
+#: artefact/blog/lang/en.utf8/artefact.blog.php:119
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:existingblogs"
+msgid "Existing journals"
+msgstr "既存日誌"
+
+#. duplicatedpost
+#: artefact/blog/lang/en.utf8/artefact.blog.php:120
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:duplicatedpost"
+msgid "Duplicated journal entry"
+msgstr "複製日誌エントリ"
+
+#. existingposts
+#: artefact/blog/lang/en.utf8/artefact.blog.php:121
+msgctxt "artefact/blog/lang/en.utf8/artefact.blog.php:existingposts"
+msgid "Existing journal entries"
+msgstr "既存日誌エントリ"
+
+#. pluginname
+#: artefact/comment/lang/en.utf8/artefact.comment.php:1
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:pluginname"
+msgid "Comment"
+msgstr "コメント"
+
+#. Comment
+#: artefact/comment/lang/en.utf8/artefact.comment.php:2
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:Comment"
+msgid "Comment"
+msgstr "コメント"
+
+#. Comments
+#: artefact/comment/lang/en.utf8/artefact.comment.php:3
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:Comments"
+msgid "Comments"
+msgstr "コメント"
+
+#. comment
+#: artefact/comment/lang/en.utf8/artefact.comment.php:4
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:comment"
+msgid "comment"
+msgstr "コメント"
+
+#. comments
+#: artefact/comment/lang/en.utf8/artefact.comment.php:5
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:comments"
+msgid "comments"
+msgstr "コメント"
+
+#. Allow
+#: artefact/comment/lang/en.utf8/artefact.comment.php:6
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:Allow"
+msgid "Allow"
+msgstr "許可"
+
+#. allowcomments
+#: artefact/comment/lang/en.utf8/artefact.comment.php:7
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:allowcomments"
+msgid "Allow comments"
+msgstr "コメントを許可する"
+
+#. approvalrequired
+#: artefact/comment/lang/en.utf8/artefact.comment.php:8
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:approvalrequired"
+msgid ""
+"Comments are moderated. If you choose to make this comment public, it will "
+"not be visible to others until it is approved by the owner."
+msgstr "コメントはモデレートされています。あなたがこのコメントをパブリックにした場合、オーナーにより承認されるまで、他のユーザに表示されることはありません。"
+
+#. attachfile
+#: artefact/comment/lang/en.utf8/artefact.comment.php:9
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:attachfile"
+msgid "Attach file"
+msgstr "添付ファイル"
+
+#. Attachments
+#: artefact/comment/lang/en.utf8/artefact.comment.php:10
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:Attachments"
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#. cantedithasreplies
+#: artefact/comment/lang/en.utf8/artefact.comment.php:11
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:cantedithasreplies"
+msgid "You can only edit the most recent comment"
+msgstr "あなたは最新のコメントのみ編集することができます。"
+
+#. canteditnotauthor
+#: artefact/comment/lang/en.utf8/artefact.comment.php:12
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:canteditnotauthor"
+msgid "You are not the author of this comment"
+msgstr "あなたはこのコメントの投稿者ではありません。"
+
+#. cantedittooold
+#: artefact/comment/lang/en.utf8/artefact.comment.php:13
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:cantedittooold"
+msgid "You can only edit comments that are less than %d minutes old"
+msgstr "あなたは投稿後 %d 分以内のコメントのみ編集することができます。"
+
+#. commentmadepublic
+#: artefact/comment/lang/en.utf8/artefact.comment.php:14
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:commentmadepublic"
+msgid "Comment made public"
+msgstr "コメントがパブリックにされました。"
+
+#. commentdeletedauthornotification
+#: artefact/comment/lang/en.utf8/artefact.comment.php:15
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:commentdeletedauthornotification"
+msgid ""
+"Your comment on %s was deleted:\n"
+"%s"
+msgstr "あなたの %s のコメントが削除されました:"
+
+#. commentdeletednotificationsubject
+#: artefact/comment/lang/en.utf8/artefact.comment.php:16
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:commentdeletednotificationsubject"
+msgid "Comment on %s deleted"
+msgstr "%s のコメントが削除されました。"
+
+#. commentnotinview
+#: artefact/comment/lang/en.utf8/artefact.comment.php:17
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:commentnotinview"
+msgid "Comment %d not in page %d"
+msgstr "コメント %d はページ %d にありません。"
+
+#. commentratings
+#: artefact/comment/lang/en.utf8/artefact.comment.php:18
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:commentratings"
+msgid "Enable comment ratings"
+msgstr "コメントレーティングを有効にする"
+
+#. commentremoved
+#: artefact/comment/lang/en.utf8/artefact.comment.php:19
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:commentremoved"
+msgid "Comment removed"
+msgstr "コメントが削除されました。"
+
+#. commentremovedbyauthor
+#: artefact/comment/lang/en.utf8/artefact.comment.php:20
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:commentremovedbyauthor"
+msgid "Comment removed by the author"
+msgstr "投稿者によりコメントが削除されました。"
+
+#. commentremovedbyowner
+#: artefact/comment/lang/en.utf8/artefact.comment.php:21
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:commentremovedbyowner"
+msgid "Comment removed by the owner"
+msgstr "オーナーによりコメントが削除されました。"
+
+#. commentremovedbyadmin
+#: artefact/comment/lang/en.utf8/artefact.comment.php:22
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:commentremovedbyadmin"
+msgid "Comment removed by an administrator"
+msgstr "管理者によりコメントが削除されました。"
+
+#. commentupdated
+#: artefact/comment/lang/en.utf8/artefact.comment.php:23
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:commentupdated"
+msgid "Comment updated"
+msgstr "コメントが更新されました。"
+
+#. editcomment
+#: artefact/comment/lang/en.utf8/artefact.comment.php:24
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:editcomment"
+msgid "Edit comment"
+msgstr "コメントを編集する"
+
+#. editcommentdescription
+#: artefact/comment/lang/en.utf8/artefact.comment.php:25
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:editcommentdescription"
+msgid ""
+"You can update your comments if they are less than %d minutes old and have "
+"had no newer replies added. After this time you may still be able to delete "
+"your comments and add new ones."
+msgstr "あなたは新しい返信が追加されていない %d 分以内のコメントを更新することができます。この時間終了後、あなたはコメントを削除して、新たなコメントを追加することはできます。"
+
+#. entriesimportedfromleapexport
+#: artefact/comment/lang/en.utf8/artefact.comment.php:26
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:entriesimportedfromleapexport"
+msgid ""
+"Entries imported from a LEAP export that were not able to be imported "
+"elsewhere"
+msgstr "LEAPエクスポートよりインポートされた、他の場所にインポートできなかったエントリです。"
+
+#. feedback
+#: artefact/comment/lang/en.utf8/artefact.comment.php:27
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:feedback"
+msgid "Feedback"
+msgstr "フィードバック"
+
+#. feedbackattachdirname
+#: artefact/comment/lang/en.utf8/artefact.comment.php:28
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbackattachdirname"
+msgid "commentfiles"
+msgstr "コメントファイル"
+
+#. feedbackattachdirdesc
+#: artefact/comment/lang/en.utf8/artefact.comment.php:29
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbackattachdirdesc"
+msgid "Files attached to comments on your portfolio"
+msgstr "あなたのポートフォリオのコメントに添付されたファイル"
+
+#. feedbackattachmessage
+#: artefact/comment/lang/en.utf8/artefact.comment.php:30
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbackattachmessage"
+msgid "The attached file(s) have been added to your %s folder"
+msgstr "あなたの %s フォルダに添付ファイルが追加されました。"
+
+#. feedbackonviewbyuser
+#: artefact/comment/lang/en.utf8/artefact.comment.php:31
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbackonviewbyuser"
+msgid "Feedback on %s by %s"
+msgstr "%s のフィードバック by %s"
+
+#. feedbacksubmitted
+#: artefact/comment/lang/en.utf8/artefact.comment.php:32
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:feedbacksubmitted"
+msgid "Feedback submitted"
+msgstr "フィードバックが送信されました。"
+
+#. feedbacksubmittedmoderatedanon
+#: artefact/comment/lang/en.utf8/artefact.comment.php:33
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbacksubmittedmoderatedanon"
+msgid "Feedback submitted, awaiting moderation"
+msgstr "フィードバックが送信されました。モデレーションを待っています。"
+
+#. feedbacksubmittedprivateanon
+#: artefact/comment/lang/en.utf8/artefact.comment.php:34
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbacksubmittedprivateanon"
+msgid "Private feedback submitted"
+msgstr "プライベートフィードバックが送信されました。"
+
+#. lastcomment
+#: artefact/comment/lang/en.utf8/artefact.comment.php:35
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:lastcomment"
+msgid "Last comment"
+msgstr "最新のコメント"
+
+#. makepublic
+#: artefact/comment/lang/en.utf8/artefact.comment.php:36
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:makepublic"
+msgid "Make public"
+msgstr "パブリックにする"
+
+#. makepublicnotallowed
+#: artefact/comment/lang/en.utf8/artefact.comment.php:37
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:makepublicnotallowed"
+msgid "You are not allowed to make this comment public"
+msgstr "あなたはこのコメントをパブリックにすることはできません。"
+
+#. makepublicrequestsubject
+#: artefact/comment/lang/en.utf8/artefact.comment.php:38
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:makepublicrequestsubject"
+msgid "Request to change private comment to public"
+msgstr "リクエスト: プライベートコメントをパブリックに変更する"
+
+#. makepublicrequestbyauthormessage
+#: artefact/comment/lang/en.utf8/artefact.comment.php:39
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:makepublicrequestbyauthormessage"
+msgid "%s has requested that you make their comment public."
+msgstr "あなたがコメントをパブリックにするよう、%s がリクエストしました。"
+
+#. makepublicrequestbyownermessage
+#: artefact/comment/lang/en.utf8/artefact.comment.php:40
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:makepublicrequestbyownermessage"
+msgid "%s has requested that you make your comment public."
+msgstr "あなたがあなたのコメントをパブリックにするよう、%s がリクエストしました。"
+
+#. makepublicrequestsent
+#: artefact/comment/lang/en.utf8/artefact.comment.php:41
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:makepublicrequestsent"
+msgid ""
+"A message has been sent to %s to request that the comment be made public."
+msgstr "コメントをパブリックにするリクエストメッセージが %s に送信されました。"
+
+#. messageempty
+#: artefact/comment/lang/en.utf8/artefact.comment.php:42
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:messageempty"
+msgid "Your message is empty. Please enter a message or attach a file."
+msgstr "あなたのメッセージは空白です。メッセージまたは添付ファイルを入力してください。"
+
+#. Moderate
+#: artefact/comment/lang/en.utf8/artefact.comment.php:43
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:Moderate"
+msgid "Moderate"
+msgstr "モデレート"
+
+#. moderatecomments
+#: artefact/comment/lang/en.utf8/artefact.comment.php:44
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:moderatecomments"
+msgid "Moderate comments"
+msgstr "コメントをモデレートする"
+
+#. moderatecommentsdescription
+#: artefact/comment/lang/en.utf8/artefact.comment.php:45
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:moderatecommentsdescription"
+msgid "Comments will remain private until they are approved by you."
+msgstr "あなたに承認されるまで、コメントはプライベートのままにされます。"
+
+#. newfeedbacknotificationsubject
+#: artefact/comment/lang/en.utf8/artefact.comment.php:46
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:newfeedbacknotificationsubject"
+msgid "New feedback on %s"
+msgstr "%s の新しいフィードバック"
+
+#. placefeedback
+#: artefact/comment/lang/en.utf8/artefact.comment.php:47
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:placefeedback"
+msgid "Place feedback"
+msgstr "フィードバックを投稿する"
+
+#. rating
+#: artefact/comment/lang/en.utf8/artefact.comment.php:48
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:rating"
+msgid "Rating"
+msgstr "レーティング"
+
+#. reallydeletethiscomment
+#: artefact/comment/lang/en.utf8/artefact.comment.php:49
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:reallydeletethiscomment"
+msgid "Are you sure you want to delete this comment?"
+msgstr "本当にこのコメントを削除してもよろしいですか?"
+
+#. thiscommentisprivate
+#: artefact/comment/lang/en.utf8/artefact.comment.php:50
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:thiscommentisprivate"
+msgid "This comment is private"
+msgstr "このコメントはプライベート (非公開) です。"
+
+#. typefeedback
+#: artefact/comment/lang/en.utf8/artefact.comment.php:51
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:typefeedback"
+msgid "Feedback"
+msgstr "フィードバック"
+
+#. viewcomment
+#: artefact/comment/lang/en.utf8/artefact.comment.php:52
+msgctxt "artefact/comment/lang/en.utf8/artefact.comment.php:viewcomment"
+msgid "View comment"
+msgstr "コメントを表示する"
+
+#. youhaverequestedpublic
+#: artefact/comment/lang/en.utf8/artefact.comment.php:53
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:youhaverequestedpublic"
+msgid "You have requested that this comment be made public."
+msgstr "あなたはこのコメントをパブリックにするよう、リクエストしました。"
+
+#. feedbacknotificationhtml
+#: artefact/comment/lang/en.utf8/artefact.comment.php:54
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbacknotificationhtml"
+msgid ""
+"<div style=\"padding: 0.5em 0; border-bottom: 1px solid rgb(153,153,153);\"><strong>%s commented on %s</strong><br>%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
+"\n"
+"<div style=\"font-size: smaller; border-top: 1px solid rgb(153,153,153);\">\n"
+"<p><a href=\"%s\">Reply to this comment online</a></p>\n"
+"</div>"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid rgb(153,153,153);\"><strong>%s が %s にコメントを投稿しました。</strong><br />%s</div>\n<div style=\"margin: 1em 0;\">%s</div>\n\n<div style=\"font-size: smaller; border-top: 1px solid rgb(153,153,153);\">\n<p><a href=\"%s\">このコメントにオンライン上で返信する</a></p>\n</div>"
+
+#. feedbacknotificationtext
+#: artefact/comment/lang/en.utf8/artefact.comment.php:55
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbacknotificationtext"
+msgid ""
+"%s commented on %s%s\n"
+"------------------------------------------------------------------------\n"
+"\n"
+"%s\n"
+"\n"
+"------------------------------------------------------------------------\n"
+"To see and reply to the comment online, follow this link:\n"
+"%s"
+msgstr "%s が %s にコメントを投稿しました。%s\n------------------------------------------------------------------------\n\n%s\n\n------------------------------------------------------------------------\nオンライン上でコメントを閲覧および返信するには、次のリンクをクリックしてください:\n%s"
+
+#. feedbackdeletedhtml
+#: artefact/comment/lang/en.utf8/artefact.comment.php:56
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbackdeletedhtml"
+msgid ""
+"<div style=\"padding: 0.5em 0; border-bottom: 1px solid rgb(153,153,153);\"><strong>A comment on %s was removed</strong><br>%s</div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
+"\n"
+"<div style=\"font-size: smaller; border-top: 1px solid rgb(153,153,153);\">\n"
+"<p><a href=\"%s\">%s</a></p>\n"
+"</div>"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid rgb(153,153,153);\"><strong>%s のコメントが削除されました。</strong><br />%s</div>\n<div style=\"margin: 1em 0;\">%s</div>\n\n<div style=\"font-size: smaller; border-top: 1px solid rgb(153,153,153);\">\n<p><a href=\"%s\">%s</a></p>\n</div>"
+
+#. feedbackdeletedtext
+#: artefact/comment/lang/en.utf8/artefact.comment.php:57
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:feedbackdeletedtext"
+msgid ""
+"A comment on %s was removed%s\n"
+"------------------------------------------------------------------------\n"
+"\n"
+"%s\n"
+"\n"
+"------------------------------------------------------------------------\n"
+"To see %s online, follow this link:\n"
+"%s"
+msgstr "%s のコメントが削除されました。%s\n------------------------------------------------------------------------\n\n%s\n\n------------------------------------------------------------------------\n%s をオンライン上で閲覧するには、次のリンクをクリックしてください:\n%s"
+
+#. artefactdefaultpermissions
+#: artefact/comment/lang/en.utf8/artefact.comment.php:58
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:artefactdefaultpermissions"
+msgid "Default comment permission"
+msgstr "デフォルトのコメントパーミッション"
+
+#. artefactdefaultpermissionsdescription
+#: artefact/comment/lang/en.utf8/artefact.comment.php:59
+msgctxt ""
+"artefact/comment/lang/en.utf8/artefact.comment.php:artefactdefaultpermissionsdescription"
+msgid ""
+"The selected artefact types will have comments enabled on creation. Users "
+"can override these settings for individual artefacts."
+msgstr "選択されたアーティファクトでは、作成時にコメントの投稿が有効にされます。ユーザはそれぞれのアーティファクトにて、これらの設定をオーバーライドすることができます。"
+
+#. title
+#: artefact/file/blocktype/filedownload/lang/en.utf8/blocktype.filedownload.php:1
+msgctxt ""
+"artefact/file/blocktype/filedownload/lang/en.utf8/blocktype.filedownload.php:title"
+msgid "File(s) to download"
+msgstr "ダウンロードできるファイル"
+
+#. description
+#: artefact/file/blocktype/filedownload/lang/en.utf8/blocktype.filedownload.php:2
+msgctxt ""
+"artefact/file/blocktype/filedownload/lang/en.utf8/blocktype.filedownload.php:description"
+msgid "Select files for people to download (see Content -> Files)"
+msgstr "ユーザがダウンロードできるファイルを選択してください (「コンテンツ -> ファイル」をご覧ください)。"
+
+#. Files
+#: artefact/file/blocktype/filedownload/lang/en.utf8/blocktype.filedownload.php:3
+msgctxt ""
+"artefact/file/blocktype/filedownload/lang/en.utf8/blocktype.filedownload.php:Files"
+msgid "Files"
+msgstr "ファイル"
+
+#. title
+#: artefact/file/blocktype/folder/lang/en.utf8/blocktype.folder.php:1
+msgctxt ""
+"artefact/file/blocktype/folder/lang/en.utf8/blocktype.folder.php:title"
+msgid "Folder"
+msgstr "フォルダ"
+
+#. description
+#: artefact/file/blocktype/folder/lang/en.utf8/blocktype.folder.php:2
+msgctxt ""
+"artefact/file/blocktype/folder/lang/en.utf8/blocktype.folder.php:description"
+msgid "A single folder from your files area (see Content -> Files)"
+msgstr "あなたのファイルエリアの単独フォルダです (「コンテンツ -> ファイル」をご覧ください)。"
+
+#. defaulttitledescription
+#: artefact/file/blocktype/folder/lang/en.utf8/blocktype.folder.php:3
+msgctxt ""
+"artefact/file/blocktype/folder/lang/en.utf8/blocktype.folder.php:defaulttitledescription"
+msgid "If you leave this blank, the title of the folder will be used"
+msgstr "ここを空白にした場合、フォルダのタイトルが使用されます。"
+
+#. title
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:1
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:title"
+msgid "Image gallery"
+msgstr "イメージギャラリー"
+
+#. description1
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:2
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:description1"
+msgid "A collection of images from your files area or an external gallery"
+msgstr "あなたのファイルエリアまたは外部ギャラリーからのイメージコレクションです。"
+
+#. select
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:3
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:select"
+msgid "Image selection"
+msgstr "イメージ選択"
+
+#. selectfolder
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:4
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:selectfolder"
+msgid ""
+"Display all images from one of my folders (will include images uploaded "
+"later)"
+msgstr "私のフォルダの1つからイメージすべてを表示します (後でアップロードされたイメージを含む)。"
+
+#. selectimages
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:5
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:selectimages"
+msgid "Choose individual images to display"
+msgstr "表示するイメージを私が選択します。"
+
+#. selectexternal
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:6
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:selectexternal"
+msgid "Display images from external gallery"
+msgstr "外部ギャラリーよりイメージを表示します。"
+
+#. externalgalleryurl
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:7
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:externalgalleryurl"
+msgid "Gallery URL or RSS"
+msgstr "ギャラリーURIまたはRSS"
+
+#. externalgalleryurldesc
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:8
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:externalgalleryurldesc"
+msgid "You can embed the following external galleries:"
+msgstr "あなたは次の外部ギャラリーを埋め込むことができます:"
+
+#. width
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:9
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:width"
+msgid "Width"
+msgstr "幅"
+
+#. widthdescription
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:10
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:widthdescription"
+msgid ""
+"Specify the width for your images (in pixels). The images will be scaled to "
+"this width."
+msgstr "あなたのイメージの幅 (ピクセル) を指定してください。イメージがこの幅にサイズ変更されます。イメージのオリジナルサイズを使用する場合、空白のままにしてください。"
+
+#. style
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:11
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:style"
+msgid "Style"
+msgstr "スタイル"
+
+#. stylethumbs
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:12
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:stylethumbs"
+msgid "Thumbnails"
+msgstr "サムネイル"
+
+#. stylesquares
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:13
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:stylesquares"
+msgid "Thumbnails (square)"
+msgstr "サムネイル (正方形)"
+
+#. styleslideshow
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:14
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:styleslideshow"
+msgid "Slideshow"
+msgstr "スライドショー"
+
+#. cannotdisplayslideshow
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:15
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:cannotdisplayslideshow"
+msgid "Cannot display slideshow."
+msgstr "スライドショーを表示できません。"
+
+#. gallerysettings
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:16
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:gallerysettings"
+msgid "Gallery settings"
+msgstr "ギャラリー設定"
+
+#. useslimbox2
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:17
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:useslimbox2"
+msgid "Use Slimbox 2?"
+msgstr "Slimbox 2を使用する"
+
+#. useslimbox2desc
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:18
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:useslimbox2desc"
+msgid ""
+"Slimbox 2 (visual clone of Lightbox 2) is a simple, unobtrusive script used "
+"to overlay images on the current page."
+msgstr "Slimbox 2 (Lightbox 2のビジュアルクローン) は現在のページにイメージをオーバーレイするためのシンプルで控えめなスクリプトです。"
+
+#. photoframe
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:19
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:photoframe"
+msgid "Use photo frame?"
+msgstr "フォトフレームを使用する"
+
+#. photoframedesc
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:20
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:photoframedesc"
+msgid ""
+"If enabled, a frame will be rendered around the thumbnail of each photo in "
+"the gallery."
+msgstr "チェックした場合、ギャラリー内のそれぞれの写真のサムネイルの周りにフレームが描画されます。"
+
+#. previewwidth
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:21
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:previewwidth"
+msgid "Maximum photo width"
+msgstr "最大写真幅"
+
+#. previewwidthdesc
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:22
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:previewwidthdesc"
+msgid ""
+"Set the maximum width to which the photos will be resized when viewed with "
+"Slimbox 2."
+msgstr "Slimbox 2で表示される場合、写真がリサイズされる最大幅を設定してください。"
+
+#. flickrsettings
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:23
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:flickrsettings"
+msgid "Flickr settings"
+msgstr "Flickr設定"
+
+#. flickrapikey
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:24
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:flickrapikey"
+msgid "Flickr API key"
+msgstr "Flickr APIキー"
+
+#. flickrapikeydesc
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:25
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:flickrapikeydesc"
+msgid ""
+"To show photo sets from Flickr, you'll need a valid Flickr API key. <a "
+"href=\"http://www.flickr.com/services/api/keys/apply/\" "
+"target=\"_blank\">Apply for your key online</a>."
+msgstr "Flickrのフォトセットを表示するには、あなたは有効なFlickr APIキーが必要です。<a href=\"http://www.flickr.com/services/api/keys/apply/\" target=\"_blank\">あなたのキーをオンラインで取得してください</a>。"
+
+#. flickrsets
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:26
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:flickrsets"
+msgid "Flickr sets"
+msgstr "Flickrセット"
+
+#. pbsettings
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:27
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:pbsettings"
+msgid "Photobucket settings"
+msgstr "Photobucket設定"
+
+#. pbapikey
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:28
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:pbapikey"
+msgid "Photobucket API key"
+msgstr "Photobucket APIキー"
+
+#. pbapikeydesc
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:29
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:pbapikeydesc"
+msgid ""
+"To show photo albums from Photobucket, you'll need a valid API key and API "
+"private key.<br>Go to the <a href=\"http://developer.photobucket.com/\" "
+"target=\"_blank\">Photobucket developer web site</a>, agree to the terms of "
+"service, sign up, and get the API keys."
+msgstr "Photobucketのフォトアルバムを表示するには、あなたは有効なAPIキーおよびAPIプライベートキーが必要です。<br /><a href=\"http://developer.photobucket.com/\" target=\"_blank\">Photobucket開発者ウェブサイト</a>にアクセスして利用規約に同意、サインアップした後、APIキーを取得してください。"
+
+#. pbapiprivatekey
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:30
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:pbapiprivatekey"
+msgid "Photobucket API private key"
+msgstr "Photobucket APIプライベートキー"
+
+#. photobucketphotosandalbums
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:31
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:photobucketphotosandalbums"
+msgid "Photobucket user photos and albums"
+msgstr "Photobucketユーザ写真およびアルバム"
+
+#. Photo
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:32
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:Photo"
+msgid "Photo"
+msgstr "写真"
+
+#. by
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:33
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:by"
+msgid "by"
+msgstr "by"
+
+#. panoramiocopyright
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:34
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:panoramiocopyright"
+msgid "Photos provided by Panoramio are under the copyright of their owners."
+msgstr "Panoramioから提供された写真は、そのオーナーが著作権を有します。"
+
+#. panoramiouserphotos
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:35
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:panoramiouserphotos"
+msgid "Panoramio user photos"
+msgstr "Panoramioユーザ写真"
+
+#. picasaalbums
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:36
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:picasaalbums"
+msgid "Picasa albums"
+msgstr "Picasaアルバム"
+
+#. windowslivephotoalbums
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:37
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:windowslivephotoalbums"
+msgid "Windows Live photo gallery albums"
+msgstr "Windows Liveフォトギャラリーアルバム"
+
+#. externalnotsupported
+#: artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:38
+msgctxt ""
+"artefact/file/blocktype/gallery/lang/en.utf8/blocktype.gallery.php:externalnotsupported"
+msgid "The external URL you provided is not supported"
+msgstr "あなたが提供した外部URIはサポートされていません。"
+
+#. title
+#: artefact/file/blocktype/html/lang/en.utf8/blocktype.html.php:1
+msgctxt "artefact/file/blocktype/html/lang/en.utf8/blocktype.html.php:title"
+msgid "Some HTML"
+msgstr "HTML"
+
+#. description
+#: artefact/file/blocktype/html/lang/en.utf8/blocktype.html.php:2
+msgctxt ""
+"artefact/file/blocktype/html/lang/en.utf8/blocktype.html.php:description"
+msgid "A single html file from your files area"
+msgstr "あなたのファイルエリアの単独HTMLファイルです。"
+
+#. title
+#: artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:1
+msgctxt "artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:title"
+msgid "Image"
+msgstr "イメージ"
+
+#. description
+#: artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:2
+msgctxt ""
+"artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:description"
+msgid "A single image from your files area"
+msgstr "あなたのファイルエリアの単独イメージです。"
+
+#. showdescription
+#: artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:3
+msgctxt ""
+"artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:showdescription"
+msgid "Show description"
+msgstr "説明を表示しますか?"
+
+#. width
+#: artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:4
+msgctxt "artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:width"
+msgid "Width"
+msgstr "幅"
+
+#. widthdescription1
+#: artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:5
+msgctxt ""
+"artefact/file/blocktype/image/lang/en.utf8/blocktype.image.php:widthdescription1"
+msgid ""
+"Specify the width for your image (in pixels). The image will be scaled to "
+"this width. Leave it blank to use the original size of the image. If the "
+"original size is too big, it will be scaled to the width of the block."
+msgstr "あなたのイメージの幅 (ピクセル) を指定してください。イメージがこの幅にサイズ変更されます。イメージのオリジナルサイズを使用する場合、空白のままにしてください。オリジナルサイズが大きすぎる場合、ブロック幅に縮小されます。"
+
+#. title
+#: artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:1
+msgctxt ""
+"artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:title"
+msgid "Embedded media"
+msgstr "埋め込みメディア"
+
+#. description
+#: artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:2
+msgctxt ""
+"artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:description"
+msgid "Select files for embedded viewing"
+msgstr "埋め込みメディアのファイルを選択してください。"
+
+#. media
+#: artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:3
+msgctxt ""
+"artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:media"
+msgid "Media"
+msgstr "メディア"
+
+#. flashanimation
+#: artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:4
+msgctxt ""
+"artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:flashanimation"
+msgid "Flash animation"
+msgstr "Flashアニメーション"
+
+#. typeremoved
+#: artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:5
+msgctxt ""
+"artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:typeremoved"
+msgid ""
+"This block points to a media type that has been disallowed by the "
+"administrator"
+msgstr "このブロックでは管理者によって許可されないメディアタイプを示します。"
+
+#. configdesc
+#: artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:6
+msgctxt ""
+"artefact/file/blocktype/internalmedia/lang/en.utf8/blocktype.internalmedia.php:configdesc"
+msgid ""
+"Configure which file types users can embed into this block. If you disable a"
+" filetype that has already been used in a block, it will not be rendered any"
+" more"
+msgstr "このブロックにユーザが埋め込むことのできるファイルタイプを設定してください。すでにブロックで使用されているファイルタイプを無効にした場合、そのファイルは表示されなくなります。"
+
+#. title
+#: artefact/file/blocktype/pdf/lang/en.utf8/blocktype.pdf.php:1
+msgctxt "artefact/file/blocktype/pdf/lang/en.utf8/blocktype.pdf.php:title"
+msgid "PDF"
+msgstr "PDF"
+
+#. description
+#: artefact/file/blocktype/pdf/lang/en.utf8/blocktype.pdf.php:2
+msgctxt ""
+"artefact/file/blocktype/pdf/lang/en.utf8/blocktype.pdf.php:description"
+msgid "A single PDF file from your files area"
+msgstr "あなたのファイルエリアの単独PDFファイルです。"
+
+#. pluginname
+#: artefact/file/lang/en.utf8/artefact.file.php:1
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:pluginname"
+msgid "Files"
+msgstr "ファイル"
+
+#. sitefilesloaded
+#: artefact/file/lang/en.utf8/artefact.file.php:2
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:sitefilesloaded"
+msgid "Site files loaded"
+msgstr "サイトファイルが読み込まれました。"
+
+#. addafile
+#: artefact/file/lang/en.utf8/artefact.file.php:3
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:addafile"
+msgid "Add a file"
+msgstr "ファイルを追加する"
+
+#. archive
+#: artefact/file/lang/en.utf8/artefact.file.php:4
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:archive"
+msgid "Archive"
+msgstr "アーカイブ"
+
+#. bytes
+#: artefact/file/lang/en.utf8/artefact.file.php:5
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:bytes"
+msgid "bytes"
+msgstr "バイト"
+
+#. cannotviewfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:6
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:cannotviewfolder"
+msgid "You do not have permission to view the content of this folder."
+msgstr "あなたにはこのフォルダのコンテンツを閲覧するパーミッションがありません。"
+
+#. cannoteditfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:7
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:cannoteditfolder"
+msgid "You do not have permission to add content to this folder."
+msgstr "あなたにはこのフォルダにコンテンツを追加するパーミッションがありません。"
+
+#. cannoteditfoldersubmitted
+#: artefact/file/lang/en.utf8/artefact.file.php:8
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:cannoteditfoldersubmitted"
+msgid "You cannot add content to a folder in a submitted page."
+msgstr "あなたは送信済みページのフォルダにコンテンツを追加できません。"
+
+#. cannotremovefromsubmittedfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:9
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:cannotremovefromsubmittedfolder"
+msgid "You cannot remove content from a folder in a submitted page."
+msgstr "あなたは送信済みページのフォルダからコンテンツを削除できません。"
+
+#. cannotextractfilesubmitted
+#: artefact/file/lang/en.utf8/artefact.file.php:10
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:cannotextractfilesubmitted"
+msgid "You cannot extract a file in a submitted page."
+msgstr "あなたは送信済みページでファイルを解凍できません。"
+
+#. cannotextractfileinfoldersubmitted
+#: artefact/file/lang/en.utf8/artefact.file.php:11
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:cannotextractfileinfoldersubmitted"
+msgid "You cannot extract a file in a folder in a submitted page."
+msgstr "あなたは送信済みページのフォルダ内でファイルを解凍できません。"
+
+#. changessaved
+#: artefact/file/lang/en.utf8/artefact.file.php:12
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:changessaved"
+msgid "Changes saved"
+msgstr "変更が保存されました。"
+
+#. clickanddragtomovefile
+#: artefact/file/lang/en.utf8/artefact.file.php:13
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:clickanddragtomovefile"
+msgid "Click and drag to move %s"
+msgstr "%s を移動するには、クリック&ドラッグしてください。"
+
+#. contents
+#: artefact/file/lang/en.utf8/artefact.file.php:14
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:contents"
+msgid "Contents"
+msgstr "コンテンツ"
+
+#. copyrightnotice
+#: artefact/file/lang/en.utf8/artefact.file.php:15
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:copyrightnotice"
+msgid "Copyright notice"
+msgstr "著作権表示"
+
+#. create
+#: artefact/file/lang/en.utf8/artefact.file.php:16
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:create"
+msgid "Create"
+msgstr "作成"
+
+#. Created
+#: artefact/file/lang/en.utf8/artefact.file.php:17
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Created"
+msgid "Created"
+msgstr "作成日時"
+
+#. createfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:18
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:createfolder"
+msgid "Create folder"
+msgstr "フォルダを作成する"
+
+#. confirmdeletefile
+#: artefact/file/lang/en.utf8/artefact.file.php:19
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:confirmdeletefile"
+msgid "Are you sure you want to delete this file?"
+msgstr "本当にこのファイルを削除してもよろしいですか?"
+
+#. confirmdeletefolder
+#: artefact/file/lang/en.utf8/artefact.file.php:20
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:confirmdeletefolder"
+msgid "Are you sure you want to delete this folder?"
+msgstr "本当にこのフォルダを削除してもよろしいですか?"
+
+#. confirmdeletefolderandcontents
+#: artefact/file/lang/en.utf8/artefact.file.php:21
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:confirmdeletefolderandcontents"
+msgid "Are you sure you want to delete this folder and its content?"
+msgstr "本当にこのフォルダおよびコンテンツを削除してもよろしいですか?"
+
+#. customagreement
+#: artefact/file/lang/en.utf8/artefact.file.php:22
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:customagreement"
+msgid "Custom agreement"
+msgstr "カスタム同意書"
+
+#. Date
+#: artefact/file/lang/en.utf8/artefact.file.php:23
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Date"
+msgid "Date"
+msgstr "登録日"
+
+#. resizeonupload
+#: artefact/file/lang/en.utf8/artefact.file.php:24
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:resizeonupload"
+msgid "Resize images on upload"
+msgstr "アップロード時、イメージをリサイズする"
+
+#. resizeonuploaddescription
+#: artefact/file/lang/en.utf8/artefact.file.php:25
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:resizeonuploaddescription"
+msgid "Automatically resize large images on upload"
+msgstr "アップロード時、自動的に大きなイメージをリサイズします。"
+
+#. resizeonuploaduseroption1
+#: artefact/file/lang/en.utf8/artefact.file.php:26
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:resizeonuploaduseroption1"
+msgid "User option"
+msgstr "ユーザオプション"
+
+#. resizeonuploaduseroptiondescription1
+#: artefact/file/lang/en.utf8/artefact.file.php:27
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:resizeonuploaduseroptiondescription1"
+msgid ""
+"If checked, show users the option to enable or disable automatic resizing of"
+" large images when uploading."
+msgstr "チェックした場合、アップロード時に自動的に大きなイメージをリサイズするオプションをユーザに表示します。"
+
+#. resizeonuploadenable1
+#: artefact/file/lang/en.utf8/artefact.file.php:28
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:resizeonuploadenable1"
+msgid "Resize large images automatically"
+msgstr "大きなイメージを自動的にリサイズする"
+
+#. resizeonuploadenablefilebrowser1
+#: artefact/file/lang/en.utf8/artefact.file.php:29
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:resizeonuploadenablefilebrowser1"
+msgid "Automatic resizing of images larger than %sx%s px (recommended)"
+msgstr "%sx%s pxより大きなイメージを自動的にリサイズします (推奨)。"
+
+#. resizeonuploadmaxwidth
+#: artefact/file/lang/en.utf8/artefact.file.php:30
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:resizeonuploadmaxwidth"
+msgid "Maximum width"
+msgstr "最大幅"
+
+#. resizeonuploadmaxheight
+#: artefact/file/lang/en.utf8/artefact.file.php:31
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:resizeonuploadmaxheight"
+msgid "Maximum height"
+msgstr "最大高さ"
+
+#. resizeonuploadenabledescription1
+#: artefact/file/lang/en.utf8/artefact.file.php:32
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:resizeonuploadenabledescription1"
+msgid ""
+"If checked, large images will be resized on upload if they exceed the "
+"maximum width and height settings."
+msgstr "チェックした場合、最大高さおよび幅の設定値を超えた大きなイメージをアップロード時にリサイズします。"
+
+#. defaultagreement
+#: artefact/file/lang/en.utf8/artefact.file.php:33
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:defaultagreement"
+msgid "Default agreement"
+msgstr "デフォルト同意書"
+
+#. defaultquota
+#: artefact/file/lang/en.utf8/artefact.file.php:34
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:defaultquota"
+msgid "Default quota"
+msgstr "デフォルトクオータ"
+
+#. defaultquotadescription
+#: artefact/file/lang/en.utf8/artefact.file.php:35
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:defaultquotadescription"
+msgid ""
+"You can set the amount of disk space that new users will have as their quota"
+" here."
+msgstr "あなたは新しいユーザがクオータとして持つことのできるディスクスペース総量をここで設定することができます。既存のユーザのクオータは変更されません。"
+
+#. updateuserquotas
+#: artefact/file/lang/en.utf8/artefact.file.php:36
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:updateuserquotas"
+msgid "Update user quotas"
+msgstr "ユーザクオータを更新する"
+
+#. updateuserquotasdesc
+#: artefact/file/lang/en.utf8/artefact.file.php:37
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:updateuserquotasdesc"
+msgid ""
+"If checked, the default quota you choose above will be applied to all "
+"existing users."
+msgstr "チェックした場合、あなたが上で選択したデフォルトクオータが既存のユーザすべてに適用されます。"
+
+#. institutionoverride
+#: artefact/file/lang/en.utf8/artefact.file.php:38
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:institutionoverride"
+msgid "Institution quota"
+msgstr "インスティテューションクオータ"
+
+#. institutionoverridedescription
+#: artefact/file/lang/en.utf8/artefact.file.php:39
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:institutionoverridedescription"
+msgid ""
+"You can allow institution administrators to set user file quotas and have "
+"default quotas for each institution."
+msgstr "あなたはインスティテューション管理者がユーザに与えることのできる最大クオータを設定することができます。同時にそれぞれのインスティテューションのデフォルトクオータを設定することができます。"
+
+#. maxquotaenabled
+#: artefact/file/lang/en.utf8/artefact.file.php:40
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:maxquotaenabled"
+msgid "Enforce a sitewide maximum quota"
+msgstr "サイト全体に最大クオータを強制する"
+
+#. maxquota
+#: artefact/file/lang/en.utf8/artefact.file.php:41
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:maxquota"
+msgid "Maximum quota"
+msgstr "最大クオータ"
+
+#. maxquotatoolow
+#: artefact/file/lang/en.utf8/artefact.file.php:42
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:maxquotatoolow"
+msgid "The maximum quota cannot be lower than the default quota."
+msgstr "最大クオータはデフォルトクオータより小さくすることができません。"
+
+#. maxquotaexceeded
+#: artefact/file/lang/en.utf8/artefact.file.php:43
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:maxquotaexceeded"
+msgid ""
+"You specified a quota above the maximum available setting for this site "
+"(%s). Try specifying a lower value or contact the site administrators to "
+"have them increase the maximum quota."
+msgstr "あなたはこのサイトに設定されている最大利用可能なサイズ (%s) を超えてクオータを指定しました。値を小さくする、または最大サイズを増やすため、サイト管理者に連絡してください。"
+
+#. maxquotaexceededform
+#: artefact/file/lang/en.utf8/artefact.file.php:44
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:maxquotaexceededform"
+msgid "Please specify a file quota of less than %s."
+msgstr "%s より小さなファイルクオータを指定してください。"
+
+#. maxquotadescription
+#: artefact/file/lang/en.utf8/artefact.file.php:45
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:maxquotadescription"
+msgid ""
+"You can set the maximum quota that an administrator can give to a user. "
+"Existing user quotas will not be affected."
+msgstr "あなたは管理者がユーザに与えることのできる最大クオータを設定することができます。既存のユーザのクオータは影響を受けません。"
+
+#. defaultgroupquota
+#: artefact/file/lang/en.utf8/artefact.file.php:46
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:defaultgroupquota"
+msgid "Default group quota"
+msgstr "デフォルトグループクオータ"
+
+#. defaultgroupquotadescription
+#: artefact/file/lang/en.utf8/artefact.file.php:47
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:defaultgroupquotadescription"
+msgid ""
+"You can set the amount of disk space that new groups can use in their files "
+"area."
+msgstr "あなたは新しいグループがファイルエリアに使用することのできる最大クオータを設定することができます。既存のグループのクオータは影響を受けません。"
+
+#. updategroupquotas
+#: artefact/file/lang/en.utf8/artefact.file.php:48
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:updategroupquotas"
+msgid "Update group quotas"
+msgstr "グループクオータを更新する"
+
+#. updategroupquotasdesc
+#: artefact/file/lang/en.utf8/artefact.file.php:49
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:updategroupquotasdesc"
+msgid ""
+"If checked, the default quota you choose above will be applied to all "
+"existing groups."
+msgstr "チェックした場合、あなたが上で選択したデフォルトクオータが既存のグループすべてに適用されます。"
+
+#. deletingfailed
+#: artefact/file/lang/en.utf8/artefact.file.php:50
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:deletingfailed"
+msgid "Deleting failed: the file or folder does not exist any more"
+msgstr "削除に失敗しました: すでにファイルまたはフォルダが存在していません。"
+
+#. deletefile?
+#: artefact/file/lang/en.utf8/artefact.file.php:51
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:deletefile?"
+msgid "Are you sure you want to delete this file?"
+msgstr "本当にこのファイルを削除してもよろしいですか?"
+
+#. deletefolder?
+#: artefact/file/lang/en.utf8/artefact.file.php:52
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:deletefolder?"
+msgid "Are you sure you want to delete this folder?"
+msgstr "本当にこのフォルダを削除してもよろしいですか?"
+
+#. Description
+#: artefact/file/lang/en.utf8/artefact.file.php:53
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Description"
+msgid "Description"
+msgstr "説明"
+
+#. destination
+#: artefact/file/lang/en.utf8/artefact.file.php:54
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:destination"
+msgid "Destination"
+msgstr "作成場所"
+
+#. Details
+#: artefact/file/lang/en.utf8/artefact.file.php:55
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Details"
+msgid "Details"
+msgstr "詳細"
+
+#. Download
+#: artefact/file/lang/en.utf8/artefact.file.php:56
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Download"
+msgid "Download"
+msgstr "ダウンロード"
+
+#. downloadfile
+#: artefact/file/lang/en.utf8/artefact.file.php:57
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:downloadfile"
+msgid "Download %s"
+msgstr "%s をダウンロードする"
+
+#. downloadoriginalversion
+#: artefact/file/lang/en.utf8/artefact.file.php:58
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:downloadoriginalversion"
+msgid "Download the original version"
+msgstr "オリジナルバージョンをダウンロードする"
+
+#. dragdrophere
+#: artefact/file/lang/en.utf8/artefact.file.php:59
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:dragdrophere"
+msgid "Drop files here to upload"
+msgstr "アップロードするには、ここにファイルをドロップしてください。"
+
+#. editfile
+#: artefact/file/lang/en.utf8/artefact.file.php:60
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:editfile"
+msgid "Edit file"
+msgstr "ファイルを編集する"
+
+#. editfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:61
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:editfolder"
+msgid "Edit folder"
+msgstr "フォルダを編集する"
+
+#. editingfailed
+#: artefact/file/lang/en.utf8/artefact.file.php:62
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:editingfailed"
+msgid "Editing failed: file or folder does not exist any more"
+msgstr "編集に失敗しました: すでにファイルまたはフォルダが存在していません。"
+
+#. emptyfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:63
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:emptyfolder"
+msgid "Empty folder"
+msgstr "空のフォルダ"
+
+#. file
+#: artefact/file/lang/en.utf8/artefact.file.php:64
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:file"
+msgid ""
+"File'; // Capitalised to be consistent with names of all the other artefact "
+"types$string['File'] = 'File"
+msgstr "ファイル"
+
+#. fileadded
+#: artefact/file/lang/en.utf8/artefact.file.php:65
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:fileadded"
+msgid "File selected"
+msgstr "ファイルが選択されました。"
+
+#. filealreadyindestination
+#: artefact/file/lang/en.utf8/artefact.file.php:66
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:filealreadyindestination"
+msgid "The file you moved is already in that folder"
+msgstr "あなたが移動しようとしたファイルはすでにフォルダに登録されています。"
+
+#. fileappearsinviews
+#: artefact/file/lang/en.utf8/artefact.file.php:67
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:fileappearsinviews"
+msgid "This file appears in one or more of your pages."
+msgstr "このファイルはあなたの1つまたはそれ以上のページに表示されます。"
+
+#. fileattachedtoportfolioitems
+#: artefact/file/lang/en.utf8/artefact.file.php:68
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:fileattachedtoportfolioitems"
+msgid ""
+"rray(    0 => 'This file is attached to %s other item in your portfolio.',\n"
+"    1 => 'This file is attached to %s other items in your portfolio.',\n"
+");"
+msgstr "rray(    0 => 'このファイルは、あなたのポートフォリオ内の %s アイテムに添付されました。',\n);"
+
+#. profileiconattachedtoportfolioitems
+#: artefact/file/lang/en.utf8/artefact.file.php:69
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconattachedtoportfolioitems"
+msgid "This profile picture is attached to other items in your portfolio."
+msgstr "このプロファイル写真はあなたのポートフォリオ内の他のアイテムに添付されます。"
+
+#. profileiconappearsinviews
+#: artefact/file/lang/en.utf8/artefact.file.php:70
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconappearsinviews"
+msgid "This profile picture appears in one or more of your pages."
+msgstr "このプロファイル写真はあなたの1つまたはそれ以上のページに表示されます。"
+
+#. fileremoved
+#: artefact/file/lang/en.utf8/artefact.file.php:71
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:fileremoved"
+msgid "File removed"
+msgstr "ファイルが削除されました。"
+
+#. files
+#: artefact/file/lang/en.utf8/artefact.file.php:72
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:files"
+msgid "files"
+msgstr "ファイル"
+
+#. Files
+#: artefact/file/lang/en.utf8/artefact.file.php:73
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Files"
+msgid "Files"
+msgstr "ファイル"
+
+#. fileexists
+#: artefact/file/lang/en.utf8/artefact.file.php:74
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:fileexists"
+msgid "File exists"
+msgstr "ファイル登録済み"
+
+#. fileexistsoverwritecancel
+#: artefact/file/lang/en.utf8/artefact.file.php:75
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:fileexistsoverwritecancel"
+msgid ""
+"A file with that name already exists. You can try a different name or "
+"overwrite the existing file."
+msgstr "このファイル名のファイルはすでに登録されています。あなたは別のファイル名にするか、既存のファイルに上書きすることができます。"
+
+#. filelistloaded
+#: artefact/file/lang/en.utf8/artefact.file.php:76
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:filelistloaded"
+msgid "File list loaded"
+msgstr "ファイルリストが読み込まれました。"
+
+#. filemoved
+#: artefact/file/lang/en.utf8/artefact.file.php:77
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:filemoved"
+msgid "File moved successfully"
+msgstr "ファイルが正常に移動されました。"
+
+#. filenamefieldisrequired
+#: artefact/file/lang/en.utf8/artefact.file.php:78
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:filenamefieldisrequired"
+msgid "The file field is required."
+msgstr "ファイルフィールドは必須入力項目です。"
+
+#. filenamefieldisrequired1
+#: artefact/file/lang/en.utf8/artefact.file.php:79
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:filenamefieldisrequired1"
+msgid "The file / folder name is required."
+msgstr "ファイル/フォルダ名は必須入力項目です。"
+
+#. fileinstructions
+#: artefact/file/lang/en.utf8/artefact.file.php:80
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:fileinstructions"
+msgid ""
+"Upload your images, documents or other files for inclusion in pages. You can"
+" select multiple files to upload them at once. Drag and drop the icons to "
+"move files between folders."
+msgstr "ページに含めるため、あなたのイメージ、ドキュメントまたは他のファイルをアップロードしてください。あなたは一度にアップロードするため、複数のファイルを選択することができます。フォルダを移動するには、フォルダ上にドラッグ&ドロップしてください。"
+
+#. filethingdeleted
+#: artefact/file/lang/en.utf8/artefact.file.php:81
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:filethingdeleted"
+msgid "%s deleted"
+msgstr "%s が削除されました。"
+
+#. filewithnameexists
+#: artefact/file/lang/en.utf8/artefact.file.php:82
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:filewithnameexists"
+msgid "A file or folder with the name \"%s\" already exists."
+msgstr "名称「 %s 」のファイルまたはフォルダはすでに存在しています。"
+
+#. folder
+#: artefact/file/lang/en.utf8/artefact.file.php:83
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:folder"
+msgid "Folder"
+msgstr "フォルダ"
+
+#. Folder
+#: artefact/file/lang/en.utf8/artefact.file.php:84
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Folder"
+msgid "Folder"
+msgstr "フォルダ"
+
+#. folderappearsinviews
+#: artefact/file/lang/en.utf8/artefact.file.php:85
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:folderappearsinviews"
+msgid "This folder appears in one or more of your pages."
+msgstr "このフォルダはあなたの1つまたはそれ以上のページに使用されています。"
+
+#. Folders
+#: artefact/file/lang/en.utf8/artefact.file.php:86
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Folders"
+msgid "Folders"
+msgstr "フォルダ"
+
+#. foldernotempty
+#: artefact/file/lang/en.utf8/artefact.file.php:87
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:foldernotempty"
+msgid "This folder is not empty."
+msgstr "このフォルダは空ではありません。"
+
+#. foldercontainsprofileicons
+#: artefact/file/lang/en.utf8/artefact.file.php:88
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:foldercontainsprofileicons"
+msgid ""
+"rray(        0 => 'The folder contains %s profile picture.',\n"
+"        1 => 'The folder contains %s profile pictures.',\n"
+");"
+msgstr "rray(    0 => 'フォルダには %s 個のプロファイル写真を含みます。',\n);"
+
+#. foldercreated
+#: artefact/file/lang/en.utf8/artefact.file.php:89
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:foldercreated"
+msgid "Folder created"
+msgstr "フォルダが作成されました。"
+
+#. foldernamerequired
+#: artefact/file/lang/en.utf8/artefact.file.php:90
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:foldernamerequired"
+msgid "Please provide a name for the new folder."
+msgstr "新しいフォルダ名を入力してください。"
+
+#. gotofolder
+#: artefact/file/lang/en.utf8/artefact.file.php:91
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:gotofolder"
+msgid "Go to %s"
+msgstr "%s に移動する"
+
+#. groupfiles
+#: artefact/file/lang/en.utf8/artefact.file.php:92
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:groupfiles"
+msgid "Group files"
+msgstr "グループファイル"
+
+#. home
+#: artefact/file/lang/en.utf8/artefact.file.php:93
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:home"
+msgid "Home"
+msgstr "ホーム"
+
+#. htmlremovedmessage
+#: artefact/file/lang/en.utf8/artefact.file.php:94
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:htmlremovedmessage"
+msgid ""
+"You are viewing <strong>%s</strong> by <a href=\"%s\">%s</a>. The file "
+"displayed below has been filtered to remove malicious content and is only a "
+"rough representation of the original."
+msgstr "あなたが閲覧しているファイル「 <strong>%s</strong> 」は<a href=\"%s\">%s</a> によりアップロードされたものです。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。"
+
+#. htmlremovedmessagenoowner
+#: artefact/file/lang/en.utf8/artefact.file.php:95
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:htmlremovedmessagenoowner"
+msgid ""
+"You are viewing <strong>%s</strong>. The file displayed below has been "
+"filtered to remove malicious content and is only a rough representation of "
+"the original."
+msgstr "あなたはファイル「 <strong>%s</strong> 」を閲覧しています。以下に表示されているファイルは不適切なコンテンツのため、削除に向けてフィルタされています。また、ここではオリジナルファイルの概略のみ表示されています。"
+
+#. image
+#: artefact/file/lang/en.utf8/artefact.file.php:96
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:image"
+msgid "Image"
+msgstr "イメージ"
+
+#. Images
+#: artefact/file/lang/en.utf8/artefact.file.php:97
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Images"
+msgid "Images"
+msgstr "イメージ"
+
+#. imagesdir
+#: artefact/file/lang/en.utf8/artefact.file.php:98
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:imagesdir"
+msgid "images"
+msgstr "イメージ"
+
+#. imagesdirdesc
+#: artefact/file/lang/en.utf8/artefact.file.php:99
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:imagesdirdesc"
+msgid "Image files"
+msgstr "イメージファイル"
+
+#. lastmodified
+#: artefact/file/lang/en.utf8/artefact.file.php:100
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:lastmodified"
+msgid "Last modified"
+msgstr "最終更新日時"
+
+#. myfiles
+#: artefact/file/lang/en.utf8/artefact.file.php:101
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:myfiles"
+msgid "My files"
+msgstr "マイファイル"
+
+#. Name
+#: artefact/file/lang/en.utf8/artefact.file.php:102
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Name"
+msgid "Name"
+msgstr "名称"
+
+#. namefieldisrequired
+#: artefact/file/lang/en.utf8/artefact.file.php:103
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:namefieldisrequired"
+msgid "The name field is required"
+msgstr "名称フィールドは必須入力項目です。"
+
+#. maxuploadsize
+#: artefact/file/lang/en.utf8/artefact.file.php:104
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:maxuploadsize"
+msgid "Maximum upload size"
+msgstr "最大アップロードサイズ"
+
+#. movefaileddestinationinartefact
+#: artefact/file/lang/en.utf8/artefact.file.php:105
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:movefaileddestinationinartefact"
+msgid "You cannot put a folder inside itself."
+msgstr "あなたはフォルダの中に自フォルダを入れることはできません。"
+
+#. movefaileddestinationnotfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:106
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:movefaileddestinationnotfolder"
+msgid "You can only move files into folders."
+msgstr "あなたはフォルダ内にのみファイルを移動することができます。"
+
+#. movefailednotfileartefact
+#: artefact/file/lang/en.utf8/artefact.file.php:107
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:movefailednotfileartefact"
+msgid "Only file, folder and image artefacts can be moved."
+msgstr "ファイル、フォルダおよびイメージアーティファクトのみ移動できます。"
+
+#. movefailednotowner
+#: artefact/file/lang/en.utf8/artefact.file.php:108
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:movefailednotowner"
+msgid "You do not have the permission to move the file into this folder."
+msgstr "あなたにはこのフォルダにファイルを移動するパーミッションがありません。"
+
+#. movefailed
+#: artefact/file/lang/en.utf8/artefact.file.php:109
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:movefailed"
+msgid "Move failed."
+msgstr "移動に失敗しました。"
+
+#. movingfailed
+#: artefact/file/lang/en.utf8/artefact.file.php:110
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:movingfailed"
+msgid "Moving failed: file or folder does not exist any more."
+msgstr "移動に失敗しました: すでにファイルまたはフォルダが存在していません。"
+
+#. nametoolong
+#: artefact/file/lang/en.utf8/artefact.file.php:111
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:nametoolong"
+msgid "That name is too long. Please choose a shorter one."
+msgstr "名称が長すぎます。さらに短い名称を入力してください。"
+
+#. nofilesfound
+#: artefact/file/lang/en.utf8/artefact.file.php:112
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:nofilesfound"
+msgid "No files found"
+msgstr "ファイルはありません。"
+
+#. notpublishable
+#: artefact/file/lang/en.utf8/artefact.file.php:113
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:notpublishable"
+msgid "You do not have the permission to publish this file."
+msgstr "あなたにはこのファイルを公開するパーミッションがありません。"
+
+#. overwrite
+#: artefact/file/lang/en.utf8/artefact.file.php:114
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:overwrite"
+msgid "Overwrite"
+msgstr "上書き"
+
+#. Owner
+#: artefact/file/lang/en.utf8/artefact.file.php:115
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Owner"
+msgid "Owner"
+msgstr "オーナー"
+
+#. parentfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:116
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:parentfolder"
+msgid "Parent folder"
+msgstr "親フォルダ"
+
+#. Preview
+#: artefact/file/lang/en.utf8/artefact.file.php:117
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Preview"
+msgid "Preview"
+msgstr "プレビュー"
+
+#. requireagreement
+#: artefact/file/lang/en.utf8/artefact.file.php:118
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:requireagreement"
+msgid "Require agreement"
+msgstr "同意を必要とする"
+
+#. removingfailed
+#: artefact/file/lang/en.utf8/artefact.file.php:119
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:removingfailed"
+msgid "Removing failed: file or folder does not exist any more."
+msgstr "削除に失敗しました: すでにファイルまたはフォルダが存在していません。"
+
+#. savechanges
+#: artefact/file/lang/en.utf8/artefact.file.php:120
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:savechanges"
+msgid "Save changes"
+msgstr "変更を保存する"
+
+#. selectafile
+#: artefact/file/lang/en.utf8/artefact.file.php:121
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:selectafile"
+msgid "Select a file"
+msgstr "ファイルを選択する"
+
+#. selectingfailed
+#: artefact/file/lang/en.utf8/artefact.file.php:122
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:selectingfailed"
+msgid "Selecting failed: file or folder does not exist any more."
+msgstr "選択に失敗しました: すでにファイルまたはフォルダが存在していません。"
+
+#. Size
+#: artefact/file/lang/en.utf8/artefact.file.php:123
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Size"
+msgid "Size"
+msgstr "サイズ"
+
+#. License
+#: artefact/file/lang/en.utf8/artefact.file.php:124
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:License"
+msgid "License"
+msgstr "ライセンス"
+
+#. spaceused
+#: artefact/file/lang/en.utf8/artefact.file.php:125
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:spaceused"
+msgid "Space used"
+msgstr "使用スペース"
+
+#. timeouterror
+#: artefact/file/lang/en.utf8/artefact.file.php:126
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:timeouterror"
+msgid "File upload failed: try uploading the file again."
+msgstr "ファイルのアップロードに失敗しました: ファイルのアップロードを再度お試しください。"
+
+#. title
+#: artefact/file/lang/en.utf8/artefact.file.php:127
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:title"
+msgid "Name"
+msgstr "名称"
+
+#. titlefieldisrequired
+#: artefact/file/lang/en.utf8/artefact.file.php:128
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:titlefieldisrequired"
+msgid "The name field is required."
+msgstr "名称フィールドは必須入力項目です。"
+
+#. Type
+#: artefact/file/lang/en.utf8/artefact.file.php:129
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Type"
+msgid "Type"
+msgstr "タイプ"
+
+#. upload
+#: artefact/file/lang/en.utf8/artefact.file.php:130
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:upload"
+msgid "Upload"
+msgstr "アップロード"
+
+#. uploadagreement
+#: artefact/file/lang/en.utf8/artefact.file.php:131
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadagreement"
+msgid "Upload agreement"
+msgstr "アップロード同意書"
+
+#. uploadagreementdescription
+#: artefact/file/lang/en.utf8/artefact.file.php:132
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:uploadagreementdescription"
+msgid ""
+"Enable this option if you would like to force users to agree to the text "
+"below before they can upload a file to the site."
+msgstr "サイトにファイルをアップロードする前、あなたが以下のテキストへの同意をユーザに強制したい場合、このオプションを有効にしてください。"
+
+#. uploadexceedsquota
+#: artefact/file/lang/en.utf8/artefact.file.php:133
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadexceedsquota"
+msgid ""
+"Uploading this file would exceed your disk quota. Try deleting some files "
+"you have uploaded."
+msgstr "このファイルをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。"
+
+#. uploadexceedsquotagroup
+#: artefact/file/lang/en.utf8/artefact.file.php:134
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadexceedsquotagroup"
+msgid ""
+"Uploading this file would exceed this group's disk quota. Try deleting some "
+"files you have uploaded."
+msgstr "このファイルをアップロードすることで、このグループのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。"
+
+#. uploadfile
+#: artefact/file/lang/en.utf8/artefact.file.php:135
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadfile"
+msgid "Upload file"
+msgstr "ファイルをアップロードする"
+
+#. uploadfileexistsoverwritecancel
+#: artefact/file/lang/en.utf8/artefact.file.php:136
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:uploadfileexistsoverwritecancel"
+msgid ""
+"A file with that name already exists. You can rename the file you are about "
+"to upload or overwrite the existing file."
+msgstr "この名称のファイルはすでに登録されています。あなたがアップロードしようとしているファイルをリネームするか、既存のファイルに上書きすることができます。"
+
+#. uploadingfiletofolder
+#: artefact/file/lang/en.utf8/artefact.file.php:137
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadingfiletofolder"
+msgid "Uploading %s to %s"
+msgstr "%s を %s へアップロード中"
+
+#. uploadoffilecomplete
+#: artefact/file/lang/en.utf8/artefact.file.php:138
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadoffilecomplete"
+msgid "Upload of %s complete"
+msgstr "%s のアップロードが完了しました。"
+
+#. uploadoffilefailed
+#: artefact/file/lang/en.utf8/artefact.file.php:139
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadoffilefailed"
+msgid "Upload of %s failed"
+msgstr "%s のアップロードに失敗しました。"
+
+#. uploadoffiletofoldercomplete
+#: artefact/file/lang/en.utf8/artefact.file.php:140
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:uploadoffiletofoldercomplete"
+msgid "Upload of %s to %s complete"
+msgstr "%s の %s へのアップロードが完了しました。"
+
+#. uploadoffiletofolderfailed
+#: artefact/file/lang/en.utf8/artefact.file.php:141
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:uploadoffiletofolderfailed"
+msgid "Upload of %s to %s failed"
+msgstr "%s の %s へのアップロードに失敗しました。"
+
+#. usecustomagreement
+#: artefact/file/lang/en.utf8/artefact.file.php:142
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:usecustomagreement"
+msgid "Use custom agreement"
+msgstr "カスタム同意書を使用する"
+
+#. youmustagreetothecopyrightnotice
+#: artefact/file/lang/en.utf8/artefact.file.php:143
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:youmustagreetothecopyrightnotice"
+msgid "You must agree to the copyright notice."
+msgstr "あなたは著作権表示に同意する必要があります。"
+
+#. fileuploadedtofolderas
+#: artefact/file/lang/en.utf8/artefact.file.php:144
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:fileuploadedtofolderas"
+msgid "%s uploaded to %s as \"%s\""
+msgstr "%s が %s に「 %s 」としてアップロードされました。"
+
+#. fileuploadedas
+#: artefact/file/lang/en.utf8/artefact.file.php:145
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:fileuploadedas"
+msgid "%s uploaded as \"%s\""
+msgstr "%s が「 %s 」としてアップロードされました。"
+
+#. insufficientmemoryforresize
+#: artefact/file/lang/en.utf8/artefact.file.php:146
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:insufficientmemoryforresize"
+msgid ""
+" (Not enough memory available to resize the image. Consider resizing "
+"manually before uploading)"
+msgstr " (イメージのリサイズのために十分なメモリがありません。アップロード前にリサイズすることをお考えください)"
+
+#. ai
+#: artefact/file/lang/en.utf8/artefact.file.php:147
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:ai"
+msgid "Postscript document"
+msgstr "Postscriptドキュメント"
+
+#. aiff
+#: artefact/file/lang/en.utf8/artefact.file.php:148
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:aiff"
+msgid "AIFF audio file"
+msgstr "AIFFオーディオファイル"
+
+#. application
+#: artefact/file/lang/en.utf8/artefact.file.php:149
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:application"
+msgid "Unknown application"
+msgstr "不明なアプリケーション"
+
+#. au
+#: artefact/file/lang/en.utf8/artefact.file.php:150
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:au"
+msgid "AU audio file"
+msgstr "AUオーディオファイル"
+
+#. audio
+#: artefact/file/lang/en.utf8/artefact.file.php:151
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:audio"
+msgid "audio file"
+msgstr "オーディオファイル"
+
+#. avi
+#: artefact/file/lang/en.utf8/artefact.file.php:152
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:avi"
+msgid "AVI video file"
+msgstr "AVIビデオファイル"
+
+#. bmp
+#: artefact/file/lang/en.utf8/artefact.file.php:153
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:bmp"
+msgid "Bitmap image"
+msgstr "ビットマップイメージ"
+
+#. doc
+#: artefact/file/lang/en.utf8/artefact.file.php:154
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:doc"
+msgid "MS Word document"
+msgstr "MS Wordドキュメント"
+
+#. dss
+#: artefact/file/lang/en.utf8/artefact.file.php:155
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:dss"
+msgid "Digital speech standard sound file"
+msgstr "デジタル音声標準サウンドファイル"
+
+#. gif
+#: artefact/file/lang/en.utf8/artefact.file.php:156
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:gif"
+msgid "GIF image"
+msgstr "GIFイメージ"
+
+#. html
+#: artefact/file/lang/en.utf8/artefact.file.php:157
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:html"
+msgid "HTML file"
+msgstr "HTMLファイル"
+
+#. jpg
+#: artefact/file/lang/en.utf8/artefact.file.php:158
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:jpg"
+msgid "JPEG image"
+msgstr "JPEGイメージ"
+
+#. jpeg
+#: artefact/file/lang/en.utf8/artefact.file.php:159
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:jpeg"
+msgid "JPEG image"
+msgstr "JPEGイメージ"
+
+#. js
+#: artefact/file/lang/en.utf8/artefact.file.php:160
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:js"
+msgid "Javascript file"
+msgstr "Javaスクリプトファイル"
+
+#. latex
+#: artefact/file/lang/en.utf8/artefact.file.php:161
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:latex"
+msgid "LaTeX document"
+msgstr "LaTeXドキュメント"
+
+#. m3u
+#: artefact/file/lang/en.utf8/artefact.file.php:162
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:m3u"
+msgid "M3U audio file"
+msgstr "M3Uオーディオファイル"
+
+#. mp3
+#: artefact/file/lang/en.utf8/artefact.file.php:163
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:mp3"
+msgid "MP3 audio file"
+msgstr "MP3オーディオファイル"
+
+#. mp4_audio
+#: artefact/file/lang/en.utf8/artefact.file.php:164
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:mp4_audio"
+msgid "MP4 audio file"
+msgstr "MP4オーディオファイル"
+
+#. mp4_video
+#: artefact/file/lang/en.utf8/artefact.file.php:165
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:mp4_video"
+msgid "MP4 video file"
+msgstr "MP4ビデオファイル"
+
+#. mpeg
+#: artefact/file/lang/en.utf8/artefact.file.php:166
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:mpeg"
+msgid "MPEG movie"
+msgstr "MPEGムービー"
+
+#. odb
+#: artefact/file/lang/en.utf8/artefact.file.php:167
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odb"
+msgid "OpenOffice / LibreOffice Base database file"
+msgstr "OpenOffice / LibreOffice Baseデータベースファイル"
+
+#. odc
+#: artefact/file/lang/en.utf8/artefact.file.php:168
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odc"
+msgid "OpenOffice / LibreOffice Calc file"
+msgstr "OpenOffice / LibreOffice Calcファイル"
+
+#. odf
+#: artefact/file/lang/en.utf8/artefact.file.php:169
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odf"
+msgid "OpenOffice / LibreOffice formula file"
+msgstr "OpenOffice / LibreOffice formulaファイル"
+
+#. odg
+#: artefact/file/lang/en.utf8/artefact.file.php:170
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odg"
+msgid "OpenOffice / LibreOffice graphics file"
+msgstr "OpenOffice / LibreOffice graphicsファイル"
+
+#. odi
+#: artefact/file/lang/en.utf8/artefact.file.php:171
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odi"
+msgid "OpenOffice / LibreOffice image file"
+msgstr "OpenOffice / LibreOfficeイメージファイル"
+
+#. odm
+#: artefact/file/lang/en.utf8/artefact.file.php:172
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odm"
+msgid "OpenOffice / LibreOffice master document file"
+msgstr "OpenOffice / LibreOffice masterドキュメントファイル"
+
+#. odp
+#: artefact/file/lang/en.utf8/artefact.file.php:173
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odp"
+msgid "OpenOffice / LibreOffice Impress file"
+msgstr "OOpenOffice / LibreOffice Impressファイル"
+
+#. ods
+#: artefact/file/lang/en.utf8/artefact.file.php:174
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:ods"
+msgid "OpenOffice / LibreOffice Spreadsheet file"
+msgstr "OpenOffice / LibreOffice Spreadsheetファイル"
+
+#. odt
+#: artefact/file/lang/en.utf8/artefact.file.php:175
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:odt"
+msgid "OpenOffice / LibreOffice Writer document"
+msgstr "OpenOffice / LibreOffice Writer ドキュメント"
+
+#. oth
+#: artefact/file/lang/en.utf8/artefact.file.php:176
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:oth"
+msgid "OpenOffice / LibreOffice web document"
+msgstr "OpenOffice / LibreOfficeウェブドキュメント"
+
+#. ott
+#: artefact/file/lang/en.utf8/artefact.file.php:177
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:ott"
+msgid "OpenOffice / LibreOffice template document"
+msgstr "OpenOffice / LibreOfficeテンプレートドキュメント"
+
+#. pdf
+#: artefact/file/lang/en.utf8/artefact.file.php:178
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:pdf"
+msgid "PDF document"
+msgstr "PDFドキュメント"
+
+#. png
+#: artefact/file/lang/en.utf8/artefact.file.php:179
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:png"
+msgid "PNG image"
+msgstr "PNGイメージ"
+
+#. ppt
+#: artefact/file/lang/en.utf8/artefact.file.php:180
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:ppt"
+msgid "MS PowerPoint document"
+msgstr "MS Powerpointドキュメント"
+
+#. quicktime
+#: artefact/file/lang/en.utf8/artefact.file.php:181
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:quicktime"
+msgid "QuickTime movie"
+msgstr "Quicktimeムービー"
+
+#. ra
+#: artefact/file/lang/en.utf8/artefact.file.php:182
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:ra"
+msgid "Real audio file"
+msgstr "Real Audioファイル"
+
+#. rtf
+#: artefact/file/lang/en.utf8/artefact.file.php:183
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:rtf"
+msgid "RTF document"
+msgstr "RTFドキュメント"
+
+#. sgi_movie
+#: artefact/file/lang/en.utf8/artefact.file.php:184
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:sgi_movie"
+msgid "SGI movie file"
+msgstr "SGIムービーファイル"
+
+#. sh
+#: artefact/file/lang/en.utf8/artefact.file.php:185
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:sh"
+msgid "Shell script"
+msgstr "シェルスクリプト"
+
+#. tar
+#: artefact/file/lang/en.utf8/artefact.file.php:186
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:tar"
+msgid "TAR archive"
+msgstr "TAR書庫"
+
+#. gz
+#: artefact/file/lang/en.utf8/artefact.file.php:187
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:gz"
+msgid "Gzip compressed file"
+msgstr "Gzip圧縮ファイル"
+
+#. bz2
+#: artefact/file/lang/en.utf8/artefact.file.php:188
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:bz2"
+msgid "Bzip2 compressed file"
+msgstr "Bzip2圧縮ファイル"
+
+#. txt
+#: artefact/file/lang/en.utf8/artefact.file.php:189
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:txt"
+msgid "Plain text file"
+msgstr "プレインテキストファイル"
+
+#. video
+#: artefact/file/lang/en.utf8/artefact.file.php:190
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:video"
+msgid "Video file"
+msgstr "ビデオファイル"
+
+#. wav
+#: artefact/file/lang/en.utf8/artefact.file.php:191
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:wav"
+msgid "WAV audio file"
+msgstr "WAVオーディオファイル"
+
+#. wmv
+#: artefact/file/lang/en.utf8/artefact.file.php:192
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:wmv"
+msgid "WMV video file"
+msgstr "WMVビデオファイル"
+
+#. xml
+#: artefact/file/lang/en.utf8/artefact.file.php:193
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:xml"
+msgid "XML file"
+msgstr "XMLファイル"
+
+#. zip
+#: artefact/file/lang/en.utf8/artefact.file.php:194
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:zip"
+msgid "ZIP archive"
+msgstr "ZIP書庫"
+
+#. swf
+#: artefact/file/lang/en.utf8/artefact.file.php:195
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:swf"
+msgid "SWF flash movie"
+msgstr "SWF Flashムービー"
+
+#. flv
+#: artefact/file/lang/en.utf8/artefact.file.php:196
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:flv"
+msgid "FLV flash movie"
+msgstr "FLV Flashムービー"
+
+#. mov
+#: artefact/file/lang/en.utf8/artefact.file.php:197
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:mov"
+msgid "MOV QuickTime movie"
+msgstr "MOV Quicktimeムービー"
+
+#. mpg
+#: artefact/file/lang/en.utf8/artefact.file.php:198
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:mpg"
+msgid "MPG movie"
+msgstr "MPGムービー"
+
+#. ram
+#: artefact/file/lang/en.utf8/artefact.file.php:199
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:ram"
+msgid "RAM RealPlayer movie"
+msgstr "RAM RealPlayerムービー"
+
+#. rpm
+#: artefact/file/lang/en.utf8/artefact.file.php:200
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:rpm"
+msgid "RPM RealPlayer movie"
+msgstr "RPM RealPlayerムービー"
+
+#. rm
+#: artefact/file/lang/en.utf8/artefact.file.php:201
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:rm"
+msgid "RM RealPlayer movie"
+msgstr "RM RealPlayerムービー"
+
+#. cantcreatetempprofileiconfile
+#: artefact/file/lang/en.utf8/artefact.file.php:202
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:cantcreatetempprofileiconfile"
+msgid "Could not write temporary profile picture image in %s"
+msgstr "一時プロファイル写真イメージを %s に書き込むことができませんでした。"
+
+#. profileiconsize
+#: artefact/file/lang/en.utf8/artefact.file.php:203
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:profileiconsize"
+msgid "Profile picture size"
+msgstr "プロファイル写真サイズ"
+
+#. profileicons
+#: artefact/file/lang/en.utf8/artefact.file.php:204
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:profileicons"
+msgid "Profile pictures"
+msgstr "プロファイル写真"
+
+#. Default
+#: artefact/file/lang/en.utf8/artefact.file.php:205
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Default"
+msgid "Default"
+msgstr "デフォルト"
+
+#. defaultprofileicon
+#: artefact/file/lang/en.utf8/artefact.file.php:206
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:defaultprofileicon"
+msgid "This is currently set as your default profile picture."
+msgstr "現在、あなたのデフォルトプロファイル写真に設定されています。"
+
+#. deleteselectedicons
+#: artefact/file/lang/en.utf8/artefact.file.php:207
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:deleteselectedicons"
+msgid "Delete selected profile pictures"
+msgstr "選択されたプロファイル写真を削除する"
+
+#. editprofileicon
+#: artefact/file/lang/en.utf8/artefact.file.php:208
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:editprofileicon"
+msgid "Edit profile picture"
+msgstr "プロファイル写真を編集する"
+
+#. profileicon
+#: artefact/file/lang/en.utf8/artefact.file.php:209
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:profileicon"
+msgid "Profile picture"
+msgstr "プロファイル写真"
+
+#. noimagesfound
+#: artefact/file/lang/en.utf8/artefact.file.php:210
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:noimagesfound"
+msgid "No images found"
+msgstr "イメージはありません。"
+
+#. profileiconaddedtoimagesfolder
+#: artefact/file/lang/en.utf8/artefact.file.php:211
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconaddedtoimagesfolder"
+msgid "Your profile picture has been uploaded to your '%s' folder."
+msgstr "あなたのプロファイル写真が「 %s 」フォルダにアップロードされました。"
+
+#. profileiconsetdefaultnotvalid
+#: artefact/file/lang/en.utf8/artefact.file.php:212
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconsetdefaultnotvalid"
+msgid "Could not set the default profile picture, the choice was not valid."
+msgstr "デフォルトのプロファイル写真を設定できませんでした。選択が正しくありません。"
+
+#. profileiconsdefaultsetsuccessfully
+#: artefact/file/lang/en.utf8/artefact.file.php:213
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconsdefaultsetsuccessfully"
+msgid "Default profile picture set successfully"
+msgstr "デフォルトプロファイル写真が正常に設定されました。"
+
+#. nprofilepictures
+#: artefact/file/lang/en.utf8/artefact.file.php:214
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:nprofilepictures"
+msgid ""
+"rray(    'Profile picture',\n"
+"    'Profile pictures',\n"
+");"
+msgstr "rray(    0 => 'プロファイル写真',\n);"
+
+#. profileiconsnoneselected
+#: artefact/file/lang/en.utf8/artefact.file.php:215
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconsnoneselected"
+msgid "No profile pictures were selected to be deleted."
+msgstr "削除するプロファイル写真が選択されていません。"
+
+#. onlyfiveprofileicons
+#: artefact/file/lang/en.utf8/artefact.file.php:216
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:onlyfiveprofileicons"
+msgid "You may upload only five profile pictures."
+msgstr "あなたは5つのプロファイル写真のみアップロードすることができます。"
+
+#. or
+#: artefact/file/lang/en.utf8/artefact.file.php:217
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:or"
+msgid "or"
+msgstr "または"
+
+#. profileiconuploadexceedsquota
+#: artefact/file/lang/en.utf8/artefact.file.php:218
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconuploadexceedsquota"
+msgid ""
+"Uploading this profile picture would exceed your disk quota. Try deleting "
+"some files you have uploaded."
+msgstr "このファイルをアップロードすることで、あなたのディスククオータを超えてしまいます。あなたがアップロードしたいくつかのファイルを削除してください。"
+
+#. profileiconimagetoobig
+#: artefact/file/lang/en.utf8/artefact.file.php:219
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:profileiconimagetoobig"
+msgid ""
+"The picture you uploaded was too big (%sx%s pixels). It must not be larger "
+"than %sx%s pixels."
+msgstr "あなたがアップロードしたイメージは大き過ぎます(%sx%s ピクセル)。%sx%s ピクセル以下のサイズにしてください。"
+
+#. uploadingfile
+#: artefact/file/lang/en.utf8/artefact.file.php:220
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadingfile"
+msgid "uploading file..."
+msgstr "ファイルのアップロード中 ..."
+
+#. uploadprofileicon
+#: artefact/file/lang/en.utf8/artefact.file.php:221
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadprofileicon"
+msgid "Upload profile picture"
+msgstr "プロファイル写真をアップロードする"
+
+#. uploadedprofileicon
+#: artefact/file/lang/en.utf8/artefact.file.php:222
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:uploadedprofileicon"
+msgid "Uploaded profile picture"
+msgstr "アップロードされたプロファイル写真"
+
+#. profileiconsiconsizenotice
+#: artefact/file/lang/en.utf8/artefact.file.php:223
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:profileiconsiconsizenotice"
+msgid ""
+"You may upload up to <strong>five</strong> profile pictures here and choose "
+"one to be displayed as your default picture at any one time. Your pictures "
+"must be between 16x16 and %sx%s pixels in size."
+msgstr "あなたは最大<strong>5つ</strong>のプロファイル写真をアップロードすることができます。プロファイル写真のアップロード後、あなたのデフォルト写真として表示する写真を1つ選択してください。16x16 から%sx%s ピクセルの間であなたの写真を作成してください。"
+
+#. setdefault
+#: artefact/file/lang/en.utf8/artefact.file.php:224
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:setdefault"
+msgid "Set default"
+msgstr "デフォルトに設定する"
+
+#. Title
+#: artefact/file/lang/en.utf8/artefact.file.php:225
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Title"
+msgid "Title"
+msgstr "タイトル"
+
+#. imagetitle
+#: artefact/file/lang/en.utf8/artefact.file.php:226
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:imagetitle"
+msgid "Image title"
+msgstr "イメージタイトル"
+
+#. standardavatartitle
+#: artefact/file/lang/en.utf8/artefact.file.php:227
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:standardavatartitle"
+msgid "Standard or external avatar"
+msgstr "標準または外部アバター"
+
+#. standardavatarnote
+#: artefact/file/lang/en.utf8/artefact.file.php:228
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:standardavatarnote"
+msgid "Standard or external profile picture"
+msgstr "標準または外部プロファイル写真"
+
+#. usingnodefaultprofileicon
+#: artefact/file/lang/en.utf8/artefact.file.php:229
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:usingnodefaultprofileicon"
+msgid "Now using no default profile picture"
+msgstr "現在、デフォルトのプロファイル写真はありません。"
+
+#. wrongfiletypeforblock
+#: artefact/file/lang/en.utf8/artefact.file.php:230
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:wrongfiletypeforblock"
+msgid "The file you uploaded was not the correct type for this block."
+msgstr "あなたがアップロードしたファイルはこのブロックにとって、正しいタイプではありません。"
+
+#. Contents
+#: artefact/file/lang/en.utf8/artefact.file.php:231
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Contents"
+msgid "Contents"
+msgstr "コンテンツ"
+
+#. Continue
+#: artefact/file/lang/en.utf8/artefact.file.php:232
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Continue"
+msgid "Continue"
+msgstr "続ける"
+
+#. Decompress
+#: artefact/file/lang/en.utf8/artefact.file.php:233
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:Decompress"
+msgid "Decompress"
+msgstr "解凍"
+
+#. nfolders
+#: artefact/file/lang/en.utf8/artefact.file.php:234
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:nfolders"
+msgid ""
+"rray(    '%s folder',\n"
+"    '%s folders',\n"
+");"
+msgstr "rray(    0 => '%s フォルダ',\n);"
+
+#. nfiles
+#: artefact/file/lang/en.utf8/artefact.file.php:235
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:nfiles"
+msgid ""
+"rray(    '%s file',\n"
+"    '%s files',\n"
+");"
+msgstr "rray(    0 => '%s ファイル',\n);"
+
+#. createdtwothings
+#: artefact/file/lang/en.utf8/artefact.file.php:236
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:createdtwothings"
+msgid "Created %s and %s."
+msgstr "%s および %s を作成しました。"
+
+#. filesextractedfromarchive
+#: artefact/file/lang/en.utf8/artefact.file.php:237
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:filesextractedfromarchive"
+msgid "Files extracted from archive"
+msgstr "アーカイブから解凍されたファイル"
+
+#. filesextractedfromziparchive
+#: artefact/file/lang/en.utf8/artefact.file.php:238
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:filesextractedfromziparchive"
+msgid "Files extracted from Zip archive"
+msgstr "Zipアーカイブから解凍されたファイル"
+
+#. fileswillbeextractedintofolder
+#: artefact/file/lang/en.utf8/artefact.file.php:239
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:fileswillbeextractedintofolder"
+msgid "Files will be extracted into %s"
+msgstr "ファイルは%s に解凍されます。"
+
+#. insufficientquotaforunzip
+#: artefact/file/lang/en.utf8/artefact.file.php:240
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:insufficientquotaforunzip"
+msgid "Your remaining file quota is too small to unzip this file."
+msgstr "このファイルを解凍するには、あなたの残りファイルクオータが小さすぎます。"
+
+#. invalidarchive
+#: artefact/file/lang/en.utf8/artefact.file.php:241
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:invalidarchive"
+msgid "Error reading archive file."
+msgstr "アーカイブファイルの読み込み中にエラーが発生しました。"
+
+#. pleasewaitwhileyourfilesarebeingunzipped
+#: artefact/file/lang/en.utf8/artefact.file.php:242
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:pleasewaitwhileyourfilesarebeingunzipped"
+msgid "Please wait while your files are being unzipped."
+msgstr "あなたのファイルは解凍中です。しばらくお待ちください。"
+
+#. spacerequired
+#: artefact/file/lang/en.utf8/artefact.file.php:243
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:spacerequired"
+msgid "Space required"
+msgstr "必要サイズ"
+
+#. unzipprogress
+#: artefact/file/lang/en.utf8/artefact.file.php:244
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:unzipprogress"
+msgid "%s files/folders created."
+msgstr "%s 個のファイル/フォルダが作成されました。"
+
+#. filepermission.view
+#: artefact/file/lang/en.utf8/artefact.file.php:245
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:filepermission.view"
+msgid "View"
+msgstr "閲覧"
+
+#. filepermission.edit
+#: artefact/file/lang/en.utf8/artefact.file.php:246
+msgctxt "artefact/file/lang/en.utf8/artefact.file.php:filepermission.edit"
+msgid "Edit"
+msgstr "編集"
+
+#. filepermission.republish
+#: artefact/file/lang/en.utf8/artefact.file.php:247
+msgctxt ""
+"artefact/file/lang/en.utf8/artefact.file.php:filepermission.republish"
+msgid "Publish"
+msgstr "公開"
+
+#. title
+#: artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:1
+msgctxt ""
+"artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:title"
+msgid "Contact information"
+msgstr "連絡先"
+
+#. description
+#: artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:2
+msgctxt ""
+"artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:description"
+msgid "Choose contact information to display"
+msgstr "表示する連絡先を選択してください。"
+
+#. dontshowemail
+#: artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:3
+msgctxt ""
+"artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:dontshowemail"
+msgid "Don't show email address"
+msgstr "メールアドレスを表示しません。"
+
+#. fieldstoshow
+#: artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:4
+msgctxt ""
+"artefact/internal/blocktype/contactinfo/lang/en.utf8/blocktype.contactinfo.php:fieldstoshow"
+msgid "Fields to show"
+msgstr "表示するフィールド"
+
+#. title
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:1
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:title"
+msgid "Profile information"
+msgstr "プロファイル情報"
+
+#. description
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:2
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:description"
+msgid "Choose profile information to display"
+msgstr "表示するプロファイル情報を選択してください。"
+
+#. aboutme
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:3
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:aboutme"
+msgid "About me"
+msgstr "私について"
+
+#. fieldstoshow
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:4
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:fieldstoshow"
+msgid "Fields to show"
+msgstr "表示するフィールド"
+
+#. introtext
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:5
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:introtext"
+msgid "Introduction text"
+msgstr "自己紹介テキスト"
+
+#. useintroductioninstead
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:6
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:useintroductioninstead"
+msgid ""
+"You can use your introduction profile field instead by enabling that and "
+"leaving this field blank"
+msgstr "「表示するフィールド」の「自己紹介」チェックボックスをチェックして、このフィールドを空白にすることで、あなたのプロファイルの「自己紹介」フィールドを代わりに使用することができます。"
+
+#. dontshowprofileicon
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:7
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:dontshowprofileicon"
+msgid "Don't show a profile picture"
+msgstr "プロファイル写真を表示しません。"
+
+#. dontshowemail
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:8
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:dontshowemail"
+msgid "Don't show email address"
+msgstr "メールアドレスを表示しません。"
+
+#. uploadaprofileicon
+#: artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:9
+msgctxt ""
+"artefact/internal/blocktype/profileinfo/lang/en.utf8/blocktype.profileinfo.php:uploadaprofileicon"
+msgid ""
+"You have no profile pictures. <a href=\"%sartefact/file/profileicons.php\" "
+"target=\"_blank\">Upload one</a>."
+msgstr "あなたにはプロファイル写真がありません。<a href=\"%sartefact/file/profileicons.php\" target=\"_blank\">アップロードしてください</a>。"
+
+#. title
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:1
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:title"
+msgid "Text box"
+msgstr "テキストボックス"
+
+#. description
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:2
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:description"
+msgid "Add notes to your page"
+msgstr "あなたのページにテキストボックスを追加します。"
+
+#. blockcontent
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:3
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:blockcontent"
+msgid "Block content"
+msgstr "ブロックコンテンツ"
+
+#. usecontentfromanothertextbox
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:4
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:usecontentfromanothertextbox"
+msgid "Use content from another text box"
+msgstr "別のテキストボックスのコンテンツを使用する"
+
+#. textusedinotherblocks
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:5
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:textusedinotherblocks"
+msgid ""
+"If you edit the text of this block, it will also be changed in %s other "
+"block(s) where it appears."
+msgstr "あなたがこのブロックのテキストを編集した場合、テキストが表示されている %s 件の他のブロックも更新されます。"
+
+#. managealltextboxcontent
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:6
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:managealltextboxcontent"
+msgid "Manage all text box content"
+msgstr "すべてのテキストボックスコンテンツを管理する"
+
+#. readonlymessage
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:7
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:readonlymessage"
+msgid "The text you have selected is not editable on this page."
+msgstr "あなたが選択したテキストはこのページで編集することはできません。"
+
+#. makeacopy
+#: artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:8
+msgctxt ""
+"artefact/internal/blocktype/textbox/lang/en.utf8/blocktype.textbox.php:makeacopy"
+msgid "Make a copy"
+msgstr "コピーを作成する"
+
+#. pluginname
+#: artefact/internal/lang/en.utf8/artefact.internal.php:1
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:pluginname"
+msgid "Profile"
+msgstr "プロファイル"
+
+#. profile
+#: artefact/internal/lang/en.utf8/artefact.internal.php:2
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:profile"
+msgid "Profile"
+msgstr "プロファイル"
+
+#. mandatoryfields
+#: artefact/internal/lang/en.utf8/artefact.internal.php:3
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:mandatoryfields"
+msgid "Mandatory fields"
+msgstr "必須フィールド"
+
+#. mandatoryfieldsdescription
+#: artefact/internal/lang/en.utf8/artefact.internal.php:4
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:mandatoryfieldsdescription"
+msgid "Profile fields that must be filled in"
+msgstr "入力する必要のあるプロファイルフィールド"
+
+#. searchablefields
+#: artefact/internal/lang/en.utf8/artefact.internal.php:5
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:searchablefields"
+msgid "Searchable fields"
+msgstr "検索対象フィールド"
+
+#. searchablefieldsdescription
+#: artefact/internal/lang/en.utf8/artefact.internal.php:6
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:searchablefieldsdescription"
+msgid "Profile fields that can be searched on by others"
+msgstr "ユーザにより検索することのできるプロファイルフィールド"
+
+#. aboutdescription
+#: artefact/internal/lang/en.utf8/artefact.internal.php:7
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:aboutdescription"
+msgid ""
+"Enter your real first and last name here. If you want to show a different "
+"name to people in the system, put that name in as your display name."
+msgstr "あなたの本名をここに入力してください。あなたがシステム内のユーザに異なる名前を表示したい場合、ニックネーム欄に別名を入力してください。"
+
+#. infoisprivate
+#: artefact/internal/lang/en.utf8/artefact.internal.php:8
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:infoisprivate"
+msgid ""
+"This information is private until you include it in a page that is shared "
+"with others."
+msgstr "あなたが他のユーザと共有するため、ページに置かない限り、この情報はプライベート (非公開) となります。"
+
+#. viewmyprofile
+#: artefact/internal/lang/en.utf8/artefact.internal.php:9
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:viewmyprofile"
+msgid "View my profile"
+msgstr "私のプロファイルを表示する"
+
+#. aboutme
+#: artefact/internal/lang/en.utf8/artefact.internal.php:10
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:aboutme"
+msgid "About me"
+msgstr "私について"
+
+#. contact
+#: artefact/internal/lang/en.utf8/artefact.internal.php:11
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:contact"
+msgid "Contact information"
+msgstr "連絡先"
+
+#. messaging
+#: artefact/internal/lang/en.utf8/artefact.internal.php:12
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:messaging"
+msgid "Messaging"
+msgstr "メッセージング"
+
+#. firstname
+#: artefact/internal/lang/en.utf8/artefact.internal.php:13
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:firstname"
+msgid "First name"
+msgstr "名"
+
+#. lastname
+#: artefact/internal/lang/en.utf8/artefact.internal.php:14
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:lastname"
+msgid "Last name"
+msgstr "姓"
+
+#. fullname
+#: artefact/internal/lang/en.utf8/artefact.internal.php:15
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:fullname"
+msgid "Full name"
+msgstr "フルネーム"
+
+#. institution
+#: artefact/internal/lang/en.utf8/artefact.internal.php:16
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:institution"
+msgid "Institution"
+msgstr "インスティテューション"
+
+#. studentid
+#: artefact/internal/lang/en.utf8/artefact.internal.php:17
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:studentid"
+msgid "Student ID"
+msgstr "学籍番号"
+
+#. preferredname
+#: artefact/internal/lang/en.utf8/artefact.internal.php:18
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:preferredname"
+msgid "Display name"
+msgstr "ニックネーム"
+
+#. introduction
+#: artefact/internal/lang/en.utf8/artefact.internal.php:19
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:introduction"
+msgid "Introduction"
+msgstr "自己紹介"
+
+#. email
+#: artefact/internal/lang/en.utf8/artefact.internal.php:20
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:email"
+msgid "Email address"
+msgstr "メールアドレス"
+
+#. maildisabled
+#: artefact/internal/lang/en.utf8/artefact.internal.php:21
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:maildisabled"
+msgid "Email disabled"
+msgstr "Eメール無効"
+
+#. officialwebsite
+#: artefact/internal/lang/en.utf8/artefact.internal.php:22
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:officialwebsite"
+msgid "Official website address"
+msgstr "オフィシャルウェブサイトURI"
+
+#. personalwebsite
+#: artefact/internal/lang/en.utf8/artefact.internal.php:23
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:personalwebsite"
+msgid "Personal website address"
+msgstr "パーソナルウェブサイトURI"
+
+#. blogaddress
+#: artefact/internal/lang/en.utf8/artefact.internal.php:24
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:blogaddress"
+msgid "Blog address"
+msgstr "ブログアドレス"
+
+#. address
+#: artefact/internal/lang/en.utf8/artefact.internal.php:25
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:address"
+msgid "Postal address"
+msgstr "番地以下"
+
+#. town
+#: artefact/internal/lang/en.utf8/artefact.internal.php:26
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:town"
+msgid "Town"
+msgstr "市区町村"
+
+#. city
+#: artefact/internal/lang/en.utf8/artefact.internal.php:27
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:city"
+msgid "City/region"
+msgstr "都道府県"
+
+#. country
+#: artefact/internal/lang/en.utf8/artefact.internal.php:28
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:country"
+msgid "Country"
+msgstr "国"
+
+#. homenumber
+#: artefact/internal/lang/en.utf8/artefact.internal.php:29
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:homenumber"
+msgid "Home phone"
+msgstr "自宅電話"
+
+#. businessnumber
+#: artefact/internal/lang/en.utf8/artefact.internal.php:30
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:businessnumber"
+msgid "Business phone"
+msgstr "勤務先電話"
+
+#. mobilenumber
+#: artefact/internal/lang/en.utf8/artefact.internal.php:31
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:mobilenumber"
+msgid "Mobile phone"
+msgstr "携帯電話"
+
+#. faxnumber
+#: artefact/internal/lang/en.utf8/artefact.internal.php:32
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:faxnumber"
+msgid "Fax number"
+msgstr "FAX番号"
+
+#. icqnumber
+#: artefact/internal/lang/en.utf8/artefact.internal.php:33
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:icqnumber"
+msgid "ICQ number"
+msgstr "ICQナンバー"
+
+#. msnnumber
+#: artefact/internal/lang/en.utf8/artefact.internal.php:34
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:msnnumber"
+msgid "MSN chat"
+msgstr "MSNチャット"
+
+#. aimscreenname
+#: artefact/internal/lang/en.utf8/artefact.internal.php:35
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:aimscreenname"
+msgid "AIM screen name"
+msgstr "AIMスクリーンネーム"
+
+#. yahoochat
+#: artefact/internal/lang/en.utf8/artefact.internal.php:36
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:yahoochat"
+msgid "Yahoo chat"
+msgstr "Yahooチャット"
+
+#. skypeusername
+#: artefact/internal/lang/en.utf8/artefact.internal.php:37
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:skypeusername"
+msgid "Skype username"
+msgstr "Skypeユーザ名"
+
+#. jabberusername
+#: artefact/internal/lang/en.utf8/artefact.internal.php:38
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:jabberusername"
+msgid "Jabber username"
+msgstr "Jabberユーザ名"
+
+#. occupation
+#: artefact/internal/lang/en.utf8/artefact.internal.php:39
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:occupation"
+msgid "Occupation"
+msgstr "職業"
+
+#. industry
+#: artefact/internal/lang/en.utf8/artefact.internal.php:40
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:industry"
+msgid "Industry"
+msgstr "職種"
+
+#. name
+#: artefact/internal/lang/en.utf8/artefact.internal.php:41
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:name"
+msgid "Name"
+msgstr "名称"
+
+#. principalemailaddress
+#: artefact/internal/lang/en.utf8/artefact.internal.php:42
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:principalemailaddress"
+msgid "Primary email"
+msgstr "主メールアドレス"
+
+#. emailaddress
+#: artefact/internal/lang/en.utf8/artefact.internal.php:43
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:emailaddress"
+msgid "Alternative email"
+msgstr "代替メールアドレス"
+
+#. saveprofile
+#: artefact/internal/lang/en.utf8/artefact.internal.php:44
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:saveprofile"
+msgid "Save profile"
+msgstr "プロファイルを保存する"
+
+#. profilesaved
+#: artefact/internal/lang/en.utf8/artefact.internal.php:45
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:profilesaved"
+msgid "Profile saved successfully"
+msgstr "プロファイルが正常に保存されました。"
+
+#. profilefailedsaved
+#: artefact/internal/lang/en.utf8/artefact.internal.php:46
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:profilefailedsaved"
+msgid "Profile saving failed"
+msgstr "プロファイルの保存に失敗しました。"
+
+#. emailvalidation_subject
+#: artefact/internal/lang/en.utf8/artefact.internal.php:47
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:emailvalidation_subject"
+msgid "Email validation"
+msgstr "メールアドレスの確認"
+
+#. emailvalidation_body1
+#: artefact/internal/lang/en.utf8/artefact.internal.php:48
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:emailvalidation_body1"
+msgid ""
+"<<EOFHello %s,\n"
+"\n"
+"You have added the email address %s to your user account in %s. Please visit the link below to activate this address.\n"
+"\n"
+"%s\n"
+"\n"
+"If this email belongs to you, but you have not requested adding it to your %s account, follow the link below to decline the email activation.\n"
+"\n"
+"%s\n"
+"EOF;"
+msgstr "%s さん、こんにちは。\nMahara内のあなたのユーザアカウントにメールアドレス「 %s 」が追加されました。下記リンクにアクセスして、このメールアドレスを有効化してください。\n\n%s\n\nこのメールアドレスがあなたのメールアドレスであり、あなたがMaharaのアカウント作成をリクエストしていない場合、以下のリンクをクリックして、メール有効化を拒否してください。\n\n%s"
+
+#. validationemailwillbesent
+#: artefact/internal/lang/en.utf8/artefact.internal.php:49
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:validationemailwillbesent"
+msgid "A validation email will be sent when you save your profile."
+msgstr "あなたのプロファイル保存後、確認メールが送信されます。"
+
+#. validationemailsent
+#: artefact/internal/lang/en.utf8/artefact.internal.php:50
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:validationemailsent"
+msgid "A validation email has been sent."
+msgstr "確認メールが送信されました。"
+
+#. emailactivation
+#: artefact/internal/lang/en.utf8/artefact.internal.php:51
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:emailactivation"
+msgid "Email activation"
+msgstr "メール有効化"
+
+#. emailactivationsucceeded
+#: artefact/internal/lang/en.utf8/artefact.internal.php:52
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:emailactivationsucceeded"
+msgid "Email activation successful"
+msgstr "メールが正常に有効化されました。"
+
+#. emailalreadyactivated
+#: artefact/internal/lang/en.utf8/artefact.internal.php:53
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:emailalreadyactivated"
+msgid "Email already activated"
+msgstr "メールはすでに有効化されています。"
+
+#. emailactivationfailed
+#: artefact/internal/lang/en.utf8/artefact.internal.php:54
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:emailactivationfailed"
+msgid "Email activation failed"
+msgstr "メール有効化に失敗しました。"
+
+#. emailactivationdeclined
+#: artefact/internal/lang/en.utf8/artefact.internal.php:55
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:emailactivationdeclined"
+msgid "Email activation declined successfully"
+msgstr "メール有効化が正常に拒否されました。"
+
+#. verificationlinkexpired
+#: artefact/internal/lang/en.utf8/artefact.internal.php:56
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:verificationlinkexpired"
+msgid "Verification link expired"
+msgstr "確認リンクの有効期限が切れました。"
+
+#. invalidemailaddress
+#: artefact/internal/lang/en.utf8/artefact.internal.php:57
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:invalidemailaddress"
+msgid "Invalid email address"
+msgstr "無効なメールアドレスです。"
+
+#. unvalidatedemailalreadytaken
+#: artefact/internal/lang/en.utf8/artefact.internal.php:58
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:unvalidatedemailalreadytaken"
+msgid "The email address you are trying to validate is already taken."
+msgstr "あなたが確認しようとしているメールアドレスはすでに登録されています。"
+
+#. addbutton
+#: artefact/internal/lang/en.utf8/artefact.internal.php:59
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:addbutton"
+msgid "Add"
+msgstr "追加"
+
+#. emailingfailed
+#: artefact/internal/lang/en.utf8/artefact.internal.php:60
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:emailingfailed"
+msgid "Profile saved, but emails were not sent to: %s"
+msgstr "プロファイルが保存されましたが、次のメールアドレス宛にメール送信できませんでした: %s"
+
+#. loseyourchanges
+#: artefact/internal/lang/en.utf8/artefact.internal.php:61
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:loseyourchanges"
+msgid "Lose your changes?"
+msgstr "変更を取り消してもよろしいですか?"
+
+#. Title
+#: artefact/internal/lang/en.utf8/artefact.internal.php:62
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Title"
+msgid "Title"
+msgstr "タイトル"
+
+#. Created
+#: artefact/internal/lang/en.utf8/artefact.internal.php:63
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Created"
+msgid "Created"
+msgstr "作成日時"
+
+#. Description
+#: artefact/internal/lang/en.utf8/artefact.internal.php:64
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Description"
+msgid "Description"
+msgstr "説明"
+
+#. Download
+#: artefact/internal/lang/en.utf8/artefact.internal.php:65
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Download"
+msgid "Download"
+msgstr "ダウンロード"
+
+#. lastmodified
+#: artefact/internal/lang/en.utf8/artefact.internal.php:66
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:lastmodified"
+msgid "Last modified"
+msgstr "最終更新日時"
+
+#. Owner
+#: artefact/internal/lang/en.utf8/artefact.internal.php:67
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Owner"
+msgid "Owner"
+msgstr "オーナー"
+
+#. Preview
+#: artefact/internal/lang/en.utf8/artefact.internal.php:68
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Preview"
+msgid "Preview"
+msgstr "プレビュー"
+
+#. Size
+#: artefact/internal/lang/en.utf8/artefact.internal.php:69
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Size"
+msgid "Size"
+msgstr "サイズ"
+
+#. Type
+#: artefact/internal/lang/en.utf8/artefact.internal.php:70
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Type"
+msgid "Type"
+msgstr "タイプ"
+
+#. profileinformation
+#: artefact/internal/lang/en.utf8/artefact.internal.php:71
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:profileinformation"
+msgid "Profile information"
+msgstr "プロファイル情報"
+
+#. profilepage
+#: artefact/internal/lang/en.utf8/artefact.internal.php:72
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:profilepage"
+msgid "Profile page"
+msgstr "プロファイルページ"
+
+#. viewprofilepage
+#: artefact/internal/lang/en.utf8/artefact.internal.php:73
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:viewprofilepage"
+msgid "View profile page"
+msgstr "プロファイルページを表示する"
+
+#. viewallprofileinformation
+#: artefact/internal/lang/en.utf8/artefact.internal.php:74
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:viewallprofileinformation"
+msgid "View all profile information"
+msgstr "すべてのプロファイル情報を表示する"
+
+#. Note
+#: artefact/internal/lang/en.utf8/artefact.internal.php:75
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Note"
+msgid "Note"
+msgstr "ノート"
+
+#. Notes
+#: artefact/internal/lang/en.utf8/artefact.internal.php:76
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:Notes"
+msgid "Notes"
+msgstr "ノート"
+
+#. mynotes
+#: artefact/internal/lang/en.utf8/artefact.internal.php:77
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:mynotes"
+msgid "My notes"
+msgstr "マイノート"
+
+#. notesfor
+#: artefact/internal/lang/en.utf8/artefact.internal.php:78
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:notesfor"
+msgid "Notes for %s"
+msgstr "%s のノート"
+
+#. containedin
+#: artefact/internal/lang/en.utf8/artefact.internal.php:79
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:containedin"
+msgid "Contained in"
+msgstr "含まれる場所:"
+
+#. currenttitle
+#: artefact/internal/lang/en.utf8/artefact.internal.php:80
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:currenttitle"
+msgid "Titled"
+msgstr "タイトル"
+
+#. notesdescription
+#: artefact/internal/lang/en.utf8/artefact.internal.php:81
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:notesdescription"
+msgid ""
+"These are the html notes you have created inside text box blocks on your "
+"pages."
+msgstr "あなたのページのテキストボックスブロック内で作成したHTML形式のノートです。"
+
+#. editnote
+#: artefact/internal/lang/en.utf8/artefact.internal.php:82
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:editnote"
+msgid "Edit note"
+msgstr "ノートを編集する"
+
+#. confirmdeletenote
+#: artefact/internal/lang/en.utf8/artefact.internal.php:83
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:confirmdeletenote"
+msgid ""
+"This note is used in %d blocks and %d pages. If you delete it, all the "
+"blocks which currently contain the text will appear empty."
+msgstr "このノートは %d ブロックおよび %d ページで使用されています。あなたが削除した場合、現在このテキストを含むすべてのブロックには空白が表示されてしまいます。"
+
+#. notedeleted
+#: artefact/internal/lang/en.utf8/artefact.internal.php:84
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:notedeleted"
+msgid "Note deleted"
+msgstr "ノートが削除されました。"
+
+#. noteupdated
+#: artefact/internal/lang/en.utf8/artefact.internal.php:85
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:noteupdated"
+msgid "Note updated"
+msgstr "ノートが更新されました。"
+
+#. html
+#: artefact/internal/lang/en.utf8/artefact.internal.php:86
+msgctxt "artefact/internal/lang/en.utf8/artefact.internal.php:html"
+msgid "Note"
+msgstr "ノート"
+
+#. duplicatedprofilefieldvalue
+#: artefact/internal/lang/en.utf8/artefact.internal.php:87
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:duplicatedprofilefieldvalue"
+msgid "Duplicated value"
+msgstr "複製値"
+
+#. existingprofilefieldvalues
+#: artefact/internal/lang/en.utf8/artefact.internal.php:88
+msgctxt ""
+"artefact/internal/lang/en.utf8/artefact.internal.php:existingprofilefieldvalues"
+msgid "Existing values"
+msgstr "既存値"
+
+#. title
+#: artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:1
+msgctxt ""
+"artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:title"
+msgid "Plans"
+msgstr "あなたのプラン"
+
+#. description1
+#: artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:2
+msgctxt ""
+"artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:description1"
+msgid "Display a plan (see Content -> Plans)"
+msgstr "プランを表示します (「コンテンツ -> プラン」をご覧ください)。"
+
+#. defaulttitledescription
+#: artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:3
+msgctxt ""
+"artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:defaulttitledescription"
+msgid "If this is left empty, the title of the plan will be used."
+msgstr "ここを空白にした場合、プランのタイトルが使用されます。"
+
+#. newerplans
+#: artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:4
+msgctxt ""
+"artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:newerplans"
+msgid "Newer plans"
+msgstr "新しいプラン"
+
+#. noplansaddone
+#: artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:5
+msgctxt ""
+"artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:noplansaddone"
+msgid "No plans yet. %sAdd one%s!"
+msgstr "まだプランはありません。%sプランを追加してください%s!"
+
+#. olderplans
+#: artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:6
+msgctxt ""
+"artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:olderplans"
+msgid "Older plans"
+msgstr "古いプラン"
+
+#. planstoshow
+#: artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:7
+msgctxt ""
+"artefact/plans/blocktype/plans/lang/en.utf8/blocktype.plans.php:planstoshow"
+msgid "Plan to show"
+msgstr "表示するプラン"
+
+#. canteditdontownplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:1
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:canteditdontownplan"
+msgid "You cannot edit this plan because you do not own it."
+msgstr "あなたの所有ではないため、このプランを編集することはできません。"
+
+#. description
+#: artefact/plans/lang/en.utf8/artefact.plans.php:2
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:description"
+msgid "Description"
+msgstr "説明"
+
+#. deleteplanconfirm
+#: artefact/plans/lang/en.utf8/artefact.plans.php:3
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:deleteplanconfirm"
+msgid ""
+"Are you sure you wish to delete this plan? Deleting this plan will also "
+"remove any tasks it contains."
+msgstr "本当にこのプランを削除してもよろしいですか? このプランを削除することで、プランの中に含まれているすべてのタスクも削除されます。"
+
+#. deleteplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:4
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:deleteplan"
+msgid "Delete plan"
+msgstr "プランを削除する"
+
+#. deletethisplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:5
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:deletethisplan"
+msgid "Delete plan: '%s'"
+msgstr "プランを削除する: %s"
+
+#. editplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:6
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:editplan"
+msgid "Edit plan"
+msgstr "プランを編集する"
+
+#. editingplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:7
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:editingplan"
+msgid "Editing plan"
+msgstr "プランの編集"
+
+#. managetasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:8
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:managetasks"
+msgid "Manage tasks"
+msgstr "タスクを管理する"
+
+#. newplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:9
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:newplan"
+msgid "New plan"
+msgstr "新しいプラン"
+
+#. noplansaddone
+#: artefact/plans/lang/en.utf8/artefact.plans.php:10
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:noplansaddone"
+msgid "No plans yet. %sAdd one%s!"
+msgstr "まだプランはありません。%sプランを追加してください%s!"
+
+#. noplans
+#: artefact/plans/lang/en.utf8/artefact.plans.php:11
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:noplans"
+msgid "No plans to display"
+msgstr "表示するプランはありません。"
+
+#. plan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:12
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:plan"
+msgid "Plan"
+msgstr "プラン"
+
+#. plans
+#: artefact/plans/lang/en.utf8/artefact.plans.php:13
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:plans"
+msgid "Plans"
+msgstr "プラン"
+
+#. Plans
+#: artefact/plans/lang/en.utf8/artefact.plans.php:14
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:Plans"
+msgid "Plans"
+msgstr "プラン"
+
+#. plandeletedsuccessfully
+#: artefact/plans/lang/en.utf8/artefact.plans.php:15
+msgctxt ""
+"artefact/plans/lang/en.utf8/artefact.plans.php:plandeletedsuccessfully"
+msgid "Plan deleted successfully."
+msgstr "プランが正常に削除されました。"
+
+#. plannotdeletedsuccessfully
+#: artefact/plans/lang/en.utf8/artefact.plans.php:16
+msgctxt ""
+"artefact/plans/lang/en.utf8/artefact.plans.php:plannotdeletedsuccessfully"
+msgid "There was an error deleting this plan."
+msgstr "プランの削除中にエラーが発生しました。"
+
+#. plannotsavedsuccessfully
+#: artefact/plans/lang/en.utf8/artefact.plans.php:17
+msgctxt ""
+"artefact/plans/lang/en.utf8/artefact.plans.php:plannotsavedsuccessfully"
+msgid ""
+"There was an error submitting this form. Please check the marked fields and "
+"try again."
+msgstr "このフォームの送信中にエラーが発生しました。マークされたフィールドを確認して再度お試しください。"
+
+#. plansavedsuccessfully
+#: artefact/plans/lang/en.utf8/artefact.plans.php:18
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:plansavedsuccessfully"
+msgid "Plan saved successfully."
+msgstr "プランが正常に保存されました。"
+
+#. planstasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:19
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:planstasks"
+msgid "Plan '%s' tasks."
+msgstr "プラン「 %s 」のタスク"
+
+#. planstasksdescription
+#: artefact/plans/lang/en.utf8/artefact.plans.php:20
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:planstasksdescription"
+msgid "Add tasks below or use the \"%s\" button to begin building your plan."
+msgstr "以下にタスクを追加するか、「%s」ボタンであなたのプランを立ててください。"
+
+#. saveplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:21
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:saveplan"
+msgid "Save plan"
+msgstr "プランを保存する"
+
+#. title
+#: artefact/plans/lang/en.utf8/artefact.plans.php:22
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:title"
+msgid "Title"
+msgstr "タイトル"
+
+#. titledesc
+#: artefact/plans/lang/en.utf8/artefact.plans.php:23
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:titledesc"
+msgid "The title will be used to display each task in the plans blocktype."
+msgstr "それぞれの「マイプラン」ブロックタイプ内タスクにタイトルを表示するために使用されます。"
+
+#. alltasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:24
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:alltasks"
+msgid "All tasks"
+msgstr "すべてのタスク"
+
+#. canteditdontowntask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:25
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:canteditdontowntask"
+msgid "You cannot edit this task because you do not own it."
+msgstr "あなたの所有ではないため、このタスクを編集することはできません。"
+
+#. completed
+#: artefact/plans/lang/en.utf8/artefact.plans.php:26
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:completed"
+msgid "Completed"
+msgstr "完了済み"
+
+#. completiondate
+#: artefact/plans/lang/en.utf8/artefact.plans.php:27
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:completiondate"
+msgid "Completion date"
+msgstr "完了日"
+
+#. completeddesc
+#: artefact/plans/lang/en.utf8/artefact.plans.php:28
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:completeddesc"
+msgid "Mark your task completed."
+msgstr "あなたのプランを完了済みにします。"
+
+#. deletetaskconfirm
+#: artefact/plans/lang/en.utf8/artefact.plans.php:29
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:deletetaskconfirm"
+msgid "Are you sure you wish to delete this task?"
+msgstr "本当にこのタスクを削除してもよろしいですか?"
+
+#. deletetask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:30
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:deletetask"
+msgid "Delete task"
+msgstr "タスクを削除する"
+
+#. deletethistask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:31
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:deletethistask"
+msgid "Delete task: '%s'"
+msgstr "タスクを削除する: %s"
+
+#. edittask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:32
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:edittask"
+msgid "Edit task"
+msgstr "タスクを編集する"
+
+#. editingtask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:33
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:editingtask"
+msgid "Editing task"
+msgstr "タスクの編集"
+
+#. mytasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:34
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:mytasks"
+msgid "My tasks"
+msgstr "マイタスク"
+
+#. newtask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:35
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:newtask"
+msgid "New task"
+msgstr "新しいタスク"
+
+#. notasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:36
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:notasks"
+msgid "No tasks to display."
+msgstr "表示するタスクはありません。"
+
+#. notasksaddone
+#: artefact/plans/lang/en.utf8/artefact.plans.php:37
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:notasksaddone"
+msgid "No tasks yet. %sAdd one%s."
+msgstr "まだタスクはありません。%sタスクを追加してください%s!"
+
+#. savetask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:38
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:savetask"
+msgid "Save task"
+msgstr "タスクを保存する"
+
+#. task
+#: artefact/plans/lang/en.utf8/artefact.plans.php:39
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:task"
+msgid "task"
+msgstr "タスク"
+
+#. Task
+#: artefact/plans/lang/en.utf8/artefact.plans.php:40
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:Task"
+msgid "Task"
+msgstr "タスク"
+
+#. tasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:41
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:tasks"
+msgid "tasks"
+msgstr "タスク"
+
+#. taskdeletedsuccessfully
+#: artefact/plans/lang/en.utf8/artefact.plans.php:42
+msgctxt ""
+"artefact/plans/lang/en.utf8/artefact.plans.php:taskdeletedsuccessfully"
+msgid "Task deleted successfully."
+msgstr "タスクが正常に削除されました。"
+
+#. tasksavedsuccessfully
+#: artefact/plans/lang/en.utf8/artefact.plans.php:43
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:tasksavedsuccessfully"
+msgid "Task saved successfully."
+msgstr "タスクが正常に保存されました。"
+
+#. ntasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:44
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:ntasks"
+msgid ""
+"rray(        '1 task',\n"
+"        '%s tasks',\n"
+");"
+msgstr "rray(    0 => '%s タスク',\n);"
+
+#. duplicatedplan
+#: artefact/plans/lang/en.utf8/artefact.plans.php:45
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:duplicatedplan"
+msgid "Duplicated plan"
+msgstr "複製プラン"
+
+#. existingplans
+#: artefact/plans/lang/en.utf8/artefact.plans.php:46
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:existingplans"
+msgid "Existing plans"
+msgstr "既存プラン"
+
+#. duplicatedtask
+#: artefact/plans/lang/en.utf8/artefact.plans.php:47
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:duplicatedtask"
+msgid "Duplicated task"
+msgstr "複製タスク"
+
+#. existingtasks
+#: artefact/plans/lang/en.utf8/artefact.plans.php:48
+msgctxt "artefact/plans/lang/en.utf8/artefact.plans.php:existingtasks"
+msgid "Existing tasks"
+msgstr "既存タスク"
+
+#. title1
+#: artefact/resume/blocktype/entireresume/lang/en.utf8/blocktype.entireresume.php:1
+msgctxt ""
+"artefact/resume/blocktype/entireresume/lang/en.utf8/blocktype.entireresume.php:title1"
+msgid "My entire resume"
+msgstr "私のレジュメ全体"
+
+#. description
+#: artefact/resume/blocktype/entireresume/lang/en.utf8/blocktype.entireresume.php:2
+msgctxt ""
+"artefact/resume/blocktype/entireresume/lang/en.utf8/blocktype.entireresume.php:description"
+msgid "A quick way to show your whole resume"
+msgstr "あなたのレジュメ全体を表示する素早い方法です。"
+
+#. History
+#: artefact/resume/blocktype/entireresume/lang/en.utf8/blocktype.entireresume.php:3
+msgctxt ""
+"artefact/resume/blocktype/entireresume/lang/en.utf8/blocktype.entireresume.php:History"
+msgid "History"
+msgstr "履歴"
+
+#. title
+#: artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:1
+msgctxt ""
+"artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:title"
+msgid "One resume field"
+msgstr "レジュメフィールド"
+
+#. description
+#: artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:2
+msgctxt ""
+"artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:description"
+msgid "Display any resume information"
+msgstr "レジュメ情報を表示します。"
+
+#. fieldtoshow
+#: artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:3
+msgctxt ""
+"artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:fieldtoshow"
+msgid "Field to show"
+msgstr "表示するフィールド"
+
+#. filloutyourresume
+#: artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:4
+msgctxt ""
+"artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:filloutyourresume"
+msgid "%sFill out your resume%s in order to add more fields."
+msgstr "さらにフィールドを追加するには、%sあなたのレジュメに内容を入力してください%s。"
+
+#. defaulttitledescription
+#: artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:5
+msgctxt ""
+"artefact/resume/blocktype/resumefield/lang/en.utf8/blocktype.resumefield.php:defaulttitledescription"
+msgid "If you leave this blank, the name of the field will be used."
+msgstr "ここを空白にした場合、フィールド名が使用されます。"
+
+#. pluginname
+#: artefact/resume/lang/en.utf8/artefact.resume.php:1
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:pluginname"
+msgid "Resume"
+msgstr "レジュメ"
+
+#. introduction
+#: artefact/resume/lang/en.utf8/artefact.resume.php:2
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:introduction"
+msgid "Introduction"
+msgstr "イントロダクション"
+
+#. educationandemployment
+#: artefact/resume/lang/en.utf8/artefact.resume.php:3
+msgctxt ""
+"artefact/resume/lang/en.utf8/artefact.resume.php:educationandemployment"
+msgid "Education and employment"
+msgstr "教育 & 雇用"
+
+#. achievements
+#: artefact/resume/lang/en.utf8/artefact.resume.php:4
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:achievements"
+msgid "Achievements"
+msgstr "業績"
+
+#. goals
+#: artefact/resume/lang/en.utf8/artefact.resume.php:5
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:goals"
+msgid "Goals"
+msgstr "ゴール"
+
+#. skills
+#: artefact/resume/lang/en.utf8/artefact.resume.php:6
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:skills"
+msgid "Skills"
+msgstr "スキル"
+
+#. goalsandskills
+#: artefact/resume/lang/en.utf8/artefact.resume.php:7
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:goalsandskills"
+msgid "Goals and skills"
+msgstr "ゴールおよびスキル"
+
+#. interests
+#: artefact/resume/lang/en.utf8/artefact.resume.php:8
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:interests"
+msgid "Interests"
+msgstr "興味"
+
+#. license
+#: artefact/resume/lang/en.utf8/artefact.resume.php:9
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:license"
+msgid "License"
+msgstr "ライセンス"
+
+#. mygoals
+#: artefact/resume/lang/en.utf8/artefact.resume.php:10
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:mygoals"
+msgid "My goals"
+msgstr "マイゴール"
+
+#. myskills
+#: artefact/resume/lang/en.utf8/artefact.resume.php:11
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:myskills"
+msgid "My skills"
+msgstr "マイスキル"
+
+#. coverletter
+#: artefact/resume/lang/en.utf8/artefact.resume.php:12
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:coverletter"
+msgid "Cover letter"
+msgstr "カバーレター"
+
+#. interest
+#: artefact/resume/lang/en.utf8/artefact.resume.php:13
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:interest"
+msgid "Interests"
+msgstr "興味のあること"
+
+#. contactinformation
+#: artefact/resume/lang/en.utf8/artefact.resume.php:14
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:contactinformation"
+msgid "Contact information"
+msgstr "連絡先"
+
+#. personalinformation
+#: artefact/resume/lang/en.utf8/artefact.resume.php:15
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:personalinformation"
+msgid "Personal information"
+msgstr "個人情報"
+
+#. dateofbirth
+#: artefact/resume/lang/en.utf8/artefact.resume.php:16
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:dateofbirth"
+msgid "Date of birth"
+msgstr "誕生日"
+
+#. placeofbirth
+#: artefact/resume/lang/en.utf8/artefact.resume.php:17
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:placeofbirth"
+msgid "Place of birth"
+msgstr "出生地"
+
+#. citizenship
+#: artefact/resume/lang/en.utf8/artefact.resume.php:18
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:citizenship"
+msgid "Citizenship"
+msgstr "市民権"
+
+#. visastatus
+#: artefact/resume/lang/en.utf8/artefact.resume.php:19
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:visastatus"
+msgid "Visa status"
+msgstr "ビザステータス"
+
+#. female
+#: artefact/resume/lang/en.utf8/artefact.resume.php:20
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:female"
+msgid "Female"
+msgstr "女性"
+
+#. male
+#: artefact/resume/lang/en.utf8/artefact.resume.php:21
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:male"
+msgid "Male"
+msgstr "男性"
+
+#. gender
+#: artefact/resume/lang/en.utf8/artefact.resume.php:22
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:gender"
+msgid "Gender"
+msgstr "性別"
+
+#. gendernotspecified
+#: artefact/resume/lang/en.utf8/artefact.resume.php:23
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:gendernotspecified"
+msgid "(Not specified)"
+msgstr "(未指定)"
+
+#. maritalstatus
+#: artefact/resume/lang/en.utf8/artefact.resume.php:24
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:maritalstatus"
+msgid "Marital status"
+msgstr "配偶者の有無"
+
+#. resumesaved
+#: artefact/resume/lang/en.utf8/artefact.resume.php:25
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:resumesaved"
+msgid "Resume saved"
+msgstr "レジュメが保存されました。"
+
+#. resumesavefailed
+#: artefact/resume/lang/en.utf8/artefact.resume.php:26
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:resumesavefailed"
+msgid "Failed to update your resume"
+msgstr "あなたのレジュメの更新に失敗しました。"
+
+#. educationhistory
+#: artefact/resume/lang/en.utf8/artefact.resume.php:27
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:educationhistory"
+msgid "Education history"
+msgstr "教育履歴"
+
+#. employmenthistory
+#: artefact/resume/lang/en.utf8/artefact.resume.php:28
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:employmenthistory"
+msgid "Employment history"
+msgstr "職歴"
+
+#. certification
+#: artefact/resume/lang/en.utf8/artefact.resume.php:29
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:certification"
+msgid "Certifications, accreditations and awards"
+msgstr "証明、認定および受賞"
+
+#. book
+#: artefact/resume/lang/en.utf8/artefact.resume.php:30
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:book"
+msgid "Books and publications"
+msgstr "書籍および出版物"
+
+#. membership
+#: artefact/resume/lang/en.utf8/artefact.resume.php:31
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:membership"
+msgid "Professional memberships"
+msgstr "専門会員資格"
+
+#. startdate
+#: artefact/resume/lang/en.utf8/artefact.resume.php:32
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:startdate"
+msgid "Start date"
+msgstr "開始年月日"
+
+#. enddate
+#: artefact/resume/lang/en.utf8/artefact.resume.php:33
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:enddate"
+msgid "End date"
+msgstr "終了年月日"
+
+#. date
+#: artefact/resume/lang/en.utf8/artefact.resume.php:34
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:date"
+msgid "Date"
+msgstr "日付"
+
+#. position
+#: artefact/resume/lang/en.utf8/artefact.resume.php:35
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:position"
+msgid "Position"
+msgstr "ポジション"
+
+#. qualification
+#: artefact/resume/lang/en.utf8/artefact.resume.php:36
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:qualification"
+msgid "Qualification"
+msgstr "資格"
+
+#. title
+#: artefact/resume/lang/en.utf8/artefact.resume.php:37
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:title"
+msgid "Title"
+msgstr "タイトル"
+
+#. description
+#: artefact/resume/lang/en.utf8/artefact.resume.php:38
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:description"
+msgid "Description"
+msgstr "説明"
+
+#. bookurl
+#: artefact/resume/lang/en.utf8/artefact.resume.php:39
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:bookurl"
+msgid "URL"
+msgstr "URI"
+
+#. notvalidurl
+#: artefact/resume/lang/en.utf8/artefact.resume.php:40
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:notvalidurl"
+msgid "Not a valid URL"
+msgstr "有効なURIではありません。"
+
+#. employer
+#: artefact/resume/lang/en.utf8/artefact.resume.php:41
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:employer"
+msgid "Employer"
+msgstr "雇用主"
+
+#. jobtitle
+#: artefact/resume/lang/en.utf8/artefact.resume.php:42
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:jobtitle"
+msgid "Job title"
+msgstr "職名"
+
+#. positiondescription
+#: artefact/resume/lang/en.utf8/artefact.resume.php:43
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:positiondescription"
+msgid "Position description"
+msgstr "ポジション説明"
+
+#. institution
+#: artefact/resume/lang/en.utf8/artefact.resume.php:44
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:institution"
+msgid "Institution"
+msgstr "インスティテューション"
+
+#. qualtype
+#: artefact/resume/lang/en.utf8/artefact.resume.php:45
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:qualtype"
+msgid "Qualification type"
+msgstr "資格タイプ"
+
+#. qualname
+#: artefact/resume/lang/en.utf8/artefact.resume.php:46
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:qualname"
+msgid "Qualification name"
+msgstr "資格名"
+
+#. qualdescription
+#: artefact/resume/lang/en.utf8/artefact.resume.php:47
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:qualdescription"
+msgid "Qualification description"
+msgstr "資格説明"
+
+#. contribution
+#: artefact/resume/lang/en.utf8/artefact.resume.php:48
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:contribution"
+msgid "Contribution"
+msgstr "寄稿"
+
+#. detailsofyourcontribution
+#: artefact/resume/lang/en.utf8/artefact.resume.php:49
+msgctxt ""
+"artefact/resume/lang/en.utf8/artefact.resume.php:detailsofyourcontribution"
+msgid "Details of your contribution"
+msgstr "あなたの寄稿詳細"
+
+#. compositedeleteconfirm
+#: artefact/resume/lang/en.utf8/artefact.resume.php:50
+msgctxt ""
+"artefact/resume/lang/en.utf8/artefact.resume.php:compositedeleteconfirm"
+msgid "Are you sure you want to delete this?"
+msgstr "本当にこれを削除してもよろしいですか?"
+
+#. compositesaved
+#: artefact/resume/lang/en.utf8/artefact.resume.php:51
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:compositesaved"
+msgid "Saved successfully"
+msgstr "正常に保存されました。"
+
+#. compositesavefailed
+#: artefact/resume/lang/en.utf8/artefact.resume.php:52
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:compositesavefailed"
+msgid "Save failed"
+msgstr "保存に失敗しました。"
+
+#. compositedeleted
+#: artefact/resume/lang/en.utf8/artefact.resume.php:53
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:compositedeleted"
+msgid "Deleted successfully"
+msgstr "正常に削除されました。"
+
+#. personalgoal
+#: artefact/resume/lang/en.utf8/artefact.resume.php:54
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:personalgoal"
+msgid "Personal goals"
+msgstr "パーソナルゴール"
+
+#. academicgoal
+#: artefact/resume/lang/en.utf8/artefact.resume.php:55
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:academicgoal"
+msgid "Academic goals"
+msgstr "アカデミックゴール"
+
+#. careergoal
+#: artefact/resume/lang/en.utf8/artefact.resume.php:56
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:careergoal"
+msgid "Career goals"
+msgstr "キャリアゴール"
+
+#. personalskill
+#: artefact/resume/lang/en.utf8/artefact.resume.php:57
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:personalskill"
+msgid "Personal skills"
+msgstr "パーソナルスキル"
+
+#. academicskill
+#: artefact/resume/lang/en.utf8/artefact.resume.php:58
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:academicskill"
+msgid "Academic skills"
+msgstr "アカデミックスキル"
+
+#. workskill
+#: artefact/resume/lang/en.utf8/artefact.resume.php:59
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:workskill"
+msgid "Work skills"
+msgstr "ワークスキル"
+
+#. goalandskillsaved
+#: artefact/resume/lang/en.utf8/artefact.resume.php:60
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:goalandskillsaved"
+msgid "Saved successfully"
+msgstr "正常に保存されました。"
+
+#. resume
+#: artefact/resume/lang/en.utf8/artefact.resume.php:61
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:resume"
+msgid "Resume"
+msgstr "レジュメ"
+
+#. current
+#: artefact/resume/lang/en.utf8/artefact.resume.php:62
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:current"
+msgid "Current"
+msgstr "現在"
+
+#. moveup
+#: artefact/resume/lang/en.utf8/artefact.resume.php:63
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:moveup"
+msgid "Move up"
+msgstr "上へ"
+
+#. movedown
+#: artefact/resume/lang/en.utf8/artefact.resume.php:64
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:movedown"
+msgid "Move down"
+msgstr "下へ"
+
+#. viewyourresume
+#: artefact/resume/lang/en.utf8/artefact.resume.php:65
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:viewyourresume"
+msgid "View your resume"
+msgstr "あなたのレジュメを表示する"
+
+#. resumeofuser
+#: artefact/resume/lang/en.utf8/artefact.resume.php:66
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:resumeofuser"
+msgid "Resume of %s"
+msgstr "%s のレジュメ"
+
+#. employeraddress
+#: artefact/resume/lang/en.utf8/artefact.resume.php:67
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:employeraddress"
+msgid "Employer address"
+msgstr "雇用主住所"
+
+#. institutionaddress
+#: artefact/resume/lang/en.utf8/artefact.resume.php:68
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:institutionaddress"
+msgid "Institution address"
+msgstr "インスティテューション住所"
+
+#. duplicatedresumefieldvalue
+#: artefact/resume/lang/en.utf8/artefact.resume.php:69
+msgctxt ""
+"artefact/resume/lang/en.utf8/artefact.resume.php:duplicatedresumefieldvalue"
+msgid "Duplicated value"
+msgstr "複製値"
+
+#. existingresumefieldvalues
+#: artefact/resume/lang/en.utf8/artefact.resume.php:70
+msgctxt ""
+"artefact/resume/lang/en.utf8/artefact.resume.php:existingresumefieldvalues"
+msgid "Existing values"
+msgstr "既存値"
+
+#. attachfile
+#: artefact/resume/lang/en.utf8/artefact.resume.php:71
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:attachfile"
+msgid "Attach file"
+msgstr "添付ファイル"
+
+#. Attachments
+#: artefact/resume/lang/en.utf8/artefact.resume.php:72
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:Attachments"
+msgid "Attachments"
+msgstr "添付"
+
+#. attachmentdesc
+#: artefact/resume/lang/en.utf8/artefact.resume.php:73
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:attachmentdesc"
+msgid "Attachment to %s"
+msgstr "%s の添付"
+
+#. nodescription
+#: artefact/resume/lang/en.utf8/artefact.resume.php:74
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:nodescription"
+msgid "(No description)"
+msgstr "(説明なし)"
+
+#. cannotfindcreateartefact
+#: artefact/resume/lang/en.utf8/artefact.resume.php:75
+msgctxt ""
+"artefact/resume/lang/en.utf8/artefact.resume.php:cannotfindcreateartefact"
+msgid "Cannot find or create artefact."
+msgstr "見つからない、またはアーティファクトを作成できません。"
+
+#. duplicateattachment
+#: artefact/resume/lang/en.utf8/artefact.resume.php:76
+msgctxt "artefact/resume/lang/en.utf8/artefact.resume.php:duplicateattachment"
+msgid ""
+"File '%s' has already been used on another entry in this section. You cannot"
+" use the same file twice."
+msgstr "すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。"
+
+#. duplicateattachments
+#: artefact/resume/lang/en.utf8/artefact.resume.php:77
+msgctxt ""
+"artefact/resume/lang/en.utf8/artefact.resume.php:duplicateattachments"
+msgid ""
+"Files '%s' have already been used on another entry in this section. You "
+"cannot use the same files twice."
+msgstr "すでにこのセクションの別のエントリにファイル「 %s 」が使用されています。あなたは同一ファイルを2度使用することはできません。"

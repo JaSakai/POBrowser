@@ -1,0 +1,3784 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2014
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:37+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. disregardedwithoutpenalty
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:1
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:disregardedwithoutpenalty"
+msgid "The submission was invalid, and has been disregarded without penalty."
+msgstr "送信が有効ではないため、ペナルティなしとして無視されました。"
+
+#. gradingdetails
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:2
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetails"
+msgid "Marks for this submission: {$a->raw}/{$a->max}."
+msgstr "この送信の評点: {$a->raw}/{$a->max}"
+
+#. gradingdetailsadjustment
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:3
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailsadjustment"
+msgid ""
+"Accounting for previous tries, this gives "
+"<strong>{$a->cur}/{$a->max}</strong>."
+msgstr "前の受験により <strong>{$a->cur}/{$a->max}</strong> に調整されます。"
+
+#. gradingdetailspenalty
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:4
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailspenalty"
+msgid "This submission attracted a penalty of {$a}."
+msgstr "この解答のペナルティ: {$a}"
+
+#. gradingdetailspenaltytotal
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:5
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailspenaltytotal"
+msgid "Total penalties so far: {$a}."
+msgstr "現在のペナルティ: {$a}"
+
+#. gradingdetailswithadjustment
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:6
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailswithadjustment"
+msgid ""
+"Marks for this submission: {$a->raw}/{$a->max}. Accounting for previous "
+"tries, this gives <strong>{$a->cur}/{$a->max}</strong>."
+msgstr "この送信の評点は {$a->raw}/{$a->max} です。前の受験に基づき、<strong>{$a->cur}/{$a->max}</strong> に補正されます。"
+
+#. gradingdetailswithadjustmentpenalty
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:7
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailswithadjustmentpenalty"
+msgid ""
+"Marks for this submission: {$a->raw}/{$a->max}. Accounting for previous "
+"tries, this gives <strong>{$a->cur}/{$a->max}</strong>. This submission "
+"attracted a penalty of {$a->penalty}."
+msgstr "この送信の評点は {$a->raw}/{$a->max} です。前の受験に基づき、<strong>{$a->cur}/{$a->max}</strong> に補正されます。この送信からペナルティ {$a->penalty} 点が引かれます。"
+
+#. gradingdetailswithadjustmenttotalpenalty
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:8
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailswithadjustmenttotalpenalty"
+msgid ""
+"Marks for this submission: {$a->raw}/{$a->max}. Accounting for previous "
+"tries, this gives <strong>{$a->cur}/{$a->max}</strong>. This submission "
+"attracted a penalty of {$a->penalty}. Total penalties so far: "
+"{$a->totalpenalty}."
+msgstr "この送信の評点は {$a->raw}/{$a->max} です。 前の受験に基づき、<strong>{$a->cur}/{$a->max}</strong> に補正されます。この送信からペナルティ {$a->penalty} 点が引かれます。現在のペナルティ合計は {$a->totalpenalty} です。"
+
+#. gradingdetailswithpenalty
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:9
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailswithpenalty"
+msgid ""
+"Marks for this submission: {$a->raw}/{$a->max}. This submission attracted a "
+"penalty of {$a->penalty}."
+msgstr "この送信の評点は {$a->raw}/{$a->max} です。この送信からペナルティ {$a->penalty} 点が引かれます。"
+
+#. gradingdetailswithtotalpenalty
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:10
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:gradingdetailswithtotalpenalty"
+msgid ""
+"Marks for this submission: {$a->raw}/{$a->max}. This submission attracted a "
+"penalty of {$a->penalty}. Total penalties so far: {$a->totalpenalty}."
+msgstr "この送信の評点は {$a->raw}/{$a->max} です。この送信からペナルティ {$a->penalty} 点が引かれます。現在のペナルティ合計は {$a->totalpenalty} です。"
+
+#. notcomplete
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:11
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:notcomplete"
+msgid "Not complete"
+msgstr "未完了"
+
+#. pluginname
+#: question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:12
+msgctxt ""
+"question/behaviour/adaptive/lang/en/qbehaviour_adaptive.php:pluginname"
+msgid "Adaptive mode"
+msgstr "アダプティブモード"
+
+#. pluginname
+#: question/behaviour/adaptivenopenalty/lang/en/qbehaviour_adaptivenopenalty.php:1
+msgctxt ""
+"question/behaviour/adaptivenopenalty/lang/en/qbehaviour_adaptivenopenalty.php:pluginname"
+msgid "Adaptive mode (no penalties)"
+msgstr "アダプティブモード (ペナルティなし)"
+
+#. accuracy
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:1
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:accuracy"
+msgid "Accuracy"
+msgstr "正確性"
+
+#. accuracyandbonus
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:2
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:accuracyandbonus"
+msgid "Accuracy + Bonus"
+msgstr "正確性 + ボーナス"
+
+#. assumingcertainty
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:3
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:assumingcertainty"
+msgid "You did not select a certainty. Assuming: {$a}."
+msgstr "あなたは確信度を選択していません。仮定: {$a}"
+
+#. averagecbmmark
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:4
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:averagecbmmark"
+msgid "Average CBM mark"
+msgstr "平均CBM評点"
+
+#. basemark
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:5
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:basemark"
+msgid "Base mark {$a}"
+msgstr "基本評点 {$a}"
+
+#. breakdownbycertainty
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:6
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:breakdownbycertainty"
+msgid "Break-down by certainty"
+msgstr "確信度による分類"
+
+#. cbmbonus
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:7
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:cbmbonus"
+msgid "CBM bonus"
+msgstr "CBMボーナス"
+
+#. cbmgradeexplanation
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:8
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:cbmgradeexplanation"
+msgid ""
+"For CBM, the grade above is shown relative to the maximum for all correct at"
+" C=1."
+msgstr "CBMのため、C=1の時にすべて正解の場合の最大評点に対して上記評点が表示されます。"
+
+#. cbmgrades
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:9
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:cbmgrades"
+msgid "CBM grades"
+msgstr "CBM評点"
+
+#. cbmgrades_help
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:10
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:cbmgrades_help"
+msgid ""
+"With Certainty Based Marking (CBM) getting every question correct with C=1 (low certainty) gives a grade of 100%. Grades may be as high as 300% if every question is correct with C=3 (high certainty). Misconceptions (confident wrong responses) lower grades much more than wrong responses that are acknowledged to be uncertain. This may even lead to negative overall grades.\n"
+"**Accuracy** is the % correct ignoring certainty but weighted for the maximum mark of each question. Successfully distinguishing more and less reliable responses gives a better grade than selecting the same certainty for each question. This is reflected in the **CBM Bonus**. **Accuracy** + **CBM Bonus** is a better measure of knowledge than **Accuracy**. Misconceptions can lead to a negative bonus, a warning to look carefully at what is and is not known."
+msgstr "確信度ベースの評定 (Certainty Based Marking - CBM) において、C=1 (低い確信度) ですべての問題が正解の場合、評点100%が与えられます。C=3 (高い確信度) で問題すべてが正解の場合、評点は300%となります。  誤認 (確信を持った誤回答) は一般的に不明確であると認められる誤回答よりもさらに評点を低くします。さらにこれは全体の評点がマイナスになる原因ともなり得ます。\n**正確性**は確信度を無視して何パーセント正しいかということですが、それぞれの問題の最大評点に加重されます。成功裏に識別できたとして、程度の差はありますが、信頼できる回答はそれぞれの問題に同じ確信度を選択するよりも良い評点を与えることになります。これは**CBMボーナス**に反映されます。**正確性** + **CBMボーナス**は**正確性**より良いも知識尺度です。 誤認は何が知られていて、何が知られていないか注意深く確認する警告であるマイナスボーナスの原因となり得ます。"
+
+#. cbmgrades_link
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:11
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:cbmgrades_link"
+msgid "qbehaviour/deferredcbm/certaintygrade"
+msgstr "qbehaviour/deferredcbm/certaintygrade"
+
+#. cbmmark
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:12
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:cbmmark"
+msgid "CBM mark {$a}"
+msgstr "CBM評点 {$a}"
+
+#. certainty
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:13
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certainty"
+msgid "Certainty"
+msgstr "確信度"
+
+#. certainty1
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:14
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certainty1"
+msgid "C=1 (Unsure: <67%)"
+msgstr "C=1 (不確か: <67%)"
+
+#. certainty-1
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:15
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certainty-1"
+msgid "No Idea"
+msgstr "分かりません"
+
+#. certainty2
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:16
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certainty2"
+msgid "C=2 (Mid: >67%)"
+msgstr "C=2 (中間: >67%)"
+
+#. certainty3
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:17
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certainty3"
+msgid "C=3 (Quite sure: >80%)"
+msgstr "C=3 (かなり確か: >80%)"
+
+#. certainty_help
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:18
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certainty_help"
+msgid ""
+"Certainty-based marking requires you to indicate how reliable you think your answer is. The available levels are:\n"
+"Certainty level     | C=1 (Unsure) | C=2 (Mid) | C=3 (Quite sure)\n"
+"------------------- | ------------ | --------- | ----------------\n"
+"Mark if correct     |   1          |    2      |      3\n"
+"Mark if wrong       |   0          |   -2      |     -6\n"
+"Probability correct |  <67%        | 67-80%    |    >80%\n"
+"\n"
+"Best marks are gained by acknowledging uncertainty. For example, if you think there is more than a 1 in 3 chance of being wrong, you should enter C=1 and avoid the risk of a negative mark."
+msgstr "確信度ベースの評定の場合、あなたの答えがどのくらい信頼できるか指定する必要があります。利用可能なレベルは下記のとおりです:\n確信度レベル | C=1 (不確か) | C=2 (中間) | C=3 (かなり確か)\n------------------- | ------------ | --------- | ----------------\n正解の場合の評点 | 1 | 2 | 3\n不正解の場合の評点 | 0 | -2 | -6\n正解率 | <67% | 67-80% | >80%\n\n確信のないことを認めることで、最高評点を取得することができます。例えば、あなたが3つのうち1つ以上正しくないと思う場合、C=1と入力することでマイナス点のリスクを避けることができます。"
+
+#. certainty_link
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:19
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certainty_link"
+msgid "qbehaviour/deferredcbm/certainty"
+msgstr "qbehaviour/deferredcbm/certainty"
+
+#. certaintyshort1
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:20
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certaintyshort1"
+msgid "C=1"
+msgstr "C=1"
+
+#. certaintyshort-1
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:21
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certaintyshort-1"
+msgid "No Idea"
+msgstr "分かりません"
+
+#. certaintyshort2
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:22
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certaintyshort2"
+msgid "C=2"
+msgstr "C=2"
+
+#. certaintyshort3
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:23
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:certaintyshort3"
+msgid "C=3"
+msgstr "C=3"
+
+#. dontknow
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:24
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:dontknow"
+msgid "No idea"
+msgstr "分かりません"
+
+#. foransweredquestions
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:25
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:foransweredquestions"
+msgid "Results for just the {$a} answered questions"
+msgstr "{$a} 問の解答済み問題の結果"
+
+#. forentirequiz
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:26
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:forentirequiz"
+msgid "Results for the whole quiz ({$a} questions)"
+msgstr "小テスト全体 ({$a} 問) の結果"
+
+#. howcertainareyou
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:27
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:howcertainareyou"
+msgid "Certainty{$a->help}: {$a->choices}"
+msgstr "確信度 {$a->help}: {$a->choices}"
+
+#. judgementok
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:28
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:judgementok"
+msgid "OK"
+msgstr "OK"
+
+#. judgementsummary
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:29
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:judgementsummary"
+msgid ""
+"Responses: {$a->responses}. Accuracy: {$a->fraction}. (Optimal range "
+"{$a->idealrangelow} to {$a->idealrangehigh}). You were {$a->judgement} using"
+" this certainty level."
+msgstr "解答数: {$a->responses} / 正確性: {$a->fraction} (最適レンジ {$a->idealrangelow} - {$a->idealrangehigh}) / この確信度レベルを使用した場合: {$a->judgement}"
+
+#. noquestions
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:30
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:noquestions"
+msgid "No responses"
+msgstr "レスポンスなし"
+
+#. overconfident
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:31
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:overconfident"
+msgid "over-confident"
+msgstr "自信過剰"
+
+#. pluginname
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:32
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:pluginname"
+msgid "Deferred feedback with CBM"
+msgstr "遅延フィードバック (CBM)"
+
+#. slightlyoverconfident
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:33
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:slightlyoverconfident"
+msgid "a bit over-confident"
+msgstr "若干自信過剰"
+
+#. slightlyunderconfident
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:34
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:slightlyunderconfident"
+msgid "a bit under-confident"
+msgstr "若干自信不足"
+
+#. underconfident
+#: question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:35
+msgctxt ""
+"question/behaviour/deferredcbm/lang/en/qbehaviour_deferredcbm.php:underconfident"
+msgid "under-confident"
+msgstr "自信不足"
+
+#. pluginname
+#: question/behaviour/deferredfeedback/lang/en/qbehaviour_deferredfeedback.php:1
+msgctxt ""
+"question/behaviour/deferredfeedback/lang/en/qbehaviour_deferredfeedback.php:pluginname"
+msgid "Deferred feedback"
+msgstr "遅延フィードバック"
+
+#. pleaseselectacertainty
+#: question/behaviour/immediatecbm/lang/en/qbehaviour_immediatecbm.php:1
+msgctxt ""
+"question/behaviour/immediatecbm/lang/en/qbehaviour_immediatecbm.php:pleaseselectacertainty"
+msgid "Please select a certainty."
+msgstr "確信度を選択してください。"
+
+#. pluginname
+#: question/behaviour/immediatecbm/lang/en/qbehaviour_immediatecbm.php:2
+msgctxt ""
+"question/behaviour/immediatecbm/lang/en/qbehaviour_immediatecbm.php:pluginname"
+msgid "Immediate feedback with CBM"
+msgstr "即時フィードバック (CBM)"
+
+#. notcomplete
+#: question/behaviour/immediatefeedback/lang/en/qbehaviour_immediatefeedback.php:1
+msgctxt ""
+"question/behaviour/immediatefeedback/lang/en/qbehaviour_immediatefeedback.php:notcomplete"
+msgid "Not complete"
+msgstr "未完了"
+
+#. pluginname
+#: question/behaviour/immediatefeedback/lang/en/qbehaviour_immediatefeedback.php:2
+msgctxt ""
+"question/behaviour/immediatefeedback/lang/en/qbehaviour_immediatefeedback.php:pluginname"
+msgid "Immediate feedback"
+msgstr "即時フィードバック"
+
+#. pluginname
+#: question/behaviour/informationitem/lang/en/qbehaviour_informationitem.php:1
+msgctxt ""
+"question/behaviour/informationitem/lang/en/qbehaviour_informationitem.php:pluginname"
+msgid "Behaviour for information items"
+msgstr "情報アイテムに対する動作"
+
+#. seen
+#: question/behaviour/informationitem/lang/en/qbehaviour_informationitem.php:2
+msgctxt ""
+"question/behaviour/informationitem/lang/en/qbehaviour_informationitem.php:seen"
+msgid "Seen"
+msgstr "閲覧"
+
+#. notcomplete
+#: question/behaviour/interactive/lang/en/qbehaviour_interactive.php:1
+msgctxt ""
+"question/behaviour/interactive/lang/en/qbehaviour_interactive.php:notcomplete"
+msgid "Not complete"
+msgstr "未完了"
+
+#. pluginname
+#: question/behaviour/interactive/lang/en/qbehaviour_interactive.php:2
+msgctxt ""
+"question/behaviour/interactive/lang/en/qbehaviour_interactive.php:pluginname"
+msgid "Interactive with multiple tries"
+msgstr "複数受験インタラクティブ"
+
+#. triesremaining
+#: question/behaviour/interactive/lang/en/qbehaviour_interactive.php:3
+msgctxt ""
+"question/behaviour/interactive/lang/en/qbehaviour_interactive.php:triesremaining"
+msgid "Tries remaining: {$a}"
+msgstr "残り受験数: {$a}"
+
+#. tryagain
+#: question/behaviour/interactive/lang/en/qbehaviour_interactive.php:4
+msgctxt ""
+"question/behaviour/interactive/lang/en/qbehaviour_interactive.php:tryagain"
+msgid "Try again"
+msgstr "再受験"
+
+#. pluginname
+#: question/behaviour/interactivecountback/lang/en/qbehaviour_interactivecountback.php:1
+msgctxt ""
+"question/behaviour/interactivecountback/lang/en/qbehaviour_interactivecountback.php:pluginname"
+msgid "Interactive with multiple tries (credit for earlier tries)"
+msgstr "複数受験インタラクティブ (過去の受験を認める)"
+
+#. pluginname
+#: question/behaviour/manualgraded/lang/en/qbehaviour_manualgraded.php:1
+msgctxt ""
+"question/behaviour/manualgraded/lang/en/qbehaviour_manualgraded.php:pluginname"
+msgid "Manually graded"
+msgstr "手動評定"
+
+#. pluginname
+#: question/behaviour/missing/lang/en/qbehaviour_missing.php:1
+msgctxt "question/behaviour/missing/lang/en/qbehaviour_missing.php:pluginname"
+msgid "Missing behaviour"
+msgstr "不明動作"
+
+#. questionusedunknownmodel
+#: question/behaviour/missing/lang/en/qbehaviour_missing.php:2
+msgctxt ""
+"question/behaviour/missing/lang/en/qbehaviour_missing.php:questionusedunknownmodel"
+msgid ""
+"This question was attempted with a behaviour that is not currently "
+"available. The question is being displayed as well as possible, but some "
+"parts may be missing or wrong."
+msgstr "この問題は現在利用できない動作によって受験されました。問題を表示することはできましたが、いくつかの部分が欠けているか、正常ではありません。"
+
+#. pluginname
+#: question/format/aiken/lang/en/qformat_aiken.php:1
+msgctxt "question/format/aiken/lang/en/qformat_aiken.php:pluginname"
+msgid "Aiken format"
+msgstr "Aikenフォーマット"
+
+#. pluginname_help
+#: question/format/aiken/lang/en/qformat_aiken.php:2
+msgctxt "question/format/aiken/lang/en/qformat_aiken.php:pluginname_help"
+msgid ""
+"This is a simple format for importing multiple choice questions from a text "
+"file."
+msgstr "これはテキストファイルから多肢選択問題をインポートするためのシンプルなフォーマットです。"
+
+#. pluginname_link
+#: question/format/aiken/lang/en/qformat_aiken.php:3
+msgctxt "question/format/aiken/lang/en/qformat_aiken.php:pluginname_link"
+msgid "qformat/aiken"
+msgstr "qformat/aiken"
+
+#. defaultname
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:1
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:defaultname"
+msgid "Imported question {$a}"
+msgstr "インポート済み問題 {$a}"
+
+#. errormanifest
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:2
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:errormanifest"
+msgid "Error while parsing the IMS manifest document"
+msgstr "IMSマニフェストドキュメントの構文解析中にエラーが発生しました。"
+
+#. filenothandled
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:3
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:filenothandled"
+msgid ""
+"This archive contains reference to a file material {$a} which is not "
+"currently handled by import"
+msgstr "このアーカイブには現在インポートで処理できないファイル実体 {$a} の参照が含まれています。"
+
+#. imagenotfound
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:4
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:imagenotfound"
+msgid "Image file with path {$a} was not found in the import."
+msgstr "インポート内にパス「 {$a} 」のファイルが見つかりませんでした。"
+
+#. importedcategory
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:5
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:importedcategory"
+msgid "Imported category {$a}"
+msgstr "インポートカテゴリ {$a}"
+
+#. importnotext
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:6
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:importnotext"
+msgid "Missing question text in XML file"
+msgstr "XMLファイル内に問題テキストが見つかりませんでした。"
+
+#. notenoughtsubans
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:7
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:notenoughtsubans"
+msgid ""
+"Unable to import matching question '{$a}' because a matching question must "
+"comprise at least two questions and three answers."
+msgstr "少なくとも2問の問題および3つの答えを含む必要があるため、組み合わせ問題「 {$a} 」をインポートすることができません。"
+
+#. pluginname
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:8
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:pluginname"
+msgid "Blackboard"
+msgstr "Blackboard V6"
+
+#. pluginname_help
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:9
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:pluginname_help"
+msgid ""
+"Blackboard format enables questions saved in all Blackboard export formats "
+"to be imported via a dat or zip file. For zip files, images import is "
+"supported."
+msgstr "BlackboardフォーマットではBlackboardエクスポートフォーマットで保存された問題をdatまたはzipファイルによってインポートすることができます。ZIPファイルおよびイメージのインポートがサポートされます。"
+
+#. unhandledpresblock
+#: question/format/blackboard_six/lang/en/qformat_blackboard_six.php:10
+msgctxt ""
+"question/format/blackboard_six/lang/en/qformat_blackboard_six.php:unhandledpresblock"
+msgid "Unhandled presentation block"
+msgstr "未処理のプレゼンテーションブロック"
+
+#. pluginname
+#: question/format/examview/lang/en/qformat_examview.php:1
+msgctxt "question/format/examview/lang/en/qformat_examview.php:pluginname"
+msgid "Examview"
+msgstr "Examview"
+
+#. pluginname_help
+#: question/format/examview/lang/en/qformat_examview.php:2
+msgctxt ""
+"question/format/examview/lang/en/qformat_examview.php:pluginname_help"
+msgid ""
+"Examview format enables the import of questions from Examview 4 XML files. "
+"For newer versions of Examview, Blackboard format may be used."
+msgstr "ExamviewフォーマットではExamview 4 XMLファイルより問題をインポートすることができます。新しいバージョンのExamviewではBlackboardフォーマットを使用することができます。"
+
+#. braceerror
+#: question/format/gift/lang/en/qformat_gift.php:1
+msgctxt "question/format/gift/lang/en/qformat_gift.php:braceerror"
+msgid "Could not find {...} around answers"
+msgstr "答えの周りに {...} が見つかりませんでした。"
+
+#. giftleftbraceerror
+#: question/format/gift/lang/en/qformat_gift.php:2
+msgctxt "question/format/gift/lang/en/qformat_gift.php:giftleftbraceerror"
+msgid "Could not find a {"
+msgstr "{ が見つかりませんでした。"
+
+#. giftmatchingformat
+#: question/format/gift/lang/en/qformat_gift.php:3
+msgctxt "question/format/gift/lang/en/qformat_gift.php:giftmatchingformat"
+msgid "Matching question answers are improperly formatted"
+msgstr "組み合わせ問題の答えの形式が適切ではありません。"
+
+#. giftnonumericalanswers
+#: question/format/gift/lang/en/qformat_gift.php:4
+msgctxt "question/format/gift/lang/en/qformat_gift.php:giftnonumericalanswers"
+msgid "No answers found for numerical question"
+msgstr "数値問題の解答が見つかりませんでした。"
+
+#. giftnovalidquestion
+#: question/format/gift/lang/en/qformat_gift.php:5
+msgctxt "question/format/gift/lang/en/qformat_gift.php:giftnovalidquestion"
+msgid "No valid question found"
+msgstr "有効な問題が見つかりませんでした。"
+
+#. giftqtypenotset
+#: question/format/gift/lang/en/qformat_gift.php:6
+msgctxt "question/format/gift/lang/en/qformat_gift.php:giftqtypenotset"
+msgid "Question type is not set"
+msgstr "問題タイプが設定されていません。"
+
+#. giftrightbraceerror
+#: question/format/gift/lang/en/qformat_gift.php:7
+msgctxt "question/format/gift/lang/en/qformat_gift.php:giftrightbraceerror"
+msgid "Could not find a }"
+msgstr "} が見つかりませんでした。"
+
+#. importminerror
+#: question/format/gift/lang/en/qformat_gift.php:8
+msgctxt "question/format/gift/lang/en/qformat_gift.php:importminerror"
+msgid ""
+"There is an error in the question. There are not enough answers for this "
+"question type"
+msgstr "問題にエラーがあります。この問題タイプに十分な答えがありません。"
+
+#. nohandler
+#: question/format/gift/lang/en/qformat_gift.php:9
+msgctxt "question/format/gift/lang/en/qformat_gift.php:nohandler"
+msgid "No handler for question type {$a}"
+msgstr "問題タイプ {$a} のハンドラがありません。"
+
+#. pluginname
+#: question/format/gift/lang/en/qformat_gift.php:10
+msgctxt "question/format/gift/lang/en/qformat_gift.php:pluginname"
+msgid "Gift format"
+msgstr "Giftフォーマット"
+
+#. pluginname_help
+#: question/format/gift/lang/en/qformat_gift.php:11
+msgctxt "question/format/gift/lang/en/qformat_gift.php:pluginname_help"
+msgid ""
+"Gift format enables multiple-choice, true-false, short answer, matching, "
+"missing word, numerical and essay questions to be imported or exported via "
+"text file."
+msgstr "GIFTフォーマットではテキストファイルを使用して、多肢選択問題、○/×問題、記述問題、組み合わせ問題、穴埋め問題、数値問題および作文問題をインポートまたはエクスポートすることができます。"
+
+#. pluginname_link
+#: question/format/gift/lang/en/qformat_gift.php:12
+msgctxt "question/format/gift/lang/en/qformat_gift.php:pluginname_link"
+msgid "qformat/gift"
+msgstr "qformat/gift"
+
+#. pluginname
+#: question/format/learnwise/lang/en/qformat_learnwise.php:1
+msgctxt "question/format/learnwise/lang/en/qformat_learnwise.php:pluginname"
+msgid "Learnwise format"
+msgstr "Learnwisefフォーマット"
+
+#. pluginname_help
+#: question/format/learnwise/lang/en/qformat_learnwise.php:2
+msgctxt ""
+"question/format/learnwise/lang/en/qformat_learnwise.php:pluginname_help"
+msgid ""
+"This format enables the import of multiple choice questions saved in "
+"Learnwise's XML format."
+msgstr "このフォーマットはLearnwiseのXML formatで保存された多肢選択問題のインポートを可能にします。"
+
+#. beginanswernotfound
+#: question/format/missingword/lang/en/qformat_missingword.php:1
+msgctxt ""
+"question/format/missingword/lang/en/qformat_missingword.php:beginanswernotfound"
+msgid "Could not find a required \"{\" character in imported file content."
+msgstr "インポートされたファイルコンテンツ内に必須の「{」が見つかりませんでした。"
+
+#. endanswernotfound
+#: question/format/missingword/lang/en/qformat_missingword.php:2
+msgctxt ""
+"question/format/missingword/lang/en/qformat_missingword.php:endanswernotfound"
+msgid "Could not find a required \"}\" character in imported file content."
+msgstr "インポートされたファイルコンテンツ内に必須の「}」が見つかりませんでした。"
+
+#. noanswerfound
+#: question/format/missingword/lang/en/qformat_missingword.php:3
+msgctxt ""
+"question/format/missingword/lang/en/qformat_missingword.php:noanswerfound"
+msgid "No answers found in question"
+msgstr "問題内に答えがありません。"
+
+#. pluginname
+#: question/format/missingword/lang/en/qformat_missingword.php:4
+msgctxt ""
+"question/format/missingword/lang/en/qformat_missingword.php:pluginname"
+msgid "Missing word format"
+msgstr "Missing wordフォーマット"
+
+#. pluginname_help
+#: question/format/missingword/lang/en/qformat_missingword.php:5
+msgctxt ""
+"question/format/missingword/lang/en/qformat_missingword.php:pluginname_help"
+msgid "Missing word format enables questions to be imported via text file."
+msgstr "Missing wordフォーマットではテキストファイルを使用して問題をインポートすることができます。"
+
+#. pluginname_link
+#: question/format/missingword/lang/en/qformat_missingword.php:6
+msgctxt ""
+"question/format/missingword/lang/en/qformat_missingword.php:pluginname_link"
+msgid "Missing word format"
+msgstr "Missing wordフォーマット"
+
+#. pluginname
+#: question/format/multianswer/lang/en/qformat_multianswer.php:1
+msgctxt ""
+"question/format/multianswer/lang/en/qformat_multianswer.php:pluginname"
+msgid "Embedded answers (Cloze)"
+msgstr "穴埋め問題 (Cloze)"
+
+#. pluginname_help
+#: question/format/multianswer/lang/en/qformat_multianswer.php:2
+msgctxt ""
+"question/format/multianswer/lang/en/qformat_multianswer.php:pluginname_help"
+msgid ""
+"Embedded answers (Cloze) format enables the import of a passage of text with"
+" questions such as multiple-choice and short answer embedded within it."
+msgstr "穴埋め問題 (Cloze) フォーマットでは多肢選択問題および記述問題のような問題を記述したテキストをインポートすることができます。"
+
+#. pluginname_link
+#: question/format/multianswer/lang/en/qformat_multianswer.php:3
+msgctxt ""
+"question/format/multianswer/lang/en/qformat_multianswer.php:pluginname_link"
+msgid "question/type/multianswer"
+msgstr "question/type/multianswer"
+
+#. errorsdetected
+#: question/format/webct/lang/en/qformat_webct.php:1
+msgctxt "question/format/webct/lang/en/qformat_webct.php:errorsdetected"
+msgid "{$a} error(s) detected"
+msgstr "{$a} 件のエラーが検出されました。"
+
+#. missinganswer
+#: question/format/webct/lang/en/qformat_webct.php:2
+msgctxt "question/format/webct/lang/en/qformat_webct.php:missinganswer"
+msgid ""
+"Too few :ANSWER, :Lx, :Rx statements for question line {$a}. You must define"
+" at last 2 possible answers"
+msgstr "{$a} 行目の問題文に関して、「:ANSWER」「:Lx」「:Rx」の記述が少なすぎます。あなたは少なくとも2つの考えられる答えを定義する必要があります。"
+
+#. missingquestion
+#: question/format/webct/lang/en/qformat_webct.php:3
+msgctxt "question/format/webct/lang/en/qformat_webct.php:missingquestion"
+msgid "Missing question label after line {$a}"
+msgstr "{$a} 行目の後に問題ラベルがありません。"
+
+#. pluginname
+#: question/format/webct/lang/en/qformat_webct.php:4
+msgctxt "question/format/webct/lang/en/qformat_webct.php:pluginname"
+msgid "WebCT format"
+msgstr "WebCTフォーマット"
+
+#. pluginname_help
+#: question/format/webct/lang/en/qformat_webct.php:5
+msgctxt "question/format/webct/lang/en/qformat_webct.php:pluginname_help"
+msgid ""
+"WebCT format enables multiple-choice and short answer questions saved in "
+"WebCT's text-based format to be imported."
+msgstr "WebCTフォーマットでは、WebCTテキストベースフォーマットで保存された多肢選択問題および記述問題をインポートすることができます。"
+
+#. pluginname_link
+#: question/format/webct/lang/en/qformat_webct.php:6
+msgctxt "question/format/webct/lang/en/qformat_webct.php:pluginname_link"
+msgid "qformat/webct"
+msgstr "qformat/webct"
+
+#. questionnametoolong
+#: question/format/webct/lang/en/qformat_webct.php:7
+msgctxt "question/format/webct/lang/en/qformat_webct.php:questionnametoolong"
+msgid ""
+"Question name too long at line {$a} (255 char. max). It has been truncated."
+msgstr "{$a} 行目の問題名が長すぎます (最大半角255文字)。そのため、問題名は省略されました。"
+
+#. unknowntype
+#: question/format/webct/lang/en/qformat_webct.php:8
+msgctxt "question/format/webct/lang/en/qformat_webct.php:unknowntype"
+msgid "Unknown question type after line {$a}"
+msgstr "{$a} 行目以降に不明な問題タイプがあります。"
+
+#. warningsdetected
+#: question/format/webct/lang/en/qformat_webct.php:9
+msgctxt "question/format/webct/lang/en/qformat_webct.php:warningsdetected"
+msgid "{$a} warning(s) detected"
+msgstr "{$a} 件の警告が見つかりました。"
+
+#. wronggrade
+#: question/format/webct/lang/en/qformat_webct.php:10
+msgctxt "question/format/webct/lang/en/qformat_webct.php:wronggrade"
+msgid "Wrong grade (after line {$a}) :"
+msgstr "正しくない評点 ({$a} 行の後) :"
+
+#. pluginname
+#: question/format/xhtml/lang/en/qformat_xhtml.php:1
+msgctxt "question/format/xhtml/lang/en/qformat_xhtml.php:pluginname"
+msgid "XHTML format"
+msgstr "XHTMLフォーマット"
+
+#. pluginname_help
+#: question/format/xhtml/lang/en/qformat_xhtml.php:2
+msgctxt "question/format/xhtml/lang/en/qformat_xhtml.php:pluginname_help"
+msgid ""
+"XHTML format enables all questions in the category to be exported to a "
+"single page of strict XHTML for possible use in another application."
+msgstr "XHTMLフォーマットでは、別のアプリケーションで使用できるよう、カテゴリ内の問題すべてをstrict XHTML形式の単一ページにエクスポートすることができます。"
+
+#. pluginname_link
+#: question/format/xhtml/lang/en/qformat_xhtml.php:3
+msgctxt "question/format/xhtml/lang/en/qformat_xhtml.php:pluginname_link"
+msgid "qformat/xhtml"
+msgstr "qformat/xhtml"
+
+#. invalidxml
+#: question/format/xml/lang/en/qformat_xml.php:1
+msgctxt "question/format/xml/lang/en/qformat_xml.php:invalidxml"
+msgid "Invalid XML file - string expected (use CDATA?)"
+msgstr "無効なXMLファイルです - ストリングが必要です (CDATAを使用しますか?)"
+
+#. pluginname
+#: question/format/xml/lang/en/qformat_xml.php:2
+msgctxt "question/format/xml/lang/en/qformat_xml.php:pluginname"
+msgid "Moodle XML format"
+msgstr "Moodle XMLフォーマット"
+
+#. pluginname_help
+#: question/format/xml/lang/en/qformat_xml.php:3
+msgctxt "question/format/xml/lang/en/qformat_xml.php:pluginname_help"
+msgid ""
+"This is a Moodle-specific format for importing and exporting questions."
+msgstr "これは小テスト活動で使用する問題をインポートおよびエクスポートするためのMoodle独自フォーマットです。"
+
+#. pluginname_link
+#: question/format/xml/lang/en/qformat_xml.php:4
+msgctxt "question/format/xml/lang/en/qformat_xml.php:pluginname_link"
+msgid "qformat/xml"
+msgstr "qformat/xml"
+
+#. truefalseimporterror
+#: question/format/xml/lang/en/qformat_xml.php:5
+msgctxt "question/format/xml/lang/en/qformat_xml.php:truefalseimporterror"
+msgid ""
+"<b>Warning</b>: The true/false question '{$a->questiontext}' could not be "
+"imported properly. It was not clear whether the correct answer is true or "
+"false. The question has been imported assuming that the answer is "
+"'{$a->answer}'. If this is not correct, you will need to edit the question."
+msgstr "<b>警告</b>: ○/×問題「 {$a->questiontext} 」を正しくインポートすることができませんでした。正解が「○」「×」のどちらか明確ではありません。正解が「 {$a->answer} 」であるとして問題がインポートされました。これが正しくない場合、あなたは問題を編集する必要があります。"
+
+#. unsupportedexport
+#: question/format/xml/lang/en/qformat_xml.php:6
+msgctxt "question/format/xml/lang/en/qformat_xml.php:unsupportedexport"
+msgid "Question type {$a} is not supported by XML export"
+msgstr "XMLエクスポートでは問題タイプ {$a} がサポートされていません。"
+
+#. xmlimportnoname
+#: question/format/xml/lang/en/qformat_xml.php:7
+msgctxt "question/format/xml/lang/en/qformat_xml.php:xmlimportnoname"
+msgid "Missing question name in XML file"
+msgstr "XMLファイル内の問題名がありません。"
+
+#. xmlimportnoquestion
+#: question/format/xml/lang/en/qformat_xml.php:8
+msgctxt "question/format/xml/lang/en/qformat_xml.php:xmlimportnoquestion"
+msgid "Missing question text in XML file"
+msgstr "XMLファイル内の問題テキストがありません。"
+
+#. xmltypeunsupported
+#: question/format/xml/lang/en/qformat_xml.php:9
+msgctxt "question/format/xml/lang/en/qformat_xml.php:xmltypeunsupported"
+msgid "Question type {$a} is not supported by XML import"
+msgstr "問題タイプ {$a} はXMLインポートでサポートされていません。"
+
+#. additem
+#: question/type/calculated/lang/en/qtype_calculated.php:1
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:additem"
+msgid "Add item"
+msgstr "アイテムを追加する"
+
+#. addmoreanswerblanks
+#: question/type/calculated/lang/en/qtype_calculated.php:2
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:addmoreanswerblanks"
+msgid "Add another answer blank."
+msgstr "さらに答え入力欄を追加する"
+
+#. addsets
+#: question/type/calculated/lang/en/qtype_calculated.php:3
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:addsets"
+msgid "Add set(s)"
+msgstr "セットを追加する"
+
+#. answerdisplay
+#: question/type/calculated/lang/en/qtype_calculated.php:4
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:answerdisplay"
+msgid "Answer display"
+msgstr "答え表示"
+
+#. answerformula
+#: question/type/calculated/lang/en/qtype_calculated.php:5
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:answerformula"
+msgid "Answer  {$a} formula"
+msgstr "答え {$a} の公式"
+
+#. answerhdr
+#: question/type/calculated/lang/en/qtype_calculated.php:6
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:answerhdr"
+msgid "Answer"
+msgstr "答え"
+
+#. answerstoleranceparam
+#: question/type/calculated/lang/en/qtype_calculated.php:7
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:answerstoleranceparam"
+msgid "Answers tolerance parameters"
+msgstr "答えの許容誤差パラメータ"
+
+#. answerwithtolerance
+#: question/type/calculated/lang/en/qtype_calculated.php:8
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:answerwithtolerance"
+msgid "{$a->answer} (±{$a->tolerance} {$a->tolerancetype})"
+msgstr "{$a->answer} (±{$a->tolerance} {$a->tolerancetype})"
+
+#. anyvalue
+#: question/type/calculated/lang/en/qtype_calculated.php:9
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:anyvalue"
+msgid "Any value"
+msgstr "すべての値"
+
+#. atleastoneanswer
+#: question/type/calculated/lang/en/qtype_calculated.php:10
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:atleastoneanswer"
+msgid "You need to provide at least one answer."
+msgstr "少なくとも1つの答えを入力してください。"
+
+#. atleastonerealdataset
+#: question/type/calculated/lang/en/qtype_calculated.php:11
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:atleastonerealdataset"
+msgid "There should be at least one real dataset in question text"
+msgstr "問題テキストの中には少なくとも1つの実データセットを入れる必要があります。"
+
+#. atleastonewildcard
+#: question/type/calculated/lang/en/qtype_calculated.php:12
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:atleastonewildcard"
+msgid ""
+"There should be at least one wild card in answer formula or question text"
+msgstr "答えの公式または問題テキストの中には少なくとも1つのワイルドカードを入れる必要があります。"
+
+#. calcdistribution
+#: question/type/calculated/lang/en/qtype_calculated.php:13
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:calcdistribution"
+msgid "Distribution"
+msgstr "分布"
+
+#. calclength
+#: question/type/calculated/lang/en/qtype_calculated.php:14
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:calclength"
+msgid "Decimal places"
+msgstr "小数位"
+
+#. calcmax
+#: question/type/calculated/lang/en/qtype_calculated.php:15
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:calcmax"
+msgid "Maximum"
+msgstr "最大"
+
+#. calcmin
+#: question/type/calculated/lang/en/qtype_calculated.php:16
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:calcmin"
+msgid "Minimum"
+msgstr "最小"
+
+#. choosedatasetproperties
+#: question/type/calculated/lang/en/qtype_calculated.php:17
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:choosedatasetproperties"
+msgid "Choose wildcards dataset properties"
+msgstr "ワイルドカードのデータセット属性を選択する"
+
+#. choosedatasetproperties_help
+#: question/type/calculated/lang/en/qtype_calculated.php:18
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:choosedatasetproperties_help"
+msgid ""
+"A dataset is a set of values inserted in place of a wildcard. You can create"
+" a private dataset for a specific question, or a shared dataset that can be "
+"used for other calculated questions within the category."
+msgstr "データセットは問題の作成に使用されるデータ群です。これは問題内の変数に挿入されます。あなたは特定の問題のために「プライベート」データセットを作成することもできます。または同一カテゴリのすべての問題で「再利用可能な」データセットを作成することもできます。"
+
+#. correctanswerformula
+#: question/type/calculated/lang/en/qtype_calculated.php:19
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:correctanswerformula"
+msgid "Correct answer formula"
+msgstr "正解の公式"
+
+#. correctanswershows
+#: question/type/calculated/lang/en/qtype_calculated.php:20
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:correctanswershows"
+msgid "Correct answer shows"
+msgstr "正解の表示"
+
+#. correctanswershowsformat
+#: question/type/calculated/lang/en/qtype_calculated.php:21
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:correctanswershowsformat"
+msgid "Format"
+msgstr "フォーマット"
+
+#. correctfeedback
+#: question/type/calculated/lang/en/qtype_calculated.php:22
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:correctfeedback"
+msgid "For any correct response"
+msgstr "正解すべて"
+
+#. dataitemdefined
+#: question/type/calculated/lang/en/qtype_calculated.php:23
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:dataitemdefined"
+msgid "with {$a} numerical values already defined is available"
+msgstr ": 利用可能な定義済み数値 $a 件"
+
+#. datasetrole
+#: question/type/calculated/lang/en/qtype_calculated.php:24
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:datasetrole"
+msgid ""
+"The wild cards <strong>{x..}</strong> will be substituted by a numerical "
+"value from their dataset"
+msgstr "ワイルドカード「<strong>{x..}</strong>」はデータセットの数値と置換されます。"
+
+#. decimals
+#: question/type/calculated/lang/en/qtype_calculated.php:25
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:decimals"
+msgid "with {$a}"
+msgstr "小数点以下 {$a} 桁"
+
+#. deleteitem
+#: question/type/calculated/lang/en/qtype_calculated.php:26
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:deleteitem"
+msgid "Delete item"
+msgstr "アイテムを削除する"
+
+#. deletelastitem
+#: question/type/calculated/lang/en/qtype_calculated.php:27
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:deletelastitem"
+msgid "Delete last item"
+msgstr "最終アイテムを削除する"
+
+#. distributionoption
+#: question/type/calculated/lang/en/qtype_calculated.php:28
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:distributionoption"
+msgid "Select distribution option"
+msgstr "分布オプションを選択する"
+
+#. editdatasets
+#: question/type/calculated/lang/en/qtype_calculated.php:29
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:editdatasets"
+msgid "Edit the wildcards datasets"
+msgstr "ワイルドカードデータセットを編集する"
+
+#. editdatasets_help
+#: question/type/calculated/lang/en/qtype_calculated.php:30
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:editdatasets_help"
+msgid ""
+"Wildcard values may be created by entering a number in each wild card field "
+"then clicking the add button. To automatically generate 10 or more values, "
+"select the number of values required before clicking the add button. A "
+"uniform distribution means any value between the limits is equally likely to"
+" be generated; a loguniform distribution means that values towards the lower"
+" limit are more likely."
+msgstr "ワイルドカード値はそれぞれのワイルドカードフィールドに数値を入力した後、追加ボタンをクリックして作成することができます。10またはそれ以上の値を生成するには、追加ボタンをクリックする前に必要な値の生成数を選択してください。 一様分布は値域の数値が同程度に生成されることを意味します。対数一様分布は下限の数値が生成されやすいことを意味します。"
+
+#. editdatasets_link
+#: question/type/calculated/lang/en/qtype_calculated.php:31
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:editdatasets_link"
+msgid "question/type/calculated"
+msgstr "question/type/calculated"
+
+#. existingcategory1
+#: question/type/calculated/lang/en/qtype_calculated.php:32
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:existingcategory1"
+msgid "will use an already existing shared dataset"
+msgstr "既存の共有データセットを使用する"
+
+#. existingcategory2
+#: question/type/calculated/lang/en/qtype_calculated.php:33
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:existingcategory2"
+msgid ""
+"a file from an already existing set of files that are also used by other "
+"questions in this category"
+msgstr "このカテゴリ内の他の問題ですでに使用されている既存のファイルセットのファイル"
+
+#. existingcategory3
+#: question/type/calculated/lang/en/qtype_calculated.php:34
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:existingcategory3"
+msgid ""
+"a link from an already existing set of links that are also used by other "
+"questions in this category"
+msgstr "このカテゴリ内の他の問題ですでに使用されている既存のリンクセットのリンク"
+
+#. forceregeneration
+#: question/type/calculated/lang/en/qtype_calculated.php:35
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:forceregeneration"
+msgid "force regeneration"
+msgstr "データを再生成する"
+
+#. forceregenerationall
+#: question/type/calculated/lang/en/qtype_calculated.php:36
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:forceregenerationall"
+msgid "forceregeneration of all wildcards"
+msgstr "すべてのワイルドカードを再生成する"
+
+#. forceregenerationshared
+#: question/type/calculated/lang/en/qtype_calculated.php:37
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:forceregenerationshared"
+msgid "forceregeneration of only non-shared wildcards"
+msgstr "非共有ワイルドカードのみ再生成する"
+
+#. functiontakesatleasttwo
+#: question/type/calculated/lang/en/qtype_calculated.php:38
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:functiontakesatleasttwo"
+msgid "The function {$a} must have at least two arguments"
+msgstr "関数 {$a} には少なくとも2つの引数が必要です。"
+
+#. functiontakesnoargs
+#: question/type/calculated/lang/en/qtype_calculated.php:39
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:functiontakesnoargs"
+msgid "The function {$a} does not take any arguments"
+msgstr "関数 {$a} には引数は必要ありません。"
+
+#. functiontakesonearg
+#: question/type/calculated/lang/en/qtype_calculated.php:40
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:functiontakesonearg"
+msgid "The function {$a} must have exactly one argument"
+msgstr "関数 {$a} には正確に1つの引数が必要です。"
+
+#. functiontakesoneortwoargs
+#: question/type/calculated/lang/en/qtype_calculated.php:41
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:functiontakesoneortwoargs"
+msgid "The function {$a} must have either one or two arguments"
+msgstr "関数 {$a} には1つまたは2つの引数が必要です。"
+
+#. functiontakestwoargs
+#: question/type/calculated/lang/en/qtype_calculated.php:42
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:functiontakestwoargs"
+msgid "The function {$a} must have exactly two arguments"
+msgstr "関数 {$a} には正確に2つの引数が必要です。"
+
+#. generatevalue
+#: question/type/calculated/lang/en/qtype_calculated.php:43
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:generatevalue"
+msgid "Generate a new value between"
+msgstr "下記の範囲で新しい値を生成する"
+
+#. getnextnow
+#: question/type/calculated/lang/en/qtype_calculated.php:44
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:getnextnow"
+msgid "Get new 'Item to Add' now"
+msgstr "「追加するアイテム」を仮取得する"
+
+#. hexanotallowed
+#: question/type/calculated/lang/en/qtype_calculated.php:45
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:hexanotallowed"
+msgid ""
+"Dataset <strong>{$a->name}</strong> hexadecimal format value {$a->value} is "
+"not allowed"
+msgstr "データセット <strong>{$a->name}</strong> では16進形式の値 $a->value は許可されていません。"
+
+#. illegalformulasyntax
+#: question/type/calculated/lang/en/qtype_calculated.php:46
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:illegalformulasyntax"
+msgid "Illegal formula syntax starting with '{$a}'"
+msgstr "{$a} で始まる無効な計算式構文です。"
+
+#. incorrectfeedback
+#: question/type/calculated/lang/en/qtype_calculated.php:47
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:incorrectfeedback"
+msgid "For any incorrect response"
+msgstr "不正解すべて"
+
+#. itemno
+#: question/type/calculated/lang/en/qtype_calculated.php:48
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:itemno"
+msgid "Item {$a}"
+msgstr "アイテム {$a}"
+
+#. itemscount
+#: question/type/calculated/lang/en/qtype_calculated.php:49
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:itemscount"
+msgid "Items<br />Count"
+msgstr "アイテム<br />カウント"
+
+#. itemtoadd
+#: question/type/calculated/lang/en/qtype_calculated.php:50
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:itemtoadd"
+msgid "Item to add"
+msgstr "追加するアイテム"
+
+#. keptcategory1
+#: question/type/calculated/lang/en/qtype_calculated.php:51
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:keptcategory1"
+msgid "will use the same existing shared dataset as before"
+msgstr "前回と同じ既存の共有データセットを使用する"
+
+#. keptcategory2
+#: question/type/calculated/lang/en/qtype_calculated.php:52
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:keptcategory2"
+msgid "a file from the same category reusable set of files as before"
+msgstr "同一カテゴリ内にある前と同じ再利用可能ファイルセットのファイル"
+
+#. keptcategory3
+#: question/type/calculated/lang/en/qtype_calculated.php:53
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:keptcategory3"
+msgid "a link from the same category reusable set of links as before"
+msgstr "同一カテゴリ内にある前と同じ再利用可能リンクセットのリンク"
+
+#. keptlocal1
+#: question/type/calculated/lang/en/qtype_calculated.php:54
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:keptlocal1"
+msgid "will use the same existing private dataset as before"
+msgstr "前回と同じ既存のプライベートデータセットを使用する"
+
+#. keptlocal2
+#: question/type/calculated/lang/en/qtype_calculated.php:55
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:keptlocal2"
+msgid "a file from the same question private set of files as before"
+msgstr "同一問題内にある前と同じプライベートファイルセットのファイル"
+
+#. keptlocal3
+#: question/type/calculated/lang/en/qtype_calculated.php:56
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:keptlocal3"
+msgid "a link from the same question private set of links as before"
+msgstr "同一問題内にある前と同じプライベートリンクセットのリンク"
+
+#. lengthoption
+#: question/type/calculated/lang/en/qtype_calculated.php:57
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:lengthoption"
+msgid "Select length option"
+msgstr "長さオプションを選択する"
+
+#. loguniform
+#: question/type/calculated/lang/en/qtype_calculated.php:58
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:loguniform"
+msgid "Loguniform"
+msgstr "対数一様分布"
+
+#. loguniformbit
+#: question/type/calculated/lang/en/qtype_calculated.php:59
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:loguniformbit"
+msgid "digits, from a loguniform distribution"
+msgstr "対数一様分布の値"
+
+#. makecopynextpage
+#: question/type/calculated/lang/en/qtype_calculated.php:60
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:makecopynextpage"
+msgid "Next page (new question)"
+msgstr "次のページ (新しい問題)"
+
+#. mandatoryhdr
+#: question/type/calculated/lang/en/qtype_calculated.php:61
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:mandatoryhdr"
+msgid "Mandatory wild cards present in answers"
+msgstr "答えの必須ワイルドカード"
+
+#. max
+#: question/type/calculated/lang/en/qtype_calculated.php:62
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:max"
+msgid "Max"
+msgstr "最大"
+
+#. min
+#: question/type/calculated/lang/en/qtype_calculated.php:63
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:min"
+msgid "Min"
+msgstr "最小"
+
+#. minmax
+#: question/type/calculated/lang/en/qtype_calculated.php:64
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:minmax"
+msgid "Range of Values"
+msgstr "値域"
+
+#. missingformula
+#: question/type/calculated/lang/en/qtype_calculated.php:65
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:missingformula"
+msgid "Missing formula"
+msgstr "公式がありません。"
+
+#. missingname
+#: question/type/calculated/lang/en/qtype_calculated.php:66
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:missingname"
+msgid "Missing question name"
+msgstr "問題名がありません。"
+
+#. missingquestiontext
+#: question/type/calculated/lang/en/qtype_calculated.php:67
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:missingquestiontext"
+msgid "Missing question text"
+msgstr "問題テキストがありません。"
+
+#. mustenteraformulaorstar
+#: question/type/calculated/lang/en/qtype_calculated.php:68
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:mustenteraformulaorstar"
+msgid "You must enter a formula or '*'."
+msgstr "あなたは式または「*」を入力する必要があります。"
+
+#. newcategory1
+#: question/type/calculated/lang/en/qtype_calculated.php:69
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:newcategory1"
+msgid "will use a new shared dataset"
+msgstr "新しい共有データセットを使用する"
+
+#. newcategory2
+#: question/type/calculated/lang/en/qtype_calculated.php:70
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:newcategory2"
+msgid ""
+"a file from a new set of files that may also be used by other questions in "
+"this category"
+msgstr "このカテゴリ内の他の問題でも使用される新しいファイルセットのファイル"
+
+#. newcategory3
+#: question/type/calculated/lang/en/qtype_calculated.php:71
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:newcategory3"
+msgid ""
+"a link from a new set of links that may also be used by other questions in "
+"this category"
+msgstr "このカテゴリ内の他の問題でも使用される新しいリンクセットのリンク"
+
+#. newlocal1
+#: question/type/calculated/lang/en/qtype_calculated.php:72
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:newlocal1"
+msgid "will use a new private dataset"
+msgstr "新しいプライベートデータセット使用する"
+
+#. newlocal2
+#: question/type/calculated/lang/en/qtype_calculated.php:73
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:newlocal2"
+msgid ""
+"a file  from a new set of files that will only be used by this question"
+msgstr "この問題のみで使用される新しいファイルセットのファイル"
+
+#. newlocal3
+#: question/type/calculated/lang/en/qtype_calculated.php:74
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:newlocal3"
+msgid "a link from a new set of links that will only be used by this question"
+msgstr "この問題のみで使用される新しいリンクセットのリンク"
+
+#. newsetwildcardvalues
+#: question/type/calculated/lang/en/qtype_calculated.php:75
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:newsetwildcardvalues"
+msgid "new set(s) of wild card(s) values"
+msgstr "ワイルドカード値の新しいセット"
+
+#. nextitemtoadd
+#: question/type/calculated/lang/en/qtype_calculated.php:76
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:nextitemtoadd"
+msgid "Next 'Item to Add'"
+msgstr "次のアイテムの追加方法"
+
+#. nextpage
+#: question/type/calculated/lang/en/qtype_calculated.php:77
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:nextpage"
+msgid "Next page"
+msgstr "次のページ"
+
+#. nocoherencequestionsdatyasetcategory
+#: question/type/calculated/lang/en/qtype_calculated.php:78
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:nocoherencequestionsdatyasetcategory"
+msgid ""
+"For question id {$a->qid}, the category id {$a->qcat} is not identical with "
+"the shared wild card {$a->name} category id {$a->sharedcat}. Edit the "
+"question."
+msgstr "問題ID {$a->qid} に関して、カテゴリID {$a->qcat} が共有ワイルドカード {$a->name} のカテゴリID {$a->sharedcat} に一致しません。問題を編集してください。"
+
+#. nocommaallowed
+#: question/type/calculated/lang/en/qtype_calculated.php:79
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:nocommaallowed"
+msgid "The , cannot be used, use . as in 0.013 or 1.3e-2"
+msgstr "「,」は使用できません。例えば、0.013または1.3e-2のように「.」を使用してください。"
+
+#. nodataset
+#: question/type/calculated/lang/en/qtype_calculated.php:80
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:nodataset"
+msgid "nothing - it is not a wild card"
+msgstr "なし - これはワイルドカードではありません"
+
+#. nosharedwildcard
+#: question/type/calculated/lang/en/qtype_calculated.php:81
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:nosharedwildcard"
+msgid "No shared wild card in this category"
+msgstr "このカテゴリに共有ワイルドカードはありません。"
+
+#. notvalidnumber
+#: question/type/calculated/lang/en/qtype_calculated.php:82
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:notvalidnumber"
+msgid "Wild card value is not a valid number"
+msgstr "ワイルドカード値が有効な数値ではありありません。"
+
+#. oneanswertrueansweroutsidelimits
+#: question/type/calculated/lang/en/qtype_calculated.php:83
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:oneanswertrueansweroutsidelimits"
+msgid ""
+"At least one correct answer outside the true value limits.<br />Modify the "
+"answers tolerance settings available as Advanced parameters"
+msgstr "少なくとも1つの答えが真の値の範囲外にあります。<br />「拡張要素を表示する」ボタンをクリックして「答えの許容誤差」設定を修正してください。"
+
+#. param
+#: question/type/calculated/lang/en/qtype_calculated.php:84
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:param"
+msgid "Param {<strong>{$a}</strong>}"
+msgstr "変数 {<strong>{$a}</strong>}"
+
+#. partiallycorrectfeedback
+#: question/type/calculated/lang/en/qtype_calculated.php:85
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:partiallycorrectfeedback"
+msgid "For any partially correct response"
+msgstr "部分的に正しい解答すべて"
+
+#. pluginname
+#: question/type/calculated/lang/en/qtype_calculated.php:86
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:pluginname"
+msgid "Calculated"
+msgstr "計算問題"
+
+#. pluginnameadding
+#: question/type/calculated/lang/en/qtype_calculated.php:87
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:pluginnameadding"
+msgid "Adding a Calculated question"
+msgstr "計算問題の追加"
+
+#. pluginnameediting
+#: question/type/calculated/lang/en/qtype_calculated.php:88
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:pluginnameediting"
+msgid "Editing a Calculated question"
+msgstr "計算問題の編集"
+
+#. pluginname_help
+#: question/type/calculated/lang/en/qtype_calculated.php:89
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:pluginname_help"
+msgid ""
+"Calculated questions enable individual numerical questions to be created "
+"using wildcards in curly brackets that are substituted with individual "
+"values when the quiz is taken. For example, the question \"What is the area "
+"of a rectangle of length {l} and width {w}?\" would have correct answer "
+"formula \"{l}*{w}\" (where * denotes multiplication)."
+msgstr "計算問題では小テスト受験時に個々の値に置換される波括弧「{}」内のワイルドカードを使用する数値問題を作成することができます。例えば、「高さ {l} 、幅 {w} の長方形の面積は?」という問題があったとして、正解は {={l}*{w}} ( * は乗算を意味します) のようになります。"
+
+#. pluginname_link
+#: question/type/calculated/lang/en/qtype_calculated.php:90
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:pluginname_link"
+msgid "question/type/calculated"
+msgstr "question/type/calculated"
+
+#. pluginnamesummary
+#: question/type/calculated/lang/en/qtype_calculated.php:91
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:pluginnamesummary"
+msgid ""
+"Calculated questions are like numerical questions but with the numbers used "
+"selected randomly from a set when the quiz is taken."
+msgstr "計算問題は、数値問題に似ていますが、小テスト受験時、設定された数値がランダムに使用されます。"
+
+#. possiblehdr
+#: question/type/calculated/lang/en/qtype_calculated.php:92
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:possiblehdr"
+msgid "Possible wild cards present only in the question text"
+msgstr "問題テキスト内のみのワイルドカード"
+
+#. questiondatasets
+#: question/type/calculated/lang/en/qtype_calculated.php:93
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:questiondatasets"
+msgid "Question datasets"
+msgstr "問題データセット"
+
+#. questiondatasets_help
+#: question/type/calculated/lang/en/qtype_calculated.php:94
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:questiondatasets_help"
+msgid ""
+"Question datasets of wild cards that will be used in each individual "
+"question"
+msgstr "個々の問題で使用されるワイルドカードの問題データセットです。"
+
+#. questionstoredname
+#: question/type/calculated/lang/en/qtype_calculated.php:95
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:questionstoredname"
+msgid "Question stored name"
+msgstr "問題保存名"
+
+#. replacewithrandom
+#: question/type/calculated/lang/en/qtype_calculated.php:96
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:replacewithrandom"
+msgid "Replace with a random value"
+msgstr "ランダム値と置換する"
+
+#. reuseifpossible
+#: question/type/calculated/lang/en/qtype_calculated.php:97
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:reuseifpossible"
+msgid "reuse previous value if available"
+msgstr "可能な場合、前の値を再利用する"
+
+#. setno
+#: question/type/calculated/lang/en/qtype_calculated.php:98
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:setno"
+msgid "Set {$a}"
+msgstr "セット {$a}"
+
+#. setwildcardvalues
+#: question/type/calculated/lang/en/qtype_calculated.php:99
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:setwildcardvalues"
+msgid "set(s) of wild card(s) values"
+msgstr "ワイルドカード値のセット"
+
+#. sharedwildcard
+#: question/type/calculated/lang/en/qtype_calculated.php:100
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:sharedwildcard"
+msgid "Shared wild card {<strong>{$a}</strong>}"
+msgstr "共有ワイルドカード <strong>{$a}</strong>"
+
+#. sharedwildcardname
+#: question/type/calculated/lang/en/qtype_calculated.php:101
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:sharedwildcardname"
+msgid "Shared wild card"
+msgstr "共有ワイルドカード"
+
+#. sharedwildcards
+#: question/type/calculated/lang/en/qtype_calculated.php:102
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:sharedwildcards"
+msgid "Shared wild cards"
+msgstr "共有ワイルドカード"
+
+#. showitems
+#: question/type/calculated/lang/en/qtype_calculated.php:103
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:showitems"
+msgid "Display"
+msgstr "表示"
+
+#. significantfigures
+#: question/type/calculated/lang/en/qtype_calculated.php:104
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:significantfigures"
+msgid "with {$a}"
+msgstr "有効数字 {$a} 桁"
+
+#. significantfiguresformat
+#: question/type/calculated/lang/en/qtype_calculated.php:105
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:significantfiguresformat"
+msgid "significant figures"
+msgstr "有効数字"
+
+#. synchronize
+#: question/type/calculated/lang/en/qtype_calculated.php:106
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:synchronize"
+msgid ""
+"Synchronize the data from shared datasets with other questions in a quiz"
+msgstr "小テスト内の他の問題の共有データセットからデータを同期する"
+
+#. synchronizeno
+#: question/type/calculated/lang/en/qtype_calculated.php:107
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:synchronizeno"
+msgid "Do not synchronize"
+msgstr "同期しない"
+
+#. synchronizeyes
+#: question/type/calculated/lang/en/qtype_calculated.php:108
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:synchronizeyes"
+msgid "Synchronize"
+msgstr "同期する"
+
+#. synchronizeyesdisplay
+#: question/type/calculated/lang/en/qtype_calculated.php:109
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:synchronizeyesdisplay"
+msgid ""
+"Synchronize and display the shared datasets name as prefix of the question "
+"name"
+msgstr "小テスト名を接頭辞にした共有データセット名を同期および表示する"
+
+#. tolerance
+#: question/type/calculated/lang/en/qtype_calculated.php:110
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:tolerance"
+msgid "Tolerance &plusmn;"
+msgstr "許容誤差 &plusmn;"
+
+#. tolerancetype
+#: question/type/calculated/lang/en/qtype_calculated.php:111
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:tolerancetype"
+msgid "Type"
+msgstr "タイプ"
+
+#. trueanswerinsidelimits
+#: question/type/calculated/lang/en/qtype_calculated.php:112
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:trueanswerinsidelimits"
+msgid "Correct answer : {$a->correct} inside limits of true value {$a->true}"
+msgstr "正解 : {$a->correct} - 範囲内の真の値: {$a->true}"
+
+#. trueansweroutsidelimits
+#: question/type/calculated/lang/en/qtype_calculated.php:113
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:trueansweroutsidelimits"
+msgid ""
+"<span class=\"error\">ERROR Correct answer : {$a->correct} outside limits of"
+" true value {$a->true}</span>"
+msgstr "<span class=\"error\">エラー 正解 : {$a->correct} - 範囲外の真の値: {$a->true}</span>"
+
+#. uniform
+#: question/type/calculated/lang/en/qtype_calculated.php:114
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:uniform"
+msgid "Uniform"
+msgstr "一様分布"
+
+#. uniformbit
+#: question/type/calculated/lang/en/qtype_calculated.php:115
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:uniformbit"
+msgid "decimals, from a uniform distribution"
+msgstr "一様分布の値"
+
+#. unsupportedformulafunction
+#: question/type/calculated/lang/en/qtype_calculated.php:116
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:unsupportedformulafunction"
+msgid "The function {$a} is not supported"
+msgstr "関数 {$a} はサポートされていません。"
+
+#. updatecategory
+#: question/type/calculated/lang/en/qtype_calculated.php:117
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:updatecategory"
+msgid "Update the category"
+msgstr "カテゴリを更新する"
+
+#. updatedatasetparam
+#: question/type/calculated/lang/en/qtype_calculated.php:118
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:updatedatasetparam"
+msgid "Update the datasets parameters"
+msgstr "データセットパラメータを更新する"
+
+#. updatetolerancesparam
+#: question/type/calculated/lang/en/qtype_calculated.php:119
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:updatetolerancesparam"
+msgid "Update the answers tolerance parameters"
+msgstr "答えの許容誤差パラメータを更新する"
+
+#. updatewildcardvalues
+#: question/type/calculated/lang/en/qtype_calculated.php:120
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:updatewildcardvalues"
+msgid "Update the wild card(s) values"
+msgstr "ワイルドカード値を更新する"
+
+#. useadvance
+#: question/type/calculated/lang/en/qtype_calculated.php:121
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:useadvance"
+msgid "Use the advance button to see the errors"
+msgstr "エラーを表示するには「拡張要素を表示する」ボタンをクリックしてください。"
+
+#. usedinquestion
+#: question/type/calculated/lang/en/qtype_calculated.php:122
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:usedinquestion"
+msgid "Used in Question"
+msgstr "使用されている問題"
+
+#. wildcard
+#: question/type/calculated/lang/en/qtype_calculated.php:123
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:wildcard"
+msgid "Wild card {<strong>{$a}</strong>}"
+msgstr "ワイルドカード {<strong>{$a}</strong>}"
+
+#. wildcardparam
+#: question/type/calculated/lang/en/qtype_calculated.php:124
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:wildcardparam"
+msgid "Wild cards parameters used to generate the values"
+msgstr "値の生成に使用されるワイルドカードパラメータ"
+
+#. wildcardrole
+#: question/type/calculated/lang/en/qtype_calculated.php:125
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:wildcardrole"
+msgid ""
+"The wild cards <strong>{x..}</strong> will be substituted by a numerical "
+"value from the generated values"
+msgstr "ワイルドカード「<strong>{x..}</strong>」は生成された数値と置換されます。"
+
+#. wildcards
+#: question/type/calculated/lang/en/qtype_calculated.php:126
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:wildcards"
+msgid "Wild cards {a}...{z}"
+msgstr "ワイルドカード {a}...{z}"
+
+#. wildcardvalues
+#: question/type/calculated/lang/en/qtype_calculated.php:127
+msgctxt "question/type/calculated/lang/en/qtype_calculated.php:wildcardvalues"
+msgid "Wild card(s) values"
+msgstr "ワイルドカード値"
+
+#. wildcardvaluesgenerated
+#: question/type/calculated/lang/en/qtype_calculated.php:128
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:wildcardvaluesgenerated"
+msgid "Wild card(s) values generated"
+msgstr "ワイルドカード値が生成されました。"
+
+#. youmustaddatleastoneitem
+#: question/type/calculated/lang/en/qtype_calculated.php:129
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:youmustaddatleastoneitem"
+msgid ""
+"You must add at least one dataset item before you can save this question."
+msgstr "この問題を保存する前に、あなたは少なくとも1つのデータセットアイテムを追加する必要があります。"
+
+#. youmustaddatleastonevalue
+#: question/type/calculated/lang/en/qtype_calculated.php:130
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:youmustaddatleastonevalue"
+msgid ""
+"You must add at least one set of wild card(s) values before you can save "
+"this question."
+msgstr "この問題を保存する前に、あなたは少なくとも1つのワイルドカード値を追加する必要があります。"
+
+#. zerosignificantfiguresnotallowed
+#: question/type/calculated/lang/en/qtype_calculated.php:131
+msgctxt ""
+"question/type/calculated/lang/en/qtype_calculated.php:zerosignificantfiguresnotallowed"
+msgid "The correct answer cannot have zero significant figures!"
+msgstr "正解の有効数字にはゼロを設定できません!"
+
+#. answeroptions
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:1
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:answeroptions"
+msgid "Choice options"
+msgstr "選択肢オプション"
+
+#. answeroptions_help
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:2
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:answeroptions_help"
+msgid "The suggested choice formula is ...<strong>{={x}+..}</strong>..."
+msgstr "選択肢の推奨公式は次のとおりです ...<strong>{={x}+..}</strong>..."
+
+#. pluginname
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:3
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:pluginname"
+msgid "Calculated multichoice"
+msgstr "多肢選択計算問題"
+
+#. pluginnameadding
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:4
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:pluginnameadding"
+msgid "Adding a Calculated multichoice question"
+msgstr "多肢選択計算問題の追加"
+
+#. pluginnameediting
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:5
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:pluginnameediting"
+msgid "Editing a Calculated multichoice question"
+msgstr "多肢選択計算問題の編集"
+
+#. pluginname_help
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:6
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:pluginname_help"
+msgid ""
+"Calculated multichoice questions are like multichoice questions which in "
+"their choice elements can be included numerical formula results using "
+"wildcards in curly brackets that are substituted with individual values when"
+" the quiz is taken. For example, if the question \"What is the area of a "
+"rectangle of length {l} and width {w}?\" one of the choice is {={l}*{w}} "
+"(where * denotes multiplication)."
+msgstr "多肢選択計算問題は小テスト受験時に個々の値に置換される波括弧「{}」内のワイルドカードを使用する数値式を選択肢に含むことのできる多肢選択問題のような問題です。例えば、「高さ {l} 、幅 {w} の長方形の面積は?」という問題があったとして、1つの選択肢は {={l}*{w}} ( * は乗算を意味します) のようにすることができます。"
+
+#. pluginname_link
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:7
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:pluginname_link"
+msgid "question/type/calculatedmulti"
+msgstr "question/type/calculatedmulti"
+
+#. pluginnamesummary
+#: question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:8
+msgctxt ""
+"question/type/calculatedmulti/lang/en/qtype_calculatedmulti.php:pluginnamesummary"
+msgid ""
+"Calculated multichoice questions are like multichoice questions which choice"
+" elements can include formula results from numeric values that are selected "
+"randomly from a set when the quiz is taken."
+msgstr "多肢選択計算問題は小テスト受験時に個々の値に置換される波括弧内「{}」のワイルドカードを使用する数値式を選択肢に含むことのできる多肢選択問題のような問題です。"
+
+#. atleastonewildcard
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:1
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:atleastonewildcard"
+msgid ""
+"There must be at least one wild card <strong>{x..}</strong> present in the "
+"correct answer formulas"
+msgstr "少なくとも1つのワイルドカード <strong>{x..}</strong> を正解の公式に登録する必要があります。"
+
+#. converttocalculated
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:2
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:converttocalculated"
+msgid "Save as a new regular calculated question"
+msgstr "新しい標準的な計算問題として保存する"
+
+#. findwildcards
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:3
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:findwildcards"
+msgid "Find the wild cards {x..} present in the correct answer formulas"
+msgstr "正解の公式に登録されているワイルドカード {x..} を探す"
+
+#. generatenewitemsset
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:4
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:generatenewitemsset"
+msgid "Generate"
+msgstr "生成"
+
+#. newsetwildcardvalues
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:5
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:newsetwildcardvalues"
+msgid "new set(s) of wild card(s) values"
+msgstr "セットの新しいワイルドカード値"
+
+#. pluginname
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:6
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:pluginname"
+msgid "Calculated simple"
+msgstr "シンプル計算問題"
+
+#. pluginnameadding
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:7
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:pluginnameadding"
+msgid "Adding a Simple calculated question"
+msgstr "シンプル計算問題を追加する"
+
+#. pluginnameediting
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:8
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:pluginnameediting"
+msgid "Editing a Simple calculated question"
+msgstr "シンプル計算問題を編集する"
+
+#. pluginname_help
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:9
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:pluginname_help"
+msgid ""
+"Simple calculated questions enable individual numerical questions to be "
+"created using wildcards that are substituted with individual values when the"
+" quiz is taken. Simple calculated questions offer the most used features of "
+"the calculated question with a simpler creation interface."
+msgstr "シンプル計算問題は小テスト受験時に個々の値に置換される波括弧「{}」内のワイルドカードを使用する数値問題を作成することができます。シンプル計算問題では計算問題で使用されるほとんどの機能を簡単な作成インターフェースにより提供します。"
+
+#. pluginname_link
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:10
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:pluginname_link"
+msgid "question/type/calculatedsimple"
+msgstr "question/type/calculatedsimple"
+
+#. pluginnamesummary
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:11
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:pluginnamesummary"
+msgid ""
+"A simpler version of calculated questions which are like numerical questions"
+" but with the numbers used selected randomly from a set when the quiz is "
+"taken."
+msgstr "計算問題のシンプルバージョンです。シンプル計算問題は、数値問題に似ていますが、小テスト受験時、設定された数値がランダムに使用されます"
+
+#. setno
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:12
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:setno"
+msgid "Set {$a}"
+msgstr "セット {$a}"
+
+#. setwildcardvalues
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:13
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:setwildcardvalues"
+msgid "set(s) of wild card(s) values"
+msgstr "セットのワイルドカード値"
+
+#. showitems
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:14
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:showitems"
+msgid "Display"
+msgstr "表示"
+
+#. updatewildcardvalues
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:15
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:updatewildcardvalues"
+msgid "Update the wild card(s) values"
+msgstr "ワイルドカード値を更新する"
+
+#. useadvance
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:16
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:useadvance"
+msgid "Use the advance button to see the errors"
+msgstr "エラーを表示するには「拡張要素を表示する」ボタンをクリックしてください。"
+
+#. wildcard
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:17
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:wildcard"
+msgid "Wild card {<strong>{$a}</strong>}"
+msgstr "ワイルドカード {<strong>{$a}</strong>}"
+
+#. wildcardparam
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:18
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:wildcardparam"
+msgid "Wild cards parameters used to generate the values"
+msgstr "値の生成に使用されるワイルドカードパラメータ"
+
+#. wildcardrole
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:19
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:wildcardrole"
+msgid ""
+"The wild cards <strong>{x..}</strong> will be substituted by a numerical "
+"value from the generated values"
+msgstr "ワイルドカード <strong>{x..}</strong> は、生成された値より数値に置換されます。"
+
+#. wildcardvalues
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:20
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:wildcardvalues"
+msgid "Wild card(s) values"
+msgstr "ワイルドカード値"
+
+#. wildcardvaluesgenerated
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:21
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:wildcardvaluesgenerated"
+msgid "Wild card(s) values generated"
+msgstr "ワイルドカード値が作成されました。"
+
+#. willconverttocalculated
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:22
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:willconverttocalculated"
+msgid ""
+"If set, the <strong>Save as new question</strong> will save as a new "
+"calculated question"
+msgstr "設定した場合、<strong>新しい問題として保存する</strong>ボタンをクリックすることで、新しい計算問題として保存されます。"
+
+#. youmustaddatleastonevalue
+#: question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:23
+msgctxt ""
+"question/type/calculatedsimple/lang/en/qtype_calculatedsimple.php:youmustaddatleastonevalue"
+msgid ""
+"You must add at least one set of wild card(s) values before you can save "
+"this question."
+msgstr "問題を保存する前、あなたは少なくとも1セットのワイルドカード値を追加する必要があります。"
+
+#. informationtext
+#: question/type/description/lang/en/qtype_description.php:1
+msgctxt ""
+"question/type/description/lang/en/qtype_description.php:informationtext"
+msgid "Information text"
+msgstr "情報テキスト"
+
+#. pluginname
+#: question/type/description/lang/en/qtype_description.php:2
+msgctxt "question/type/description/lang/en/qtype_description.php:pluginname"
+msgid "Description"
+msgstr "説明"
+
+#. pluginnameadding
+#: question/type/description/lang/en/qtype_description.php:3
+msgctxt ""
+"question/type/description/lang/en/qtype_description.php:pluginnameadding"
+msgid "Adding a description"
+msgstr "説明の追加"
+
+#. pluginnameediting
+#: question/type/description/lang/en/qtype_description.php:4
+msgctxt ""
+"question/type/description/lang/en/qtype_description.php:pluginnameediting"
+msgid "Editing a Description"
+msgstr "説明の編集"
+
+#. pluginname_help
+#: question/type/description/lang/en/qtype_description.php:5
+msgctxt ""
+"question/type/description/lang/en/qtype_description.php:pluginname_help"
+msgid ""
+"A description is not really a question type. It simply enables text to be displayed without requiring any answers, similar to a label on the course page.\n"
+"The question text is displayed both during the attempt and on the review page. Any general feedback is displayed on the review page only."
+msgstr "このタイプの問題は実際の問題ではありません。説明には解答を要求されず、単純にテキストを表示することができます。テキストコースページのラベルに似ています。\n「問題テキスト」は小テストの受験中およびレビューページの両方に表示されます。一般的なフィードバックはレビューページにのみ表示されます。"
+
+#. pluginnamesummary
+#: question/type/description/lang/en/qtype_description.php:6
+msgctxt ""
+"question/type/description/lang/en/qtype_description.php:pluginnamesummary"
+msgid ""
+"This is not actually a question. Instead it is a way to add some "
+"instructions, rubric or other content to the activity. This is similar to "
+"the way that labels can be used to add content to the course page."
+msgstr "これは実際の問題とは異なります。代わりにインストラクション、説明文または他のコンテンツを小テストに追加します。これはコースページにコンテンツとしてラベルを追加する方法に似ています。"
+
+#. allowattachments
+#: question/type/essay/lang/en/qtype_essay.php:1
+msgctxt "question/type/essay/lang/en/qtype_essay.php:allowattachments"
+msgid "Allow attachments"
+msgstr "添付を許可する"
+
+#. formateditor
+#: question/type/essay/lang/en/qtype_essay.php:2
+msgctxt "question/type/essay/lang/en/qtype_essay.php:formateditor"
+msgid "HTML editor"
+msgstr "HTMLエディタ"
+
+#. formateditorfilepicker
+#: question/type/essay/lang/en/qtype_essay.php:3
+msgctxt "question/type/essay/lang/en/qtype_essay.php:formateditorfilepicker"
+msgid "HTML editor with file picker"
+msgstr "HTMLエディタ (+ファイルピッカ)"
+
+#. formatmonospaced
+#: question/type/essay/lang/en/qtype_essay.php:4
+msgctxt "question/type/essay/lang/en/qtype_essay.php:formatmonospaced"
+msgid "Plain text, monospaced font"
+msgstr "プレインテキスト、等幅フォント"
+
+#. formatplain
+#: question/type/essay/lang/en/qtype_essay.php:5
+msgctxt "question/type/essay/lang/en/qtype_essay.php:formatplain"
+msgid "Plain text"
+msgstr "プレインテキスト"
+
+#. graderinfo
+#: question/type/essay/lang/en/qtype_essay.php:6
+msgctxt "question/type/essay/lang/en/qtype_essay.php:graderinfo"
+msgid "Information for graders"
+msgstr "評定者情報"
+
+#. nlines
+#: question/type/essay/lang/en/qtype_essay.php:7
+msgctxt "question/type/essay/lang/en/qtype_essay.php:nlines"
+msgid "{$a} lines"
+msgstr "{$a} 行"
+
+#. pluginname
+#: question/type/essay/lang/en/qtype_essay.php:8
+msgctxt "question/type/essay/lang/en/qtype_essay.php:pluginname"
+msgid "Essay"
+msgstr "作文問題"
+
+#. pluginnameadding
+#: question/type/essay/lang/en/qtype_essay.php:9
+msgctxt "question/type/essay/lang/en/qtype_essay.php:pluginnameadding"
+msgid "Adding an Essay question"
+msgstr "作文問題の追加"
+
+#. pluginnameediting
+#: question/type/essay/lang/en/qtype_essay.php:10
+msgctxt "question/type/essay/lang/en/qtype_essay.php:pluginnameediting"
+msgid "Editing an Essay question"
+msgstr "作文問題の編集"
+
+#. pluginname_help
+#: question/type/essay/lang/en/qtype_essay.php:11
+msgctxt "question/type/essay/lang/en/qtype_essay.php:pluginname_help"
+msgid ""
+"In response to a question (that may include an image) the respondent writes "
+"an answer of a paragraph or two. The essay question will not be assigned a "
+"grade until it has been reviewed by a teacher and manually graded."
+msgstr "問題 (イメージを含む) に対して、回答者は1段落またはそれ以上の回答を記述します。作文問題は教師がレビューおよび手動評定するまで評点が割り当てられることはありません。"
+
+#. pluginname_link
+#: question/type/essay/lang/en/qtype_essay.php:12
+msgctxt "question/type/essay/lang/en/qtype_essay.php:pluginname_link"
+msgid "question/type/essay"
+msgstr "question/type/essay"
+
+#. pluginnamesummary
+#: question/type/essay/lang/en/qtype_essay.php:13
+msgctxt "question/type/essay/lang/en/qtype_essay.php:pluginnamesummary"
+msgid ""
+"Allows a response of a few sentences or paragraphs. This must then be graded"
+" manually."
+msgstr "少しの文または段落で構成された回答を許可します。回答が入力された後、手動で評定する必要があります。"
+
+#. responsefieldlines
+#: question/type/essay/lang/en/qtype_essay.php:14
+msgctxt "question/type/essay/lang/en/qtype_essay.php:responsefieldlines"
+msgid "Input box size"
+msgstr "入力ボックスサイズ"
+
+#. responseformat
+#: question/type/essay/lang/en/qtype_essay.php:15
+msgctxt "question/type/essay/lang/en/qtype_essay.php:responseformat"
+msgid "Response format"
+msgstr "解答形式"
+
+#. responsetemplate
+#: question/type/essay/lang/en/qtype_essay.php:16
+msgctxt "question/type/essay/lang/en/qtype_essay.php:responsetemplate"
+msgid "Response template"
+msgstr "解答テンプレート"
+
+#. responsetemplate_help
+#: question/type/essay/lang/en/qtype_essay.php:17
+msgctxt "question/type/essay/lang/en/qtype_essay.php:responsetemplate_help"
+msgid ""
+"Any text entered here will be displayed in the response input box when a new"
+" attempt at the question starts."
+msgstr "ここで入力されたテキストは、問題の新しい解答開始時に解答入力ボックス内に表示されます。"
+
+#. answer
+#: question/type/match/lang/en/qtype_match.php:1
+msgctxt "question/type/match/lang/en/qtype_match.php:answer"
+msgid "Answer {$a}"
+msgstr "答え {$a}"
+
+#. availablechoices
+#: question/type/match/lang/en/qtype_match.php:2
+msgctxt "question/type/match/lang/en/qtype_match.php:availablechoices"
+msgid "Available choices"
+msgstr "利用可能な選択肢"
+
+#. blanksforxmorequestions
+#: question/type/match/lang/en/qtype_match.php:3
+msgctxt "question/type/match/lang/en/qtype_match.php:blanksforxmorequestions"
+msgid "Blanks for {no} more questions"
+msgstr "さらに {no} 件の問題入力欄を追加する"
+
+#. correctansweris
+#: question/type/match/lang/en/qtype_match.php:4
+msgctxt "question/type/match/lang/en/qtype_match.php:correctansweris"
+msgid "The correct answer is: {$a}"
+msgstr "正解: {$a}"
+
+#. filloutthreeqsandtwoas
+#: question/type/match/lang/en/qtype_match.php:5
+msgctxt "question/type/match/lang/en/qtype_match.php:filloutthreeqsandtwoas"
+msgid ""
+"You must provide at least two questions and three answers. You can provide "
+"extra wrong answers by giving an answer with a blank question. Entries where"
+" both the question and the answer are blank will be ignored."
+msgstr "あなたは、少なくとも2つの問題および3つの答えを提供する必要があります。答えが空白の問題を使用して、誤答を余分に提供することもできます。問題および答えが空白のエントリは、無視されます。"
+
+#. nomatchinganswer
+#: question/type/match/lang/en/qtype_match.php:6
+msgctxt "question/type/match/lang/en/qtype_match.php:nomatchinganswer"
+msgid "You must specify an answer matching the question '{$a}'."
+msgstr "あなたは組み合わせ問題「 {$a} 」の答えを指定する必要があります。"
+
+#. nomatchinganswerforq
+#: question/type/match/lang/en/qtype_match.php:7
+msgctxt "question/type/match/lang/en/qtype_match.php:nomatchinganswerforq"
+msgid "You must specify an answer for this question."
+msgstr "あなたは、この問題の答えを指定する必要があります。"
+
+#. notenoughqsandas
+#: question/type/match/lang/en/qtype_match.php:8
+msgctxt "question/type/match/lang/en/qtype_match.php:notenoughqsandas"
+msgid "You must supply at least {$a->q} questions and {$a->a} answers."
+msgstr "あなたは、少なくとも {$a->q} 問の問題および {$a->a} 件の答えを提供する必要があります。"
+
+#. notenoughquestions
+#: question/type/match/lang/en/qtype_match.php:9
+msgctxt "question/type/match/lang/en/qtype_match.php:notenoughquestions"
+msgid "You must supply at least {$a} question and answer pairs."
+msgstr "あなたは、少なくとも {$a} 問の問題および答えの組み合わせを提供する必要があります。"
+
+#. pleaseananswerallparts
+#: question/type/match/lang/en/qtype_match.php:10
+msgctxt "question/type/match/lang/en/qtype_match.php:pleaseananswerallparts"
+msgid "Please answer all parts of the question."
+msgstr "問題のすべての部分に答えてください。"
+
+#. pluginname
+#: question/type/match/lang/en/qtype_match.php:11
+msgctxt "question/type/match/lang/en/qtype_match.php:pluginname"
+msgid "Matching"
+msgstr "組み合わせ問題"
+
+#. pluginnameadding
+#: question/type/match/lang/en/qtype_match.php:12
+msgctxt "question/type/match/lang/en/qtype_match.php:pluginnameadding"
+msgid "Adding a Matching question"
+msgstr "組み合わせ問題の追加"
+
+#. pluginnameediting
+#: question/type/match/lang/en/qtype_match.php:13
+msgctxt "question/type/match/lang/en/qtype_match.php:pluginnameediting"
+msgid "Editing a Matching question"
+msgstr "組み合わせ問題の編集"
+
+#. pluginname_help
+#: question/type/match/lang/en/qtype_match.php:14
+msgctxt "question/type/match/lang/en/qtype_match.php:pluginname_help"
+msgid ""
+"Matching questions require the respondent to correctly match a list of names"
+" or statements (questions) to another list of names or statements (answers)."
+msgstr "組み合わせ問題では回答者が名称または文章 (問題) のリストを別の名称または文章 (解答) のリストに正しく合致させる必要があります。"
+
+#. pluginname_link
+#: question/type/match/lang/en/qtype_match.php:15
+msgctxt "question/type/match/lang/en/qtype_match.php:pluginname_link"
+msgid "question/type/match"
+msgstr "question/type/match"
+
+#. pluginnamesummary
+#: question/type/match/lang/en/qtype_match.php:16
+msgctxt "question/type/match/lang/en/qtype_match.php:pluginnamesummary"
+msgid ""
+"The answer to each of a number of sub-question must be selected from a list "
+"of possibilities."
+msgstr "多くのサブ問題の答えは、可能性のある答えの一覧より選択されるべきです。"
+
+#. shuffle
+#: question/type/match/lang/en/qtype_match.php:17
+msgctxt "question/type/match/lang/en/qtype_match.php:shuffle"
+msgid "Shuffle"
+msgstr "シャッフル"
+
+#. shuffle_help
+#: question/type/match/lang/en/qtype_match.php:18
+msgctxt "question/type/match/lang/en/qtype_match.php:shuffle_help"
+msgid ""
+"If enabled, the order of the statements (answers) is randomly shuffled for "
+"each attempt, provided that \"Shuffle within questions\" in the activity "
+"settings is also enabled."
+msgstr "有効にした場合、問題 (答え) の組み合わせが受験ごとにランダムにシャッフルされます。同時に、活動設定内の「問題内部をシャッフルする」を有効にする必要があります。"
+
+#. answerno
+#: question/type/missingtype/lang/en/qtype_missingtype.php:1
+msgctxt "question/type/missingtype/lang/en/qtype_missingtype.php:answerno"
+msgid "Answer {$a}"
+msgstr "答え {$a}"
+
+#. cannotchangeamissingqtype
+#: question/type/missingtype/lang/en/qtype_missingtype.php:2
+msgctxt ""
+"question/type/missingtype/lang/en/qtype_missingtype.php:cannotchangeamissingqtype"
+msgid "You cannot make any changes to a question of a missing type."
+msgstr "あなたは穴埋め問題に関して、変更することはできません。"
+
+#. deletedquestion
+#: question/type/missingtype/lang/en/qtype_missingtype.php:3
+msgctxt ""
+"question/type/missingtype/lang/en/qtype_missingtype.php:deletedquestion"
+msgid "Missing question"
+msgstr "穴埋め問題"
+
+#. deletedquestiontext
+#: question/type/missingtype/lang/en/qtype_missingtype.php:4
+msgctxt ""
+"question/type/missingtype/lang/en/qtype_missingtype.php:deletedquestiontext"
+msgid "This question is missing. Unable to display anything."
+msgstr "問題が見つからないため、表示することはできません。"
+
+#. missing
+#: question/type/missingtype/lang/en/qtype_missingtype.php:5
+msgctxt "question/type/missingtype/lang/en/qtype_missingtype.php:missing"
+msgid "Question of a type that is not installed on this system"
+msgstr "このシステムにインストールされていない問題タイプ"
+
+#. missingqtypewarning
+#: question/type/missingtype/lang/en/qtype_missingtype.php:6
+msgctxt ""
+"question/type/missingtype/lang/en/qtype_missingtype.php:missingqtypewarning"
+msgid ""
+"This question is of a type that is not currently installed on this system. "
+"You will not be able to do anything with this question."
+msgstr "現在、この問題タイプはシステムにインストールされていません。あなたはこの問題に関して何もすることはできません。"
+
+#. pluginname
+#: question/type/missingtype/lang/en/qtype_missingtype.php:7
+msgctxt "question/type/missingtype/lang/en/qtype_missingtype.php:pluginname"
+msgid "Missing type"
+msgstr "タイプ不明"
+
+#. pluginnameadding
+#: question/type/missingtype/lang/en/qtype_missingtype.php:8
+msgctxt ""
+"question/type/missingtype/lang/en/qtype_missingtype.php:pluginnameadding"
+msgid "Adding a question of a type that is not installed on this system"
+msgstr "このシステムにインストールされていない問題タイプの追加"
+
+#. pluginnameediting
+#: question/type/missingtype/lang/en/qtype_missingtype.php:9
+msgctxt ""
+"question/type/missingtype/lang/en/qtype_missingtype.php:pluginnameediting"
+msgid "Editing a question of a type that is not installed on this system"
+msgstr "このシステムにインストールされていない問題タイプの編集"
+
+#. warningmissingtype
+#: question/type/missingtype/lang/en/qtype_missingtype.php:10
+msgctxt ""
+"question/type/missingtype/lang/en/qtype_missingtype.php:warningmissingtype"
+msgid ""
+"<b>This question is of a type that has not been installed on your Moodle "
+"yet.<br />Please alert your Moodle administrator.</b>"
+msgstr "<b>この問題タイプは、あなたのMoodleにインストールされていません。<br />Moodle管理者にご連絡ください。</b>"
+
+#. confirmquestionsaveasedited
+#: question/type/multianswer/lang/en/qtype_multianswer.php:1
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:confirmquestionsaveasedited"
+msgid "I confirm that I want the question to be saved as edited"
+msgstr "問題を編集済みとして保存することを承認します。"
+
+#. confirmsave
+#: question/type/multianswer/lang/en/qtype_multianswer.php:2
+msgctxt "question/type/multianswer/lang/en/qtype_multianswer.php:confirmsave"
+msgid "Confirm then save {$a}"
+msgstr "{$a} を確認して保存する"
+
+#. correctanswer
+#: question/type/multianswer/lang/en/qtype_multianswer.php:3
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:correctanswer"
+msgid "Correct answer"
+msgstr "正解"
+
+#. correctanswerandfeedback
+#: question/type/multianswer/lang/en/qtype_multianswer.php:4
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:correctanswerandfeedback"
+msgid "Correct answer and feedback"
+msgstr "正解およびフィードバック"
+
+#. decodeverifyquestiontext
+#: question/type/multianswer/lang/en/qtype_multianswer.php:5
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:decodeverifyquestiontext"
+msgid "Decode and verify the question text"
+msgstr "問題テキストをデコードおよび確認する"
+
+#. layout
+#: question/type/multianswer/lang/en/qtype_multianswer.php:6
+msgctxt "question/type/multianswer/lang/en/qtype_multianswer.php:layout"
+msgid "Layout"
+msgstr "レイアウト"
+
+#. layouthorizontal
+#: question/type/multianswer/lang/en/qtype_multianswer.php:7
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:layouthorizontal"
+msgid "Horizontal row of radio-buttons"
+msgstr "ラジオボタンの水平行"
+
+#. layoutselectinline
+#: question/type/multianswer/lang/en/qtype_multianswer.php:8
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:layoutselectinline"
+msgid "Dropdown menu in-line in the text"
+msgstr "テキスト内のインラインのドロップダウンメニュー"
+
+#. layoutundefined
+#: question/type/multianswer/lang/en/qtype_multianswer.php:9
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:layoutundefined"
+msgid "Undefined layout"
+msgstr "レイアウト未定義"
+
+#. layoutvertical
+#: question/type/multianswer/lang/en/qtype_multianswer.php:10
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:layoutvertical"
+msgid "Vertical column of radio buttons"
+msgstr "ラジオボタンの垂直カラム"
+
+#. nooptionsforsubquestion
+#: question/type/multianswer/lang/en/qtype_multianswer.php:11
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:nooptionsforsubquestion"
+msgid ""
+"Unable to get options for question part # {$a->sub} (question->id={$a->id})"
+msgstr "問題部分 # {$a->sub} のオプションを取得できません (question->id={$a->id})。"
+
+#. noquestions
+#: question/type/multianswer/lang/en/qtype_multianswer.php:12
+msgctxt "question/type/multianswer/lang/en/qtype_multianswer.php:noquestions"
+msgid ""
+"The Cloze(multianswer) question \"<strong>{$a}</strong>\" does not contain "
+"any question"
+msgstr "Cloze (穴埋め問題) 「<strong>{$a}</strong>」に問題が含まれていません。"
+
+#. pluginname
+#: question/type/multianswer/lang/en/qtype_multianswer.php:13
+msgctxt "question/type/multianswer/lang/en/qtype_multianswer.php:pluginname"
+msgid "Embedded answers (Cloze)"
+msgstr "Cloze (穴埋め問題)"
+
+#. pluginnameadding
+#: question/type/multianswer/lang/en/qtype_multianswer.php:14
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:pluginnameadding"
+msgid "Adding an Embedded answers (Cloze) question"
+msgstr "穴埋め問題 (Cloze) の追加"
+
+#. pluginnameediting
+#: question/type/multianswer/lang/en/qtype_multianswer.php:15
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:pluginnameediting"
+msgid "Editing an Embedded answers (Cloze) question"
+msgstr "Cloze (穴埋め問題) の編集"
+
+#. pluginname_help
+#: question/type/multianswer/lang/en/qtype_multianswer.php:16
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:pluginname_help"
+msgid ""
+"Embedded answers (Cloze) questions consist of a passage of text with "
+"questions such as multiple-choice and short answer embedded within it."
+msgstr "穴埋め問題 (Cloze) では多肢選択問題および記述問題のような問題を一連のテキストの中に埋め込むことができます。"
+
+#. pluginname_link
+#: question/type/multianswer/lang/en/qtype_multianswer.php:17
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:pluginname_link"
+msgid "question/type/multianswer"
+msgstr "question/type/multianswer"
+
+#. pluginnamesummary
+#: question/type/multianswer/lang/en/qtype_multianswer.php:18
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:pluginnamesummary"
+msgid ""
+"Questions of this type are very flexible, but can only be created by "
+"entering text containing special codes that create embedded multiple-choice,"
+" short answers and numerical questions."
+msgstr "このタイプの問題は非常に柔軟性がありますが、埋め込み式の多肢選択問題、記述問題および数値時問題を作成することのできる、特別なコードを含んだテキストを入力する必要があります。"
+
+#. qtypenotrecognized
+#: question/type/multianswer/lang/en/qtype_multianswer.php:19
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:qtypenotrecognized"
+msgid "questiontype {$a} not recognized"
+msgstr "不明な問題タイプ {$a} です。"
+
+#. questiondefinition
+#: question/type/multianswer/lang/en/qtype_multianswer.php:20
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questiondefinition"
+msgid "Question definition"
+msgstr "問題定義"
+
+#. questiondeleted
+#: question/type/multianswer/lang/en/qtype_multianswer.php:21
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questiondeleted"
+msgid "Question deleted"
+msgstr "問題削除"
+
+#. questioninquiz
+#: question/type/multianswer/lang/en/qtype_multianswer.php:22
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questioninquiz"
+msgid ""
+"<ul>  <li>add or delete questions, </li>\n"
+"  <li>change the questions order in the text,</li>\n"
+"  <li>change their question type (numerical, shortanswer, multiple choice). </li></ul>"
+msgstr "<ul><li>問題を追加または削除する</li>\n<li>テキスト内の問題順を変更する</li>\n<li>問題タイプを変更する (数値問題、記述問題、多肢選択問題)</li>\n</ul>"
+
+#. questionnotfound
+#: question/type/multianswer/lang/en/qtype_multianswer.php:23
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questionnotfound"
+msgid "Unable to find question of question part #{$a}"
+msgstr "問題部分 #{$a} の問題が見つかりません。"
+
+#. questionsadded
+#: question/type/multianswer/lang/en/qtype_multianswer.php:24
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questionsadded"
+msgid "Question added"
+msgstr "「問題追加」"
+
+#. questionsaveasedited
+#: question/type/multianswer/lang/en/qtype_multianswer.php:25
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questionsaveasedited"
+msgid "The question will be saved as edited"
+msgstr "問題を編集済みとして保存する"
+
+#. questionsless
+#: question/type/multianswer/lang/en/qtype_multianswer.php:26
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questionsless"
+msgid ""
+"{$a} question(s) less than in the multianswer question stored in the "
+"database"
+msgstr "データベースに保存されている穴埋め問題より {$a} 問少ない "
+
+#. questionsmissing
+#: question/type/multianswer/lang/en/qtype_multianswer.php:27
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questionsmissing"
+msgid "The question text must include at least one embedded answer."
+msgstr "問題テキストには少なくとも1つの埋め込まれた答えが必要です。"
+
+#. questionsmore
+#: question/type/multianswer/lang/en/qtype_multianswer.php:28
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questionsmore"
+msgid ""
+"{$a} question(s) more than in the multianswer question stored in the "
+"database"
+msgstr "データベースに保存されている穴埋め問題より {$a} 問多い"
+
+#. questiontypechanged
+#: question/type/multianswer/lang/en/qtype_multianswer.php:29
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questiontypechanged"
+msgid "Question type changed"
+msgstr "問題タイプが変更されました。"
+
+#. questiontypechangedcomment
+#: question/type/multianswer/lang/en/qtype_multianswer.php:30
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questiontypechangedcomment"
+msgid ""
+"At least one question type has been changed.<br >Did you add, delete or move"
+" a question?<br >Look ahead."
+msgstr "少なくとも1つの問題タイプが変更されました。<br /> 問題を追加、削除または移動しましたか?<br />確認してください。"
+
+#. questionusedinquiz
+#: question/type/multianswer/lang/en/qtype_multianswer.php:31
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:questionusedinquiz"
+msgid ""
+"This question is used in {$a->nb_of_quiz} quiz(s), total attempt(s) : "
+"{$a->nb_of_attempts}"
+msgstr "この問題は {$a->nb_of_quiz} の小テストで使用されています。合計受験数: {$a->nb_of_attempts}"
+
+#. storedqtype
+#: question/type/multianswer/lang/en/qtype_multianswer.php:32
+msgctxt "question/type/multianswer/lang/en/qtype_multianswer.php:storedqtype"
+msgid "Stored question type {$a}"
+msgstr "保存された問題タイプ {$a}"
+
+#. subqresponse
+#: question/type/multianswer/lang/en/qtype_multianswer.php:33
+msgctxt "question/type/multianswer/lang/en/qtype_multianswer.php:subqresponse"
+msgid "part {$a->i}: {$a->response}"
+msgstr "パート {$a->i}: {$a->response}"
+
+#. unknownquestiontypeofsubquestion
+#: question/type/multianswer/lang/en/qtype_multianswer.php:34
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:unknownquestiontypeofsubquestion"
+msgid "Unknown question type: {$a->type} of question part # {$a->sub}"
+msgstr "不明な問題タイプ: 問題部分 # {$a->sub} の {$a->type}"
+
+#. warningquestionmodified
+#: question/type/multianswer/lang/en/qtype_multianswer.php:35
+msgctxt ""
+"question/type/multianswer/lang/en/qtype_multianswer.php:warningquestionmodified"
+msgid "<b>WARNING</b>"
+msgstr "<b>警告</b>"
+
+#. youshouldnot
+#: question/type/multianswer/lang/en/qtype_multianswer.php:36
+msgctxt "question/type/multianswer/lang/en/qtype_multianswer.php:youshouldnot"
+msgid "<b>YOU SHOULD NOT</b>"
+msgstr "<b>やるべきではありません</b>"
+
+#. answerhowmany
+#: question/type/multichoice/lang/en/qtype_multichoice.php:1
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answerhowmany"
+msgid "One or multiple answers?"
+msgstr "単一または複数解答?"
+
+#. answernumbering
+#: question/type/multichoice/lang/en/qtype_multichoice.php:2
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answernumbering"
+msgid "Number the choices?"
+msgstr "選択肢に番号付けしますか?"
+
+#. answernumbering123
+#: question/type/multichoice/lang/en/qtype_multichoice.php:3
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answernumbering123"
+msgid "1., 2., 3., ..."
+msgstr "1.  2.  3. ..."
+
+#. answernumberingabc
+#: question/type/multichoice/lang/en/qtype_multichoice.php:4
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answernumberingabc"
+msgid "a., b., c., ..."
+msgstr "a.  b.  c., ..."
+
+#. answernumberingABCD
+#: question/type/multichoice/lang/en/qtype_multichoice.php:5
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answernumberingABCD"
+msgid "A., B., C., ..."
+msgstr "A., B., C., ..."
+
+#. answernumberingiii
+#: question/type/multichoice/lang/en/qtype_multichoice.php:6
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answernumberingiii"
+msgid "i., ii., iii., ..."
+msgstr "i., ii., iii., ..."
+
+#. answernumberingIIII
+#: question/type/multichoice/lang/en/qtype_multichoice.php:7
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answernumberingIIII"
+msgid "I., II., III., ..."
+msgstr "I., II., III., ..."
+
+#. answernumberingnone
+#: question/type/multichoice/lang/en/qtype_multichoice.php:8
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answernumberingnone"
+msgid "No numbering"
+msgstr "番号付けなし"
+
+#. answersingleno
+#: question/type/multichoice/lang/en/qtype_multichoice.php:9
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answersingleno"
+msgid "Multiple answers allowed"
+msgstr "複数解答を許可する"
+
+#. answersingleyes
+#: question/type/multichoice/lang/en/qtype_multichoice.php:10
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:answersingleyes"
+msgid "One answer only"
+msgstr "単一の解答のみ許可する"
+
+#. choiceno
+#: question/type/multichoice/lang/en/qtype_multichoice.php:11
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:choiceno"
+msgid "Choice {$a}"
+msgstr "選択肢 {$a}"
+
+#. choices
+#: question/type/multichoice/lang/en/qtype_multichoice.php:12
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:choices"
+msgid "Available choices"
+msgstr "利用可能な選択肢"
+
+#. clozeaid
+#: question/type/multichoice/lang/en/qtype_multichoice.php:13
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:clozeaid"
+msgid "Enter missing word"
+msgstr "テキストを入力してください。"
+
+#. correctansweris
+#: question/type/multichoice/lang/en/qtype_multichoice.php:14
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:correctansweris"
+msgid "The correct answer is: {$a}"
+msgstr "正答: {$a}"
+
+#. correctfeedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:15
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:correctfeedback"
+msgid "For any correct response"
+msgstr "正解すべてに対するフィードバック"
+
+#. errfractionsaddwrong
+#: question/type/multichoice/lang/en/qtype_multichoice.php:16
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:errfractionsaddwrong"
+msgid ""
+"The positive grades you have chosen do not add up to 100%<br />Instead, they"
+" add up to {$a}%"
+msgstr "あなたが選択したプラス評点の合計が、100%になっていません。<br />現在の評点合計は {$a}% です。"
+
+#. errfractionsnomax
+#: question/type/multichoice/lang/en/qtype_multichoice.php:17
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:errfractionsnomax"
+msgid ""
+"One of the choices should be 100%, so that it is<br />possible to get a full"
+" grade for this question."
+msgstr "この問題で満点を取ることができるよう、<br />選択肢の1つは、100%でなければなりません。"
+
+#. errgradesetanswerblank
+#: question/type/multichoice/lang/en/qtype_multichoice.php:18
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:errgradesetanswerblank"
+msgid "Grade set, but the Answer is blank"
+msgstr "評点は設定されていますが、答えが空白です。"
+
+#. feedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:19
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:feedback"
+msgid "Feedback"
+msgstr "フィードバック"
+
+#. fillouttwochoices
+#: question/type/multichoice/lang/en/qtype_multichoice.php:20
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:fillouttwochoices"
+msgid ""
+"You must fill out at least two choices. Choices left blank will not be used."
+msgstr "あなたは少なくとも2つ以上の選択肢を入力する必要があります。空白の選択肢は使用されません。"
+
+#. fractionsaddwrong
+#: question/type/multichoice/lang/en/qtype_multichoice.php:21
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:fractionsaddwrong"
+msgid ""
+"The positive grades you have chosen do not add up to 100%<br />Instead, they"
+" add up to {$a}%<br />Do you want to go back and fix this question?"
+msgstr "あなたが選択したプラス評点の合計が、100%になっていません。<br />現在の評点合計は {$a}% です。<br />戻ってこの問題を修正しますか?"
+
+#. fractionsnomax
+#: question/type/multichoice/lang/en/qtype_multichoice.php:22
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:fractionsnomax"
+msgid ""
+"One of the choices should be 100%, so that it is<br />possible to get a full"
+" grade for this question.<br />Do you want to go back and fix this question?"
+msgstr "この問題で満点を取ることができるよう、<br />答えの1つは、100%でなければなりません。 <br />前のページに戻ってこの問題を修正しますか?"
+
+#. incorrectfeedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:23
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:incorrectfeedback"
+msgid "For any incorrect response"
+msgstr "不正解すべてに対するフィードバック"
+
+#. notenoughanswers
+#: question/type/multichoice/lang/en/qtype_multichoice.php:24
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:notenoughanswers"
+msgid "This type of question requires at least {$a} choices"
+msgstr "このタイプの問題には少なくとも {$a} の選択肢が必要です。"
+
+#. overallcorrectfeedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:25
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:overallcorrectfeedback"
+msgid "Feedback for any correct response"
+msgstr "正解すべてに対するフィードバック"
+
+#. overallfeedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:26
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:overallfeedback"
+msgid "Overall feedback"
+msgstr "全体のフィードバック"
+
+#. overallincorrectfeedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:27
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:overallincorrectfeedback"
+msgid "Feedback for any incorrect response"
+msgstr "不正解すべてに対するフィードバック"
+
+#. overallpartiallycorrectfeedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:28
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:overallpartiallycorrectfeedback"
+msgid "Feedback for any partially correct response"
+msgstr "部分的な正解すべてに対するフィードバック"
+
+#. partiallycorrectfeedback
+#: question/type/multichoice/lang/en/qtype_multichoice.php:29
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:partiallycorrectfeedback"
+msgid "For any partially correct response"
+msgstr "部分的な正解すべてに対するフィードバック"
+
+#. pleaseselectananswer
+#: question/type/multichoice/lang/en/qtype_multichoice.php:30
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:pleaseselectananswer"
+msgid "Please select an answer."
+msgstr "答えを選択してください。"
+
+#. pleaseselectatleastoneanswer
+#: question/type/multichoice/lang/en/qtype_multichoice.php:31
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:pleaseselectatleastoneanswer"
+msgid "Please select at least one answer."
+msgstr "少なくとも1つの答えを選択してください。"
+
+#. pluginname
+#: question/type/multichoice/lang/en/qtype_multichoice.php:32
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:pluginname"
+msgid "Multiple choice"
+msgstr "多肢選択問題"
+
+#. pluginnameadding
+#: question/type/multichoice/lang/en/qtype_multichoice.php:33
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:pluginnameadding"
+msgid "Adding a Multiple choice question"
+msgstr "多肢選択問題の追加"
+
+#. pluginnameediting
+#: question/type/multichoice/lang/en/qtype_multichoice.php:34
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:pluginnameediting"
+msgid "Editing a Multiple choice question"
+msgstr "多肢選択問題の編集"
+
+#. pluginname_help
+#: question/type/multichoice/lang/en/qtype_multichoice.php:35
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:pluginname_help"
+msgid ""
+"In response to a question (that may include a image) the respondent chooses "
+"from multiple answers. There are two types of multiple choice questions - "
+"one answer and multiple answer."
+msgstr "問題 (イメージを含む) に対して、解答者が複数の答えを選択します。2種類の多肢選択問題 (単一解答、複数解答) があります。"
+
+#. pluginname_link
+#: question/type/multichoice/lang/en/qtype_multichoice.php:36
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:pluginname_link"
+msgid "question/type/multichoice"
+msgstr "question/type/multichoice"
+
+#. pluginnamesummary
+#: question/type/multichoice/lang/en/qtype_multichoice.php:37
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:pluginnamesummary"
+msgid ""
+"Allows the selection of a single or multiple responses from a pre-defined "
+"list."
+msgstr "所定の一覧より単一または複数の解答を選択することができます。"
+
+#. selectmulti
+#: question/type/multichoice/lang/en/qtype_multichoice.php:38
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:selectmulti"
+msgid "Select one or more:"
+msgstr "1つまたはそれ以上選択してください:"
+
+#. selectone
+#: question/type/multichoice/lang/en/qtype_multichoice.php:39
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:selectone"
+msgid "Select one:"
+msgstr "1つ選択してください:"
+
+#. shuffleanswers
+#: question/type/multichoice/lang/en/qtype_multichoice.php:40
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:shuffleanswers"
+msgid "Shuffle the choices?"
+msgstr "選択肢をシャッフルしますか?"
+
+#. shuffleanswers_help
+#: question/type/multichoice/lang/en/qtype_multichoice.php:41
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:shuffleanswers_help"
+msgid ""
+"If enabled, the order of the answers is randomly shuffled for each attempt, "
+"provided that \"Shuffle within questions\" in the activity settings is also "
+"enabled."
+msgstr "このオプションを「Yes」にした場合、それぞれの受験で答えの順番がランダムにシャッフルされます。小テスト設定の「問題内部をシャッフルする」を「Yes」にする必要があります。"
+
+#. singleanswer
+#: question/type/multichoice/lang/en/qtype_multichoice.php:42
+msgctxt "question/type/multichoice/lang/en/qtype_multichoice.php:singleanswer"
+msgid "Choose one answer."
+msgstr "1つの答えを選択してください。"
+
+#. toomanyselected
+#: question/type/multichoice/lang/en/qtype_multichoice.php:43
+msgctxt ""
+"question/type/multichoice/lang/en/qtype_multichoice.php:toomanyselected"
+msgid "You have selected too many options."
+msgstr "あなたはオプションを選択しすぎました。"
+
+#. acceptederror
+#: question/type/numerical/lang/en/qtype_numerical.php:1
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:acceptederror"
+msgid "Accepted error"
+msgstr "受け入れることのできるエラー範囲"
+
+#. addmoreanswerblanks
+#: question/type/numerical/lang/en/qtype_numerical.php:2
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:addmoreanswerblanks"
+msgid "Blanks for {no} more answers"
+msgstr "さらに {no} 件の答え入力欄を追加する"
+
+#. addmoreunitblanks
+#: question/type/numerical/lang/en/qtype_numerical.php:3
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:addmoreunitblanks"
+msgid "Blanks for {no} more units"
+msgstr "さらに {no} 件の単位を追加する"
+
+#. answercolon
+#: question/type/numerical/lang/en/qtype_numerical.php:4
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:answercolon"
+msgid "Answer:"
+msgstr "答え:"
+
+#. answererror
+#: question/type/numerical/lang/en/qtype_numerical.php:5
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:answererror"
+msgid "Error"
+msgstr "エラー"
+
+#. answermustbenumberorstar
+#: question/type/numerical/lang/en/qtype_numerical.php:6
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:answermustbenumberorstar"
+msgid "The answer must be a number, for example -1.234 or 3e8, or '*'."
+msgstr "答えには「-1.234」「3e8」のような数値、または「*」を使用してください。"
+
+#. answerno
+#: question/type/numerical/lang/en/qtype_numerical.php:7
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:answerno"
+msgid "Answer {$a}"
+msgstr "解答 {$a}"
+
+#. decfractionofquestiongrade
+#: question/type/numerical/lang/en/qtype_numerical.php:8
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:decfractionofquestiongrade"
+msgid "as a fraction (0-1) of the question grade"
+msgstr "問題評点の小数 (0-1) として"
+
+#. decfractionofresponsegrade
+#: question/type/numerical/lang/en/qtype_numerical.php:9
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:decfractionofresponsegrade"
+msgid "as a fraction (0-1) of the response grade"
+msgstr "解答評点の小数 (0-1) として"
+
+#. decimalformat
+#: question/type/numerical/lang/en/qtype_numerical.php:10
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:decimalformat"
+msgid "decimals"
+msgstr "小数"
+
+#. editableunittext
+#: question/type/numerical/lang/en/qtype_numerical.php:11
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:editableunittext"
+msgid "the text input element"
+msgstr "テキスト入力エレメント"
+
+#. errornomultiplier
+#: question/type/numerical/lang/en/qtype_numerical.php:12
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:errornomultiplier"
+msgid "You must specify a multiplier for this unit."
+msgstr "この単位の乗数を指定してください。"
+
+#. errorrepeatedunit
+#: question/type/numerical/lang/en/qtype_numerical.php:13
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:errorrepeatedunit"
+msgid "You cannot have two units with the same name."
+msgstr "同じ名称で2つの単位を設定することはできません。"
+
+#. geometric
+#: question/type/numerical/lang/en/qtype_numerical.php:14
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:geometric"
+msgid "Geometric"
+msgstr "幾何平均値"
+
+#. invalidnumber
+#: question/type/numerical/lang/en/qtype_numerical.php:15
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:invalidnumber"
+msgid "You must enter a valid number."
+msgstr "あなたは有効な数値を入力する必要があります。"
+
+#. invalidnumbernounit
+#: question/type/numerical/lang/en/qtype_numerical.php:16
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:invalidnumbernounit"
+msgid "You must enter a valid number. Do not include a unit in your response."
+msgstr "あなたは有効な数値を入力する必要があります。あなたの解答に単位を含まないでください。"
+
+#. invalidnumericanswer
+#: question/type/numerical/lang/en/qtype_numerical.php:17
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:invalidnumericanswer"
+msgid "One of the answers you entered was not a valid number."
+msgstr "あなたが入力した答えの1つが有効な数字ではありません。"
+
+#. invalidnumerictolerance
+#: question/type/numerical/lang/en/qtype_numerical.php:18
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:invalidnumerictolerance"
+msgid "One of the tolerances you entered was not a valid number."
+msgstr "あなたが入力した許容範囲の1つが有効な数字ではありません。"
+
+#. leftexample
+#: question/type/numerical/lang/en/qtype_numerical.php:19
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:leftexample"
+msgid "on the left, for example $1.00 or £1.00"
+msgstr "$1.00 または £1.00のように左側"
+
+#. manynumerical
+#: question/type/numerical/lang/en/qtype_numerical.php:20
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:manynumerical"
+msgid ""
+"Units are optional. If a unit is entered, it is used to convert the response"
+" to Unit 1 before grading."
+msgstr "単位は任意です。単位が入力された場合、評定される前に解答を単位1で変換するために使用されます。"
+
+#. multiplier
+#: question/type/numerical/lang/en/qtype_numerical.php:21
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:multiplier"
+msgid "Multiplier"
+msgstr "乗数"
+
+#. nominal
+#: question/type/numerical/lang/en/qtype_numerical.php:22
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:nominal"
+msgid "Nominal"
+msgstr "名義尺度"
+
+#. noneditableunittext
+#: question/type/numerical/lang/en/qtype_numerical.php:23
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:noneditableunittext"
+msgid "NON editable text of Unit No1"
+msgstr "単位1の編集不可テキスト"
+
+#. nonvalidcharactersinnumber
+#: question/type/numerical/lang/en/qtype_numerical.php:24
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:nonvalidcharactersinnumber"
+msgid "NON valid characters in number"
+msgstr "有効ではない文字が数字として入力されています。"
+
+#. notenoughanswers
+#: question/type/numerical/lang/en/qtype_numerical.php:25
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:notenoughanswers"
+msgid "You must enter at least one answer."
+msgstr "少なくとも1つの答えを入力してください。"
+
+#. nounitdisplay
+#: question/type/numerical/lang/en/qtype_numerical.php:26
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:nounitdisplay"
+msgid "No unit grading"
+msgstr "単位評定なし"
+
+#. numericalmultiplier
+#: question/type/numerical/lang/en/qtype_numerical.php:27
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:numericalmultiplier"
+msgid "Multiplier"
+msgstr "乗数"
+
+#. numericalmultiplier_help
+#: question/type/numerical/lang/en/qtype_numerical.php:28
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:numericalmultiplier_help"
+msgid ""
+"The multiplier is the factor by which the correct numerical response will be multiplied.\n"
+"The first unit (Unit 1) has a default multiplier of 1. Thus if the correct numerical response is 5500 and you set W as unit at Unit 1 which has 1 as default multiplier, the correct response is 5500 W.\n"
+"\n"
+"If you add the unit kW with a multiplier of 0.001, this will add a correct response of 5.5 kW. This means that the answers 5500W or 5.5kW would be marked correct.\n"
+"\n"
+"Note that the accepted error is also multiplied, so an allowed error of 100W would become an error of 0.1kW."
+msgstr "乗数は正しい数値の解答に掛けられる要素です。\n最初の単位 (単位1) はデフォルト乗数に1を持ちます。従って正しい数値の解答が500、あなたが設定した単位1 (デフォルト乗数=1) の単位がWの場合、正解は5500Wになります。\n\nあなたが乗数0.001の単位kWを追加した場合、正解は5.5kWになります。これは5500Wまたは5.5kWの解答が正解とされることを意味します。\n\n許容されるエラーも乗算されることに留意してください。ですから、許容されるエラーが100Wの場合、0.1kWのエラーとなります。"
+
+#. oneunitshown
+#: question/type/numerical/lang/en/qtype_numerical.php:29
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:oneunitshown"
+msgid "Unit 1 is automatically displayed beside the answer box."
+msgstr "単位1が表示されます。数字の解答のみ評定されます。"
+
+#. onlynumerical
+#: question/type/numerical/lang/en/qtype_numerical.php:30
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:onlynumerical"
+msgid "Units are not used at all. Only the numerical value is graded."
+msgstr "単位の使用は許可されません。数字の解答のみ評定されます。"
+
+#. pleaseenterananswer
+#: question/type/numerical/lang/en/qtype_numerical.php:31
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:pleaseenterananswer"
+msgid "Please enter an answer."
+msgstr "答えを入力してください。"
+
+#. pleaseenteranswerwithoutthousandssep
+#: question/type/numerical/lang/en/qtype_numerical.php:32
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:pleaseenteranswerwithoutthousandssep"
+msgid "Please enter your answer without using the thousand separator ({$a})."
+msgstr "3桁区切り ({$a}) を使用せずに答えを入力してください。"
+
+#. pluginname
+#: question/type/numerical/lang/en/qtype_numerical.php:33
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:pluginname"
+msgid "Numerical"
+msgstr "数値問題"
+
+#. pluginnameadding
+#: question/type/numerical/lang/en/qtype_numerical.php:34
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:pluginnameadding"
+msgid "Adding a Numerical question"
+msgstr "数値問題の追加"
+
+#. pluginnameediting
+#: question/type/numerical/lang/en/qtype_numerical.php:35
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:pluginnameediting"
+msgid "Editing a Numerical question"
+msgstr "数値問題の編集"
+
+#. pluginname_help
+#: question/type/numerical/lang/en/qtype_numerical.php:36
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:pluginname_help"
+msgid ""
+"From the student perspective, a numerical question looks just like a short-"
+"answer question. The difference is that numerical answers are allowed to "
+"have an accepted error. This allows a fixed range of answers to be evaluated"
+" as one answer. For example, if the answer is 10 with an accepted error of "
+"2, then any number between 8 and 12 will be accepted as correct."
+msgstr "学生からは数値問題は記述問題のように見えます。記述問題と異なる点は数値問題では間違いを受け入れるようにすることができることです。このことにより連続した範囲の答えを設定することができます。例えば正解が10で受け入れることのできるエラー範囲が2の場合、8から12までの間の答えが正解とされます。"
+
+#. pluginname_link
+#: question/type/numerical/lang/en/qtype_numerical.php:37
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:pluginname_link"
+msgid "question/type/numerical"
+msgstr "question/type/numerical"
+
+#. pluginnamesummary
+#: question/type/numerical/lang/en/qtype_numerical.php:38
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:pluginnamesummary"
+msgid ""
+"Allows a numerical response, possibly with units, that is graded by "
+"comparing against various model answers, possibly with tolerances."
+msgstr "単位を使って数値で解答することができます。また、さまざまな解答モデルに対して、許容範囲を設定して評定することができます。"
+
+#. relative
+#: question/type/numerical/lang/en/qtype_numerical.php:39
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:relative"
+msgid "Relative"
+msgstr "相対度数"
+
+#. rightexample
+#: question/type/numerical/lang/en/qtype_numerical.php:40
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:rightexample"
+msgid "on the right, for example 1.00cm or 1.00km"
+msgstr "1.00cmまたは1.00kmのように右側"
+
+#. selectunit
+#: question/type/numerical/lang/en/qtype_numerical.php:41
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:selectunit"
+msgid "Select one unit"
+msgstr "単位を選択してください。"
+
+#. selectunits
+#: question/type/numerical/lang/en/qtype_numerical.php:42
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:selectunits"
+msgid "Select units"
+msgstr "単位を選択する"
+
+#. studentunitanswer
+#: question/type/numerical/lang/en/qtype_numerical.php:43
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:studentunitanswer"
+msgid "Units are input using"
+msgstr "単位入力に使用する"
+
+#. tolerancetype
+#: question/type/numerical/lang/en/qtype_numerical.php:44
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:tolerancetype"
+msgid "Tolerance type"
+msgstr "許容タイプ"
+
+#. unit
+#: question/type/numerical/lang/en/qtype_numerical.php:45
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unit"
+msgid "Unit"
+msgstr "単位"
+
+#. unitappliedpenalty
+#: question/type/numerical/lang/en/qtype_numerical.php:46
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:unitappliedpenalty"
+msgid "These marks include a penalty of {$a} for bad unit."
+msgstr "この評点には正しくない単位に対する {$a} のペナルティを含みます。"
+
+#. unitchoice
+#: question/type/numerical/lang/en/qtype_numerical.php:47
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitchoice"
+msgid "a multiple choice selection"
+msgstr "複数選択"
+
+#. unitedit
+#: question/type/numerical/lang/en/qtype_numerical.php:48
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitedit"
+msgid "Edit unit"
+msgstr "単位を編集する"
+
+#. unitgraded
+#: question/type/numerical/lang/en/qtype_numerical.php:49
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitgraded"
+msgid "The unit must be given, and will be graded."
+msgstr "単位は必須であり、評定されます。"
+
+#. unithandling
+#: question/type/numerical/lang/en/qtype_numerical.php:50
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unithandling"
+msgid "Unit handling"
+msgstr "単位処理"
+
+#. unitincorrect
+#: question/type/numerical/lang/en/qtype_numerical.php:51
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitincorrect"
+msgid "You did not give the correct unit."
+msgstr "あなたは正しい単位を割り当てていません。"
+
+#. unitmandatory
+#: question/type/numerical/lang/en/qtype_numerical.php:52
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitmandatory"
+msgid "Mandatory"
+msgstr "必須"
+
+#. unitmandatory_help
+#: question/type/numerical/lang/en/qtype_numerical.php:53
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:unitmandatory_help"
+msgid ""
+"* The response will be graded using the unit written.\n"
+"* The unit penalty will be applied if the unit field is empty"
+msgstr "* 入力された単位を使用して解答が評定されます。\n* 単位フィールドが空の場合、単位ペナルティが適用されます。"
+
+#. unitnotselected
+#: question/type/numerical/lang/en/qtype_numerical.php:54
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitnotselected"
+msgid "You must select a unit."
+msgstr "あなたは単位を選択する必要があります。"
+
+#. unitonerequired
+#: question/type/numerical/lang/en/qtype_numerical.php:55
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitonerequired"
+msgid "You must enter at least one unit"
+msgstr "あなたは少なくとも1つの単位を入力する必要があります。"
+
+#. unitoptional
+#: question/type/numerical/lang/en/qtype_numerical.php:56
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitoptional"
+msgid "Optional unit"
+msgstr "任意の単位"
+
+#. unitoptional_help
+#: question/type/numerical/lang/en/qtype_numerical.php:57
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:unitoptional_help"
+msgid ""
+"* If the unit field is not empty, the response will be graded using this unit.\n"
+"* If the unit is badly written or unknown, the response will be considered as non valid."
+msgstr "* 単位フィールドが空ではない場合、解答はこの単位を使用して評定されます。* 単位が正しくなかったり不明な場合、解答は有効ではないとみなされます。"
+
+#. unitpenalty
+#: question/type/numerical/lang/en/qtype_numerical.php:58
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitpenalty"
+msgid "Unit penalty"
+msgstr "単位ペナルティ"
+
+#. unitpenalty_help
+#: question/type/numerical/lang/en/qtype_numerical.php:59
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitpenalty_help"
+msgid ""
+"The penalty is applied if\n"
+"* the wrong unit name is entered into the unit input, or\n"
+"* a unit is entered into the value input box"
+msgstr "次の場合にペナルティが適用されます:\n* 単位入力ボックスに正しくない単位が入力された場合、または\n* 数字入力ボックスに単位が入力された場合"
+
+#. unitposition
+#: question/type/numerical/lang/en/qtype_numerical.php:60
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitposition"
+msgid "Units go"
+msgstr "単位の位置"
+
+#. units
+#: question/type/numerical/lang/en/qtype_numerical.php:61
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:units"
+msgid "Units"
+msgstr "単位"
+
+#. unitselect
+#: question/type/numerical/lang/en/qtype_numerical.php:62
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitselect"
+msgid "a drop-down menu"
+msgstr "ドロップダウンメニュー"
+
+#. unitx
+#: question/type/numerical/lang/en/qtype_numerical.php:63
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:unitx"
+msgid "Unit {no}"
+msgstr "単位 {no}"
+
+#. validnumberformats
+#: question/type/numerical/lang/en/qtype_numerical.php:64
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:validnumberformats"
+msgid "Valid number formats"
+msgstr "有効な数値フォーマット"
+
+#. validnumberformats_help
+#: question/type/numerical/lang/en/qtype_numerical.php:65
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:validnumberformats_help"
+msgid ""
+"* regular numbers 13500.67, 13 500.67, 13500,67 or 13 500,67\n"
+"* if your language pack settings (langconfig.php file) uses a comma (,) as thousand separator *always* put the decimal point (.) as in 13,500.67 : 13,500.\n"
+"\n"
+"* for exponent form, say 1.350067 * 10<sup>4</sup>, use 1.350067 E4 : 1.350067 E04"
+msgstr "* 正則数 13500.67、13 500.67、13500,67または13 500,67\n * あなたの言語パック設定 (langconfig.phpファイル) が3桁区切りに「,」を使用する場合、常に13,500.67 : 13,500のように小数点を入力してください。\n\n* 例えば、1.350067 * 10<sup>4</sup>のような指数の場合、1.350067 E4 : 1.350067 E04を使用してください。"
+
+#. validnumbers
+#: question/type/numerical/lang/en/qtype_numerical.php:66
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:validnumbers"
+msgid ""
+"13500.67, 13 500.67, 13,500.67, 13500,67, 13 500,67, 1.350067 E4 or 1.350067"
+" E04"
+msgstr "13500.67, 13 500.67, 13,500.67, 13500,67, 13 500,67, 1.350067 E4 または 1.350067 E04"
+
+#. xmustbenumeric
+#: question/type/numerical/lang/en/qtype_numerical.php:67
+msgctxt "question/type/numerical/lang/en/qtype_numerical.php:xmustbenumeric"
+msgid "{$a} must be a number."
+msgstr "{$a} は数字にする必要があります。"
+
+#. xmustnotbenumeric
+#: question/type/numerical/lang/en/qtype_numerical.php:68
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:xmustnotbenumeric"
+msgid "{$a} cannot be a number."
+msgstr "{$a} を数字にすることはできません。"
+
+#. youmustenteramultiplierhere
+#: question/type/numerical/lang/en/qtype_numerical.php:69
+msgctxt ""
+"question/type/numerical/lang/en/qtype_numerical.php:youmustenteramultiplierhere"
+msgid "You must enter a multiplier here."
+msgstr "あなたは、ここに乗数を入力する必要があります。"
+
+#. configselectmanualquestions
+#: question/type/random/lang/en/qtype_random.php:1
+msgctxt ""
+"question/type/random/lang/en/qtype_random.php:configselectmanualquestions"
+msgid ""
+"Can the random question type select a manually graded question when it is "
+"making its random choice of a question from a category?"
+msgstr "カテゴリから問題をランダムに選択する場合、ランダム問題タイプは手動評定問題を選択できますか?"
+
+#. includingsubcategories
+#: question/type/random/lang/en/qtype_random.php:2
+msgctxt "question/type/random/lang/en/qtype_random.php:includingsubcategories"
+msgid "Including subcategories"
+msgstr "サブカテゴリを含む"
+
+#. pluginname
+#: question/type/random/lang/en/qtype_random.php:3
+msgctxt "question/type/random/lang/en/qtype_random.php:pluginname"
+msgid "Random"
+msgstr "ランダム問題"
+
+#. pluginnameediting
+#: question/type/random/lang/en/qtype_random.php:4
+msgctxt "question/type/random/lang/en/qtype_random.php:pluginnameediting"
+msgid "Editing a random question"
+msgstr "ランダム問題の編集"
+
+#. pluginname_help
+#: question/type/random/lang/en/qtype_random.php:5
+msgctxt "question/type/random/lang/en/qtype_random.php:pluginname_help"
+msgid ""
+"A random question is not a question type as such, but is a way of inserting "
+"a randomly-chosen question from a specified category into an activity."
+msgstr "ランダム問題は通常の問題タイプではありませんが、小テストの特定カテゴリよりランダムに選択された問題を追加することができます。"
+
+#. randomqname
+#: question/type/random/lang/en/qtype_random.php:6
+msgctxt "question/type/random/lang/en/qtype_random.php:randomqname"
+msgid "Random ({$a})"
+msgstr "ランダム ({$a})"
+
+#. randomqplusname
+#: question/type/random/lang/en/qtype_random.php:7
+msgctxt "question/type/random/lang/en/qtype_random.php:randomqplusname"
+msgid "Random ({$a} and subcategories)"
+msgstr "ランダム ({$a} およびサブカテゴリ)"
+
+#. selectedby
+#: question/type/random/lang/en/qtype_random.php:8
+msgctxt "question/type/random/lang/en/qtype_random.php:selectedby"
+msgid "{$a->questionname} selected by {$a->randomname}"
+msgstr "{$a->randomname} に選択された {$a->questionname}"
+
+#. selectmanualquestions
+#: question/type/random/lang/en/qtype_random.php:9
+msgctxt "question/type/random/lang/en/qtype_random.php:selectmanualquestions"
+msgid "Random questions can use manually graded questions"
+msgstr "ランダム問題が手動評定問題を使用できる"
+
+#. nosaincategory
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:1
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:nosaincategory"
+msgid ""
+"There are no short answer questions in the category that you chose "
+"'{$a->catname}'. Choose a different category, make some questions in this "
+"category."
+msgstr "あなたが選択したカテゴリ「 {$a->catname} 」には、記述問題がありません。いくつかの記述問題を含んだ異なるカテゴリを選択してください。"
+
+#. notenoughsaincategory
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:2
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:notenoughsaincategory"
+msgid ""
+"There is/are only {$a->nosaquestions} short answer questions in the category"
+" that you chose '{$a->catname}'. Choose a different category, make some more"
+" questions in this category or reduce the amount of questions you've "
+"selected."
+msgstr "あなたが選択したカテゴリ「 {$a->catname} 」には、{$a->nosaquestions} 問の問題のみ含まれています。異なるカテゴリを選択して、さらに問題を含むようにするか、あなたが設定した選択問題数を減らしてください。"
+
+#. pluginname
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:3
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:pluginname"
+msgid "Random short-answer matching"
+msgstr "ランダム記述組み合わせ問題"
+
+#. pluginnameadding
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:4
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:pluginnameadding"
+msgid "Adding a Random short-answer matching question"
+msgstr "ランダム記述組み合わせ問題の追加"
+
+#. pluginnameediting
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:5
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:pluginnameediting"
+msgid "Editing a Random short-answer matching question"
+msgstr "ランダム記述組み合わせ問題の編集"
+
+#. pluginname_help
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:6
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:pluginname_help"
+msgid ""
+"From the student perspective, this looks just like a matching question. The "
+"difference is that the list of names or statements (questions) for matching "
+"are drawn randomly from the short answer questions in the current category. "
+"There should be sufficient unused short answer questions in the category, "
+"otherwise an error message will be displayed."
+msgstr "学生の視点から、これは組み合わせ問題のように見えます。異なる点は、組み合わせのための名称または記述 (問題) 一覧が現在のカテゴリ内の記述問題からランダムに取得されることです。カテゴリ内に十分な未使用の記述問題が必要です。そうでない場合、エラーメッセージが表示されます。"
+
+#. pluginname_link
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:7
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:pluginname_link"
+msgid "question/type/randomsamatch"
+msgstr "question/type/randomsamatch"
+
+#. pluginnamesummary
+#: question/type/randomsamatch/lang/en/qtype_randomsamatch.php:8
+msgctxt ""
+"question/type/randomsamatch/lang/en/qtype_randomsamatch.php:pluginnamesummary"
+msgid ""
+"Like a Matching question, but created randomly from the short answer "
+"questions in a particular category."
+msgstr "組み合わせ問題に似ていますが、特定のカテゴリ内の記述問題からランダムに作成されます。"
+
+#. addmoreanswerblanks
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:1
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:addmoreanswerblanks"
+msgid "Blanks for {no} More Answers"
+msgstr "さらに {no} 件の答え入力欄を追加する"
+
+#. answer
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:2
+msgctxt "question/type/shortanswer/lang/en/qtype_shortanswer.php:answer"
+msgid "Answer: {$a}"
+msgstr "解答: {$a}"
+
+#. answermustbegiven
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:3
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:answermustbegiven"
+msgid "You must enter an answer if there is a grade or feedback."
+msgstr "評定またはフィードバックがある場合、あなたは答えを入力する必要があります。"
+
+#. answerno
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:4
+msgctxt "question/type/shortanswer/lang/en/qtype_shortanswer.php:answerno"
+msgid "Answer {$a}"
+msgstr "答え {$a}"
+
+#. caseno
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:5
+msgctxt "question/type/shortanswer/lang/en/qtype_shortanswer.php:caseno"
+msgid "No, case is unimportant"
+msgstr "いいえ、大文字小文字は重要ではありません"
+
+#. casesensitive
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:6
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:casesensitive"
+msgid "Case sensitivity"
+msgstr "大文字小文字の区別"
+
+#. caseyes
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:7
+msgctxt "question/type/shortanswer/lang/en/qtype_shortanswer.php:caseyes"
+msgid "Yes, case must match"
+msgstr "はい、大文字小文字を区別します"
+
+#. correctansweris
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:8
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:correctansweris"
+msgid "The correct answer is: {$a}"
+msgstr "正解は {$a} です。"
+
+#. correctanswers
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:9
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:correctanswers"
+msgid "Correct answers"
+msgstr "正解"
+
+#. filloutoneanswer
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:10
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:filloutoneanswer"
+msgid ""
+"You must provide at least one possible answer. Answers left blank will not "
+"be used. '*' can be used as a wildcard to match any characters. The first "
+"matching answer will be used to determine the score and feedback."
+msgstr "1つ以上の考えられる答えを入力してください。空白の答えは使用されません。「*」は、どのような文字にでも合致するワイルドカードとして使用することができます。最初の組み合わせの答えは、評点とフィードバックを決定するため使用されます。"
+
+#. notenoughanswers
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:11
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:notenoughanswers"
+msgid "This type of question requires at least {$a} answers"
+msgstr "このタイプの問題には少なくとも {$a} 件の答えが必要です。"
+
+#. pleaseenterananswer
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:12
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:pleaseenterananswer"
+msgid "Please enter an answer."
+msgstr "答えを入力してください。"
+
+#. pluginname
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:13
+msgctxt "question/type/shortanswer/lang/en/qtype_shortanswer.php:pluginname"
+msgid "Short answer"
+msgstr "記述問題"
+
+#. pluginnameadding
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:14
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:pluginnameadding"
+msgid "Adding a short answer question"
+msgstr "記述問題の追加"
+
+#. pluginnameediting
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:15
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:pluginnameediting"
+msgid "Editing a Short answer question"
+msgstr "記述問題の編集"
+
+#. pluginname_help
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:16
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:pluginname_help"
+msgid ""
+"In response to a question (that may include a image) the respondent types a "
+"word or short phrase. There may be several possible correct answers, each "
+"with a different grade. If the \"Case sensitive\" option is selected, then "
+"you can have different scores for \"Word\" or \"word\"."
+msgstr "問題 (イメージを含む) に対して、解答者が言葉またはフレーズを入力します。異なる評点を持つ、いくつかの正解を設定することができます。「大文字小文字の区別」オプションで「はい、文字の大小は合致する必要があります」が選択された場合、あなたは「Word」と「word」に異なる評点をつけることができます。"
+
+#. pluginname_link
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:17
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:pluginname_link"
+msgid "question/type/shortanswer"
+msgstr "question/type/shortanswer"
+
+#. pluginnamesummary
+#: question/type/shortanswer/lang/en/qtype_shortanswer.php:18
+msgctxt ""
+"question/type/shortanswer/lang/en/qtype_shortanswer.php:pluginnamesummary"
+msgid ""
+"Allows a response of one or a few words that is graded by comparing against "
+"various model answers, which may contain wildcards."
+msgstr "様々な答えのモデルと比較して評定される、1つまたは少数の言葉を入力することができます。答えには、ワイルドカードを含むことができます。"
+
+#. correctanswer
+#: question/type/truefalse/lang/en/qtype_truefalse.php:1
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:correctanswer"
+msgid "Correct answer"
+msgstr "正解"
+
+#. correctanswerfalse
+#: question/type/truefalse/lang/en/qtype_truefalse.php:2
+msgctxt ""
+"question/type/truefalse/lang/en/qtype_truefalse.php:correctanswerfalse"
+msgid "The correct answer is 'False'."
+msgstr "正解は「×」です。"
+
+#. correctanswertrue
+#: question/type/truefalse/lang/en/qtype_truefalse.php:3
+msgctxt ""
+"question/type/truefalse/lang/en/qtype_truefalse.php:correctanswertrue"
+msgid "The correct answer is 'True'."
+msgstr "正解は「○」です。"
+
+#. false
+#: question/type/truefalse/lang/en/qtype_truefalse.php:4
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:false"
+msgid "False"
+msgstr "×"
+
+#. feedbackfalse
+#: question/type/truefalse/lang/en/qtype_truefalse.php:5
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:feedbackfalse"
+msgid "Feedback for the response 'False'."
+msgstr "解答「×」に対するフィードバック"
+
+#. feedbacktrue
+#: question/type/truefalse/lang/en/qtype_truefalse.php:6
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:feedbacktrue"
+msgid "Feedback for the response 'True'."
+msgstr "解答「○」に対するフィードバック"
+
+#. pleaseselectananswer
+#: question/type/truefalse/lang/en/qtype_truefalse.php:7
+msgctxt ""
+"question/type/truefalse/lang/en/qtype_truefalse.php:pleaseselectananswer"
+msgid "Please select an answer."
+msgstr "答えを選択してください。"
+
+#. pluginname
+#: question/type/truefalse/lang/en/qtype_truefalse.php:8
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:pluginname"
+msgid "True/False"
+msgstr "○/×問題"
+
+#. pluginnameadding
+#: question/type/truefalse/lang/en/qtype_truefalse.php:9
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:pluginnameadding"
+msgid "Adding a True/False question"
+msgstr "○/×問題の追加"
+
+#. pluginnameediting
+#: question/type/truefalse/lang/en/qtype_truefalse.php:10
+msgctxt ""
+"question/type/truefalse/lang/en/qtype_truefalse.php:pluginnameediting"
+msgid "Editing a True/False question"
+msgstr "○/×問題の編集"
+
+#. pluginname_help
+#: question/type/truefalse/lang/en/qtype_truefalse.php:11
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:pluginname_help"
+msgid ""
+"In response to a question (that may include a image) the respondent chooses "
+"from true or false."
+msgstr "問題 (イメージを含む) の解答に対して、解答者は「○」または「×」を選択します。"
+
+#. pluginname_link
+#: question/type/truefalse/lang/en/qtype_truefalse.php:12
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:pluginname_link"
+msgid "question/type/truefalse"
+msgstr "question/type/truefalse"
+
+#. pluginnamesummary
+#: question/type/truefalse/lang/en/qtype_truefalse.php:13
+msgctxt ""
+"question/type/truefalse/lang/en/qtype_truefalse.php:pluginnamesummary"
+msgid ""
+"A simple form of multiple choice question with just the two choices 'True' "
+"and 'False'."
+msgstr "2つの選択肢「○」および「×」のみ持った、シンプルな形の多肢選択問題です。"
+
+#. selectone
+#: question/type/truefalse/lang/en/qtype_truefalse.php:14
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:selectone"
+msgid "Select one:"
+msgstr "1つ選択してください:"
+
+#. true
+#: question/type/truefalse/lang/en/qtype_truefalse.php:15
+msgctxt "question/type/truefalse/lang/en/qtype_truefalse.php:true"
+msgid "True"
+msgstr "○"

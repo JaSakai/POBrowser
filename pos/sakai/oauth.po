@@ -1,0 +1,214 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-01-06 01:10+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. page.title
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:1
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:page.title"
+msgid "Trusted Applications"
+msgstr "Trusted Applications"
+
+#. page.header
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:2
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:page.header"
+msgid "List of Applications."
+msgstr "List of Applications."
+
+#. accessor.delete
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:3
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:accessor.delete"
+msgid "Remove"
+msgstr "Remove"
+
+#. no.accessor
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:4
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:no.accessor"
+msgid "You currently don't have any applications able to access your account."
+msgstr "You currently don't have any applications able to access your account."
+
+#. creation.date
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:5
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:creation.date"
+msgid "Creation date: {0, date, full}"
+msgstr "Creation date: {0, date, full}"
+
+#. expiration.date
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:6
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:expiration.date"
+msgid "Expiration date: {0, date, full}"
+msgstr "Expiration date: {0, date, full}"
+
+#. instructions
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:7
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:instructions"
+msgid ""
+"Here you can manage the applications that you wish to allow access to your "
+"account."
+msgstr "Here you can manage the applications that you wish to allow access to your account."
+
+#. removed.ok
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:8
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/user/pages/ListAccessors.properties:removed.ok"
+msgid "Removed {0} from having access to your account."
+msgstr "Removed {0} from having access to your account."
+
+#. menu.add.consumer
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/pages/SakaiPage.properties:1
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/pages/SakaiPage.properties:menu.add.consumer"
+msgid "Add a consumer"
+msgstr "Add a consumer"
+
+#. menu.list.consumer
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/pages/SakaiPage.properties:2
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/pages/SakaiPage.properties:menu.list.consumer"
+msgid "List consumers"
+msgstr "List consumers"
+
+#. page.title
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:1
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:page.title"
+msgid "Edit oAuth consumer"
+msgstr "Edit oAuth consumer"
+
+#. section.settings
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:2
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:section.settings"
+msgid "Settings"
+msgstr "Settings"
+
+#. section.rights
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:3
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:section.rights"
+msgid "Rights"
+msgstr "Rights"
+
+#. consumer.id
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:4
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.id"
+msgid "Consumer's key"
+msgstr "Consumer's key"
+
+#. consumer.name
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:5
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.name"
+msgid "Consumer's name"
+msgstr "Consumer's name"
+
+#. consumer.description
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:6
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.description"
+msgid "Description (should include a brief description of rights granted)"
+msgstr "Description (should include a brief description of rights granted)"
+
+#. consumer.url
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:7
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.url"
+msgid "Consumer's website"
+msgstr "Consumer's website"
+
+#. consumer.callbackUrl
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:8
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.callbackUrl"
+msgid "oAuth callback url (leave empty if there is none)"
+msgstr "oAuth callback url (leave empty if there is none)"
+
+#. consumer.secret
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:9
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.secret"
+msgid "oAuth secret"
+msgstr "oAuth secret"
+
+#. consumer.accessorSecret
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:10
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.accessorSecret"
+msgid "Accessor secret (http://wiki.oauth.net/w/page/12238502/AccessorSecret)"
+msgstr "Accessor secret (http://wiki.oauth.net/w/page/12238502/AccessorSecret)"
+
+#. consumer.defaultValidity
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:11
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.defaultValidity"
+msgid "Period of validity of a token (in minutes)"
+msgstr "Period of validity of a token (in minutes)"
+
+#. consumer.save
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:12
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ConsumerAdministration.properties:consumer.save"
+msgid "Save"
+msgstr "Save"
+
+#. page.title
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:1
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:page.title"
+msgid "List of OAuth authorized consumers"
+msgstr "List of OAuth authorized consumers"
+
+#. delete.link
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:2
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:delete.link"
+msgid "Remove"
+msgstr "Remove"
+
+#. edit.link
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:3
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:edit.link"
+msgid "Edit"
+msgstr "Edit"
+
+#. record.enable.link
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:4
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:record.enable.link"
+msgid "Enable record mode"
+msgstr "Enable record mode"
+
+#. record.disable.link
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:5
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:record.disable.link"
+msgid "Disable record mode"
+msgstr "Disable record mode"
+
+#. no.consumer
+#: oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:6
+msgctxt ""
+"oauth/tool/src/resources/org/sakaiproject/oauth/tool/admin/pages/ListConsumers.properties:no.consumer"
+msgid "So far, no consumers have been created."
+msgstr "So far, no consumers have been created."

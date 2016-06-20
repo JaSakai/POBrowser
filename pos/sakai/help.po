@@ -1,0 +1,453 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-03-31 11:51+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. next
+#: help/help-component/src/bundle/TutorialMessages.properties:1
+msgctxt "help/help-component/src/bundle/TutorialMessages.properties:next"
+msgid "Next"
+msgstr "次"
+
+#. previous
+#: help/help-component/src/bundle/TutorialMessages.properties:2
+msgctxt "help/help-component/src/bundle/TutorialMessages.properties:previous"
+msgid "Back"
+msgstr "戻る"
+
+#. introToSakai_p1.title
+#: help/help-component/src/bundle/TutorialMessages.properties:3
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_p1.title"
+msgid "Welcome to {0}"
+msgstr "{0}へようこそ"
+
+#. introToSakai_p1.body
+#: help/help-component/src/bundle/TutorialMessages.properties:4
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_p1.body"
+msgid ""
+"{0} is a flexible learning management system for hosting sites that support "
+"learning, teaching, research, and collaboration.<br/><br/>Let&#39;s "
+"introduce you to the basics of navigating the system."
+msgstr "{0} は学習，教育，研究，および共同作業を支援するサイトを提供する\n適応性のあるLMSです．<br/><br/>システムを操作するための基本を紹介しましょう．"
+
+#. introToSakai_sitenav.title
+#: help/help-component/src/bundle/TutorialMessages.properties:5
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_sitenav.title"
+msgid "Site Navigation"
+msgstr "サイトナビゲーション"
+
+#. introToSakai_sitenav.body
+#: help/help-component/src/bundle/TutorialMessages.properties:6
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_sitenav.body"
+msgid ""
+"Your sites are displayed as links across the top, starting with your own "
+"private My Workspace <span class=\"no-wrap\">( <i class=\"fa fa-home tut-"
+"icon-home\"></i> ).</span><br/><br/>My Workspace gives you an overview of "
+"the activity in your sites and allows you to personalize your {0} "
+"experience."
+msgstr "サイトはリンクとして表示され，あなたのマイワークスペース<span class=\"no-wrap\">( <i class=\"fa fa-home tut-icon-home\"></i> )から始まります．</span><br/><br/>マイワークスペースはあなたのサイトのアクティビティの概要を示し，{0} のエクスペリエンスをパーソナライズできます．"
+
+#. introToSakai_allsites.title
+#: help/help-component/src/bundle/TutorialMessages.properties:7
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_allsites.title"
+msgid "Sites"
+msgstr "サイト"
+
+#. introToSakai_allsites.body
+#: help/help-component/src/bundle/TutorialMessages.properties:8
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_allsites.body"
+msgid ""
+"The <span class=\"no-wrap\"><i class=\"fa fa-th tut-icon-sites\"></i> "
+"Sites</span> button opens your sites drawer, which displays links to all of "
+"your visible sites organized by term or category.<br/><br/>From the sites "
+"drawer, you can star your most-used sites and access your own private site "
+"called My Workspace."
+msgstr "<span class=\"no-wrap\"><i class=\"fa fa-th tut-icon-sites\"></i> サイト</span> ボタンでサイトドローワーを開きます．それは学期もしくはカテゴリーで構成されるすべてのサイトへのリンクを表示します．<br/><br/>サイトドローワーから最も利用するサイトをブックマークしたりマイワークスペースと呼ばれる個人のサイトにアクセスできます．"
+
+#. introToSakai_moreButton.title
+#: help/help-component/src/bundle/TutorialMessages.properties:9
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_moreButton.title"
+msgid "Sites"
+msgstr "サイト"
+
+#. introToSakai_moreButton.body
+#: help/help-component/src/bundle/TutorialMessages.properties:10
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_moreButton.body"
+msgid ""
+"The <span class=\"no-wrap\"><i class=\"fa fa-th tut-icon-sites\"></i> "
+"Sites</span> button opens your sites drawer, which displays links to all of "
+"your visible sites.<br /><br />In the sites drawer, sites are organized by "
+"term or category, and can be pinned to the top navigation. "
+msgstr "<span class=\"no-wrap\"><i class=\"fa fa-th tut-icon-sites\"></i> サイト</span> ボタンでサイトドローワーを開きます．それはすべてのサイトへのリンクを表示します．<br/><br/>サイトドローワーにおいて，サイトは学期もしくはカテゴリーで構成され，ナビゲーションのトップにピン止めされます．"
+
+#. introToSakai_toolMenu.title
+#: help/help-component/src/bundle/TutorialMessages.properties:11
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_toolMenu.title"
+msgid "Tools Menu"
+msgstr "ツールメニュー"
+
+#. introToSakai_toolMenu.body
+#: help/help-component/src/bundle/TutorialMessages.properties:12
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_toolMenu.body"
+msgid ""
+"Tools for the current site appear in the left menu. Each tool serves a "
+"different function, such as delivering content, providing assessments, or "
+"facilitating collaboration.<br/><br/>Each site maintainer, such as the "
+"instructor, controls which tools appear in the site and how they appear."
+msgstr "現在のサイトのツールが左のメニューに表示されます．それぞれのツールは異なる機能を提供します．例えば，コンテンツの配布，課題の提示，共同作業の支援です．<br/><br/>それぞれのサイトの管理者，例えば講師ですが，サイトにおけるツールの選択および表示の仕方を管理します．"
+
+#. introToSakai_toolMenuNarrowView.title
+#: help/help-component/src/bundle/TutorialMessages.properties:13
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_toolMenuNarrowView.title"
+msgid "Tools Menu"
+msgstr "ツールメニュー"
+
+#. introToSakai_toolMenuNarrowView.body
+#: help/help-component/src/bundle/TutorialMessages.properties:14
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_toolMenuNarrowView.body"
+msgid ""
+"Tools for the current site appear in the Tools menu. Each tool serves a "
+"different function, such as delivering content, providing assessments, or "
+"facilitating collaboration.<br/><br/>Each site maintainer, such as the "
+"instructor, controls which tools appear in the site and how they appear."
+msgstr "現在のサイトのツールがツールメニューに表示されます．それぞれのツールは異なる機能を提供します．例えば，コンテンツの配布，課題の提示，共同作業の支援です．<br/><br/>それぞれのサイトの管理者，例えば講師ですが，サイトにおけるツールの選択および表示の仕方を管理します．"
+
+#. introToSakai_refreshTool.title
+#: help/help-component/src/bundle/TutorialMessages.properties:15
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_refreshTool.title"
+msgid "Breadcrumbs"
+msgstr "ブレッドクラム"
+
+#. introToSakai_refreshTool.body
+#: help/help-component/src/bundle/TutorialMessages.properties:16
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_refreshTool.body"
+msgid ""
+"The breadcrumbs across the top indicate which site you are in and which tool"
+" you are using.<br /><br />Click or tap the tool name to return to the main "
+"page of that tool. To return to the site&#39;s home page, click or tap the "
+"site name."
+msgstr "トップにあるパンくずリストはあなたがいるサイトと使っているツールを示します．<br /><br />ツール名をクリックもしくはタップするとツールのメインページに戻ります．サイトのホームページに戻るには，サイト名をクリックもしくはタップして下さい．"
+
+#. introToSakai_helpIcon.title
+#: help/help-component/src/bundle/TutorialMessages.properties:17
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_helpIcon.title"
+msgid "Help"
+msgstr "ヘルプ"
+
+#. introToSakai_helpIcon.body
+#: help/help-component/src/bundle/TutorialMessages.properties:18
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_helpIcon.body"
+msgid ""
+"{0} provides help information about each feature.<br /><br />Each tool&#39;s"
+" Help button <span class=\"no-wrap\">( <i class=\"fa fa-question tut-icon-"
+"help\"></i> )</span> is context-sensitive and provides information specific "
+"to that tool."
+msgstr "{0} はそれぞれの機能に関するヘルプ情報を提供します．<br /><br />それぞれのツールのヘルプボタン<span class=\"no-wrap\">( <i class=\"fa fa-question tut-icon-help\"></i> )</span> は状況を判断し，そのツールに特有な情報を提供します．"
+
+#. introToSakai_profileTool.title
+#: help/help-component/src/bundle/TutorialMessages.properties:19
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_profileTool.title"
+msgid "Account Menu"
+msgstr "アカウントメニュー"
+
+#. introToSakai_profileTool.body
+#: help/help-component/src/bundle/TutorialMessages.properties:20
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_profileTool.body"
+msgid ""
+"The Account Menu contains quick links to personal tasks, such as managing "
+"your account, creating new sites, and logging out of "
+"{0}.<br/><br/>That&#39;s it! If you&#39;d like to review this tutorial, you "
+"can restart it by choosing it from the Account Menu."
+msgstr "アカウントメニューは個人のタスク，例えばアカウント管理，新規サイトの作成，{0}からのログアウトを含みます．<br/><br/>これだけです！このチュートリアルをまた見たいときにはアカウントメニューからチュートリアルを選んで再スタートできます．"
+
+#. introToSakai_pTutorialLocation.title
+#: help/help-component/src/bundle/TutorialMessages.properties:21
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_pTutorialLocation.title"
+msgid "Tutorial"
+msgstr "チュートリアル"
+
+#. introToSakai_pTutorialLocation.body
+#: help/help-component/src/bundle/TutorialMessages.properties:22
+msgctxt ""
+"help/help-"
+"component/src/bundle/TutorialMessages.properties:introToSakai_pTutorialLocation.body"
+msgid "You can restart this tutorial by choosing it from the Account Menu. "
+msgstr "アカウントメニューからこれを選んで再スタートできます．"
+
+#. submit
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:1
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:submit"
+msgid "Submit"
+msgstr "提出"
+
+#. cancel
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:2
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. askQuestion
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:3
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:askQuestion"
+msgid "Ask a Question"
+msgstr "質問を尋ねる"
+
+#. firstname
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:4
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:firstname"
+msgid "First Name"
+msgstr "名"
+
+#. lastname
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:5
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:lastname"
+msgid "Last Name"
+msgstr "姓"
+
+#. emailAddress
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:6
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:emailAddress"
+msgid "Email Address"
+msgstr "メールアドレス"
+
+#. username
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:7
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:username"
+msgid "Username"
+msgstr "ユーザ名"
+
+#. subject
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:8
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:subject"
+msgid "Subject"
+msgstr "件名"
+
+#. content
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:9
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:content"
+msgid "Please enter your question or describe your problem"
+msgstr "質問を入力するか，問題を記述してください"
+
+#. description
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:10
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:description"
+msgid ""
+"If you could not find the answer you need, you can send a question to a "
+"support consultant. Please fill out all of the information below as "
+"accurately as possible."
+msgstr "必要な回答が見つからなかった場合は，サポートコンサルタントに送付することができます．できるだけ正確に次の情報をすべて記入してください．"
+
+#. confirmaton
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:11
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:confirmaton"
+msgid "Thank you for submitting your question. "
+msgstr "質問をご提出いただき，ありがとうございました．"
+
+#. reset
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:12
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:reset"
+msgid "Submit another question"
+msgstr "他の質問を提出"
+
+#. search
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:13
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:search"
+msgid "Search Help"
+msgstr "ヘルプを検索"
+
+#. search_button
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:14
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:search_button"
+msgid "Search"
+msgstr "検索"
+
+#. search_result
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:15
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:search_result"
+msgid "Search Results"
+msgstr "検索結果"
+
+#. search_result_summary
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:16
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:search_result_summary"
+msgid ""
+"List of search results. Column 1: link to article; column 2: relevance."
+msgstr "検索結果の一覧です．カラム1は項目へのリンク，カラム2は重要度，です．"
+
+#. back
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:17
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:back"
+msgid "< Back"
+msgstr "< 戻る"
+
+#. forward
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:18
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:forward"
+msgid "Forward >"
+msgstr "次 >"
+
+#. closeHelp
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:19
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:closeHelp"
+msgid "Close Help"
+msgstr "ヘルプを閉じる"
+
+#. ask_more_help
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:20
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:ask_more_help"
+msgid "Click here to ask for more help"
+msgstr "さらにヘルプが必要な場合はここをクリックします"
+
+#. table_of_contents
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:21
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:table_of_contents"
+msgid "Table Of Contents"
+msgstr "目次"
+
+#. contact_info
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:22
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:contact_info"
+msgid "Contact Information"
+msgstr "連絡先情報"
+
+#. searching
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:23
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:searching"
+msgid "Searching.....please wait"
+msgstr "検索中.....しばらくお待ちください"
+
+#. search_term
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:24
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:search_term"
+msgid "enter search term"
+msgstr "検索語を入力します"
+
+#. no_results
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:25
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:no_results"
+msgid "No results were found for your search"
+msgstr "検索に一致する結果が見つかりませんでした"
+
+#. results_found
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:26
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:results_found"
+msgid "results found"
+msgstr "検索結果がありました"
+
+#. title_edit
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:27
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:title_edit"
+msgid "Edit"
+msgstr "編集"
+
+#. help
+#: help/help-tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:28
+msgctxt ""
+"help/help-"
+"tool/src/bundle/org/sakaiproject/tool/help/bundle/Messages.properties:help"
+msgid "Help"
+msgstr "ヘルプ"

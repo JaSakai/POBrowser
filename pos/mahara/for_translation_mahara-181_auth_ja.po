@@ -1,0 +1,1154 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: mahara-1.8.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-07 06:14+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:47+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/mahara-181/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. browserid
+#: auth/browserid/lang/en.utf8/auth.browserid.php:1
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:browserid"
+msgid "Persona"
+msgstr "Persona"
+
+#. title
+#: auth/browserid/lang/en.utf8/auth.browserid.php:2
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:title"
+msgid "Persona"
+msgstr "Persona"
+
+#. description
+#: auth/browserid/lang/en.utf8/auth.browserid.php:3
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:description"
+msgid "Authenticate using Persona"
+msgstr "Personaで認証する"
+
+#. notusable
+#: auth/browserid/lang/en.utf8/auth.browserid.php:4
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:notusable"
+msgid ""
+"Please install the PHP cURL extension and check the connection to the "
+"Persona verifier"
+msgstr "PHP cURL拡張モジュールをインストールした後、Personaベリファイアへの接続をチェックしてください。"
+
+#. badassertion
+#: auth/browserid/lang/en.utf8/auth.browserid.php:5
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:badassertion"
+msgid "The given Persona assertion is not valid: %s"
+msgstr "Personaアサーション (表明) が有効ではありません: %s"
+
+#. badverification
+#: auth/browserid/lang/en.utf8/auth.browserid.php:6
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:badverification"
+msgid "Mahara did not receive valid JSON output from the Persona verifier."
+msgstr "Personaベリファイアの有効なJSONアウトプットをMaharaが受信しませんでした。"
+
+#. login
+#: auth/browserid/lang/en.utf8/auth.browserid.php:7
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:login"
+msgid "Persona"
+msgstr "Persona"
+
+#. register
+#: auth/browserid/lang/en.utf8/auth.browserid.php:8
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:register"
+msgid "Register with Persona"
+msgstr "Persona登録"
+
+#. missingassertion
+#: auth/browserid/lang/en.utf8/auth.browserid.php:9
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:missingassertion"
+msgid "Persona did not return an alpha-numeric assertion."
+msgstr "Personaが英数字アサーション (表明) を戻しませんでした。"
+
+#. emailalreadyclaimed
+#: auth/browserid/lang/en.utf8/auth.browserid.php:10
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:emailalreadyclaimed"
+msgid "Another user account has already claimed the email address '%s'."
+msgstr "すでに他のユーザアカウントがメールアドレス「 %s 」を取得しています。"
+
+#. emailclaimedasusername
+#: auth/browserid/lang/en.utf8/auth.browserid.php:11
+msgctxt ""
+"auth/browserid/lang/en.utf8/auth.browserid.php:emailclaimedasusername"
+msgid ""
+"Another user account has already claimed the email address '%s' as a "
+"username."
+msgstr "すでに他のユーザアカウントがメールアドレス「 %s 」をユーザ名として取得しています。"
+
+#. browseridnotenabled
+#: auth/browserid/lang/en.utf8/auth.browserid.php:12
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:browseridnotenabled"
+msgid ""
+"The Persona authentication plugin is not enabled in any active institution."
+msgstr "すべてのアクティブなインスティテューションにおいて、Persona認証プラグインは有効にされていません。"
+
+#. emailnotfound
+#: auth/browserid/lang/en.utf8/auth.browserid.php:13
+msgctxt "auth/browserid/lang/en.utf8/auth.browserid.php:emailnotfound"
+msgid ""
+"A user account with an email address of '%s' was not found in any of the "
+"institutions where Persona is enabled."
+msgstr "Personaが有効にされているインスティテューションすべてにおいて、メールアドレス「 %s 」のユーザは見つかりませんでした。"
+
+#. title
+#: auth/imap/lang/en.utf8/auth.imap.php:1
+msgctxt "auth/imap/lang/en.utf8/auth.imap.php:title"
+msgid "IMAP"
+msgstr "IMAP"
+
+#. description
+#: auth/imap/lang/en.utf8/auth.imap.php:2
+msgctxt "auth/imap/lang/en.utf8/auth.imap.php:description"
+msgid "Authenticate against an IMAP email server"
+msgstr "IMAPメールサーバで認証する"
+
+#. notusable
+#: auth/imap/lang/en.utf8/auth.imap.php:3
+msgctxt "auth/imap/lang/en.utf8/auth.imap.php:notusable"
+msgid "Please install the PHP IMAP extension"
+msgstr "PHP IMAP拡張モジュールをインストールしてください。"
+
+#. internal
+#: auth/internal/lang/en.utf8/auth.internal.php:1
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:internal"
+msgid "Internal"
+msgstr "内部"
+
+#. title
+#: auth/internal/lang/en.utf8/auth.internal.php:2
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:title"
+msgid "Internal"
+msgstr "内部"
+
+#. description
+#: auth/internal/lang/en.utf8/auth.internal.php:3
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:description"
+msgid "Authenticate against Mahara's database"
+msgstr "Maharaデータベースで認証する"
+
+#. completeregistration
+#: auth/internal/lang/en.utf8/auth.internal.php:4
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:completeregistration"
+msgid "Complete registration"
+msgstr "登録を完了する"
+
+#. emailalreadytaken
+#: auth/internal/lang/en.utf8/auth.internal.php:5
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:emailalreadytaken"
+msgid "This email address has already been registered here."
+msgstr "このメールアドレスはすでに登録されています。"
+
+#. iagreetothetermsandconditions
+#: auth/internal/lang/en.utf8/auth.internal.php:6
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:iagreetothetermsandconditions"
+msgid "I agree to the Terms and Conditions."
+msgstr "私は使用条件に同意します。"
+
+#. passwordformdescription
+#: auth/internal/lang/en.utf8/auth.internal.php:7
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:passwordformdescription"
+msgid ""
+"Your password must be at least six characters long. Passwords are case "
+"sensitive and must be different from your username.<br/>For good security, "
+"consider using a passphrase. A passphrase is a sentence rather than a single"
+" word. Consider using a favourite quote or listing two (or more!) of your "
+"favourite things separated by spaces."
+msgstr "あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。<br />\nセキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。"
+
+#. passwordinvalidform
+#: auth/internal/lang/en.utf8/auth.internal.php:8
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:passwordinvalidform"
+msgid ""
+"Your password must be at least six characters long. Passwords are case "
+"sensitive and must be different from your username.<br/>For good security, "
+"consider using a passphrase. A passphrase is a sentence rather than a single"
+" word. Consider using a favourite quote or listing two (or more!) of your "
+"favourite things separated by spaces."
+msgstr "あなたのパスワードには少なくとも半角6文字必要です。また、少なくとも1文字の数字および2文字の英字を含む必要があります。<br />\nセキュリティ上の理由から、パスフレーズの使用をお考えください。パスフレーズには単一の言葉ではなく文を使用します。あなたが好きな格言または2語 (またはそれ以上!) の言葉をスペースで区切って使用することをお考えください。"
+
+#. registeredemailsubject
+#: auth/internal/lang/en.utf8/auth.internal.php:9
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:registeredemailsubject"
+msgid "You have registered at %s"
+msgstr "あなたは %s に登録されました。"
+
+#. registeredemailmessagetext
+#: auth/internal/lang/en.utf8/auth.internal.php:10
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registeredemailmessagetext"
+msgid ""
+"Hi %s,\n"
+"Thank you for registering an account on %s. Please follow this link to\n"
+"complete the signup process:\n"
+"\n"
+"%sregister.php?key=%s\n"
+"\n"
+"The link will expire in 24 hours.\n"
+"\n"
+"--\n"
+"Regards,\n"
+"The %s Team"
+msgstr "%s さん\n%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:\n\nregister.php?key=%s\n\nメールに含まれているリンクは24時間のみ有効です。\n\n--\n%s チーム"
+
+#. registeredemailmessagehtml
+#: auth/internal/lang/en.utf8/auth.internal.php:11
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registeredemailmessagehtml"
+msgid ""
+"<p>Hi %s,</p><p>Thank you for registering an account on %s. Please follow this link\n"
+"to complete the signup process:</p>\n"
+"<p><a href=\"%sregister.php?key=%s\">%sregister.php?key=%s</a></p>\n"
+"<p>The link will expire in 24 hours.</p>\n"
+"\n"
+"<pre>--\n"
+"Regards,\n"
+"The %s Team</pre>"
+msgstr "<p>%s さん</p><p>%s への登録ありがとうございます。サインアップ処理を完了するには、次のリンクに従ってください:</p>\n<p><a href=\"%sregister.php?key=%s\">%sregister.php?key=%s</a></p>\n<p>メールに含まれているリンクは24時間のみ有効です。</p>\n\n<pre>--\n%s チーム</pre>"
+
+#. registeredok
+#: auth/internal/lang/en.utf8/auth.internal.php:12
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:registeredok"
+msgid ""
+"<p>You have successfully registered. Please check your email account for "
+"instructions on how to activate your account</p>"
+msgstr "<p>あなたは正常にユーザ登録されました。アカウントを有効化するため、あなたのメールアドレス宛に送信されたインストラクションをご覧ください。</p>"
+
+#. registrationnosuchkey
+#: auth/internal/lang/en.utf8/auth.internal.php:13
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:registrationnosuchkey"
+msgid ""
+"Sorry, there does not seem to be a registration with this key. Perhaps you "
+"waited longer than 24 hours to complete your registration? Otherwise, it "
+"might be our fault."
+msgstr "申し訳ございません、このキーによるユーザ登録は存在していないようです。もしかしたら、ユーザ登録完了まで、24時間以上経過しましたか? そうでない場合、私たちに責任があります。"
+
+#. registrationunsuccessful
+#: auth/internal/lang/en.utf8/auth.internal.php:14
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registrationunsuccessful"
+msgid ""
+"Sorry, your registration attempt was unsuccessful. This is our fault, not "
+"yours. Please try again later."
+msgstr "申し訳ございません、あなたのユーザ登録は正常に完了しませんでした。これはあなたではなく、私たちに責任があります。後ほど再度お試しください。"
+
+#. usernamealreadytaken
+#: auth/internal/lang/en.utf8/auth.internal.php:15
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:usernamealreadytaken"
+msgid "Sorry, this username is already taken."
+msgstr "申し訳ございません、このユーザ名はすでに取得されています。"
+
+#. usernameinvalidform
+#: auth/internal/lang/en.utf8/auth.internal.php:16
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:usernameinvalidform"
+msgid ""
+"Usernames may contain letters, numbers and most common symbols and must be "
+"from 3 to 30 characters long. Spaces are not allowed."
+msgstr "ユーザ名には半角英数字および標準的な記号を使用することができます。また、ユーザ名の長さは半角3-30文字にしてください。空白は許可されません。"
+
+#. usernameinvalidadminform
+#: auth/internal/lang/en.utf8/auth.internal.php:17
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:usernameinvalidadminform"
+msgid ""
+"Usernames may contain letters, numbers and most common symbols and must be "
+"from 3 to 236 characters long. Spaces are not allowed."
+msgstr "ユーザ名には半角英数字および標準的な記号を使用することができます。ユーザ名の長さは半角3-236文字にしてください。空白は許可されません。"
+
+#. youmaynotregisterwithouttandc
+#: auth/internal/lang/en.utf8/auth.internal.php:18
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:youmaynotregisterwithouttandc"
+msgid ""
+"You may not register unless you agree to abide by the <a "
+"href=\"#user_acceptterms\">Terms and Conditions</a>."
+msgstr "<a href=\"#user_acceptterms\">使用条件</a>の順守に同意しない限り、あなたはユーザ登録されません。"
+
+#. confirmcancelregistration
+#: auth/internal/lang/en.utf8/auth.internal.php:19
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:confirmcancelregistration"
+msgid ""
+"Are you sure you want to cancel this registration? Doing so will result in "
+"your request being removed from the system."
+msgstr "本当にこの登録をキャンセルしてもよろしいですか? キャンセルの結果として、あなたのリクエストがシステムから削除されます。"
+
+#. confirmemailsubject
+#: auth/internal/lang/en.utf8/auth.internal.php:20
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:confirmemailsubject"
+msgid "Confirm email for registration at %s"
+msgstr "%s 登録のメール確認"
+
+#. approvalemailsubject
+#: auth/internal/lang/en.utf8/auth.internal.php:21
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:approvalemailsubject"
+msgid "Request for registration at %s received"
+msgstr "%s 登録リクエスト受信"
+
+#. approvalemailmessagetext
+#: auth/internal/lang/en.utf8/auth.internal.php:22
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:approvalemailmessagetext"
+msgid ""
+"Hi %s,\n"
+"Thank you for requesting an account on %s. The institution administrator\n"
+"has been notified of your application. You will receive another email as\n"
+"soon as your application has been considered.\n"
+"\n"
+"--\n"
+"Regards,\n"
+"The %s Team"
+msgstr "%s さん\n%s へのアカウントリクエストありがとうございます。あなたの申請に関して、インスティテューション管理者宛に通知されました。申請内容が確認され次第、あなた宛に別のEメールが送信されます。\n--\n%s チーム"
+
+#. approvalemailmessagehtml
+#: auth/internal/lang/en.utf8/auth.internal.php:23
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:approvalemailmessagehtml"
+msgid ""
+"<p>Hi %s,</p><p>Thank you for requesting an account on %s. The institution adminstrator\n"
+"has been notified of your application. You will receive another email as\n"
+"soon as your application has been considered.</p>\n"
+"\n"
+"<pre>--\n"
+"Regards,\n"
+"The %s Team</pre>"
+msgstr "<p>%s さん</p>\n<p>%s へのアカウントリクエストありがとうございます。あなたの申請に関して、インスティテューション管理者宛に通知されました。申請内容が確認され次第、あなた宛に別のEメールが送信されます。</p>\n\n<pre>--\n%s チーム</pre>"
+
+#. emailconfirmedok
+#: auth/internal/lang/en.utf8/auth.internal.php:24
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:emailconfirmedok"
+msgid ""
+"<p>You have successfully confirmed your email. You will be notified with "
+"further registration details soon.</p>"
+msgstr "<p>正常にあなたのメールを確認しました。まもなく、登録詳細に関してあなた宛にメールが送信されます。</p>"
+
+#. registrationcancelledok
+#: auth/internal/lang/en.utf8/auth.internal.php:25
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:registrationcancelledok"
+msgid "You have successfully cancelled your registration application."
+msgstr "あなたは正常に登録申請をキャンセルしました。"
+
+#. registrationconfirm
+#: auth/internal/lang/en.utf8/auth.internal.php:26
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:registrationconfirm"
+msgid "Confirm registration?"
+msgstr "登録を承認しますか?"
+
+#. registrationconfirmdescription
+#: auth/internal/lang/en.utf8/auth.internal.php:27
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registrationconfirmdescription"
+msgid "Registration must be approved by institution administrators."
+msgstr "インスティテューション管理者が登録を承認する必要があります。"
+
+#. registrationdeniedemailsubject
+#: auth/internal/lang/en.utf8/auth.internal.php:28
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registrationdeniedemailsubject"
+msgid "Registration attempt at %s denied."
+msgstr "%s への登録却下"
+
+#. registrationdeniedmessage
+#: auth/internal/lang/en.utf8/auth.internal.php:29
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registrationdeniedmessage"
+msgid ""
+"Hello %s,\n"
+"We have received your application for joining our institution on %s and\n"
+"decided not to grant you access.\n"
+"\n"
+"If you think that this decision was incorrect, please get in touch with me\n"
+"via email.\n"
+"\n"
+"Regards\n"
+"%s"
+msgstr "%s さん、こんにちは。\n私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、あなたにアクセス権を授与しないことに決定しました。\n\nあなたがこの決定を不適切だと考える場合、Eメールにてご連絡ください。\n\n%s"
+
+#. registrationdeniedmessagereason
+#: auth/internal/lang/en.utf8/auth.internal.php:30
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registrationdeniedmessagereason"
+msgid ""
+"Hello %s,\n"
+"We have received your application for joining our institution on %s and decided\n"
+"not to grant you access for the following reason:\n"
+"\n"
+"%s\n"
+"\n"
+"If you think that this decision was incorrect, please get in touch with me\n"
+"via email.\n"
+"\n"
+"Regards\n"
+"%s"
+msgstr "%s さん、こんにちは。\n私たちは　%s におけるインスティテューションへのあなたの登録申請を受領しましたが、以下の理由であなたにアクセス権を授与しないことに決定しました:\n\n%s\n\nあなたがこの決定を不適切だと考える場合、Eメールにてご連絡ください。\n\n%s"
+
+#. registeredokawaitingemail2
+#: auth/internal/lang/en.utf8/auth.internal.php:31
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:registeredokawaitingemail2"
+msgid ""
+"You have successfully submitted your application for registration. The "
+"institution adminstrator has been notified, and you will receive an email as"
+" soon as your application has been processed."
+msgstr "あなたの登録申請が正常に送信されました。インスティテューション管理者に通知されました。申請が処理され次第、あなた宛にEメールが送信されます。"
+
+#. registrationreason
+#: auth/internal/lang/en.utf8/auth.internal.php:32
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:registrationreason"
+msgid "Registration reason"
+msgstr "登録理由"
+
+#. registrationreasondesc1
+#: auth/internal/lang/en.utf8/auth.internal.php:33
+msgctxt "auth/internal/lang/en.utf8/auth.internal.php:registrationreasondesc1"
+msgid ""
+"The reason for requesting registration with your chosen institution and any "
+"other details you think might be useful for the administrator in processing "
+"your application."
+msgstr "あなたが選択したインスティテューションへの登録申請理由、および管理者があなたの申請を処理することに関して有益であると思われる詳細を記述してください。"
+
+#. pendingregistrationadminemailsubject
+#: auth/internal/lang/en.utf8/auth.internal.php:34
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:pendingregistrationadminemailsubject"
+msgid "New user registration for institution '%s' at %s."
+msgstr "インスティテューション「 %s　」( %s )への新しいユーザ登録"
+
+#. pendingregistrationadminemailtext
+#: auth/internal/lang/en.utf8/auth.internal.php:35
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:pendingregistrationadminemailtext"
+msgid ""
+"Hi %s,\n"
+"A new user has requested to join the institution '%s'.\n"
+"\n"
+"Because you are listed as an administrator of this institution you need to approve or deny this registration request. To do this, select the following link: %s\n"
+"\n"
+"You will need to approve or deny this registration request within %s.\n"
+"\n"
+"Details of the registration request follow:\n"
+"\n"
+"Name: %s\n"
+"Email: %s\n"
+"Registration reason:\n"
+"%s\n"
+"\n"
+"--\n"
+"Regards,\n"
+"The %s Team"
+msgstr "%s さん、こんにちは。\n新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。\n\nこのインスティテューションの管理者として登録されているため、あなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには、次のリンクにアクセスしてください: %s\n\nあなたはこの登録リクエストを %s 以内に承認または拒否する必要があります。\n\n登録理由詳細は下記のとおりです:\n\n氏名: %s\nメールアドレス: %s\n登録理由:\n%s\n\n--\n%s チーム"
+
+#. pendingregistrationadminemailhtml
+#: auth/internal/lang/en.utf8/auth.internal.php:36
+msgctxt ""
+"auth/internal/lang/en.utf8/auth.internal.php:pendingregistrationadminemailhtml"
+msgid ""
+"<p>Hi %s,</p><p>A new user has requested to join the institution '%s'.</p>\n"
+"<p>Because you are listed as an administrator of this institution you need to approve or deny this registration request. To do this, select the following link: <a href='%s'>%s</a></p>\n"
+"<p>You will need to approve or deny this registration request within %s.</p>\n"
+"<p>Details of the registration request follows:</p>\n"
+"<p>Name: %s</p>\n"
+"<p>Email: %s</p>\n"
+"<p>Registration reason:</p>\n"
+"<p>%s</p>\n"
+"<pre>--\n"
+"Regards,\n"
+"The %s Team</pre>"
+msgstr "<p>%s さん、こんにちは。</p>\n<p>新しいユーザがインスティテューション「 %s 」への参加をリクエストしました。</p>\n\n<p>このインスティテューションの管理者として登録されているため、あなたはこの登録リクエストを承認または拒否する必要があります。この処理を実行するには、次のリンクにアクセスしてください:<a href=%s>%s</a></p>\n\n<p>登録理由詳細は下記のとおりです:</p>\n\n<p>氏名: %s</p>\n<p>メールアドレス: %s</p>\n<p>登録理由:</p>\n<p>%s</p>\n<pre>--\n%s チーム</pre>"
+
+#. title
+#: auth/ldap/lang/en.utf8/auth.ldap.php:1
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:title"
+msgid "LDAP"
+msgstr "LDAP"
+
+#. description
+#: auth/ldap/lang/en.utf8/auth.ldap.php:2
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:description"
+msgid "Authenticate against an LDAP server"
+msgstr "LDAPサーバで認証する"
+
+#. notusable
+#: auth/ldap/lang/en.utf8/auth.ldap.php:3
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:notusable"
+msgid "Please install the PHP LDAP extension"
+msgstr "PHP LDAP拡張モジュールをインストールしてください。"
+
+#. attributename
+#: auth/ldap/lang/en.utf8/auth.ldap.php:4
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:attributename"
+msgid ""
+"Name of the LDAP attribute used to sync groups based on its values (required"
+" and must respect case)"
+msgstr "値を基にグループを同期する場合に使用するLDAP属性名です (必須および大文字小文字を区別します)。"
+
+#. cannotdeleteandsuspend
+#: auth/ldap/lang/en.utf8/auth.ldap.php:5
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:cannotdeleteandsuspend"
+msgid "Cannot specify -d and -s at the same time."
+msgstr "同時に -d および -s を指定することはできません。"
+
+#. cli_info_sync_groups
+#: auth/ldap/lang/en.utf8/auth.ldap.php:6
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:cli_info_sync_groups"
+msgid ""
+"This command line PHP script will attempt to synchronize an institution list"
+" of groups with an LDAP directory.Missing groups will be created and named "
+"as 'institution name : LDAP group name'."
+msgstr "このコマンドラインPHPスクリプトはLDAPディレクトリとグループのインスティテューションリストの同期を試みます。存在しないグループは作成され、「インスティテューション名 : LDAP属性値」のような名称になります。"
+
+#. cli_info_sync_groups_attribute
+#: auth/ldap/lang/en.utf8/auth.ldap.php:7
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:cli_info_sync_groups_attribute"
+msgid ""
+"This command line PHP script will attempt to synchronize an institution list of groups with an LDAP directorybased on the different values of an LDAP attribute.\n"
+"Missing groups will be created and named as 'institution name : LDAP attribute value'"
+msgstr "このコマンドラインPHPスクリプトはLDAP属性の異なる値を基にLDAPディレクトリとグループのインスティテューションリストの同期を試みます。存在しないグループは作成され、「インスティテューション名 : LDAP属性値」のような名称になります。"
+
+#. cli_info_sync_users
+#: auth/ldap/lang/en.utf8/auth.ldap.php:8
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:cli_info_sync_users"
+msgid ""
+"This command line PHP script will attempt to synchronize an institution list"
+" of Mahara accounts with an LDAP directory."
+msgstr "このコマンドラインPHPスクリプトはLDAPディレクトリとMaharaアカウントのインスティテューションリストの同期を試みます。"
+
+#. contexts
+#: auth/ldap/lang/en.utf8/auth.ldap.php:9
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:contexts"
+msgid "Contexts"
+msgstr "コンテクスト"
+
+#. distinguishedname
+#: auth/ldap/lang/en.utf8/auth.ldap.php:10
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:distinguishedname"
+msgid "Distinguished name"
+msgstr "識別名"
+
+#. dodelete
+#: auth/ldap/lang/en.utf8/auth.ldap.php:11
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:dodelete"
+msgid "Delete accounts not anymore in LDAP"
+msgstr "LDAPに存在しなくなったアカウントを削除する"
+
+#. dosuspend
+#: auth/ldap/lang/en.utf8/auth.ldap.php:12
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:dosuspend"
+msgid "Suspend accounts not anymore in LDAP"
+msgstr "LDAPに存在しなくなったアカウントを利用停止する"
+
+#. doupdate
+#: auth/ldap/lang/en.utf8/auth.ldap.php:13
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:doupdate"
+msgid "Update existing accounts with LDAP data (long)"
+msgstr "LDAPデータ (LONG) により既存のアカウントを更新する"
+
+#. dryrun
+#: auth/ldap/lang/en.utf8/auth.ldap.php:14
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:dryrun"
+msgid "Dummy execution. Do not perform any database operations"
+msgstr "ダミー実行です。データベース処理は実施しません。"
+
+#. excludelist
+#: auth/ldap/lang/en.utf8/auth.ldap.php:15
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:excludelist"
+msgid "Exclude LDAP groups matching these regular expressions in their names"
+msgstr "これらの正規表現に名称が合致するLDAPグループを除く"
+
+#. extrafilterattribute
+#: auth/ldap/lang/en.utf8/auth.ldap.php:16
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:extrafilterattribute"
+msgid "Additional LDAP filter to restrict user searching"
+msgstr "ユーザ検索を制限するための追加LDAPフィルタ"
+
+#. grouptype
+#: auth/ldap/lang/en.utf8/auth.ldap.php:17
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:grouptype"
+msgid "Type of Mahara group to create; default is \"standard\""
+msgstr "作成するMaharaグループタイプ - デフォルト「standard」"
+
+#. hosturl
+#: auth/ldap/lang/en.utf8/auth.ldap.php:18
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:hosturl"
+msgid "Host URL"
+msgstr "ホストURI"
+
+#. includelist
+#: auth/ldap/lang/en.utf8/auth.ldap.php:19
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:includelist"
+msgid ""
+"Process only LDAP groups matching these regular expressions in their names"
+msgstr "これらの正規表現に名称が合致するLDAPグループのみ処理する"
+
+#. institutionname
+#: auth/ldap/lang/en.utf8/auth.ldap.php:20
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:institutionname"
+msgid "Name of the institution to process (required)"
+msgstr "処理するインスティテューション名 (必須)"
+
+#. ldapfieldforpreferredname
+#: auth/ldap/lang/en.utf8/auth.ldap.php:21
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:ldapfieldforpreferredname"
+msgid "LDAP field for display name"
+msgstr "表示名のLDAPフィールド"
+
+#. ldapfieldforemail
+#: auth/ldap/lang/en.utf8/auth.ldap.php:22
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:ldapfieldforemail"
+msgid "LDAP field for email"
+msgstr "メールアドレスのLDAPフィールド"
+
+#. ldapfieldforfirstname
+#: auth/ldap/lang/en.utf8/auth.ldap.php:23
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:ldapfieldforfirstname"
+msgid "LDAP field for first name"
+msgstr "名のLDAPフィールド"
+
+#. ldapfieldforsurname
+#: auth/ldap/lang/en.utf8/auth.ldap.php:24
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:ldapfieldforsurname"
+msgid "LDAP field for surname"
+msgstr "姓のLDAPフィールド"
+
+#. ldapfieldforstudentid
+#: auth/ldap/lang/en.utf8/auth.ldap.php:25
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:ldapfieldforstudentid"
+msgid "LDAP field for student ID"
+msgstr "学生IDのLDAPフィールド"
+
+#. ldapversion
+#: auth/ldap/lang/en.utf8/auth.ldap.php:26
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:ldapversion"
+msgid "LDAP version"
+msgstr "LDAPバージョン"
+
+#. nocreate
+#: auth/ldap/lang/en.utf8/auth.ldap.php:27
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:nocreate"
+msgid "Do not create new accounts"
+msgstr "新しいアカウントを作成しない"
+
+#. nocreatemissinggroups
+#: auth/ldap/lang/en.utf8/auth.ldap.php:28
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:nocreatemissinggroups"
+msgid ""
+"Do not create LDAP groups if they are not already set up in the institution."
+msgstr "すでにインスティテューションに設定されている場合、LDAPグループを作成しません。"
+
+#. nomatchingauths
+#: auth/ldap/lang/en.utf8/auth.ldap.php:29
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:nomatchingauths"
+msgid "No LDAP authentication plugin found for this institution"
+msgstr "このインスティテューションのLDAP認証プラグインは見つかりませんでした。"
+
+#. starttls
+#: auth/ldap/lang/en.utf8/auth.ldap.php:30
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:starttls"
+msgid "TLS encryption"
+msgstr "TLS暗号化"
+
+#. password
+#: auth/ldap/lang/en.utf8/auth.ldap.php:31
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:password"
+msgid "Password"
+msgstr "パスワード"
+
+#. searchcontexts
+#: auth/ldap/lang/en.utf8/auth.ldap.php:32
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:searchcontexts"
+msgid ""
+"Restrict searching in these contexts (override values set in authentication "
+"plugin)"
+msgstr "これらのコンテクストにおける検索を制限します (認証プラグインで設定された値をオーバライドします)。"
+
+#. searchsubcontexts
+#: auth/ldap/lang/en.utf8/auth.ldap.php:33
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:searchsubcontexts"
+msgid "Search subcontexts"
+msgstr "サブコンテクストを検索する"
+
+#. searchsubcontextscliparam
+#: auth/ldap/lang/en.utf8/auth.ldap.php:34
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:searchsubcontextscliparam"
+msgid ""
+"Search (1) or not (0) in sub contexts (override values set in authentication"
+" plugin)"
+msgstr "サブコンテクスト内で (1) または (0) ではないものを検索します (認証プラグインで設定された値をオーバライドします)。"
+
+#. syncgroupsautocreate
+#: auth/ldap/lang/en.utf8/auth.ldap.php:35
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsautocreate"
+msgid "Auto-create missing groups"
+msgstr "未作成のグループを自動作成する"
+
+#. syncgroupsbyclass
+#: auth/ldap/lang/en.utf8/auth.ldap.php:36
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsbyclass"
+msgid "Sync groups stored as LDAP objects"
+msgstr "LDAPオブジェクトとして保存されているグループを同期する"
+
+#. syncgroupsbyuserfield
+#: auth/ldap/lang/en.utf8/auth.ldap.php:37
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsbyuserfield"
+msgid "Sync groups stored as user attributes"
+msgstr "ユーザ属性として保存されているグループを同期する"
+
+#. syncgroupscontexts
+#: auth/ldap/lang/en.utf8/auth.ldap.php:38
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupscontexts"
+msgid "Sync groups in these contexts only"
+msgstr "これらのコンテクストのみ同期する"
+
+#. syncgroupscontextsdesc
+#: auth/ldap/lang/en.utf8/auth.ldap.php:39
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupscontextsdesc"
+msgid "Leave blank to default to user authentication contexts"
+msgstr "ユーザ認証コンテクストをデフォルトとするには、空白のままにしてください。"
+
+#. syncgroupscron
+#: auth/ldap/lang/en.utf8/auth.ldap.php:40
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupscron"
+msgid "Sync groups automatically via cron job"
+msgstr "cronジョブ経由でグループを自動同期する"
+
+#. syncgroupsexcludelist
+#: auth/ldap/lang/en.utf8/auth.ldap.php:41
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsexcludelist"
+msgid "Exclude LDAP groups with these names"
+msgstr "これらの名称のLDAPグループを除く"
+
+#. syncgroupsgroupattribute
+#: auth/ldap/lang/en.utf8/auth.ldap.php:42
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsgroupattribute"
+msgid "Group attribute"
+msgstr "グループ属性"
+
+#. syncgroupsgroupclass
+#: auth/ldap/lang/en.utf8/auth.ldap.php:43
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsgroupclass"
+msgid "Group class"
+msgstr "グループクラス"
+
+#. syncgroupsgrouptype
+#: auth/ldap/lang/en.utf8/auth.ldap.php:44
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsgrouptype"
+msgid "Role types in auto-created groups"
+msgstr "自動作成グループのロールタイプ"
+
+#. syncgroupsincludelist
+#: auth/ldap/lang/en.utf8/auth.ldap.php:45
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsincludelist"
+msgid "Include only LDAP groups with these names"
+msgstr "これらの名称のLDAPグループを含む"
+
+#. syncgroupsmemberattribute
+#: auth/ldap/lang/en.utf8/auth.ldap.php:46
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsmemberattribute"
+msgid "Group member attribute"
+msgstr "グループメンバー属性"
+
+#. syncgroupsmemberattributeisdn
+#: auth/ldap/lang/en.utf8/auth.ldap.php:47
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsmemberattributeisdn"
+msgid "Member attribute is a dn?"
+msgstr "メンバー属性はDNですか?"
+
+#. syncgroupsnestedgroups
+#: auth/ldap/lang/en.utf8/auth.ldap.php:48
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsnestedgroups"
+msgid "Process nested group"
+msgstr "ネストグループを処理する"
+
+#. syncgroupssettings
+#: auth/ldap/lang/en.utf8/auth.ldap.php:49
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupssettings"
+msgid "Group sync"
+msgstr "グループ同期"
+
+#. syncgroupsuserattribute
+#: auth/ldap/lang/en.utf8/auth.ldap.php:50
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsuserattribute"
+msgid "User attribute group name is stored in"
+msgstr "グループ名が保存されるユーザ属性"
+
+#. syncgroupsusergroupnames
+#: auth/ldap/lang/en.utf8/auth.ldap.php:51
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsusergroupnames"
+msgid "Only these group names"
+msgstr "これらのグループ名のみ"
+
+#. syncgroupsusergroupnamesdesc
+#: auth/ldap/lang/en.utf8/auth.ldap.php:52
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncgroupsusergroupnamesdesc"
+msgid "Leave empty to accept any value. Separate group names by comma."
+msgstr "すべての値を受け入れるには、空白のままにしてください。グループ名はカンマで区切ってください。"
+
+#. syncuserscreate
+#: auth/ldap/lang/en.utf8/auth.ldap.php:53
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncuserscreate"
+msgid "Auto-create users in cron"
+msgstr "cronジョブ経由でユーザを自動作成する"
+
+#. syncuserscron
+#: auth/ldap/lang/en.utf8/auth.ldap.php:54
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncuserscron"
+msgid "Sync users automatically via cron job"
+msgstr "cronジョブ経由でユーザを自動同期する"
+
+#. syncusersextrafilterattribute
+#: auth/ldap/lang/en.utf8/auth.ldap.php:55
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncusersextrafilterattribute"
+msgid "Additional LDAP filter for sync"
+msgstr "同期のための追加LDAPフィルタ"
+
+#. syncuserssettings
+#: auth/ldap/lang/en.utf8/auth.ldap.php:56
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncuserssettings"
+msgid "User sync"
+msgstr "ユーザ同期"
+
+#. syncusersupdate
+#: auth/ldap/lang/en.utf8/auth.ldap.php:57
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncusersupdate"
+msgid "Update user info in cron"
+msgstr "cronジョブ経由でユーザを情報を更新する"
+
+#. syncusersgonefromldap
+#: auth/ldap/lang/en.utf8/auth.ldap.php:58
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncusersgonefromldap"
+msgid "If a user is no longer present in LDAP"
+msgstr "ユーザがLDAPに存在しなくなった場合"
+
+#. syncusersgonefromldapdonothing
+#: auth/ldap/lang/en.utf8/auth.ldap.php:59
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncusersgonefromldapdonothing"
+msgid "Do nothing"
+msgstr "何もしない"
+
+#. syncusersgonefromldapsuspend
+#: auth/ldap/lang/en.utf8/auth.ldap.php:60
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncusersgonefromldapsuspend"
+msgid "Suspend user's account"
+msgstr "ユーザアカウントを利用停止する"
+
+#. syncusersgonefromldapdelete
+#: auth/ldap/lang/en.utf8/auth.ldap.php:61
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:syncusersgonefromldapdelete"
+msgid "Delete user's account and all content"
+msgstr "ユーザアカウントおよびコンテンツすべてを削除する"
+
+#. userattribute
+#: auth/ldap/lang/en.utf8/auth.ldap.php:62
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:userattribute"
+msgid "User attribute"
+msgstr "ユーザ属性"
+
+#. usertype
+#: auth/ldap/lang/en.utf8/auth.ldap.php:63
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:usertype"
+msgid "User type"
+msgstr "ユーザタイプ"
+
+#. weautocreateusers
+#: auth/ldap/lang/en.utf8/auth.ldap.php:64
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:weautocreateusers"
+msgid "We auto-create users"
+msgstr "こちらでユーザを自動作成する"
+
+#. updateuserinfoonlogin
+#: auth/ldap/lang/en.utf8/auth.ldap.php:65
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:updateuserinfoonlogin"
+msgid "Update user info on login"
+msgstr "ログイン時、ユーザ情報を更新する"
+
+#. updateuserinfoonloginadnote
+#: auth/ldap/lang/en.utf8/auth.ldap.php:66
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:updateuserinfoonloginadnote"
+msgid ""
+"Note: Enabling this may prevent some MS ActiveDirectory sites/users from "
+"subsequent logins"
+msgstr "注意: この設定を有効にすることで、MS ActiveDirectoryサイト/ユーザがログインできないようになる可能性があります。"
+
+#. cannotconnect
+#: auth/ldap/lang/en.utf8/auth.ldap.php:67
+msgctxt "auth/ldap/lang/en.utf8/auth.ldap.php:cannotconnect"
+msgid "Cannot connect to any LDAP hosts"
+msgstr "LDAPホストに接続できません。"
+
+#. title
+#: auth/none/lang/en.utf8/auth.none.php:1
+msgctxt "auth/none/lang/en.utf8/auth.none.php:title"
+msgid "None"
+msgstr "なし"
+
+#. description
+#: auth/none/lang/en.utf8/auth.none.php:2
+msgctxt "auth/none/lang/en.utf8/auth.none.php:description"
+msgid "Anyone can log in. Use for testing only!"
+msgstr "すべての人がログインできます。テストのみに使用してください!"
+
+#. defaultinstitution
+#: auth/saml/lang/en.utf8/auth.saml.php:1
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:defaultinstitution"
+msgid "Default institution"
+msgstr "デフォルトインスティテューション"
+
+#. description
+#: auth/saml/lang/en.utf8/auth.saml.php:2
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:description"
+msgid "Authenticate against a SAML 2.0 IdP service"
+msgstr "SAML 2.0 IdPサービスで認証する"
+
+#. errorbadinstitution
+#: auth/saml/lang/en.utf8/auth.saml.php:3
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorbadinstitution"
+msgid "Institution for connecting user not resolved"
+msgstr "ユーザ接続のインスティテューションが解決されませんでした。"
+
+#. errorbadssphp
+#: auth/saml/lang/en.utf8/auth.saml.php:4
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorbadssphp"
+msgid "Invalid SimpleSAMLphp session handler - must not be phpsession"
+msgstr "無効なSimpleSAMLphpセッションハンドラです - PHPセッションを使用しないでください。"
+
+#. errorbadssphplib
+#: auth/saml/lang/en.utf8/auth.saml.php:5
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorbadssphplib"
+msgid "Invalid SimpleSAMLphp library configuration"
+msgstr "無効なSimpleSAML phpライブラリ設定です。"
+
+#. errorretryexceeded
+#: auth/saml/lang/en.utf8/auth.saml.php:6
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorretryexceeded"
+msgid ""
+"Maximum number of retries exceeded (%s) - there must be a problem with the "
+"identity service"
+msgstr "再試行の最大回数 (%s) を越えました - アイデンティティサービスに問題があります。"
+
+#. errnosamluser
+#: auth/saml/lang/en.utf8/auth.saml.php:7
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errnosamluser"
+msgid "No user found"
+msgstr "ユーザが見つかりませんでした。"
+
+#. errorbadlib
+#: auth/saml/lang/en.utf8/auth.saml.php:8
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorbadlib"
+msgid "SimpleSAMLPHP lib directory %s is not correct."
+msgstr "SimpleSAMLPHPライブラリディレクトリ「 %s 」が正しくありません。"
+
+#. errorbadconfig
+#: auth/saml/lang/en.utf8/auth.saml.php:9
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorbadconfig"
+msgid "SimpleSAMLPHP config directory %s is incorrect."
+msgstr "SimpleSAMLPHP設定ディレクトリ「 %s 」が正しくありません。"
+
+#. errorbadcombo
+#: auth/saml/lang/en.utf8/auth.saml.php:10
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorbadcombo"
+msgid ""
+"You can only choose user auto-creation if you have not selected remoteuser."
+msgstr "リモートユーザを選択していない場合のみ、あなたはユーザ自動作成を選択することができます。"
+
+#. errorbadinstitutioncombo
+#: auth/saml/lang/en.utf8/auth.saml.php:11
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorbadinstitutioncombo"
+msgid ""
+"There is already an existing authentication instance with this institution "
+"attribute and institution value combination."
+msgstr "このインスティテューション属性およびインスティテューション値の組み合わせの認証インスタンスはすでに存在します。"
+
+#. errormissinguserattributes1
+#: auth/saml/lang/en.utf8/auth.saml.php:12
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errormissinguserattributes1"
+msgid ""
+"You seem to be authenticated, but we did not receive the required user "
+"attributes. Please check that your Identity Provider releases the first "
+"name, surname, and email fields for SSO to %s or inform the administrator."
+msgstr "あなたは認証されたようですが、私たちは必要なユーザ属性を受信していません。あなたのアイデンティティプロバイダ (IdP) が、姓名およびメールアドレスに対するSSOフィールドを %s にリリースしているか確認してください。または、管理者にご連絡ください。"
+
+#. errorregistrationenabledwithautocreate
+#: auth/saml/lang/en.utf8/auth.saml.php:13
+msgctxt ""
+"auth/saml/lang/en.utf8/auth.saml.php:errorregistrationenabledwithautocreate"
+msgid ""
+"An institution has registration enabled. For security reasons this excludes "
+"user auto-creation."
+msgstr "インスティテューションが登録を有効にされています。セキュリティ上の理由から、ユーザ自動作成を除きます。"
+
+#. errorremoteuser
+#: auth/saml/lang/en.utf8/auth.saml.php:14
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:errorremoteuser"
+msgid ""
+"Matching on remoteuser is mandatory if usersuniquebyusername is turned off."
+msgstr "「usersuniquebyusername」が無効にされた場合、リモートユーザとの合致は必須です。"
+
+#. institutionattribute
+#: auth/saml/lang/en.utf8/auth.saml.php:15
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:institutionattribute"
+msgid "Institution attribute (contains \"%s\")"
+msgstr "インスティテューション属性 (%s を含む)"
+
+#. institutionvalue
+#: auth/saml/lang/en.utf8/auth.saml.php:16
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:institutionvalue"
+msgid "Institution value to check against attribute"
+msgstr "属性をチェックするためのインスティテューション値"
+
+#. link
+#: auth/saml/lang/en.utf8/auth.saml.php:17
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:link"
+msgid "Link accounts"
+msgstr "アカウントをリンクする"
+
+#. linkaccounts
+#: auth/saml/lang/en.utf8/auth.saml.php:18
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:linkaccounts"
+msgid "Do you want to link remote account %s with local account %s?"
+msgstr "リモートアカウント %s をローカルアカウント %s とリンクしてもよろしいですか?"
+
+#. loginlink
+#: auth/saml/lang/en.utf8/auth.saml.php:19
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:loginlink"
+msgid "Allow users to link own account"
+msgstr "ユーザにアカウントのリンクを許可する"
+
+#. logintolink
+#: auth/saml/lang/en.utf8/auth.saml.php:20
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:logintolink"
+msgid "Local login to %s to link to remote account"
+msgstr "リモートアカウントにリンクするため、 %s にローカルログインする"
+
+#. logintolinkdesc
+#: auth/saml/lang/en.utf8/auth.saml.php:21
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:logintolinkdesc"
+msgid ""
+"<p><b>You are currently connected with remote user %s. Please log in with "
+"your local account to link them together or register if you do not currently"
+" have an account on %s.</b></p>"
+msgstr "<p><b>現在、あなたはリモートユーザ %s としてログインしています。リモートアカウントとリンクするために、あなたのローカルアカウントを使ってログインしてください。あなたが %s にアカウントを持っていない場合、ユーザ登録してください。</b></p>"
+
+#. institutionregex
+#: auth/saml/lang/en.utf8/auth.saml.php:22
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:institutionregex"
+msgid "Do partial string match with institution shortname"
+msgstr "インスティテューション省略名を部分的に文字列一致させる"
+
+#. login
+#: auth/saml/lang/en.utf8/auth.saml.php:23
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:login"
+msgid "SSO"
+msgstr "SSO"
+
+#. notusable
+#: auth/saml/lang/en.utf8/auth.saml.php:24
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:notusable"
+msgid "Please install the SimpleSAMLPHP SP libraries"
+msgstr "SimpleSAMLPHP SPライブラリをインストールしてください。"
+
+#. samlfieldforemail
+#: auth/saml/lang/en.utf8/auth.saml.php:25
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:samlfieldforemail"
+msgid "SSO field for email"
+msgstr "メールアドレスのSSOフィールド"
+
+#. samlfieldforfirstname
+#: auth/saml/lang/en.utf8/auth.saml.php:26
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:samlfieldforfirstname"
+msgid "SSO field for first name"
+msgstr "名のSSOフィールド"
+
+#. samlfieldforsurname
+#: auth/saml/lang/en.utf8/auth.saml.php:27
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:samlfieldforsurname"
+msgid "SSO field for surname"
+msgstr "姓のSSOフィールド"
+
+#. title
+#: auth/saml/lang/en.utf8/auth.saml.php:28
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:title"
+msgid "SAML"
+msgstr "SAML"
+
+#. updateuserinfoonlogin
+#: auth/saml/lang/en.utf8/auth.saml.php:29
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:updateuserinfoonlogin"
+msgid "Update user details on login"
+msgstr "ログイン時、ユーザ情報を更新する"
+
+#. userattribute
+#: auth/saml/lang/en.utf8/auth.saml.php:30
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:userattribute"
+msgid "User attribute"
+msgstr "ユーザ属性"
+
+#. simplesamlphplib
+#: auth/saml/lang/en.utf8/auth.saml.php:31
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:simplesamlphplib"
+msgid "SimpleSAMLPHP lib directory"
+msgstr "SimpleSAMLPHPライブラリディレクトリ"
+
+#. simplesamlphpconfig
+#: auth/saml/lang/en.utf8/auth.saml.php:32
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:simplesamlphpconfig"
+msgid "SimpleSAMLPHP config directory"
+msgstr "SimpleSAMLPHP設定ディレクトリ"
+
+#. weautocreateusers
+#: auth/saml/lang/en.utf8/auth.saml.php:33
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:weautocreateusers"
+msgid "We auto-create users"
+msgstr "こちらでユーザを自動作成する"
+
+#. remoteuser
+#: auth/saml/lang/en.utf8/auth.saml.php:34
+msgctxt "auth/saml/lang/en.utf8/auth.saml.php:remoteuser"
+msgid "Match username attribute to remote username"
+msgstr "ユーザ属性をリモートユーザに合致させる"
+
+#. title
+#: auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:1
+msgctxt "auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:title"
+msgid "XML-RPC"
+msgstr "XML-RPC"
+
+#. description
+#: auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:2
+msgctxt "auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:description"
+msgid "Authenticate via SSO from an external application"
+msgstr "外部アプリケーションからのSSOで認証する"
+
+#. notusable
+#: auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:3
+msgctxt "auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:notusable"
+msgid "Please install the XML-RPC, Curl and OpenSSL PHP extensions."
+msgstr "XML-RPC、CurlおよびOpenSSL PHP拡張モジュールをインストールしてください。"
+
+#. networkingdisabledonthissite
+#: auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:4
+msgctxt ""
+"auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:networkingdisabledonthissite"
+msgid "Networking is disabled on this site."
+msgstr "このサイトではネットワーキングが無効にされています。"
+
+#. networkservers
+#: auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:5
+msgctxt "auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:networkservers"
+msgid "Network servers"
+msgstr "ネットワークサーバ"
+
+#. youhaveloggedinfrom
+#: auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:6
+msgctxt "auth/xmlrpc/lang/en.utf8/auth.xmlrpc.php:youhaveloggedinfrom"
+msgid "You have logged in from <a href=\"%s\">%s</a>."
+msgstr "あなたは<a href=\"%s\">%s</a>　からログインしています。"

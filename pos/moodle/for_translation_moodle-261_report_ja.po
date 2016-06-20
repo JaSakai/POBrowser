@@ -1,0 +1,1321 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:37+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. pluginname
+#: report/backups/lang/en/report_backups.php:1
+msgctxt "report/backups/lang/en/report_backups.php:pluginname"
+msgid "Backups report"
+msgstr "バックアップレポート"
+
+#. completiondate
+#: report/completion/lang/en/report_completion.php:1
+msgctxt "report/completion/lang/en/report_completion.php:completiondate"
+msgid "Completion date"
+msgstr "完了データ"
+
+#. completion:view
+#: report/completion/lang/en/report_completion.php:2
+msgctxt "report/completion/lang/en/report_completion.php:completion:view"
+msgid "View course completion report"
+msgstr "コース完了レポートを表示する"
+
+#. id
+#: report/completion/lang/en/report_completion.php:3
+msgctxt "report/completion/lang/en/report_completion.php:id"
+msgid "ID"
+msgstr "ID"
+
+#. name
+#: report/completion/lang/en/report_completion.php:4
+msgctxt "report/completion/lang/en/report_completion.php:name"
+msgid "Name"
+msgstr "名称"
+
+#. page-report-completion-index
+#: report/completion/lang/en/report_completion.php:5
+msgctxt ""
+"report/completion/lang/en/report_completion.php:page-report-completion-index"
+msgid "Course completion report"
+msgstr "コース完了レポート"
+
+#. page-report-completion-user
+#: report/completion/lang/en/report_completion.php:6
+msgctxt ""
+"report/completion/lang/en/report_completion.php:page-report-completion-user"
+msgid "User course completion report"
+msgstr "ユーザコース完了レポート"
+
+#. page-report-completion-x
+#: report/completion/lang/en/report_completion.php:7
+msgctxt ""
+"report/completion/lang/en/report_completion.php:page-report-completion-x"
+msgid "Any completion report"
+msgstr "すべての完了レポート"
+
+#. pluginname
+#: report/completion/lang/en/report_completion.php:8
+msgctxt "report/completion/lang/en/report_completion.php:pluginname"
+msgid "Course completion"
+msgstr "コース完了"
+
+#. configlog
+#: report/configlog/lang/en/report_configlog.php:1
+msgctxt "report/configlog/lang/en/report_configlog.php:configlog"
+msgid "Config changes"
+msgstr "設定変更"
+
+#. oldvalue
+#: report/configlog/lang/en/report_configlog.php:2
+msgctxt "report/configlog/lang/en/report_configlog.php:oldvalue"
+msgid "Original value"
+msgstr "オリジナル値"
+
+#. plugin
+#: report/configlog/lang/en/report_configlog.php:3
+msgctxt "report/configlog/lang/en/report_configlog.php:plugin"
+msgid "Plugin"
+msgstr "プラグイン"
+
+#. pluginname
+#: report/configlog/lang/en/report_configlog.php:4
+msgctxt "report/configlog/lang/en/report_configlog.php:pluginname"
+msgid "Config changes"
+msgstr "設定変更"
+
+#. setting
+#: report/configlog/lang/en/report_configlog.php:5
+msgctxt "report/configlog/lang/en/report_configlog.php:setting"
+msgid "Setting"
+msgstr "設定"
+
+#. timemodified
+#: report/configlog/lang/en/report_configlog.php:6
+msgctxt "report/configlog/lang/en/report_configlog.php:timemodified"
+msgid "Date"
+msgstr "日時"
+
+#. value
+#: report/configlog/lang/en/report_configlog.php:7
+msgctxt "report/configlog/lang/en/report_configlog.php:value"
+msgid "New value"
+msgstr "新しい値"
+
+#. courseoverview:view
+#: report/courseoverview/lang/en/report_courseoverview.php:1
+msgctxt ""
+"report/courseoverview/lang/en/report_courseoverview.php:courseoverview:view"
+msgid "View course overview report"
+msgstr "コース概要レポートを表示する"
+
+#. pluginname
+#: report/courseoverview/lang/en/report_courseoverview.php:2
+msgctxt "report/courseoverview/lang/en/report_courseoverview.php:pluginname"
+msgid "Course overview"
+msgstr "コース概要"
+
+#. logsformat
+#: report/log/lang/en/report_log.php:1
+msgctxt "report/log/lang/en/report_log.php:logsformat"
+msgid "Logs format"
+msgstr "ログフォーマット"
+
+#. log:view
+#: report/log/lang/en/report_log.php:2
+msgctxt "report/log/lang/en/report_log.php:log:view"
+msgid "View course logs"
+msgstr "コースログを表示する"
+
+#. log:viewtoday
+#: report/log/lang/en/report_log.php:3
+msgctxt "report/log/lang/en/report_log.php:log:viewtoday"
+msgid "View today's logs"
+msgstr "本日のログを表示する"
+
+#. page
+#: report/log/lang/en/report_log.php:4
+msgctxt "report/log/lang/en/report_log.php:page"
+msgid "Page {$a}"
+msgstr "ページ {$a}"
+
+#. page-report-log-index
+#: report/log/lang/en/report_log.php:5
+msgctxt "report/log/lang/en/report_log.php:page-report-log-index"
+msgid "Course log report"
+msgstr "コースログレポート"
+
+#. page-report-log-user
+#: report/log/lang/en/report_log.php:6
+msgctxt "report/log/lang/en/report_log.php:page-report-log-user"
+msgid "User course log report"
+msgstr "ユーザコースログレポート"
+
+#. page-report-log-x
+#: report/log/lang/en/report_log.php:7
+msgctxt "report/log/lang/en/report_log.php:page-report-log-x"
+msgid "Any log report"
+msgstr "すべてのログレポート"
+
+#. pluginname
+#: report/log/lang/en/report_log.php:8
+msgctxt "report/log/lang/en/report_log.php:pluginname"
+msgid "Logs"
+msgstr "ログ"
+
+#. livelogs
+#: report/loglive/lang/en/report_loglive.php:1
+msgctxt "report/loglive/lang/en/report_loglive.php:livelogs"
+msgid "Live logs from the past hour"
+msgstr "過去1時間のライブログ"
+
+#. loglive:view
+#: report/loglive/lang/en/report_loglive.php:2
+msgctxt "report/loglive/lang/en/report_loglive.php:loglive:view"
+msgid "View live logs"
+msgstr "ライブログを表示する"
+
+#. page
+#: report/loglive/lang/en/report_loglive.php:3
+msgctxt "report/loglive/lang/en/report_loglive.php:page"
+msgid "Page {$a}"
+msgstr "ページ {$a}"
+
+#. pluginname
+#: report/loglive/lang/en/report_loglive.php:4
+msgctxt "report/loglive/lang/en/report_loglive.php:pluginname"
+msgid "Live logs"
+msgstr "ライブログ"
+
+#. outline:view
+#: report/outline/lang/en/report_outline.php:1
+msgctxt "report/outline/lang/en/report_outline.php:outline:view"
+msgid "View activity report"
+msgstr "活動レポートを表示する"
+
+#. page-report-outline-index
+#: report/outline/lang/en/report_outline.php:2
+msgctxt "report/outline/lang/en/report_outline.php:page-report-outline-index"
+msgid "Course outline report"
+msgstr "コースアウトラインレポート"
+
+#. page-report-outline-user
+#: report/outline/lang/en/report_outline.php:3
+msgctxt "report/outline/lang/en/report_outline.php:page-report-outline-user"
+msgid "User course outline report"
+msgstr "ユーザコースアウトラインレポート"
+
+#. page-report-outline-x
+#: report/outline/lang/en/report_outline.php:4
+msgctxt "report/outline/lang/en/report_outline.php:page-report-outline-x"
+msgid "Any outline report"
+msgstr "すべてのアウトラインレポート"
+
+#. pluginname
+#: report/outline/lang/en/report_outline.php:5
+msgctxt "report/outline/lang/en/report_outline.php:pluginname"
+msgid "Activity report"
+msgstr "活動レポート"
+
+#. page-report-participation-index
+#: report/participation/lang/en/report_participation.php:1
+msgctxt ""
+"report/participation/lang/en/report_participation.php:page-report-"
+"participation-index"
+msgid "Course participation report"
+msgstr "コース参加レポート"
+
+#. page-report-participation-x
+#: report/participation/lang/en/report_participation.php:2
+msgctxt ""
+"report/participation/lang/en/report_participation.php:page-report-"
+"participation-x"
+msgid "Any participation report"
+msgstr "すべてのコース参加レポート"
+
+#. participation:view
+#: report/participation/lang/en/report_participation.php:3
+msgctxt ""
+"report/participation/lang/en/report_participation.php:participation:view"
+msgid "View course participation report"
+msgstr "コース参加レポートを表示する"
+
+#. pluginname
+#: report/participation/lang/en/report_participation.php:4
+msgctxt "report/participation/lang/en/report_participation.php:pluginname"
+msgid "Course participation"
+msgstr "コース参加者"
+
+#. check_backup
+#: report/performance/lang/en/report_performance.php:1
+msgctxt "report/performance/lang/en/report_performance.php:check_backup"
+msgid "Automated backup"
+msgstr "自動バックアップ"
+
+#. check_backup_comment_disable
+#: report/performance/lang/en/report_performance.php:2
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_backup_comment_disable"
+msgid ""
+"Performance may be affected during the backup process. If enabled, backups "
+"should be scheduled for off-peak times."
+msgstr "バックアップ処理中、パフォーマンスは影響を受けます。有効にした場合、混雑しない時間帯にバックアップがスケジュールされます。"
+
+#. check_backup_comment_enable
+#: report/performance/lang/en/report_performance.php:3
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_backup_comment_enable"
+msgid ""
+"Performance may be affected during the backup process. Backups should be "
+"scheduled for off-peak times."
+msgstr "バックアップ処理中、パフォーマンスは影響を受けます。混雑しない時間帯にバックアップがスケジュールされます。"
+
+#. check_backup_details
+#: report/performance/lang/en/report_performance.php:4
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_backup_details"
+msgid ""
+"Enabling automated backup will automatically create archives of all the "
+"courses on the server at the time you specified.<p>During this process, it "
+"will consume more server resources and may affect performance.</p>"
+msgstr "自動バックアップを有効にすることで、あなたが指定した時間に自動的にサーバ内のコースすべてのアーカイブを作成します。<p>この処理の間、サーバリソースを消費するため、パフォーマンスに影響する可能性があります。</p>"
+
+#. check_cachejs_comment_disable
+#: report/performance/lang/en/report_performance.php:5
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_cachejs_comment_disable"
+msgid "If enabled, page loading performance is improved."
+msgstr "有効にした場合、ページ読み込みのパフォーマンスが改善されます。"
+
+#. check_cachejs_comment_enable
+#: report/performance/lang/en/report_performance.php:6
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_cachejs_comment_enable"
+msgid "If disabled, page might load slow."
+msgstr "無効にした場合、ページ読み込みが遅くなる可能性があります。"
+
+#. check_cachejs_details
+#: report/performance/lang/en/report_performance.php:7
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_cachejs_details"
+msgid ""
+"Javascript caching and compression greatly improves page loading "
+"performance. It is strongly recommended for production sites."
+msgstr "Javaスクリプトキャッシングおよび圧縮はページ読み込みのパフォーマンスを大幅に改善します。プロダクションサイトでの使用を強くお勧めします。"
+
+#. check_debugmsg_comment_developer
+#: report/performance/lang/en/report_performance.php:8
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_debugmsg_comment_developer"
+msgid "If set other then DEVELOPER, performance may be improved slightly."
+msgstr "「DEVELOPER」以外に設定した場合、パフォーマンスは少しだけ改善されます。"
+
+#. check_debugmsg_comment_nodeveloper
+#: report/performance/lang/en/report_performance.php:9
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_debugmsg_comment_nodeveloper"
+msgid "If set to DEVELOPER, performance may be affected slightly."
+msgstr "「DEVELOPER」に設定した場合、パフォーマンスは少しだけ影響を受けます。"
+
+#. check_debugmsg_details
+#: report/performance/lang/en/report_performance.php:10
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_debugmsg_details"
+msgid ""
+"There is rarely any advantage in going to Developer level, unless you are a "
+"developer, in which case it is strongly recommended.<p>Once you have got the"
+" error message, and copied and pasted it somewhere. HIGHLY RECOMMENDED to "
+"turn Debug back to NONE. Debug messages can give clues to a hacker as to the"
+" setup of your site and may affect performance.</p>"
+msgstr "あなたが開発者である以外、開発者レベルに移行することにはほとんど利点がありません。開発者の場合は強くお勧めします。<p>あなたがエラーメッセージを取得できた場合、他の場所にコピー＆ペーストしてください。そして、デバッグメッセージを「NONE」に戻すことを強くお勧めします。あなたのサイト設定に関して、デバッグメッセージは不正侵入者にヒントを与えることになります。また、パフォーマンスにも影響を及ぼします。</p>"
+
+#. check_enablestats_comment_disable
+#: report/performance/lang/en/report_performance.php:11
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_enablestats_comment_disable"
+msgid ""
+"Performance may be affected by statistics processing. If enabled, statistics"
+" settings should be set with caution."
+msgstr "統計処理により、パフォーマンスが影響を受ける可能性があります。有効にした場合、慎重に統計設定してください。"
+
+#. check_enablestats_comment_enable
+#: report/performance/lang/en/report_performance.php:12
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_enablestats_comment_enable"
+msgid ""
+"Performance may be affected by statistics processing. Statistics settings "
+"should be set with caution."
+msgstr "統計処理により、パフォーマンスが影響を受ける可能性があります。慎重に統計設定してください。"
+
+#. check_enablestats_details
+#: report/performance/lang/en/report_performance.php:13
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_enablestats_details"
+msgid ""
+"Enabling this will process the logs in cronjob and gather some statistics. "
+"Depending on the amount of traffic on your site, this can take "
+"awhile.<p>During this process, it will consume more server resources and may"
+" affect performance.</p>"
+msgstr "このオプションを有効にした場合、ログをcronジョブで処理して、統計情報を収集します。あなたのサイトのトラフィックに応じて時間を要します。<p>この処理中、さらにサーバリソースを消費して、パフォーマンスに影響を与える場合があります。</p>"
+
+#. check_themedesignermode_comment_disable
+#: report/performance/lang/en/report_performance.php:14
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_themedesignermode_comment_disable"
+msgid ""
+"If enabled, images and style sheets will not be cached, resulting in "
+"significant performance degradation."
+msgstr "有効にした場合、イメージおよびスタイルシートはキャッシュされません。結果として、パフォーマンスが顕著に悪化することになります。"
+
+#. check_themedesignermode_comment_enable
+#: report/performance/lang/en/report_performance.php:15
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_themedesignermode_comment_enable"
+msgid ""
+"If disabled, images and style sheets are cached, resulting in significant "
+"performance improvements."
+msgstr "無効にした場合、イメージおよびスタイルシートがキャッシュされます。結果として、パフォーマンスが顕著に改善されます。"
+
+#. check_themedesignermode_details
+#: report/performance/lang/en/report_performance.php:16
+msgctxt ""
+"report/performance/lang/en/report_performance.php:check_themedesignermode_details"
+msgid ""
+"This is often the cause of slow Moodle sites. <p>On average it might take at"
+" least twice the amount of CPU to run a Moodle site with theme designer mode"
+" enabled.</p>"
+msgstr "多くの場合、これはMoodleサイトを遅くする原因となります。<p>テーマデザイナモードを有効にした場合、Moodleサイトの運用に関して、平均的に少なくとも2倍のCPU使用率となります。</p>"
+
+#. comments
+#: report/performance/lang/en/report_performance.php:17
+msgctxt "report/performance/lang/en/report_performance.php:comments"
+msgid "Comments"
+msgstr "コメント"
+
+#. disabled
+#: report/performance/lang/en/report_performance.php:18
+msgctxt "report/performance/lang/en/report_performance.php:disabled"
+msgid "Disabled"
+msgstr "無効"
+
+#. edit
+#: report/performance/lang/en/report_performance.php:19
+msgctxt "report/performance/lang/en/report_performance.php:edit"
+msgid "Edit"
+msgstr "編集"
+
+#. enabled
+#: report/performance/lang/en/report_performance.php:20
+msgctxt "report/performance/lang/en/report_performance.php:enabled"
+msgid "Enabled"
+msgstr "有効"
+
+#. issue
+#: report/performance/lang/en/report_performance.php:21
+msgctxt "report/performance/lang/en/report_performance.php:issue"
+msgid "Issue"
+msgstr "問題点"
+
+#. morehelp
+#: report/performance/lang/en/report_performance.php:22
+msgctxt "report/performance/lang/en/report_performance.php:morehelp"
+msgid "more help"
+msgstr "詳細情報"
+
+#. performancereportdesc
+#: report/performance/lang/en/report_performance.php:23
+msgctxt ""
+"report/performance/lang/en/report_performance.php:performancereportdesc"
+msgid "This report lists issues which may affect performance of the site {$a}"
+msgstr "このレポートでは、サイトのパフォーマンスに影響する可能性のある問題点を一覧表示しています。 {$a}"
+
+#. performance:view
+#: report/performance/lang/en/report_performance.php:24
+msgctxt "report/performance/lang/en/report_performance.php:performance:view"
+msgid "View performance report"
+msgstr "パフォーマンスレポートを表示する"
+
+#. pluginname
+#: report/performance/lang/en/report_performance.php:25
+msgctxt "report/performance/lang/en/report_performance.php:pluginname"
+msgid "Performance overview"
+msgstr "パフォーマンス概要"
+
+#. value
+#: report/performance/lang/en/report_performance.php:26
+msgctxt "report/performance/lang/en/report_performance.php:value"
+msgid "Value"
+msgstr "値"
+
+#. page-report-progress-index
+#: report/progress/lang/en/report_progress.php:1
+msgctxt ""
+"report/progress/lang/en/report_progress.php:page-report-progress-index"
+msgid "Activity completion report"
+msgstr "活動完了レポート"
+
+#. page-report-progress-user
+#: report/progress/lang/en/report_progress.php:2
+msgctxt ""
+"report/progress/lang/en/report_progress.php:page-report-progress-user"
+msgid "User activity completion report"
+msgstr "ユーザ活動完了レポート"
+
+#. page-report-progress-x
+#: report/progress/lang/en/report_progress.php:3
+msgctxt "report/progress/lang/en/report_progress.php:page-report-progress-x"
+msgid "Any activity completion report"
+msgstr "すべての活動完了レポート"
+
+#. pluginname
+#: report/progress/lang/en/report_progress.php:4
+msgctxt "report/progress/lang/en/report_progress.php:pluginname"
+msgid "Activity completion"
+msgstr "活動完了"
+
+#. progress:view
+#: report/progress/lang/en/report_progress.php:5
+msgctxt "report/progress/lang/en/report_progress.php:progress:view"
+msgid "View activity completion reports"
+msgstr "コース完了レポートを表示する"
+
+#. editquestionshere
+#: report/questioninstances/lang/en/report_questioninstances.php:1
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:editquestionshere"
+msgid "Edit questions in this context"
+msgstr "このコンテクストの問題を編集する"
+
+#. getreport
+#: report/questioninstances/lang/en/report_questioninstances.php:2
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:getreport"
+msgid "Get the report"
+msgstr "レポートを取得する"
+
+#. hiddenquestions
+#: report/questioninstances/lang/en/report_questioninstances.php:3
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:hiddenquestions"
+msgid "Hidden"
+msgstr "非表示"
+
+#. intro
+#: report/questioninstances/lang/en/report_questioninstances.php:4
+msgctxt "report/questioninstances/lang/en/report_questioninstances.php:intro"
+msgid ""
+"This report lists all the contexts in the system where there are questions "
+"of a particular type."
+msgstr "このレポートでは、特定の問題タイプを含むシステムのコンテクストを一覧表示します。"
+
+#. pluginname
+#: report/questioninstances/lang/en/report_questioninstances.php:5
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:pluginname"
+msgid "Question instances"
+msgstr "問題インスタンス"
+
+#. questioninstances:view
+#: report/questioninstances/lang/en/report_questioninstances.php:6
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:questioninstances:view"
+msgid "View question instances report"
+msgstr "問題インスタンスレポートを表示する"
+
+#. reportforallqtypes
+#: report/questioninstances/lang/en/report_questioninstances.php:7
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:reportforallqtypes"
+msgid "Report for all question types"
+msgstr "すべての問題タイプのレポート"
+
+#. reportformissingqtypes
+#: report/questioninstances/lang/en/report_questioninstances.php:8
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:reportformissingqtypes"
+msgid "Report for question of unknown types"
+msgstr "不明な問題タイプのレポート"
+
+#. reportforqtype
+#: report/questioninstances/lang/en/report_questioninstances.php:9
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:reportforqtype"
+msgid "Report for question type '{$a}'"
+msgstr "問題タイプ「 {$a} 」のレポート"
+
+#. reportsettings
+#: report/questioninstances/lang/en/report_questioninstances.php:10
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:reportsettings"
+msgid "Report settings"
+msgstr "レポート設定"
+
+#. totalquestions
+#: report/questioninstances/lang/en/report_questioninstances.php:11
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:totalquestions"
+msgid "Total"
+msgstr "合計"
+
+#. visiblequestions
+#: report/questioninstances/lang/en/report_questioninstances.php:12
+msgctxt ""
+"report/questioninstances/lang/en/report_questioninstances.php:visiblequestions"
+msgid "Visible"
+msgstr "表示"
+
+#. check_configrw_details
+#: report/security/lang/en/report_security.php:1
+msgctxt "report/security/lang/en/report_security.php:check_configrw_details"
+msgid ""
+"<p>It is recommended that the file permissions of config.php are changed "
+"after installation so that the file cannot be modified by the web "
+"server.Please note that this measure does not improve security of the server"
+" significantly, though it may slow down or limit general exploits.</p>"
+msgstr "<p>ウェブサーバからファイルが修正されないよう、インストール後、config.phpのファイルパーミッションを変更することをお勧めします。この方法は、サーバのセキュリティを著しく向上させるものではありませんが、一般的なセキュリティ上の弱点 (exploits) をスローダウンしたり、制限することはできます。</p>"
+
+#. check_configrw_name
+#: report/security/lang/en/report_security.php:2
+msgctxt "report/security/lang/en/report_security.php:check_configrw_name"
+msgid "Writable config.php"
+msgstr "書き込み可能なconfig.php"
+
+#. check_configrw_ok
+#: report/security/lang/en/report_security.php:3
+msgctxt "report/security/lang/en/report_security.php:check_configrw_ok"
+msgid "config.php can not be modified by PHP scripts."
+msgstr "PHPスクリプトは、config.phpを修正することができません。"
+
+#. check_configrw_warning
+#: report/security/lang/en/report_security.php:4
+msgctxt "report/security/lang/en/report_security.php:check_configrw_warning"
+msgid "PHP scripts may modify config.php."
+msgstr "PHPスクリプトは、config.phpを修正することができます。"
+
+#. check_cookiesecure_details
+#: report/security/lang/en/report_security.php:5
+msgctxt ""
+"report/security/lang/en/report_security.php:check_cookiesecure_details"
+msgid ""
+"<p>If you enable https communication it is recommended that you also enable "
+"secure cookies. You should also add permanent redirection from http to "
+"https.</p>"
+msgstr "p>あなたが、https通信を有効にした場合、セキュアクッキーも有効にすることをお勧めします。また、httpからhttpsへのパーマネントリダイレクトも追加してください。</p>"
+
+#. check_cookiesecure_error
+#: report/security/lang/en/report_security.php:6
+msgctxt "report/security/lang/en/report_security.php:check_cookiesecure_error"
+msgid "Please enable secure cookies"
+msgstr "セキュアクッキーを有効にしてください。"
+
+#. check_cookiesecure_name
+#: report/security/lang/en/report_security.php:7
+msgctxt "report/security/lang/en/report_security.php:check_cookiesecure_name"
+msgid "Secure cookies"
+msgstr "セキュアクッキー"
+
+#. check_cookiesecure_ok
+#: report/security/lang/en/report_security.php:8
+msgctxt "report/security/lang/en/report_security.php:check_cookiesecure_ok"
+msgid "Secure cookies enabled."
+msgstr "セキュアクッキーは、有効にされています。"
+
+#. check_defaultuserrole_details
+#: report/security/lang/en/report_security.php:9
+msgctxt ""
+"report/security/lang/en/report_security.php:check_defaultuserrole_details"
+msgid ""
+"<p>All logged in users are given capabilities of the default user role. "
+"Please make sure no risky capabilities are allowed in this role.</p><p>The "
+"only supported legacy type for the default user role is <em>Authenticated "
+"user</em>. The course view capability must not be enabled.</p>"
+msgstr "<p>すべてのログインユーザには、デフォルトのユーザロールのケイパビリティが割り当てられます。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p><p>デフォルトのユーザロールでサポートされているレガシータイプのロールは「認証済みユーザ」のみです。コース閲覧ケイパビリティは、有効にしないでください。</p>"
+
+#. check_defaultuserrole_error
+#: report/security/lang/en/report_security.php:10
+msgctxt ""
+"report/security/lang/en/report_security.php:check_defaultuserrole_error"
+msgid "The default user role \"{$a}\" is incorrectly defined!"
+msgstr "デフォルトユーザロール「 {$a} 」は、正しくない定義です!"
+
+#. check_defaultuserrole_name
+#: report/security/lang/en/report_security.php:11
+msgctxt ""
+"report/security/lang/en/report_security.php:check_defaultuserrole_name"
+msgid "Default role for all users"
+msgstr "すべてのユーザのデフォルトロール"
+
+#. check_defaultuserrole_notset
+#: report/security/lang/en/report_security.php:12
+msgctxt ""
+"report/security/lang/en/report_security.php:check_defaultuserrole_notset"
+msgid "Default role is not set."
+msgstr "デフォルトロールが設定されていません。"
+
+#. check_defaultuserrole_ok
+#: report/security/lang/en/report_security.php:13
+msgctxt "report/security/lang/en/report_security.php:check_defaultuserrole_ok"
+msgid "Default role for all users definition is OK."
+msgstr "すべてのユーザのデフォルトロール定義は、OKです。"
+
+#. check_displayerrors_details
+#: report/security/lang/en/report_security.php:14
+msgctxt ""
+"report/security/lang/en/report_security.php:check_displayerrors_details"
+msgid ""
+"<p>Enabling the PHP setting <code>display_errors</code> is not recommended "
+"on production sites because error messages can reveal sensitive information "
+"about your server.</p>"
+msgstr "<p>いくつかのエラーメッセージは、あなたのサーバに関する機密情報を漏洩する可能性があるため、PHP設定 <code>display_errors</code>の有効化は、実稼動サイトではお勧めできません。</p>"
+
+#. check_displayerrors_error
+#: report/security/lang/en/report_security.php:15
+msgctxt ""
+"report/security/lang/en/report_security.php:check_displayerrors_error"
+msgid ""
+"The PHP setting to display errors is enabled. It is recommended that this is"
+" disabled."
+msgstr "エラー表示のPHP設定が有効にされています。この設置を無効にすることをお勧めします。"
+
+#. check_displayerrors_name
+#: report/security/lang/en/report_security.php:16
+msgctxt "report/security/lang/en/report_security.php:check_displayerrors_name"
+msgid "Displaying of PHP errors"
+msgstr "PHPエラーを表示する"
+
+#. check_displayerrors_ok
+#: report/security/lang/en/report_security.php:17
+msgctxt "report/security/lang/en/report_security.php:check_displayerrors_ok"
+msgid "Displaying of PHP errors disabled."
+msgstr "PHPエラーの表示は無効にされています。"
+
+#. check_emailchangeconfirmation_details
+#: report/security/lang/en/report_security.php:18
+msgctxt ""
+"report/security/lang/en/report_security.php:check_emailchangeconfirmation_details"
+msgid ""
+"<p>It is recommended that an email confirmation step is required when users "
+"change their email address in their profile. If disabled, spammers may try "
+"to exploit the server to send spam.</p><p>Email field may be also locked "
+"from authentication plugins, this possibility is not considered here.</p>"
+msgstr "<p>ユーザがプロファイルでメールアドレスを変更する場合、メール確認ステップが推奨されています。無効にされている場合、スパム送信者がサーバをスパム送信に悪用する恐れがあります。</p><p>認証プラグインからロックされたメールアドレスフィールドに関して、この可能性を考える必要はありません。</p>"
+
+#. check_emailchangeconfirmation_error
+#: report/security/lang/en/report_security.php:19
+msgctxt ""
+"report/security/lang/en/report_security.php:check_emailchangeconfirmation_error"
+msgid "Users may enter any email address."
+msgstr "ユーザは、どのようなメールアドレスでも入力することができます。"
+
+#. check_emailchangeconfirmation_info
+#: report/security/lang/en/report_security.php:20
+msgctxt ""
+"report/security/lang/en/report_security.php:check_emailchangeconfirmation_info"
+msgid "Users may enter email addresses from allowed domains only."
+msgstr "ユーザは、許可されたドメインからのみメールアドレスを入力することができます。"
+
+#. check_emailchangeconfirmation_name
+#: report/security/lang/en/report_security.php:21
+msgctxt ""
+"report/security/lang/en/report_security.php:check_emailchangeconfirmation_name"
+msgid "Email change confirmation"
+msgstr "メール変更確認"
+
+#. check_emailchangeconfirmation_ok
+#: report/security/lang/en/report_security.php:22
+msgctxt ""
+"report/security/lang/en/report_security.php:check_emailchangeconfirmation_ok"
+msgid "Confirmation of change of email address in user profile."
+msgstr "ユーザプロファイル内のメールアドレス変更は確認されるべきです。"
+
+#. check_embed_details
+#: report/security/lang/en/report_security.php:23
+msgctxt "report/security/lang/en/report_security.php:check_embed_details"
+msgid ""
+"<p>Unlimited object embedding is very dangerous - any registered user may "
+"launch an XSS attack against other server users. This setting should be "
+"disabled on production servers.</p>"
+msgstr "<p>無制限のオブジェクト埋め込みは、非常に危険です - すべての登録ユーザは、他のサーバに対してXSSアタックを開始することができます。この設定は、実稼動サーバで無効にされるべきです。</p>"
+
+#. check_embed_error
+#: report/security/lang/en/report_security.php:24
+msgctxt "report/security/lang/en/report_security.php:check_embed_error"
+msgid ""
+"Unlimited object embedding enabled - this is very dangerous for the majority"
+" of servers."
+msgstr "無制限のオブジェクト埋め込みが許可されています - これは大部分のサーバで非常に危険な設定です。"
+
+#. check_embed_name
+#: report/security/lang/en/report_security.php:25
+msgctxt "report/security/lang/en/report_security.php:check_embed_name"
+msgid "Allow EMBED and OBJECT"
+msgstr "EMBEDおよびOBJECTを許可する"
+
+#. check_embed_ok
+#: report/security/lang/en/report_security.php:26
+msgctxt "report/security/lang/en/report_security.php:check_embed_ok"
+msgid "Unlimited object embedding is not allowed."
+msgstr "無制限のオブジェクト埋め込みは許可されていません。"
+
+#. check_frontpagerole_details
+#: report/security/lang/en/report_security.php:27
+msgctxt ""
+"report/security/lang/en/report_security.php:check_frontpagerole_details"
+msgid ""
+"<p>The default frontpage role is given to all registered users for frontpage"
+" activities. Please make sure no risky capabilities are allowed for this "
+"role.</p><p>It is recommended that a special role is created for this "
+"purpose and a legacy type role is not used.</p>"
+msgstr "<p>すべての登録ユーザのフロントページ活動には、デフォルトのフロントページロールのケイパビリティが割り当てられます。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p><p>この目的のため、特別なロールを作成して、レガシータイプのロールは使用しないことをお勧めします。</p>"
+
+#. check_frontpagerole_error
+#: report/security/lang/en/report_security.php:28
+msgctxt ""
+"report/security/lang/en/report_security.php:check_frontpagerole_error"
+msgid "Incorrectly defined frontpage role \"{$a}\" detected!"
+msgstr "正しくないフロントページロール「 {$a} 」の割り当てが検出されました!"
+
+#. check_frontpagerole_name
+#: report/security/lang/en/report_security.php:29
+msgctxt "report/security/lang/en/report_security.php:check_frontpagerole_name"
+msgid "Frontpage role"
+msgstr "フロントページロール"
+
+#. check_frontpagerole_notset
+#: report/security/lang/en/report_security.php:30
+msgctxt ""
+"report/security/lang/en/report_security.php:check_frontpagerole_notset"
+msgid "Frontpage role is not set."
+msgstr "フロントページロールが設定されていません。"
+
+#. check_frontpagerole_ok
+#: report/security/lang/en/report_security.php:31
+msgctxt "report/security/lang/en/report_security.php:check_frontpagerole_ok"
+msgid "Frontpage role definition is OK."
+msgstr "フロントページロール定義はOKです。"
+
+#. check_globals_details
+#: report/security/lang/en/report_security.php:32
+msgctxt "report/security/lang/en/report_security.php:check_globals_details"
+msgid ""
+"<p>Register globals is considered to be a highly insecure PHP "
+"setting.</p><p><code>register_globals=off</code> must be set in PHP "
+"configuration. This setting is controlled by editing your "
+"<code>php.ini</code>, Apache/IIS configuration or <code>.htaccess</code> "
+"file.</p>"
+msgstr "<p>Register globalsは、極めて危険なPHP設定だと考えられています。</p><p>PHP設定において、<code>register_globals=off</code>が設定されるべきです。この設定は、あなたの<code>php.ini</code>、Apache/IIS設定または<code>.htaccess</code>ファイルを編集することでコントロールされます。</p>"
+
+#. check_globals_error
+#: report/security/lang/en/report_security.php:33
+msgctxt "report/security/lang/en/report_security.php:check_globals_error"
+msgid ""
+"Register globals MUST be disabled. Please fix the server PHP settings "
+"immediately!"
+msgstr "Register globalsは無効すべきです。すぐにPHP設定を修正してください!"
+
+#. check_globals_name
+#: report/security/lang/en/report_security.php:34
+msgctxt "report/security/lang/en/report_security.php:check_globals_name"
+msgid "Register globals"
+msgstr "Register globals"
+
+#. check_globals_ok
+#: report/security/lang/en/report_security.php:35
+msgctxt "report/security/lang/en/report_security.php:check_globals_ok"
+msgid "Register globals are disabled."
+msgstr "Register globalsが無効にされています。"
+
+#. check_google_details
+#: report/security/lang/en/report_security.php:36
+msgctxt "report/security/lang/en/report_security.php:check_google_details"
+msgid ""
+"<p>The Open to Google setting enables search engines to enter courses with "
+"guest access. There is no point in enabling this setting if guest login is "
+"not allowed.</p>"
+msgstr "<p>Googleに公開する設定では、サーチエンジンがコースにゲストとしてログインできるようにします。ゲストログインが許可されていない場合、この設定の有効化は意味を持ちません。</p>"
+
+#. check_google_error
+#: report/security/lang/en/report_security.php:37
+msgctxt "report/security/lang/en/report_security.php:check_google_error"
+msgid "Search engine access is allowed but guest access is disabled."
+msgstr "サーチエンジンによるゲストアクセスは許可されていますが、ゲストアクセスは無効にされています。"
+
+#. check_google_info
+#: report/security/lang/en/report_security.php:38
+msgctxt "report/security/lang/en/report_security.php:check_google_info"
+msgid "Search engines may enter as guests."
+msgstr "サーチエンジンは、ゲストとして入ることができます。"
+
+#. check_google_name
+#: report/security/lang/en/report_security.php:39
+msgctxt "report/security/lang/en/report_security.php:check_google_name"
+msgid "Open to Google"
+msgstr "Googleに公開する"
+
+#. check_google_ok
+#: report/security/lang/en/report_security.php:40
+msgctxt "report/security/lang/en/report_security.php:check_google_ok"
+msgid "Search engine access is not enabled."
+msgstr "サーチエンジンによるアクセスは有効にされていません。"
+
+#. check_guestrole_details
+#: report/security/lang/en/report_security.php:41
+msgctxt "report/security/lang/en/report_security.php:check_guestrole_details"
+msgid ""
+"<p>The guest role is used for guests, not logged in users and temporary "
+"guest course access. Please make sure no risky capabilities are allowed in "
+"this role.</p><p>The only supported legacy type for guest role is "
+"<em>Guest</em>.</p>"
+msgstr "<p>ゲストロールはゲストに使用され、ログインユーザおよび一時的なゲストコースアクセスには使用されません。このロールにリスクのあるケイパビリティが許可されているかどうか確認してください。</p><p>ゲストロールでサポートされているレガシータイプのロールは「ゲスト」のみです</p>"
+
+#. check_guestrole_error
+#: report/security/lang/en/report_security.php:42
+msgctxt "report/security/lang/en/report_security.php:check_guestrole_error"
+msgid "The guest role \"{$a}\" is incorrectly defined!"
+msgstr "ゲストロール「 {$a} 」の定義は正しくありません!"
+
+#. check_guestrole_name
+#: report/security/lang/en/report_security.php:43
+msgctxt "report/security/lang/en/report_security.php:check_guestrole_name"
+msgid "Guest role"
+msgstr "ゲストロール"
+
+#. check_guestrole_notset
+#: report/security/lang/en/report_security.php:44
+msgctxt "report/security/lang/en/report_security.php:check_guestrole_notset"
+msgid "Guest role is not set."
+msgstr "ゲストロールが設定されていません。"
+
+#. check_guestrole_ok
+#: report/security/lang/en/report_security.php:45
+msgctxt "report/security/lang/en/report_security.php:check_guestrole_ok"
+msgid "Guest role definition is OK."
+msgstr "ゲストロール定義はOKです。"
+
+#. check_mediafilterswf_details
+#: report/security/lang/en/report_security.php:46
+msgctxt ""
+"report/security/lang/en/report_security.php:check_mediafilterswf_details"
+msgid ""
+"<p>Automatic swf embedding is very dangerous - any registered user may "
+"launch an XSS attack against other server users. Please disable it on "
+"production servers.</p>"
+msgstr "<p>自動swf埋め込みは、非常に危険です - すべての登録ユーザは、他のサーバに対してXSSアタックを開始することができます。この設定は、実稼動サーバで無効にされるべきです。</p>"
+
+#. check_mediafilterswf_error
+#: report/security/lang/en/report_security.php:47
+msgctxt ""
+"report/security/lang/en/report_security.php:check_mediafilterswf_error"
+msgid ""
+"Flash media filter is enabled - this is very dangerous for the majority of "
+"servers."
+msgstr "Flashメディアフィルタが許可されています - これは大部分のサーバで非常に危険な設定です。"
+
+#. check_mediafilterswf_name
+#: report/security/lang/en/report_security.php:48
+msgctxt ""
+"report/security/lang/en/report_security.php:check_mediafilterswf_name"
+msgid "Enabled .swf media filter"
+msgstr ".swfメディアフィルタを有効にする"
+
+#. check_mediafilterswf_ok
+#: report/security/lang/en/report_security.php:49
+msgctxt "report/security/lang/en/report_security.php:check_mediafilterswf_ok"
+msgid "Flash media filter is not enabled."
+msgstr "Flashメディアフィルタが有効にされていません。"
+
+#. check_noauth_details
+#: report/security/lang/en/report_security.php:50
+msgctxt "report/security/lang/en/report_security.php:check_noauth_details"
+msgid ""
+"<p>The <em>No authentication</em> plugin is not intended for production "
+"sites. Please disable it unless this is a development test site.</p>"
+msgstr "<p>「認証なし」プラグインは、実稼動サイト向けではありません。このサイトが開発テストサイトではない限り、このプラグインを無効にしてください。</p>"
+
+#. check_noauth_error
+#: report/security/lang/en/report_security.php:51
+msgctxt "report/security/lang/en/report_security.php:check_noauth_error"
+msgid "The No authentication plugin cannot be used on production sites."
+msgstr "「認証なし」プラグインは、実稼動サイトでは使用できません。"
+
+#. check_noauth_name
+#: report/security/lang/en/report_security.php:52
+msgctxt "report/security/lang/en/report_security.php:check_noauth_name"
+msgid "No authentication"
+msgstr "認証なし"
+
+#. check_noauth_ok
+#: report/security/lang/en/report_security.php:53
+msgctxt "report/security/lang/en/report_security.php:check_noauth_ok"
+msgid "No authentication plugin is disabled."
+msgstr "無効にされた認証プラグインはありません。"
+
+#. check_openprofiles_details
+#: report/security/lang/en/report_security.php:54
+msgctxt ""
+"report/security/lang/en/report_security.php:check_openprofiles_details"
+msgid ""
+"Open user profiles can be abused by spammers. It is recommended that either "
+"<code>Force users to log in for profiles</code> or <code>Force users to log "
+"in</code> are enabled."
+msgstr "ユーザプロファイルを公開することで、スパム送信者が不正利用することができます。「プロファイル閲覧時にユーザのログインを強制する」または「ユーザのログインを強制する」を有効にすることをお勧めします。"
+
+#. check_openprofiles_error
+#: report/security/lang/en/report_security.php:55
+msgctxt "report/security/lang/en/report_security.php:check_openprofiles_error"
+msgid "Anyone can may view user profiles without logging in."
+msgstr "ログインなしで誰でもユーザプロファイルを閲覧できます。"
+
+#. check_openprofiles_name
+#: report/security/lang/en/report_security.php:56
+msgctxt "report/security/lang/en/report_security.php:check_openprofiles_name"
+msgid "Open user profiles"
+msgstr "ユーザプロファイルを公開する"
+
+#. check_openprofiles_ok
+#: report/security/lang/en/report_security.php:57
+msgctxt "report/security/lang/en/report_security.php:check_openprofiles_ok"
+msgid "Login is required before viewing user profiles."
+msgstr "ユーザプロファイルを閲覧するにはログインが必要です。"
+
+#. check_passwordpolicy_details
+#: report/security/lang/en/report_security.php:58
+msgctxt ""
+"report/security/lang/en/report_security.php:check_passwordpolicy_details"
+msgid ""
+"<p>It is recommended that a password policy is set, since password guessing "
+"is very often the easiest way to gain unauthorised access.Do not make the "
+"requirements too strict though, as this can result in users not being able "
+"to remember their passwords and either forgetting them or writing them "
+"down.</p>"
+msgstr "<p>非常に多くの場合、不正なアクセスを引き起こす可能性がありますので、パスワードポリシーの設定をお勧めします。ユーザがパスワードを記憶できなかったり、忘れたり、書き留めることがありますので、必要条件を厳格にしすぎないでください。</p>"
+
+#. check_passwordpolicy_error
+#: report/security/lang/en/report_security.php:59
+msgctxt ""
+"report/security/lang/en/report_security.php:check_passwordpolicy_error"
+msgid "Password policy not set."
+msgstr "パスワードポリシーが設定されていません。"
+
+#. check_passwordpolicy_name
+#: report/security/lang/en/report_security.php:60
+msgctxt ""
+"report/security/lang/en/report_security.php:check_passwordpolicy_name"
+msgid "Password policy"
+msgstr "パスワードポリシー"
+
+#. check_passwordpolicy_ok
+#: report/security/lang/en/report_security.php:61
+msgctxt "report/security/lang/en/report_security.php:check_passwordpolicy_ok"
+msgid "Password policy enabled."
+msgstr "パスワードポリシーが有効にされています。"
+
+#. check_riskadmin_detailsok
+#: report/security/lang/en/report_security.php:62
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskadmin_detailsok"
+msgid "<p>Please verify the following list of system administrators:</p>{$a}"
+msgstr "<p>以下の管理者リストを確認してください:</p>{$a}"
+
+#. check_riskadmin_detailswarning
+#: report/security/lang/en/report_security.php:63
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskadmin_detailswarning"
+msgid ""
+"<p>Please verify the following list of system "
+"administrators:</p>{$a->admins}<p>It is recommended to assign administrator "
+"role in the system context only. The following users have (unsupported) "
+"admin role assignments in other contexts:</p>{$a->unsupported}"
+msgstr "<p>以下のシステム管理者リストを確認してください。:</p>{$a->admins}<p>システムコンテクストのみへの管理者ロール割り当てをお勧めします。以下のユーザは、サポートされない管理者ロールが他のコンテクスト内で割り当てられています:</p>{$a->unsupported}"
+
+#. check_riskadmin_name
+#: report/security/lang/en/report_security.php:64
+msgctxt "report/security/lang/en/report_security.php:check_riskadmin_name"
+msgid "Administrators"
+msgstr "管理者"
+
+#. check_riskadmin_ok
+#: report/security/lang/en/report_security.php:65
+msgctxt "report/security/lang/en/report_security.php:check_riskadmin_ok"
+msgid "Found {$a} server administrator(s)."
+msgstr "{$a} 名のサーバ管理者が登録されています。"
+
+#. check_riskadmin_unassign
+#: report/security/lang/en/report_security.php:66
+msgctxt "report/security/lang/en/report_security.php:check_riskadmin_unassign"
+msgid ""
+"<a href=\"{$a->url}\">{$a->fullname} ({$a->email}) review role "
+"assignment</a>"
+msgstr "<a href=\"{$a->url}\">{$a->fullname} ({$a->email}) ロール割り当てのレビュー</a>"
+
+#. check_riskadmin_warning
+#: report/security/lang/en/report_security.php:67
+msgctxt "report/security/lang/en/report_security.php:check_riskadmin_warning"
+msgid ""
+"Found {$a->admincount} server administrators and {$a->unsupcount} "
+"unsupported admin role assignments."
+msgstr "{$a->admincount} 名のサーバ管理者および {$a->unsupcount} 名のサポートされない管理者ロールの割り当てが見つかりました。"
+
+#. check_riskbackup_detailsok
+#: report/security/lang/en/report_security.php:68
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskbackup_detailsok"
+msgid ""
+"No roles explicitly allow backup of user data.  However, note that admins "
+"with the \"doanything\" capability are still likely to be able to do this."
+msgstr "ユーザデータのバックアップを明確に許可しているロールはありません。しかし、「doanything」ケイパビリティを持った管理者は、まだユーザデータをバックアップできることに留意してください。"
+
+#. check_riskbackup_details_overriddenroles
+#: report/security/lang/en/report_security.php:69
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskbackup_details_overriddenroles"
+msgid ""
+"<p>These active overrides give users the ability to include user data in "
+"backups. Please make sure this permission is necessary.</p> {$a}"
+msgstr "<p>これらのアクティブなオーバーライドは、ユーザに対して、バックアップ内にユーザデータを含むことができる能力を与えます。このパーミッションが本当に必要かどうか確認してください。</p> {$a}"
+
+#. check_riskbackup_details_systemroles
+#: report/security/lang/en/report_security.php:70
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskbackup_details_systemroles"
+msgid ""
+"<p>The following system roles currently allow users to include user data in "
+"backups.  Please make sure this permission is necessary.</p> {$a}"
+msgstr "<p>現在、以下のシステムロールは、ユーザに対して、バックアップ内にユーザデータを含むことを許可しています。このパーミッションが本当に必要かどうか確認してください。</p> {$a}"
+
+#. check_riskbackup_details_users
+#: report/security/lang/en/report_security.php:71
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskbackup_details_users"
+msgid ""
+"<p>Because of the above roles or local overrides, the following user "
+"accounts currently have permission to make backups containing private data "
+"from any users enrolled in their course.  Make sure they are (a) trusted and"
+" (b) protected by strong passwords:</p> {$a}"
+msgstr "<p>上記のロールまたはローカルオーバーライドのため、以下のユーザアカウントは、現在コースに受講登録しているユーザの個人情報を含むバックアップを作成できるパーミッションを持っています。これらのユーザが、(a)信用されて、(b)強度の高いパスワードで守られていることを確認してください:</p> {$a}"
+
+#. check_riskbackup_editoverride
+#: report/security/lang/en/report_security.php:72
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskbackup_editoverride"
+msgid "<a href=\"{$a->url}\">{$a->name} in {$a->contextname}</a>"
+msgstr "<a href=\"{$a->url}\">{$a->contextname} 内の {$a->name}</a>"
+
+#. check_riskbackup_editrole
+#: report/security/lang/en/report_security.php:73
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskbackup_editrole"
+msgid "<a href=\"{$a->url}\">{$a->name}</a>"
+msgstr "<a href=\"{$a->url}\">{$a->name}</a>"
+
+#. check_riskbackup_name
+#: report/security/lang/en/report_security.php:74
+msgctxt "report/security/lang/en/report_security.php:check_riskbackup_name"
+msgid "Backup of user data"
+msgstr "ユーザデータのバックアップ"
+
+#. check_riskbackup_ok
+#: report/security/lang/en/report_security.php:75
+msgctxt "report/security/lang/en/report_security.php:check_riskbackup_ok"
+msgid "No roles explicitly allow backup of user data"
+msgstr "ユーザデータのバックアップを明確に許可しているロールはありません。"
+
+#. check_riskbackup_unassign
+#: report/security/lang/en/report_security.php:76
+msgctxt ""
+"report/security/lang/en/report_security.php:check_riskbackup_unassign"
+msgid ""
+"<a href=\"{$a->url}\">{$a->fullname} ({$a->email}) in {$a->contextname}</a>"
+msgstr "<a href=\"{$a->url}\">{$a->contextname} 内の {$a->fullname} ({$a->email})</a>"
+
+#. check_riskbackup_warning
+#: report/security/lang/en/report_security.php:77
+msgctxt "report/security/lang/en/report_security.php:check_riskbackup_warning"
+msgid ""
+"Found {$a->rolecount} roles, {$a->overridecount} overrides and "
+"{$a->usercount} users with the ability to backup user data."
+msgstr "ユーザデータをバックアップすることができる {$a->rolecount} 件のロール、{$a->overridecount} 件のオーバーライドおよび {$a->usercount} 名のユーザが見つかりました。"
+
+#. check_riskxss_details
+#: report/security/lang/en/report_security.php:78
+msgctxt "report/security/lang/en/report_security.php:check_riskxss_details"
+msgid ""
+"<p>RISK_XSS denotes all dangerous capabilities that only trusted users may "
+"use.</p><p>Please verify the following list of users and make sure that you "
+"trust them completely on this server:</p><p>{$a}</p>"
+msgstr "<p>RISK_XSSは、信頼されるユーザのみ使用できる、すべての危険なケイパビリティを意味します。</p><p>以下のユーザ一覧を閲覧して、このサーバにおいて、あなたがこれらのユーザを完全に信頼できることを確認してください:</p><p>{$a}</p>"
+
+#. check_riskxss_name
+#: report/security/lang/en/report_security.php:79
+msgctxt "report/security/lang/en/report_security.php:check_riskxss_name"
+msgid "XSS trusted users"
+msgstr "XSS信頼ユーザ"
+
+#. check_riskxss_warning
+#: report/security/lang/en/report_security.php:80
+msgctxt "report/security/lang/en/report_security.php:check_riskxss_warning"
+msgid "RISK_XSS - found {$a} users that have to be trusted."
+msgstr "RISK_XSS - {$a} 名のユーザが信頼されています。"
+
+#. check_unsecuredataroot_details
+#: report/security/lang/en/report_security.php:81
+msgctxt ""
+"report/security/lang/en/report_security.php:check_unsecuredataroot_details"
+msgid ""
+"<p>The dataroot directory must not be accessible via web. The best way to "
+"make sure the directory is not accessible is to use a directory outside the "
+"public web directory.</p><p>If you move the directory, you need to update "
+"the <code>$CFG->dataroot</code> setting in <code>config.php</code> "
+"accordingly.</p>"
+msgstr "<p>datarootディレクトリは、ウェブからアクセスできないようにしてください。ウェブからアクセスできないディレクトリを使用する最良の方法は、パブリックウェブディレクトリ外のディレクトリを使用することです。</p><p>あなたがディレクトリを移動した場合、それに応じて<code>config.php</code>の<code>$CFG->dataroot</code>設定を変更してください。</p>"
+
+#. check_unsecuredataroot_error
+#: report/security/lang/en/report_security.php:82
+msgctxt ""
+"report/security/lang/en/report_security.php:check_unsecuredataroot_error"
+msgid ""
+"Your dataroot directory <code>{$a}</code> is in the wrong location and is "
+"exposed to the web!"
+msgstr "あなたのdatarootディレクトリ <code>{$a}</code> は、正しくない場所に配置され、ウェブにさらされた状態です!"
+
+#. check_unsecuredataroot_name
+#: report/security/lang/en/report_security.php:83
+msgctxt ""
+"report/security/lang/en/report_security.php:check_unsecuredataroot_name"
+msgid "Insecure dataroot"
+msgstr "安全ではないdataroot"
+
+#. check_unsecuredataroot_ok
+#: report/security/lang/en/report_security.php:84
+msgctxt ""
+"report/security/lang/en/report_security.php:check_unsecuredataroot_ok"
+msgid "Dataroot directory must not be accessible via the web."
+msgstr "datarootディレクトリはウェブからアクセスできないようにしてください。"
+
+#. check_unsecuredataroot_warning
+#: report/security/lang/en/report_security.php:85
+msgctxt ""
+"report/security/lang/en/report_security.php:check_unsecuredataroot_warning"
+msgid ""
+"Your dataroot directory <code>{$a}</code> is in the wrong location and might"
+" be exposed to the web."
+msgstr "あなたのdatarootディレクトリ <code>{$a}</code> は、正しくない場所に配置され、ウェブにさらされた状態です。"
+
+#. configuration
+#: report/security/lang/en/report_security.php:86
+msgctxt "report/security/lang/en/report_security.php:configuration"
+msgid "Configuration"
+msgstr "設定"
+
+#. description
+#: report/security/lang/en/report_security.php:87
+msgctxt "report/security/lang/en/report_security.php:description"
+msgid "Description"
+msgstr "説明"
+
+#. details
+#: report/security/lang/en/report_security.php:88
+msgctxt "report/security/lang/en/report_security.php:details"
+msgid "Details"
+msgstr "詳細"
+
+#. issue
+#: report/security/lang/en/report_security.php:89
+msgctxt "report/security/lang/en/report_security.php:issue"
+msgid "Issue"
+msgstr "問題"
+
+#. pluginname
+#: report/security/lang/en/report_security.php:90
+msgctxt "report/security/lang/en/report_security.php:pluginname"
+msgid "Security overview"
+msgstr "セキュリティレビュー"
+
+#. security:view
+#: report/security/lang/en/report_security.php:91
+msgctxt "report/security/lang/en/report_security.php:security:view"
+msgid "View security report"
+msgstr "セキュリティレポートを表示する"
+
+#. status
+#: report/security/lang/en/report_security.php:92
+msgctxt "report/security/lang/en/report_security.php:status"
+msgid "Status"
+msgstr "ステータス"
+
+#. statuscritical
+#: report/security/lang/en/report_security.php:93
+msgctxt "report/security/lang/en/report_security.php:statuscritical"
+msgid "Critical"
+msgstr "クリティカル"
+
+#. statusinfo
+#: report/security/lang/en/report_security.php:94
+msgctxt "report/security/lang/en/report_security.php:statusinfo"
+msgid "Information"
+msgstr "情報"
+
+#. statusok
+#: report/security/lang/en/report_security.php:95
+msgctxt "report/security/lang/en/report_security.php:statusok"
+msgid "OK"
+msgstr "OK"
+
+#. statusserious
+#: report/security/lang/en/report_security.php:96
+msgctxt "report/security/lang/en/report_security.php:statusserious"
+msgid "Serious"
+msgstr "シリアス"
+
+#. statuswarning
+#: report/security/lang/en/report_security.php:97
+msgctxt "report/security/lang/en/report_security.php:statuswarning"
+msgid "Warning"
+msgstr "警告"
+
+#. timewarning
+#: report/security/lang/en/report_security.php:98
+msgctxt "report/security/lang/en/report_security.php:timewarning"
+msgid "Data processing may take a long time, please be patient..."
+msgstr "データ処理には長時間を要します、しばらくお待ちください ..."
+
+#. page-report-stats-index
+#: report/stats/lang/en/report_stats.php:1
+msgctxt "report/stats/lang/en/report_stats.php:page-report-stats-index"
+msgid "Course statistics report"
+msgstr "コース統計レポート"
+
+#. page-report-stats-user
+#: report/stats/lang/en/report_stats.php:2
+msgctxt "report/stats/lang/en/report_stats.php:page-report-stats-user"
+msgid "User course statistics report"
+msgstr "ユーザコース統計レポート"
+
+#. page-report-stats-x
+#: report/stats/lang/en/report_stats.php:3
+msgctxt "report/stats/lang/en/report_stats.php:page-report-stats-x"
+msgid "Any statistics report"
+msgstr "すべての統計レポート"
+
+#. pluginname
+#: report/stats/lang/en/report_stats.php:4
+msgctxt "report/stats/lang/en/report_stats.php:pluginname"
+msgid "Statistics"
+msgstr "統計"
+
+#. stats:view
+#: report/stats/lang/en/report_stats.php:5
+msgctxt "report/stats/lang/en/report_stats.php:stats:view"
+msgid "View course statistics report"
+msgstr "コース統計レポートを表示する"

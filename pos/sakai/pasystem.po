@@ -1,0 +1,500 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-01-08 02:26+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. Active
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:1
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Active"
+msgid "Active"
+msgstr "アクティブ"
+
+#. Are you sure you want to delete this banner?
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:2
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Are"
+" you sure you want to delete this banner?"
+msgid "Are you sure you want to delete this banner?"
+msgstr "本当にこのバナーを削除してもよろしいですか?"
+
+#. Are you sure you want to delete this popup?
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:3
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Are"
+" you sure you want to delete this popup?"
+msgid "Are you sure you want to delete this popup?"
+msgstr "本当にこのポップアップを削除してもよろしいですか?"
+
+#. Banners
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:4
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Banners"
+msgid "Banners"
+msgstr "バナー"
+
+#. Cancel
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:5
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. Close
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:6
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Close"
+msgid "Close"
+msgstr "閉じる"
+
+#. Create Banner
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:7
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Create"
+" Banner"
+msgid "Create Banner"
+msgstr "バナー作成"
+
+#. Create Popup
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:8
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Create"
+" Popup"
+msgid "Create Popup"
+msgstr "ポップアップ作成"
+
+#. Download Templates
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:9
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Download"
+" Templates"
+msgid "Download Templates"
+msgstr "テンプレートをダウンロード"
+
+#. Download ToolTip
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:10
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Download"
+" ToolTip"
+msgid ""
+"Download the Template .zip file in order to access sample templates for the "
+"Popup alert, along with a readme.txt file containing additional information."
+msgstr "追加情報を含む readme.txt と共に，ポップアップアラートのサンプルテンプレートにアクセスするためテンプレートのzipファイルをダウンロードして下さい．"
+
+#. Delete Banner
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:11
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Delete"
+" Banner"
+msgid "Delete Banner"
+msgstr "バナー削除"
+
+#. Delete Popup
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:12
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Delete"
+" Popup"
+msgid "Delete Popup"
+msgstr "ポップアップ削除"
+
+#. Description
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:13
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Description"
+msgid "Description"
+msgstr "説明"
+
+#. Dismissible
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:14
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Dismissible"
+msgid "Dismissible"
+msgstr "ポップアップを閉じる"
+
+#. Distribution
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:15
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Distribution"
+msgid "Distribution"
+msgstr "分布"
+
+#. Edit
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:16
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Edit"
+msgid "Edit"
+msgstr "編集"
+
+#. End Time
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:17
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:End"
+" Time"
+msgid "End Time"
+msgstr "終了時刻"
+
+#. From
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:18
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:From"
+msgid "From"
+msgstr "差出人"
+
+#. Hosts
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:19
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Hosts"
+msgid "Hosts"
+msgstr "ホスト"
+
+#. Message
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:20
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Message"
+msgid "Message"
+msgstr "メッセージ"
+
+#. Popups
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:21
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Popups"
+msgid "Popups"
+msgstr "ポップアップ"
+
+#. Preview
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:22
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Preview"
+msgid "Preview"
+msgstr "プレビュー"
+
+#. Save Banner
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:23
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Save"
+" Banner"
+msgid "Save Banner"
+msgstr "バナー保存"
+
+#. Save Popup
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:24
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Save"
+" Popup"
+msgid "Save Popup"
+msgstr "ポップアップ保存"
+
+#. Start Time
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:25
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Start"
+" Time"
+msgid "Start Time"
+msgstr "開始時刻"
+
+#. Template
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:26
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Template"
+msgid "Template"
+msgstr "テンプレート"
+
+#. Timezone Check
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:27
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Timezone"
+" Check"
+msgid "Timezone Check"
+msgstr "タイムゾーン確認"
+
+#. Type
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:28
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Type"
+msgid "Type"
+msgstr "種別"
+
+#. Until
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:29
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:Until"
+msgid "Until"
+msgstr "期限"
+
+#. banner_created
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:30
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_created"
+msgid "Banner Created"
+msgstr "バナーが作成されました"
+
+#. banner_deleted
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:31
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_deleted"
+msgid "Banner Deleted"
+msgstr "バナーが削除されました"
+
+#. banner_type_help
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:32
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_type_help"
+msgid ""
+"Note: When a user dismisses a \"Medium\" alert, a small \"Show System "
+"Alerts\" button will remain at the top of their screen. Clicking on this "
+"button will cause all active Medium alerts to reappear for the user."
+msgstr "注意：ユーザが \"中レベル\"アラートを無効にすると，小さな \"システムアラート表示\" ボタンが画面上部に残ります．このボタンをクリックするとすべての有効な中レベルのアラートがユーザに再表示されます．"
+
+#. banner_type_high
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:33
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_type_high"
+msgid "High"
+msgstr "高い"
+
+#. banner_type_high_option
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:34
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_type_high_option"
+msgid "High - Cannot be dismissed by user"
+msgstr "高 - ユーザにより閉じられない"
+
+#. banner_type_low
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:35
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_type_low"
+msgid "Low"
+msgstr "低"
+
+#. banner_type_low_option
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:36
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_type_low_option"
+msgid "Low - Can be permanently dismissed by user"
+msgstr "低 - ユーザによって永久に閉じられる"
+
+#. banner_type_medium
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:37
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_type_medium"
+msgid "Medium"
+msgstr "中"
+
+#. banner_type_medium_option
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:38
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_type_medium_option"
+msgid ""
+"Medium - Can be temporarily dismissed by user; reappears after 24 hours"
+msgstr "中 - ユーザによって一時的に閉じられる；24時間後に再表示"
+
+#. banner_updated
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:39
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:banner_updated"
+msgid "Banner Updated"
+msgstr "バナーが更新されました"
+
+#. distribution_everyone
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:40
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:distribution_everyone"
+msgid "Show this campaign to everyone"
+msgstr "すべてのユーザにこのキャンペーンを表示する"
+
+#. distribution_selected_users
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:41
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:distribution_selected_users"
+msgid "Show this campaign to selected users"
+msgstr "選択されたユーザにこのキャンペーンを表示する"
+
+#. invalid_time
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:42
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:invalid_time"
+msgid "Time was not valid"
+msgstr "時間が有効ではありません"
+
+#. pasystem-disabled
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:43
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties"
+":pasystem-disabled"
+msgid ""
+"The Public Announcement System has not been enabled.  Set "
+"<tt>pasystem.enabled=true</tt> in your properties file to activate it."
+msgstr "広報システムが有効になっていません．有効にするにはプロパティファイルにて<tt>pasystem.enabled=true</tt> として下さい．"
+
+#. popup_created
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:44
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:popup_created"
+msgid "Popup Created"
+msgstr "ポップアップが作成されました"
+
+#. popup_deleted
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:45
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:popup_deleted"
+msgid "Popup Deleted"
+msgstr "ポップアップが削除されました"
+
+#. popup_updated
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:46
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:popup_updated"
+msgid "Popup Updated"
+msgstr "ポップアップが更新されました"
+
+#. start_time_after_end_time
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:47
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:start_time_after_end_time"
+msgid "Start time must fall before end time"
+msgstr "開始時間は終了時間の前に設定してください．"
+
+#. template_upload_failed
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:48
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:template_upload_failed"
+msgid "Template file failed to upload"
+msgstr "テンプレートファイルのアップロードに失敗しました"
+
+#. template_was_missing
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:49
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:template_was_missing"
+msgid "Could not find a template for the selected popup screen"
+msgstr "選択したポップアップ画面のテンプレートが見つかりません．"
+
+#. timezone-check-active
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:50
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties"
+":timezone-check-active"
+msgid "Timezone checking is <strong>active</strong>"
+msgstr "タイムゾーンのチェックは<strong>有効</strong>"
+
+#. timezone-check-disabled
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:51
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties"
+":timezone-check-disabled"
+msgid ""
+"Timezone checking is <strong>disabled</strong>.  Set <tt>pasystem.timezone-"
+"check=true</tt> in your properties file to activate it."
+msgstr "タイムゾーンは<strong>無効</strong>です.有効にするにはプロパティファイルにて<tt>pasystem.timezone-check=true</tt> として下さい．"
+
+#. uuid_missing
+#: pasystem/pasystem-tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:52
+msgctxt ""
+"pasystem/pasystem-"
+"tool/tool/src/java/org/sakaiproject/pasystem/tool/i18n/pasystem.properties:uuid_missing"
+msgid "The requested record could not be found"
+msgstr "要求されたレコードが見つかりませんでした"
+
+#. popup-acknowledged
+#: pasystem/pasystem-impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties:1
+msgctxt ""
+"pasystem/pasystem-"
+"impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties"
+":popup-acknowledged"
+msgid "Don't show this again"
+msgstr "再表示しません"
+
+#. popup-remind-later
+#: pasystem/pasystem-impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties:2
+msgctxt ""
+"pasystem/pasystem-"
+"impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties"
+":popup-remind-later"
+msgid "Remind me later"
+msgstr "後で通知"
+
+#. Show System Alerts
+#: pasystem/pasystem-impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties:3
+msgctxt ""
+"pasystem/pasystem-"
+"impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties:Show"
+" System Alerts"
+msgid "Show System Alerts"
+msgstr "システム警告を表示"
+
+#. timezone-does-not-match-msg
+#: pasystem/pasystem-impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties:4
+msgctxt ""
+"pasystem/pasystem-"
+"impl/impl/src/resources/org/sakaiproject/pasystem/impl/i18n/pasystem.properties"
+":timezone-does-not-match-msg"
+msgid ""
+"Your computer's time zone <span "
+"class=\"computerTimezone\">${reportedTimezone}</span> does not match your "
+"account's time zone of <span "
+"class=\"prefsTimezone\">${prefsTimezone}</span>. <span class=\"pasystem-tz-"
+"click-here\"><a href=\"${setTimezoneUrl}\" id=\"setTimezoneMsg\">Click here "
+"to update your time zone preferences</a></span>."
+msgstr "あなたのコンピュータのタイムゾーンは <span class=\"computerTimezone\">${reportedTimezone}</span> あなたのアカウントタイムゾーンとマッチしません <span class=\"prefsTimezone\">${prefsTimezone}</span>. <span class=\"pasystem-tz-click-here\"><a href=\"${setTimezoneUrl}\" id=\"setTimezoneMsg\">ここをクリックしてタイムゾーンプリファレンスを更新してください</a></span>."

@@ -1,0 +1,339 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-02-24 23:00+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. archive
+#: archive/archive-tool/tool/src/bundle/admin.properties:1
+msgctxt "archive/archive-tool/tool/src/bundle/admin.properties:archive"
+msgid "Archiving tools and contents of site {0}:"
+msgstr "サイト {0} のツールおよびコンテンツをアーカイブしています"
+
+#. archive.file
+#: archive/archive-tool/tool/src/bundle/admin.properties:2
+msgctxt "archive/archive-tool/tool/src/bundle/admin.properties:archive.file"
+msgid "Please specify a file name and a site id for import."
+msgstr "インポートするファイル名またはサイト ID を入力してください．"
+
+#. archive.import
+#: archive/archive-tool/tool/src/bundle/admin.properties:3
+msgctxt "archive/archive-tool/tool/src/bundle/admin.properties:archive.import"
+msgid "import is limited to administrators.\n"
+msgstr "インポートは管理者のみ利用できます.\n"
+
+#. archive.import1
+#: archive/archive-tool/tool/src/bundle/admin.properties:4
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.import1"
+msgid "import {0}: from file {1} to site {2}  with creator id {3} complete.  "
+msgstr "インポート {0}: ファイルから {1} 対象サイト {2} 作成者 ID 付きで {3} 完了．"
+
+#. archive.import2
+#: archive/archive-tool/tool/src/bundle/admin.properties:5
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.import2"
+msgid "import from file {0} to site {1} complete. \n"
+msgstr "ファイル \"{0}\" からサイト \"{1}\" へのインポートが完了しました．\n"
+
+#. archive.limited
+#: archive/archive-tool/tool/src/bundle/admin.properties:6
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.limited"
+msgid "archive is limited to administrators.\n"
+msgstr "アーカイブ機能は管理者のみに制限されています.\n"
+
+#. archive.please
+#: archive/archive-tool/tool/src/bundle/admin.properties:7
+msgctxt "archive/archive-tool/tool/src/bundle/admin.properties:archive.please"
+msgid "Please specify a site to archive."
+msgstr "アーカイブするサイトを指定してください．"
+
+#. archive.vm.alert
+#: archive/archive-tool/tool/src/bundle/admin.properties:8
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.alert"
+msgid "Alert:"
+msgstr "警告:"
+
+#. archive.vm.archive1
+#: archive/archive-tool/tool/src/bundle/admin.properties:9
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.archive1"
+msgid "Archive"
+msgstr "アーカイブ"
+
+#. archive.vm.file
+#: archive/archive-tool/tool/src/bundle/admin.properties:10
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.file"
+msgid "file"
+msgstr "ファイル"
+
+#. archive.vm.from
+#: archive/archive-tool/tool/src/bundle/admin.properties:11
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.from"
+msgid "from site"
+msgstr "サイトから"
+
+#. archive.vm.import
+#: archive/archive-tool/tool/src/bundle/admin.properties:12
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.import"
+msgid "Import"
+msgstr "インポート"
+
+#. archive.vm.zip
+#: archive/archive-tool/tool/src/bundle/admin.properties:13
+msgctxt "archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.zip"
+msgid "Zip"
+msgstr "Zip"
+
+#. archive.vm.site
+#: archive/archive-tool/tool/src/bundle/admin.properties:14
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.site"
+msgid "to site"
+msgstr "サイトへ"
+
+#. archive.button.batch
+#: archive/archive-tool/tool/src/bundle/admin.properties:15
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.button.batch"
+msgid "Batch Import/Export"
+msgstr "バッチによるインポートまたはエクスポート"
+
+#. archive.button.single
+#: archive/archive-tool/tool/src/bundle/admin.properties:16
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.button.single"
+msgid "Import/Export"
+msgstr "インポート/エクスポート"
+
+#. archive.button.download
+#: archive/archive-tool/tool/src/bundle/admin.properties:17
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.button.download"
+msgid "Download archives"
+msgstr "ダウンロード　アーカイブ"
+
+#. archive.batch.auth
+#: archive/archive-tool/tool/src/bundle/admin.properties:18
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.batch.auth"
+msgid "Batch Import is limited to administrators."
+msgstr "バッチによるインポートは管理者のみ利用できます．"
+
+#. archive.batch.missingname
+#: archive/archive-tool/tool/src/bundle/admin.properties:19
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.missingname"
+msgid "Please specify a file name for batch site import."
+msgstr "バッチによるサイトインポートのためのファイル名を指定してください．"
+
+#. archive.batch.wrongformat
+#: archive/archive-tool/tool/src/bundle/admin.properties:20
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.wrongformat"
+msgid "Wrong format of batch import file. "
+msgstr "バッチによるインポートファイルのフォーマットが正しくありません．"
+
+#. archive.noaccess
+#: archive/archive-tool/tool/src/bundle/admin.properties:21
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.noaccess"
+msgid "You do not have permission to use this tool."
+msgstr "このツールにアクセスする権限がありません．"
+
+#. archive.vm.export
+#: archive/archive-tool/tool/src/bundle/admin.properties:22
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.export"
+msgid "Export"
+msgstr "エクスポート"
+
+#. archive.vm.filebatchimport
+#: archive/archive-tool/tool/src/bundle/admin.properties:23
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.vm.filebatchimport"
+msgid "Batch import file"
+msgstr "ファイルをバッチインポート"
+
+#. archive.vm.import.file
+#: archive/archive-tool/tool/src/bundle/admin.properties:24
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.import.file"
+msgid "Import from file"
+msgstr "ファイルからインポート"
+
+#. archive.vm.archive.single
+#: archive/archive-tool/tool/src/bundle/admin.properties:25
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.vm.archive.single"
+msgid "Archive and Import (single site)"
+msgstr "アーカイブおよびインポート（一つのサイト）"
+
+#. archive.vm.archive.batch
+#: archive/archive-tool/tool/src/bundle/admin.properties:26
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.vm.archive.batch"
+msgid "Archive and Import (batch)"
+msgstr "アーカイブおよびインポート（バッチ）"
+
+#. archive.vm.export.term
+#: archive/archive-tool/tool/src/bundle/admin.properties:27
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.export.term"
+msgid "Export by term"
+msgstr "学期でエクスポート"
+
+#. archive.vm.term
+#: archive/archive-tool/tool/src/bundle/admin.properties:28
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.vm.term"
+msgid "Select a term"
+msgstr "学期を選択"
+
+#. archive.batch.term.heading.confirm
+#: archive/archive-tool/tool/src/bundle/admin.properties:29
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.heading.confirm"
+msgid "Confirm batch archive"
+msgstr "バッチアーカイブを確認"
+
+#. archive.batch.term.button.confirm
+#: archive/archive-tool/tool/src/bundle/admin.properties:30
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.button.confirm"
+msgid "Archive these sites"
+msgstr "これらのサイトをアーカイブ"
+
+#. archive.batch.term.button.cancel
+#: archive/archive-tool/tool/src/bundle/admin.properties:31
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.button.cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. archive.batch.term.text.confirm.1
+#: archive/archive-tool/tool/src/bundle/admin.properties:32
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.text.confirm.1"
+msgid ""
+"The following sites were found matching term: <b>{0}</b>. Click ''Archive "
+"these sites'' to begin archiving."
+msgstr "つぎのサイトが一致する学期として見つかりました：　<b>{0}</b>．アーカイブを始めるには''これらのサイトをアーカイブ''をクリックして下さい．"
+
+#. archive.batch.term.text.nosites
+#: archive/archive-tool/tool/src/bundle/admin.properties:33
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.text.nosites"
+msgid "No sites were found matching term: <b>{0}</b>"
+msgstr "一致する学期は見つかりませんでした: <b>{0}</b>"
+
+#. archive.batch.term.text.missingterm
+#: archive/archive-tool/tool/src/bundle/admin.properties:34
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.text.missingterm"
+msgid "Please choose a term to run a batch archive"
+msgstr "バッチアーカイブをする学期を選択シて下さい．"
+
+#. archive.batch.term.text.statusmessage.start
+#: archive/archive-tool/tool/src/bundle/admin.properties:35
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.text.statusmessage.start"
+msgid "Archiving <b>{0}</b> sites for term: <b>{1}</b>. {2}% complete."
+msgstr "アーカイブしている学期 : <b>{1}</b>の<b>{0}</b> サイト. {2}% 完了."
+
+#. archive.batch.term.text.statusmessage.update
+#: archive/archive-tool/tool/src/bundle/admin.properties:36
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.text.statusmessage.update"
+msgid ""
+"Archiving <b>{0}</b> sites for term: <b>{1}</b>. {2} sites archived. {3}% "
+"complete."
+msgstr "アーカイブしている学期 : <b>{1}</b>の<b>{0}</b> サイト. {2} サイトアーカイブ．{2}% 完了."
+
+#. archive.batch.term.text.statusmessage.complete
+#: archive/archive-tool/tool/src/bundle/admin.properties:37
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.batch.term.text.statusmessage.complete"
+msgid "Archived <b>{0}</b> sites for term: <b>{1}</b>. Refresh to continue."
+msgstr "学期 : <b>{1}</b>の<b>{0}</b> サイトをアーカイブしました. 続けるには更新してください."
+
+#. archive.download.heading
+#: archive/archive-tool/tool/src/bundle/admin.properties:38
+msgctxt ""
+"archive/archive-"
+"tool/tool/src/bundle/admin.properties:archive.download.heading"
+msgid "Download archives"
+msgstr "アーカイブのダウンロード"
+
+#. archive.download.site
+#: archive/archive-tool/tool/src/bundle/admin.properties:39
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.download.site"
+msgid "Site details"
+msgstr "サイト詳細"
+
+#. archive.download.date
+#: archive/archive-tool/tool/src/bundle/admin.properties:40
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.download.date"
+msgid "Date archived"
+msgstr "アーカイブ日付"
+
+#. archive.download.size
+#: archive/archive-tool/tool/src/bundle/admin.properties:41
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.download.size"
+msgid "Size"
+msgstr "サイズ"
+
+#. archive.download.hash
+#: archive/archive-tool/tool/src/bundle/admin.properties:42
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.download.hash"
+msgid "Hash <small>(SHA-1)</small>"
+msgstr "ハッシュ<small>(SHA-1)</small>"
+
+#. archive.download.auth
+#: archive/archive-tool/tool/src/bundle/admin.properties:43
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.download.auth"
+msgid "Archive download is limited to administrators."
+msgstr "アーカイブ ダウンロードは管理者に限定されています．"
+
+#. archive.download.none
+#: archive/archive-tool/tool/src/bundle/admin.properties:44
+msgctxt ""
+"archive/archive-tool/tool/src/bundle/admin.properties:archive.download.none"
+msgid "No archives are available to download at this time."
+msgstr "ダウンロードできるアーカイブは現在ありません．"

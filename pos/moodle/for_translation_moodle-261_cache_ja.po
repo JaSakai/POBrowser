@@ -1,0 +1,508 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:28+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. pluginname
+#: cache/locks/file/lang/en/cachelock_file.php:1
+msgctxt "cache/locks/file/lang/en/cachelock_file.php:pluginname"
+msgid "File locking"
+msgstr "ファイルロッキング"
+
+#. autocreate
+#: cache/stores/file/lang/en/cachestore_file.php:1
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:autocreate"
+msgid "Auto create directory"
+msgstr "自動ディレクトリ作成"
+
+#. autocreate_help
+#: cache/stores/file/lang/en/cachestore_file.php:2
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:autocreate_help"
+msgid ""
+"If enabled the directory specified in path will be automatically created if "
+"it does not already exist."
+msgstr "有効にした場合、指定されたパスにディレクトリがすでに存在しない場合に自動作成されます。"
+
+#. path
+#: cache/stores/file/lang/en/cachestore_file.php:3
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:path"
+msgid "Cache path"
+msgstr "キャッシュパス"
+
+#. path_help
+#: cache/stores/file/lang/en/cachestore_file.php:4
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:path_help"
+msgid ""
+"The directory that should be used to store files for this cache store. If "
+"left blank (default) a directory will be automatically created in the "
+"moodledata directory. This can be used to point a file store towards a "
+"directory on a better performing drive (such as one in memory)."
+msgstr "このキャッシュストアのファイルを保存するために使用されるディレクトリです。空白 (デフォルト) にした場合、moodledataディレクトリ内にディレクトリが自動作成されます。これはパフォーマンスの良いドライブ (メモリ等) に対して、ファイルストアをポイントするために使用することができます。"
+
+#. pluginname
+#: cache/stores/file/lang/en/cachestore_file.php:5
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:pluginname"
+msgid "File cache"
+msgstr "ファイルキャッシュ"
+
+#. prescan
+#: cache/stores/file/lang/en/cachestore_file.php:6
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:prescan"
+msgid "Prescan directory"
+msgstr "ディレクトリを事前スキャンする"
+
+#. prescan_help
+#: cache/stores/file/lang/en/cachestore_file.php:7
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:prescan_help"
+msgid ""
+"If enabled the directory is scanned when the cache is first used and "
+"requests for files are first checked against the scan data. This can help if"
+" you have a slow file system and are finding that file operations are "
+"causing you a bottle neck."
+msgstr "有効にした場合、キャッシュが最初に使用され、スキャンデータに対してファイルリクエストが最初にチェックされる時点でディレクトリがスキャンされます。あなたが遅いファイルシステムを使用して、ファイル処理がボトルネックを発生させている場合、この処理は役に立ちます。"
+
+#. singledirectory
+#: cache/stores/file/lang/en/cachestore_file.php:8
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:singledirectory"
+msgid "Single directory store"
+msgstr "単一ディレクトリストア"
+
+#. singledirectory_help
+#: cache/stores/file/lang/en/cachestore_file.php:9
+msgctxt "cache/stores/file/lang/en/cachestore_file.php:singledirectory_help"
+msgid ""
+"If enabled files (cached items) will be stored in a single directory rather than being broken up into multiple directories.<br />Enabling this will speed up file interactions but comes at the cost of increased risk of hitting file system limitations.<br />\n"
+"It is advisable to only turn this on if the following is true:<br />\n"
+"  - If you know the number of items in the cache is going to be small enough that it won't cause issues on the file system you are running with.<br />\n"
+"  - The data being cached is not expensive to generate. If it is then sticking with the default may still be the better option as it reduces the chance of issues."
+msgstr "有効にした場合、ファイル (キャッシュアイテム) は複数のディレクトリに分けられるのではなく、単一ディレクトリに保存されます。<br />有効にすることで、ファイルインタラクションをスピードアップすることができますが、ファイルシステム制限に達するリスクを増大させる可能性があります。<br />\n以下の場合のみ、この設定を有効にすることをお勧めします:<br />\n - あなたが動作させているファイルシステムに問題を発生しない十分に少ない量のアイテムがキャッシュ内に保存されることを把握している場合。<br />\n - キャッシュされるデータの生成がコスト高にならないこと。その場合、デフォルトのままにすることで、問題発生の可能性を減らす好ましい選択肢となります。"
+
+#. pluginname
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:1
+msgctxt "cache/stores/memcache/lang/en/cachestore_memcache.php:pluginname"
+msgid "Memcache"
+msgstr "Memcache"
+
+#. prefix
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:2
+msgctxt "cache/stores/memcache/lang/en/cachestore_memcache.php:prefix"
+msgid "Key prefix"
+msgstr "キー接頭辞"
+
+#. prefix_help
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:3
+msgctxt "cache/stores/memcache/lang/en/cachestore_memcache.php:prefix_help"
+msgid ""
+"This prefix is used for all key names on the memcache server.* If you only have one Moodle instance using this server, you can leave this value default.\n"
+"* Due to key length restrictions, a maximum of 5 characters is permitted."
+msgstr "この接頭辞はmemcacheサーバで使用されるすべてのキー名に使用されます。* このサーバに1つのインスタンスのみ存在する場合、あなたはこの値をデフォルトのままにすることができます。\n* キー長の制限のため、半角5文字の最大長が許可されています。"
+
+#. prefixinvalid
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:4
+msgctxt "cache/stores/memcache/lang/en/cachestore_memcache.php:prefixinvalid"
+msgid "Invalid prefix. You can only use a-z A-Z 0-9-_."
+msgstr "無効な接頭辞です。あなたは「a-z A-Z 0-9-_」のみ使用することができます。"
+
+#. servers
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:5
+msgctxt "cache/stores/memcache/lang/en/cachestore_memcache.php:servers"
+msgid "Servers"
+msgstr "サーバ"
+
+#. servers_help
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:6
+msgctxt "cache/stores/memcache/lang/en/cachestore_memcache.php:servers_help"
+msgid ""
+"This sets the servers that should be utilised by this memcache adapter.Servers should be defined one per line and consist of a server address and optionally a port and weight.\n"
+"If no port is provided then the default port (11211) is used.\n"
+"\n"
+"For example:\n"
+"<pre>\n"
+"server.url.com\n"
+"ipaddress:port\n"
+"servername:port:weight\n"
+"</pre>"
+msgstr "ここではmemcacheアダプタに使用されるサーバを設定します。サーバは1行に1台のサーバアドレス、任意でポートおよびウェイト値を記述することができます。\nポートが指定されない場合、デフォルトポート (11211) が使用されます。\n\n例:\n<pre>\nserver.url.com\nipaddress:ポート\nservername:ポート:ウェイト値\n</pre>"
+
+#. testservers
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:7
+msgctxt "cache/stores/memcache/lang/en/cachestore_memcache.php:testservers"
+msgid "Test servers"
+msgstr "テストサーバ"
+
+#. testservers_desc
+#: cache/stores/memcache/lang/en/cachestore_memcache.php:8
+msgctxt ""
+"cache/stores/memcache/lang/en/cachestore_memcache.php:testservers_desc"
+msgid ""
+"The test servers get used for unit tests and for performance tests. It is "
+"entirely optional to set up test servers. Servers should be defined one per "
+"line and consist of a server address and optionally a port and weight.If no "
+"port is provided then the default port (11211) is used."
+msgstr "テストサーバは単体テストおよびパフォーマンステストに使用されます。テストサーバの配置は完全に任意です。サーバは1行に1台のサーバアドレス、任意でポートおよびウェイト値を記述することができます。ポートが指定されない場合、デフォルトポート (11211) が使用されます。"
+
+#. bufferwrites
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:1
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:bufferwrites"
+msgid "Buffer writes"
+msgstr "書き込みバッファ"
+
+#. bufferwrites_help
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:2
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:bufferwrites_help"
+msgid ""
+"Enables or disables buffered I/O. Enabling buffered I/O causes storage "
+"commands to \"buffer\" instead of being sent. Any action that retrieves data"
+" causes this buffer to be sent to the remote connection. Quitting the "
+"connection or closing down the connection will also cause the buffered data "
+"to be pushed to the remote connection."
+msgstr "I/Oバッファを有効または無効にします。I/Oバッファを有効にすることで、コマンドを送信する代わりに「バッファ」に保持します。データ参照に関する操作すべてにおいて、このバッファをリモート接続に送信します。接続終了または閉鎖に関しても、リモート接続にバッファ済みデータが送信されることになります。"
+
+#. hash
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:3
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash"
+msgid "Hash method"
+msgstr "ハッシュメソッド"
+
+#. hash_crc
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:4
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_crc"
+msgid "CRC"
+msgstr "CRC"
+
+#. hash_default
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:5
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_default"
+msgid "Default (one-at-a-time)"
+msgstr "デフォルト (1回につき1つ)"
+
+#. hash_fnv1_32
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:6
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_fnv1_32"
+msgid "FNV1_32"
+msgstr "FNV1_32"
+
+#. hash_fnv1_64
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:7
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_fnv1_64"
+msgid "FNV1_64"
+msgstr "FNV1_64"
+
+#. hash_fnv1a_32
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:8
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:hash_fnv1a_32"
+msgid "FNV1A_32"
+msgstr "FNV1A_32"
+
+#. hash_fnv1a_64
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:9
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:hash_fnv1a_64"
+msgid "FNV1A_64"
+msgstr "FNV1A_64"
+
+#. hash_help
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:10
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_help"
+msgid ""
+"Specifies the hashing algorithm used for the item keys. Each hash algorithm "
+"has its advantages and its disadvantages. Go with the default if you don't "
+"know or don't care."
+msgstr "アイテムキーに使用されるハッシュアルゴリズムを指定してください。それぞれのハッシュアルゴリズムには利点と不利点があります。あなたが分からない場合、または気にしない場合、デフォルトのままにしてください。"
+
+#. hash_hsieh
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:11
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_hsieh"
+msgid "Hsieh"
+msgstr "Hsieh"
+
+#. hash_md5
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:12
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_md5"
+msgid "MD5"
+msgstr "MD5"
+
+#. hash_murmur
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:13
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:hash_murmur"
+msgid "Murmur"
+msgstr "Murmur"
+
+#. pluginname
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:14
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:pluginname"
+msgid "Memcached"
+msgstr "Memcached"
+
+#. prefix
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:15
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:prefix"
+msgid "Prefix key"
+msgstr "前置キー"
+
+#. prefix_help
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:16
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:prefix_help"
+msgid ""
+"This can be used to create a \"domain\" for your item keys allowing you to "
+"create multiple memcached stores on a single memcached installation. It "
+"cannot be longer than 16 characters in order to ensure key length issues are"
+" not encountered."
+msgstr "この設定はアイテムキーに「ドメイン」を作成するために使用することができます。あなたは単一のmemcachedインストレーションにおいて、複数のmemcachedストアを作成できるようになります。キー長の問題に遭遇しないために、文字長は半角16文字以上にすることはできません。"
+
+#. prefixinvalid
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:17
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:prefixinvalid"
+msgid "Invalid prefix. You can only use a-z A-Z 0-9-_."
+msgstr "無効な接頭辞です。あなたは「a-z A-Z 0-9-_」のみ使用することができます。"
+
+#. serialiser_igbinary
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:18
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:serialiser_igbinary"
+msgid "The igbinary serializer."
+msgstr "igbinaryシリアライザ"
+
+#. serialiser_json
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:19
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:serialiser_json"
+msgid "The JSON serializer."
+msgstr "JSONシリアライザ"
+
+#. serialiser_php
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:20
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:serialiser_php"
+msgid "The default PHP serializer."
+msgstr "デフォルトのPHPシリアライザ"
+
+#. servers
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:21
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:servers"
+msgid "Servers"
+msgstr "サーバ"
+
+#. servers_help
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:22
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:servers_help"
+msgid ""
+"This sets the servers that should be utilised by this memcached adapter.Servers should be defined one per line and consist of a server address and optionally a port and weight.\n"
+"If no port is provided then the default port (11211) is used.\n"
+"\n"
+"For example:\n"
+"<pre>\n"
+"server.url.com\n"
+"ipaddress:port\n"
+"servername:port:weight\n"
+"</pre>"
+msgstr "ここではmemcachedアダプタに使用されるサーバを設定します。サーバは1行に1台のサーバアドレス、任意でポートおよびウェイト値を記述することができます。\nポートが指定されない場合、デフォルトポート (11211) が使用されます。\n\n例:\n<pre>\nserver.url.com\nipaddress:ポート\nservername:ポート:ウェイト値\n</pre>"
+
+#. testservers
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:23
+msgctxt "cache/stores/memcached/lang/en/cachestore_memcached.php:testservers"
+msgid "Test servers"
+msgstr "テストサーバ"
+
+#. testservers_desc
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:24
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:testservers_desc"
+msgid ""
+"The test servers get used for unit tests and for performance tests. It is "
+"entirely optional to set up test servers. Servers should be defined one per "
+"line and consist of a server address and optionally a port and weight.If no "
+"port is provided then the default port (11211) is used."
+msgstr "テストサーバは単体テストおよびパフォーマンステストに使用されます。テストサーバの配置は完全に任意です。サーバは1行に1台のサーバアドレス、任意でポートおよびウェイト値を記述することができます。ポートが指定されない場合、デフォルトポート (11211) が使用されます。"
+
+#. usecompression
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:25
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:usecompression"
+msgid "Use compression"
+msgstr "圧縮を使用する"
+
+#. usecompression_help
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:26
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:usecompression_help"
+msgid ""
+"Enables or disables payload compression. When enabled, item values longer "
+"than a certain threshold (currently 100 bytes) will be compressed during "
+"storage and decompressed during retrieval transparently."
+msgstr "ペイロード圧縮を有効または無効にします。有効にした場合、特定の閾値より長いアイテム値 (現在100バイト) は透過的に、保存時に圧縮され、参照時に解凍されます。"
+
+#. useserialiser
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:27
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:useserialiser"
+msgid "Use serialiser"
+msgstr "シリアライザを使用する"
+
+#. useserialiser_help
+#: cache/stores/memcached/lang/en/cachestore_memcached.php:28
+msgctxt ""
+"cache/stores/memcached/lang/en/cachestore_memcached.php:useserialiser_help"
+msgid ""
+"Specifies the serializer to use for serializing non-scalar values.The valid serializers are Memcached::SERIALIZER_PHP or Memcached::SERIALIZER_IGBINARY.\n"
+"The latter is supported only when memcached is configured with --enable-memcached-igbinary option and the igbinary extension is loaded."
+msgstr "非スカラ値をシリアライズするためのシリアライザを指定してください。有効なシリアライザは次のとおりです: Memcached::SERIALIZER_PHP または Memcached::SERIALIZER_IGBINARY。後者はmemcachedが「--enable-memcached-igbinary」オプションにより設定され、igbinary拡張モジュールがロードされている場合のみサポートされます。"
+
+#. database
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:1
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:database"
+msgid "Database"
+msgstr "データベース"
+
+#. database_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:2
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:database_help"
+msgid "The name of the database to make use of."
+msgstr "使用するデータベース名です。"
+
+#. extendedmode
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:3
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:extendedmode"
+msgid "Use extended keys"
+msgstr "拡張キーを使用する"
+
+#. extendedmode_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:4
+msgctxt ""
+"cache/stores/mongodb/lang/en/cachestore_mongodb.php:extendedmode_help"
+msgid ""
+"If enabled full key sets will be used when working with the plugin. This "
+"isn't used internally yet but would allow you to easily search and "
+"investigate the MongoDB plugin manually if you so choose. Turning this on "
+"will add an small overhead so should only be done if you require it."
+msgstr "有効にした場合、プラグインとの連携にフルキーセットが使用されます。現在のところ、内部的には使用されませんが、あなたは簡単にMongoDBプラグインを検索および調査することができます。この設定を有効にすることで、少しだけ負荷が増大します。そのため、あなたが必要な場合のみ有効にしてください。"
+
+#. password
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:5
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:password"
+msgid "Password"
+msgstr "パスワード"
+
+#. password_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:6
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:password_help"
+msgid "The password of the user being used for the connection."
+msgstr "接続に使用されるユーザパスワードです。"
+
+#. pluginname
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:7
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:pluginname"
+msgid "MongoDB"
+msgstr "MongoDB"
+
+#. replicaset
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:8
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:replicaset"
+msgid "Replica set"
+msgstr "レプリカセット"
+
+#. replicaset_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:9
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:replicaset_help"
+msgid ""
+"The name of the replica set to connect to. If this is given the master will "
+"be determined by using the ismaster database command on the seeds, so the "
+"driver may end up connecting to a server that was not even listed."
+msgstr "接続するレプリカセット名です。この名称が設定された場合、シードのismasterデータベースコマンドを使ってマスタが決定されます。そのため、リスト内に存在しないサーバであっても、ドライバは接続することができます。"
+
+#. server
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:10
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:server"
+msgid "Server"
+msgstr "サーバ"
+
+#. server_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:11
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:server_help"
+msgid ""
+"This is the connection string for the server you want to use. Multiple "
+"servers can be specified using a comma-separated list."
+msgstr "これはあなたが使用したいサーバへの接続ストリングです。カンマで区切ることにより、複数サーバを指定することができます。"
+
+#. testserver
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:12
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:testserver"
+msgid "Test server"
+msgstr "テストサーバ"
+
+#. testserver_desc
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:13
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:testserver_desc"
+msgid ""
+"This is the connection string for the test server you want to use. Test "
+"servers are entirely optional, by specifiying a test server you can run "
+"PHPunit tests for this store and can run the performance tests."
+msgstr "これはあなたが使用したいテストサーバへの接続ストリングです。テストサーバは完全に任意です。テストサーバを指定することで、あなたはこのストアに関するPHPunitテストおよびパフォーマンステストを実行することができます。"
+
+#. username
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:14
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:username"
+msgid "Username"
+msgstr "ユーザ名"
+
+#. username_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:15
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:username_help"
+msgid "The username to use when making a connection."
+msgstr "接続に使用されるユーザ名です。"
+
+#. usesafe
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:16
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:usesafe"
+msgid "Use safe"
+msgstr "セーフを使用する"
+
+#. usesafe_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:17
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:usesafe_help"
+msgid ""
+"If enabled the usesafe option will be used during insert, get, and remove "
+"operations. If you've specified a replica set this will be forced on anyway."
+msgstr "有効にした場合、挿入、取得および削除処理時にusesafeオプションが使用されます。あなたがレプリカセットを指定している場合、この設定は強制されます。"
+
+#. usesafevalue
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:18
+msgctxt "cache/stores/mongodb/lang/en/cachestore_mongodb.php:usesafevalue"
+msgid "Use safe value"
+msgstr "セーフ値を使用する"
+
+#. usesafevalue_help
+#: cache/stores/mongodb/lang/en/cachestore_mongodb.php:19
+msgctxt ""
+"cache/stores/mongodb/lang/en/cachestore_mongodb.php:usesafevalue_help"
+msgid ""
+"You can choose to provide a specific value for use safe. This will determine"
+" the number of servers that operations must be completed on before they are "
+"deemed to have been completed."
+msgstr "あなたはsafeオプションの使用に関して、特定の値を指定することができます。ここでは完了したとみなされる前に、処理を完了する必要のあるサーバ数を決定します。"
+
+#. pluginname
+#: cache/stores/session/lang/en/cachestore_session.php:1
+msgctxt "cache/stores/session/lang/en/cachestore_session.php:pluginname"
+msgid "Session cache"
+msgstr "セッションキャッシュ"
+
+#. pluginname
+#: cache/stores/static/lang/en/cachestore_static.php:1
+msgctxt "cache/stores/static/lang/en/cachestore_static.php:pluginname"
+msgid "Static request cache"
+msgstr "静的リクエストキャッシュ"

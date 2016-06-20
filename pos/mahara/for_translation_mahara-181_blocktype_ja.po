@@ -1,0 +1,1022 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: mahara-1.8.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-07 06:14+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:47+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/mahara-181/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. title
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:1
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:title"
+msgid "Creative Commons license"
+msgstr "クリエイティブ・コモンズ・ライセンス"
+
+#. description
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:2
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:description"
+msgid "Attach a Creative Commons license to your page"
+msgstr "あなたのページにクリエイティブ・コモンズ・ライセンスを添付します。"
+
+#. blockcontent
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:3
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:blockcontent"
+msgid "Block content"
+msgstr "コンテンツをブロックする"
+
+#. alttext
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:4
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:alttext"
+msgid "Creative Commons license"
+msgstr "クリエイティブ・コモンズ・ライセンス"
+
+#. cclicensename
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:5
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:cclicensename"
+msgid "Creative Commons %s 3.0 Unported"
+msgstr "クリエイティブ・コモンズ %s 3.0 Unported"
+
+#. cclicensestatement
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:6
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:cclicensestatement"
+msgid "%s by %s is licensed under a %s license."
+msgstr "%s by %s は %s ライセンスの下に提供されています。"
+
+#. otherpermissions
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:7
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:otherpermissions"
+msgid "Permissions beyond the scope of this license may be available from %s."
+msgstr "このライセンスの範囲を超えた使用は %s の許可が必要です。"
+
+#. sealalttext
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:8
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:sealalttext"
+msgid "This license is acceptable for Free Cultural Works."
+msgstr "このライセンスはフリーな文化的作品 (Free Cultural Works) に関して許可されます。"
+
+#. config:noncommercial
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:9
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:config:noncommercial"
+msgid "Allow commercial uses of your work?"
+msgstr "あなたの作品の商用利用を許可しますか?"
+
+#. config:noderivatives
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:10
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:config:noderivatives"
+msgid "Allow modifications of your work?"
+msgstr "あなたの作品の修正を許可しますか?"
+
+#. config:sharealike
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:11
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:config:sharealike"
+msgid "Yes, as long as others share alike"
+msgstr "Yes、他の人が同一許諾条件を保持する場合"
+
+#. by
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:12
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:by"
+msgid "Attribution"
+msgstr "表示"
+
+#. by-sa
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:13
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:by-sa"
+msgid "Attribution-Share Alike"
+msgstr "表示-継承"
+
+#. by-nd
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:14
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:by-nd"
+msgid "Attribution-No Derivative Works"
+msgstr "表示-改変禁止"
+
+#. by-nc
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:15
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:by-nc"
+msgid "Attribution-Noncommercial"
+msgstr "表示-非営利"
+
+#. by-nc-sa
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:16
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:by-nc-"
+"sa"
+msgid "Attribution-Noncommercial-Share Alike"
+msgstr "表示-非営利-継承"
+
+#. by-nc-nd
+#: blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:17
+msgctxt ""
+"blocktype/creativecommons/lang/en.utf8/blocktype.creativecommons.php:by-nc-"
+"nd"
+msgid "Attribution-Noncommercial-No Derivative Works"
+msgstr "表示-非営利-改変禁止"
+
+#. title
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:1
+msgctxt "blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:title"
+msgid "External feed"
+msgstr "外部フィード"
+
+#. description
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:2
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:description"
+msgid "Embed an external RSS or ATOM feed"
+msgstr "外部RSSまたはATOMフィードを埋め込みます。"
+
+#. authuser
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:3
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:authuser"
+msgid "HTTP username"
+msgstr "HTTPユーザ名"
+
+#. authuserdesc
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:4
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:authuserdesc"
+msgid ""
+"Username (HTTP basic authentication) needed to access this feed (if "
+"required)"
+msgstr "このフィードへのアクセスに必要なユーザ名 (HTTP基本認証) です (必要であれば)。"
+
+#. authpassword
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:5
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:authpassword"
+msgid "HTTP password"
+msgstr "HTTPパスワード"
+
+#. authpassworddesc
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:6
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:authpassworddesc"
+msgid ""
+"Password (HTTP basic authentication) needed to access this feed (if "
+"required)"
+msgstr "このフィードへのアクセスに必要なパスワード (HTTP基本認証) です (必要であれば)。"
+
+#. feedlocation
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:7
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:feedlocation"
+msgid "Feed location"
+msgstr "フィードロケーション"
+
+#. feedlocationdesc
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:8
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:feedlocationdesc"
+msgid "URL of a valid RSS or ATOM feed"
+msgstr "有効なRSSまたはATOMフィードのURI"
+
+#. insecuresslmode
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:9
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:insecuresslmode"
+msgid "Insecure SSL mode"
+msgstr "安全ではないSSLモード"
+
+#. insecuresslmodedesc
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:10
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:insecuresslmodedesc"
+msgid ""
+"Disable SSL certificate verification. This is not recommended but might be "
+"necessary if the feed is served using an invalid or untrusted certificate."
+msgstr "SSL証明書認証を無効にします。これはお勧めできる設定ではありませんが、無効または信頼できない証明書を使ってフィードが提供されている場合に必要であると思われます。"
+
+#. itemstoshow
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:11
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:itemstoshow"
+msgid "Items to show"
+msgstr "表示するアイテム数"
+
+#. itemstoshowdescription
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:12
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:itemstoshowdescription"
+msgid "Between 1 and 20"
+msgstr "範囲: 1～20"
+
+#. showfeeditemsinfull
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:13
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:showfeeditemsinfull"
+msgid "Show feed items in full"
+msgstr "フィードアイテムを完全に表示しますか?"
+
+#. showfeeditemsinfulldesc
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:14
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:showfeeditemsinfulldesc"
+msgid ""
+"Whether to show a summary of the feed items or show the full text for each "
+"one."
+msgstr "ここではフィードアイテムの要約を表示するか、それぞれのフィードアイテムの詳細を表示するか選択してください。"
+
+#. invalidurl
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:15
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:invalidurl"
+msgid "That URL is invalid. You can only view feeds for http and https URLs."
+msgstr "指定されたURIが有効ではありません。あなたはhttpおよびhttpsのURIからのみフィードを表示することができます。"
+
+#. invalidfeed
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:16
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:invalidfeed"
+msgid "The feed appears to be invalid. The error reported was: %s"
+msgstr "フィードが有効ではないようです。レポートされたエラーは次のとおりです: %s"
+
+#. lastupdatedon
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:17
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:lastupdatedon"
+msgid "Last updated on %s"
+msgstr "最終更新日時: %s"
+
+#. defaulttitledescription
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:18
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:defaulttitledescription"
+msgid "If you leave this blank, the title of the feed will be used."
+msgstr "ここを空白にした場合、フィードのタイトルが使用されます。"
+
+#. reenterpassword
+#: blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:19
+msgctxt ""
+"blocktype/externalfeed/lang/en.utf8/blocktype.externalfeed.php:reenterpassword"
+msgid ""
+"Because you have changed the URL of the feed, please re-enter (or delete) "
+"the password."
+msgstr "あなたはフィードのURIを変更しました。パスワードを再入力 (または削除) してください。"
+
+#. title
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:1
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:title"
+msgid "External media"
+msgstr "外部ビデオ"
+
+#. description
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:2
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:description"
+msgid "Embed external content"
+msgstr "外部ビデオを埋め込みます。"
+
+#. urlorembedcode
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:3
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:urlorembedcode"
+msgid "URL or embed code"
+msgstr "URIまたは埋め込みコード"
+
+#. videourldescription3
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:4
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:videourldescription3"
+msgid ""
+"Paste the <strong>embed code</strong> or the <strong>URL</strong> of the "
+"page where the content is located."
+msgstr "コンテンツが設置されているページの<strong>埋め込みコード</strong>または<strong>URI</strong>を貼り付けてください。"
+
+#. validiframesites
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:5
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:validiframesites"
+msgid ""
+"<strong>Embed code</strong> containing &lt;iframe&gt; tags is allowed from "
+"the following sites:"
+msgstr "&lt;iframe&gt;タグを含む以下のサイトの<strong>埋め込みコード</strong>が許可されます:"
+
+#. validurlsites
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:6
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:validurlsites"
+msgid "<strong>URLs</strong> from the following sites are allowed:"
+msgstr "以下のサイトの<strong>URI</strong>が許可されます:"
+
+#. width
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:7
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:width"
+msgid "Width"
+msgstr "幅"
+
+#. height
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:8
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:height"
+msgid "Height"
+msgstr "高さ"
+
+#. widthheightdescription
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:9
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:widthheightdescription"
+msgid ""
+"Width and height fields are only used for URLs. If you have entered embed or"
+" iframe code above, you need to update the width and height within the code "
+"itself."
+msgstr "「幅」および「高さ」フィールドはURIのみに使用されます。上記で「embed」または「iframe」タグを入力している場合、あなたはコード内で幅および高さを更新する必要があります。"
+
+#. invalidurl
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:10
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:invalidurl"
+msgid "Invalid URL"
+msgstr "無効なURI"
+
+#. googlevideo
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:11
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:googlevideo"
+msgid "Google Video"
+msgstr "Googleビデオ"
+
+#. scivee
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:12
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:scivee"
+msgid "SciVee"
+msgstr "SciVee"
+
+#. youtube
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:13
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:youtube"
+msgid "YouTube"
+msgstr "YouTube"
+
+#. teachertube
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:14
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:teachertube"
+msgid "TeacherTube"
+msgstr "TeacherTube"
+
+#. slideshare
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:15
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:slideshare"
+msgid "SlideShare"
+msgstr "SlideShare"
+
+#. prezi
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:16
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:prezi"
+msgid "Prezi"
+msgstr "Prezi"
+
+#. glogster
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:17
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:glogster"
+msgid "Glogster"
+msgstr "Glogster"
+
+#. vimeo
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:18
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:vimeo"
+msgid "Vimeo"
+msgstr "Vimeo"
+
+#. voki
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:19
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:voki"
+msgid "Voki"
+msgstr "Voki"
+
+#. voicethread
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:20
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:voicethread"
+msgid "VoiceThread"
+msgstr "VoiceThread"
+
+#. wikieducator
+#: blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:21
+msgctxt ""
+"blocktype/externalvideo/lang/en.utf8/blocktype.externalvideo.php:wikieducator"
+msgid "WikiEducator"
+msgstr "WikiEducator"
+
+#. title
+#: blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:1
+msgctxt "blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:title"
+msgid "Google Apps"
+msgstr "Google Apps"
+
+#. description
+#: blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:2
+msgctxt ""
+"blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:description"
+msgid "Embed Google calendar or docs"
+msgstr "Googleカレンダーおよびドキュメントを埋め込みます。"
+
+#. appscodeorurl
+#: blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:3
+msgctxt ""
+"blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:appscodeorurl"
+msgid "Embed code or URL"
+msgstr "コードまたはURIを埋め込む"
+
+#. appscodeorurldesc
+#: blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:4
+msgctxt ""
+"blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:appscodeorurldesc"
+msgid ""
+"Paste the embed code or the URL of the page where Google Apps is publicly "
+"viewable."
+msgstr "Google Appsを外部から閲覧できるページのコードまたはURIを貼り付けてください。"
+
+#. height
+#: blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:5
+msgctxt "blocktype/googleapps/lang/en.utf8/blocktype.googleapps.php:height"
+msgid "Height"
+msgstr "高さ"
+
+#. title
+#: blocktype/groupinfo/lang/en.utf8/blocktype.groupinfo.php:1
+msgctxt "blocktype/groupinfo/lang/en.utf8/blocktype.groupinfo.php:title"
+msgid "Group info"
+msgstr "グループ情報"
+
+#. description
+#: blocktype/groupinfo/lang/en.utf8/blocktype.groupinfo.php:2
+msgctxt "blocktype/groupinfo/lang/en.utf8/blocktype.groupinfo.php:description"
+msgid "Display information about the group"
+msgstr "グループに関する情報を表示します。"
+
+#. title
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:1
+msgctxt "blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:title"
+msgid "Group members"
+msgstr "グループメンバー"
+
+#. description
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:2
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:description"
+msgid "Display a list of members in this group"
+msgstr "このグループのメンバーを一覧表示します。"
+
+#. show_all
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:3
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:show_all"
+msgid "View all members of this group"
+msgstr "このグループのメンバーすべてを表示する ..."
+
+#. options_numtoshow_title
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:4
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:options_numtoshow_title"
+msgid "Shown members"
+msgstr "表示メンバー"
+
+#. options_numtoshow_desc
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:5
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:options_numtoshow_desc"
+msgid "The number of members you want to display."
+msgstr "あなたが表示したいメンバー数です。"
+
+#. options_order_title
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:6
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:options_order_title"
+msgid "Order"
+msgstr "表示順"
+
+#. options_order_desc
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:7
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:options_order_desc"
+msgid ""
+"You can choose to display the latest group members or a random selection."
+msgstr "あなたはグループメンバーの表示順に関して、最新グループメンバーまたはランダムを選択することができます。"
+
+#. Latest
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:8
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:Latest"
+msgid "Latest"
+msgstr "最新"
+
+#. Random
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:9
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:Random"
+msgid "Random"
+msgstr "ランダム"
+
+#. defaulttitledescription
+#: blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:10
+msgctxt ""
+"blocktype/groupmembers/lang/en.utf8/blocktype.groupmembers.php:defaulttitledescription"
+msgid "A default title will be generated if you leave the title field blank"
+msgstr "タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。"
+
+#. title
+#: blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:1
+msgctxt "blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:title"
+msgid "Group pages"
+msgstr "グループページ"
+
+#. description
+#: blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:2
+msgctxt ""
+"blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:description"
+msgid "Display the pages related to the group"
+msgstr "グループ内で共有されるページを表示します。"
+
+#. displaygroupviews
+#: blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:3
+msgctxt ""
+"blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:displaygroupviews"
+msgid "Display group pages"
+msgstr "グループページを表示しますか?"
+
+#. displaygroupviewsdesc
+#: blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:4
+msgctxt ""
+"blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:displaygroupviewsdesc"
+msgid "Group pages - pages created in the group"
+msgstr "グループページ - グループ内で作成されたページ"
+
+#. displaysharedviews
+#: blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:5
+msgctxt ""
+"blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:displaysharedviews"
+msgid "Display shared pages"
+msgstr "共有ページを表示しますか?"
+
+#. displaysharedviewsdesc
+#: blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:6
+msgctxt ""
+"blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:displaysharedviewsdesc"
+msgid ""
+"Shared pages - pages shared by group members from their individual "
+"portfolios"
+msgstr "共有ページ - グループメンバーにより共有される個人のポートフォリオ"
+
+#. defaulttitledescription
+#: blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:7
+msgctxt ""
+"blocktype/groupviews/lang/en.utf8/blocktype.groupviews.php:defaulttitledescription"
+msgid "A default title will be generated if you leave the title field blank"
+msgstr "タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。"
+
+#. title
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:1
+msgctxt "blocktype/inbox/lang/en.utf8/blocktype.inbox.php:title"
+msgid "Inbox"
+msgstr "受信箱"
+
+#. description
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:2
+msgctxt "blocktype/inbox/lang/en.utf8/blocktype.inbox.php:description"
+msgid "Display a selection of your recent inbox messages"
+msgstr "あなたの選択された最近の受信箱メッセージを表示します。"
+
+#. messagetypes
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:3
+msgctxt "blocktype/inbox/lang/en.utf8/blocktype.inbox.php:messagetypes"
+msgid "Message types to display"
+msgstr "表示するメッセージタイプ"
+
+#. maxitems
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:4
+msgctxt "blocktype/inbox/lang/en.utf8/blocktype.inbox.php:maxitems"
+msgid "Maximum number of items to display"
+msgstr "表示するアイテムの最大数"
+
+#. maxitemsdescription
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:5
+msgctxt "blocktype/inbox/lang/en.utf8/blocktype.inbox.php:maxitemsdescription"
+msgid "Between 1 and 100"
+msgstr "設定範囲: 1～100"
+
+#. More
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:6
+msgctxt "blocktype/inbox/lang/en.utf8/blocktype.inbox.php:More"
+msgid "More"
+msgstr "さらに"
+
+#. nomessages
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:7
+msgctxt "blocktype/inbox/lang/en.utf8/blocktype.inbox.php:nomessages"
+msgid "No messages"
+msgstr "メッセージなし"
+
+#. defaulttitledescription
+#: blocktype/inbox/lang/en.utf8/blocktype.inbox.php:8
+msgctxt ""
+"blocktype/inbox/lang/en.utf8/blocktype.inbox.php:defaulttitledescription"
+msgid "A default title will be generated if you leave the title field blank"
+msgstr "タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。"
+
+#. title
+#: blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:1
+msgctxt "blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:title"
+msgid "My friends"
+msgstr "マイフレンド"
+
+#. otherusertitle
+#: blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:2
+msgctxt ""
+"blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:otherusertitle"
+msgid "%s's friends"
+msgstr "%s のフレンド"
+
+#. description
+#: blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:3
+msgctxt "blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:description"
+msgid "Display your friends"
+msgstr "あなたのフレンドを表示します。"
+
+#. numberoffriends
+#: blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:4
+msgctxt ""
+"blocktype/myfriends/lang/en.utf8/blocktype.myfriends.php:numberoffriends"
+msgid "(%s of %s)"
+msgstr "(%s / %s)"
+
+#. title
+#: blocktype/mygroups/lang/en.utf8/blocktype.groups.php:1
+msgctxt "blocktype/mygroups/lang/en.utf8/blocktype.groups.php:title"
+msgid "My groups"
+msgstr "マイグループ"
+
+#. description
+#: blocktype/mygroups/lang/en.utf8/blocktype.groups.php:2
+msgctxt "blocktype/mygroups/lang/en.utf8/blocktype.groups.php:description"
+msgid "Display a list of the groups you belong to"
+msgstr "あなたが属しているグループの一覧を表示します。"
+
+#. title
+#: blocktype/mygroups/lang/en.utf8/blocktype.mygroups.php:1
+msgctxt "blocktype/mygroups/lang/en.utf8/blocktype.mygroups.php:title"
+msgid "My groups"
+msgstr "マイグループ"
+
+#. otherusertitle
+#: blocktype/mygroups/lang/en.utf8/blocktype.mygroups.php:2
+msgctxt ""
+"blocktype/mygroups/lang/en.utf8/blocktype.mygroups.php:otherusertitle"
+msgid "%s's groups"
+msgstr "%s のグループ"
+
+#. description
+#: blocktype/mygroups/lang/en.utf8/blocktype.mygroups.php:3
+msgctxt "blocktype/mygroups/lang/en.utf8/blocktype.mygroups.php:description"
+msgid "Display a list of the groups you belong to"
+msgstr "あなたが属しているグループの一覧を表示します。"
+
+#. title
+#: blocktype/myviews/lang/en.utf8/blocktype.myviews.php:1
+msgctxt "blocktype/myviews/lang/en.utf8/blocktype.myviews.php:title"
+msgid "My pages"
+msgstr "マイページ"
+
+#. otherusertitle
+#: blocktype/myviews/lang/en.utf8/blocktype.myviews.php:2
+msgctxt "blocktype/myviews/lang/en.utf8/blocktype.myviews.php:otherusertitle"
+msgid "%s's pages"
+msgstr "%s のページ"
+
+#. description
+#: blocktype/myviews/lang/en.utf8/blocktype.myviews.php:3
+msgctxt "blocktype/myviews/lang/en.utf8/blocktype.myviews.php:description"
+msgid ""
+"Display all your pages that are visible to the person viewing your profile"
+msgstr "あなたのプロファイルでユーザが閲覧することのできる、すべてのページを表示します。"
+
+#. defaulttitledescription
+#: blocktype/navigation/lang/en.utf8/blocktype.navigation.php:1
+msgctxt ""
+"blocktype/navigation/lang/en.utf8/blocktype.navigation.php:defaulttitledescription"
+msgid ""
+"If no title is provided here, the title of the collection will be used."
+msgstr "ここを空白にした場合、コレクションのタイトルが使用されます。"
+
+#. collection
+#: blocktype/navigation/lang/en.utf8/blocktype.navigation.php:2
+msgctxt ""
+"blocktype/navigation/lang/en.utf8/blocktype.navigation.php:collection"
+msgid "Collection"
+msgstr "コレクション"
+
+#. title
+#: blocktype/navigation/lang/en.utf8/blocktype.navigation.php:3
+msgctxt "blocktype/navigation/lang/en.utf8/blocktype.navigation.php:title"
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#. description
+#: blocktype/navigation/lang/en.utf8/blocktype.navigation.php:4
+msgctxt ""
+"blocktype/navigation/lang/en.utf8/blocktype.navigation.php:description"
+msgid ""
+"Navigation for a collection of pages (see Portfolio -> Collections, or the "
+"Collections tab when inside a group)"
+msgstr "ページのコレクションをシンプルなナビゲーションとして表示します (「ポートフォリオ -> コレクション」、グループ内の場合はコレクションタブをご覧ください)。"
+
+#. nocollections1
+#: blocktype/navigation/lang/en.utf8/blocktype.navigation.php:5
+msgctxt ""
+"blocktype/navigation/lang/en.utf8/blocktype.navigation.php:nocollections1"
+msgid "No collections. <a href=\"%s\">Create one</a>."
+msgstr "コレクションはありません。<a href=\"%s\">コレクションを作成してください</a>。"
+
+#. title
+#: blocktype/newviews/lang/en.utf8/blocktype.newviews.php:1
+msgctxt "blocktype/newviews/lang/en.utf8/blocktype.newviews.php:title"
+msgid "Latest pages"
+msgstr "最新ページ"
+
+#. description1
+#: blocktype/newviews/lang/en.utf8/blocktype.newviews.php:2
+msgctxt "blocktype/newviews/lang/en.utf8/blocktype.newviews.php:description1"
+msgid ""
+"List the most recently updated pages that you have access to on the site"
+msgstr "このサイトにおいて、あなたがアクセスしたページの中から最近更新されたページを一覧表示します。"
+
+#. viewstoshow
+#: blocktype/newviews/lang/en.utf8/blocktype.newviews.php:3
+msgctxt "blocktype/newviews/lang/en.utf8/blocktype.newviews.php:viewstoshow"
+msgid "Maximum number of pages to show"
+msgstr "表示するページの最大数"
+
+#. viewstoshowdescription
+#: blocktype/newviews/lang/en.utf8/blocktype.newviews.php:4
+msgctxt ""
+"blocktype/newviews/lang/en.utf8/blocktype.newviews.php:viewstoshowdescription"
+msgid "Between 1 and 100"
+msgstr "設定範囲: 1～100"
+
+#. defaulttitledescription
+#: blocktype/newviews/lang/en.utf8/blocktype.newviews.php:5
+msgctxt ""
+"blocktype/newviews/lang/en.utf8/blocktype.newviews.php:defaulttitledescription"
+msgid "A default title will be generated if you leave the title field blank"
+msgstr "タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。"
+
+#. title
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:1
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:title"
+msgid "Recent forum posts"
+msgstr "「グループ」フォーラムの最近の投稿"
+
+#. description
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:2
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:description"
+msgid "Display recent forum posts for a group"
+msgstr "グループフォーラムの最近の投稿を表示します。"
+
+#. group
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:3
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:group"
+msgid "Group"
+msgstr "グループ"
+
+#. nogroupstochoosefrom
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:4
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:nogroupstochoosefrom"
+msgid "Sorry, no groups to choose from"
+msgstr "申し訳ございません、選択できるグループがありません。"
+
+#. poststoshow
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:5
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:poststoshow"
+msgid "Maximum number of posts to show"
+msgstr "表示する最大投稿数"
+
+#. poststoshowdescription
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:6
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:poststoshowdescription"
+msgid "Between 1 and 100"
+msgstr "設定範囲: 1-100"
+
+#. recentforumpostsforgroup
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:7
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:recentforumpostsforgroup"
+msgid "Recent forum posts for %s"
+msgstr "%s フォーラムの最近の投稿"
+
+#. defaulttitledescription
+#: blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:8
+msgctxt ""
+"blocktype/recentforumposts/lang/en.utf8/blocktype.recentforumposts.php:defaulttitledescription"
+msgid "A default title will be generated if you leave the title field blank"
+msgstr "タイトルフィールドを空白にした場合、デフォルトタイトルが適用されます。"
+
+#. title
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:1
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:title"
+msgid "Wall"
+msgstr "ウォール"
+
+#. otherusertitle
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:2
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:otherusertitle"
+msgid "%s's wall"
+msgstr "%s のウォール"
+
+#. description
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:3
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:description"
+msgid "Display an area where people can leave you comments"
+msgstr "ユーザがあなたにコメントを残すことのできるエリアを表示します。"
+
+#. noposts
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:4
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:noposts"
+msgid "No wall posts to display"
+msgstr "表示できるウォール投稿はありません。"
+
+#. makeyourpostprivate
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:5
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:makeyourpostprivate"
+msgid "Make your post private"
+msgstr "あなたの投稿をプライベート (非公開) にしますか?"
+
+#. viewwall
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:6
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:viewwall"
+msgid "View wall"
+msgstr "ウォールを表示する"
+
+#. backtoprofile
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:7
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:backtoprofile"
+msgid "Back to profile"
+msgstr "プロファイルに戻る"
+
+#. wall
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:8
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:wall"
+msgid "Wall"
+msgstr "ウォール"
+
+#. wholewall
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:9
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:wholewall"
+msgid "View whole wall"
+msgstr "すべてのウォールを表示する"
+
+#. reply
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:10
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:reply"
+msgid "reply"
+msgstr "返信"
+
+#. delete
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:11
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:delete"
+msgid "delete post"
+msgstr "投稿を削除する"
+
+#. deletepost
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:12
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:deletepost"
+msgid "Delete post"
+msgstr "投稿を削除する"
+
+#. Post
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:13
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:Post"
+msgid "Post"
+msgstr "投稿"
+
+#. deletepostsure
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:14
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:deletepostsure"
+msgid "Are you sure you want to do this? It cannot be undone."
+msgstr "本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。"
+
+#. deletepostsuccess
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:15
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:deletepostsuccess"
+msgid "Post deleted successfully"
+msgstr "投稿が正常に削除されました。"
+
+#. addpostsuccess
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:16
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:addpostsuccess"
+msgid "Post added successfully"
+msgstr "投稿が正常に追加されました。"
+
+#. maxcharacters
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:17
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:maxcharacters"
+msgid "Maximum %s characters per post."
+msgstr "1投稿あたり、最大 %s 文字入力可能です。"
+
+#. sorrymaxcharacters
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:18
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:sorrymaxcharacters"
+msgid "Sorry, your post cannot be more than %s characters long."
+msgstr "申し訳ございません、あなたは %s 文字以上、投稿することができません。"
+
+#. posttextrequired
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:19
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:posttextrequired"
+msgid "This field is required."
+msgstr "このフィールドは必須入力項目です。"
+
+#. postsizelimit
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:20
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:postsizelimit"
+msgid "Post size limit"
+msgstr "投稿サイズ制限"
+
+#. postsizelimitdescription
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:21
+msgctxt ""
+"blocktype/wall/lang/en.utf8/blocktype.wall.php:postsizelimitdescription"
+msgid ""
+"You can limit the size of wall posts here. Existing posts will not be "
+"changed."
+msgstr "ここであなたはウォールの投稿サイズを制限することができます。既存の投稿に関して、変更されることはありません。"
+
+#. postsizelimitmaxcharacters
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:22
+msgctxt ""
+"blocktype/wall/lang/en.utf8/blocktype.wall.php:postsizelimitmaxcharacters"
+msgid "Maximum number of characters"
+msgstr "最大文字数"
+
+#. postsizelimitinvalid
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:23
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:postsizelimitinvalid"
+msgid "This is not a valid number."
+msgstr "これは有効な数字ではありません。"
+
+#. postsizelimittoosmall
+#: blocktype/wall/lang/en.utf8/blocktype.wall.php:24
+msgctxt "blocktype/wall/lang/en.utf8/blocktype.wall.php:postsizelimittoosmall"
+msgid "The limit cannot be lower than zero."
+msgstr "この制限はゼロ以下に設定できません。"
+
+#. title
+#: blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:1
+msgctxt "blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:title"
+msgid "Watched pages"
+msgstr "ウォッチページ"
+
+#. description
+#: blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:2
+msgctxt "blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:description"
+msgid "Display pages on your watchlist"
+msgstr "あなたのウォッチリストのページを表示します。"
+
+#. nopages
+#: blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:3
+msgctxt "blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:nopages"
+msgid "There are no pages on your watchlist."
+msgstr "あなたのウォッチリストにページはありません。"
+
+#. itemstoshow
+#: blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:4
+msgctxt "blocktype/watchlist/lang/en.utf8/blocktype.watchlist.php:itemstoshow"
+msgid "Items to show"
+msgstr "表示するアイテム数"

@@ -1,0 +1,5406 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:30+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. pluginname
+#: lib/editor/textarea/lang/en/editor_textarea.php:1
+msgctxt "lib/editor/textarea/lang/en/editor_textarea.php:pluginname"
+msgid "Plain text area"
+msgstr "プレインテキストエリア"
+
+#. advanced:address
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:1
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:address"
+msgid "Address"
+msgstr "連絡先"
+
+#. advanced:anchor_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:2
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:anchor_desc"
+msgid "Insert/edit anchor"
+msgstr "アンカーの挿入/編集"
+
+#. advanced:backcolor_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:3
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:backcolor_desc"
+msgid "Select background color"
+msgstr "背景色"
+
+#. advanced:block
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:4
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:block"
+msgid "Format"
+msgstr "フォーマット"
+
+#. advanced:blockquote
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:5
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:blockquote"
+msgid "Block quote"
+msgstr "引用"
+
+#. advanced:blockquote_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:6
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:blockquote_desc"
+msgid "Block quote"
+msgstr "引用"
+
+#. advanced:bold_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:7
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:bold_desc"
+msgid "Bold (Ctrl+B)"
+msgstr "太字 (Ctrl+B)"
+
+#. advanced:bullist_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:8
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:bullist_desc"
+msgid "Insert/remove bulleted list"
+msgstr "番号なしリストを挿入/編集する"
+
+#. advanced:charmap_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:9
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:charmap_desc"
+msgid "Insert special character"
+msgstr "特殊文字を挿入する"
+
+#. advanced:cleanup_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:10
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:cleanup_desc"
+msgid "Cleanup messy code"
+msgstr "コード整形"
+
+#. advanced:clipboard_msg
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:11
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:clipboard_msg"
+msgid ""
+"Copy/cut/paste is not available in Mozilla and Firefox.Do you want more "
+"information about this issue?"
+msgstr "コピー/切り取り/貼り付けはMozillaおよびFirefoxでは使用できません。この件に関して、詳細情報を閲覧しますか?"
+
+#. advanced:code
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:12
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:code"
+msgid "Code"
+msgstr "ソースコード"
+
+#. advanced:code_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:13
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:code_desc"
+msgid "Edit HTML source"
+msgstr "HTMLソース編集"
+
+#. advanced:copy_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:14
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:copy_desc"
+msgid "Copy"
+msgstr "コピー"
+
+#. advanced:custom1_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:15
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:custom1_desc"
+msgid "Your custom description here"
+msgstr "説明文を入力してください。"
+
+#. advanced:cut_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:16
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:cut_desc"
+msgid "Cut"
+msgstr "切り取り"
+
+#. advanced:dd
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:17
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:dd"
+msgid "Definition description"
+msgstr "語句説明"
+
+#. advanced:div
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:18
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:div"
+msgid "DIV"
+msgstr "DIV"
+
+#. advanced_dlg:about_author
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:19
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_author"
+msgid "Author"
+msgstr "作者"
+
+#. advanced_dlg:about_general
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:20
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_general"
+msgid "About"
+msgstr "詳細"
+
+#. advanced_dlg:about_help
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:21
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_help"
+msgid "Help"
+msgstr "ヘルプ"
+
+#. advanced_dlg:about_license
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:22
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_license"
+msgid "License"
+msgstr "ライセンス"
+
+#. advanced_dlg:about_loaded
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:23
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_loaded"
+msgid "Loaded plugins"
+msgstr "読込済みプラグイン"
+
+#. advanced_dlg:about_plugin
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:24
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_plugin"
+msgid "Plugin"
+msgstr "プラグイン"
+
+#. advanced_dlg:about_plugins
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:25
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_plugins"
+msgid "Plugins"
+msgstr "プラグイン"
+
+#. advanced_dlg:about_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:26
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_title"
+msgid "About TinyMCE"
+msgstr "TinyMCEについて"
+
+#. advanced_dlg:about_version
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:27
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:about_version"
+msgid "Version"
+msgstr "バージョン"
+
+#. advanced_dlg:accessibility_help
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:28
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:accessibility_help"
+msgid "Accessibility help"
+msgstr "アクセシビリティヘルプ"
+
+#. advanced_dlg:accessibility_usage_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:29
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:accessibility_usage_title"
+msgid "General usage"
+msgstr "一般使用"
+
+#. advanced_dlg:anchor_invalid
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:30
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:anchor_invalid"
+msgid "Please specify a valid anchor name."
+msgstr "有効なアンカー名を指定してください。"
+
+#. advanced_dlg:anchor_name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:31
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:anchor_name"
+msgid "Anchor name"
+msgstr "アンカー名"
+
+#. advanced_dlg:anchor_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:32
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:anchor_title"
+msgid "Insert/edit anchor"
+msgstr "アンカーの挿入/編集"
+
+#. advanced_dlg:charmap_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:33
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:charmap_title"
+msgid "Select special character"
+msgstr "特殊文字を選択する"
+
+#. advanced_dlg:charmap_usage
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:34
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:charmap_usage"
+msgid "Use left and right arrows to navigate."
+msgstr "ナビゲーションに左右の矢印を使用します。"
+
+#. advanced_dlg:code_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:35
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:code_title"
+msgid "HTML source editor"
+msgstr "HTMLソースエディタ"
+
+#. advanced_dlg:code_wordwrap
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:36
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:code_wordwrap"
+msgid "Word wrap"
+msgstr "折り返し"
+
+#. advanced_dlg:colorpicker_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:37
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_color"
+msgid "Color:"
+msgstr "カラー:"
+
+#. advanced_dlg:colorpicker_name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:38
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_name"
+msgid "Name:"
+msgstr "名前:"
+
+#. advanced_dlg:colorpicker_named_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:39
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_named_tab"
+msgid "Named"
+msgstr "既定色"
+
+#. advanced_dlg:colorpicker_named_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:40
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_named_title"
+msgid "Named colors"
+msgstr "既定色"
+
+#. advanced_dlg:colorpicker_palette_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:41
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_palette_tab"
+msgid "Palette"
+msgstr "パレット"
+
+#. advanced_dlg:colorpicker_palette_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:42
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_palette_title"
+msgid "Palette colors"
+msgstr "パレット"
+
+#. advanced_dlg:colorpicker_picker_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:43
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_picker_tab"
+msgid "Picker"
+msgstr "カラーピッカー"
+
+#. advanced_dlg:colorpicker_picker_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:44
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_picker_title"
+msgid "Color picker"
+msgstr "カラーピッカー"
+
+#. advanced_dlg:colorpicker_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:45
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:colorpicker_title"
+msgid "Select a color"
+msgstr "色の選択"
+
+#. advanced_dlg:image_align
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:46
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align"
+msgid "Alignment"
+msgstr "配置"
+
+#. advanced_dlg:image_align_baseline
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:47
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_baseline"
+msgid "Baseline"
+msgstr "ベースライン"
+
+#. advanced_dlg:image_align_bottom
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:48
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_bottom"
+msgid "Bottom"
+msgstr "下揃え"
+
+#. advanced_dlg:image_align_left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:49
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_left"
+msgid "Left"
+msgstr "左寄せ"
+
+#. advanced_dlg:image_align_middle
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:50
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_middle"
+msgid "Middle"
+msgstr "中央揃え"
+
+#. advanced_dlg:image_align_right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:51
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_right"
+msgid "Right"
+msgstr "右寄せ"
+
+#. advanced_dlg:image_align_textbottom
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:52
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_textbottom"
+msgid "Text bottom"
+msgstr "テキストの下端"
+
+#. advanced_dlg:image_align_texttop
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:53
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_texttop"
+msgid "Text top"
+msgstr "テキストの上端"
+
+#. advanced_dlg:image_align_top
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:54
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_align_top"
+msgid "Top"
+msgstr "上端揃え"
+
+#. advanced_dlg:image_alt
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:55
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_alt"
+msgid "Image description"
+msgstr "イメージ説明"
+
+#. advanced_dlg:image_border
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:56
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_border"
+msgid "Border"
+msgstr "枠線"
+
+#. advanced_dlg:image_dimensions
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:57
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_dimensions"
+msgid "Dimensions"
+msgstr "サイズ"
+
+#. advanced_dlg:image_hspace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:58
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_hspace"
+msgid "Horizontal space"
+msgstr "左右余白"
+
+#. advanced_dlg:image_list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:59
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_list"
+msgid "Image list"
+msgstr "一覧から選ぶ"
+
+#. advanced_dlg:image_src
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:60
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_src"
+msgid "Image URL"
+msgstr "イメージURL"
+
+#. advanced_dlg:image_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:61
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_title"
+msgid "Insert/edit image"
+msgstr "イメージの挿入/編集"
+
+#. advanced_dlg:image_vspace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:62
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:image_vspace"
+msgid "Vertical space"
+msgstr "上下余白"
+
+#. advanced_dlg:invalid_color_value
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:63
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:invalid_color_value"
+msgid "Invalid color value"
+msgstr "無効なカラー値です。"
+
+#. advanced_dlg:link_is_email
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:64
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_is_email"
+msgid ""
+"The URL you entered seems to be an email address. Do you want to add the "
+"required mailto: prefix?"
+msgstr "あなたが入力したURIはメールアドレスのようです。必須の「mailto:」接頭辞を付加しますか？"
+
+#. advanced_dlg:link_is_external
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:65
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_is_external"
+msgid ""
+"The URL you entered seems to be an external link. Do you want to add the "
+"required http:// prefix?"
+msgstr "あなたが入力したURIは外部リンクのようです。必須の「http://」接頭辞を付加しますか？"
+
+#. advanced_dlg:link_list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:66
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_list"
+msgid "Link list"
+msgstr "一覧から選ぶ"
+
+#. advanced_dlg:link_target
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:67
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_target"
+msgid "Target"
+msgstr "ターゲット"
+
+#. advanced_dlg:link_target_blank
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:68
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_target_blank"
+msgid "Open link in a new window"
+msgstr "新しいウインドウで開く"
+
+#. advanced_dlg:link_target_same
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:69
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_target_same"
+msgid "Open link in the same window"
+msgstr "同じウインドウで開く"
+
+#. advanced_dlg:link_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:70
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_title"
+msgid "Insert/edit link"
+msgstr "リンクの挿入/編集"
+
+#. advanced_dlg:link_titlefield
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:71
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_titlefield"
+msgid "Title"
+msgstr "タイトル"
+
+#. advanced_dlg:link_url
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:72
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced_dlg:link_url"
+msgid "Link URL"
+msgstr "リンクURL"
+
+#. advanced:dt
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:73
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:dt"
+msgid "Definition term"
+msgstr "語句定義"
+
+#. advanced:fontdefault
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:74
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:fontdefault"
+msgid "Font family"
+msgstr "フォント"
+
+#. advanced:font_size
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:75
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:font_size"
+msgid "Font size"
+msgstr "フォントサイズ"
+
+#. advanced:forecolor_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:76
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:forecolor_desc"
+msgid "Select text color"
+msgstr "文字色"
+
+#. advanced:h1
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:77
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:h1"
+msgid "Heading 1"
+msgstr "見出し1"
+
+#. advanced:h2
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:78
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:h2"
+msgid "Heading 2"
+msgstr "見出し2"
+
+#. advanced:h3
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:79
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:h3"
+msgid "Heading 3"
+msgstr "見出し3"
+
+#. advanced:h4
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:80
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:h4"
+msgid "Heading 4"
+msgstr "見出し4"
+
+#. advanced:h5
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:81
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:h5"
+msgid "Heading 5"
+msgstr "見出し5"
+
+#. advanced:h6
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:82
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:h6"
+msgid "Heading 6"
+msgstr "見出し6"
+
+#. advanced:help_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:83
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:help_desc"
+msgid "Help"
+msgstr "ヘルプ"
+
+#. advanced:help_shortcut
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:84
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:help_shortcut"
+msgid "Press ALT-F10 for toolbar. Press ALT-0 for help"
+msgstr "ツールバーを表示するには「ALT-F10」、ヘルプを表示するには「ALT-0」を押してください。"
+
+#. advanced:hr_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:85
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:hr_desc"
+msgid "Insert horizontal line"
+msgstr "水平線を挿入する"
+
+#. advanced:image_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:86
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:image_desc"
+msgid "Insert/edit image"
+msgstr "イメージの挿入/編集"
+
+#. advanced:image_props_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:87
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:image_props_desc"
+msgid "Image properties"
+msgstr "イメージプロパティ"
+
+#. advanced:indent_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:88
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:indent_desc"
+msgid "Increase indent"
+msgstr "インデントを増やす"
+
+#. advanced:italic_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:89
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:italic_desc"
+msgid "Italic (Ctrl+I)"
+msgstr "斜体 (Ctrl+I)"
+
+#. advanced:justifycenter_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:90
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:justifycenter_desc"
+msgid "Align center"
+msgstr "中央揃え"
+
+#. advanced:justifyfull_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:91
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:justifyfull_desc"
+msgid "Align full"
+msgstr "均等割付"
+
+#. advanced:justifyleft_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:92
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:justifyleft_desc"
+msgid "Align left"
+msgstr "左揃え"
+
+#. advanced:justifyright_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:93
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:justifyright_desc"
+msgid "Align right"
+msgstr "右揃え"
+
+#. advanced:link_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:94
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:link_desc"
+msgid "Insert/edit link"
+msgstr "リンクの挿入/編集"
+
+#. advanced:more_colors
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:95
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:more_colors"
+msgid "More colors..."
+msgstr "色をさらに ..."
+
+#. advanced:newdocument
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:96
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:newdocument"
+msgid "Are you sure you want clear all contents?"
+msgstr "編集中のデータを破棄してもよろしいですか？"
+
+#. advanced:newdocument_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:97
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:newdocument_desc"
+msgid "New document"
+msgstr "新規作成"
+
+#. advanced:numlist_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:98
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:numlist_desc"
+msgid "Insert/remove numbered list"
+msgstr "番号つきリストを挿入/削除する"
+
+#. advanced:outdent_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:99
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:outdent_desc"
+msgid "Decrease indent"
+msgstr "インデントを減らす"
+
+#. advanced:paragraph
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:100
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:paragraph"
+msgid "Paragraph"
+msgstr "段落"
+
+#. advanced:paste_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:101
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:paste_desc"
+msgid "Paste"
+msgstr "貼り付け"
+
+#. advanced:path
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:102
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:path"
+msgid "Path"
+msgstr "パス"
+
+#. advanced:pre
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:103
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:pre"
+msgid "Preformatted"
+msgstr "整形済み"
+
+#. advanced:redo_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:104
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:redo_desc"
+msgid "Redo (Ctrl+Y)"
+msgstr "やり直す (Ctrl+Y)"
+
+#. advanced:removeformat_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:105
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:removeformat_desc"
+msgid "Remove formatting"
+msgstr "フォーマット解除"
+
+#. advanced:rich_text_area
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:106
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:rich_text_area"
+msgid "Rich text area"
+msgstr "リッチテキストエリア"
+
+#. advanced:samp
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:107
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:samp"
+msgid "Code sample"
+msgstr "コードサンプル"
+
+#. advanced:shortcuts_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:108
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:shortcuts_desc"
+msgid "Accessibility help"
+msgstr "アクセシビリティヘルプ"
+
+#. advanced:striketrough_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:109
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:striketrough_desc"
+msgid "Strikethrough"
+msgstr "打消し線"
+
+#. advanced:style_select
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:110
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:style_select"
+msgid "Styles"
+msgstr "スタイル"
+
+#. advanced:sub_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:111
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:sub_desc"
+msgid "Subscript"
+msgstr "下付き"
+
+#. advanced:sup_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:112
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:sup_desc"
+msgid "Superscript"
+msgstr "上付き"
+
+#. advanced:toolbar
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:113
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:toolbar"
+msgid "Toolbar"
+msgstr "ツールバー"
+
+#. advanced:toolbar_focus
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:114
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:toolbar_focus"
+msgid ""
+"Jump to tool buttons - Alt+Q, jump to editor - Alt-Z, jump to element path -"
+" Alt-X"
+msgstr "ツールボタンへジャンプ - 「Alt+Q」、エディタにジャンプする - 「Alt-Z」、エレメントパスにジャンプする - 「Alt-X」"
+
+#. advanced:underline_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:115
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:underline_desc"
+msgid "Underline (Ctrl+U)"
+msgstr "下線 (Ctrl+U)"
+
+#. advanced:undo_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:116
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:undo_desc"
+msgid "Undo (Ctrl+Z)"
+msgstr "元に戻す (Ctrl+Z)"
+
+#. advanced:unlink_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:117
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:unlink_desc"
+msgid "Unlink"
+msgstr "リンク解除"
+
+#. advanced:visualaid_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:118
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advanced:visualaid_desc"
+msgid "Show/hide guidelines/invisible elements"
+msgstr "ガイドライン/非表示エレメントを表示/非表示にする"
+
+#. advhr:advhr_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:119
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advhr:advhr_desc"
+msgid "Insert horizontal line"
+msgstr "水平線を挿入する"
+
+#. advhr_dlg:normal
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:120
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advhr_dlg:normal"
+msgid "Normal"
+msgstr "ノーマル"
+
+#. advhr_dlg:noshade
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:121
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advhr_dlg:noshade"
+msgid "No shadow"
+msgstr "影なし"
+
+#. advhr_dlg:size
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:122
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advhr_dlg:size"
+msgid "Height"
+msgstr "高さ"
+
+#. advhr_dlg:width
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:123
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advhr_dlg:width"
+msgid "Width"
+msgstr "幅"
+
+#. advhr_dlg:widthunits
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:124
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advhr_dlg:widthunits"
+msgid "Units"
+msgstr "単位"
+
+#. advimage_dlg:align
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:125
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align"
+msgid "Alignment"
+msgstr "配置"
+
+#. advimage_dlg:align_baseline
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:126
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_baseline"
+msgid "Baseline"
+msgstr "ベースライン"
+
+#. advimage_dlg:align_bottom
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:127
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_bottom"
+msgid "Bottom"
+msgstr "下端揃え"
+
+#. advimage_dlg:align_left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:128
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_left"
+msgid "Left"
+msgstr "左寄せ"
+
+#. advimage_dlg:align_middle
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:129
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_middle"
+msgid "Middle"
+msgstr "中央揃え"
+
+#. advimage_dlg:align_right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:130
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_right"
+msgid "Right"
+msgstr "右寄せ"
+
+#. advimage_dlg:align_textbottom
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:131
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_textbottom"
+msgid "Text bottom"
+msgstr "テキストの下端"
+
+#. advimage_dlg:align_texttop
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:132
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_texttop"
+msgid "Text top"
+msgstr "テキストの上端"
+
+#. advimage_dlg:align_top
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:133
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:align_top"
+msgid "Top"
+msgstr "上端揃え"
+
+#. advimage_dlg:alt
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:134
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:alt"
+msgid "Image description"
+msgstr "イメージ説明"
+
+#. advimage_dlg:alt_image
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:135
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:alt_image"
+msgid "Alternative image"
+msgstr "代替イメージ"
+
+#. advimage_dlg:border
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:136
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:border"
+msgid "Border"
+msgstr "枠線"
+
+#. advimage_dlg:classes
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:137
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:classes"
+msgid "Classes"
+msgstr "クラス"
+
+#. advimage_dlg:constrain_proportions
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:138
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:constrain_proportions"
+msgid "Constrain proportions"
+msgstr "縦横比の保存"
+
+#. advimage_dlg:dialog_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:139
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:dialog_title"
+msgid "Insert/edit image"
+msgstr "イメージの挿入/編集"
+
+#. advimage_dlg:dimensions
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:140
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:dimensions"
+msgid "Dimensions"
+msgstr "サイズ"
+
+#. advimage_dlg:example_img
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:141
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:example_img"
+msgid "Appearance preview image"
+msgstr "Appearance preview image"
+
+#. advimage_dlg:general
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:142
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:general"
+msgid "General"
+msgstr "一般"
+
+#. advimage_dlg:height
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:143
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:height"
+msgid "Height"
+msgstr "高さ"
+
+#. advimage_dlg:hspace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:144
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:hspace"
+msgid "Horizontal space"
+msgstr "左右余白"
+
+#. advimage_dlg:id
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:145
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:id"
+msgid "ID"
+msgstr "ID"
+
+#. advimage_dlg:image_list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:146
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:image_list"
+msgid "Image list"
+msgstr "一覧から選ぶ"
+
+#. advimage_dlg:langcode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:147
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:langcode"
+msgid "Language code"
+msgstr "言語コード"
+
+#. advimage_dlg:langdir
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:148
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:langdir"
+msgid "Language direction"
+msgstr "文章の方向"
+
+#. advimage_dlg:list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:149
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:list"
+msgid "Image list"
+msgstr "一覧から選ぶ"
+
+#. advimage_dlg:long_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:150
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:long_desc"
+msgid "Long description link"
+msgstr "詳細説明リンク"
+
+#. advimage_dlg:ltr
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:151
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:ltr"
+msgid "Left to right"
+msgstr "左から右"
+
+#. advimage_dlg:map
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:152
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:map"
+msgid "Image map"
+msgstr "イメージマップ"
+
+#. advimage_dlg:misc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:153
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:misc"
+msgid "Miscellaneous"
+msgstr "その他"
+
+#. advimage_dlg:missing_alt
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:154
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:missing_alt"
+msgid ""
+"Are you sure you want to continue without including an image description? "
+"Without it the image may not be accessible to some users with disabilities, "
+"or to those using a text browser, or browsing the Web with images turned "
+"off."
+msgstr "本当にイメージ説明なしで続けてもよろしいですか? イメージ説明がない場合、障害のあるユーザ、テキストブラウザを使用しているユーザ、イメージ表示を無効にしているユーザがアクセスできないことがあります。"
+
+#. advimage_dlg:mouseout
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:155
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:mouseout"
+msgid "for mouse out"
+msgstr "マウスアウト時"
+
+#. advimage_dlg:mouseover
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:156
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:mouseover"
+msgid "for mouse over"
+msgstr "マウスオーバー時"
+
+#. advimage_dlg:preview
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:157
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:preview"
+msgid "Preview"
+msgstr "プレビュー"
+
+#. advimage_dlg:rtl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:158
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:rtl"
+msgid "Right to left"
+msgstr "右から左"
+
+#. advimage_dlg:src
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:159
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:src"
+msgid "Image URL"
+msgstr "イメージURL"
+
+#. advimage_dlg:style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:160
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:style"
+msgid "Style"
+msgstr "スタイル"
+
+#. advimage_dlg:swap_image
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:161
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:swap_image"
+msgid "Swap image"
+msgstr "ロールオーバー効果"
+
+#. advimage_dlg:tab_advanced
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:162
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:tab_advanced"
+msgid "Advanced"
+msgstr "高度な設定"
+
+#. advimage_dlg:tab_appearance
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:163
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:tab_appearance"
+msgid "Appearance"
+msgstr "表示"
+
+#. advimage_dlg:tab_general
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:164
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:tab_general"
+msgid "General"
+msgstr "一般"
+
+#. advimage_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:165
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:title"
+msgid "Title"
+msgstr "タイトル"
+
+#. advimage_dlg:vspace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:166
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:vspace"
+msgid "Vertical space"
+msgstr "上下余白"
+
+#. advimage_dlg:width
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:167
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage_dlg:width"
+msgid "Width"
+msgstr "幅"
+
+#. advimage:image_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:168
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advimage:image_desc"
+msgid "Insert/edit image"
+msgstr "イメージの挿入/編集"
+
+#. advlink_dlg:accesskey
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:169
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:accesskey"
+msgid "AccessKey"
+msgstr "アクセスキー"
+
+#. advlink_dlg:advanced_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:170
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:advanced_props"
+msgid "Advanced properties"
+msgstr "高度な設定"
+
+#. advlink_dlg:advanced_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:171
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:advanced_tab"
+msgid "Advanced"
+msgstr "高度な設定"
+
+#. advlink_dlg:anchor_names
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:172
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:anchor_names"
+msgid "Anchors"
+msgstr "アンカー"
+
+#. advlink_dlg:classes
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:173
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:classes"
+msgid "Classes"
+msgstr "クラス"
+
+#. advlink_dlg:encoding
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:174
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:encoding"
+msgid "Target character encoding"
+msgstr "ターゲットの文字エンコーディング"
+
+#. advlink_dlg:event_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:175
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:event_props"
+msgid "Events"
+msgstr "イベント"
+
+#. advlink_dlg:events_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:176
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:events_tab"
+msgid "Events"
+msgstr "イベント"
+
+#. advlink_dlg:general_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:177
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:general_props"
+msgid "General properties"
+msgstr "一般"
+
+#. advlink_dlg:general_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:178
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:general_tab"
+msgid "General"
+msgstr "一般"
+
+#. advlink_dlg:height
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:179
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:height"
+msgid "Height"
+msgstr "高さ"
+
+#. advlink_dlg:id
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:180
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:id"
+msgid "ID"
+msgstr "ID"
+
+#. advlink_dlg:is_email
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:181
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:is_email"
+msgid ""
+"The URL you entered seems to be an email address. Do you want to add the "
+"required mailto: prefix?"
+msgstr "あなたが入力したURIはメールアドレスのようです。必須の「mailto:」接頭辞を付加しますか？"
+
+#. advlink_dlg:is_external
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:182
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:is_external"
+msgid ""
+"The URL you entered seems to be an external link. Do you want to add the "
+"required http:// prefix?"
+msgstr "あなたが入力したURIは外部リンクのようです。必須の「http://」接頭辞を付加しますか？"
+
+#. advlink_dlg:langcode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:183
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:langcode"
+msgid "Language code"
+msgstr "言語コード"
+
+#. advlink_dlg:langdir
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:184
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:langdir"
+msgid "Language direction"
+msgstr "文章の方向"
+
+#. advlink_dlg:link_list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:185
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:link_list"
+msgid "Link list"
+msgstr "一覧から選ぶ"
+
+#. advlink_dlg:list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:186
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:list"
+msgid "Link list"
+msgstr "一覧から選ぶ"
+
+#. advlink_dlg:ltr
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:187
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:ltr"
+msgid "Left to right"
+msgstr "左から右"
+
+#. advlink_dlg:mime
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:188
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:mime"
+msgid "Target MIME type"
+msgstr "ターゲットのMIMEタイプ"
+
+#. advlink_dlg:popup
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:189
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup"
+msgid "JavaScript popup"
+msgstr "JavaScriptポップアップ"
+
+#. advlink_dlg:popup_dependent
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:190
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_dependent"
+msgid "Dependent (Mozilla/Firefox only)"
+msgstr "Dependent (Mozilla/Firefoxのみ)"
+
+#. advlink_dlg:popup_location
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:191
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_location"
+msgid "Show location bar"
+msgstr "アドレスバーを表示"
+
+#. advlink_dlg:popup_menubar
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:192
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_menubar"
+msgid "Show menu bar"
+msgstr "メニューバーを表示"
+
+#. advlink_dlg:popup_name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:193
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_name"
+msgid "Window name"
+msgstr "ウインドウ名"
+
+#. advlink_dlg:popup_opts
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:194
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_opts"
+msgid "Options"
+msgstr "オプション"
+
+#. advlink_dlg:popup_position
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:195
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_position"
+msgid "Position (X/Y)"
+msgstr "位置 (X/Y)"
+
+#. advlink_dlg:popup_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:196
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_props"
+msgid "Popup properties"
+msgstr "ポップアップ"
+
+#. advlink_dlg:popup_resizable
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:197
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_resizable"
+msgid "Make window resizable"
+msgstr "ウインドウのサイズ変更を許可する"
+
+#. advlink_dlg:popup_return
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:198
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_return"
+msgid "Insert 'return false'"
+msgstr "'return false'を挿入する"
+
+#. advlink_dlg:popup_scrollbars
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:199
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_scrollbars"
+msgid "Show scrollbars"
+msgstr "スクロールバーを表示"
+
+#. advlink_dlg:popup_size
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:200
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_size"
+msgid "Size"
+msgstr "サイズ"
+
+#. advlink_dlg:popup_statusbar
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:201
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_statusbar"
+msgid "Show status bar"
+msgstr "ステータスバーを表示"
+
+#. advlink_dlg:popup_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:202
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_tab"
+msgid "Popup"
+msgstr "ポップアップ"
+
+#. advlink_dlg:popup_toolbar
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:203
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_toolbar"
+msgid "Show toolbars"
+msgstr "ツールバーを表示"
+
+#. advlink_dlg:popup_url
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:204
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:popup_url"
+msgid "Popup URL"
+msgstr "ポップアップURL"
+
+#. advlink_dlg:rel
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:205
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:rel"
+msgid "Relationship page to target"
+msgstr "このページのターゲットに対する関係"
+
+#. advlink_dlg:rev
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:206
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:rev"
+msgid "Relationship target to page"
+msgstr "ターゲットのこのページに対する関係"
+
+#. advlink_dlg:rtl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:207
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:rtl"
+msgid "Right to left"
+msgstr "右から左"
+
+#. advlink_dlg:style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:208
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:style"
+msgid "Style"
+msgstr "スタイル"
+
+#. advlink_dlg:tabindex
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:209
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:tabindex"
+msgid "TabIndex"
+msgstr "タブインデックス"
+
+#. advlink_dlg:target
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:210
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:target"
+msgid "Target"
+msgstr "ターゲット"
+
+#. advlink_dlg:target_blank
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:211
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:target_blank"
+msgid "Open in new window"
+msgstr "新しいウインドウで開く"
+
+#. advlink_dlg:target_langcode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:212
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:target_langcode"
+msgid "Target language"
+msgstr "ターゲットの言語"
+
+#. advlink_dlg:target_name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:213
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:target_name"
+msgid "Target name"
+msgstr "ターゲット名"
+
+#. advlink_dlg:target_parent
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:214
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:target_parent"
+msgid "Open in parent window/frame"
+msgstr "親ウインドウ/親フレームで開く"
+
+#. advlink_dlg:target_same
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:215
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:target_same"
+msgid "Open in this window/frame"
+msgstr "このウインドウ/フレームで開く"
+
+#. advlink_dlg:target_top
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:216
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:target_top"
+msgid "Open in top frame (replaces all frames)"
+msgstr "トップのフレームで開く"
+
+#. advlink_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:217
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:title"
+msgid "Insert/edit link"
+msgstr "リンクの挿入/編集"
+
+#. advlink_dlg:titlefield
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:218
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:titlefield"
+msgid "Title"
+msgstr "タイトル"
+
+#. advlink_dlg:url
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:219
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:url"
+msgid "Link URL"
+msgstr "リンクURL"
+
+#. advlink_dlg:width
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:220
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink_dlg:width"
+msgid "Width"
+msgstr "幅"
+
+#. advlink:link_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:221
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlink:link_desc"
+msgid "Insert/edit link"
+msgstr "リンクの挿入/編集"
+
+#. advlist:circle
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:222
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:circle"
+msgid "Circle"
+msgstr "白丸"
+
+#. advlist:def
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:223
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:def"
+msgid "Default"
+msgstr "デフォルト"
+
+#. advlist:disc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:224
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:disc"
+msgid "Disc"
+msgstr "黒丸"
+
+#. advlist:lower_alpha
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:225
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:lower_alpha"
+msgid "Lower alpha"
+msgstr "小文字のアルファベット"
+
+#. advlist:lower_greek
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:226
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:lower_greek"
+msgid "Lower greek"
+msgstr "小文字のギリシャ文字"
+
+#. advlist:lower_roman
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:227
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:lower_roman"
+msgid "Lower roman"
+msgstr "小文字のローマ文字"
+
+#. advlist:square
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:228
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:square"
+msgid "Square"
+msgstr "四角"
+
+#. advlist:types
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:229
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:types"
+msgid "Types"
+msgstr "タイプ"
+
+#. advlist:upper_alpha
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:230
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:upper_alpha"
+msgid "Upper alpha"
+msgstr "大文字のアルファベット"
+
+#. advlist:upper_roman
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:231
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:advlist:upper_roman"
+msgid "Upper roman"
+msgstr "大文字のローマ文字"
+
+#. aria:rich_text_area
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:232
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:aria:rich_text_area"
+msgid "Rich text area"
+msgstr "リッチテキストエリア"
+
+#. autosave:restore_content
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:233
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:autosave:restore_content"
+msgid "Restore auto-saved content"
+msgstr "自動保存コンテンツをリストアします。"
+
+#. autosave:unload_msg
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:234
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:autosave:unload_msg"
+msgid "The changes you made will be lost if you navigate away from this page."
+msgstr "他のページへ移動すると編集内容はすべて破棄されます。"
+
+#. autosave:warning_message
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:235
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:autosave:warning_message"
+msgid ""
+"If you restore the saved content, you will lose all the content that is currently in the editor.\n"
+"Are you sure you want to restore the saved content?"
+msgstr "保存されたコンテンツをリストアした場合、あなたはエディタ内の現在のコンテンツすべてを失うことになります。\n本当に保存されたコンテンツをリストアしてもよろしいですか?"
+
+#. availablebuttons
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:236
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:availablebuttons"
+msgid "Available buttons"
+msgstr "利用可能なボタン"
+
+#. colors:000000
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:237
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:000000"
+msgid "Black"
+msgstr "黒"
+
+#. colors:000080
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:238
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:000080"
+msgid "Navy blue"
+msgstr "ネイビーブルー"
+
+#. colors:0000FF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:239
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:0000FF"
+msgid "Blue"
+msgstr "青"
+
+#. colors:003300
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:240
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:003300"
+msgid "Dark green"
+msgstr "ダークグリーン"
+
+#. colors:003366
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:241
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:003366"
+msgid "Dark azure"
+msgstr "ダークアズール"
+
+#. colors:008000
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:242
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:008000"
+msgid "Green"
+msgstr "グリーン"
+
+#. colors:008080
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:243
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:008080"
+msgid "Teal"
+msgstr "ティール"
+
+#. colors:00CCFF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:244
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:00CCFF"
+msgid "Sky blue"
+msgstr "スカイブルー"
+
+#. colors:00FF00
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:245
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:00FF00"
+msgid "Lime"
+msgstr "ライム"
+
+#. colors:00FFFF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:246
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:00FFFF"
+msgid "Aqua"
+msgstr "アクア"
+
+#. colors:333300
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:247
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:333300"
+msgid "Dark olive"
+msgstr "ダークオリーブ"
+
+#. colors:333333
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:248
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:333333"
+msgid "Very dark gray"
+msgstr "濃いダークグレー"
+
+#. colors:333399
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:249
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:333399"
+msgid "Indigo"
+msgstr "インディゴ"
+
+#. colors:3366FF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:250
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:3366FF"
+msgid "Royal blue"
+msgstr "ロイヤルブルー"
+
+#. colors:339966
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:251
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:339966"
+msgid "Sea green"
+msgstr "シーグリーン"
+
+#. colors:33CCCC
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:252
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:33CCCC"
+msgid "Turquoise"
+msgstr "ターコイズ"
+
+#. colors:666699
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:253
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:666699"
+msgid "Grayish blue"
+msgstr "納戸色"
+
+#. colors:800000
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:254
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:800000"
+msgid "Maroon"
+msgstr "マルーン"
+
+#. colors:800080
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:255
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:800080"
+msgid "Purple"
+msgstr "パープル"
+
+#. colors:808000
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:256
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:808000"
+msgid "Olive"
+msgstr "オリーブ"
+
+#. colors:808080
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:257
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:808080"
+msgid "Gray"
+msgstr "グレー"
+
+#. colors:993300
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:258
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:993300"
+msgid "Burnt orange"
+msgstr "バーントオレンジ"
+
+#. colors:993366
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:259
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:993366"
+msgid "Brown"
+msgstr "ブラウン"
+
+#. colors:999999
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:260
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:999999"
+msgid "Medium gray"
+msgstr "ミディアムグレー"
+
+#. colors:99CC00
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:261
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:99CC00"
+msgid "Yellow green"
+msgstr "イエローグリーン"
+
+#. colors:99CCFF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:262
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:99CCFF"
+msgid "Light sky blue"
+msgstr "ライトスカイブルー"
+
+#. colors:C0C0C0
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:263
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:C0C0C0"
+msgid "Silver"
+msgstr "シルバー"
+
+#. colors:CC99FF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:264
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:CC99FF"
+msgid "Plum"
+msgstr "プラム"
+
+#. colors:CCFFCC
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:265
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:CCFFCC"
+msgid "Pale green"
+msgstr "ペールグリーン"
+
+#. colors:CCFFFF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:266
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:CCFFFF"
+msgid "Pale cyan"
+msgstr "ペールシアン"
+
+#. colors:FF0000
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:267
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FF0000"
+msgid "Red"
+msgstr "赤"
+
+#. colors:FF00FF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:268
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FF00FF"
+msgid "Magenta"
+msgstr "マゼンタ"
+
+#. colors:FF6600
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:269
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FF6600"
+msgid "Orange"
+msgstr "オレンジ"
+
+#. colors:FF9900
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:270
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FF9900"
+msgid "Amber"
+msgstr "アンバー"
+
+#. colors:FF99CC
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:271
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FF99CC"
+msgid "Pink"
+msgstr "ピンク"
+
+#. colors:FFCC00
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:272
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FFCC00"
+msgid "Gold"
+msgstr "ゴールド"
+
+#. colors:FFCC99
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:273
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FFCC99"
+msgid "Peach"
+msgstr "ピーチ"
+
+#. colors:FFFF00
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:274
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FFFF00"
+msgid "Yellow"
+msgstr "黄色"
+
+#. colors:FFFF99
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:275
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FFFF99"
+msgid "Light yellow"
+msgstr "ライトイエロー"
+
+#. colors:FFFFFF
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:276
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:colors:FFFFFF"
+msgid "White"
+msgstr "白"
+
+#. common:apply
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:277
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:apply"
+msgid "Apply"
+msgstr "適用"
+
+#. common:browse
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:278
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:browse"
+msgid "Browse"
+msgstr "参照"
+
+#. common:cancel
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:279
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. common:class_name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:280
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:class_name"
+msgid "Class"
+msgstr "クラス"
+
+#. common:clipboard_msg
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:281
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:clipboard_msg"
+msgid ""
+"Copy/cut/paste is not available in Mozilla and Firefox.Do you want more "
+"information about this issue?"
+msgstr "コピー/切り取り/貼り付けはFirefoxおよびMozillaでは使用できません。この件に関して、詳細情報を閲覧しますか?"
+
+#. common:clipboard_no_support
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:282
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:common:clipboard_no_support"
+msgid ""
+"Currently not supported by your browser, use keyboard shortcuts instead."
+msgstr "クリップボード操作はお使いのブラウザでは対応していません。代わりにキーボードのショートカットキーをお使い下さい。"
+
+#. common:close
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:283
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:close"
+msgid "Close"
+msgstr "閉じる"
+
+#. common:edit_confirm
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:284
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:edit_confirm"
+msgid "Do you want to use the WYSIWYG mode for this textarea?"
+msgstr "WYSIWYGモードに切り替えますか？"
+
+#. common:insert
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:285
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:insert"
+msgid "Insert"
+msgstr "挿入"
+
+#. common:invalid_data
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:286
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:invalid_data"
+msgid "Error: Invalid values entered, these are marked in red."
+msgstr "エラー: 入力に誤りがあります。（赤字の項目）"
+
+#. common:invalid_data_min
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:287
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:common:invalid_data_min"
+msgid "{#field} must be a number greater than {#min}"
+msgstr "{#field} は {#min} より大きな数字である必要があります。"
+
+#. common:invalid_data_number
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:288
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:common:invalid_data_number"
+msgid "{#field} must be a number"
+msgstr "{#field} は数字である必要があります。"
+
+#. common:invalid_data_size
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:289
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:common:invalid_data_size"
+msgid "{#field} must be a number or percentage"
+msgstr "{#field} は数字またはパーセンテージである必要があります。"
+
+#. common:more_colors
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:290
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:more_colors"
+msgid "More colors..."
+msgstr "色をさらに ..."
+
+#. common:not_set
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:291
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:not_set"
+msgid "-- Not set --"
+msgstr "-- 未設定 --"
+
+#. common:popup_blocked
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:292
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:popup_blocked"
+msgid ""
+"Sorry, but we have noticed that your popup-blocker has disabled a window "
+"that provides application functionality. You will need to disable popup "
+"blocking on this site in order to fully utilize this tool."
+msgstr "ポップアップがブロックされました。すべての機能を利用するためにポップアップを許可して下さい。"
+
+#. common:update
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:293
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:update"
+msgid "Update"
+msgstr "更新"
+
+#. common:value
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:294
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:common:value"
+msgid "(value)"
+msgstr "(値)"
+
+#. contextmenu:align
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:295
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:contextmenu:align"
+msgid "Alignment"
+msgstr "配置"
+
+#. contextmenu:center
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:296
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:contextmenu:center"
+msgid "Center"
+msgstr "中央揃え"
+
+#. contextmenu:full
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:297
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:contextmenu:full"
+msgid "Full"
+msgstr "均等割付"
+
+#. contextmenu:left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:298
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:contextmenu:left"
+msgid "Left"
+msgstr "左揃え"
+
+#. contextmenu:right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:299
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:contextmenu:right"
+msgid "Right"
+msgstr "右揃え"
+
+#. customconfig
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:300
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:customconfig"
+msgid "Custom configuration"
+msgstr "カスタム設定"
+
+#. customconfig_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:301
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:customconfig_desc"
+msgid ""
+"Custom advanced TinyMCE configuration in JSON format, for example: "
+"{\"option1\" : \"value2\", \"option2\" : \"value2\"}. Any options specified "
+"here override standard and plugin settings."
+msgstr "JSONフォーマットにおけるTinyMCEの高度なカスタム設定です。 例えば次のようになります: {\"option1\" : \"value2\", \"option2\" : \"value2\"}。ここで指定されたオプションは標準およびプラグイン設定をオーバーライドします。"
+
+#. customtoolbar
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:302
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:customtoolbar"
+msgid "Editor toolbar"
+msgstr "エディタツールバー"
+
+#. customtoolbar_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:303
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:customtoolbar_desc"
+msgid ""
+"Each line contains a list of comma separated button names, use \"wrap\" as a"
+" group separator, empty lines are ignored. See <a href=\"{$a}\" "
+"target=\"_blank\">{$a}</a> for the list of default TinyMCE buttons.<br />The"
+" first row will always be shown, where as the visibility of second and third"
+" toolbars can be toggled."
+msgstr "それぞれの行にはカンマで区切られたボタン名一覧を含みます。グループのセパレータにはラップ (wrap) を使用してください。空白行は無視されます。デフォルトのTinyMCEのボタンに関して、<a href=\"{$a}\" target=\"_blank\">{$a}</a>をご覧ください。<br />2番目および3番目のツールバーの可視性は切り替え可能であるのに対して、最初の行は常に表示されます。"
+
+#. directionality:ltr_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:304
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:directionality:ltr_desc"
+msgid "Direction left to right"
+msgstr "左から右"
+
+#. directionality:rtl_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:305
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:directionality:rtl_desc"
+msgid "Direction right to left"
+msgstr "右から左"
+
+#. emotions_dlg:cool
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:306
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:cool"
+msgid "Cool"
+msgstr "Cool"
+
+#. emotions_dlg:cry
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:307
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:cry"
+msgid "Cry"
+msgstr "Cry"
+
+#. emotions_dlg:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:308
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:desc"
+msgid "Emotions"
+msgstr "スマイリー"
+
+#. emotions_dlg:embarassed
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:309
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:embarassed"
+msgid "Embarassed"
+msgstr "Embarassed"
+
+#. emotions_dlg:foot_in_mouth
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:310
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:foot_in_mouth"
+msgid "Foot in mouth"
+msgstr "Foot in mouth"
+
+#. emotions_dlg:frown
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:311
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:frown"
+msgid "Frown"
+msgstr "Frown"
+
+#. emotions_dlg:innocent
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:312
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:innocent"
+msgid "Innocent"
+msgstr "Innocent"
+
+#. emotions_dlg:kiss
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:313
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:kiss"
+msgid "Kiss"
+msgstr "Kiss"
+
+#. emotions_dlg:laughing
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:314
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:laughing"
+msgid "Laughing"
+msgstr "Laughing"
+
+#. emotions_dlg:money_mouth
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:315
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:money_mouth"
+msgid "Money mouth"
+msgstr "Money mouth"
+
+#. emotions_dlg:sealed
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:316
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:sealed"
+msgid "Sealed"
+msgstr "Sealed"
+
+#. emotions_dlg:smile
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:317
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:smile"
+msgid "Smile"
+msgstr "Smile"
+
+#. emotions_dlg:surprised
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:318
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:surprised"
+msgid "Surprised"
+msgstr "Surprised"
+
+#. emotions_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:319
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:title"
+msgid "Insert emotion"
+msgstr "スマイリーの挿入"
+
+#. emotions_dlg:tongue_out
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:320
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:tongue_out"
+msgid "Tongue out"
+msgstr "Tongue out"
+
+#. emotions_dlg:undecided
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:321
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:undecided"
+msgid "Undecided"
+msgstr "Undecided"
+
+#. emotions_dlg:usage
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:322
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:usage"
+msgid "Use left and right arrows to navigate."
+msgstr "ナビゲートに左および右矢印を使用します。"
+
+#. emotions_dlg:wink
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:323
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:wink"
+msgid "Wink"
+msgstr "Wink"
+
+#. emotions_dlg:yell
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:324
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions_dlg:yell"
+msgid "Yell"
+msgstr "Yell"
+
+#. emotions:emotions_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:325
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:emotions:emotions_desc"
+msgid "Emotions"
+msgstr "スマイリー"
+
+#. fontselectlist
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:326
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fontselectlist"
+msgid "Available fonts list"
+msgstr "利用可能なフォント一覧"
+
+#. fullpage:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:327
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage:desc"
+msgid "Document properties"
+msgstr "ページ設定"
+
+#. fullpage_dlg:active_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:328
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:active_color"
+msgid "Active color"
+msgstr "リンク色(active)"
+
+#. fullpage_dlg:add
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:329
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add"
+msgid "Add new element"
+msgstr "エレメント追加"
+
+#. fullpage_dlg:add_base
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:330
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add_base"
+msgid "Base element"
+msgstr "Base要素"
+
+#. fullpage_dlg:add_comment
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:331
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add_comment"
+msgid "Comment node"
+msgstr "Commentノード"
+
+#. fullpage_dlg:add_link
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:332
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add_link"
+msgid "Link element"
+msgstr "Link要素"
+
+#. fullpage_dlg:add_meta
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:333
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add_meta"
+msgid "Meta element"
+msgstr "Meta要素"
+
+#. fullpage_dlg:add_script
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:334
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add_script"
+msgid "Script element"
+msgstr "Script要素"
+
+#. fullpage_dlg:add_style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:335
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add_style"
+msgid "Style element"
+msgstr "Style要素"
+
+#. fullpage_dlg:add_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:336
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:add_title"
+msgid "Title element"
+msgstr "Title要素"
+
+#. fullpage_dlg:advanced_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:337
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:advanced_props"
+msgid "Advanced"
+msgstr "高度な設定"
+
+#. fullpage_dlg:advanced_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:338
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:advanced_tab"
+msgid "Advanced"
+msgstr "高度な設定"
+
+#. fullpage_dlg:appearance_bgprops
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:339
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:appearance_bgprops"
+msgid "Background properties"
+msgstr "背景のプロパティ"
+
+#. fullpage_dlg:appearance_linkprops
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:340
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:appearance_linkprops"
+msgid "Link colors"
+msgstr "リンク色"
+
+#. fullpage_dlg:appearance_marginprops
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:341
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:appearance_marginprops"
+msgid "Body margins"
+msgstr "余白"
+
+#. fullpage_dlg:appearance_style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:342
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:appearance_style"
+msgid "Stylesheet and style properties"
+msgstr "スタイル設定"
+
+#. fullpage_dlg:appearance_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:343
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:appearance_tab"
+msgid "Appearance"
+msgstr "表示"
+
+#. fullpage_dlg:appearance_textprops
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:344
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:appearance_textprops"
+msgid "Text properties"
+msgstr "文字もプロパティ"
+
+#. fullpage_dlg:author
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:345
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:author"
+msgid "Author"
+msgstr "作者"
+
+#. fullpage_dlg:base_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:346
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:base_element"
+msgid "Base element"
+msgstr "Base要素"
+
+#. fullpage_dlg:bgcolor
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:347
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:bgcolor"
+msgid "Background color"
+msgstr "背景色"
+
+#. fullpage_dlg:bgimage
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:348
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:bgimage"
+msgid "Background image"
+msgstr "背景イメージ"
+
+#. fullpage_dlg:bottom_margin
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:349
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:bottom_margin"
+msgid "Bottom margin"
+msgstr "下余白"
+
+#. fullpage_dlg:charset
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:350
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:charset"
+msgid "Charset"
+msgstr "Charset"
+
+#. fullpage_dlg:comment_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:351
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:comment_element"
+msgid "Comment"
+msgstr "Comment"
+
+#. fullpage_dlg:content
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:352
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:content"
+msgid "Content"
+msgstr "Content"
+
+#. fullpage_dlg:copyright
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:353
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:copyright"
+msgid "Copyright"
+msgstr "コピーライト"
+
+#. fullpage_dlg:defer
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:354
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:defer"
+msgid "Defer"
+msgstr "Defer"
+
+#. fullpage_dlg:doctypes
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:355
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:doctypes"
+msgid "Doctype"
+msgstr "DOCTYPE"
+
+#. fullpage_dlg:encoding
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:356
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:encoding"
+msgid "Character encoding"
+msgstr "文字エンコーディング"
+
+#. fullpage_dlg:fontface
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:357
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:fontface"
+msgid "Font family"
+msgstr "フォント"
+
+#. fullpage_dlg:font_face
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:358
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:font_face"
+msgid "Font face"
+msgstr "フォント"
+
+#. fullpage_dlg:fontsize
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:359
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:fontsize"
+msgid "Font size"
+msgstr "文字サイズ"
+
+#. fullpage_dlg:font_size
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:360
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:font_size"
+msgid "Font size"
+msgstr "文字サイズ"
+
+#. fullpage_dlg:general_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:361
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:general_props"
+msgid "General"
+msgstr "一般"
+
+#. fullpage_dlg:head_elements
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:362
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:head_elements"
+msgid "Head elements"
+msgstr "Head要素"
+
+#. fullpage_dlg:hover_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:363
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:hover_color"
+msgid "Hover color"
+msgstr "リンク色(hover)"
+
+#. fullpage_dlg:href
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:364
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:href"
+msgid "HREF"
+msgstr "HREF"
+
+#. fullpage_dlg:hreflang
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:365
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:hreflang"
+msgid "HREF lang"
+msgstr "HREF lang"
+
+#. fullpage_dlg:info
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:366
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:info"
+msgid "Information"
+msgstr "インフォメーション"
+
+#. fullpage_dlg:langcode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:367
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:langcode"
+msgid "Language code"
+msgstr "言語コード"
+
+#. fullpage_dlg:langdir
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:368
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:langdir"
+msgid "Language direction"
+msgstr "文章の方向"
+
+#. fullpage_dlg:langprops
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:369
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:langprops"
+msgid "Language and encoding"
+msgstr "言語とエンコーディング"
+
+#. fullpage_dlg:language
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:370
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:language"
+msgid "Language"
+msgstr "Language"
+
+#. fullpage_dlg:left_margin
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:371
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:left_margin"
+msgid "Left margin"
+msgstr "左余白"
+
+#. fullpage_dlg:link_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:372
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:link_color"
+msgid "Link color"
+msgstr "リンク色"
+
+#. fullpage_dlg:link_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:373
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:link_element"
+msgid "Link element"
+msgstr "Link要素"
+
+#. fullpage_dlg:ltr
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:374
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:ltr"
+msgid "Left to right"
+msgstr "左から右"
+
+#. fullpage_dlg:media
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:375
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:media"
+msgid "Media"
+msgstr "Media"
+
+#. fullpage_dlg:meta_description
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:376
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_description"
+msgid "Description"
+msgstr "説明"
+
+#. fullpage_dlg:meta_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:377
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_element"
+msgid "Meta element"
+msgstr "Meta要素"
+
+#. fullpage_dlg:meta_index_follow
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:378
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_index_follow"
+msgid "Index and follow the links"
+msgstr "このページとリンク先の巡回を許可"
+
+#. fullpage_dlg:meta_index_nofollow
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:379
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_index_nofollow"
+msgid "Index and don't follow the links"
+msgstr "このページの巡回を許可・リンク先の巡回を禁止"
+
+#. fullpage_dlg:meta_keywords
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:380
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_keywords"
+msgid "Keywords"
+msgstr "キーワード"
+
+#. fullpage_dlg:meta_noindex_follow
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:381
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_noindex_follow"
+msgid "Do not index but follow the links"
+msgstr "このページの巡回を禁止・リンク先の巡回を許可"
+
+#. fullpage_dlg:meta_noindex_nofollow
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:382
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_noindex_nofollow"
+msgid "Do not index and don't follow the links"
+msgstr "このページとリンク先の巡回を禁止"
+
+#. fullpage_dlg:meta_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:383
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_props"
+msgid "Meta information"
+msgstr "メタ情報"
+
+#. fullpage_dlg:meta_robots
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:384
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_robots"
+msgid "Robots"
+msgstr "検索ロボット制御"
+
+#. fullpage_dlg:meta_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:385
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_tab"
+msgid "General"
+msgstr "一般"
+
+#. fullpage_dlg:meta_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:386
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:meta_title"
+msgid "Title"
+msgstr "タイトル"
+
+#. fullpage_dlg:movedown
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:387
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:movedown"
+msgid "Move selected element down"
+msgstr "選択要素を下へ移動"
+
+#. fullpage_dlg:moveup
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:388
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:moveup"
+msgid "Move selected element up"
+msgstr "選択要素を上へ移動"
+
+#. fullpage_dlg:name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:389
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:name"
+msgid "Name"
+msgstr "Name"
+
+#. fullpage_dlg:properties
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:390
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:properties"
+msgid "Properties"
+msgstr "Properties"
+
+#. fullpage_dlg:rel
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:391
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:rel"
+msgid "Rel"
+msgstr "Rel"
+
+#. fullpage_dlg:remove
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:392
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:remove"
+msgid "Remove selected element"
+msgstr "選択要素の削除"
+
+#. fullpage_dlg:rev
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:393
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:rev"
+msgid "Rev"
+msgstr "Rev"
+
+#. fullpage_dlg:right_margin
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:394
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:right_margin"
+msgid "Right margin"
+msgstr "右余白"
+
+#. fullpage_dlg:rtl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:395
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:rtl"
+msgid "Right to left"
+msgstr "右から左"
+
+#. fullpage_dlg:script_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:396
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:script_element"
+msgid "Script element"
+msgstr "Script要素"
+
+#. fullpage_dlg:src
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:397
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:src"
+msgid "Source"
+msgstr "ソース"
+
+#. fullpage_dlg:style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:398
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:style"
+msgid "Style"
+msgstr "スタイル"
+
+#. fullpage_dlg:style_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:399
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:style_element"
+msgid "Style element"
+msgstr "Style要素"
+
+#. fullpage_dlg:stylesheet
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:400
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:stylesheet"
+msgid "Stylesheet"
+msgstr "スタイルシート"
+
+#. fullpage_dlg:target
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:401
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:target"
+msgid "Target"
+msgstr "Target"
+
+#. fullpage_dlg:textcolor
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:402
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:textcolor"
+msgid "Color"
+msgstr "色"
+
+#. fullpage_dlg:text_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:403
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:text_color"
+msgid "Text color"
+msgstr "文字色"
+
+#. fullpage_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:404
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:title"
+msgid "Document properties"
+msgstr "ページ設定"
+
+#. fullpage_dlg:title_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:405
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:title_element"
+msgid "Title element"
+msgstr "Title要素"
+
+#. fullpage_dlg:top_margin
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:406
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:top_margin"
+msgid "Top margin"
+msgstr "上余白"
+
+#. fullpage_dlg:type
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:407
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:type"
+msgid "Type"
+msgstr "Type"
+
+#. fullpage_dlg:value
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:408
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:value"
+msgid "Value"
+msgstr "Value"
+
+#. fullpage_dlg:visited_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:409
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:visited_color"
+msgid "Visited color"
+msgstr "リンク色(visited)"
+
+#. fullpage_dlg:xml_pi
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:410
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullpage_dlg:xml_pi"
+msgid "XML declaration"
+msgstr "XML宣言"
+
+#. fullscreen:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:411
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:fullscreen:desc"
+msgid "Toggle full screen mode"
+msgstr "フルスクリーンモード"
+
+#. iespell:download
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:412
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:iespell:download"
+msgid "ieSpell not detected. Do you want to install it now?"
+msgstr "ieSpellが見つかりません。今インストールしますか？"
+
+#. iespell:iespell_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:413
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:iespell:iespell_desc"
+msgid "Check spelling"
+msgstr "スペルチェック"
+
+#. insertdatetime:date_fmt
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:414
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:date_fmt"
+msgid "%Y-%m-%d"
+msgstr "%Y-%m-%d"
+
+#. insertdatetime:day_long
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:415
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:day_long"
+msgid "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+msgstr "日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日,日曜日"
+
+#. insertdatetime:day_short
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:416
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:day_short"
+msgid "Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+msgstr "(日),(月),(火),(水),(木),(金),(土),(日)"
+
+#. insertdatetime:insertdate_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:417
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:insertdate_desc"
+msgid "Insert date"
+msgstr "日付の挿入"
+
+#. insertdatetime:inserttime_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:418
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:inserttime_desc"
+msgid "Insert time"
+msgstr "時刻の挿入"
+
+#. insertdatetime:months_long
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:419
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:months_long"
+msgid ""
+"January,February,March,April,May,June,July,August,September,October,November,December"
+msgstr "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+
+#. insertdatetime:months_short
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:420
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:months_short"
+msgid "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+msgstr "1,2,3,4,5,6,7,8,9,10,11,12"
+
+#. insertdatetime:time_fmt
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:421
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:insertdatetime:time_fmt"
+msgid "%H:%M:%S"
+msgstr "%H:%M:%S"
+
+#. layer:absolute_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:422
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:layer:absolute_desc"
+msgid "Toggle absolute positioning"
+msgstr "絶対位置指定の切替"
+
+#. layer:backward_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:423
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:layer:backward_desc"
+msgid "Move backward"
+msgstr "背面へ移動"
+
+#. layer:content
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:424
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:layer:content"
+msgid "New layer..."
+msgstr "新規レイヤー"
+
+#. layer:forward_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:425
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:layer:forward_desc"
+msgid "Move forward"
+msgstr "前面へ移動"
+
+#. layer:insertlayer_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:426
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:layer:insertlayer_desc"
+msgid "Insert new layer"
+msgstr "新規レイヤーの挿入"
+
+#. media:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:427
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media:desc"
+msgid "Insert/edit embedded media"
+msgstr "埋め込みメディアの挿入/編集"
+
+#. media_dlg:advanced
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:428
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:advanced"
+msgid "Advanced"
+msgstr "高度な設定"
+
+#. media_dlg:align
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:429
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align"
+msgid "Align"
+msgstr "配置"
+
+#. media_dlg:align_bottom
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:430
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_bottom"
+msgid "Bottom"
+msgstr "下"
+
+#. media_dlg:align_bottom_left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:431
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_bottom_left"
+msgid "Bottom left"
+msgstr "左下"
+
+#. media_dlg:align_bottom_right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:432
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_bottom_right"
+msgid "Bottom right"
+msgstr "右下"
+
+#. media_dlg:align_center
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:433
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_center"
+msgid "Center"
+msgstr "中央"
+
+#. media_dlg:align_left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:434
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_left"
+msgid "Left"
+msgstr "左"
+
+#. media_dlg:align_right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:435
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_right"
+msgid "Right"
+msgstr "右"
+
+#. media_dlg:align_top
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:436
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_top"
+msgid "Top"
+msgstr "上"
+
+#. media_dlg:align_top_left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:437
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_top_left"
+msgid "Top left"
+msgstr "左上"
+
+#. media_dlg:align_top_right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:438
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:align_top_right"
+msgid "Top right"
+msgstr "右上"
+
+#. media_dlg:altsource1
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:439
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:altsource1"
+msgid "Alternative source 1"
+msgstr "代替ソース1"
+
+#. media_dlg:altsource2
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:440
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:altsource2"
+msgid "Alternative source 2"
+msgstr "代替ソース2"
+
+#. media_dlg:audio
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:441
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:audio"
+msgid "HTML5 audio"
+msgstr "HTML5オーディオ"
+
+#. media_dlg:autogotourl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:442
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:autogotourl"
+msgid "Auto goto URL"
+msgstr "autogotourl"
+
+#. media_dlg:autohref
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:443
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:autohref"
+msgid "Auto HREF"
+msgstr "自動HREF"
+
+#. media_dlg:autostart
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:444
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:autostart"
+msgid "Auto start"
+msgstr "自動再生"
+
+#. media_dlg:balance
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:445
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:balance"
+msgid "Balance"
+msgstr "ステレオのバランス"
+
+#. media_dlg:base
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:446
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:base"
+msgid "Base"
+msgstr "Base"
+
+#. media_dlg:baseurl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:447
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:baseurl"
+msgid "Base URL"
+msgstr "Base URL"
+
+#. media_dlg:bgcolor
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:448
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:bgcolor"
+msgid "Background"
+msgstr "背景色"
+
+#. media_dlg:cache
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:449
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:cache"
+msgid "Cache"
+msgstr "キャッシュ"
+
+#. media_dlg:captioningid
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:450
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:captioningid"
+msgid "Captioning ID"
+msgstr "キャプションID"
+
+#. media_dlg:center
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:451
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:center"
+msgid "Center"
+msgstr "センタリング"
+
+#. media_dlg:class_name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:452
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:class_name"
+msgid "Class"
+msgstr "クラス"
+
+#. media_dlg:console
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:453
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:console"
+msgid "Console"
+msgstr "コンソール"
+
+#. media_dlg:constrain_proportions
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:454
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:constrain_proportions"
+msgid "Constrain proportions"
+msgstr "縦横比を保存"
+
+#. media_dlg:controller
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:455
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:controller"
+msgid "Controller"
+msgstr "コントローラ表示"
+
+#. media_dlg:controls
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:456
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:controls"
+msgid "Controls"
+msgstr "コントローラ表示"
+
+#. media_dlg:correction
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:457
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:correction"
+msgid "No correction"
+msgstr "No correction"
+
+#. media_dlg:currentmarker
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:458
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:currentmarker"
+msgid "Current marker"
+msgstr "マーカー番号"
+
+#. media_dlg:currentposition
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:459
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:currentposition"
+msgid "Current position"
+msgstr "再生位置（秒単位）"
+
+#. media_dlg:defaultframe
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:460
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:defaultframe"
+msgid "Default frame"
+msgstr "デフォルトフレーム"
+
+#. media_dlg:embeddedaudio
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:461
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:embeddedaudio"
+msgid "Embedded audio"
+msgstr "埋め込みオーディオ"
+
+#. media_dlg:embedded_audio_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:462
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:embedded_audio_options"
+msgid "Embedded audio options"
+msgstr "埋め込みオーディオオプション"
+
+#. media_dlg:enabled
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:463
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:enabled"
+msgid "Enabled"
+msgstr "有効にする"
+
+#. media_dlg:enablejavascript
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:464
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:enablejavascript"
+msgid "Enable JavaScript"
+msgstr "JavaScriptを有効にする"
+
+#. media_dlg:endtime
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:465
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:endtime"
+msgid "End time"
+msgstr "終了フレーム"
+
+#. media_dlg:file
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:466
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:file"
+msgid "File/URL"
+msgstr "ファイル/URL"
+
+#. media_dlg:flash
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:467
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:flash"
+msgid "Flash"
+msgstr "Flash"
+
+#. media_dlg:flash_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:468
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:flash_options"
+msgid "Flash options"
+msgstr "Flashオプション"
+
+#. media_dlg:flashvars
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:469
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:flashvars"
+msgid "Flash vars"
+msgstr "Flash vars"
+
+#. media_dlg:fullscreen
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:470
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:fullscreen"
+msgid "Full screen"
+msgstr "フルスクリーン"
+
+#. media_dlg:general
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:471
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:general"
+msgid "General"
+msgstr "一般"
+
+#. media_dlg:hidden
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:472
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:hidden"
+msgid "Hidden"
+msgstr "非表示"
+
+#. media_dlg:href
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:473
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:href"
+msgid "HREF"
+msgstr "HREF"
+
+#. media_dlg:hspace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:474
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:hspace"
+msgid "H-Space"
+msgstr "左右余白"
+
+#. media_dlg:html5_audio_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:475
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:html5_audio_options"
+msgid "Audio options"
+msgstr "オーディオオプション"
+
+#. media_dlg:html5_video_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:476
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:html5_video_options"
+msgid "HTML5 video options"
+msgstr "HTML5ビデオオプション"
+
+#. media_dlg:id
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:477
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:id"
+msgid "ID"
+msgstr "ID"
+
+#. media_dlg:iframe
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:478
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:iframe"
+msgid "Iframe"
+msgstr "Iframe"
+
+#. media_dlg:imagestatus
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:479
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:imagestatus"
+msgid "Image status"
+msgstr "ステータス表示"
+
+#. media_dlg:invokeurls
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:480
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:invokeurls"
+msgid "Invoke URLs"
+msgstr "URLを開く"
+
+#. media_dlg:kioskmode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:481
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:kioskmode"
+msgid "Kiosk mode"
+msgstr "Kioskモード"
+
+#. media_dlg:list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:482
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:list"
+msgid "List"
+msgstr "一覧から選ぶ"
+
+#. media_dlg:liveconnect
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:483
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:liveconnect"
+msgid "SWLiveConnect"
+msgstr "SWLiveConnect"
+
+#. media_dlg:loop
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:484
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:loop"
+msgid "Loop"
+msgstr "繰り返し再生"
+
+#. media_dlg:maintainaspect
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:485
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:maintainaspect"
+msgid "Maintain aspect"
+msgstr "縦横比保存"
+
+#. media_dlg:menu
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:486
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:menu"
+msgid "Show menu"
+msgstr "メニューを表示"
+
+#. media_dlg:mute
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:487
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:mute"
+msgid "Mute"
+msgstr "ミュート"
+
+#. media_dlg:name
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:488
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:name"
+msgid "Name"
+msgstr "名前"
+
+#. media_dlg:nojava
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:489
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:nojava"
+msgid "No Java"
+msgstr "Javaなし"
+
+#. media_dlg:numloop
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:490
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:numloop"
+msgid "Num loops"
+msgstr "繰り返し回数"
+
+#. media_dlg:play
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:491
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:play"
+msgid "Auto play"
+msgstr "自動再生"
+
+#. media_dlg:playcount
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:492
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:playcount"
+msgid "Play count"
+msgstr "再生回数"
+
+#. media_dlg:playeveryframe
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:493
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:playeveryframe"
+msgid "Play every frame"
+msgstr "全フレーム再生"
+
+#. media_dlg:poster
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:494
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:poster"
+msgid "Poster"
+msgstr "ポスター"
+
+#. media_dlg:prefetch
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:495
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:prefetch"
+msgid "Prefetch"
+msgstr "プリフェッチ"
+
+#. media_dlg:preload
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:496
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:preload"
+msgid "Preload"
+msgstr "プリロードする"
+
+#. media_dlg:preload_auto
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:497
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:preload_auto"
+msgid "Let user's browser decide"
+msgstr "ユーザのブラウザに決定させる"
+
+#. media_dlg:preload_metadata
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:498
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:preload_metadata"
+msgid "Preload video metadata"
+msgstr "ビデオメタデータをプリロードする"
+
+#. media_dlg:preload_none
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:499
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:preload_none"
+msgid "Don't preload"
+msgstr "プリロードしない"
+
+#. media_dlg:preview
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:500
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:preview"
+msgid "Preview"
+msgstr "プレビュー"
+
+#. media_dlg:progress
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:501
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:progress"
+msgid "Progress"
+msgstr "Progress"
+
+#. media_dlg:qt_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:502
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:qt_options"
+msgid "QuickTime options"
+msgstr "QuickTimeオプション"
+
+#. media_dlg:qtsrc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:503
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:qtsrc"
+msgid "QT source"
+msgstr "QTソース"
+
+#. media_dlg:qtsrcchokespeed
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:504
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:qtsrcchokespeed"
+msgid "Choke speed"
+msgstr "再生データレート"
+
+#. media_dlg:qt_stream_warn
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:505
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:qt_stream_warn"
+msgid ""
+"Streamed RTSP resources should be added to the QT source field under the "
+"advanced tab.You should also add a non-streamed version to the source field."
+msgstr "RTSPストリーミングリソースを高度な設定タブのQTソースフィールドに入力してください。ソースフィールドにはストリーミングではないバージョーンを入力してください。"
+
+#. media_dlg:quality
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:506
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:quality"
+msgid "Quality"
+msgstr "品質"
+
+#. media_dlg:quicktime
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:507
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:quicktime"
+msgid "QuickTime"
+msgstr "QuickTime"
+
+#. media_dlg:rate
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:508
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:rate"
+msgid "Rate"
+msgstr "再生レート"
+
+#. media_dlg:realmedia
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:509
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:realmedia"
+msgid "Real Media"
+msgstr "Real Media"
+
+#. media_dlg:rmp_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:510
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:rmp_options"
+msgid "Real Media Player options"
+msgstr "Real Media Playerオプション"
+
+#. media_dlg:salign
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:511
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:salign"
+msgid "SAlign"
+msgstr "SAlign"
+
+#. media_dlg:scale
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:512
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:scale"
+msgid "Scale"
+msgstr "伸縮"
+
+#. media_dlg:scriptcallbacks
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:513
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:scriptcallbacks"
+msgid "Script callbacks"
+msgstr "コールバックイベント"
+
+#. media_dlg:shockwave
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:514
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:shockwave"
+msgid "Shockwave"
+msgstr "Shockwave"
+
+#. media_dlg:shockwave_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:515
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:shockwave_options"
+msgid "Shockwave options"
+msgstr "Shockwaveオプション"
+
+#. media_dlg:shuffle
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:516
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:shuffle"
+msgid "Shuffle"
+msgstr "シャッフル"
+
+#. media_dlg:size
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:517
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:size"
+msgid "Dimensions"
+msgstr "サイズ"
+
+#. media_dlg:sound
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:518
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:sound"
+msgid "Sound"
+msgstr "サウンド"
+
+#. media_dlg:source
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:519
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:source"
+msgid "Source"
+msgstr "ソース"
+
+#. media_dlg:starttime
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:520
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:starttime"
+msgid "Start time"
+msgstr "開始フレーム"
+
+#. media_dlg:stretchtofit
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:521
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:stretchtofit"
+msgid "Stretch to fit"
+msgstr "自動サイズ変更"
+
+#. media_dlg:swstretchhalign
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:522
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:swstretchhalign"
+msgid "Stretch H-Align"
+msgstr "水平位置"
+
+#. media_dlg:swstretchstyle
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:523
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:swstretchstyle"
+msgid "Stretch Style"
+msgstr "伸縮スタイル"
+
+#. media_dlg:swstretchvalign
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:524
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:swstretchvalign"
+msgid "Stretch V-Align"
+msgstr "垂直位置"
+
+#. media_dlg:target
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:525
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:target"
+msgid "Target"
+msgstr "ターゲット"
+
+#. media_dlg:targetcache
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:526
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:targetcache"
+msgid "Target cache"
+msgstr "ターゲットキャッシュ"
+
+#. media_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:527
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:title"
+msgid "Insert/edit embedded media"
+msgstr "埋め込みメディアを挿入/編集する"
+
+#. media_dlg:type
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:528
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:type"
+msgid "Type"
+msgstr "タイプ"
+
+#. media_dlg:uimode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:529
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:uimode"
+msgid "UI mode"
+msgstr "UIモード"
+
+#. media_dlg:video
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:530
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:video"
+msgid "HTML5 video"
+msgstr "HTML5ビデオ"
+
+#. media_dlg:volume
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:531
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:volume"
+msgid "Volume"
+msgstr "音量"
+
+#. media_dlg:vspace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:532
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:vspace"
+msgid "V-Space"
+msgstr "上下余白"
+
+#. media_dlg:windowlessvideo
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:533
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:windowlessvideo"
+msgid "Windowless video"
+msgstr "windowlessモード"
+
+#. media_dlg:windowsmedia
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:534
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:windowsmedia"
+msgid "Windows Media"
+msgstr "Windows Media"
+
+#. media_dlg:wmode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:535
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:wmode"
+msgid "WMode"
+msgstr "WMode"
+
+#. media_dlg:wmp_options
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:536
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media_dlg:wmp_options"
+msgid "Windows Media Player options"
+msgstr "Windows Media Playerオプション"
+
+#. media:edit
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:537
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:media:edit"
+msgid "Edit embedded media"
+msgstr "埋め込みメディアの編集"
+
+#. nonbreaking:nonbreaking_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:538
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:nonbreaking:nonbreaking_desc"
+msgid "Insert non-breaking space character"
+msgstr "改行なしスペースの挿入"
+
+#. pagebreak:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:539
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:pagebreak:desc"
+msgid "Insert page break for printing"
+msgstr "印刷のために改ページを挿入する"
+
+#. paste_dlg:text_linebreaks
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:540
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:paste_dlg:text_linebreaks"
+msgid "Keep linebreaks"
+msgstr "改行を保持する"
+
+#. paste_dlg:text_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:541
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:paste_dlg:text_title"
+msgid "Use Ctrl+V on your keyboard to paste the text into the window."
+msgstr "ウィンドウにテキストを貼り付けるには、あなたのキーボードの「CTRL+V」を使用してください。"
+
+#. paste_dlg:word_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:542
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:paste_dlg:word_title"
+msgid "Use Ctrl+V on your keyboard to paste the text into the window."
+msgstr "ウィンドウにテキストを貼り付けるには、あなたのキーボードの「CTRL+V」を使用してください。"
+
+#. paste:paste_text_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:543
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:paste:paste_text_desc"
+msgid "Paste as plain Text"
+msgstr "プレインテキストとして貼り付ける"
+
+#. paste:paste_word_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:544
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:paste:paste_word_desc"
+msgid "Paste from Word"
+msgstr "Wordから貼り付け"
+
+#. paste:plaintext_mode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:545
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:paste:plaintext_mode"
+msgid ""
+"Paste is now in plain text mode. Click again to toggle back to regular paste"
+" mode. After you paste something you will be returned to regular paste mode."
+msgstr "現在、ペーストはプレインテキストモードです。通常ペーストモードに戻るには、再度クリックしてください。あなたが何かを貼り付けた場合、通常ペーストモードに戻ります。"
+
+#. paste:plaintext_mode_stick
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:546
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:paste:plaintext_mode_stick"
+msgid ""
+"Paste is now in plain text mode. Click again to toggle back to regular paste"
+" mode."
+msgstr "現在、ペーストはプレインテキストモードです。通常ペーストモードに戻るには、再度クリックしてください。"
+
+#. paste:selectall_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:547
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:paste:selectall_desc"
+msgid "Select All"
+msgstr "全て選択"
+
+#. pluginname
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:548
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:pluginname"
+msgid "TinyMCE HTML editor"
+msgstr "TinyMCE HTMLエディタ"
+
+#. preview:preview_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:549
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:preview:preview_desc"
+msgid "Preview"
+msgstr "プレビュー"
+
+#. print:print_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:550
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:print:print_desc"
+msgid "Print"
+msgstr "印刷"
+
+#. save:cancel_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:551
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:save:cancel_desc"
+msgid "Cancel all changes"
+msgstr "全ての変更を破棄"
+
+#. save:save_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:552
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:save:save_desc"
+msgid "Save"
+msgstr "保存"
+
+#. searchreplace_dlg:allreplaced
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:553
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:allreplaced"
+msgid "All occurrences of the search string were replaced."
+msgstr "全て置換されました。"
+
+#. searchreplace_dlg:direction
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:554
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:direction"
+msgid "Direction"
+msgstr "方向"
+
+#. searchreplace_dlg:down
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:555
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:down"
+msgid "Down"
+msgstr "下へ"
+
+#. searchreplace_dlg:findnext
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:556
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:findnext"
+msgid "Find next"
+msgstr "次へ"
+
+#. searchreplace_dlg:findwhat
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:557
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:findwhat"
+msgid "Find what"
+msgstr "検索文字列"
+
+#. searchreplace_dlg:mcase
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:558
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:mcase"
+msgid "Match case"
+msgstr "大文字/小文字を区別する"
+
+#. searchreplace_dlg:notfound
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:559
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:notfound"
+msgid "The search has been completed. The search string could not be found."
+msgstr "最後まで検索しましたが、検索文字列が見つかりませんでした。"
+
+#. searchreplace_dlg:replace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:560
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:replace"
+msgid "Replace"
+msgstr "置換"
+
+#. searchreplace_dlg:replaceall
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:561
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:replaceall"
+msgid "Replace all"
+msgstr "全て置換"
+
+#. searchreplace_dlg:replace_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:562
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:replace_title"
+msgid "Find/replace"
+msgstr "検索/置換"
+
+#. searchreplace_dlg:replacewith
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:563
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:replacewith"
+msgid "Replace with"
+msgstr "置換文字列"
+
+#. searchreplace_dlg:searchnext_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:564
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:searchnext_desc"
+msgid "Find again"
+msgstr "再検索"
+
+#. searchreplace_dlg:search_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:565
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:search_title"
+msgid "Find"
+msgstr "検索"
+
+#. searchreplace_dlg:up
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:566
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace_dlg:up"
+msgid "Up"
+msgstr "上へ"
+
+#. searchreplace:replace_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:567
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace:replace_desc"
+msgid "Find/replace"
+msgstr "検索/置換"
+
+#. searchreplace:search_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:568
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:searchreplace:search_desc"
+msgid "Find"
+msgstr "検索"
+
+#. settings
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:569
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:settings"
+msgid "General settings"
+msgstr "一般設定"
+
+#. simple:bold_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:570
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:bold_desc"
+msgid "Bold (Ctrl+B)"
+msgstr "太字 (Ctrl+B)"
+
+#. simple:bullist_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:571
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:bullist_desc"
+msgid "Insert/remove bulleted list"
+msgstr "番号なしリストを挿入/削除する"
+
+#. simple:cleanup_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:572
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:cleanup_desc"
+msgid "Cleanup messy code"
+msgstr "コード整形"
+
+#. simple:italic_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:573
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:italic_desc"
+msgid "Italic (Ctrl+I)"
+msgstr "斜体 (Ctrl+I)"
+
+#. simple:numlist_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:574
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:numlist_desc"
+msgid "Insert/remove numbered list"
+msgstr "番号つきリストを挿入/削除する"
+
+#. simple:redo_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:575
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:redo_desc"
+msgid "Redo (Ctrl+Y)"
+msgstr "やり直す (Ctrl+Y)"
+
+#. simple:striketrough_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:576
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:simple:striketrough_desc"
+msgid "Strikethrough"
+msgstr "打消し線"
+
+#. simple:underline_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:577
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:underline_desc"
+msgid "Underline (Ctrl+U)"
+msgstr "下線 (Ctrl+U)"
+
+#. simple:undo_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:578
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:simple:undo_desc"
+msgid "Undo (Ctrl+Z)"
+msgstr "元に戻す (Ctrl+Z)"
+
+#. spellchecker:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:579
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:desc"
+msgid "Toggle spell checker"
+msgstr "スペルチェックOn/Off"
+
+#. spellchecker:ignore_word
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:580
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:ignore_word"
+msgid "Ignore word"
+msgstr "この単語を無視"
+
+#. spellchecker:ignore_words
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:581
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:ignore_words"
+msgid "Ignore all"
+msgstr "全て無視"
+
+#. spellchecker:langs
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:582
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:langs"
+msgid "Languages"
+msgstr "言語"
+
+#. spellchecker:learn_word
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:583
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:learn_word"
+msgid "Learn word"
+msgstr "言葉を学習する"
+
+#. spellchecker:menu
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:584
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:menu"
+msgid "Spell checker settings"
+msgstr "スペルチェック設定"
+
+#. spellchecker:no_mpell
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:585
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:no_mpell"
+msgid "No misspellings found."
+msgstr "スペルミスはありません"
+
+#. spellchecker:no_sug
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:586
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:no_sug"
+msgid "No Suggestions"
+msgstr "候補がありません"
+
+#. spellchecker:sug
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:587
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:sug"
+msgid "Suggestions"
+msgstr "候補"
+
+#. spellchecker:wait
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:588
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:spellchecker:wait"
+msgid "Please wait..."
+msgstr "しばらくお待ちください..."
+
+#. style:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:589
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style:desc"
+msgid "Edit CSS style"
+msgstr "CSSスタイル編集"
+
+#. style_dlg:apply
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:590
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:apply"
+msgid "Apply"
+msgstr "適用"
+
+#. style_dlg:background
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:591
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background"
+msgid "Background"
+msgstr "背景"
+
+#. style_dlg:background_attachment
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:592
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background_attachment"
+msgid "Attachment"
+msgstr "Attachment"
+
+#. style_dlg:background_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:593
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background_color"
+msgid "Background color"
+msgstr "背景色"
+
+#. style_dlg:background_hpos
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:594
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background_hpos"
+msgid "Horizontal position"
+msgstr "水平位置"
+
+#. style_dlg:background_image
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:595
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background_image"
+msgid "Background image"
+msgstr "背景イメージ"
+
+#. style_dlg:background_repeat
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:596
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background_repeat"
+msgid "Repeat"
+msgstr "繰り返し"
+
+#. style_dlg:background_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:597
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background_tab"
+msgid "Background"
+msgstr "背景"
+
+#. style_dlg:background_vpos
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:598
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:background_vpos"
+msgid "Vertical position"
+msgstr "垂直位置"
+
+#. style_dlg:block
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:599
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block"
+msgid "Block"
+msgstr "ブロック"
+
+#. style_dlg:block_display
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:600
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_display"
+msgid "Display"
+msgstr "ディスプレイ"
+
+#. style_dlg:block_letterspacing
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:601
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_letterspacing"
+msgid "Letter spacing"
+msgstr "文字間隔"
+
+#. style_dlg:block_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:602
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_tab"
+msgid "Block"
+msgstr "ブロック"
+
+#. style_dlg:block_text_align
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:603
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_text_align"
+msgid "Text align"
+msgstr "水平配置"
+
+#. style_dlg:block_text_indent
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:604
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_text_indent"
+msgid "Text indent"
+msgstr "インデント"
+
+#. style_dlg:block_vertical_alignment
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:605
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_vertical_alignment"
+msgid "Vertical alignment"
+msgstr "垂直配置"
+
+#. style_dlg:block_whitespace
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:606
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_whitespace"
+msgid "Whitespace"
+msgstr "空白文字"
+
+#. style_dlg:block_wordspacing
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:607
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:block_wordspacing"
+msgid "Word spacing"
+msgstr "単語間隔"
+
+#. style_dlg:border
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:608
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:border"
+msgid "Border"
+msgstr "枠線"
+
+#. style_dlg:border_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:609
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:border_tab"
+msgid "Border"
+msgstr "枠線"
+
+#. style_dlg:bottom
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:610
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:bottom"
+msgid "Bottom"
+msgstr "下"
+
+#. style_dlg:box
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:611
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:box"
+msgid "Box"
+msgstr "ボックス"
+
+#. style_dlg:box_clear
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:612
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:box_clear"
+msgid "Clear"
+msgstr "回り込み解除"
+
+#. style_dlg:box_float
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:613
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:box_float"
+msgid "Float"
+msgstr "回り込み"
+
+#. style_dlg:box_height
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:614
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:box_height"
+msgid "Height"
+msgstr "高さ"
+
+#. style_dlg:box_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:615
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:box_tab"
+msgid "Box"
+msgstr "ボックス"
+
+#. style_dlg:box_width
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:616
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:box_width"
+msgid "Width"
+msgstr "幅"
+
+#. style_dlg:bullet_image
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:617
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:bullet_image"
+msgid "Bullet image"
+msgstr "ブレットイメージ"
+
+#. style_dlg:clip
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:618
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:clip"
+msgid "Clip"
+msgstr "切り抜き"
+
+#. style_dlg:color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:619
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:color"
+msgid "Color"
+msgstr "色"
+
+#. style_dlg:height
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:620
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:height"
+msgid "Height"
+msgstr "高さ"
+
+#. style_dlg:left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:621
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:left"
+msgid "Left"
+msgstr "左"
+
+#. style_dlg:list
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:622
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:list"
+msgid "List"
+msgstr "リスト"
+
+#. style_dlg:list_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:623
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:list_tab"
+msgid "List"
+msgstr "リスト"
+
+#. style_dlg:list_type
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:624
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:list_type"
+msgid "Type"
+msgstr "マーカー種類"
+
+#. style_dlg:margin
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:625
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:margin"
+msgid "Margin"
+msgstr "マージン"
+
+#. style_dlg:overflow
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:626
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:overflow"
+msgid "Overflow"
+msgstr "オーバーフロー"
+
+#. style_dlg:padding
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:627
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:padding"
+msgid "Padding"
+msgstr "パディング"
+
+#. style_dlg:placement
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:628
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:placement"
+msgid "Placement"
+msgstr "位置"
+
+#. style_dlg:position
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:629
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:position"
+msgid "Position"
+msgstr "マーカー表示位置"
+
+#. style_dlg:positioning_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:630
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:positioning_tab"
+msgid "Positioning"
+msgstr "ポジション"
+
+#. style_dlg:positioning_type
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:631
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:positioning_type"
+msgid "Type"
+msgstr "配置方法"
+
+#. style_dlg:right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:632
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:right"
+msgid "Right"
+msgstr "右"
+
+#. style_dlg:same
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:633
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:same"
+msgid "Same for all"
+msgstr "全て同じにする"
+
+#. style_dlg:style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:634
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:style"
+msgid "Style"
+msgstr "スタイル"
+
+#. style_dlg:text
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:635
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text"
+msgid "Text"
+msgstr "テキスト"
+
+#. style_dlg:text_blink
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:636
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_blink"
+msgid "Blink"
+msgstr "点滅"
+
+#. style_dlg:text_case
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:637
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_case"
+msgid "Case"
+msgstr "大文字/小文字"
+
+#. style_dlg:text_color
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:638
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_color"
+msgid "Color"
+msgstr "色"
+
+#. style_dlg:text_decoration
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:639
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_decoration"
+msgid "Decoration"
+msgstr "装飾"
+
+#. style_dlg:text_font
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:640
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_font"
+msgid "Font"
+msgstr "フォント"
+
+#. style_dlg:text_lineheight
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:641
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_lineheight"
+msgid "Line height"
+msgstr "行高さ"
+
+#. style_dlg:text_none
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:642
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_none"
+msgid "None"
+msgstr "なし"
+
+#. style_dlg:text_overline
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:643
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_overline"
+msgid "Overline"
+msgstr "上線"
+
+#. style_dlg:text_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:644
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_props"
+msgid "Text"
+msgstr "Text"
+
+#. style_dlg:text_size
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:645
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_size"
+msgid "Size"
+msgstr "サイズ"
+
+#. style_dlg:text_striketrough
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:646
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_striketrough"
+msgid "Strikethrough"
+msgstr "打消し線"
+
+#. style_dlg:text_style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:647
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_style"
+msgid "Style"
+msgstr "スタイル"
+
+#. style_dlg:text_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:648
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_tab"
+msgid "Text"
+msgstr "文字"
+
+#. style_dlg:text_underline
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:649
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_underline"
+msgid "Underline"
+msgstr "下線"
+
+#. style_dlg:text_variant
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:650
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_variant"
+msgid "Variant"
+msgstr "変形"
+
+#. style_dlg:text_weight
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:651
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:text_weight"
+msgid "Weight"
+msgstr "太さ"
+
+#. style_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:652
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:title"
+msgid "Edit CSS style"
+msgstr "CSSスタイル編集"
+
+#. style_dlg:toggle_insert_span
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:653
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:toggle_insert_span"
+msgid "Insert span at selection"
+msgstr "選択した場所にspanタグを挿入する"
+
+#. style_dlg:top
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:654
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:top"
+msgid "Top"
+msgstr "上"
+
+#. style_dlg:visibility
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:655
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:visibility"
+msgid "Visibility"
+msgstr "表示"
+
+#. style_dlg:width
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:656
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:width"
+msgid "Width"
+msgstr "幅"
+
+#. style_dlg:zindex
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:657
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:style_dlg:zindex"
+msgid "Z-index"
+msgstr "Z-Index"
+
+#. subplugintype_tinymce_plural
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:658
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:subplugintype_tinymce_plural"
+msgid "Plugins"
+msgstr "プラグイン"
+
+#. table:cell
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:659
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:cell"
+msgid "Cell"
+msgstr "セル"
+
+#. table:cell_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:660
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:cell_desc"
+msgid "Table cell properties"
+msgstr "セルのプロパティ"
+
+#. table:col
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:661
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:col"
+msgid "Column"
+msgstr "列"
+
+#. table:col_after_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:662
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:col_after_desc"
+msgid "Insert column after"
+msgstr "列を右に挿入"
+
+#. table:col_before_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:663
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:col_before_desc"
+msgid "Insert column before"
+msgstr "列を左に挿入"
+
+#. table:copy_row_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:664
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:copy_row_desc"
+msgid "Copy table row"
+msgstr "行のコピー"
+
+#. table:cut_row_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:665
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:cut_row_desc"
+msgid "Cut table row"
+msgstr "行の切り取り"
+
+#. table:del
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:666
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:del"
+msgid "Delete Table"
+msgstr "表を削除する"
+
+#. table:delete_col_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:667
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:delete_col_desc"
+msgid "Delete column"
+msgstr "列を削除する"
+
+#. table:delete_row_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:668
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:delete_row_desc"
+msgid "Delete row"
+msgstr "行を削除"
+
+#. table:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:669
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:desc"
+msgid "Insert/edit table"
+msgstr "表を挿入/編集する"
+
+#. table_dlg:advanced_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:670
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:advanced_props"
+msgid "Advanced properties"
+msgstr "高度な設定"
+
+#. table_dlg:advanced_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:671
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:advanced_tab"
+msgid "Advanced"
+msgstr "高度な設定"
+
+#. table_dlg:align
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:672
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:align"
+msgid "Alignment"
+msgstr "配置"
+
+#. table_dlg:align_bottom
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:673
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:align_bottom"
+msgid "Bottom"
+msgstr "下端揃え"
+
+#. table_dlg:align_default
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:674
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:align_default"
+msgid "Default"
+msgstr "デフォルト"
+
+#. table_dlg:align_left
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:675
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:align_left"
+msgid "Left"
+msgstr "左揃え"
+
+#. table_dlg:align_middle
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:676
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:align_middle"
+msgid "Center"
+msgstr "中央揃え"
+
+#. table_dlg:align_right
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:677
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:align_right"
+msgid "Right"
+msgstr "右揃え"
+
+#. table_dlg:align_top
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:678
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:align_top"
+msgid "Top"
+msgstr "上端揃え"
+
+#. table_dlg:bgcolor
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:679
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:bgcolor"
+msgid "Background color"
+msgstr "背景色"
+
+#. table_dlg:bgimage
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:680
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:bgimage"
+msgid "Background image"
+msgstr "背景イメージ"
+
+#. table_dlg:border
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:681
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:border"
+msgid "Border"
+msgstr "枠線"
+
+#. table_dlg:bordercolor
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:682
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:bordercolor"
+msgid "Border color"
+msgstr "枠線の色"
+
+#. table_dlg:caption
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:683
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:caption"
+msgid "Table caption"
+msgstr "表に見出しを付ける"
+
+#. table_dlg:cell_all
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:684
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cell_all"
+msgid "Update all cells in table"
+msgstr "全てのセルの更新"
+
+#. table_dlg:cell_cell
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:685
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cell_cell"
+msgid "Update current cell"
+msgstr "選択セルの更新"
+
+#. table_dlg:cell_col
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:686
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cell_col"
+msgid "Update all cells in column"
+msgstr "カラム内のセルすべてを更新する"
+
+#. table_dlg:cell_limit
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:687
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cell_limit"
+msgid "You've exceeded the maximum number of cells of {$cells}."
+msgstr "セルの最大数を超えました。"
+
+#. table_dlg:cellpadding
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:688
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cellpadding"
+msgid "Cell padding"
+msgstr "Cell padding"
+
+#. table_dlg:cell_row
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:689
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cell_row"
+msgid "Update all cells in row"
+msgstr "行内のセルの更新"
+
+#. table_dlg:cellspacing
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:690
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cellspacing"
+msgid "Cell spacing"
+msgstr "Cell spacing"
+
+#. table_dlg:cell_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:691
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cell_title"
+msgid "Table cell properties"
+msgstr "セルのプロパティ"
+
+#. table_dlg:cell_type
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:692
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cell_type"
+msgid "Cell type"
+msgstr "セル種別"
+
+#. table_dlg:colgroup
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:693
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:colgroup"
+msgid "Col group"
+msgstr "列グループ"
+
+#. table_dlg:col_limit
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:694
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:col_limit"
+msgid "You've exceeded the maximum number of columns of {$cols}."
+msgstr "列の最大数を超えました。"
+
+#. table_dlg:cols
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:695
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:cols"
+msgid "Columns"
+msgstr "列"
+
+#. table_dlg:frame
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:696
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:frame"
+msgid "Frame"
+msgstr "セル枠線"
+
+#. table_dlg:frame_all
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:697
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:frame_all"
+msgid "all"
+msgstr "全て"
+
+#. table_dlg:frame_cols
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:698
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:frame_cols"
+msgid "cols"
+msgstr "列"
+
+#. table_dlg:frame_groups
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:699
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:frame_groups"
+msgid "groups"
+msgstr "グループごと"
+
+#. table_dlg:frame_none
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:700
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:frame_none"
+msgid "none"
+msgstr "なし"
+
+#. table_dlg:frame_rows
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:701
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:frame_rows"
+msgid "rows"
+msgstr "行"
+
+#. table_dlg:general_props
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:702
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:general_props"
+msgid "General properties"
+msgstr "一般"
+
+#. table_dlg:general_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:703
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:general_tab"
+msgid "General"
+msgstr "一般"
+
+#. table_dlg:height
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:704
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:height"
+msgid "Height"
+msgstr "高さ"
+
+#. table_dlg:id
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:705
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:id"
+msgid "ID"
+msgstr "ID"
+
+#. table_dlg:langcode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:706
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:langcode"
+msgid "Language code"
+msgstr "言語コード"
+
+#. table_dlg:langdir
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:707
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:langdir"
+msgid "Language direction"
+msgstr "文章の方向"
+
+#. table_dlg:ltr
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:708
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:ltr"
+msgid "Left to right"
+msgstr "左から右"
+
+#. table_dlg:merge_cells_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:709
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:merge_cells_title"
+msgid "Merge table cells"
+msgstr "セルの結合"
+
+#. table_dlg:mime
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:710
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:mime"
+msgid "Target MIME type"
+msgstr "ターゲットのMIMEタイプ"
+
+#. table_dlg:missing_scope
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:711
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:missing_scope"
+msgid ""
+"Are you sure you want to continue without specifying a scope for this table "
+"header cell. Without it, it may be difficult for some users with "
+"disabilities to understand the content or data displayed of the table."
+msgstr "表のスコープ属性を設定していませんがよろしいですか？"
+
+#. table_dlg:row_all
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:712
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:row_all"
+msgid "Update all rows in table"
+msgstr "全ての行の更新"
+
+#. table_dlg:row_even
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:713
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:row_even"
+msgid "Update even rows in table"
+msgstr "偶数行の更新"
+
+#. table_dlg:rowgroup
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:714
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rowgroup"
+msgid "Row group"
+msgstr "行グループ"
+
+#. table_dlg:row_limit
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:715
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:row_limit"
+msgid "You've exceeded the maximum number of rows of {$rows}."
+msgstr "行の最大数を超えました。"
+
+#. table_dlg:row_odd
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:716
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:row_odd"
+msgid "Update odd rows in table"
+msgstr "奇数行の更新"
+
+#. table_dlg:row_row
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:717
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:row_row"
+msgid "Update current row"
+msgstr "選択行の更新"
+
+#. table_dlg:rows
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:718
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rows"
+msgid "Rows"
+msgstr "行"
+
+#. table_dlg:row_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:719
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:row_title"
+msgid "Table row properties"
+msgstr "行のプロパティ"
+
+#. table_dlg:rowtype
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:720
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rowtype"
+msgid "Row type"
+msgstr "行タイプ"
+
+#. table_dlg:rtl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:721
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rtl"
+msgid "Right to left"
+msgstr "右から左"
+
+#. table_dlg:rules
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:722
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules"
+msgid "Rules"
+msgstr "表の外枠"
+
+#. table_dlg:rules_above
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:723
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_above"
+msgid "above"
+msgstr "上"
+
+#. table_dlg:rules_below
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:724
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_below"
+msgid "below"
+msgstr "下"
+
+#. table_dlg:rules_border
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:725
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_border"
+msgid "border"
+msgstr "上下左右(border)"
+
+#. table_dlg:rules_box
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:726
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_box"
+msgid "box"
+msgstr "上下左右(box)"
+
+#. table_dlg:rules_hsides
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:727
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_hsides"
+msgid "hsides"
+msgstr "上下"
+
+#. table_dlg:rules_lhs
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:728
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_lhs"
+msgid "lhs"
+msgstr "左"
+
+#. table_dlg:rules_rhs
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:729
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_rhs"
+msgid "rhs"
+msgstr "右"
+
+#. table_dlg:rules_void
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:730
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_void"
+msgid "void"
+msgstr "なし"
+
+#. table_dlg:rules_vsides
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:731
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:rules_vsides"
+msgid "vsides"
+msgstr "左右"
+
+#. table_dlg:scope
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:732
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:scope"
+msgid "Scope"
+msgstr "スコープ"
+
+#. table_dlg:style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:733
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:style"
+msgid "Style"
+msgstr "スタイル"
+
+#. table_dlg:summary
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:734
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:summary"
+msgid "Summary"
+msgstr "サマリー"
+
+#. table_dlg:tbody
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:735
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:tbody"
+msgid "Body"
+msgstr "ボディ"
+
+#. table_dlg:td
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:736
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:td"
+msgid "Data"
+msgstr "標準"
+
+#. table_dlg:tfoot
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:737
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:tfoot"
+msgid "Footer"
+msgstr "フッタ"
+
+#. table_dlg:th
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:738
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:th"
+msgid "Header"
+msgstr "ヘッダ"
+
+#. table_dlg:thead
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:739
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:thead"
+msgid "Header"
+msgstr "ヘッダ"
+
+#. table_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:740
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:title"
+msgid "Insert/edit table"
+msgstr "表の挿入/編集"
+
+#. table_dlg:valign
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:741
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:valign"
+msgid "Vertical alignment"
+msgstr "垂直方向の配置"
+
+#. table_dlg:width
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:742
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table_dlg:width"
+msgid "Width"
+msgstr "幅"
+
+#. table:merge_cells_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:743
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:merge_cells_desc"
+msgid "Merge table cells"
+msgstr "セルを結合"
+
+#. table:paste_row_after_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:744
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:table:paste_row_after_desc"
+msgid "Paste table row after"
+msgstr "行を下に貼り付け"
+
+#. table:paste_row_before_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:745
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:table:paste_row_before_desc"
+msgid "Paste table row before"
+msgstr "行を上に貼り付け"
+
+#. table:props_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:746
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:props_desc"
+msgid "Table properties"
+msgstr "表のプロパティ"
+
+#. table:row
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:747
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:row"
+msgid "Row"
+msgstr "行"
+
+#. table:row_after_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:748
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:row_after_desc"
+msgid "Insert row after"
+msgstr "行を下に挿入"
+
+#. table:row_before_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:749
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:row_before_desc"
+msgid "Insert row before"
+msgstr "行を上に挿入"
+
+#. table:row_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:750
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:row_desc"
+msgid "Table row properties"
+msgstr "行のプロパティ"
+
+#. table:split_cells_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:751
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:table:split_cells_desc"
+msgid "Split merged table cells"
+msgstr "セルの結合を解除"
+
+#. template:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:752
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template:desc"
+msgid "Insert predefined template content"
+msgstr "テンプレートの挿入"
+
+#. template_dlg:cdate_format
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:753
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:cdate_format"
+msgid "%Y-%m-%d %H:%M:%S"
+msgstr "%Y/%m/%d %H:%M:%S"
+
+#. template_dlg:day_long
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:754
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:day_long"
+msgid "Sunday,Monday,Tuesday,Wednesday,Thursday,Friday,Saturday,Sunday"
+msgstr "日曜日,月曜日,火曜日,水曜日,木曜日,金曜日,土曜日,日曜日"
+
+#. template_dlg:day_short
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:755
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:day_short"
+msgid "Sun,Mon,Tue,Wed,Thu,Fri,Sat,Sun"
+msgstr "(日),(月),(火),(水),(木),(金),(土),(日)"
+
+#. template_dlg:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:756
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:desc"
+msgid "Insert predefined template content"
+msgstr "テンプレートの挿入"
+
+#. template_dlg:desc_label
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:757
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:desc_label"
+msgid "Description"
+msgstr "説明"
+
+#. template_dlg:label
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:758
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:label"
+msgid "Template"
+msgstr "テンプレート"
+
+#. template_dlg:mdate_format
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:759
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:mdate_format"
+msgid "%Y-%m-%d %H:%M:%S"
+msgstr "%Y/%m/%d %H:%M:%S"
+
+#. template_dlg:months_long
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:760
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:months_long"
+msgid ""
+"January,February,March,April,May,June,July,August,September,October,November,December"
+msgstr "1月,2月,3月,4月,5月,6月,7月,8月,9月,10月,11月,12月"
+
+#. template_dlg:months_short
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:761
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:months_short"
+msgid "Jan,Feb,Mar,Apr,May,Jun,Jul,Aug,Sep,Oct,Nov,Dec"
+msgstr "1,2,3,4,5,6,7,8,9,10,11,12"
+
+#. template_dlg:preview
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:762
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:preview"
+msgid "Preview"
+msgstr "プレビュー"
+
+#. template_dlg:select
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:763
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:select"
+msgid "Select a template"
+msgstr "テンプレートを選択"
+
+#. template_dlg:title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:764
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:title"
+msgid "Templates"
+msgstr "テンプレート"
+
+#. template_dlg:warning
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:765
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:template_dlg:warning"
+msgid "Warning: Updating a template with a different one may cause data loss."
+msgstr "警告：テンプレートを上書きすると以前のデータは失われます。"
+
+#. visualblocks:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:766
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:visualblocks:desc"
+msgid "Show/hide block elements"
+msgstr "ブロックエレメントを表示/非表示にする"
+
+#. visualchars:desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:767
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:visualchars:desc"
+msgid "Show/hide visual control characters"
+msgstr "制御文字を表示/非表示にする"
+
+#. wordcount:words
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:768
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:wordcount:words"
+msgid "Words:"
+msgstr "語:"
+
+#. xhtmlxtras:abbr_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:769
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras:abbr_desc"
+msgid "Abbreviation"
+msgstr "略語"
+
+#. xhtmlxtras:acronym_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:770
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras:acronym_desc"
+msgid "Acronym"
+msgstr "頭字語"
+
+#. xhtmlxtras:attribs_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:771
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras:attribs_desc"
+msgid "Insert/edit attributes"
+msgstr "属性を挿入/編集する"
+
+#. xhtmlxtras:cite_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:772
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras:cite_desc"
+msgid "Citation"
+msgstr "引用"
+
+#. xhtmlxtras:del_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:773
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras:del_desc"
+msgid "Deletion"
+msgstr "削除"
+
+#. xhtmlxtras_dlg:attribs_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:774
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribs_title"
+msgid "Insert/edit attributes"
+msgstr "属性を挿入/削除する"
+
+#. xhtmlxtras_dlg:attrib_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:775
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attrib_tab"
+msgid "Attributes"
+msgstr "属性"
+
+#. xhtmlxtras_dlg:attribute_attrib_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:776
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_attrib_tab"
+msgid "Attributes"
+msgstr "属性"
+
+#. xhtmlxtras_dlg:attribute_events_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:777
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_events_tab"
+msgid "Events"
+msgstr "イベント"
+
+#. xhtmlxtras_dlg:attribute_label_accesskey
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:778
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_accesskey"
+msgid "AccessKey"
+msgstr "アクセスキー"
+
+#. xhtmlxtras_dlg:attribute_label_cite
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:779
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_cite"
+msgid "Cite"
+msgstr "引用"
+
+#. xhtmlxtras_dlg:attribute_label_class
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:780
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_class"
+msgid "Class"
+msgstr "クラス"
+
+#. xhtmlxtras_dlg:attribute_label_datetime
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:781
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_datetime"
+msgid "Date/time"
+msgstr "日付/時刻"
+
+#. xhtmlxtras_dlg:attribute_label_id
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:782
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_id"
+msgid "ID"
+msgstr "ID"
+
+#. xhtmlxtras_dlg:attribute_label_langcode
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:783
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_langcode"
+msgid "Language"
+msgstr "言語"
+
+#. xhtmlxtras_dlg:attribute_label_langdir
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:784
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_langdir"
+msgid "Text direction"
+msgstr "テキストの方向"
+
+#. xhtmlxtras_dlg:attribute_label_style
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:785
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_style"
+msgid "Style"
+msgstr "スタイル"
+
+#. xhtmlxtras_dlg:attribute_label_tabindex
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:786
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_tabindex"
+msgid "TabIndex"
+msgstr "タブインデックス"
+
+#. xhtmlxtras_dlg:attribute_label_title
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:787
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_label_title"
+msgid "Title"
+msgstr "タイトル"
+
+#. xhtmlxtras_dlg:attribute_option_ltr
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:788
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_option_ltr"
+msgid "Left to right"
+msgstr "左から右"
+
+#. xhtmlxtras_dlg:attribute_option_rtl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:789
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:attribute_option_rtl"
+msgid "Right to left"
+msgstr "右から左"
+
+#. xhtmlxtras_dlg:events_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:790
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:events_tab"
+msgid "Events"
+msgstr "イベント"
+
+#. xhtmlxtras_dlg:fieldset_attrib_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:791
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:fieldset_attrib_tab"
+msgid "Element attributes"
+msgstr "エレメント属性"
+
+#. xhtmlxtras_dlg:fieldset_events_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:792
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:fieldset_events_tab"
+msgid "Element events"
+msgstr "エレメントイベント"
+
+#. xhtmlxtras_dlg:fieldset_general_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:793
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:fieldset_general_tab"
+msgid "General settings"
+msgstr "一般設定"
+
+#. xhtmlxtras_dlg:general_tab
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:794
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:general_tab"
+msgid "General"
+msgstr "一般"
+
+#. xhtmlxtras_dlg:insert_date
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:795
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:insert_date"
+msgid "Insert current date/time"
+msgstr "現在の日付/時刻を挿入"
+
+#. xhtmlxtras_dlg:option_ltr
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:796
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:option_ltr"
+msgid "Left to right"
+msgstr "左から右"
+
+#. xhtmlxtras_dlg:option_rtl
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:797
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:option_rtl"
+msgid "Right to left"
+msgstr "右から左"
+
+#. xhtmlxtras_dlg:remove
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:798
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:remove"
+msgid "Remove"
+msgstr "Remove"
+
+#. xhtmlxtras_dlg:title_abbr_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:799
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:title_abbr_element"
+msgid "Abbreviation element"
+msgstr "略語エレメント"
+
+#. xhtmlxtras_dlg:title_acronym_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:800
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:title_acronym_element"
+msgid "Acronym element"
+msgstr "頭字語エレメント"
+
+#. xhtmlxtras_dlg:title_cite_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:801
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:title_cite_element"
+msgid "Citation element"
+msgstr "引用エレメント"
+
+#. xhtmlxtras_dlg:title_del_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:802
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:title_del_element"
+msgid "Deletion element"
+msgstr "エレメントを削除する"
+
+#. xhtmlxtras_dlg:title_ins_element
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:803
+msgctxt ""
+"lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras_dlg:title_ins_element"
+msgid "Insertion element"
+msgstr "エレメントを挿入する"
+
+#. xhtmlxtras:ins_desc
+#: lib/editor/tinymce/lang/en/editor_tinymce.php:804
+msgctxt "lib/editor/tinymce/lang/en/editor_tinymce.php:xhtmlxtras:ins_desc"
+msgid "Insertion"
+msgstr "挿入"
+
+#. ctrlhelp:desc
+#: lib/editor/tinymce/plugins/ctrlhelp/lang/en/tinymce_ctrlhelp.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/ctrlhelp/lang/en/tinymce_ctrlhelp.php:ctrlhelp:desc"
+msgid "CTRL + right click for more options"
+msgstr "さらなるオプションのためのCTRL + 右クリック"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/ctrlhelp/lang/en/tinymce_ctrlhelp.php:2
+msgctxt ""
+"lib/editor/tinymce/plugins/ctrlhelp/lang/en/tinymce_ctrlhelp.php:pluginname"
+msgid "CTRL+right click helper"
+msgstr "CTRL + 右クリックヘルパ"
+
+#. dragmath:desc
+#: lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:dragmath:desc"
+msgid "Insert equation"
+msgstr "方程式を挿入する"
+
+#. javaneeded
+#: lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:2
+msgctxt ""
+"lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:javaneeded"
+msgid ""
+"To use this page you need a Java-enabled browser. Download the latest Java "
+"plug-in from {$a}."
+msgstr "このページを使用するには、Javaを有効にしたブラウザが必要です。最新のJavaプラグインを {$a} からダウンロードしてください。"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:3
+msgctxt ""
+"lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:pluginname"
+msgid "Insert equation"
+msgstr "方程式を追加する"
+
+#. requiretex
+#: lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:4
+msgctxt ""
+"lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:requiretex"
+msgid "Require TeX filter"
+msgstr "TeXを必要とする"
+
+#. requiretex_desc
+#: lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:5
+msgctxt ""
+"lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:requiretex_desc"
+msgid ""
+"If enabled the Dragmath button is visible only when the TeX filter is "
+"enabled in the editor context. Disable if you have a custom TeX filter that "
+"is enabled in global scope."
+msgstr "有効にした場合、エディタコンテクスト内でTexフィルタが有効にされている場合のみ、Dragmathボタンが表示されます。グローバルスコープ内で有効にされたカスタムTexフィルタがある場合、無効にしてください。"
+
+#. title
+#: lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:6
+msgctxt ""
+"lib/editor/tinymce/plugins/dragmath/lang/en/tinymce_dragmath.php:title"
+msgid "DragMath Equation Editor"
+msgstr "DragMath方程式エディタ"
+
+#. allfilesok
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:allfilesok"
+msgid "There are no missing or unused files"
+msgstr "不明または未使用のファイルはありません。"
+
+#. deleteselected
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:2
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:deleteselected"
+msgid "Delete selected files"
+msgstr "選択されたファイルを削除する"
+
+#. hasmissingfiles
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:3
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:hasmissingfiles"
+msgid ""
+"Warning! The following files that are referenced in the text area appear to "
+"be missing:"
+msgstr "警告! テキストエリアで参照されている次のファイルが見当たらないようです:"
+
+#. manageareafiles
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:4
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:manageareafiles"
+msgid "Manage files embedded in text editor"
+msgstr "テキストエディタの埋め込みファイルを管理する"
+
+#. managefiles:desc
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:5
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:managefiles:desc"
+msgid "Manage embedded files"
+msgstr "埋め込みファイルを管理する"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:6
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:pluginname"
+msgid "Manage embedded files"
+msgstr "埋め込みファイルを管理する"
+
+#. refreshfiles
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:7
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:refreshfiles"
+msgid "Refresh the lists of missing and unused files"
+msgstr "不明および未使用ファイル一覧をリフレッシュする"
+
+#. unusedfilesdesc
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:8
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:unusedfilesdesc"
+msgid "The following embedded files are not used in the text area:"
+msgstr "次の埋め込みファイルはテキストエリアで使用されていません:"
+
+#. unusedfilesheader
+#: lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:9
+msgctxt ""
+"lib/editor/tinymce/plugins/managefiles/lang/en/tinymce_managefiles.php:unusedfilesheader"
+msgid "Unused files"
+msgstr "未使用ファイル"
+
+#. moodleemoticon:desc
+#: lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:moodleemoticon:desc"
+msgid "Insert emoticon"
+msgstr "エモーティコンを書き込む"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:2
+msgctxt ""
+"lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:pluginname"
+msgid "Insert emoticon"
+msgstr "エモーティコンを書き込む"
+
+#. requireemoticon
+#: lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:3
+msgctxt ""
+"lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:requireemoticon"
+msgid "Require emoticon filter"
+msgstr "エモーティコンフィルタを必要とする"
+
+#. requireemoticon_desc
+#: lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:4
+msgctxt ""
+"lib/editor/tinymce/plugins/moodleemoticon/lang/en/tinymce_moodleemoticon.php:requireemoticon_desc"
+msgid ""
+"If enabled the emoticon button is visible only when the emoticon filter is "
+"enabled in the editor context."
+msgstr "有効にした場合、エディタコンテクスト内でエモーティコンフィルタが有効にされている場合のみ、エモーティコンボタンが表示されます。"
+
+#. moodleimage:browseimage
+#: lib/editor/tinymce/plugins/moodleimage/lang/en/tinymce_moodleimage.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/moodleimage/lang/en/tinymce_moodleimage.php:moodleimage:browseimage"
+msgid "Find or upload an image..."
+msgstr "イメージを探すまたはアップロードする ..."
+
+#. pluginname
+#: lib/editor/tinymce/plugins/moodleimage/lang/en/tinymce_moodleimage.php:2
+msgctxt ""
+"lib/editor/tinymce/plugins/moodleimage/lang/en/tinymce_moodleimage.php:pluginname"
+msgid "Insert image"
+msgstr "イメージを追加する"
+
+#. moodlemedia:browsemedia
+#: lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:moodlemedia:browsemedia"
+msgid "Find or upload a sound, video or applet..."
+msgstr "サウンド、ビデオまたはアプレットを探すまたはアップロードする ..."
+
+#. moodlemedia:desc
+#: lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:2
+msgctxt ""
+"lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:moodlemedia:desc"
+msgid "Insert Moodle media"
+msgstr "Moodleメディアを追加する"
+
+#. nopreview
+#: lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:3
+msgctxt ""
+"lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:nopreview"
+msgid "Can not preview media."
+msgstr "メディアをプレビューできません。"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:4
+msgctxt ""
+"lib/editor/tinymce/plugins/moodlemedia/lang/en/tinymce_moodlemedia.php:pluginname"
+msgid "Insert media"
+msgstr "メディアを追加する"
+
+#. moodlenolink:desc
+#: lib/editor/tinymce/plugins/moodlenolink/lang/en/tinymce_moodlenolink.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/moodlenolink/lang/en/tinymce_moodlenolink.php:moodlenolink:desc"
+msgid "Prevent automatic linking"
+msgstr "自動リンクを避ける"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/moodlenolink/lang/en/tinymce_moodlenolink.php:2
+msgctxt ""
+"lib/editor/tinymce/plugins/moodlenolink/lang/en/tinymce_moodlenolink.php:pluginname"
+msgid "Prevent automatic linking"
+msgstr "自動リンクを避ける"
+
+#. pdw:desc
+#: lib/editor/tinymce/plugins/pdw/lang/en/tinymce_pdw.php:1
+msgctxt "lib/editor/tinymce/plugins/pdw/lang/en/tinymce_pdw.php:pdw:desc"
+msgid "Toolbar Toggle"
+msgstr "ツールバートグル"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/pdw/lang/en/tinymce_pdw.php:2
+msgctxt "lib/editor/tinymce/plugins/pdw/lang/en/tinymce_pdw.php:pluginname"
+msgid "Toolbar Toggle"
+msgstr "ツールバートグル"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/spellchecker/lang/en/tinymce_spellchecker.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/spellchecker/lang/en/tinymce_spellchecker.php:pluginname"
+msgid "Legacy spell checker"
+msgstr "レガシースペルチェッカ"
+
+#. moodlewrap:desc
+#: lib/editor/tinymce/plugins/wrap/lang/en/tinymce_wrap.php:1
+msgctxt ""
+"lib/editor/tinymce/plugins/wrap/lang/en/tinymce_wrap.php:moodlewrap:desc"
+msgid "Wrap"
+msgstr "折り返し"
+
+#. pluginname
+#: lib/editor/tinymce/plugins/wrap/lang/en/tinymce_wrap.php:2
+msgctxt "lib/editor/tinymce/plugins/wrap/lang/en/tinymce_wrap.php:pluginname"
+msgid "Wrap"
+msgstr "折り返し"

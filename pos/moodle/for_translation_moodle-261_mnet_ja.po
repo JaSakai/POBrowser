@@ -1,0 +1,102 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:30+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. availablecourseson
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:1
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:availablecourseson"
+msgid "Available courses on {$a}"
+msgstr "{$a} の利用可能なコース"
+
+#. availablecoursesonnone
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:2
+msgctxt ""
+"mnet/service/enrol/lang/en/mnetservice_enrol.php:availablecoursesonnone"
+msgid ""
+"Remote host <a href=\"{$a->hosturl}\">{$a->hostname}</a> does not offer any "
+"courses for our users."
+msgstr "リモートホスト「 <a href=\"{$a->hosturl}\">{$a->hostname}</a> 」は私たちのユーザにコースを提供していません。"
+
+#. clientname
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:3
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:clientname"
+msgid "Remote enrolments client"
+msgstr "リモート登録クライアント"
+
+#. clientname_help
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:4
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:clientname_help"
+msgid ""
+"This tool allows you to enrol and unenrol your local users on remote hosts "
+"that allow you to do so via the 'MNet remote enrolments' plugin."
+msgstr "ユーザ登録および登録抹消が許可されている、あなたのMoodleに対して、Moodleネットワーク登録プラグイン経由でユーザを登録および登録抹消します。"
+
+#. editenrolments
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:5
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:editenrolments"
+msgid "Edit enrolments"
+msgstr "登録を編集する"
+
+#. hostappname
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:6
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:hostappname"
+msgid "Application"
+msgstr "アプリケーション"
+
+#. hostname
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:7
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:hostname"
+msgid "Host name"
+msgstr "ホスト名"
+
+#. hosturl
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:8
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:hosturl"
+msgid "Remote host URL"
+msgstr "リモートホストURI"
+
+#. nopublishers
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:9
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:nopublishers"
+msgid "No remote peers available."
+msgstr "利用できるリモートピアはありません。"
+
+#. noroamingusers
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:10
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:noroamingusers"
+msgid ""
+"Users require the capability '{$a}' in the system context to be enrolled to "
+"remote courses, however there are currently no users with this capability. "
+"Click the continue button to assign the required capability to one or more "
+"roles on your site."
+msgstr "リモートコースに受講登録するには、ユーザはシステムコンテクスト内にケイパビリティ「 {$a} 」を必要とします。現在、このケイパビリティを持ったユーザ存在しません。「続ける」ボタンをクリックすることで、あなたのサイトの1つまたはそれ以上のロールに必要なケイパビリティを割り当てます。"
+
+#. otherenrolledusers
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:11
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:otherenrolledusers"
+msgid "Other enrolled users"
+msgstr "他の登録ユーザ"
+
+#. pluginname
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:12
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:pluginname"
+msgid "Remote enrolment service"
+msgstr "リモート登録サービス"
+
+#. refetch
+#: mnet/service/enrol/lang/en/mnetservice_enrol.php:13
+msgctxt "mnet/service/enrol/lang/en/mnetservice_enrol.php:refetch"
+msgid "Re-fetch up to date state from remote hosts"
+msgstr "リモートホストから最新データを再取得する"

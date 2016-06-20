@@ -1,0 +1,576 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-02-24 23:01+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. state_home
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:1
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:state_home"
+msgid "Contact Us"
+msgstr "お問い合わせ"
+
+#. state_content
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:2
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:state_content"
+msgid "Problem with content?"
+msgstr "コンテンツに問題がありますか？"
+
+#. state_technical_reporthelpdesk
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:3
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:state_technical_reporthelpdesk"
+msgid "Ask for help?"
+msgstr "ヘルプが必要ですか？"
+
+#. state_technical_reporttechnical
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:4
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:state_technical_reporttechnical"
+msgid "Report a technical problem?"
+msgstr "技術的な問題をレポートしますか？"
+
+#. no_suggestion_url
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:5
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:no_suggestion_url"
+msgid "'Feature Suggestion Url' is not set. Check the appropriate property."
+msgstr "'機能提案Url'が設定されていません．適切なプロパティを確認して下さい．"
+
+#. no_technical_address
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:6
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:no_technical_address"
+msgid "'Technical Address' is not set. Check the appropriate property."
+msgstr "'技術相談アドレス'が設定されていません．適切なプロパティを確認して下さい．"
+
+#. close
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:7
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:close"
+msgid "Close"
+msgstr "閉じる"
+
+#. home_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:8
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:home_label"
+msgid "Home"
+msgstr "ホーム"
+
+#. content_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:9
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:content_label"
+msgid "Content Report"
+msgstr "コンテンツレポート"
+
+#. technical_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:10
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_label"
+msgid "Technical Report"
+msgstr "技術的なレポート"
+
+#. help_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:11
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:help_label"
+msgid "Help Pages"
+msgstr "ヘルプページ"
+
+#. help_tooltip
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:12
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:help_tooltip"
+msgid "Click on this to view the {0} Help Site"
+msgstr "{0} のヘルプサイトを表示するにはここをクリックしてください．"
+
+#. suggest_feature_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:13
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:suggest_feature_label"
+msgid "Suggest a new feature"
+msgstr "新機能の提案"
+
+#. title
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:14
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:title"
+msgid "Contact us about any problems or suggestions for improvement"
+msgstr "問題あるいは改善提案に関する連絡窓口"
+
+#. more
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:15
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:more"
+msgid "more info"
+msgstr "詳細情報"
+
+#. overview
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:16
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:overview"
+msgid ""
+"This page allows you to report problems with, or suggest improvements to, "
+"{0}."
+msgstr "このページで問題報告あるいは改善提案ができます {0}．"
+
+#. help_home
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:17
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:help_home"
+msgid ""
+"If you cannot find the answer in the <a href=\"'{'helpPagesUrl'}'\" "
+"target=\"'{'helpPagesTarget'}'\" title=\"Click on this to view the {0} Help "
+"Site\">Help pages</a> then please choose the most relevant section below to "
+"get in touch with the appropriate people."
+msgstr "<a href=\"'{'helpPagesUrl'}'\" target=\"'{'helpPagesTarget'}'\" title=\"クリックし{0} ヘルプサイトを表示\">ヘルプページ</a>に回答がなければ，適切な担当者に連絡するために下にある最も関係のあるセクションを選択して下さい．"
+
+#. report
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:18
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:report"
+msgid "Report"
+msgstr "レポート"
+
+#. technical_setup_instruction
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:19
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_setup_instruction"
+msgid ""
+"To enable technical feedback, your {0} administrator needs to add the "
+"'feedback.technicalAddress' property to this {0} server's configuration"
+msgstr "技術的フィードバックを有効化するには， {0} の管理者が'feedback.technicalAddress' プロパティをこの{0} サーバの構成に追加する必要があります"
+
+#. report_content_tooltip
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:20
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:report_content_tooltip"
+msgid "Report a problem with this site's content"
+msgstr "このサイトのコンテンツに関する問題を報告"
+
+#. short_content_description
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:21
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:short_content_description"
+msgid "a problem with this site's content"
+msgstr "このサイトのコンテンツに関する問題"
+
+#. report_technical_tooltip
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:22
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:report_technical_tooltip"
+msgid "Report a technical problem or ask for help with {0} features"
+msgstr "技術的な問題の報告もしくは{0} 機能に関するヘルプの要求"
+
+#. short_technical_description
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:23
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:short_technical_description"
+msgid "a technical problem or ask for help with {0}'s features"
+msgstr "技術的な問題もしくは{0} の機能に関するヘルプの要求"
+
+#. suggest
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:24
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:suggest"
+msgid "Suggest"
+msgstr "提案"
+
+#. suggest_feature_tooltip
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:25
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:suggest_feature_tooltip"
+msgid "Suggest a new {0} feature"
+msgstr "新機能 {0} の提案"
+
+#. feature_description
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:26
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:feature_description"
+msgid "a new {0} feature"
+msgstr "新機能 {0} "
+
+#. content_instruction
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:27
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:content_instruction"
+msgid ""
+"Use this page to report a problem or issue with this site's content, for "
+"example: <ul><li>Missing files or documents</li><li>Broken "
+"links</li><li>Blank pages</li><li>Permission denied errors or access "
+"problems</li><li>Issues with dates in calendar</li></ul>"
+msgstr "このサイトのコンテンツに関する問題もしくは課題を報告するにはこのページを使って下さい．例：<ul><li>ファイルあるいは文書の欠落</li><li>壊れたリンク</li><li>空白ページ</li><li>権限拒否エラーもしくはアクセスの問題</li><li>カレンダの日時に関する課題</li></ul>"
+
+#. technical_instruction
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:28
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_instruction"
+msgid ""
+"Assuming you cannot find the answer in the <a href=\"'{'helpPagesUrl'}'\" "
+"target=\"_blank\">{0} help pages</a>, then you may use this page to ask for "
+"support or report a technical problem. Examples of such queries include: "
+"<ul><li>Cannot log in?</li><li>Site unavailable?</li><li>How can I do "
+"this?</li><li>Cannot find the answer in the Help pages?</li><li>Something "
+"has gone wrong?</li><li>Problem with the system?</li><li>Tool not working as"
+" it should?</li></ul>"
+msgstr "<a href=\"'{'helpPagesUrl'}'\" target=\"_blank\">{0} ヘルプページ</a>に回答が無い場合，このページを使ってサポートの要求あるいは技術的な問題を報告して下さい．その照会例の内容：<ul><li>ログインできませんか？</li><li>サイトが利用できませんか？</li><li>どのようにすればいいですか？</li><li>ヘルプページに回答がありませんか？</li><li>なにかがうまくいきませんか？</li><li>システムの問題ですか？</li><li>ツールが正しく動きませんか？</li></ul>"
+
+#. mandatory_instruction
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:29
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:mandatory_instruction"
+msgid "An asterisk (*) denotes a required field"
+msgstr "アステリスク (*) は必須項目です．"
+
+#. title_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:30
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:title_label"
+msgid "Subject: *"
+msgstr "件名: *"
+
+#. description_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:31
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:description_label"
+msgid "Summary: *"
+msgstr "サマリ： *"
+
+#. submit_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:32
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:submit_label"
+msgid "Submit"
+msgstr "提出"
+
+#. cancel_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:33
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:cancel_label"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. attachments_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:34
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:attachments_label"
+msgid "Add Attachments:"
+msgstr "添付の追加："
+
+#. attachments_select_attachment
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:35
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:attachments_select_attachment"
+msgid "Select a file"
+msgstr "ファイルを選択する"
+
+#. sender_address_label
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:36
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:sender_address_label"
+msgid "Your email address: *"
+msgstr "メールアドレス： *"
+
+#. siteupdater_instruction
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:37
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:siteupdater_instruction"
+msgid "Select recipient: *"
+msgstr "受信者選択： *"
+
+#. mandatory_title_warning
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:38
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:mandatory_title_warning"
+msgid "The title must be between 8 and 40 characters in length"
+msgstr "タイトルは8文字以上40文字以下にして下さい"
+
+#. mandatory_description_warning
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:39
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:mandatory_description_warning"
+msgid "The description must be longer than 32 characters in length"
+msgstr "説明は32文字以上にして下さい"
+
+#. mandatory_email_warning
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:40
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:mandatory_email_warning"
+msgid "You must enter something in the 'Your email address' field"
+msgstr "'メールアドレス'フィールドに何かを入力して下さい． "
+
+#. no_panels_title
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:41
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:no_panels_title"
+msgid "No panels visible?"
+msgstr "パネルが見えませんか？"
+
+#. no_panels_explanation
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:42
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:no_panels_explanation"
+msgid ""
+"To display a panel, you need to enable the property for it (set it to "
+"true).<p><p>The panels and properties are:</p></p><ul><li>Content panel: "
+"feedback.show.content.panel=true</li><li>Help panel: "
+"feedback.show.help.panel=true</li><li>Technical panel: "
+"feedback.show.technical.panel=true</li><li>Suggestion improvement panel: "
+"feedback.show.suggestions.panel=true</li></ul>"
+msgstr "パネルを表示するには，そのためのプロパティを有効にする必要があります．(trueにして下さい).<p><p>パネルおよびプロパテイ：</p></p><ul><li>コンテツパネル： feedback.show.content.panel=true</li><li>ヘルプパネル： feedback.show.help.panel=true</li><li>技術相談パネル：　feedback.show.technical.panel=true</li><li>改善提案パネル： feedback.show.suggestions.panel=true</li></ul>"
+
+#. content_title
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:43
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:content_title"
+msgid "Problem with content?"
+msgstr "コンテンツに問題がありますか？"
+
+#. content_explanation
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:44
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:content_explanation"
+msgid ""
+"<li>Site unavailable or permission denied?</li><li>Missing file, broken "
+"link, or blank page?</li><li>Problem with dates in "
+"calendar?</li><li>Erroneous or misleading information?</li><li>General query"
+" about the site?</li>"
+msgstr "<li>サイトの利用停止もしくは権限拒否 ?</li><li>ファイルの欠落，リンク切れもしくは空白ページ？</li><li>カレンダの日時に関する問題？</li><li>誤ったもしくは誤解された情報？</li><li>サイトに関する全般的な照会？</li>"
+
+#. content_link
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:45
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:content_link"
+msgid "Report the problem to the site owner"
+msgstr "サイトのオーナに問題を報告"
+
+#. ask_title
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:46
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:ask_title"
+msgid "Ask for help?"
+msgstr "ヘルプが必要ですか？"
+
+#. ask_explanation
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:47
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:ask_explanation"
+msgid ""
+"<li>Cannot log in?</li><li>How can I do this?</li><li>Cannot find the answer"
+" in the Help pages? </li>"
+msgstr "<li>ログインできませんか？</li><li>どのようにすればいいですか？</li><li>ヘルプページに回答がありませんか？</li>"
+
+#. ask_link
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:48
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:ask_link"
+msgid "Contact the Helpdesk"
+msgstr "ヘルプデスクに連絡してください"
+
+#. technical_title
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:49
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_title"
+msgid "Report a technical problem?"
+msgstr "技術的な問題をレポートしますか？"
+
+#. technical_explanation
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:50
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_explanation"
+msgid ""
+"<li>Something has gone wrong?</li><li>Problem with the system?</li><li>Tool "
+"not working as it should?</li>"
+msgstr "<li>なにかがうまくいきませんか？</li><li>システムの問題ですか？</li><li>ツールが正しく動きませんか？</li>"
+
+#. technical_link
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:51
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_link"
+msgid "Report the problem to the {0} team"
+msgstr "{0} チームに問題を報告"
+
+#. technical_team_name
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:52
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_team_name"
+msgid "{0} Team"
+msgstr "{0} チーム"
+
+#. suggest_title
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:53
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:suggest_title"
+msgid "Suggest improvement?"
+msgstr "改善を提案しますか？"
+
+#. suggest_explanation
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:54
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:suggest_explanation"
+msgid ""
+"<li>Voice a request for an improvement to one of the tools</li><li>Suggest a"
+" brand new feature that would be useful to other users</li>"
+msgstr "<li>ツールへの改善要求をあげる</li><li>他のユーザに便利な全く新しい機能を提案する</li>"
+
+#. suggest_link
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:55
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:suggest_link"
+msgid "Make a request for improvement"
+msgstr "改善要求をして下さい"
+
+#. error_recaptcha_failure
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:56
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_recaptcha_failure"
+msgid "Recaptcha validation failed, please try again"
+msgstr "リキャプチャ検証に失敗しました，再度お試し下さい"
+
+#. error_forbidden
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:57
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_forbidden"
+msgid "Sorry but you do not have permission to post a report"
+msgstr "申し訳ございませんがレポートを投稿する権限がありません．"
+
+#. error_bad_request
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:58
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_bad_request"
+msgid "The report request was incorrectly formed"
+msgstr "報告リクエストが正しく構成されていません"
+
+#. error_attachments_too_big
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:59
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_attachments_too_big"
+msgid "sorry but you added too many attachments"
+msgstr "申し訳ございませんが，添付を追加が過多です"
+
+#. error_bad_title
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:60
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_bad_title"
+msgid "The title must not be empty"
+msgstr "タイトルは空にはできません"
+
+#. error_bad_description
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:61
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_bad_description"
+msgid "The description must not be empty"
+msgstr "説明は空にはできません"
+
+#. error_bad_recipient
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:62
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_bad_recipient"
+msgid ""
+"The recipient you specified is unknown, please check that you have entered "
+"the correct address"
+msgstr "指定した受信者が不明ですので正しいアドレスを入力したか確認して下さい"
+
+#. error_no_sender_address
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:63
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_no_sender_address"
+msgid "The sender address could not be determined"
+msgstr "送信者アドレスが確定できませんでした"
+
+#. error_bad_sender_address
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:64
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_bad_sender_address"
+msgid "The sender address was incorrectly formed"
+msgstr "送信者アドレスが正しく構成されていません"
+
+#. error_db_error
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:65
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error_db_error"
+msgid "There was a problem logging the email in the database"
+msgstr "データベースにおけるメールのロギングに関する問題がありました"
+
+#. error
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:66
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:error"
+msgid "We are very sorry but an error occurred and your report was not sent."
+msgstr "申し訳ありませんがエラーが起きたのでレポートは送信されませんでした．"
+
+#. attachments_max_suffix
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:67
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:attachments_max_suffix"
+msgid "MB allowed"
+msgstr "MB許可"
+
+#. content_email_subject_template
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:68
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:content_email_subject_template"
+msgid "Content problem report from {0}"
+msgstr "{0}からのコンテンツ問題報告"
+
+#. technical_email_subject_template
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:69
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:technical_email_subject_template"
+msgid "Technical problem report from {0}"
+msgstr "{0}からの技術的問題報告"
+
+#. help_email_subject_template
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:70
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:help_email_subject_template"
+msgid "Help request from {0}"
+msgstr " {0} からのヘルプリクエスト"
+
+#. no_contact_email_message
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:71
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:no_contact_email_message"
+msgid ""
+"You have received this email because no contact email was specified for the "
+"problem site"
+msgstr "問題のあるサイトの連絡先メールが指定されていないので，このメールを受信しました．"
+
+#. email_body_template
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:72
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:email_body_template"
+msgid ""
+"{0}{11}{11}User ID: {1}{11}User EID: {2}{11}User Name: {3}{11}User Email: "
+"{4}{11}Site Title: {5}{11}Worker Node: {18}{11}Current Time: {19}{11}Site "
+"ID: {6}{11}Site URL: {7}{11}Browser: {12}{11}OS: {13}{11}Browser size / "
+"resolution: {14}{11}Computer screen: {15}{11}Add-ons installed: {16}{11}IP "
+"address: {17}{11}Sakai Node: {8}{11}{11}Subject: "
+"{9}{11}{11}Summary{11}----------------{11}{10}"
+msgstr "{0}{11}{11}User ID: {1}{11}User EID: {2}{11}User Name: {3}{11}User Email: {4}{11}Site Title: {5}{11}Worker Node: {18}{11}Current Time: {19}{11}Site ID: {6}{11}Site URL: {7}{11}Browser: {12}{11}OS: {13}{11}Browser size / resolution: {14}{11}Computer screen: {15}{11}Add-ons installed: {16}{11}IP address: {17}{11}Sakai Node: {8}{11}{11}Subject: {9}{11}{11}Summary{11}----------------{11}{10}"
+
+#. email_body_template_note
+#: feedback/src/main/resources/org/sakaiproject/feedback.properties:73
+msgctxt ""
+"feedback/src/main/resources/org/sakaiproject/feedback.properties:email_body_template_note"
+msgid ""
+"You can manage your visibility in this and other sites. To do this, visit My"
+" Workspace, select Preferences, then click on Privacy Status to control your"
+" visibility (in all tools) within a specified site. Please consider the "
+"impact that this will have on users of your site should they have a problem."
+msgstr "このサイトおよび他のサイトの表示を管理できます．これをするには，マイワークスぺースに進み，プリファレンスを選択し，指定したサイト内の(すべてのツールの)表示を制御するためのプライバシステータスをクリックして下さい．万一問題があった場合のあなたのサイトのユーザへのインパクトを考慮して下さい．"

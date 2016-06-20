@@ -1,0 +1,158 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:29+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. filtername
+#: filter/activitynames/lang/en/filter_activitynames.php:1
+msgctxt "filter/activitynames/lang/en/filter_activitynames.php:filtername"
+msgid "Activity names auto-linking"
+msgstr "活動名自動リンク"
+
+#. algebraicexpression
+#: filter/algebra/lang/en/filter_algebra.php:1
+msgctxt "filter/algebra/lang/en/filter_algebra.php:algebraicexpression"
+msgid "Algebraic expression"
+msgstr "代数式"
+
+#. filtername
+#: filter/algebra/lang/en/filter_algebra.php:2
+msgctxt "filter/algebra/lang/en/filter_algebra.php:filtername"
+msgid "Algebra notation"
+msgstr "代数表記法"
+
+#. badwords
+#: filter/censor/lang/en/filter_censor.php:1
+msgctxt "filter/censor/lang/en/filter_censor.php:badwords"
+msgid ""
+"shit,fucked,fucker,fuck,dickhead,dick,cockhead,cock,cunt,asshole,arsehole,prick,bitch,jism,whore,slut,wanker,wank,bastard,dildo,masturbate,orgasm,penis,nigger,pussy,vagina"
+msgstr "shit,fucked,fucker,fuck,dickhead, dick,cockhead,cock,cunt,asshole,arsehole,prick,bitch, jism,whore,slut,wanker, wank,bastard,dildo,masturbate, orgasm,penis,nigger, pussy,vagina"
+
+#. filtername
+#: filter/censor/lang/en/filter_censor.php:2
+msgctxt "filter/censor/lang/en/filter_censor.php:filtername"
+msgid "Word censorship"
+msgstr "ワードセンサーシップ"
+
+#. filtername
+#: filter/data/lang/en/filter_data.php:1
+msgctxt "filter/data/lang/en/filter_data.php:filtername"
+msgid "Database auto-linking"
+msgstr "データベース自動リンク"
+
+#. filtername
+#: filter/emailprotect/lang/en/filter_emailprotect.php:1
+msgctxt "filter/emailprotect/lang/en/filter_emailprotect.php:filtername"
+msgid "Email protection"
+msgstr "メールプロテクション"
+
+#. filtername
+#: filter/emoticon/lang/en/filter_emoticon.php:1
+msgctxt "filter/emoticon/lang/en/filter_emoticon.php:filtername"
+msgid "Display emoticons as images"
+msgstr "エモーティコンをイメージとして表示する"
+
+#. settingformats
+#: filter/emoticon/lang/en/filter_emoticon.php:2
+msgctxt "filter/emoticon/lang/en/filter_emoticon.php:settingformats"
+msgid "Apply to formats"
+msgstr "適用対象フォーマット"
+
+#. settingformats_desc
+#: filter/emoticon/lang/en/filter_emoticon.php:3
+msgctxt "filter/emoticon/lang/en/filter_emoticon.php:settingformats_desc"
+msgid ""
+"The filter will be applied only if the original text was inserted in one of "
+"the selected formats."
+msgstr "選択されたフォーマットの1つにオリジナルテキストが入力された場合のみ、フィルタが適用されます。"
+
+#. filtername
+#: filter/glossary/lang/en/filter_glossary.php:1
+msgctxt "filter/glossary/lang/en/filter_glossary.php:filtername"
+msgid "Glossary auto-linking"
+msgstr "用語集オートリンク"
+
+#. fallbackaudio
+#: filter/mediaplugin/lang/en/filter_mediaplugin.php:1
+msgctxt "filter/mediaplugin/lang/en/filter_mediaplugin.php:fallbackaudio"
+msgid "Audio link"
+msgstr "オートリンク"
+
+#. fallbackvideo
+#: filter/mediaplugin/lang/en/filter_mediaplugin.php:2
+msgctxt "filter/mediaplugin/lang/en/filter_mediaplugin.php:fallbackvideo"
+msgid "Video link"
+msgstr "ビデオリンク"
+
+#. filtername
+#: filter/mediaplugin/lang/en/filter_mediaplugin.php:3
+msgctxt "filter/mediaplugin/lang/en/filter_mediaplugin.php:filtername"
+msgid "Multimedia plugins"
+msgstr "マルチメディアプラグイン"
+
+#. filtername
+#: filter/multilang/lang/en/filter_multilang.php:1
+msgctxt "filter/multilang/lang/en/filter_multilang.php:filtername"
+msgid "Multi-Language Content"
+msgstr "多言語コンテンツ"
+
+#. filtername
+#: filter/tex/lang/en/filter_tex.php:1
+msgctxt "filter/tex/lang/en/filter_tex.php:filtername"
+msgid "TeX notation"
+msgstr "Tex表記法"
+
+#. source
+#: filter/tex/lang/en/filter_tex.php:2
+msgctxt "filter/tex/lang/en/filter_tex.php:source"
+msgid "TeX source"
+msgstr "TeXソース"
+
+#. filtername
+#: filter/tidy/lang/en/filter_tidy.php:1
+msgctxt "filter/tidy/lang/en/filter_tidy.php:filtername"
+msgid "HTML tidy"
+msgstr "HTML tidy"
+
+#. embedimages
+#: filter/urltolink/lang/en/filter_urltolink.php:1
+msgctxt "filter/urltolink/lang/en/filter_urltolink.php:embedimages"
+msgid "Embed images"
+msgstr "埋め込みイメージ"
+
+#. embedimages_desc
+#: filter/urltolink/lang/en/filter_urltolink.php:2
+msgctxt "filter/urltolink/lang/en/filter_urltolink.php:embedimages_desc"
+msgid "Replace image urls with images in selected text formats."
+msgstr "選択されたテキストフォーマットに関して、イメージURLがイメージと置換されます。"
+
+#. filtername
+#: filter/urltolink/lang/en/filter_urltolink.php:3
+msgctxt "filter/urltolink/lang/en/filter_urltolink.php:filtername"
+msgid "Convert URLs into links and images"
+msgstr "URIをリンクおよびイメージに変換する"
+
+#. settingformats
+#: filter/urltolink/lang/en/filter_urltolink.php:4
+msgctxt "filter/urltolink/lang/en/filter_urltolink.php:settingformats"
+msgid "Apply to formats"
+msgstr "フォーマットに適用する"
+
+#. settingformats_desc
+#: filter/urltolink/lang/en/filter_urltolink.php:5
+msgctxt "filter/urltolink/lang/en/filter_urltolink.php:settingformats_desc"
+msgid ""
+"The filter will be applied only if the original text was inserted in one of "
+"the selected formats."
+msgstr "選択されたフォーマットにオリジナルテキストが追加された場合のみフィルタが適用されます。"

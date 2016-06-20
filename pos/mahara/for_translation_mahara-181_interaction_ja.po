@@ -1,0 +1,924 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: mahara-1.8.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-07 06:14+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:48+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/mahara-181/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. addpostsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:1
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:addpostsuccess"
+msgid "Added post successfully"
+msgstr "投稿が正常に追加されました。"
+
+#. addtitle
+#: interaction/forum/lang/en.utf8/interaction.forum.php:2
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:addtitle"
+msgid "Add forum"
+msgstr "フォーラムを追加する"
+
+#. addtopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:3
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:addtopic"
+msgid "Add topic"
+msgstr "トピックを追加する"
+
+#. addtopicsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:4
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:addtopicsuccess"
+msgid "Added topic successfully"
+msgstr "トピックが正常に追加されました。"
+
+#. autosubscribeusers
+#: interaction/forum/lang/en.utf8/interaction.forum.php:5
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:autosubscribeusers"
+msgid "Automatically subscribe users"
+msgstr "ユーザを自動的にメール購読させますか?"
+
+#. autosubscribeusersdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:6
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:autosubscribeusersdescription"
+msgid ""
+"Choose whether group users will automatically be subscribed to this forum"
+msgstr "このフォーラムに対して、グループユーザが自動的にメール購読されるかどうか選択してください。"
+
+#. Body
+#: interaction/forum/lang/en.utf8/interaction.forum.php:7
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Body"
+msgid "Message"
+msgstr "本文"
+
+#. cantaddposttoforum
+#: interaction/forum/lang/en.utf8/interaction.forum.php:8
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:cantaddposttoforum"
+msgid "You are not allowed to post in this forum"
+msgstr "あなたはこのフォーラムに投稿できません。"
+
+#. cantaddposttotopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:9
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:cantaddposttotopic"
+msgid "You are not allowed to post in this topic"
+msgstr "あなたはこのトピックに投稿できません。"
+
+#. cantaddtopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:10
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantaddtopic"
+msgid "You are not allowed to add topics to this forum"
+msgstr "あなたはこのフォーラムにトピックを追加できません。"
+
+#. cantdeletepost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:11
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantdeletepost"
+msgid "You are not allowed to delete posts in this forum"
+msgstr "あなたはこのフォーラムの投稿を削除できません。"
+
+#. cantdeletethispost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:12
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:cantdeletethispost"
+msgid "You are not allowed to delete this post"
+msgstr "あなたはこの投稿を削除できません。"
+
+#. cantdeletetopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:13
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantdeletetopic"
+msgid "You are not allowed to delete topics in this forum"
+msgstr "あなたはこのフォーラムのトピックを削除できません。"
+
+#. canteditpost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:14
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:canteditpost"
+msgid "You are not allowed to edit this post"
+msgstr "あなたはこの投稿を編集できません。"
+
+#. cantedittopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:15
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantedittopic"
+msgid "You are not allowed to edit this topic"
+msgstr "あなたはこのトピックを編集できません。"
+
+#. cantfindforum
+#: interaction/forum/lang/en.utf8/interaction.forum.php:16
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantfindforum"
+msgid "Could not find forum with id %s"
+msgstr "ID %s のフォーラムが見つかりませんでした。"
+
+#. cantfindpost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:17
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantfindpost"
+msgid "Could not find post with id %s"
+msgstr "ID %s の投稿が見つかりませんでした。"
+
+#. cantfindtopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:18
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantfindtopic"
+msgid "Could not find topic with id %s"
+msgstr "ID %s のトピックが見つかりませんでした。"
+
+#. cantviewforums
+#: interaction/forum/lang/en.utf8/interaction.forum.php:19
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantviewforums"
+msgid "You are not allowed to view forums in this group"
+msgstr "あなたはこのグループのフォーラムを閲覧できません。"
+
+#. cantviewtopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:20
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:cantviewtopic"
+msgid "You are not allowed to view topics in this forum"
+msgstr "あなたはこのフォーラムのトピックを閲覧できません。"
+
+#. chooseanaction
+#: interaction/forum/lang/en.utf8/interaction.forum.php:21
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:chooseanaction"
+msgid "Choose an action"
+msgstr "処理を選択する ..."
+
+#. clicksetsubject
+#: interaction/forum/lang/en.utf8/interaction.forum.php:22
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:clicksetsubject"
+msgid "Click to set a subject"
+msgstr "件名を入力するには、ここをクリックしてください。"
+
+#. Closed
+#: interaction/forum/lang/en.utf8/interaction.forum.php:23
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Closed"
+msgid "Closed"
+msgstr "クローズド"
+
+#. Close
+#: interaction/forum/lang/en.utf8/interaction.forum.php:24
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Close"
+msgid "Close"
+msgstr "クローズ"
+
+#. closeddescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:25
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:closeddescription"
+msgid ""
+"Closed topics can only be replied to by moderators and the group "
+"administrators"
+msgstr "クローズドトピックではモデレータおよびグループ管理者のみ返信することができます。"
+
+#. Count
+#: interaction/forum/lang/en.utf8/interaction.forum.php:26
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Count"
+msgid "Count"
+msgstr "カウント"
+
+#. createtopicusersdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:27
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:createtopicusersdescription"
+msgid ""
+"If set to \"All group members\", anyone can create new topics and reply to "
+"existing topics. If set to \"Moderators and group administrators\", only "
+"moderators and group administrators can start new topics, but once topics "
+"exist, all users can post replies to them."
+msgstr "「グループメンバーすべて」を設定した場合、すべてのメンバーが新しいトピックを作成すること、既存のトピックに返信することができます。「モデレータおよびグループ管理者のみ」を設定した場合、モデレータおよびグループ管理者のみ、新しいトピックを開始することができます。しかし、「モデレータおよびグループ管理者のみ」を設定して、トピックが存在するようになった場合、すべてのユーザが返信することができます。"
+
+#. currentmoderators
+#: interaction/forum/lang/en.utf8/interaction.forum.php:28
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:currentmoderators"
+msgid "Current moderators"
+msgstr "現在のモデレータ"
+
+#. defaultforumtitle
+#: interaction/forum/lang/en.utf8/interaction.forum.php:29
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:defaultforumtitle"
+msgid "General discussion"
+msgstr "一般的なディスカッション"
+
+#. defaultforumdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:30
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:defaultforumdescription"
+msgid "%s general discussion forum"
+msgstr "%s 一般的なディスカッションフォーラム"
+
+#. deleteforum
+#: interaction/forum/lang/en.utf8/interaction.forum.php:31
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:deleteforum"
+msgid "Delete forum"
+msgstr "フォーラムを削除する"
+
+#. deletepost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:32
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:deletepost"
+msgid "Delete post"
+msgstr "投稿を削除する"
+
+#. deletepostsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:33
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:deletepostsuccess"
+msgid "Post deleted successfully"
+msgstr "投稿が正常に削除されました。"
+
+#. deletepostsure
+#: interaction/forum/lang/en.utf8/interaction.forum.php:34
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:deletepostsure"
+msgid "Are you sure you want to do this? It cannot be undone."
+msgstr "本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。"
+
+#. deletetopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:35
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:deletetopic"
+msgid "Delete topic"
+msgstr "トピックを削除する"
+
+#. deletetopicvariable
+#: interaction/forum/lang/en.utf8/interaction.forum.php:36
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:deletetopicvariable"
+msgid "Delete topic '%s'"
+msgstr "トピック「 %s 」を削除する"
+
+#. deletetopicsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:37
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:deletetopicsuccess"
+msgid "Topic deleted successfully"
+msgstr "トピックが正常に削除されました。"
+
+#. deletetopicsure
+#: interaction/forum/lang/en.utf8/interaction.forum.php:38
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:deletetopicsure"
+msgid "Are you sure you want to do this? It cannot be undone."
+msgstr "本当にこの処理を実行してもよろしいですか? 元に戻すことはできません。"
+
+#. editpost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:39
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:editpost"
+msgid "Edit post"
+msgstr "投稿を編集する"
+
+#. editpostsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:40
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:editpostsuccess"
+msgid "Post edited successfully"
+msgstr "投稿が正常に編集されました。"
+
+#. editstothispost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:41
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:editstothispost"
+msgid "Edits to this post:"
+msgstr "この投稿に対する編集"
+
+#. edittitle
+#: interaction/forum/lang/en.utf8/interaction.forum.php:42
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:edittitle"
+msgid "Edit forum"
+msgstr "フォーラムを編集する"
+
+#. edittopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:43
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:edittopic"
+msgid "Edit topic"
+msgstr "トピックを編集する"
+
+#. edittopicsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:44
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:edittopicsuccess"
+msgid "Topic edited successfully"
+msgstr "トピックが正常に編集されました。"
+
+#. forumname
+#: interaction/forum/lang/en.utf8/interaction.forum.php:45
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:forumname"
+msgid "Forum name"
+msgstr "フォーラム名"
+
+#. forumposthtmltemplate
+#: interaction/forum/lang/en.utf8/interaction.forum.php:46
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:forumposthtmltemplate"
+msgid ""
+"<div style=\"padding: 0.5em 0; border-bottom: 1px solid rgb(153,153,153);\"><strong>Forum: %s (%s)</strong></div>\n"
+"<div style=\"margin: 1em 0;\">%s</div>\n"
+"\n"
+"<div style=\"font-size: smaller; border-top: 1px solid rgb(153,153,153);\">\n"
+"<p><a href=\"%s\">Reply to this post online</a></p>\n"
+"<p><a href=\"%s\">Unsubscribe from this %s</a></p>\n"
+"</div>"
+msgstr "<div style=\"padding: 0.5em 0; border-bottom: 1px solid rgb(153,153,153);\"><strong>%s by %s</strong><br>%s</div>\n<div style=\"margin: 1em 0;\">%s</div>\n\n<div style=\"font-size: smaller; border-top: 1px solid rgb(153,153,153);\">\n<p><a href=\"%s\">この投稿にオンライン上で返信する</a></p>\n<p><a href=\"%s\">この %s から購読解除する</a></p>\n</div>"
+
+#. forumposttemplate
+#: interaction/forum/lang/en.utf8/interaction.forum.php:47
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:forumposttemplate"
+msgid ""
+"Forum: %s (%s)------------------------------------------------------------------------\n"
+"\n"
+"%s\n"
+"\n"
+"------------------------------------------------------------------------\n"
+"To see and reply to the post online, follow this link:\n"
+"%s\n"
+"\n"
+"To unsubscribe from this %s, visit:\n"
+"%s"
+msgstr "%s by %s%s\n------------------------------------------------------------------------\n\n%s\n\n------------------------------------------------------------------------\nオンライン上で投稿を閲覧するには、次のリンクにアクセスしてください:\n%s\n\nこの %s から購読解除するには、次のリンクにアクセスしてください:\n%s"
+
+#. forumsuccessfulsubscribe
+#: interaction/forum/lang/en.utf8/interaction.forum.php:48
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:forumsuccessfulsubscribe"
+msgid "Forum subscribed successfully"
+msgstr "フォーラムのメール購読が正常に登録されました。"
+
+#. forumsuccessfulunsubscribe
+#: interaction/forum/lang/en.utf8/interaction.forum.php:49
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:forumsuccessfulunsubscribe"
+msgid "Forum unsubscribed successfully"
+msgstr "フォーラムのメール購読が正常に解除されました。"
+
+#. gotoforums
+#: interaction/forum/lang/en.utf8/interaction.forum.php:50
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:gotoforums"
+msgid "Go to forums"
+msgstr "フォーラムに移動する"
+
+#. groupadmins
+#: interaction/forum/lang/en.utf8/interaction.forum.php:51
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:groupadmins"
+msgid "Group administrators"
+msgstr "グループ管理者"
+
+#. groupadminlist
+#: interaction/forum/lang/en.utf8/interaction.forum.php:52
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:groupadminlist"
+msgid "Group administrators:"
+msgstr "グループ管理者:"
+
+#. Key
+#: interaction/forum/lang/en.utf8/interaction.forum.php:53
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Key"
+msgid "Key"
+msgstr "キー"
+
+#. lastpost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:54
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:lastpost"
+msgid "Last post"
+msgstr "最新の投稿"
+
+#. latestforumposts
+#: interaction/forum/lang/en.utf8/interaction.forum.php:55
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:latestforumposts"
+msgid "Latest forum posts"
+msgstr "最新のフォーラム投稿"
+
+#. Moderators
+#: interaction/forum/lang/en.utf8/interaction.forum.php:56
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Moderators"
+msgid "Moderators"
+msgstr "モデレータ"
+
+#. moderatorsandgroupadminsonly
+#: interaction/forum/lang/en.utf8/interaction.forum.php:57
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:moderatorsandgroupadminsonly"
+msgid "Moderators and group administrators only"
+msgstr "モデレータおよびグループ管理者のみ"
+
+#. moderatorslist
+#: interaction/forum/lang/en.utf8/interaction.forum.php:58
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:moderatorslist"
+msgid "Moderators:"
+msgstr "モデレータ:"
+
+#. moderatorsdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:59
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:moderatorsdescription"
+msgid ""
+"Moderators can edit and delete topics and posts. They can also open, close, "
+"set and unset topics as sticky."
+msgstr "モデレータはトピックおよび投稿を編集および削除することができます。また、オープン、クローズ、トピックのスティッキー設定および設定解除することもできます。"
+
+#. name
+#: interaction/forum/lang/en.utf8/interaction.forum.php:60
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:name"
+msgid "Forum"
+msgstr "フォーラム"
+
+#. nameplural
+#: interaction/forum/lang/en.utf8/interaction.forum.php:61
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:nameplural"
+msgid "Forums"
+msgstr "フォーラム"
+
+#. newforum
+#: interaction/forum/lang/en.utf8/interaction.forum.php:62
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:newforum"
+msgid "New forum"
+msgstr "新しいフォーラム"
+
+#. newforumpostnotificationsubjectline
+#: interaction/forum/lang/en.utf8/interaction.forum.php:63
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:newforumpostnotificationsubjectline"
+msgid "%s"
+msgstr "%s"
+
+#. newpost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:64
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:newpost"
+msgid "New post: "
+msgstr "新しい投稿: "
+
+#. newtopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:65
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:newtopic"
+msgid "New topic"
+msgstr "新しいトピック"
+
+#. noforumpostsyet
+#: interaction/forum/lang/en.utf8/interaction.forum.php:66
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:noforumpostsyet"
+msgid "There are no posts in this group yet"
+msgstr "まだこのグループに投稿はありません。"
+
+#. noforums
+#: interaction/forum/lang/en.utf8/interaction.forum.php:67
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:noforums"
+msgid "There are no forums in this group"
+msgstr "このグループにフォーラムはありません。"
+
+#. notopics
+#: interaction/forum/lang/en.utf8/interaction.forum.php:68
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:notopics"
+msgid "There are no topics in this forum"
+msgstr "このフォーラムにトピックはありません。"
+
+#. Open
+#: interaction/forum/lang/en.utf8/interaction.forum.php:69
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Open"
+msgid "Open"
+msgstr "オープン"
+
+#. Order
+#: interaction/forum/lang/en.utf8/interaction.forum.php:70
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Order"
+msgid "Order"
+msgstr "並び順"
+
+#. orderdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:71
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:orderdescription"
+msgid ""
+"Choose where you want the forum to be ordered compared to the other forums"
+msgstr "他のフォーラムに対して、あなたがこのフォーラムを配置したい場所を選択してください。"
+
+#. Post
+#: interaction/forum/lang/en.utf8/interaction.forum.php:72
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Post"
+msgid "Post"
+msgstr "投稿"
+
+#. postaftertimeout
+#: interaction/forum/lang/en.utf8/interaction.forum.php:73
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:postaftertimeout"
+msgid ""
+"You have submitted your change after timeout of %s minutes. Your change has "
+"not been applied."
+msgstr "あなたは %s 分のタイムアウト後に変更を送信しました。あなたの変更は適用されません。"
+
+#. postbyuserwasdeleted
+#: interaction/forum/lang/en.utf8/interaction.forum.php:74
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:postbyuserwasdeleted"
+msgid "A post by %s was deleted"
+msgstr "%s による投稿が削除されました。"
+
+#. postsbyuserweredeleted
+#: interaction/forum/lang/en.utf8/interaction.forum.php:75
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:postsbyuserweredeleted"
+msgid "%s posts by %s were deleted"
+msgstr "%s 件の投稿 (投稿者: %s) が削除されました。"
+
+#. postdelay
+#: interaction/forum/lang/en.utf8/interaction.forum.php:76
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:postdelay"
+msgid "Post delay"
+msgstr "投稿遅延"
+
+#. postdelaydescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:77
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:postdelaydescription"
+msgid ""
+"The minimum time (in minutes) that must pass before a new post can be mailed"
+" out to forum subscribers. The author of a post may make edits during this "
+"time."
+msgstr "新しい投稿がメール購読者に送信される前、経過する必要のある最小時間 (分) です。投稿者はこの時間中、投稿内容を編集することができます。"
+
+#. postedin
+#: interaction/forum/lang/en.utf8/interaction.forum.php:78
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:postedin"
+msgid "%s posted in %s"
+msgstr "%s が %s に投稿しました。"
+
+#. Poster
+#: interaction/forum/lang/en.utf8/interaction.forum.php:79
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Poster"
+msgid "Poster"
+msgstr "投稿者"
+
+#. postreply
+#: interaction/forum/lang/en.utf8/interaction.forum.php:80
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:postreply"
+msgid "Post reply"
+msgstr "返信"
+
+#. Posts
+#: interaction/forum/lang/en.utf8/interaction.forum.php:81
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Posts"
+msgid "Posts"
+msgstr "投稿"
+
+#. allposts
+#: interaction/forum/lang/en.utf8/interaction.forum.php:82
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:allposts"
+msgid "All posts"
+msgstr "すべての投稿"
+
+#. postsvariable
+#: interaction/forum/lang/en.utf8/interaction.forum.php:83
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:postsvariable"
+msgid "Posts: %s"
+msgstr "投稿: %s"
+
+#. potentialmoderators
+#: interaction/forum/lang/en.utf8/interaction.forum.php:84
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:potentialmoderators"
+msgid "Potential moderators"
+msgstr "潜在的なモデレータ"
+
+#. re
+#: interaction/forum/lang/en.utf8/interaction.forum.php:85
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:re"
+msgid "Re: %s"
+msgstr "Re: %s"
+
+#. regulartopics
+#: interaction/forum/lang/en.utf8/interaction.forum.php:86
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:regulartopics"
+msgid "Regular topics"
+msgstr "標準トピック"
+
+#. Reply
+#: interaction/forum/lang/en.utf8/interaction.forum.php:87
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Reply"
+msgid "Reply"
+msgstr "返信"
+
+#. replyforumpostnotificationsubjectline
+#: interaction/forum/lang/en.utf8/interaction.forum.php:88
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:replyforumpostnotificationsubjectline"
+msgid "Re: %s"
+msgstr "Re: %s"
+
+#. Re:
+#: interaction/forum/lang/en.utf8/interaction.forum.php:89
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Re:"
+msgid "Re: "
+msgstr "Re: "
+
+#. replyto
+#: interaction/forum/lang/en.utf8/interaction.forum.php:90
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:replyto"
+msgid "Reply to: "
+msgstr "返信: "
+
+#. Sticky
+#: interaction/forum/lang/en.utf8/interaction.forum.php:91
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Sticky"
+msgid "Sticky"
+msgstr "スティッキー"
+
+#. stickydescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:92
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:stickydescription"
+msgid "Sticky topics are at the top of every page"
+msgstr "スティッキートピックはすべてのページトップに表示されます。"
+
+#. stickytopics
+#: interaction/forum/lang/en.utf8/interaction.forum.php:93
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:stickytopics"
+msgid "Sticky topics"
+msgstr "スティッキートピック"
+
+#. Subscribe
+#: interaction/forum/lang/en.utf8/interaction.forum.php:94
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Subscribe"
+msgid "Subscribe"
+msgstr "メール購読"
+
+#. Subscribed
+#: interaction/forum/lang/en.utf8/interaction.forum.php:95
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Subscribed"
+msgid "Subscribed"
+msgstr "メール購読済み"
+
+#. subscribetoforum
+#: interaction/forum/lang/en.utf8/interaction.forum.php:96
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:subscribetoforum"
+msgid "Subscribe to forum"
+msgstr "フォーラムをメール購読する"
+
+#. subscribetotopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:97
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:subscribetotopic"
+msgid "Subscribe to topic"
+msgstr "トピックをメール購読する"
+
+#. Subject
+#: interaction/forum/lang/en.utf8/interaction.forum.php:98
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Subject"
+msgid "Subject"
+msgstr "件名"
+
+#. Topic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:99
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Topic"
+msgid "Topic"
+msgstr "トピック"
+
+#. Topics
+#: interaction/forum/lang/en.utf8/interaction.forum.php:100
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Topics"
+msgid "Topics"
+msgstr "トピック"
+
+#. topiclower
+#: interaction/forum/lang/en.utf8/interaction.forum.php:101
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:topiclower"
+msgid "topic"
+msgstr "トピック"
+
+#. topicslower
+#: interaction/forum/lang/en.utf8/interaction.forum.php:102
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:topicslower"
+msgid "topics"
+msgstr "トピック"
+
+#. topicclosedsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:103
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicclosedsuccess"
+msgid "Topics closed successfully"
+msgstr "トピックが正常にクローズされました。"
+
+#. topicisclosed
+#: interaction/forum/lang/en.utf8/interaction.forum.php:104
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:topicisclosed"
+msgid ""
+"This topic is closed. Only moderators and the group administrators can post "
+"new replies."
+msgstr "このトピックはクローズされました。モデレータおよびグループ管理者のみ新しい返信を投稿できます。"
+
+#. topicopenedsuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:105
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicopenedsuccess"
+msgid "Topics opened successfully"
+msgstr "トピックが正常にオープンされました。"
+
+#. topicstickysuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:106
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicstickysuccess"
+msgid "Topics set as sticky successfully"
+msgstr "トピックが正常にスティッキー設定されました。"
+
+#. topicsubscribesuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:107
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicsubscribesuccess"
+msgid "Topics subscribed successfully"
+msgstr "トピックのメール購読が正常に登録されました。"
+
+#. topicsuccessfulunsubscribe
+#: interaction/forum/lang/en.utf8/interaction.forum.php:108
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicsuccessfulunsubscribe"
+msgid "Topic unsubscribed successfully"
+msgstr "トピックのメール購読が正常に解除されました。"
+
+#. topicunstickysuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:109
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicunstickysuccess"
+msgid "Topic unset as sticky successfully"
+msgstr "トピックが正常にスティッキー設定解除されました。"
+
+#. topicunsubscribesuccess
+#: interaction/forum/lang/en.utf8/interaction.forum.php:110
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicunsubscribesuccess"
+msgid "Topics unsubscribed successfully"
+msgstr "トピックのメール購読が正常に解除されました。"
+
+#. topicupdatefailed
+#: interaction/forum/lang/en.utf8/interaction.forum.php:111
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:topicupdatefailed"
+msgid "Topics update failed"
+msgstr "トピックの更新に失敗しました。"
+
+#. typenewpost
+#: interaction/forum/lang/en.utf8/interaction.forum.php:112
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:typenewpost"
+msgid "New forum post"
+msgstr "新しいフォーラム投稿"
+
+#. Unsticky
+#: interaction/forum/lang/en.utf8/interaction.forum.php:113
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Unsticky"
+msgid "Unsticky"
+msgstr "スティッキー解除"
+
+#. Unsubscribe
+#: interaction/forum/lang/en.utf8/interaction.forum.php:114
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:Unsubscribe"
+msgid "Unsubscribe"
+msgstr "メール購読解除"
+
+#. unsubscribefromforum
+#: interaction/forum/lang/en.utf8/interaction.forum.php:115
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:unsubscribefromforum"
+msgid "Unsubscribe from forum"
+msgstr "フォーラムのメール購読を解除する"
+
+#. unsubscribefromtopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:116
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:unsubscribefromtopic"
+msgid "Unsubscribe from topic"
+msgstr "トピックのメール購読を解除する"
+
+#. updateselectedtopics
+#: interaction/forum/lang/en.utf8/interaction.forum.php:117
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:updateselectedtopics"
+msgid "Update selected topics"
+msgstr "選択したトピックを更新する"
+
+#. whocancreatetopics
+#: interaction/forum/lang/en.utf8/interaction.forum.php:118
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:whocancreatetopics"
+msgid "Who can create topics"
+msgstr "誰がトピックを作成できますか?"
+
+#. youcannotunsubscribeotherusers
+#: interaction/forum/lang/en.utf8/interaction.forum.php:119
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:youcannotunsubscribeotherusers"
+msgid "You cannot unsubscribe other users"
+msgstr "あなたは他のユーザをメール購読解除できません。"
+
+#. youarenotsubscribedtothisforum
+#: interaction/forum/lang/en.utf8/interaction.forum.php:120
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:youarenotsubscribedtothisforum"
+msgid "You are not subscribed to this forum"
+msgstr "あなたはこのフォーラムをメール購読していません。"
+
+#. youarenotsubscribedtothistopic
+#: interaction/forum/lang/en.utf8/interaction.forum.php:121
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:youarenotsubscribedtothistopic"
+msgid "You are not subscribed to this topic"
+msgstr "あなたはこのトピックをメール購読していません。"
+
+#. today
+#: interaction/forum/lang/en.utf8/interaction.forum.php:122
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:today"
+msgid "Today"
+msgstr "今日"
+
+#. yesterday
+#: interaction/forum/lang/en.utf8/interaction.forum.php:123
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:yesterday"
+msgid "Yesterday"
+msgstr "昨日"
+
+#. strftimerecentrelative
+#: interaction/forum/lang/en.utf8/interaction.forum.php:124
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:strftimerecentrelative"
+msgid "%%v, %%k:%%M"
+msgstr "%%v - %%H:%%M"
+
+#. strftimerecentfullrelative
+#: interaction/forum/lang/en.utf8/interaction.forum.php:125
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:strftimerecentfullrelative"
+msgid "%%v, %%l:%%M %%p"
+msgstr "%%v - %%H:%%M"
+
+#. indentmode
+#: interaction/forum/lang/en.utf8/interaction.forum.php:126
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:indentmode"
+msgid "Forum indent mode"
+msgstr "フォーラムのインデントモード"
+
+#. indentfullindent
+#: interaction/forum/lang/en.utf8/interaction.forum.php:127
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:indentfullindent"
+msgid "Fully expand"
+msgstr "完全に広げる"
+
+#. indentmaxindent
+#: interaction/forum/lang/en.utf8/interaction.forum.php:128
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:indentmaxindent"
+msgid "Expand to maximum"
+msgstr "最大インデントレベルまで広げる"
+
+#. indentflatindent
+#: interaction/forum/lang/en.utf8/interaction.forum.php:129
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:indentflatindent"
+msgid "No indents"
+msgstr "インデントなし"
+
+#. indentmodedescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:130
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:indentmodedescription"
+msgid "Specify how topics in this forum should be indented."
+msgstr "このフォーラム内のトピックが、どのようにインデントされるか指定してください。"
+
+#. maxindent
+#: interaction/forum/lang/en.utf8/interaction.forum.php:131
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:maxindent"
+msgid "Maximum indent level"
+msgstr "最大インデントレベル"
+
+#. maxindentdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:132
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:maxindentdescription"
+msgid ""
+"Set the maximum indentation level for a topic. This only applies if the "
+"indent mode has been set to \"Expand to maximum\"."
+msgstr "トピックの最大インデントレベルを設定してください。この設定はインデントモードが「最大インデントレベルまで広げる」に設定された場合のみ適用されます。"
+
+#. closetopics
+#: interaction/forum/lang/en.utf8/interaction.forum.php:133
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:closetopics"
+msgid "Close new topics"
+msgstr "新しいトピックをクローズする"
+
+#. closetopicsdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:134
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:closetopicsdescription"
+msgid ""
+"If checked, all new topics in this forum will be closed by default. Only "
+"moderators and group administrators can reply to closed topics."
+msgstr "チェックした場合、このフォーラム内の新しいトピックがデフォルトでクローズされます。モデレータおよびグループ管理者のみ、クローズされたトピックに返信することができます。"
+
+#. activetopicsdescription
+#: interaction/forum/lang/en.utf8/interaction.forum.php:135
+msgctxt ""
+"interaction/forum/lang/en.utf8/interaction.forum.php:activetopicsdescription"
+msgid "Recently updated topics in your groups."
+msgstr "あなたのグループ内で最近更新されたトピックです。"
+
+#. timeleftnotice
+#: interaction/forum/lang/en.utf8/interaction.forum.php:136
+msgctxt "interaction/forum/lang/en.utf8/interaction.forum.php:timeleftnotice"
+msgid "You have %s minutes left to finish editing."
+msgstr "あなたが編集を終了するまで %s 分あります。"

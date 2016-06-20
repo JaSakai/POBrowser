@@ -1,0 +1,1057 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:29+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. ods:publish
+#: grade/export/ods/lang/en/gradeexport_ods.php:1
+msgctxt "grade/export/ods/lang/en/gradeexport_ods.php:ods:publish"
+msgid "Publish ODS grade export"
+msgstr "ODS評定エクスポートを公開する"
+
+#. ods:view
+#: grade/export/ods/lang/en/gradeexport_ods.php:2
+msgctxt "grade/export/ods/lang/en/gradeexport_ods.php:ods:view"
+msgid "Use OpenDocument grade export"
+msgstr "OpenDocument評定エクスポートを使用する"
+
+#. pluginname
+#: grade/export/ods/lang/en/gradeexport_ods.php:3
+msgctxt "grade/export/ods/lang/en/gradeexport_ods.php:pluginname"
+msgid "OpenDocument spreadsheet"
+msgstr "OpenDocumentスプレッドシート"
+
+#. pluginname
+#: grade/export/txt/lang/en/gradeexport_txt.php:1
+msgctxt "grade/export/txt/lang/en/gradeexport_txt.php:pluginname"
+msgid "Plain text file"
+msgstr "テキストファイル"
+
+#. txt:publish
+#: grade/export/txt/lang/en/gradeexport_txt.php:2
+msgctxt "grade/export/txt/lang/en/gradeexport_txt.php:txt:publish"
+msgid "Publish TXT grade export"
+msgstr "TXT評定エクスポートを公開する"
+
+#. txt:view
+#: grade/export/txt/lang/en/gradeexport_txt.php:3
+msgctxt "grade/export/txt/lang/en/gradeexport_txt.php:txt:view"
+msgid "Use text grade export"
+msgstr "テキスト評定エクスポートを使用する"
+
+#. pluginname
+#: grade/export/xls/lang/en/gradeexport_xls.php:1
+msgctxt "grade/export/xls/lang/en/gradeexport_xls.php:pluginname"
+msgid "Excel spreadsheet"
+msgstr "Excelスプレッドシート"
+
+#. xls:publish
+#: grade/export/xls/lang/en/gradeexport_xls.php:2
+msgctxt "grade/export/xls/lang/en/gradeexport_xls.php:xls:publish"
+msgid "Publish XLS grade export"
+msgstr "XLS評定エクスポートを公開する"
+
+#. xls:view
+#: grade/export/xls/lang/en/gradeexport_xls.php:3
+msgctxt "grade/export/xls/lang/en/gradeexport_xls.php:xls:view"
+msgid "Use Excel grade export"
+msgstr "Excel評定エクスポートを使用する"
+
+#. pluginname
+#: grade/export/xml/lang/en/gradeexport_xml.php:1
+msgctxt "grade/export/xml/lang/en/gradeexport_xml.php:pluginname"
+msgid "XML file"
+msgstr "XMLファイル"
+
+#. useridnumberwarning
+#: grade/export/xml/lang/en/gradeexport_xml.php:2
+msgctxt "grade/export/xml/lang/en/gradeexport_xml.php:useridnumberwarning"
+msgid ""
+"User's without an ID number are excluded from the XML export as they cannot "
+"be imported"
+msgstr "インポートすることができないため、IDナンバーが含まれないユーザはXMLエクスポートから除外されます。"
+
+#. xml:publish
+#: grade/export/xml/lang/en/gradeexport_xml.php:3
+msgctxt "grade/export/xml/lang/en/gradeexport_xml.php:xml:publish"
+msgid "Publish XML grade export"
+msgstr "XML評定エクスポートを公開する"
+
+#. xml:view
+#: grade/export/xml/lang/en/gradeexport_xml.php:4
+msgctxt "grade/export/xml/lang/en/gradeexport_xml.php:xml:view"
+msgid "Use XML grade export"
+msgstr "XML評定エクスポートを使用する"
+
+#. addcomment
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:1
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:addcomment"
+msgid "Add frequently used comment"
+msgstr "よく使うコメントを追加する"
+
+#. addcriterion
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:2
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:addcriterion"
+msgid "Add criterion"
+msgstr "クライテリアを追加する"
+
+#. alwaysshowdefinition
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:3
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:alwaysshowdefinition"
+msgid "Show guide definition to students"
+msgstr "ガイド定義を学生に表示する"
+
+#. backtoediting
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:4
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:backtoediting"
+msgid "Back to editing"
+msgstr "編集に戻る"
+
+#. clicktocopy
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:5
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:clicktocopy"
+msgid "Click to copy this text into the criteria feedback"
+msgstr "このテキストをクライテリアフィードバックにコピーするにはクリック"
+
+#. clicktoedit
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:6
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:clicktoedit"
+msgid "Click to edit"
+msgstr "編集するにはクリック"
+
+#. clicktoeditname
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:7
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:clicktoeditname"
+msgid "Click to edit criterion name"
+msgstr "クライテリア名を編集するにはクリック"
+
+#. comments
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:8
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:comments"
+msgid "Frequently used comments"
+msgstr "よく使うコメント"
+
+#. commentsdelete
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:9
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:commentsdelete"
+msgid "Delete comment"
+msgstr "コメントを削除する"
+
+#. commentsempty
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:10
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:commentsempty"
+msgid "Click to edit comment"
+msgstr "コメントを編集するにはクリック"
+
+#. commentsmovedown
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:11
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:commentsmovedown"
+msgid "Move down"
+msgstr "下へ"
+
+#. commentsmoveup
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:12
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:commentsmoveup"
+msgid "Move up"
+msgstr "上へ"
+
+#. confirmdeletecriterion
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:13
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:confirmdeletecriterion"
+msgid "Are you sure you want to delete this item?"
+msgstr "本当にこのアイテムを削除してもよろしいですか?"
+
+#. confirmdeletelevel
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:14
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:confirmdeletelevel"
+msgid "Are you sure you want to delete this level?"
+msgstr "本当にｊこのレベルを削除してもよろしいですか?"
+
+#. criterion
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:15
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:criterion"
+msgid "Criterion"
+msgstr "クライテリア"
+
+#. criteriondelete
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:16
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:criteriondelete"
+msgid "Delete criterion"
+msgstr "クライテリアを削除する"
+
+#. criterionempty
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:17
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:criterionempty"
+msgid "Click to edit criterion"
+msgstr "クライテリアを編集するにはクリック"
+
+#. criterionmovedown
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:18
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:criterionmovedown"
+msgid "Move down"
+msgstr "下へ"
+
+#. criterionmoveup
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:19
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:criterionmoveup"
+msgid "Move up"
+msgstr "上へ"
+
+#. criterionname
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:20
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:criterionname"
+msgid "Criterion name"
+msgstr "クライテリア名"
+
+#. definemarkingguide
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:21
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:definemarkingguide"
+msgid "Define marking guide"
+msgstr "評定ガイドを定義する"
+
+#. description
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:22
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:description"
+msgid "Description"
+msgstr "説明"
+
+#. descriptionmarkers
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:23
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:descriptionmarkers"
+msgid "Description for Markers"
+msgstr "評定者への説明"
+
+#. descriptionstudents
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:24
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:descriptionstudents"
+msgid "Description for Students"
+msgstr "学生への説明"
+
+#. err_maxscorenotnumeric
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:25
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:err_maxscorenotnumeric"
+msgid "Criterion max score must be numeric"
+msgstr "クライテリア最大評点は数字である必要があります。"
+
+#. err_nocomment
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:26
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:err_nocomment"
+msgid "Comment can not be empty"
+msgstr "コメントを空白にすることはできません。"
+
+#. err_nodescription
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:27
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:err_nodescription"
+msgid "Student description can not be empty"
+msgstr "学生説明を空白にすることはできません。"
+
+#. err_nodescriptionmarkers
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:28
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:err_nodescriptionmarkers"
+msgid "Marker description can not be empty"
+msgstr "評定者説明を空白にすることはできません。"
+
+#. err_nomaxscore
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:29
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:err_nomaxscore"
+msgid "Criterion max score can not be empty"
+msgstr "クライテリア最大評点を空白にすることはできません。"
+
+#. err_noshortname
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:30
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:err_noshortname"
+msgid "Criterion name can not be empty"
+msgstr "クライテリア名を空白にすることはできません。"
+
+#. err_scoreinvalid
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:31
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:err_scoreinvalid"
+msgid ""
+"The score given to {$a->criterianame} is not valid, the max score is: "
+"{$a->maxscore}"
+msgstr "{$a->criterianame} に設定された点数は有効ではありません。最大評点は次のとおりです: {$a->maxscore}"
+
+#. gradingof
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:32
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:gradingof"
+msgid "{$a} grading"
+msgstr "{$a} 評定"
+
+#. guidemappingexplained
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:33
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:guidemappingexplained"
+msgid ""
+"WARNING: Your marking guide has a maximum grade of <b>{$a->maxscore} "
+"points</b> but the maximum grade set in your activity is {$a->modulegrade}  "
+"The maximum score set in your marking guide will be scaled to the maximum "
+"grade in the module.<br />    Intermediate scores will be converted "
+"respectively and rounded to the nearest available grade."
+msgstr "注意: あなたの評定ガイドでは最大評点<b>{$a->maxscore}</b>が設定されていますが、あなたの活動で設定されている最大評点は {$a->modulegrade} です。あなたの評定ガイドの最大評点はモジュール内の最大評点に調整されます。<br />中間にある評点は利用可能な最も近い評点にそれぞれ変換されます。"
+
+#. guidenotcompleted
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:34
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:guidenotcompleted"
+msgid "Please provide a valid grade for each criterion"
+msgstr "それぞれのクライテリアに対して有効な評点を入力してください。"
+
+#. guideoptions
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:35
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:guideoptions"
+msgid "Marking guide options"
+msgstr "評定ガイドオプション"
+
+#. guidestatus
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:36
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:guidestatus"
+msgid "Current marking guide status"
+msgstr "現在の評定ガイドステータス"
+
+#. hidemarkerdesc
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:37
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:hidemarkerdesc"
+msgid "Hide marker criterion descriptions"
+msgstr "評定者クライテリア説明を隠す"
+
+#. hidestudentdesc
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:38
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:hidestudentdesc"
+msgid "Hide student criterion descriptions"
+msgstr "学生クライテリア説明を隠す"
+
+#. maxscore
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:39
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:maxscore"
+msgid "Maximum mark"
+msgstr "最大評点"
+
+#. name
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:40
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:name"
+msgid "Name"
+msgstr "名称"
+
+#. needregrademessage
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:41
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:needregrademessage"
+msgid ""
+"The marking guide definition was changed after this student had been graded."
+" The student can not see this marking guide until you check the marking "
+"guide and update the grade."
+msgstr "この学生が評定された後、評定ガイド定義が変更されています。あなたが評定ガイドを確認して評点を更新するまで、学生はこの評定ガイドを閲覧することができません。"
+
+#. pluginname
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:42
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:pluginname"
+msgid "Marking guide"
+msgstr "評定ガイド"
+
+#. previewmarkingguide
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:43
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:previewmarkingguide"
+msgid "Preview marking guide"
+msgstr "評定ガイドをプレビューする"
+
+#. regrademessage1
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:44
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:regrademessage1"
+msgid ""
+"You are about to save changes to a marking guide that has already been used "
+"for grading. Please indicate if existing grades need to be reviewed. If you "
+"set this then the marking guide will be hidden from students until their "
+"item is regraded."
+msgstr "あなたはすでに評定で使用されている評定ガイドの変更を保存しようとしています。既存の評点のレビューが必要な場合、表明してください。あなたがこれを設定した場合、学生のアイテムが最評定されるまで、評定ガイドは学生から非表示にされます。"
+
+#. regrademessage5
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:45
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:regrademessage5"
+msgid ""
+"You are about to save significant changes to a marking guide that has "
+"already been used for grading. The gradebook value will be unchanged, but "
+"the marking guide will be hidden from students until their item is regraded."
+msgstr "あなたはすでに評定で使用されている評定ガイドの大幅な変更を保存しようとしています。評定表の値は変更されませんが、学生のアイテムが再評定されるまで、評定ガイドは学生から非表示にされます。"
+
+#. regradeoption0
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:46
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:regradeoption0"
+msgid "Do not mark for regrade"
+msgstr "最評定しない"
+
+#. regradeoption1
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:47
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:regradeoption1"
+msgid "Mark for regrade"
+msgstr "最評定する"
+
+#. restoredfromdraft
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:48
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:restoredfromdraft"
+msgid ""
+"NOTE: The last attempt to grade this person was not saved properly so draft "
+"grades have been restored. If you want to cancel these changes use the "
+"'Cancel' button below."
+msgstr "注意: このユーザの前回の受験に関する評点が適切に保存されなかったため、下書きの評点がリストアされました。これらの変更をキャンセルしたい場合、下の「キャンセル」ボタンを使用してください。"
+
+#. save
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:49
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:save"
+msgid "Save"
+msgstr "保存"
+
+#. saveguide
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:50
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:saveguide"
+msgid "Save marking guide and make it ready"
+msgstr "評定ガイドを保存して利用可能な状態にする"
+
+#. saveguidedraft
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:51
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:saveguidedraft"
+msgid "Save as draft"
+msgstr "下書きとして保存する"
+
+#. score
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:52
+msgctxt "grade/grading/form/guide/lang/en/gradingform_guide.php:score"
+msgid "score"
+msgstr "評点"
+
+#. showmarkerdesc
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:53
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:showmarkerdesc"
+msgid "Show marker criterion descriptions"
+msgstr "評定者にクライテリア説明を表示する"
+
+#. showmarkspercriterionstudents
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:54
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:showmarkspercriterionstudents"
+msgid "Show marks per criterion to students"
+msgstr "クライテリアごとの評点を学生に表示する"
+
+#. showstudentdesc
+#: grade/grading/form/guide/lang/en/gradingform_guide.php:55
+msgctxt ""
+"grade/grading/form/guide/lang/en/gradingform_guide.php:showstudentdesc"
+msgid "Show student criterion descriptions"
+msgstr "学生にクライテリア説明を表示する"
+
+#. addcriterion
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:1
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:addcriterion"
+msgid "Add criterion"
+msgstr "クライテリアを追加する"
+
+#. alwaysshowdefinition
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:2
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:alwaysshowdefinition"
+msgid ""
+"Allow users to preview rubric used in the module (otherwise rubric will only"
+" become visible after grading)"
+msgstr "モジュールで使用されるルーブリックをユーザがプレビューできるようにします (そうでない場合、ルーブリックは評定後のみ閲覧できます)。"
+
+#. backtoediting
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:3
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:backtoediting"
+msgid "Back to editing"
+msgstr "編集に戻る"
+
+#. confirmdeletecriterion
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:4
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:confirmdeletecriterion"
+msgid "Are you sure you want to delete this criterion?"
+msgstr "本当にこのクライテリアを削除してもよろしいですか?"
+
+#. confirmdeletelevel
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:5
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:confirmdeletelevel"
+msgid "Are you sure you want to delete this level?"
+msgstr "本当にこのレベルを削除してもよろしいですか?"
+
+#. criterionaddlevel
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:6
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:criterionaddlevel"
+msgid "Add level"
+msgstr "レベルを追加する"
+
+#. criteriondelete
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:7
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:criteriondelete"
+msgid "Delete criterion"
+msgstr "クライテリアを削除する"
+
+#. criterionempty
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:8
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:criterionempty"
+msgid "Click to edit criterion"
+msgstr "クライテリアを編集する"
+
+#. criterionmovedown
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:9
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:criterionmovedown"
+msgid "Move down"
+msgstr "下へ"
+
+#. criterionmoveup
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:10
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:criterionmoveup"
+msgid "Move up"
+msgstr "上へ"
+
+#. definerubric
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:11
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:definerubric"
+msgid "Define rubric"
+msgstr "ルーブリックを定義する"
+
+#. description
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:12
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:description"
+msgid "Description"
+msgstr "説明"
+
+#. enableremarks
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:13
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:enableremarks"
+msgid "Allow grader to add text remarks for each criterion"
+msgstr "それぞれのクライテリアに対して、評定者によるコメントの追加を許可する"
+
+#. err_mintwolevels
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:14
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:err_mintwolevels"
+msgid "Each criterion must have at least two levels"
+msgstr "クライテリアには、少なくとも2つのレベルを含む必要があります。"
+
+#. err_nocriteria
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:15
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:err_nocriteria"
+msgid "Rubric must contain at least one criterion"
+msgstr "ルーブリックには、少なくとも1つのクライテリアを含む必要があります。"
+
+#. err_nodefinition
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:16
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:err_nodefinition"
+msgid "Level definition can not be empty"
+msgstr "レベル定義は空白にできません。"
+
+#. err_nodescription
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:17
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:err_nodescription"
+msgid "Criterion description can not be empty"
+msgstr "クライテリア説明は空白にできません。"
+
+#. err_scoreformat
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:18
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:err_scoreformat"
+msgid "Number of points for each level must be a valid non-negative number"
+msgstr "それぞれのレベルの点数は、有効なプラスの数字である必要があります。"
+
+#. err_totalscore
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:19
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:err_totalscore"
+msgid ""
+"Maximum number of points possible when graded by the rubric must be more "
+"than zero"
+msgstr "ルーブリックにより評定する場合、最大評点はゼロ以上にする必要があります。"
+
+#. gradingof
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:20
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:gradingof"
+msgid "{$a} grading"
+msgstr "{$a} 評定"
+
+#. leveldelete
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:21
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:leveldelete"
+msgid "Delete level"
+msgstr "レベルを削除する"
+
+#. levelempty
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:22
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:levelempty"
+msgid "Click to edit level"
+msgstr "レベルを編集する"
+
+#. name
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:23
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:name"
+msgid "Name"
+msgstr "名称"
+
+#. needregrademessage
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:24
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:needregrademessage"
+msgid ""
+"The rubric definition was changed after this student had been graded. The "
+"student can not see this rubric until you check the rubric and update the "
+"grade."
+msgstr "この学生が評定された後、ルーブリック定義が変更されました。あなたがルーブリックヲチェックして評定を更新するまで、学生はこのルーブリックを閲覧することができません。"
+
+#. pluginname
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:25
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:pluginname"
+msgid "Rubric"
+msgstr "ルーブリック"
+
+#. previewrubric
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:26
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:previewrubric"
+msgid "Preview rubric"
+msgstr "ルーブリックをプレビューする"
+
+#. regrademessage1
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:27
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:regrademessage1"
+msgid ""
+"You are about to save changes to a rubric that has already been used for "
+"grading. Please indicate if existing grades need to be reviewed. If you set "
+"this then the rubric will be hidden from students until their item is "
+"regraded."
+msgstr "あなたはすでに評定に使用されているルーブリックを変更しようとしています。既存の評定をレビューする必要がある場合、指定してください。あなたがこの設定を有効にした場合、再評定されるまで、ルーブリックは学生から隠されます。"
+
+#. regrademessage5
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:28
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:regrademessage5"
+msgid ""
+"You are about to save significant changes to a rubric that has already been "
+"used for grading. The gradebook value will be unchanged, but the rubric will"
+" be hidden from students until their item is regraded."
+msgstr "あなたはすでに評定に使用されているルーブリックに関する重大な変更を保存しようとしています。評定表の評点は変更されませんが、評定項目が再評定されるまで、ルーブリックは学生から隠されます。"
+
+#. regradeoption0
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:29
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:regradeoption0"
+msgid "Do not mark for regrade"
+msgstr "再評定をマークしない"
+
+#. regradeoption1
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:30
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:regradeoption1"
+msgid "Mark for regrade"
+msgstr "再評定をマークする"
+
+#. restoredfromdraft
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:31
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:restoredfromdraft"
+msgid ""
+"NOTE: The last attempt to grade this person was not saved properly so draft "
+"grades have been restored. If you want to cancel these changes use the "
+"'Cancel' button below."
+msgstr "注意: このユーザの前回の受験に関する評点が適切に保存されなかったため、下書きの評点がリストアされました。これらの変更をキャンセルしたい場合、下の「キャンセル」ボタンを使用してください。"
+
+#. rubric
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:32
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:rubric"
+msgid "Rubric"
+msgstr "ルーブリック"
+
+#. rubricmapping
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:33
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:rubricmapping"
+msgid "Score to grade mapping rules"
+msgstr "評定マッピングルールの評点"
+
+#. rubricmappingexplained
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:34
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:rubricmappingexplained"
+msgid ""
+"The minimum possible score for this rubric is <b>{$a->minscore} points</b> and it will be converted to the minimum grade available in this module (which is zero unless the scale is used).    The maximum score <b>{$a->maxscore} points</b> will be converted to the maximum grade.<br />\n"
+"    Intermediate scores will be converted respectively and rounded to the nearest available grade.<br />\n"
+"    If a scale is used instead of a grade, the score will be converted to the scale elements as if they were consecutive integers."
+msgstr "このルーブリックの最小評点は <b>{$a->minscore} 点</b>です。また、この評点はモジュール内で利用可能な最小評点にコンバートされます。最大評点 <b>{$a->maxscore} 点</b> は最大評点  (評価尺度が使用されていない限りゼロ) にコンバートされます。<br />中間評点はそれぞれコンバートされた後、利用可能な評点に近い値に四捨五入されます。<br /> 評点の代わりに評価尺度が使用されている場合、評点は連続する整数であるかのように尺度要素にコンバートされます。"
+
+#. rubricnotcompleted
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:35
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:rubricnotcompleted"
+msgid "Please choose something for each criterion"
+msgstr "それぞれのクライテリアに設定値を選択してください。"
+
+#. rubricoptions
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:36
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:rubricoptions"
+msgid "Rubric options"
+msgstr "ルーブリックオプション"
+
+#. rubricstatus
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:37
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:rubricstatus"
+msgid "Current rubric status"
+msgstr "現在のルーブリックステータス"
+
+#. save
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:38
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:save"
+msgid "Save"
+msgstr "保存"
+
+#. saverubric
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:39
+msgctxt "grade/grading/form/rubric/lang/en/gradingform_rubric.php:saverubric"
+msgid "Save rubric and make it ready"
+msgstr "ルーブリックを保存して利用可能にする"
+
+#. saverubricdraft
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:40
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:saverubricdraft"
+msgid "Save as draft"
+msgstr "下書きとして保存する"
+
+#. scorepostfix
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:41
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:scorepostfix"
+msgid "{$a}points"
+msgstr "{$a} 点"
+
+#. showdescriptionstudent
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:42
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:showdescriptionstudent"
+msgid "Display rubric description to those being graded"
+msgstr "評定済みにルーブリック説明を表示する"
+
+#. showdescriptionteacher
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:43
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:showdescriptionteacher"
+msgid "Display rubric description during evaluation"
+msgstr "評定中にルーブリック説明を表示する"
+
+#. showremarksstudent
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:44
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:showremarksstudent"
+msgid "Show remarks to those being graded"
+msgstr "評定済みに所感を表示する"
+
+#. showscorestudent
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:45
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:showscorestudent"
+msgid "Display points for each level to those being graded"
+msgstr "評定済みのレベルに点数を表示する"
+
+#. showscoreteacher
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:46
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:showscoreteacher"
+msgid "Display points for each level during evaluation"
+msgstr "評定中、レベルに点数を表示する"
+
+#. sortlevelsasc
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:47
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:sortlevelsasc"
+msgid "Sort order for levels:"
+msgstr "レベルの並べ替え順:"
+
+#. sortlevelsasc0
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:48
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:sortlevelsasc0"
+msgid "Descending by number of points"
+msgstr "点数の降順"
+
+#. sortlevelsasc1
+#: grade/grading/form/rubric/lang/en/gradingform_rubric.php:49
+msgctxt ""
+"grade/grading/form/rubric/lang/en/gradingform_rubric.php:sortlevelsasc1"
+msgid "Ascending by number of points"
+msgstr "点数の昇順"
+
+#. csv:view
+#: grade/import/csv/lang/en/gradeimport_csv.php:1
+msgctxt "grade/import/csv/lang/en/gradeimport_csv.php:csv:view"
+msgid "Import grades from CSV"
+msgstr "CSVから評定をインポートする"
+
+#. pluginname
+#: grade/import/csv/lang/en/gradeimport_csv.php:2
+msgctxt "grade/import/csv/lang/en/gradeimport_csv.php:pluginname"
+msgid "CSV file"
+msgstr "CSVファイル"
+
+#. errbadxmlformat
+#: grade/import/xml/lang/en/gradeimport_xml.php:1
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:errbadxmlformat"
+msgid "Error - bad XML format"
+msgstr "エラー - 不正なXMLフォーマットです。"
+
+#. errduplicategradeidnumber
+#: grade/import/xml/lang/en/gradeimport_xml.php:2
+msgctxt ""
+"grade/import/xml/lang/en/gradeimport_xml.php:errduplicategradeidnumber"
+msgid ""
+"Error - there are two grade items with idnumber '{$a}' in this course. This "
+"should be impossible."
+msgstr "エラー - このコースのIDナンバー「 {$a} 」に2つの評定項目があります。インポートすることはできません。"
+
+#. errduplicateidnumber
+#: grade/import/xml/lang/en/gradeimport_xml.php:3
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:errduplicateidnumber"
+msgid "Error - duplicate idnumber"
+msgstr "エラー - IDナンバーが重複しています。"
+
+#. errincorrectgradeidnumber
+#: grade/import/xml/lang/en/gradeimport_xml.php:4
+msgctxt ""
+"grade/import/xml/lang/en/gradeimport_xml.php:errincorrectgradeidnumber"
+msgid ""
+"Error - idnumber '{$a}' from the import file does not match any grade item."
+msgstr "エラー - インポートファイルのIDナンバー「 {$a} 」が、どの評定項目とも合致しません。"
+
+#. errincorrectidnumber
+#: grade/import/xml/lang/en/gradeimport_xml.php:5
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:errincorrectidnumber"
+msgid "Error - incorrect idnumber"
+msgstr "エラー - IDナンバーが正しくありません。"
+
+#. errincorrectuseridnumber
+#: grade/import/xml/lang/en/gradeimport_xml.php:6
+msgctxt ""
+"grade/import/xml/lang/en/gradeimport_xml.php:errincorrectuseridnumber"
+msgid "Error - idnumber '{$a}' from the import file does not match any user."
+msgstr "エラー - インポートファイルのIDナンバー「 {$a} 」が、どのユーザとも合致しません。"
+
+#. error
+#: grade/import/xml/lang/en/gradeimport_xml.php:7
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:error"
+msgid "Errors occur"
+msgstr "エラーが発生しました。"
+
+#. fileurl
+#: grade/import/xml/lang/en/gradeimport_xml.php:8
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:fileurl"
+msgid "Remote file URL"
+msgstr "リモートファイルURI"
+
+#. pluginname
+#: grade/import/xml/lang/en/gradeimport_xml.php:9
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:pluginname"
+msgid "XML file"
+msgstr "XMLファイル"
+
+#. xml:publish
+#: grade/import/xml/lang/en/gradeimport_xml.php:10
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:xml:publish"
+msgid "Publish import grades from XML"
+msgstr "XMLからの評定インポートを公開する"
+
+#. xml:view
+#: grade/import/xml/lang/en/gradeimport_xml.php:11
+msgctxt "grade/import/xml/lang/en/gradeimport_xml.php:xml:view"
+msgid "Import grades from XML"
+msgstr "XMLから評定をインポートする"
+
+#. ajaxchoosescale
+#: grade/report/grader/lang/en/gradereport_grader.php:1
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:ajaxchoosescale"
+msgid "Choose"
+msgstr "選択"
+
+#. ajaxclicktoclose
+#: grade/report/grader/lang/en/gradereport_grader.php:2
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:ajaxclicktoclose"
+msgid "Click this box to remove it"
+msgstr "削除するにはこのチェックボックスをチェックしてください。"
+
+#. ajaxerror
+#: grade/report/grader/lang/en/gradereport_grader.php:3
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:ajaxerror"
+msgid "Error"
+msgstr "エラー"
+
+#. ajaxfailedupdate
+#: grade/report/grader/lang/en/gradereport_grader.php:4
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:ajaxfailedupdate"
+msgid "Unable to update [1] for [2]"
+msgstr "[2] の [1] を更新できません。"
+
+#. ajaxfieldchanged
+#: grade/report/grader/lang/en/gradereport_grader.php:5
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:ajaxfieldchanged"
+msgid ""
+"The field you are currently editing has changed, would you like to use the "
+"updated value?"
+msgstr "現在あなたが編集しているフィールドの内容が変更されました。変更された値を使用しますか?"
+
+#. grader:manage
+#: grade/report/grader/lang/en/gradereport_grader.php:6
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:grader:manage"
+msgid "Manage the grader report"
+msgstr "評定者レポートを管理する"
+
+#. grader:view
+#: grade/report/grader/lang/en/gradereport_grader.php:7
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:grader:view"
+msgid "View the grader report"
+msgstr "評定者レポートを表示する"
+
+#. pluginname
+#: grade/report/grader/lang/en/gradereport_grader.php:8
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:pluginname"
+msgid "Grader report"
+msgstr "評定者レポート"
+
+#. preferences
+#: grade/report/grader/lang/en/gradereport_grader.php:9
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:preferences"
+msgid "Grader report preferences"
+msgstr "評定者レポートプリファレンス"
+
+#. useractivityfeedback
+#: grade/report/grader/lang/en/gradereport_grader.php:10
+msgctxt ""
+"grade/report/grader/lang/en/gradereport_grader.php:useractivityfeedback"
+msgid "{$a} feedback"
+msgstr "{$a} フィードバック"
+
+#. useractivitygrade
+#: grade/report/grader/lang/en/gradereport_grader.php:11
+msgctxt "grade/report/grader/lang/en/gradereport_grader.php:useractivitygrade"
+msgid "{$a} grade"
+msgstr "{$a} 評定"
+
+#. addoutcome
+#: grade/report/outcomes/lang/en/gradereport_outcomes.php:1
+msgctxt "grade/report/outcomes/lang/en/gradereport_outcomes.php:addoutcome"
+msgid "Add an outcome"
+msgstr "アウトカムを追加する"
+
+#. courseoutcomes
+#: grade/report/outcomes/lang/en/gradereport_outcomes.php:2
+msgctxt ""
+"grade/report/outcomes/lang/en/gradereport_outcomes.php:courseoutcomes"
+msgid "Course outcomes"
+msgstr "コースアウトカム"
+
+#. coursespecoutcome
+#: grade/report/outcomes/lang/en/gradereport_outcomes.php:3
+msgctxt ""
+"grade/report/outcomes/lang/en/gradereport_outcomes.php:coursespecoutcome"
+msgid "Course outcomes"
+msgstr "コースアウトカム"
+
+#. outcomes:view
+#: grade/report/outcomes/lang/en/gradereport_outcomes.php:4
+msgctxt "grade/report/outcomes/lang/en/gradereport_outcomes.php:outcomes:view"
+msgid "View the outcomes report"
+msgstr "アウトカムレポートを表示する"
+
+#. pluginname
+#: grade/report/outcomes/lang/en/gradereport_outcomes.php:5
+msgctxt "grade/report/outcomes/lang/en/gradereport_outcomes.php:pluginname"
+msgid "Outcomes report"
+msgstr "アウトカムレポート"
+
+#. usedgradeitem
+#: grade/report/outcomes/lang/en/gradereport_outcomes.php:6
+msgctxt "grade/report/outcomes/lang/en/gradereport_outcomes.php:usedgradeitem"
+msgid "Number of grade items"
+msgstr "評定項目数"
+
+#. overview:view
+#: grade/report/overview/lang/en/gradereport_overview.php:1
+msgctxt "grade/report/overview/lang/en/gradereport_overview.php:overview:view"
+msgid "View the overview report"
+msgstr "概要レポートを表示する"
+
+#. pluginname
+#: grade/report/overview/lang/en/gradereport_overview.php:2
+msgctxt "grade/report/overview/lang/en/gradereport_overview.php:pluginname"
+msgid "Overview report"
+msgstr "概要レポート"
+
+#. pluginname
+#: grade/report/user/lang/en/gradereport_user.php:1
+msgctxt "grade/report/user/lang/en/gradereport_user.php:pluginname"
+msgid "User report"
+msgstr "ユーザレポート"
+
+#. tablesummary
+#: grade/report/user/lang/en/gradereport_user.php:2
+msgctxt "grade/report/user/lang/en/gradereport_user.php:tablesummary"
+msgid ""
+"The table is arranged as a list of graded items including categories of "
+"graded items. When items are in a category they will be indicated as such."
+msgstr "このテーブルは評定アイテムのカテゴリを含む評定アイテム一覧として作成されています。アイテムがカテゴリ内にある場合、そのように表示されます。"
+
+#. user:view
+#: grade/report/user/lang/en/gradereport_user.php:3
+msgctxt "grade/report/user/lang/en/gradereport_user.php:user:view"
+msgid "View your own grade report"
+msgstr "自分の評定レポートを表示する"

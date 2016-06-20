@@ -1,0 +1,115 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-03-31 06:21+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. cal.title
+#: textarea/calendar/src/bundle/calendar.properties:1
+msgctxt "textarea/calendar/src/bundle/calendar.properties:cal.title"
+msgid "Select date, please."
+msgstr "日時を選択して下さい．"
+
+#. cal.lasm
+#: textarea/calendar/src/bundle/calendar.properties:2
+msgctxt "textarea/calendar/src/bundle/calendar.properties:cal.lasm"
+msgid "previous month"
+msgstr "前月"
+
+#. cal.lasy
+#: textarea/calendar/src/bundle/calendar.properties:3
+msgctxt "textarea/calendar/src/bundle/calendar.properties:cal.lasy"
+msgid "previous year"
+msgstr "前の年"
+
+#. cal.nexm
+#: textarea/calendar/src/bundle/calendar.properties:4
+msgctxt "textarea/calendar/src/bundle/calendar.properties:cal.nexm"
+msgid "next month"
+msgstr "来月"
+
+#. cal.nexy
+#: textarea/calendar/src/bundle/calendar.properties:5
+msgctxt "textarea/calendar/src/bundle/calendar.properties:cal.nexy"
+msgid "next year"
+msgstr "次の年"
+
+#. cal.format
+#: textarea/calendar/src/bundle/calendar.properties:6
+msgctxt "textarea/calendar/src/bundle/calendar.properties:cal.format"
+msgid "MMMM yyyy"
+msgstr "MMMM yyyy"
+
+#. melete_collectionname
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:1
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:melete_collectionname"
+msgid "Melete private site files"
+msgstr "Melete プライベートファイル"
+
+#. entitybrowser.sam_pub
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:2
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.sam_pub"
+msgid "Published Assessments"
+msgstr "テストを公開"
+
+#. entitybrowser.assignment
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:3
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.assignment"
+msgid "Assignments"
+msgstr "課題"
+
+#. entitybrowser.assignment2
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:4
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.assignment2"
+msgid "Assignments (new)"
+msgstr "課題 (新規)"
+
+#. entitybrowser.poll
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:5
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.poll"
+msgid "Polls"
+msgstr "意識調査"
+
+#. entitybrowser.forum
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:6
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.forum"
+msgid "Forums"
+msgstr "フォーラム"
+
+#. entitybrowser.forum_topic
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:7
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.forum_topic"
+msgid "Forum Messages"
+msgstr "フォーラムメッセージ"
+
+#. entitybrowser.ezproxy
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:8
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.ezproxy"
+msgid "EZ Proxy"
+msgstr "EZ Proxy"
+
+#. entitybrowser.scorm
+#: textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:9
+msgctxt ""
+"textarea/FCKeditor/connector/src/bundle/org/sakaiproject/connector/fck/Messages.properties:entitybrowser.scorm"
+msgid "SCORM Modules"
+msgstr "SCORMモジュール"

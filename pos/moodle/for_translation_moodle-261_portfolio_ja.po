@@ -1,0 +1,712 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:37+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. apiv1migration_message_content
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:1
+msgctxt ""
+"portfolio/boxnet/lang/en/portfolio_boxnet.php:apiv1migration_message_content"
+msgid ""
+"As part of the recent Moodle upgrade to 2.6, the Box.net portfolio plugin "
+"has been disabled. To re-enable it, you need to re-configure it as described"
+" in the documentation {$a->docsurl}."
+msgstr "最新のMoodle 2.6へのアップグレードの一環として、Box.netポートフォリオプラグインは無効にされています。再度有効にするには、ドキュメンテーション ( {$a->docsurl} ) に記載されているとおり、あなたは再設定する必要があります。"
+
+#. apiv1migration_message_small
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:2
+msgctxt ""
+"portfolio/boxnet/lang/en/portfolio_boxnet.php:apiv1migration_message_small"
+msgid ""
+"This plugin has been disabled, as it requires configuration as described in "
+"the documentation Box.net APIv1 migration."
+msgstr "Box.net APIv1移行ドキュメンテーションで説明されている設定が必要なため、このプラグインは無効にされています。"
+
+#. apiv1migration_message_subject
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:3
+msgctxt ""
+"portfolio/boxnet/lang/en/portfolio_boxnet.php:apiv1migration_message_subject"
+msgid "Important information regarding Box.net portfolio plugin"
+msgstr "Box.netポートフォリオプラグインに関する重要情報"
+
+#. clientid
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:4
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:clientid"
+msgid "Client ID"
+msgstr "クライアントID"
+
+#. clientsecret
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:5
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:clientsecret"
+msgid "Client secret"
+msgstr "クライアント秘密鍵"
+
+#. existingfolder
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:6
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:existingfolder"
+msgid "Existing folder to put file(s) into"
+msgstr "ファイルを保存する既存のフォルダ"
+
+#. folderclash
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:7
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:folderclash"
+msgid "The folder you asked to create already exists!"
+msgstr "あなたが作成を依頼したフォルダは、すでに登録されています!"
+
+#. foldercreatefailed
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:8
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:foldercreatefailed"
+msgid "Failed to create your target folder on box.net"
+msgstr "あなたのターゲットフォルダをbox.netに作成できませんでした。"
+
+#. folderlistfailed
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:9
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:folderlistfailed"
+msgid "Failed to retrieve a folder listing from box.net"
+msgstr "box.netからフォルダ一覧を取得できませんでした。"
+
+#. missinghttps
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:10
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:missinghttps"
+msgid "HTTPS required"
+msgstr "HTTPS必須"
+
+#. missinghttps_help
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:11
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:missinghttps_help"
+msgid "Box.net will only work with an HTTPS enabled website."
+msgstr "Box.netはHTTPSが有効にされているウェブサイトでのみ動作します。"
+
+#. missingoauthkeys
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:12
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:missingoauthkeys"
+msgid "Missing client ID and secret"
+msgstr "クライアントIDおよび秘密鍵がありません。"
+
+#. missingoauthkeys_help
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:13
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:missingoauthkeys_help"
+msgid ""
+"There is no client ID or secret configured for this plugin. You can get one "
+"of these from Box.net development page."
+msgstr "このプラグインのクライアントIDまたは秘密鍵設定がありません。あなたはBox.net開発ページにて、これらを取得することができます。"
+
+#. newfolder
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:14
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:newfolder"
+msgid "New folder to put file(s) into"
+msgstr "ファイルを保存する新しいフォルダ"
+
+#. noauthtoken
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:15
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:noauthtoken"
+msgid "Could not retrieve an authentication token for use in this session"
+msgstr "このセッションで使用する認証トークンを取得できませんでした。"
+
+#. notarget
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:16
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:notarget"
+msgid ""
+"You must specify either an existing folder or a new folder to upload into"
+msgstr "あなたはファイルをアップロードする既存のフォルダ、または新しいフォルダを選択する必要があります。"
+
+#. noticket
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:17
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:noticket"
+msgid ""
+"Could not retrieve a ticket from box.net to begin the authentication session"
+msgstr "認証を開始するためのチケットをbox.netから取得できませんでした。"
+
+#. password
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:18
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:password"
+msgid "Your box.net password (will not be stored)"
+msgstr "あなたのbox.netパスワード (保存されません)"
+
+#. pluginname
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:19
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:pluginname"
+msgid "Box.net"
+msgstr "Box.net"
+
+#. sendfailed
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:20
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:sendfailed"
+msgid "Failed to send content to box.net: {$a}"
+msgstr "コンテクストをbox.netに送信できませんでした: {$a}"
+
+#. setupinfo
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:21
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:setupinfo"
+msgid "Setup instructions"
+msgstr "セットアップインストラクション"
+
+#. setupinfodetails
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:22
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:setupinfodetails"
+msgid ""
+"To obtain a client ID and secret, log in to Box.net and visit the <a "
+"href=\"{$a->servicesurl}\">Box.net developers page</a>. Follow 'Create new "
+"application' and create a new application for your Moodle site. The client "
+"ID and secret are displayed in the 'OAuth2 parameters' section of the "
+"application edit form. Optionally, you can also provide other information "
+"about your Moodle site."
+msgstr "クライアントIDおよび秘密鍵を取得するには、Box.netにログインした後、<a href=\"{$a->servicesurl}\">Box.net開発者ページ</a>にアクセスしてください。「Create new application」ボタンをクリックして、あなたのMoodleサイト用の新しいアプリケーションを作成してください。クライアントIDおよび秘密鍵はアプリケーション編集フォームの「OAuth2 parameters」セクションに表示されます。あなたのMoodleサイトに関する他の情報を任意に提供することもできます。"
+
+#. sharedfolder
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:23
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:sharedfolder"
+msgid "Shared"
+msgstr "共有"
+
+#. sharefile
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:24
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:sharefile"
+msgid "Share this file?"
+msgstr "このファイルを共有しますか?"
+
+#. sharefolder
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:25
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:sharefolder"
+msgid "Share this new folder?"
+msgstr "この新しいフォルダを共有しますか?"
+
+#. targetfolder
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:26
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:targetfolder"
+msgid "Target folder"
+msgstr "ターゲットフォルダ"
+
+#. tobecreated
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:27
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:tobecreated"
+msgid "To be created"
+msgstr "作成予定"
+
+#. username
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:28
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:username"
+msgid "Your box.net username (will not be stored)"
+msgstr "あなたのbox.netユーザ名 (保存されません)"
+
+#. warninghttps
+#: portfolio/boxnet/lang/en/portfolio_boxnet.php:29
+msgctxt "portfolio/boxnet/lang/en/portfolio_boxnet.php:warninghttps"
+msgid ""
+"Box.net requires your website to be using HTTPS in order for the portfolio "
+"to work."
+msgstr "Box.netのポートフォリオを動作させるには、あなたのウェブサイトがHTTPSを使用している必要があります。"
+
+#. downloadfile
+#: portfolio/download/lang/en/portfolio_download.php:1
+msgctxt "portfolio/download/lang/en/portfolio_download.php:downloadfile"
+msgid "Download your portfolio export file"
+msgstr "あなたのポートフォリオのエクスポートファイルをダウンロードする"
+
+#. downloading
+#: portfolio/download/lang/en/portfolio_download.php:2
+msgctxt "portfolio/download/lang/en/portfolio_download.php:downloading"
+msgid "Downloading ..."
+msgstr "ダウンロード中 ..."
+
+#. pluginname
+#: portfolio/download/lang/en/portfolio_download.php:3
+msgctxt "portfolio/download/lang/en/portfolio_download.php:pluginname"
+msgid "File download"
+msgstr "ファイルダウンロード"
+
+#. apikey
+#: portfolio/flickr/lang/en/portfolio_flickr.php:1
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:apikey"
+msgid "API key"
+msgstr "APIキー"
+
+#. contenttype
+#: portfolio/flickr/lang/en/portfolio_flickr.php:2
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:contenttype"
+msgid "Content types"
+msgstr "コンテンツタイプ"
+
+#. err_noapikey
+#: portfolio/flickr/lang/en/portfolio_flickr.php:3
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:err_noapikey"
+msgid "No API key"
+msgstr "APIキーなし"
+
+#. err_noapikey_help
+#: portfolio/flickr/lang/en/portfolio_flickr.php:4
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:err_noapikey_help"
+msgid ""
+"There is no API key configured for this plugin. You can get one of these "
+"from Flickr services page."
+msgstr "このプラグインに設定されたAPIキーはありません。あなたはAPIキーをFlickrサービスページから取得することができます。"
+
+#. hidefrompublicsearches
+#: portfolio/flickr/lang/en/portfolio_flickr.php:5
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:hidefrompublicsearches"
+msgid "Hide these images from public searches?"
+msgstr "これらのイメージを公開検索から隠しますか?"
+
+#. isfamily
+#: portfolio/flickr/lang/en/portfolio_flickr.php:6
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:isfamily"
+msgid "Visible to family"
+msgstr "ファミリーに表示する"
+
+#. isfriend
+#: portfolio/flickr/lang/en/portfolio_flickr.php:7
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:isfriend"
+msgid "Visible to friends"
+msgstr "フレンドに表示する"
+
+#. ispublic
+#: portfolio/flickr/lang/en/portfolio_flickr.php:8
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:ispublic"
+msgid "Public (anyone can see them)"
+msgstr "パブリック (誰でも閲覧できます)"
+
+#. moderate
+#: portfolio/flickr/lang/en/portfolio_flickr.php:9
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:moderate"
+msgid "Moderate"
+msgstr "モデレート"
+
+#. noauthtoken
+#: portfolio/flickr/lang/en/portfolio_flickr.php:10
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:noauthtoken"
+msgid "Could not retrieve an authentication token for use in this session"
+msgstr "このセッションで使用する認証トークンを取得できませんでした。"
+
+#. other
+#: portfolio/flickr/lang/en/portfolio_flickr.php:11
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:other"
+msgid "Art, illustration, CGI, or other non-photographic images"
+msgstr "アート、イラストレーション、CGIまたは写真以外のイメージ"
+
+#. photo
+#: portfolio/flickr/lang/en/portfolio_flickr.php:12
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:photo"
+msgid "Photos"
+msgstr "フォト"
+
+#. pluginname
+#: portfolio/flickr/lang/en/portfolio_flickr.php:13
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:pluginname"
+msgid "Flickr.com"
+msgstr "Flickr.com"
+
+#. restricted
+#: portfolio/flickr/lang/en/portfolio_flickr.php:14
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:restricted"
+msgid "Restricted"
+msgstr "制限"
+
+#. safe
+#: portfolio/flickr/lang/en/portfolio_flickr.php:15
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:safe"
+msgid "Safe"
+msgstr "セーフ"
+
+#. safetylevel
+#: portfolio/flickr/lang/en/portfolio_flickr.php:16
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:safetylevel"
+msgid "Safety level"
+msgstr "セーフティレベル"
+
+#. screenshot
+#: portfolio/flickr/lang/en/portfolio_flickr.php:17
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:screenshot"
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
+#. set
+#: portfolio/flickr/lang/en/portfolio_flickr.php:18
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:set"
+msgid "Set"
+msgstr "セット"
+
+#. setupinfo
+#: portfolio/flickr/lang/en/portfolio_flickr.php:19
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:setupinfo"
+msgid "Setup instructions"
+msgstr "セットアップインストラクション"
+
+#. setupinfodetails
+#: portfolio/flickr/lang/en/portfolio_flickr.php:20
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:setupinfodetails"
+msgid ""
+"To obtain API key and the secret string, log in to Flickr and <a "
+"href=\"{$a->applyurl}\">apply for a new key</a>. Once new key and secret are"
+" generated for you, follow the 'Edit auth flow for this app' link at the "
+"page. Select 'App Type' to 'Web Application'. Into the 'Callback URL' field,"
+" put the value: <br /><code>{$a->callbackurl}</code><br />Optionally, you "
+"can also provide your Moodle site description and logo. These values can be "
+"set later at <a href=\"{$a->keysurl}\">the page</a> listing your Flickr "
+"applications."
+msgstr "APIキーおよびsecretストリングを取得するには、Flickrにログインした後、<a href=\"{$a->applyurl}\">新しいキーを取得してください</a>。あなたに新しいキーおよびsecretが作成された場合、ページ内の「Edit auth flow for this app」リンクをクリックしてください。「Callback URL」フィールドに次の値を入力してください: <br /><code>{$a->callbackurl}</code><br />あなたのMoodleサイトの説明およびロゴを任意で提供することもできます。これらの値は後であなたの<a href=\"{$a->keysurl}\">Flickrアプリケーション一覧ページ</a> にて編集することができます。"
+
+#. sharedsecret
+#: portfolio/flickr/lang/en/portfolio_flickr.php:21
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:sharedsecret"
+msgid "Secret string"
+msgstr "Secretストリング"
+
+#. title
+#: portfolio/flickr/lang/en/portfolio_flickr.php:22
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:title"
+msgid "Title"
+msgstr "タイトル"
+
+#. uploadfailed
+#: portfolio/flickr/lang/en/portfolio_flickr.php:23
+msgctxt "portfolio/flickr/lang/en/portfolio_flickr.php:uploadfailed"
+msgid "Failed to upload image(s) to flickr.com: {$a}"
+msgstr "flickr.comへのイメージのアップロードに失敗しました: {$a}"
+
+#. clientid
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:1
+msgctxt "portfolio/googledocs/lang/en/portfolio_googledocs.php:clientid"
+msgid "Client ID"
+msgstr "クライアントID"
+
+#. noauthtoken
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:2
+msgctxt "portfolio/googledocs/lang/en/portfolio_googledocs.php:noauthtoken"
+msgid ""
+"An authentication token has not been recieved from google. Please ensure you"
+" are allowing moodle to access your google account"
+msgstr "Googleから認証トークンが受信されませんでした。あなたのGoogleアカウントにMoodleのアクセスが許可されているかどうか確認してください。"
+
+#. nooauthcredentials
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:3
+msgctxt ""
+"portfolio/googledocs/lang/en/portfolio_googledocs.php:nooauthcredentials"
+msgid "OAuth credentials required."
+msgstr "OAuth認証情報が必要です。"
+
+#. nooauthcredentials_help
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:4
+msgctxt ""
+"portfolio/googledocs/lang/en/portfolio_googledocs.php:nooauthcredentials_help"
+msgid ""
+"To use the Google Docs portfolio plugin you must configure OAuth credentials"
+" in the portfolio settings."
+msgstr "Google Docsポートフォリオプラグインを使用するには、あなたはポートフォリオ設定にてOAuth認証情報を設定する必要があります。"
+
+#. nosessiontoken
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:5
+msgctxt "portfolio/googledocs/lang/en/portfolio_googledocs.php:nosessiontoken"
+msgid "A session token does not exist preventing export to google."
+msgstr "Googleへのエクスポートを抑制するセッショントークンがありません。"
+
+#. oauth2upgrade_message_content
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:6
+msgctxt ""
+"portfolio/googledocs/lang/en/portfolio_googledocs.php:oauth2upgrade_message_content"
+msgid ""
+"As part of the upgrade to Moodle 2.3, the Google Docs portfolio plugin has "
+"been disabled. To re-enable it, your Moodle site needs to be registered with"
+" Google, as described in the documentation {$a->docsurl}, in order to obtain"
+" a client ID and secret. The client ID and secret can then be used to "
+"configure all Google Docs and Picasa plugins."
+msgstr "Moodle 2.3へのアップグレードの一環として、Google Docsポートフォリオプラグインは無効にされました。プラグインを再度有効にするには、クライアントIDおよび秘密鍵を取得するため、ドキュメンテーション「 {$a->docsurl} 」に記述されているように、あなたのサイトをGoogleに登録する必要があります。クライアントIDおよび秘密鍵はすべてのGoogle DocsおよびPicasaプラグイン設定に使用することができます。"
+
+#. oauth2upgrade_message_small
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:7
+msgctxt ""
+"portfolio/googledocs/lang/en/portfolio_googledocs.php:oauth2upgrade_message_small"
+msgid ""
+"This plugin has been disabled, as it requires configuration as described in "
+"the documentation Google OAuth 2.0 setup."
+msgstr "Google OAuth 2.0に記載されている設定が必要なため、このプラグインは無効にされます。"
+
+#. oauth2upgrade_message_subject
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:8
+msgctxt ""
+"portfolio/googledocs/lang/en/portfolio_googledocs.php:oauth2upgrade_message_subject"
+msgid "Important information regarding Google Docs portfolio plugin"
+msgstr "Google Docsポートフォリオプラグインに関する重要情報"
+
+#. oauthinfo
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:9
+msgctxt "portfolio/googledocs/lang/en/portfolio_googledocs.php:oauthinfo"
+msgid ""
+"<p>To use this plugin, you must register your site with Google, as described"
+" in the documentation <a href=\"{$a->docsurl}\">Google OAuth 2.0 "
+"setup</a>.</p><p>As part of the registration process, you will need to enter"
+" the following URL as 'Authorized Redirect "
+"URIs':</p><p>{$a->callbackurl}</p>Once registered, you will be provided with"
+" a client ID and secret which can be used to configure all Google Docs and "
+"Picasa plugins.</p>"
+msgstr "<p>このプラグインを使用するには、ドキュメンテーション「<a href=\"{$a->docsurl}\">Google OAuth 2.0セットアップ</a>」に記載されているようにあなたのサイトをGoogleに登録する必要があります。</p><p>登録処理の一環として、あなたは次のURIを「公式リダイレクトURI」として入力する必要があります:</p><p>{$a->callbackurl}</p>登録後、すべてのGoogle DocsおよびPicasaプラグインに使用することのできるクライアントIDおよび秘密鍵が提供されます。</p>"
+
+#. pluginname
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:10
+msgctxt "portfolio/googledocs/lang/en/portfolio_googledocs.php:pluginname"
+msgid "Google Docs"
+msgstr "Google Docs"
+
+#. secret
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:11
+msgctxt "portfolio/googledocs/lang/en/portfolio_googledocs.php:secret"
+msgid "Secret"
+msgstr "秘密鍵"
+
+#. sendfailed
+#: portfolio/googledocs/lang/en/portfolio_googledocs.php:12
+msgctxt "portfolio/googledocs/lang/en/portfolio_googledocs.php:sendfailed"
+msgid "The file {$a} failed to transfer to google"
+msgstr "Googleへのファイル {$a} の転送に失敗しました。"
+
+#. enableleap2a
+#: portfolio/mahara/lang/en/portfolio_mahara.php:1
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:enableleap2a"
+msgid "Enable Leap2A portfolio support (requires Mahara 1.3 or higher)"
+msgstr "Leap2A ポートフォリオサポートを有効にする (要Mahara 1.3以上)"
+
+#. err_invalidhost
+#: portfolio/mahara/lang/en/portfolio_mahara.php:2
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_invalidhost"
+msgid "Invalid MNet host"
+msgstr "無効なMNetホスト"
+
+#. err_invalidhost_help
+#: portfolio/mahara/lang/en/portfolio_mahara.php:3
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_invalidhost_help"
+msgid ""
+"This plugin is misconfigured to point to an invalid (or deleted) MNet host."
+"  This plugin relies on Moodle Networking peers with SSO IDP published, "
+"SSO_SP subscribed, and portfolio subscribed <b>and</b> published."
+msgstr "このプラグインは無効な (または削除された) MNetホストにアクセスするよう誤って設定されています。このプラグインはSSO IDP (アイデンティティプロバイダ) が公開されたMoodleネットワーキングピアおよび登録されたSSO SP (サービスプロバイダ) を信頼します。"
+
+#. err_networkingoff
+#: portfolio/mahara/lang/en/portfolio_mahara.php:4
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_networkingoff"
+msgid "MNet is off"
+msgstr "Moodleネットワーキングは無効にされています。"
+
+#. err_networkingoff_help
+#: portfolio/mahara/lang/en/portfolio_mahara.php:5
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_networkingoff_help"
+msgid ""
+"MNet is off entirely. Please enable it before trying to configure this "
+"plugin.  Any instances of this plugin have been set to not visible until "
+"this is fixed - you will need to set them to visible again manully.  They "
+"cannot be used until this happens"
+msgstr "MNetは完全に無効にされています。このプラグインを設定する前に有効にしてください。問題が修正されるまで、このプラグインに関するインスタンスはすべて非表示にされます - 再度、手動でインスタンスを表示する必要があります。インスタンスが表示されるまで、使用することはできません。"
+
+#. err_nomnetauth
+#: portfolio/mahara/lang/en/portfolio_mahara.php:6
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_nomnetauth"
+msgid "The MNet authentication plugin is disabled"
+msgstr "MNet認証プラグインが無効にされています。"
+
+#. err_nomnetauth_help
+#: portfolio/mahara/lang/en/portfolio_mahara.php:7
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_nomnetauth_help"
+msgid ""
+"The MNet authentication plugin is disabled, but is required for this service"
+msgstr "MNet認証プラグインは無効にされていますが、このサービスで必要とします。"
+
+#. err_nomnethosts
+#: portfolio/mahara/lang/en/portfolio_mahara.php:8
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_nomnethosts"
+msgid "Relies on MNet"
+msgstr "Moodleネットワーキングに依存する"
+
+#. err_nomnethosts_help
+#: portfolio/mahara/lang/en/portfolio_mahara.php:9
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:err_nomnethosts_help"
+msgid ""
+"This plugin relies on MNet peers with SSO IDP published, SSO SP subscribed, "
+"portfolio services published <b>and</b> subscribed as well as the MNet "
+"authentication plugin.  Any instances of this plugin have been hidden until "
+"these conditions are met. They will then manually need setting to visible "
+"again."
+msgstr "このプラグインでは、MoodleネットワーキングピアのSSO IDP (アイデンティティプロバイダ) の公開、ポートフォリオおよびSSO SP (サービスプロバイダ) の登録に依存します。また、同様にMNet認証プラグインにも依存します。問題が修正されるまで、このプラグインに関するインスタンスはすべて非表示にされます - 再度、手動でインスタンスを表示する必要があります。インスタンスが表示されるまで、使用することはできません。"
+
+#. failedtojump
+#: portfolio/mahara/lang/en/portfolio_mahara.php:10
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:failedtojump"
+msgid "Failed to start communication with remote server"
+msgstr "リモートサーバとの通信の開始に失敗しました。"
+
+#. failedtoping
+#: portfolio/mahara/lang/en/portfolio_mahara.php:11
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:failedtoping"
+msgid "Failed to start communication with remote server: {$a}"
+msgstr "リモートサーバ「 {$a} 」との通信の開始に失敗しました。"
+
+#. mnethost
+#: portfolio/mahara/lang/en/portfolio_mahara.php:12
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:mnethost"
+msgid "MNet host"
+msgstr "MNetホスト"
+
+#. mnet_nofile
+#: portfolio/mahara/lang/en/portfolio_mahara.php:13
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:mnet_nofile"
+msgid "Could not find file in transfer object - weird error"
+msgstr "転送オブジェクトにファイルを見つけることができませんでした - 不明なエラー。"
+
+#. mnet_nofilecontents
+#: portfolio/mahara/lang/en/portfolio_mahara.php:14
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:mnet_nofilecontents"
+msgid ""
+"Found file in transfer object, but could not get contents - weird error: "
+"{$a}"
+msgstr "転送オブジェクトにファイルを発見しましたが、コンテンツを取得できませんでした - 不明なエラー: {$a}"
+
+#. mnet_noid
+#: portfolio/mahara/lang/en/portfolio_mahara.php:15
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:mnet_noid"
+msgid "Could not find the matching transfer record for this token"
+msgstr "このトークンに対して、合致する転送レコードを見つけることができませんでした。"
+
+#. mnet_notoken
+#: portfolio/mahara/lang/en/portfolio_mahara.php:16
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:mnet_notoken"
+msgid "Could not find token matching this transfer"
+msgstr "この転送に対して、合致するトークンを見つけることができませんでした。"
+
+#. mnet_wronghost
+#: portfolio/mahara/lang/en/portfolio_mahara.php:17
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:mnet_wronghost"
+msgid "Remote host did not match the transfer record for this token"
+msgstr "この転送のトークンに対して、リモートホストが合致しません。"
+
+#. pf_description
+#: portfolio/mahara/lang/en/portfolio_mahara.php:18
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:pf_description"
+msgid ""
+"Allow users to push Moodle content to this host<br />Subscribe to <b>and</b>"
+" publish this service to allow authenticated users in your site to push "
+"content to {$a}<br /><ul><li><em>Dependency</em>: You must also "
+"<strong>publish</strong> the SSO (Identify Provider) service to "
+"{$a}.</li><li><em>Dependency</em>: You must also <strong>subscribe</strong> "
+"to the SSO (Service Provider) service on {$a}</li><li><em>Dependency</em>: "
+"You must also enable the MNet authentication plugin.</li></ul><br />"
+msgstr "このホストに対してユーザによるMoodleコンテンツの送信を許可します。<br />\nこのサービスに公開<b>および</b>登録することで、あなたのサイトの認証済みユーザが {$a} にコンテンツを送信することを許可します。\n<br />\n<ul>\n<li><em>依存関係</em>: あなたはまたSSO (アイデンティティプロバイダ) サービスを {$a} に<strong>公開</strong>する必要があります。</li>\n<li><em>依存関係</em>: あなたはまた {$a} のSSO (サービスプロバイダ) サービスに<strong>登録</strong>する必要があります。</li>\n<li><em>依存関係</em>: あなたはまたMNet認証プラグインを有効にする必要があります。</li>\n</ul>\n<br />"
+
+#. pf_name
+#: portfolio/mahara/lang/en/portfolio_mahara.php:19
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:pf_name"
+msgid "Portfolio services"
+msgstr "ポートフォリオサービス"
+
+#. pluginname
+#: portfolio/mahara/lang/en/portfolio_mahara.php:20
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:pluginname"
+msgid "Mahara ePortfolio"
+msgstr "Mahara eポートフォリオ"
+
+#. senddisallowed
+#: portfolio/mahara/lang/en/portfolio_mahara.php:21
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:senddisallowed"
+msgid "You cannot transfer files to Mahara at this time"
+msgstr "現在、あなたはMaharaにファイルを転送できません。"
+
+#. url
+#: portfolio/mahara/lang/en/portfolio_mahara.php:22
+msgctxt "portfolio/mahara/lang/en/portfolio_mahara.php:url"
+msgid "URL"
+msgstr "URI"
+
+#. clientid
+#: portfolio/picasa/lang/en/portfolio_picasa.php:1
+msgctxt "portfolio/picasa/lang/en/portfolio_picasa.php:clientid"
+msgid "Client ID"
+msgstr "クライアントID"
+
+#. noauthtoken
+#: portfolio/picasa/lang/en/portfolio_picasa.php:2
+msgctxt "portfolio/picasa/lang/en/portfolio_picasa.php:noauthtoken"
+msgid ""
+"An authentication token has not been recieved from google. Please ensure you"
+" are allowing moodle to access your google account"
+msgstr "Googleから認証トークンが受信されませんでした。あなたのGoogleアカウントにMoodleのアクセスが許可されているかどうか確認してください。"
+
+#. nooauthcredentials
+#: portfolio/picasa/lang/en/portfolio_picasa.php:3
+msgctxt "portfolio/picasa/lang/en/portfolio_picasa.php:nooauthcredentials"
+msgid "OAuth credentials required."
+msgstr "OAuth認証情報が必要です。"
+
+#. nooauthcredentials_help
+#: portfolio/picasa/lang/en/portfolio_picasa.php:4
+msgctxt ""
+"portfolio/picasa/lang/en/portfolio_picasa.php:nooauthcredentials_help"
+msgid ""
+"To use the Picasa portfolio plugin you must configure OAuth credentials in "
+"the portfolio settings."
+msgstr "Picasaポートフォリオプラグインを使用するには、あなたはポートフォリオ設定にてOAuth認証情報を設定する必要があります。"
+
+#. oauth2upgrade_message_content
+#: portfolio/picasa/lang/en/portfolio_picasa.php:5
+msgctxt ""
+"portfolio/picasa/lang/en/portfolio_picasa.php:oauth2upgrade_message_content"
+msgid ""
+"As part of the upgrade to Moodle 2.3, the Picasa portfolio plugin has been "
+"disabled. To re-enable it, your Moodle site needs to be registered with "
+"Google, as described in the documentation {$a->docsurl}, in order to obtain "
+"a client ID and secret. The client ID and secret can then be used to "
+"configure all Google Docs and Picasa plugins."
+msgstr "Moodle 2.3へのアップグレードの一環として、Picasaポートフォリオプラグインは無効にされました。プラグインを再度有効にするには、クライアントIDおよび秘密鍵を取得するため、ドキュメンテーション「 {$a->docsurl} 」に記述されているように、あなたのサイトをGoogleに登録する必要があります。クライアントIDおよび秘密鍵はすべてのGoogle DocsおよびPicasaプラグイン設定に使用することができます。"
+
+#. oauth2upgrade_message_small
+#: portfolio/picasa/lang/en/portfolio_picasa.php:6
+msgctxt ""
+"portfolio/picasa/lang/en/portfolio_picasa.php:oauth2upgrade_message_small"
+msgid ""
+"This plugin has been disabled, as it requires configuration as described in "
+"the documentation Google OAuth 2.0 setup."
+msgstr "Google OAuth 2.0に記載されている設定が必要なため、このプラグインは無効にされます。"
+
+#. oauth2upgrade_message_subject
+#: portfolio/picasa/lang/en/portfolio_picasa.php:7
+msgctxt ""
+"portfolio/picasa/lang/en/portfolio_picasa.php:oauth2upgrade_message_subject"
+msgid "Important information regarding Picasa portfolio plugin"
+msgstr "Picasaポートフォリオプラグインに関する重要情報"
+
+#. oauthinfo
+#: portfolio/picasa/lang/en/portfolio_picasa.php:8
+msgctxt "portfolio/picasa/lang/en/portfolio_picasa.php:oauthinfo"
+msgid ""
+"<p>To use this plugin, you must register your site with Google, as described"
+" in the documentation <a href=\"{$a->docsurl}\">Google OAuth 2.0 "
+"setup</a>.</p><p>As part of the registration process, you will need to enter"
+" the following URL as 'Authorized Redirect "
+"URIs':</p><p>{$a->callbackurl}</p>Once registered, you will be provided with"
+" a client ID and secret which can be used to configure all Google Docs and "
+"Picasa plugins.</p>"
+msgstr "<p>このプラグインを使用するには、ドキュメンテーション「<a href=\"{$a->docsurl}\">Google OAuth 2.0セットアップ</a>」に記載されているようにあなたのサイトをGoogleに登録する必要があります。</p><p>登録処理の一環として、あなたは次のURIを「公式リダイレクトURI」として入力する必要があります:</p><p>{$a->callbackurl}</p>登録後、すべてのGoogle DocsおよびPicasaプラグインに使用することのできるクライアントIDおよび秘密鍵が提供されます。</p>"
+
+#. pluginname
+#: portfolio/picasa/lang/en/portfolio_picasa.php:9
+msgctxt "portfolio/picasa/lang/en/portfolio_picasa.php:pluginname"
+msgid "Picasa"
+msgstr "Picasa"
+
+#. secret
+#: portfolio/picasa/lang/en/portfolio_picasa.php:10
+msgctxt "portfolio/picasa/lang/en/portfolio_picasa.php:secret"
+msgid "Secret"
+msgstr "秘密鍵"
+
+#. sendfailed
+#: portfolio/picasa/lang/en/portfolio_picasa.php:11
+msgctxt "portfolio/picasa/lang/en/portfolio_picasa.php:sendfailed"
+msgid "The file {$a} failed to transfer to picasa"
+msgstr "Picasaへのファイル {$a} の転送に失敗しました。"

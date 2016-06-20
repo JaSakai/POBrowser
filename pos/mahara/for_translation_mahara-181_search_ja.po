@@ -1,0 +1,500 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: mahara-1.8.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-07 06:15+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:48+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/mahara-181/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. admin
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:1
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:admin"
+msgid "Administrator"
+msgstr "管理者"
+
+#. all
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:2
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:all"
+msgid "All"
+msgstr "すべて"
+
+#. analyzer
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:3
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:analyzer"
+msgid "Elasticsearch analyzer"
+msgstr "Elasticsearchアナライザ"
+
+#. analyzerdescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:4
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:analyzerdescription"
+msgid "The Elasticsearch analyzer class to use. Default is mahara_analyzer."
+msgstr "使用するElasticsearchアナライザクラスです。デフォルトは「mahara_analyzer」です。"
+
+#. artefacttypedescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:5
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:artefacttypedescription"
+msgid ""
+"Check the artefact types you want to include in the index. Only artefact "
+"types that have a hierarchy defined are valid. You will need to reset "
+"artefacts in the queue for your changes to take effect."
+msgstr "あなたがインデックスに含みたいアーティファクトタイプをチェックしてください。階層定義されたアーティファクトタイプのみ有効です。変更を反映させるため、あなたはキュー内のアーティファクトをリセットする必要があります。"
+
+#. artefacttypelegend
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:6
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:artefacttypelegend"
+msgid "Artefact types"
+msgstr "アーティファクトタイプ"
+
+#. artefacttypemapdescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:7
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:artefacttypemapdescription"
+msgid ""
+"Enter the hierarchy for each artefact type separated by | (one artefact type"
+" per row)."
+msgstr "それぞれのアーティファクトタイプに関して、「|」で区切られた階層を入力してください (1行あたり1アーティファクト)。"
+
+#. artefacttypemaplegend
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:8
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:artefacttypemaplegend"
+msgid "Artefact types hierarchy"
+msgstr "アーティファクトタイプ階層"
+
+#. atoz
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:9
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:atoz"
+msgid "A to Z"
+msgstr "A -> Z"
+
+#. blogpost
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:10
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:blogpost"
+msgid "Journal entry"
+msgstr "日誌タイプ"
+
+#. bypassindexname
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:11
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:bypassindexname"
+msgid "Bypass index"
+msgstr "バイパスインデックス"
+
+#. bypassindexnamedescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:12
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:bypassindexnamedescription"
+msgid ""
+"(Optional) If provided, Mahara will load index data into this index name "
+"instead of the main index name."
+msgstr "(任意) 設定された場合、Maharaはメインインデックス名の代わりに、このインデックス名にインデックスデータを読み込みます。"
+
+#. collection
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:13
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:collection"
+msgid "Collection"
+msgstr "コレクション"
+
+#. confignotset
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:14
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:confignotset"
+msgid "(not set)"
+msgstr "(未設定)"
+
+#. createdby
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:15
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:createdby"
+msgid "Created by %s"
+msgstr "作成者: %s"
+
+#. cronlimit
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:16
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:cronlimit"
+msgid "Cron record limit"
+msgstr "Cronレコード制限"
+
+#. cronlimitdescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:17
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:cronlimitdescription"
+msgid ""
+"Maximum number of records to be passed from the queue to the Elasticsearch "
+"server on each cron run (Empty or 0 for unlimited)."
+msgstr "それぞれのcron実行に関して、キューからElasticsearchサーバに送られる最大レコード数です (無制限の場合、空白またはゼロにしてください)。"
+
+#. dateoldestfirst
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:18
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:dateoldestfirst"
+msgid "Date (oldest first)"
+msgstr "日付 (古い順)"
+
+#. daterecentfirst
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:19
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:daterecentfirst"
+msgid "Date (most recent first)"
+msgstr "日付 (新しい順)"
+
+#. deleted
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:20
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:deleted"
+msgid "Deleted"
+msgstr "削除済み"
+
+#. deletedforumpost
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:21
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:deletedforumpost"
+msgid "Deleted forum post"
+msgstr "削除済みフォーラム投稿"
+
+#. filterresultsby
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:22
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:filterresultsby"
+msgid "Filter results by"
+msgstr "フィルタ結果"
+
+#. forum
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:23
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:forum"
+msgid "Forum"
+msgstr "フォーラム"
+
+#. forumpost
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:24
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:forumpost"
+msgid "Forum post"
+msgstr "フォーラム投稿"
+
+#. forumtopic
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:25
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:forumtopic"
+msgid "Forum topic"
+msgstr "フォーラムトピック"
+
+#. Group
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:26
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:Group"
+msgid "Group"
+msgstr "グループ"
+
+#. host
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:27
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:host"
+msgid "Host"
+msgstr "ホスト"
+
+#. hostdescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:28
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:hostdescription"
+msgid "Hostname of the Elasticsearch server. Default is 127.0.0.1."
+msgstr "Elasticsearchサーバのホスト名です。デフォルトは「127.0.0.1」です。"
+
+#. indexname
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:29
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:indexname"
+msgid "Index name"
+msgstr "インデックス名"
+
+#. indexnamedescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:30
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:indexnamedescription"
+msgid "Name of the Elasticsearch index. Default is mahara."
+msgstr "Elasticsearchインデックス名です。デフォルトは「mahara」です。"
+
+#. license
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:31
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:license"
+msgid "License"
+msgstr "ライセンス"
+
+#. Media
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:32
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:Media"
+msgid "Media"
+msgstr "メディア"
+
+#. noticeenabled
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:33
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:noticeenabled"
+msgid ""
+"The Elasticsearch plugin is currently active. To deactivate it, deselect it "
+"in the <a href=\"%s\">site options search settings</a>."
+msgstr "現在、イラスティック検索プラグインは有効にされています。イラスティック検索プラグインを無効にするには、<a href=\"%s\">サイトオプションの検索設定</a>にて、選択解除してください。"
+
+#. noticenotactive
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:34
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:noticenotactive"
+msgid ""
+"The ElasticSearch Server is unreachable on host: %s and port %s. Please make"
+" sure it is running."
+msgstr "ホスト: %s およびポート %s のElasticsearchサーバにアクセスできません。動作しているかどうか確認してください。"
+
+#. noticenotenabled
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:35
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:noticenotenabled"
+msgid ""
+"The Elasticsearch plugin is not currently enabled. To activate it, select it"
+" in the <a href=\"%s\">site options in the search settings</a>."
+msgstr "現在、Elasticsearchプラグインは無効にされています。Elasticsearchプラグインを有効にするには、<a href=\"%s\">サイトオプションの検索設定</a>にて、選択してください。"
+
+#. noticepostgresrequired
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:36
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:noticepostgresrequired"
+msgid ""
+"The Elasticsearch plugin only works with a PostgreSQL database at this time."
+msgstr "現在のところ、ElasticsearchプラグインはPostgresqlデータベースのみで動作します。"
+
+#. noticepostgresrequiredtitle
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:37
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:noticepostgresrequiredtitle"
+msgid "Feature not available"
+msgstr "機能利用不可"
+
+#. owner
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:38
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:owner"
+msgid "Owner"
+msgstr "オーナー"
+
+#. page
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:39
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:page"
+msgid "Page"
+msgstr "ページ"
+
+#. pages
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:40
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:pages"
+msgid "Pages"
+msgstr "ページ"
+
+#. pagetitle
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:41
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:pagetitle"
+msgid "Search"
+msgstr "検索"
+
+#. password
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:42
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:password"
+msgid "Auth password"
+msgstr "認証パスワード"
+
+#. passworddescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:43
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:passworddescription"
+msgid "(Optional) Password to pass to Elasticsearch via HTTP basic auth"
+msgstr "(任意) HTTP基本認証経由でElasticsearchに渡すためのパスワードです。"
+
+#. passwordlength
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:44
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:passwordlength"
+msgid "(password length: %s)"
+msgstr "(パスワード長: %s)"
+
+#. port
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:45
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:port"
+msgid "Elasticsearch port"
+msgstr "Elasticsearchポート"
+
+#. portdescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:46
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:portdescription"
+msgid "The port to contact Elasticsearch on. Default is 9200."
+msgstr "Elasticsearchが使用するポートです。デフォルトは「9200」です。"
+
+#. Portfolio
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:47
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:Portfolio"
+msgid "Portfolio"
+msgstr "ポートフォリオ"
+
+#. record
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:48
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:record"
+msgid "record"
+msgstr "レコード"
+
+#. records
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:49
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:records"
+msgid "records"
+msgstr "レコード"
+
+#. relevance
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:50
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:relevance"
+msgid "Relevance"
+msgstr "関連性"
+
+#. reset
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:51
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:reset"
+msgid "Reset"
+msgstr "リセット"
+
+#. resetallindexes
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:52
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:resetallindexes"
+msgid "Reset ALL indexes"
+msgstr "すべてのインデックスをリセットする"
+
+#. resetdescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:53
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:resetdescription"
+msgid ""
+"This table shows the number of records of each type currently in the queue "
+"to be sent to the Elasticsearch server. Items are sent to the Elasticsearch "
+"server each time the search plugin's cron task runs (every 5 minutes). Click"
+" on the button at the bottom to reset the search index, deleting all records"
+" and requeuing them."
+msgstr "このテーブルでは、Elasticsearchサーバに送信するためにキューに入れられているそれぞれのタイプの現在のレコード数を表示しています。アイテムは検索プラグインのcronタスクが実行されるたびに、Elasticsearchサーバに送信されます (5分ごと)。検索インデックスをリセット、すべてのレコードを削除、そしてレコードを再度キューに入れるには、下のボタンをクリックしてください。"
+
+#. resetlegend
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:54
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:resetlegend"
+msgid "Index reset"
+msgstr "インデックスリセット"
+
+#. resume
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:55
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:resume"
+msgid "Resume"
+msgstr "レジュメ"
+
+#. sortby
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:56
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:sortby"
+msgid "Sort by"
+msgstr "並べ替え"
+
+#. tags
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:57
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:tags"
+msgid "Tags"
+msgstr "タグ"
+
+#. tagsonly
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:58
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:tagsonly"
+msgid "Tags only"
+msgstr "タグのみ"
+
+#. Text
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:59
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:Text"
+msgid "Text"
+msgstr "テキスト"
+
+#. types
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:60
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:types"
+msgid "Elasticsearch types"
+msgstr "Elasticsearchタイプ"
+
+#. typesdescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:61
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:typesdescription"
+msgid ""
+"Comma-separated list of elements to index. Default is "
+"usr,interaction_instance,interaction_forum_post,group,view,artefact."
+msgstr "インデックスするカンマ区切りのエレメント一覧です。デフォルトは次のとおりです: usr,interaction_instance,interaction_forum_post,group,view,artefact"
+
+#. usedonpage
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:62
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:usedonpage"
+msgid "Used on page"
+msgstr "ページ使用"
+
+#. usedonpages
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:63
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:usedonpages"
+msgid "Used on pages"
+msgstr "ページ使用"
+
+#. username
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:64
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:username"
+msgid "Auth username"
+msgstr "認証ユーザ名"
+
+#. usernamedescription
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:65
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:usernamedescription"
+msgid "(Optional) Username to pass to Elasticsearch via HTTP basic auth"
+msgstr "(任意) HTTP基本認証経由でElasticsearchに渡すためのユーザ名です。"
+
+#. Users
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:66
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:Users"
+msgid "Users"
+msgstr "ユーザ"
+
+#. wallpost
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:67
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:wallpost"
+msgid "Wall post"
+msgstr "ウォール投稿"
+
+#. xsearchresultsfory
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:68
+msgctxt ""
+"search/elasticsearch/lang/en.utf8/search.elasticsearch.php:xsearchresultsfory"
+msgid "%s search results for %s"
+msgstr "検索結果: %s / 検索キーワード: %s"
+
+#. ztoa
+#: search/elasticsearch/lang/en.utf8/search.elasticsearch.php:69
+msgctxt "search/elasticsearch/lang/en.utf8/search.elasticsearch.php:ztoa"
+msgid "Z to A"
+msgstr "Z -> A"
+
+#. exactusersearch
+#: search/internal/lang/en.utf8/search.internal.php:1
+msgctxt "search/internal/lang/en.utf8/search.internal.php:exactusersearch"
+msgid "Exact user searches"
+msgstr "ユーザ厳密検索"
+
+#. exactusersearchdescription
+#: search/internal/lang/en.utf8/search.internal.php:2
+msgctxt ""
+"search/internal/lang/en.utf8/search.internal.php:exactusersearchdescription"
+msgid ""
+"If checked, results from the \"Search users\" box and \"Find friends\" page "
+"are only returned for users whose profile fields match entire search terms."
+msgstr "チェックした場合、「ユーザを検索する」ボックスおよび「フレンドを探す」ページの結果には、検索キーワード全体に合致するプロファイルフィールドのユーザのみ表示されます。"

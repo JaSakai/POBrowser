@@ -1,0 +1,3118 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:28+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. activity_modules:addinstance
+#: blocks/activity_modules/lang/en/block_activity_modules.php:1
+msgctxt ""
+"blocks/activity_modules/lang/en/block_activity_modules.php:activity_modules:addinstance"
+msgid "Add a new activities block"
+msgstr "新しい活動ブロックを追加する"
+
+#. pluginname
+#: blocks/activity_modules/lang/en/block_activity_modules.php:2
+msgctxt ""
+"blocks/activity_modules/lang/en/block_activity_modules.php:pluginname"
+msgid "Activities"
+msgstr "活動"
+
+#. admin_bookmarks:addinstance
+#: blocks/admin_bookmarks/lang/en/block_admin_bookmarks.php:1
+msgctxt ""
+"blocks/admin_bookmarks/lang/en/block_admin_bookmarks.php:admin_bookmarks:addinstance"
+msgid "Add a new admin bookmarks block"
+msgstr "新しい管理ブックマークブロックを追加する"
+
+#. admin_bookmarks:myaddinstance
+#: blocks/admin_bookmarks/lang/en/block_admin_bookmarks.php:2
+msgctxt ""
+"blocks/admin_bookmarks/lang/en/block_admin_bookmarks.php:admin_bookmarks:myaddinstance"
+msgid "Add a new admin bookmarks block to My home"
+msgstr "新しい管理ブックマークブロックをマイホームに追加する"
+
+#. pluginname
+#: blocks/admin_bookmarks/lang/en/block_admin_bookmarks.php:3
+msgctxt "blocks/admin_bookmarks/lang/en/block_admin_bookmarks.php:pluginname"
+msgid "Admin bookmarks"
+msgstr "ブックマーク管理"
+
+#. badges:addinstance
+#: blocks/badges/lang/en/block_badges.php:1
+msgctxt "blocks/badges/lang/en/block_badges.php:badges:addinstance"
+msgid "Add a new My latest badges block"
+msgstr "新しいマイ最新バッジブロックを追加する"
+
+#. badges:myaddinstance
+#: blocks/badges/lang/en/block_badges.php:2
+msgctxt "blocks/badges/lang/en/block_badges.php:badges:myaddinstance"
+msgid "Add a new My latest badges block to My home"
+msgstr "新しいマイ最新バッジブロックをマイホームに追加する"
+
+#. nothingtodisplay
+#: blocks/badges/lang/en/block_badges.php:3
+msgctxt "blocks/badges/lang/en/block_badges.php:nothingtodisplay"
+msgid "You have no badges to display"
+msgstr "あなたには表示するバッジがありません。"
+
+#. numbadgestodisplay
+#: blocks/badges/lang/en/block_badges.php:4
+msgctxt "blocks/badges/lang/en/block_badges.php:numbadgestodisplay"
+msgid "Number of latest badges to display"
+msgstr "最新バッジの表示数"
+
+#. pluginname
+#: blocks/badges/lang/en/block_badges.php:5
+msgctxt "blocks/badges/lang/en/block_badges.php:pluginname"
+msgid "My latest badges"
+msgstr "マイ最新バッジ"
+
+#. blog_menu:addinstance
+#: blocks/blog_menu/lang/en/block_blog_menu.php:1
+msgctxt "blocks/blog_menu/lang/en/block_blog_menu.php:blog_menu:addinstance"
+msgid "Add a new blog menu block"
+msgstr "新しいブログメニューブロックを追加する"
+
+#. pluginname
+#: blocks/blog_menu/lang/en/block_blog_menu.php:2
+msgctxt "blocks/blog_menu/lang/en/block_blog_menu.php:pluginname"
+msgid "Blog menu"
+msgstr "ブログメニュー"
+
+#. blog_recent:addinstance
+#: blocks/blog_recent/lang/en/block_blog_recent.php:1
+msgctxt ""
+"blocks/blog_recent/lang/en/block_blog_recent.php:blog_recent:addinstance"
+msgid "Add a new recent blog entries block"
+msgstr "新しい最近のブログエントリブロックを追加する"
+
+#. norecentblogentries
+#: blocks/blog_recent/lang/en/block_blog_recent.php:2
+msgctxt "blocks/blog_recent/lang/en/block_blog_recent.php:norecentblogentries"
+msgid "No recent entries"
+msgstr "最近のエントリはありません。"
+
+#. numentriestodisplay
+#: blocks/blog_recent/lang/en/block_blog_recent.php:3
+msgctxt "blocks/blog_recent/lang/en/block_blog_recent.php:numentriestodisplay"
+msgid "Number of recent entries to display"
+msgstr "表示する最近のエントリ数"
+
+#. pluginname
+#: blocks/blog_recent/lang/en/block_blog_recent.php:4
+msgctxt "blocks/blog_recent/lang/en/block_blog_recent.php:pluginname"
+msgid "Recent blog entries"
+msgstr "最近のブログエントリ"
+
+#. recentinterval
+#: blocks/blog_recent/lang/en/block_blog_recent.php:5
+msgctxt "blocks/blog_recent/lang/en/block_blog_recent.php:recentinterval"
+msgid "Interval of time considered \"recent\""
+msgstr "「最近」とみなされる時間間隔"
+
+#. blog_tags:addinstance
+#: blocks/blog_tags/lang/en/block_blog_tags.php:1
+msgctxt "blocks/blog_tags/lang/en/block_blog_tags.php:blog_tags:addinstance"
+msgid "Add a new blog tags block"
+msgstr "新しいブログタグブロックを追加する"
+
+#. pluginname
+#: blocks/blog_tags/lang/en/block_blog_tags.php:2
+msgctxt "blocks/blog_tags/lang/en/block_blog_tags.php:pluginname"
+msgid "Blog tags"
+msgstr "ブログタグ"
+
+#. calendar_month:addinstance
+#: blocks/calendar_month/lang/en/block_calendar_month.php:1
+msgctxt ""
+"blocks/calendar_month/lang/en/block_calendar_month.php:calendar_month:addinstance"
+msgid "Add a new calendar block"
+msgstr "新しいカレンダーブロックを追加する"
+
+#. calendar_month:myaddinstance
+#: blocks/calendar_month/lang/en/block_calendar_month.php:2
+msgctxt ""
+"blocks/calendar_month/lang/en/block_calendar_month.php:calendar_month:myaddinstance"
+msgid "Add a new calendar block to My home"
+msgstr "新しいカレンダーブロックをマイホームに追加する"
+
+#. pluginname
+#: blocks/calendar_month/lang/en/block_calendar_month.php:3
+msgctxt "blocks/calendar_month/lang/en/block_calendar_month.php:pluginname"
+msgid "Calendar"
+msgstr "カレンダー"
+
+#. calendar_upcoming:addinstance
+#: blocks/calendar_upcoming/lang/en/block_calendar_upcoming.php:1
+msgctxt ""
+"blocks/calendar_upcoming/lang/en/block_calendar_upcoming.php:calendar_upcoming:addinstance"
+msgid "Add a new upcoming events block"
+msgstr "新しい直近イベントブロックを追加する"
+
+#. calendar_upcoming:myaddinstance
+#: blocks/calendar_upcoming/lang/en/block_calendar_upcoming.php:2
+msgctxt ""
+"blocks/calendar_upcoming/lang/en/block_calendar_upcoming.php:calendar_upcoming:myaddinstance"
+msgid "Add a new upcoming events block to My home"
+msgstr "新しい直近イベントブロックをマイホームに追加する"
+
+#. pluginname
+#: blocks/calendar_upcoming/lang/en/block_calendar_upcoming.php:3
+msgctxt ""
+"blocks/calendar_upcoming/lang/en/block_calendar_upcoming.php:pluginname"
+msgid "Upcoming events"
+msgstr "直近イベント"
+
+#. comments:addinstance
+#: blocks/comments/lang/en/block_comments.php:1
+msgctxt "blocks/comments/lang/en/block_comments.php:comments:addinstance"
+msgid "Add a new comments block"
+msgstr "新しいコメントブロックを追加する"
+
+#. comments:myaddinstance
+#: blocks/comments/lang/en/block_comments.php:2
+msgctxt "blocks/comments/lang/en/block_comments.php:comments:myaddinstance"
+msgid "Add a new comments block to My home"
+msgstr "新しいコメントブロックをマイホームに追加する"
+
+#. pluginname
+#: blocks/comments/lang/en/block_comments.php:3
+msgctxt "blocks/comments/lang/en/block_comments.php:pluginname"
+msgid "Comments"
+msgstr "コメント"
+
+#. activities
+#: blocks/community/lang/en/block_community.php:1
+msgctxt "blocks/community/lang/en/block_community.php:activities"
+msgid "Activities"
+msgstr "活動"
+
+#. add
+#: blocks/community/lang/en/block_community.php:2
+msgctxt "blocks/community/lang/en/block_community.php:add"
+msgid "Add"
+msgstr "追加"
+
+#. addcommunitycourse
+#: blocks/community/lang/en/block_community.php:3
+msgctxt "blocks/community/lang/en/block_community.php:addcommunitycourse"
+msgid "Add community course"
+msgstr "コミュニティコースを追加する"
+
+#. addcourse
+#: blocks/community/lang/en/block_community.php:4
+msgctxt "blocks/community/lang/en/block_community.php:addcourse"
+msgid "Search"
+msgstr "検索"
+
+#. addedtoblock
+#: blocks/community/lang/en/block_community.php:5
+msgctxt "blocks/community/lang/en/block_community.php:addedtoblock"
+msgid "A link to this course has been added in your community finder block"
+msgstr "あなたのコミュニティファインダブロックに、このコースへのリンクが追加されました。"
+
+#. additionalcoursedesc
+#: blocks/community/lang/en/block_community.php:6
+msgctxt "blocks/community/lang/en/block_community.php:additionalcoursedesc"
+msgid ""
+"{$a->lang} Creator: {$a->creatorname} - Publisher: {$a->publishername} - "
+"Subject: {$a->subject}    - Audience: {$a->audience} - Educational level: "
+"{$a->educationallevel} - License: {$a->license}"
+msgstr "{$a->lang} 作成者: {$a->creatorname} - 公開者: {$a->publishername} - テーマ: {$a->subject} - オーディエンス: {$a->audience} - 教育レベル: {$a->educationallevel} - ライセンス: {$a->license}"
+
+#. addtocommunityblock
+#: blocks/community/lang/en/block_community.php:7
+msgctxt "blocks/community/lang/en/block_community.php:addtocommunityblock"
+msgid "Save a link to this course"
+msgstr "このコースへのリンクを保存する"
+
+#. audience
+#: blocks/community/lang/en/block_community.php:8
+msgctxt "blocks/community/lang/en/block_community.php:audience"
+msgid "Designed for"
+msgstr "対象"
+
+#. audience_help
+#: blocks/community/lang/en/block_community.php:9
+msgctxt "blocks/community/lang/en/block_community.php:audience_help"
+msgid ""
+"What kind of course are you looking for?  As well as traditional courses "
+"intended for students, you might search for communities of Educators or "
+"Moodle Administrators"
+msgstr "どのようなコースを探していますか? あなたは伝統的な学生用コースと同様に教育者コミュニティまたはMoodle管理者用コースを探すこともできます。"
+
+#. blocks
+#: blocks/community/lang/en/block_community.php:10
+msgctxt "blocks/community/lang/en/block_community.php:blocks"
+msgid "Blocks"
+msgstr "ブロック"
+
+#. cannotselecttopsubject
+#: blocks/community/lang/en/block_community.php:11
+msgctxt "blocks/community/lang/en/block_community.php:cannotselecttopsubject"
+msgid "Cannot select a top subject level"
+msgstr "トップ科目レベルを選択することはできません。"
+
+#. comments
+#: blocks/community/lang/en/block_community.php:12
+msgctxt "blocks/community/lang/en/block_community.php:comments"
+msgid "Comments ({$a})"
+msgstr "コメント ({$a})"
+
+#. community:addinstance
+#: blocks/community/lang/en/block_community.php:13
+msgctxt "blocks/community/lang/en/block_community.php:community:addinstance"
+msgid "Add a new community finder block"
+msgstr "新しいコミュニティファインダブロックを追加する"
+
+#. community:myaddinstance
+#: blocks/community/lang/en/block_community.php:14
+msgctxt "blocks/community/lang/en/block_community.php:community:myaddinstance"
+msgid "Add a new community finder block to My home"
+msgstr "新しいコミュニティファインダブロックをマイホームに追加する"
+
+#. contentinfo
+#: blocks/community/lang/en/block_community.php:15
+msgctxt "blocks/community/lang/en/block_community.php:contentinfo"
+msgid ""
+"Subject: {$a->subject} - Audience: {$a->audience} - Educational level: "
+"{$a->educationallevel}"
+msgstr "テーマ: {$a->subject} - オーディエンス: {$a->audience} - 学習レベル: {$a->educationallevel}"
+
+#. continue
+#: blocks/community/lang/en/block_community.php:16
+msgctxt "blocks/community/lang/en/block_community.php:continue"
+msgid "Continue"
+msgstr "続ける"
+
+#. contributors
+#: blocks/community/lang/en/block_community.php:17
+msgctxt "blocks/community/lang/en/block_community.php:contributors"
+msgid "- Contributors: {$a}"
+msgstr "- コントリビュータ: {$a}"
+
+#. coursedesc
+#: blocks/community/lang/en/block_community.php:18
+msgctxt "blocks/community/lang/en/block_community.php:coursedesc"
+msgid "Description"
+msgstr "説明"
+
+#. courselang
+#: blocks/community/lang/en/block_community.php:19
+msgctxt "blocks/community/lang/en/block_community.php:courselang"
+msgid "Language"
+msgstr "言語"
+
+#. coursename
+#: blocks/community/lang/en/block_community.php:20
+msgctxt "blocks/community/lang/en/block_community.php:coursename"
+msgid "Name"
+msgstr "名称"
+
+#. courses
+#: blocks/community/lang/en/block_community.php:21
+msgctxt "blocks/community/lang/en/block_community.php:courses"
+msgid "Courses"
+msgstr "コース"
+
+#. coverage
+#: blocks/community/lang/en/block_community.php:22
+msgctxt "blocks/community/lang/en/block_community.php:coverage"
+msgid "Tags: {$a}"
+msgstr "タグ: {$a}"
+
+#. donotrestore
+#: blocks/community/lang/en/block_community.php:23
+msgctxt "blocks/community/lang/en/block_community.php:donotrestore"
+msgid "No"
+msgstr "No"
+
+#. dorestore
+#: blocks/community/lang/en/block_community.php:24
+msgctxt "blocks/community/lang/en/block_community.php:dorestore"
+msgid "Yes"
+msgstr "Yes"
+
+#. download
+#: blocks/community/lang/en/block_community.php:25
+msgctxt "blocks/community/lang/en/block_community.php:download"
+msgid "Download"
+msgstr "ダウンロード"
+
+#. downloadable
+#: blocks/community/lang/en/block_community.php:26
+msgctxt "blocks/community/lang/en/block_community.php:downloadable"
+msgid "courses I can download"
+msgstr "私がダウンロードできるコース"
+
+#. downloadablecourses
+#: blocks/community/lang/en/block_community.php:27
+msgctxt "blocks/community/lang/en/block_community.php:downloadablecourses"
+msgid "Downloadable courses"
+msgstr "ダウンロード可能なコース"
+
+#. downloadconfirmed
+#: blocks/community/lang/en/block_community.php:28
+msgctxt "blocks/community/lang/en/block_community.php:downloadconfirmed"
+msgid "The backup has been saved in your private files {$a}"
+msgstr "バックアップがあなたのプライベートファイル {$a} に保存されました。"
+
+#. downloaded
+#: blocks/community/lang/en/block_community.php:29
+msgctxt "blocks/community/lang/en/block_community.php:downloaded"
+msgid "...finished."
+msgstr "... 完了しました。"
+
+#. downloadingcourse
+#: blocks/community/lang/en/block_community.php:30
+msgctxt "blocks/community/lang/en/block_community.php:downloadingcourse"
+msgid "Downloading course"
+msgstr "コースのダウンロード"
+
+#. downloadingsize
+#: blocks/community/lang/en/block_community.php:31
+msgctxt "blocks/community/lang/en/block_community.php:downloadingsize"
+msgid "Please wait the course file is downloading ({$a->total}Mb)..."
+msgstr "お待ちください、コースファイルダウンロード中です ({$a->total}Mb) ..."
+
+#. downloadtemplate
+#: blocks/community/lang/en/block_community.php:32
+msgctxt "blocks/community/lang/en/block_community.php:downloadtemplate"
+msgid "Create course from template"
+msgstr "テンプレートからコースを作成する"
+
+#. educationallevel
+#: blocks/community/lang/en/block_community.php:33
+msgctxt "blocks/community/lang/en/block_community.php:educationallevel"
+msgid "Educational level"
+msgstr "教育レベル"
+
+#. educationallevel_help
+#: blocks/community/lang/en/block_community.php:34
+msgctxt "blocks/community/lang/en/block_community.php:educationallevel_help"
+msgid ""
+"What educational level are you searching for?  In the case of communities of"
+" educators, this level describes the level they are teaching."
+msgstr "あなたはどのような教育レベルを探していますか?教育コミュニティに関して、このレベルでは教えるレベルを指します。"
+
+#. enroldownload
+#: blocks/community/lang/en/block_community.php:35
+msgctxt "blocks/community/lang/en/block_community.php:enroldownload"
+msgid "Find"
+msgstr "探す"
+
+#. enroldownload_help
+#: blocks/community/lang/en/block_community.php:36
+msgctxt "blocks/community/lang/en/block_community.php:enroldownload_help"
+msgid ""
+"Some courses listed in the selected hub are being advertised so that people can come and participate in them on the original site.\n"
+"Others are course templates provided for you to download and use on your own Moodle site."
+msgstr "選択されたハブ内に一覧表示されたいくつかのコースではユーザがオリジナルサイトにアクセスして参加することができます。\n他のコースはあなたがダウンロードして自分のMoodleサイトに使用できるテンプレートとして提供されています。"
+
+#. enrollable
+#: blocks/community/lang/en/block_community.php:37
+msgctxt "blocks/community/lang/en/block_community.php:enrollable"
+msgid "courses I can enrol in"
+msgstr "私が受講登録できるコース"
+
+#. enrollablecourses
+#: blocks/community/lang/en/block_community.php:38
+msgctxt "blocks/community/lang/en/block_community.php:enrollablecourses"
+msgid "Enrollable courses"
+msgstr "受講登録可能なコース"
+
+#. errorcourselisting
+#: blocks/community/lang/en/block_community.php:39
+msgctxt "blocks/community/lang/en/block_community.php:errorcourselisting"
+msgid ""
+"An error occurred when retrieving the course listing from the selected hub, "
+"please try again later. ({$a})"
+msgstr "選択したハブからコース一覧の検索中にエラーが発生しました。後ほど再度お試しください。 ({$a})"
+
+#. errorhublisting
+#: blocks/community/lang/en/block_community.php:40
+msgctxt "blocks/community/lang/en/block_community.php:errorhublisting"
+msgid ""
+"An error occurred when retrieving the hub listing from Moodle.org, please "
+"try again later. ({$a})"
+msgstr "Moodle.orgからハブ一覧の検索中にエラーが発生しました。後ほど再度お試しください。({$a})"
+
+#. fileinfo
+#: blocks/community/lang/en/block_community.php:41
+msgctxt "blocks/community/lang/en/block_community.php:fileinfo"
+msgid ""
+"Language: {$a->lang} - License: {$a->license} -  Time updated: "
+"{$a->timeupdated}"
+msgstr "言語: {$a->lang} - ライセンス: {$a->license} - 更新日時: {$a->timeupdated}"
+
+#. hideall
+#: blocks/community/lang/en/block_community.php:42
+msgctxt "blocks/community/lang/en/block_community.php:hideall"
+msgid "Hide hubs"
+msgstr "ハブを隠す"
+
+#. hub
+#: blocks/community/lang/en/block_community.php:43
+msgctxt "blocks/community/lang/en/block_community.php:hub"
+msgid "hub"
+msgstr "ハブ"
+
+#. hubnottrusted
+#: blocks/community/lang/en/block_community.php:44
+msgctxt "blocks/community/lang/en/block_community.php:hubnottrusted"
+msgid "Not trusted"
+msgstr "不信頼"
+
+#. hubtrusted
+#: blocks/community/lang/en/block_community.php:45
+msgctxt "blocks/community/lang/en/block_community.php:hubtrusted"
+msgid "This hub is trusted by Moodle.org"
+msgstr "このハブはMoodle.orgに信頼されています。"
+
+#. install
+#: blocks/community/lang/en/block_community.php:46
+msgctxt "blocks/community/lang/en/block_community.php:install"
+msgid "Install"
+msgstr "ダウンロード"
+
+#. keywords
+#: blocks/community/lang/en/block_community.php:47
+msgctxt "blocks/community/lang/en/block_community.php:keywords"
+msgid "Keywords"
+msgstr "キーワード"
+
+#. keywords_help
+#: blocks/community/lang/en/block_community.php:48
+msgctxt "blocks/community/lang/en/block_community.php:keywords_help"
+msgid ""
+"You can search for courses containing specific text in the name, description"
+" and other fields of the database."
+msgstr "あなたは指定したテキストをデータベース内のコース名、説明および他のフィールドに含むコースを検索することができます。"
+
+#. langdesc
+#: blocks/community/lang/en/block_community.php:49
+msgctxt "blocks/community/lang/en/block_community.php:langdesc"
+msgid "Language: {$a} -"
+msgstr "言語: {$a} -"
+
+#. language
+#: blocks/community/lang/en/block_community.php:50
+msgctxt "blocks/community/lang/en/block_community.php:language"
+msgid "Language"
+msgstr "言語"
+
+#. language_help
+#: blocks/community/lang/en/block_community.php:51
+msgctxt "blocks/community/lang/en/block_community.php:language_help"
+msgid "You can search for courses written in a specific language."
+msgstr "あなたは特定の言語で記述されたコースを検索することができます。"
+
+#. licence
+#: blocks/community/lang/en/block_community.php:52
+msgctxt "blocks/community/lang/en/block_community.php:licence"
+msgid "License"
+msgstr "ライセンス"
+
+#. licence_help
+#: blocks/community/lang/en/block_community.php:53
+msgctxt "blocks/community/lang/en/block_community.php:licence_help"
+msgid "You can search for courses that are licensed in a particular way."
+msgstr "あなたは特定の方法でライセンスされているコースを検索することができます。"
+
+#. moredetails
+#: blocks/community/lang/en/block_community.php:54
+msgctxt "blocks/community/lang/en/block_community.php:moredetails"
+msgid "More details"
+msgstr "詳細情報"
+
+#. mycommunities
+#: blocks/community/lang/en/block_community.php:55
+msgctxt "blocks/community/lang/en/block_community.php:mycommunities"
+msgid "My communities:"
+msgstr "マイコミュニティ:"
+
+#. next
+#: blocks/community/lang/en/block_community.php:56
+msgctxt "blocks/community/lang/en/block_community.php:next"
+msgid "Next >>>"
+msgstr "次へ >>>"
+
+#. nocomments
+#: blocks/community/lang/en/block_community.php:57
+msgctxt "blocks/community/lang/en/block_community.php:nocomments"
+msgid "No comments"
+msgstr "コメントはありません。"
+
+#. nocourse
+#: blocks/community/lang/en/block_community.php:58
+msgctxt "blocks/community/lang/en/block_community.php:nocourse"
+msgid "No courses found"
+msgstr "コースが見つかりませんでした。"
+
+#. noratings
+#: blocks/community/lang/en/block_community.php:59
+msgctxt "blocks/community/lang/en/block_community.php:noratings"
+msgid "No ratings"
+msgstr "評価はありません。"
+
+#. operation
+#: blocks/community/lang/en/block_community.php:60
+msgctxt "blocks/community/lang/en/block_community.php:operation"
+msgid "Operation"
+msgstr "操作"
+
+#. orderby
+#: blocks/community/lang/en/block_community.php:61
+msgctxt "blocks/community/lang/en/block_community.php:orderby"
+msgid "Sort by"
+msgstr "並べ替え"
+
+#. orderbyeldest
+#: blocks/community/lang/en/block_community.php:62
+msgctxt "blocks/community/lang/en/block_community.php:orderbyeldest"
+msgid "Oldest"
+msgstr "古い順"
+
+#. orderby_help
+#: blocks/community/lang/en/block_community.php:63
+msgctxt "blocks/community/lang/en/block_community.php:orderby_help"
+msgid "The order the search results are displayed."
+msgstr "検索結果の表示順です。"
+
+#. orderbyname
+#: blocks/community/lang/en/block_community.php:64
+msgctxt "blocks/community/lang/en/block_community.php:orderbyname"
+msgid "Name"
+msgstr "コース名順"
+
+#. orderbynewest
+#: blocks/community/lang/en/block_community.php:65
+msgctxt "blocks/community/lang/en/block_community.php:orderbynewest"
+msgid "Newest"
+msgstr "新しい順"
+
+#. orderbypublisher
+#: blocks/community/lang/en/block_community.php:66
+msgctxt "blocks/community/lang/en/block_community.php:orderbypublisher"
+msgid "Publisher"
+msgstr "公開者順"
+
+#. orderbyratingaverage
+#: blocks/community/lang/en/block_community.php:67
+msgctxt "blocks/community/lang/en/block_community.php:orderbyratingaverage"
+msgid "Rating"
+msgstr "評価"
+
+#. outcomes
+#: blocks/community/lang/en/block_community.php:68
+msgctxt "blocks/community/lang/en/block_community.php:outcomes"
+msgid "Outcomes: {$a}"
+msgstr "アウトカム: {$a}"
+
+#. pluginname
+#: blocks/community/lang/en/block_community.php:69
+msgctxt "blocks/community/lang/en/block_community.php:pluginname"
+msgid "Community finder"
+msgstr "コミュニティファインダ"
+
+#. rateandcomment
+#: blocks/community/lang/en/block_community.php:70
+msgctxt "blocks/community/lang/en/block_community.php:rateandcomment"
+msgid "Rate and comment"
+msgstr "評価およびコメント"
+
+#. rating
+#: blocks/community/lang/en/block_community.php:71
+msgctxt "blocks/community/lang/en/block_community.php:rating"
+msgid "Rating"
+msgstr "評価"
+
+#. removecommunitycourse
+#: blocks/community/lang/en/block_community.php:72
+msgctxt "blocks/community/lang/en/block_community.php:removecommunitycourse"
+msgid "Remove community course"
+msgstr "コミュニティコースを削除する"
+
+#. restorecourse
+#: blocks/community/lang/en/block_community.php:73
+msgctxt "blocks/community/lang/en/block_community.php:restorecourse"
+msgid "Restore course"
+msgstr "コースをリストアする"
+
+#. restorecourseinfo
+#: blocks/community/lang/en/block_community.php:74
+msgctxt "blocks/community/lang/en/block_community.php:restorecourseinfo"
+msgid "Restore the course?"
+msgstr "コースをリストアしますか?"
+
+#. screenshots
+#: blocks/community/lang/en/block_community.php:75
+msgctxt "blocks/community/lang/en/block_community.php:screenshots"
+msgid "Screenshots"
+msgstr "スクリーンショット"
+
+#. search
+#: blocks/community/lang/en/block_community.php:76
+msgctxt "blocks/community/lang/en/block_community.php:search"
+msgid "Search"
+msgstr "検索"
+
+#. searchcommunitycourse
+#: blocks/community/lang/en/block_community.php:77
+msgctxt "blocks/community/lang/en/block_community.php:searchcommunitycourse"
+msgid "Search for community course"
+msgstr "コミュニティコースを検索する"
+
+#. searchcourse
+#: blocks/community/lang/en/block_community.php:78
+msgctxt "blocks/community/lang/en/block_community.php:searchcourse"
+msgid "Search for community course"
+msgstr "コミュニティコースを検索する"
+
+#. selecthub
+#: blocks/community/lang/en/block_community.php:79
+msgctxt "blocks/community/lang/en/block_community.php:selecthub"
+msgid "Select hub"
+msgstr "ハブを選択する"
+
+#. selecthub_help
+#: blocks/community/lang/en/block_community.php:80
+msgctxt "blocks/community/lang/en/block_community.php:selecthub_help"
+msgid "Select hub where to search the courses."
+msgstr "コースを検索するためのハブを選択します。"
+
+#. showall
+#: blocks/community/lang/en/block_community.php:81
+msgctxt "blocks/community/lang/en/block_community.php:showall"
+msgid "Show all hubs"
+msgstr "すべてのハブを表示する"
+
+#. sites
+#: blocks/community/lang/en/block_community.php:82
+msgctxt "blocks/community/lang/en/block_community.php:sites"
+msgid "Sites"
+msgstr "サイト"
+
+#. subject
+#: blocks/community/lang/en/block_community.php:83
+msgctxt "blocks/community/lang/en/block_community.php:subject"
+msgid "Subject"
+msgstr "テーマ"
+
+#. subject_help
+#: blocks/community/lang/en/block_community.php:84
+msgctxt "blocks/community/lang/en/block_community.php:subject_help"
+msgid ""
+"To narrow your search to courses about a particular subject, choose one from"
+" this list."
+msgstr "特定のテーマに関するあなたのコース検索の幅を狭めたい場合、このリストから選択してください。"
+
+#. userinfo
+#: blocks/community/lang/en/block_community.php:85
+msgctxt "blocks/community/lang/en/block_community.php:userinfo"
+msgid "Creator: {$a->creatorname} - Publisher: {$a->publishername}"
+msgstr "作成者: {$a->creatorname} - 公開者: {$a->publishername}"
+
+#. visitdemo
+#: blocks/community/lang/en/block_community.php:86
+msgctxt "blocks/community/lang/en/block_community.php:visitdemo"
+msgid "Visit demo"
+msgstr "デモにアクセスする"
+
+#. visitsite
+#: blocks/community/lang/en/block_community.php:87
+msgctxt "blocks/community/lang/en/block_community.php:visitsite"
+msgid "Visit site"
+msgstr "サイトにアクセスする"
+
+#. completionprogressdetails
+#: blocks/completionstatus/lang/en/block_completionstatus.php:1
+msgctxt ""
+"blocks/completionstatus/lang/en/block_completionstatus.php:completionprogressdetails"
+msgid "Completion progress details"
+msgstr "完了進捗詳細"
+
+#. completionstatus:addinstance
+#: blocks/completionstatus/lang/en/block_completionstatus.php:2
+msgctxt ""
+"blocks/completionstatus/lang/en/block_completionstatus.php:completionstatus:addinstance"
+msgid "Add a new course completion status block"
+msgstr "新しいコース完了ステータスブロックを追加する"
+
+#. criteriagroup
+#: blocks/completionstatus/lang/en/block_completionstatus.php:3
+msgctxt ""
+"blocks/completionstatus/lang/en/block_completionstatus.php:criteriagroup"
+msgid "Criteria group"
+msgstr "クライテリアグループ"
+
+#. firstofsecond
+#: blocks/completionstatus/lang/en/block_completionstatus.php:4
+msgctxt ""
+"blocks/completionstatus/lang/en/block_completionstatus.php:firstofsecond"
+msgid "{$a->first} of {$a->second}"
+msgstr "{$a->first} / {$a->second}"
+
+#. pluginname
+#: blocks/completionstatus/lang/en/block_completionstatus.php:5
+msgctxt ""
+"blocks/completionstatus/lang/en/block_completionstatus.php:pluginname"
+msgid "Course completion status"
+msgstr "コース完了ステータス"
+
+#. requirement
+#: blocks/completionstatus/lang/en/block_completionstatus.php:6
+msgctxt ""
+"blocks/completionstatus/lang/en/block_completionstatus.php:requirement"
+msgid "Requirement"
+msgstr "前提条件"
+
+#. returntocourse
+#: blocks/completionstatus/lang/en/block_completionstatus.php:7
+msgctxt ""
+"blocks/completionstatus/lang/en/block_completionstatus.php:returntocourse"
+msgid "Return to course"
+msgstr "コースに戻る"
+
+#. adminview
+#: blocks/course_list/lang/en/block_course_list.php:1
+msgctxt "blocks/course_list/lang/en/block_course_list.php:adminview"
+msgid "Admin view"
+msgstr "管理者ビュー"
+
+#. allcourses
+#: blocks/course_list/lang/en/block_course_list.php:2
+msgctxt "blocks/course_list/lang/en/block_course_list.php:allcourses"
+msgid "Admin user sees all courses"
+msgstr "管理者はすべてのコースを閲覧可"
+
+#. configadminview
+#: blocks/course_list/lang/en/block_course_list.php:3
+msgctxt "blocks/course_list/lang/en/block_course_list.php:configadminview"
+msgid "What should the admin see in the course list block?"
+msgstr "コース一覧ブロックで管理者に何を表示しますか?"
+
+#. confighideallcourseslink
+#: blocks/course_list/lang/en/block_course_list.php:4
+msgctxt ""
+"blocks/course_list/lang/en/block_course_list.php:confighideallcourseslink"
+msgid ""
+"Remove the 'All courses' link under the list of courses. (This setting does "
+"not affect the admin view.)"
+msgstr "コース一覧下部の「すべてのコース」リンクを削除します (この設定は管理表示に影響しません)。"
+
+#. course_list:addinstance
+#: blocks/course_list/lang/en/block_course_list.php:5
+msgctxt ""
+"blocks/course_list/lang/en/block_course_list.php:course_list:addinstance"
+msgid "Add a new courses block"
+msgstr "新しいコースブロックを追加する"
+
+#. course_list:myaddinstance
+#: blocks/course_list/lang/en/block_course_list.php:6
+msgctxt ""
+"blocks/course_list/lang/en/block_course_list.php:course_list:myaddinstance"
+msgid "Add a new courses block to My home"
+msgstr "新しいコースブロックをマイホームに追加する"
+
+#. hideallcourseslink
+#: blocks/course_list/lang/en/block_course_list.php:7
+msgctxt "blocks/course_list/lang/en/block_course_list.php:hideallcourseslink"
+msgid "Hide 'All courses' link"
+msgstr "「すべてのコースリンク」を隠す"
+
+#. owncourses
+#: blocks/course_list/lang/en/block_course_list.php:8
+msgctxt "blocks/course_list/lang/en/block_course_list.php:owncourses"
+msgid "Admin user sees own courses"
+msgstr "管理者は自分のコースのみ閲覧可"
+
+#. pluginname
+#: blocks/course_list/lang/en/block_course_list.php:9
+msgctxt "blocks/course_list/lang/en/block_course_list.php:pluginname"
+msgid "Courses"
+msgstr "コース"
+
+#. activityoverview
+#: blocks/course_overview/lang/en/block_course_overview.php:1
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:activityoverview"
+msgid "You have {$a}s that need attention"
+msgstr "あなたには注意が必要な {$a} があります。"
+
+#. alwaysshowall
+#: blocks/course_overview/lang/en/block_course_overview.php:2
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:alwaysshowall"
+msgid "Always show all"
+msgstr "常にすべてを表示する"
+
+#. collapseall
+#: blocks/course_overview/lang/en/block_course_overview.php:3
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:collapseall"
+msgid "Collapse all course lists"
+msgstr "すべてのコース一覧を折りたたむ"
+
+#. configotherexpanded
+#: blocks/course_overview/lang/en/block_course_overview.php:4
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:configotherexpanded"
+msgid ""
+"If enabled, other courses will be expanded by default unless overriden by "
+"user preferences."
+msgstr "この設定を有効にした場合、ユーザがプリファレンスでオーバーライドしない限り、他のコースはデフォルトで展開されます。"
+
+#. configpreservestates
+#: blocks/course_overview/lang/en/block_course_overview.php:5
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:configpreservestates"
+msgid ""
+"If enabled, the collapsed/expanded states set by the user are stored and "
+"used on each load."
+msgstr "この設定を有効にした場合、ユーザによって設定された「折りたたむ/展開する」設定が保存され、それぞれの読み込みに使用されます。"
+
+#. course_overview:addinstance
+#: blocks/course_overview/lang/en/block_course_overview.php:6
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:course_overview:addinstance"
+msgid "Add a new course overview block"
+msgstr "新しいコース概要ブロックを追加する"
+
+#. course_overview:myaddinstance
+#: blocks/course_overview/lang/en/block_course_overview.php:7
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:course_overview:myaddinstance"
+msgid "Add a new course overview block to My home"
+msgstr "新しいコース概要ブロックをマイホームに追加する"
+
+#. defaultmaxcourses
+#: blocks/course_overview/lang/en/block_course_overview.php:8
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:defaultmaxcourses"
+msgid "Default maximum courses"
+msgstr "デフォルト最大コース数"
+
+#. defaultmaxcoursesdesc
+#: blocks/course_overview/lang/en/block_course_overview.php:9
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:defaultmaxcoursesdesc"
+msgid ""
+"Maximum courses which should be displayed on course overview block, 0 will "
+"show all courses"
+msgstr "コース概要ブロックに表示される最大コース数です。ゼロを設定した場合、すべてのコースが表示されます。"
+
+#. expandall
+#: blocks/course_overview/lang/en/block_course_overview.php:10
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:expandall"
+msgid "Expand all course lists"
+msgstr "すべてのコース一覧を展開する"
+
+#. forcedefaultmaxcourses
+#: blocks/course_overview/lang/en/block_course_overview.php:11
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:forcedefaultmaxcourses"
+msgid "Force maximum courses"
+msgstr "最大コース数を強制する"
+
+#. forcedefaultmaxcoursesdesc
+#: blocks/course_overview/lang/en/block_course_overview.php:12
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:forcedefaultmaxcoursesdesc"
+msgid "If set then user will not be able to change his/her personal setting"
+msgstr "この設定を有効にした場合、ユーザは個人設定を変更することはできません。"
+
+#. hiddencoursecount
+#: blocks/course_overview/lang/en/block_course_overview.php:13
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:hiddencoursecount"
+msgid "You have {$a} hidden course"
+msgstr "あなたには {$a} 件の非表示コースがあります。"
+
+#. hiddencoursecountplural
+#: blocks/course_overview/lang/en/block_course_overview.php:14
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:hiddencoursecountplural"
+msgid "You have {$a} hidden courses"
+msgstr "あなたには {$a} 件の非表示コースがあります。"
+
+#. hiddencoursecountwithshowall
+#: blocks/course_overview/lang/en/block_course_overview.php:15
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:hiddencoursecountwithshowall"
+msgid "You have {$a->coursecount} hidden course ({$a->showalllink})"
+msgstr "あなたには {$a->coursecount} 件の非表示コースがあります ({$a->showalllink})。"
+
+#. hiddencoursecountwithshowallplural
+#: blocks/course_overview/lang/en/block_course_overview.php:16
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:hiddencoursecountwithshowallplural"
+msgid "You have {$a->coursecount} hidden courses ({$a->showalllink})"
+msgstr "あなたには {$a->coursecount} 件の非表示コースがあります ({$a->showalllink})。"
+
+#. message
+#: blocks/course_overview/lang/en/block_course_overview.php:17
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:message"
+msgid "message"
+msgstr "メッセージ"
+
+#. messages
+#: blocks/course_overview/lang/en/block_course_overview.php:18
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:messages"
+msgid "messages"
+msgstr "メッセージ"
+
+#. moveafterhere
+#: blocks/course_overview/lang/en/block_course_overview.php:19
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:moveafterhere"
+msgid "Move {$a->movingcoursename} course after {$a->currentcoursename}"
+msgstr "{$a->movingcoursename} コースを {$a->currentcoursename} の下に移動する"
+
+#. movecourse
+#: blocks/course_overview/lang/en/block_course_overview.php:20
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:movecourse"
+msgid "Move course: {$a}"
+msgstr "コースを移動する: {$a}"
+
+#. movecoursehere
+#: blocks/course_overview/lang/en/block_course_overview.php:21
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:movecoursehere"
+msgid "Move course here"
+msgstr "ここにコースを移動する"
+
+#. movetofirst
+#: blocks/course_overview/lang/en/block_course_overview.php:22
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:movetofirst"
+msgid "Move {$a} course to top"
+msgstr "{$a} コースをトップに移動する"
+
+#. movingcourse
+#: blocks/course_overview/lang/en/block_course_overview.php:23
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:movingcourse"
+msgid "You are moving: {$a->fullname} ({$a->cancellink})"
+msgstr "あなたは次を移動しています: {$a->fullname} ({$a->cancellink})"
+
+#. numtodisplay
+#: blocks/course_overview/lang/en/block_course_overview.php:24
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:numtodisplay"
+msgid "Number of courses to display:"
+msgstr "表示するコース数:"
+
+#. otherexpanded
+#: blocks/course_overview/lang/en/block_course_overview.php:25
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:otherexpanded"
+msgid "Other courses expanded"
+msgstr "他のコースを展開する"
+
+#. pluginname
+#: blocks/course_overview/lang/en/block_course_overview.php:26
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:pluginname"
+msgid "Course overview"
+msgstr "コース概要"
+
+#. preservestates
+#: blocks/course_overview/lang/en/block_course_overview.php:27
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:preservestates"
+msgid "Preserve expanded states"
+msgstr "展開された状態を保持する"
+
+#. shortnameprefix
+#: blocks/course_overview/lang/en/block_course_overview.php:28
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:shortnameprefix"
+msgid "Includes {$a}"
+msgstr "{$a} を含む"
+
+#. shortnamesufixprural
+#: blocks/course_overview/lang/en/block_course_overview.php:29
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:shortnamesufixprural"
+msgid "(and {$a} others)"
+msgstr "(および他の活動 {$a} 件)"
+
+#. shortnamesufixsingular
+#: blocks/course_overview/lang/en/block_course_overview.php:30
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:shortnamesufixsingular"
+msgid "(and {$a} other)"
+msgstr "(および他の活動 {$a} 件)"
+
+#. showchildren
+#: blocks/course_overview/lang/en/block_course_overview.php:31
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:showchildren"
+msgid "Show children"
+msgstr "子を表示する"
+
+#. showchildrendesc
+#: blocks/course_overview/lang/en/block_course_overview.php:32
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:showchildrendesc"
+msgid "Should child courses be listed underneath the main course title?"
+msgstr "メインコースタイトルの下に子コースを一覧表示しますか?"
+
+#. showwelcomearea
+#: blocks/course_overview/lang/en/block_course_overview.php:33
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:showwelcomearea"
+msgid "Show welcome area"
+msgstr "ウェルカムエリアを表示する"
+
+#. showwelcomeareadesc
+#: blocks/course_overview/lang/en/block_course_overview.php:34
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:showwelcomeareadesc"
+msgid "Show the welcome area above the course list?"
+msgstr "コース一覧の上にウェルカムエリアを表示しますか?"
+
+#. view_edit_profile
+#: blocks/course_overview/lang/en/block_course_overview.php:35
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:view_edit_profile"
+msgid "(View and edit your profile.)"
+msgstr "(あなたのプロファイルを表示および編集します)"
+
+#. welcome
+#: blocks/course_overview/lang/en/block_course_overview.php:36
+msgctxt "blocks/course_overview/lang/en/block_course_overview.php:welcome"
+msgid "Welcome {$a}"
+msgstr "ようこそ {$a} さん"
+
+#. youhavemessages
+#: blocks/course_overview/lang/en/block_course_overview.php:37
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:youhavemessages"
+msgid "You have {$a} unread"
+msgstr "あなたには {$a} 件の未読があります。"
+
+#. youhavenomessages
+#: blocks/course_overview/lang/en/block_course_overview.php:38
+msgctxt ""
+"blocks/course_overview/lang/en/block_course_overview.php:youhavenomessages"
+msgid "You have no unread"
+msgstr "あなたには未読はありません。"
+
+#. coursesummary
+#: blocks/course_summary/lang/en/block_course_summary.php:1
+msgctxt "blocks/course_summary/lang/en/block_course_summary.php:coursesummary"
+msgid "Course summary"
+msgstr "コース概要"
+
+#. course_summary:addinstance
+#: blocks/course_summary/lang/en/block_course_summary.php:2
+msgctxt ""
+"blocks/course_summary/lang/en/block_course_summary.php:course_summary:addinstance"
+msgid "Add a new course/site summary block"
+msgstr "新しいコース/サイト概要ブロックを追加する"
+
+#. pluginname
+#: blocks/course_summary/lang/en/block_course_summary.php:3
+msgctxt "blocks/course_summary/lang/en/block_course_summary.php:pluginname"
+msgid "Course/site summary"
+msgstr "コース/サイト概要"
+
+#. feedback
+#: blocks/feedback/lang/en/block_feedback.php:1
+msgctxt "blocks/feedback/lang/en/block_feedback.php:feedback"
+msgid "Feedback"
+msgstr "フィードバック"
+
+#. feedback:addinstance
+#: blocks/feedback/lang/en/block_feedback.php:2
+msgctxt "blocks/feedback/lang/en/block_feedback.php:feedback:addinstance"
+msgid "Add a new feedback block"
+msgstr "新しいフィードバックを追加する"
+
+#. missing_feedback_module
+#: blocks/feedback/lang/en/block_feedback.php:3
+msgctxt "blocks/feedback/lang/en/block_feedback.php:missing_feedback_module"
+msgid ""
+"This blocks relies on the Feedback activity module, but that module is not "
+"present!"
+msgstr "このブロックはフィードバック活動モジュールに依存します。しかし、フィードバック活動モジュールがありません!"
+
+#. pluginname
+#: blocks/feedback/lang/en/block_feedback.php:4
+msgctxt "blocks/feedback/lang/en/block_feedback.php:pluginname"
+msgid "Feedback"
+msgstr "フィードバック"
+
+#. addentry
+#: blocks/glossary_random/lang/en/block_glossary_random.php:1
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:addentry"
+msgid "Add a new entry"
+msgstr "新しいエントリを追加する"
+
+#. askaddentry
+#: blocks/glossary_random/lang/en/block_glossary_random.php:2
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:askaddentry"
+msgid "When users can add entries to the glossary, show a link with this text"
+msgstr "学生が用語集にエントリを追加できる場合、用語集へのリンクが次のテキストとともに表示されます"
+
+#. askinvisible
+#: blocks/glossary_random/lang/en/block_glossary_random.php:3
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:askinvisible"
+msgid ""
+"When users cannot edit or view the glossary, show this text (without link)"
+msgstr "オリジナル用語集を学生から隠したい場合、リンクが表示される代わりに次のテキストが表示されます"
+
+#. askviewglossary
+#: blocks/glossary_random/lang/en/block_glossary_random.php:4
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:askviewglossary"
+msgid ""
+"When users can view the glossary but not add entries, show a link with this "
+"text"
+msgstr "学生が用語集の閲覧のみを許可されている場合、用語集へのリンクが次のテキストとともに表示されます"
+
+#. glossary_random:addinstance
+#: blocks/glossary_random/lang/en/block_glossary_random.php:5
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:glossary_random:addinstance"
+msgid "Add a new random glossary entry block"
+msgstr "新しいランダム用語集エントリブロックを追加する"
+
+#. glossary_random:myaddinstance
+#: blocks/glossary_random/lang/en/block_glossary_random.php:6
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:glossary_random:myaddinstance"
+msgid "Add a new random glossary entry block to My home"
+msgstr "マイホームに新しいランダム用語集エントリブロックを追加する"
+
+#. intro
+#: blocks/glossary_random/lang/en/block_glossary_random.php:7
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:intro"
+msgid ""
+"Make sure you have at least one glossary with at least one entry added to "
+"this course. Then you can adjust the following settings"
+msgstr "少なくとも1つ以上のエントリが登録されている用語集がコースに追加される必要があります。"
+
+#. invisible
+#: blocks/glossary_random/lang/en/block_glossary_random.php:8
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:invisible"
+msgid "(to be continued)"
+msgstr "(続く)"
+
+#. lastmodified
+#: blocks/glossary_random/lang/en/block_glossary_random.php:9
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:lastmodified"
+msgid "Last modified entry"
+msgstr "最新の更新"
+
+#. nextalpha
+#: blocks/glossary_random/lang/en/block_glossary_random.php:10
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:nextalpha"
+msgid "Alphabetical order"
+msgstr "アルファベット順"
+
+#. nextone
+#: blocks/glossary_random/lang/en/block_glossary_random.php:11
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:nextone"
+msgid "Next entry"
+msgstr "順次"
+
+#. noentriesyet
+#: blocks/glossary_random/lang/en/block_glossary_random.php:12
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:noentriesyet"
+msgid "There are no entries yet in the chosen glossary."
+msgstr "選択された用語集には、エントリが登録されていません。"
+
+#. notyetconfigured
+#: blocks/glossary_random/lang/en/block_glossary_random.php:13
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:notyetconfigured"
+msgid "Please configure this block using the edit icon."
+msgstr "編集アイコンをクリックして、ブロックを設定してください。"
+
+#. notyetglossary
+#: blocks/glossary_random/lang/en/block_glossary_random.php:14
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:notyetglossary"
+msgid "You need to have at least one glossary to choose."
+msgstr "少なくとも1つの用語集を選択してください。"
+
+#. pluginname
+#: blocks/glossary_random/lang/en/block_glossary_random.php:15
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:pluginname"
+msgid "Random glossary entry"
+msgstr "ランダム用語集エントリ"
+
+#. random
+#: blocks/glossary_random/lang/en/block_glossary_random.php:16
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:random"
+msgid "Random entry"
+msgstr "ランダム"
+
+#. refresh
+#: blocks/glossary_random/lang/en/block_glossary_random.php:17
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:refresh"
+msgid "Days before a new entry is chosen"
+msgstr "新しいエントリとみなされる日数"
+
+#. select_glossary
+#: blocks/glossary_random/lang/en/block_glossary_random.php:18
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:select_glossary"
+msgid "Take entries from this glossary"
+msgstr "この用語集からエントリを取得する"
+
+#. showconcept
+#: blocks/glossary_random/lang/en/block_glossary_random.php:19
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:showconcept"
+msgid "Show concept (heading) for each entry"
+msgstr "各エントリに用語 (ヘッダ) を表示する"
+
+#. title
+#: blocks/glossary_random/lang/en/block_glossary_random.php:20
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:title"
+msgid "Title"
+msgstr "タイトル"
+
+#. type
+#: blocks/glossary_random/lang/en/block_glossary_random.php:21
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:type"
+msgid "How a new entry is chosen"
+msgstr "ランダムエントリの取得方法"
+
+#. viewglossary
+#: blocks/glossary_random/lang/en/block_glossary_random.php:22
+msgctxt ""
+"blocks/glossary_random/lang/en/block_glossary_random.php:viewglossary"
+msgid "View all entries"
+msgstr "すべてのエントリを表示する"
+
+#. whichfooter
+#: blocks/glossary_random/lang/en/block_glossary_random.php:23
+msgctxt "blocks/glossary_random/lang/en/block_glossary_random.php:whichfooter"
+msgid ""
+"You can display links to actions of the glossary this block is associated "
+"with. The block will only display links to actions which are enabled for "
+"that glossary."
+msgstr "あなたは、このブロックに関連する用語集操作のリンクを表示することができます。用語集で許可されている場合のみ、ブロックがリンクを表示します。"
+
+#. allowadditionalcssclasses
+#: blocks/html/lang/en/block_html.php:1
+msgctxt "blocks/html/lang/en/block_html.php:allowadditionalcssclasses"
+msgid "Allow additional CSS classes"
+msgstr "追加CSSクラスを許可する"
+
+#. configallowadditionalcssclasses
+#: blocks/html/lang/en/block_html.php:2
+msgctxt "blocks/html/lang/en/block_html.php:configallowadditionalcssclasses"
+msgid ""
+"Adds a configuration option to HTML block instances allowing additional CSS "
+"classes to be set."
+msgstr "追加CSSクラスを設定できるよう、HTMLブロックインスタンスに設定オプションを追加します。"
+
+#. configclasses
+#: blocks/html/lang/en/block_html.php:3
+msgctxt "blocks/html/lang/en/block_html.php:configclasses"
+msgid "Additional CSS classes"
+msgstr "追加CSSクラス"
+
+#. configclasses_help
+#: blocks/html/lang/en/block_html.php:4
+msgctxt "blocks/html/lang/en/block_html.php:configclasses_help"
+msgid ""
+"The purpose of this configuration is to aid with theming by helping "
+"distinguish HTML blocks from each other. Any CSS classes entered here (space"
+" delimited) will be appended to the block's default classes."
+msgstr "この設定の目的はHTMLブロックの相互識別の補助によるテーマ作成の支援にあります。ここで入力されたCSSクラス (スペース区切り) はブロックのデフォルトクラスに付加されます。"
+
+#. configcontent
+#: blocks/html/lang/en/block_html.php:5
+msgctxt "blocks/html/lang/en/block_html.php:configcontent"
+msgid "Content"
+msgstr "コンテンツ"
+
+#. configtitle
+#: blocks/html/lang/en/block_html.php:6
+msgctxt "blocks/html/lang/en/block_html.php:configtitle"
+msgid "Block title"
+msgstr "ブロックタイトル"
+
+#. html:addinstance
+#: blocks/html/lang/en/block_html.php:7
+msgctxt "blocks/html/lang/en/block_html.php:html:addinstance"
+msgid "Add a new HTML block"
+msgstr "新しいHTMLブロックを追加する"
+
+#. html:myaddinstance
+#: blocks/html/lang/en/block_html.php:8
+msgctxt "blocks/html/lang/en/block_html.php:html:myaddinstance"
+msgid "Add a new HTML block to My home"
+msgstr "新しいHTMLブロックをマイホームに追加する"
+
+#. leaveblanktohide
+#: blocks/html/lang/en/block_html.php:9
+msgctxt "blocks/html/lang/en/block_html.php:leaveblanktohide"
+msgid "leave blank to hide the title"
+msgstr "空白でタイトルを非表示"
+
+#. newhtmlblock
+#: blocks/html/lang/en/block_html.php:10
+msgctxt "blocks/html/lang/en/block_html.php:newhtmlblock"
+msgid "(new HTML block)"
+msgstr "(新しいHTMLブロック)"
+
+#. pluginname
+#: blocks/html/lang/en/block_html.php:11
+msgctxt "blocks/html/lang/en/block_html.php:pluginname"
+msgid "HTML"
+msgstr "HTML"
+
+#. login:addinstance
+#: blocks/login/lang/en/block_login.php:1
+msgctxt "blocks/login/lang/en/block_login.php:login:addinstance"
+msgid "Add a new login block"
+msgstr "新しいログインブロックを追加する"
+
+#. pluginname
+#: blocks/login/lang/en/block_login.php:2
+msgctxt "blocks/login/lang/en/block_login.php:pluginname"
+msgid "Login"
+msgstr "ログイン"
+
+#. configtitle
+#: blocks/mentees/lang/en/block_mentees.php:1
+msgctxt "blocks/mentees/lang/en/block_mentees.php:configtitle"
+msgid "Block title"
+msgstr "ブロックタイトル"
+
+#. configtitleblankhides
+#: blocks/mentees/lang/en/block_mentees.php:2
+msgctxt "blocks/mentees/lang/en/block_mentees.php:configtitleblankhides"
+msgid "Block title (no title if blank)"
+msgstr "ブロックタイトル (空白の場合、タイトルなし)"
+
+#. leaveblanktohide
+#: blocks/mentees/lang/en/block_mentees.php:3
+msgctxt "blocks/mentees/lang/en/block_mentees.php:leaveblanktohide"
+msgid "leave blank to hide the title"
+msgstr "空白でタイトルを非表示"
+
+#. mentees:addinstance
+#: blocks/mentees/lang/en/block_mentees.php:4
+msgctxt "blocks/mentees/lang/en/block_mentees.php:mentees:addinstance"
+msgid "Add a new mentees block"
+msgstr "新しいメンティブロックを追加する"
+
+#. mentees:myaddinstance
+#: blocks/mentees/lang/en/block_mentees.php:5
+msgctxt "blocks/mentees/lang/en/block_mentees.php:mentees:myaddinstance"
+msgid "Add a new mentees block to My home"
+msgstr "マイホームに新しいメンティブロックを追加する"
+
+#. newmenteesblock
+#: blocks/mentees/lang/en/block_mentees.php:6
+msgctxt "blocks/mentees/lang/en/block_mentees.php:newmenteesblock"
+msgid "(new Mentees block)"
+msgstr "(新しいメンティブロック)"
+
+#. pluginname
+#: blocks/mentees/lang/en/block_mentees.php:7
+msgctxt "blocks/mentees/lang/en/block_mentees.php:pluginname"
+msgid "Mentees"
+msgstr "メンティ"
+
+#. messages:addinstance
+#: blocks/messages/lang/en/block_messages.php:1
+msgctxt "blocks/messages/lang/en/block_messages.php:messages:addinstance"
+msgid "Add a new messages block"
+msgstr "新しいメッセージブロックを追加する"
+
+#. messages:myaddinstance
+#: blocks/messages/lang/en/block_messages.php:2
+msgctxt "blocks/messages/lang/en/block_messages.php:messages:myaddinstance"
+msgid "Add a new messages block to My home"
+msgstr "新しいメッセージブロックをマイホームに追加する"
+
+#. pluginname
+#: blocks/messages/lang/en/block_messages.php:3
+msgctxt "blocks/messages/lang/en/block_messages.php:pluginname"
+msgid "Messages"
+msgstr "メッセージ"
+
+#. error_authmnetneeded
+#: blocks/mnet_hosts/lang/en/block_mnet_hosts.php:1
+msgctxt "blocks/mnet_hosts/lang/en/block_mnet_hosts.php:error_authmnetneeded"
+msgid ""
+"MNet authentication plugin must be enabled to see the list of MNet network "
+"servers"
+msgstr "MNetネットワークサーバを表示するには、MNet認証プラグインを有効にする必要があります。"
+
+#. error_localusersonly
+#: blocks/mnet_hosts/lang/en/block_mnet_hosts.php:2
+msgctxt "blocks/mnet_hosts/lang/en/block_mnet_hosts.php:error_localusersonly"
+msgid "Remote users can not jump to other MNet network servers from this host"
+msgstr "リモートユーザはこのホストから他のMNetネットワークサーバにジャンプすることはできません。"
+
+#. error_roamcapabilityneeded
+#: blocks/mnet_hosts/lang/en/block_mnet_hosts.php:3
+msgctxt ""
+"blocks/mnet_hosts/lang/en/block_mnet_hosts.php:error_roamcapabilityneeded"
+msgid ""
+"Users need the capability 'Roam to a remote application via MNet' to see the"
+" list of MNet network servers"
+msgstr "MNetネットワークサーバ一覧を表示するには、ユーザに「MNet経由でリモートアプリケーションを散策する」ケイパビリティが必要です。"
+
+#. mnet_hosts:addinstance
+#: blocks/mnet_hosts/lang/en/block_mnet_hosts.php:4
+msgctxt ""
+"blocks/mnet_hosts/lang/en/block_mnet_hosts.php:mnet_hosts:addinstance"
+msgid "Add a new network servers block"
+msgstr "新しいネットワークサーバブロックを追加する"
+
+#. mnet_hosts:myaddinstance
+#: blocks/mnet_hosts/lang/en/block_mnet_hosts.php:5
+msgctxt ""
+"blocks/mnet_hosts/lang/en/block_mnet_hosts.php:mnet_hosts:myaddinstance"
+msgid "Add a new network servers block to My home"
+msgstr "新しいネットワークサーバブロックをマイホームに追加する"
+
+#. pluginname
+#: blocks/mnet_hosts/lang/en/block_mnet_hosts.php:6
+msgctxt "blocks/mnet_hosts/lang/en/block_mnet_hosts.php:pluginname"
+msgid "Network servers"
+msgstr "ネットワークサーバ"
+
+#. server
+#: blocks/mnet_hosts/lang/en/block_mnet_hosts.php:7
+msgctxt "blocks/mnet_hosts/lang/en/block_mnet_hosts.php:server"
+msgid "Server"
+msgstr "サーバ"
+
+#. contentsettings
+#: blocks/myprofile/lang/en/block_myprofile.php:1
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:contentsettings"
+msgid "Display settings for content region"
+msgstr "コンテンツエリアに設定を表示する"
+
+#. display_address
+#: blocks/myprofile/lang/en/block_myprofile.php:2
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_address"
+msgid "Display address"
+msgstr "住所を表示する"
+
+#. display_aim
+#: blocks/myprofile/lang/en/block_myprofile.php:3
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_aim"
+msgid "Display AIM"
+msgstr "AIMを表示する"
+
+#. display_city
+#: blocks/myprofile/lang/en/block_myprofile.php:4
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_city"
+msgid "Display city"
+msgstr "都道府県を表示する"
+
+#. display_country
+#: blocks/myprofile/lang/en/block_myprofile.php:5
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_country"
+msgid "Display country"
+msgstr "国を表示する"
+
+#. display_currentlogin
+#: blocks/myprofile/lang/en/block_myprofile.php:6
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_currentlogin"
+msgid "Display current login"
+msgstr "現在のログインを表示する"
+
+#. display_email
+#: blocks/myprofile/lang/en/block_myprofile.php:7
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_email"
+msgid "Display email"
+msgstr "メールを表示する"
+
+#. display_firstaccess
+#: blocks/myprofile/lang/en/block_myprofile.php:8
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_firstaccess"
+msgid "Display first access"
+msgstr "初回アクセスを表示する"
+
+#. display_icq
+#: blocks/myprofile/lang/en/block_myprofile.php:9
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_icq"
+msgid "Display ICQ"
+msgstr "ICQを表示する"
+
+#. display_institution
+#: blocks/myprofile/lang/en/block_myprofile.php:10
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_institution"
+msgid "Display institution"
+msgstr "インスティテューションを表示する"
+
+#. display_lastaccess
+#: blocks/myprofile/lang/en/block_myprofile.php:11
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_lastaccess"
+msgid "Display last access"
+msgstr "最終アクセスを表示する"
+
+#. display_lastip
+#: blocks/myprofile/lang/en/block_myprofile.php:12
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_lastip"
+msgid "Display last IP"
+msgstr "最終IPアドレスを表示する"
+
+#. display_msn
+#: blocks/myprofile/lang/en/block_myprofile.php:13
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_msn"
+msgid "Display MSN"
+msgstr "MSNを表示する"
+
+#. display_phone1
+#: blocks/myprofile/lang/en/block_myprofile.php:14
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_phone1"
+msgid "Display phone number 1"
+msgstr "電話番号1を表示する"
+
+#. display_phone2
+#: blocks/myprofile/lang/en/block_myprofile.php:15
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_phone2"
+msgid "Display phone number 2"
+msgstr "電話番号2を表示する"
+
+#. display_picture
+#: blocks/myprofile/lang/en/block_myprofile.php:16
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_picture"
+msgid "Display picture"
+msgstr "写真を表示する"
+
+#. display_skype
+#: blocks/myprofile/lang/en/block_myprofile.php:17
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_skype"
+msgid "Display Skype"
+msgstr "Skypeを表示する"
+
+#. display_un
+#: blocks/myprofile/lang/en/block_myprofile.php:18
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_un"
+msgid "Display name"
+msgstr "氏名を表示する"
+
+#. display_yahoo
+#: blocks/myprofile/lang/en/block_myprofile.php:19
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:display_yahoo"
+msgid "Display Yahoo"
+msgstr "Yahooを表示する"
+
+#. myprofile:addinstance
+#: blocks/myprofile/lang/en/block_myprofile.php:20
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:myprofile:addinstance"
+msgid "Add a new logged in user block"
+msgstr "新しいログインユーザブロックを追加する"
+
+#. myprofile:myaddinstance
+#: blocks/myprofile/lang/en/block_myprofile.php:21
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:myprofile:myaddinstance"
+msgid "Add a new logged in user block to My home"
+msgstr "新しいログインユーザブロックをマイホームに追加する"
+
+#. myprofile_settings
+#: blocks/myprofile/lang/en/block_myprofile.php:22
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:myprofile_settings"
+msgid "Visible user information"
+msgstr "閲覧可能なユーザ情報"
+
+#. pluginname
+#: blocks/myprofile/lang/en/block_myprofile.php:23
+msgctxt "blocks/myprofile/lang/en/block_myprofile.php:pluginname"
+msgid "Logged in user"
+msgstr "ログインユーザ"
+
+#. courseactivities
+#: blocks/navigation/lang/en/block_navigation.php:1
+msgctxt "blocks/navigation/lang/en/block_navigation.php:courseactivities"
+msgid "Categories, courses, and course Activities"
+msgstr "カテゴリ、コースおよびコース活動"
+
+#. courses
+#: blocks/navigation/lang/en/block_navigation.php:2
+msgctxt "blocks/navigation/lang/en/block_navigation.php:courses"
+msgid "Categories and courses"
+msgstr "カテゴリおよびコース"
+
+#. coursestructures
+#: blocks/navigation/lang/en/block_navigation.php:3
+msgctxt "blocks/navigation/lang/en/block_navigation.php:coursestructures"
+msgid "Categories, courses, and course structures"
+msgstr "カテゴリ、コースおよびコース構造"
+
+#. enabledockdesc
+#: blocks/navigation/lang/en/block_navigation.php:4
+msgctxt "blocks/navigation/lang/en/block_navigation.php:enabledockdesc"
+msgid "Allow the user to dock this block"
+msgstr "ユーザによるこのブロックのドックを許可する"
+
+#. everything
+#: blocks/navigation/lang/en/block_navigation.php:5
+msgctxt "blocks/navigation/lang/en/block_navigation.php:everything"
+msgid "Everything"
+msgstr "すべて"
+
+#. expansionlimit
+#: blocks/navigation/lang/en/block_navigation.php:6
+msgctxt "blocks/navigation/lang/en/block_navigation.php:expansionlimit"
+msgid "Generate navigation for the following"
+msgstr "ナビゲーションの生成対象"
+
+#. linkcategoriesdesc
+#: blocks/navigation/lang/en/block_navigation.php:7
+msgctxt "blocks/navigation/lang/en/block_navigation.php:linkcategoriesdesc"
+msgid "Display categories as links"
+msgstr "リンクとしてカテゴリを表示する"
+
+#. navigation:addinstance
+#: blocks/navigation/lang/en/block_navigation.php:8
+msgctxt ""
+"blocks/navigation/lang/en/block_navigation.php:navigation:addinstance"
+msgid "Add a new navigation block"
+msgstr "新しいナビゲーションブロックを追加する"
+
+#. navigation:myaddinstance
+#: blocks/navigation/lang/en/block_navigation.php:9
+msgctxt ""
+"blocks/navigation/lang/en/block_navigation.php:navigation:myaddinstance"
+msgid "Add a new navigation block to My home"
+msgstr "新しいナビゲーションブロックをマイホームに追加する"
+
+#. pluginname
+#: blocks/navigation/lang/en/block_navigation.php:10
+msgctxt "blocks/navigation/lang/en/block_navigation.php:pluginname"
+msgid "Navigation"
+msgstr "ナビゲーション"
+
+#. trimlength
+#: blocks/navigation/lang/en/block_navigation.php:11
+msgctxt "blocks/navigation/lang/en/block_navigation.php:trimlength"
+msgid "How many characters to trim to"
+msgstr "トリムする文字数"
+
+#. trimmode
+#: blocks/navigation/lang/en/block_navigation.php:12
+msgctxt "blocks/navigation/lang/en/block_navigation.php:trimmode"
+msgid "Trim mode"
+msgstr "トリム (文字削減) モード"
+
+#. trimmodecenter
+#: blocks/navigation/lang/en/block_navigation.php:13
+msgctxt "blocks/navigation/lang/en/block_navigation.php:trimmodecenter"
+msgid "Trim characters from the center"
+msgstr "文字を中央からトリムする"
+
+#. trimmodeleft
+#: blocks/navigation/lang/en/block_navigation.php:14
+msgctxt "blocks/navigation/lang/en/block_navigation.php:trimmodeleft"
+msgid "Trim characters from the left"
+msgstr "文字を左からトリムする"
+
+#. trimmoderight
+#: blocks/navigation/lang/en/block_navigation.php:15
+msgctxt "blocks/navigation/lang/en/block_navigation.php:trimmoderight"
+msgid "Trim characters from the right"
+msgstr "文字を右からトリムする"
+
+#. news_items:addinstance
+#: blocks/news_items/lang/en/block_news_items.php:1
+msgctxt ""
+"blocks/news_items/lang/en/block_news_items.php:news_items:addinstance"
+msgid "Add a new latest news block"
+msgstr "新しい最新ニュースブロックを追加する"
+
+#. news_items:myaddinstance
+#: blocks/news_items/lang/en/block_news_items.php:2
+msgctxt ""
+"blocks/news_items/lang/en/block_news_items.php:news_items:myaddinstance"
+msgid "Add a new latest news block to My home"
+msgstr "マイホームに新しい最新ニュースブロックを追加する"
+
+#. pluginname
+#: blocks/news_items/lang/en/block_news_items.php:3
+msgctxt "blocks/news_items/lang/en/block_news_items.php:pluginname"
+msgid "Latest news"
+msgstr "最新ニュース"
+
+#. configtimetosee
+#: blocks/online_users/lang/en/block_online_users.php:1
+msgctxt "blocks/online_users/lang/en/block_online_users.php:configtimetosee"
+msgid ""
+"Number of minutes determining the period of inactivity after which a user is"
+" no longer considered to be online."
+msgstr "ユーザがオンライン状態ではないと判断するための休眠時間 (分) です。"
+
+#. online_users:addinstance
+#: blocks/online_users/lang/en/block_online_users.php:2
+msgctxt ""
+"blocks/online_users/lang/en/block_online_users.php:online_users:addinstance"
+msgid "Add a new online users block"
+msgstr "新しいオンラインユーザブロックを追加する"
+
+#. online_users:myaddinstance
+#: blocks/online_users/lang/en/block_online_users.php:3
+msgctxt ""
+"blocks/online_users/lang/en/block_online_users.php:online_users:myaddinstance"
+msgid "Add a new online users block to My home"
+msgstr "マイホームに新しいオンラインユーザブロックを追加する"
+
+#. online_users:viewlist
+#: blocks/online_users/lang/en/block_online_users.php:4
+msgctxt ""
+"blocks/online_users/lang/en/block_online_users.php:online_users:viewlist"
+msgid "View list of online users"
+msgstr "オンラインユーザリストを表示する"
+
+#. periodnminutes
+#: blocks/online_users/lang/en/block_online_users.php:5
+msgctxt "blocks/online_users/lang/en/block_online_users.php:periodnminutes"
+msgid "last {$a} minutes"
+msgstr "{$a} 分"
+
+#. pluginname
+#: blocks/online_users/lang/en/block_online_users.php:6
+msgctxt "blocks/online_users/lang/en/block_online_users.php:pluginname"
+msgid "Online users"
+msgstr "オンラインユーザ"
+
+#. timetosee
+#: blocks/online_users/lang/en/block_online_users.php:7
+msgctxt "blocks/online_users/lang/en/block_online_users.php:timetosee"
+msgid "Remove after inactivity (minutes)"
+msgstr "休眠状態 (分) の後、除外する"
+
+#. participants:addinstance
+#: blocks/participants/lang/en/block_participants.php:1
+msgctxt ""
+"blocks/participants/lang/en/block_participants.php:participants:addinstance"
+msgid "Add a new people block"
+msgstr "新しい参加者ブロックを追加する"
+
+#. pluginname
+#: blocks/participants/lang/en/block_participants.php:2
+msgctxt "blocks/participants/lang/en/block_participants.php:pluginname"
+msgid "People"
+msgstr "人"
+
+#. managemyfiles
+#: blocks/private_files/lang/en/block_private_files.php:1
+msgctxt "blocks/private_files/lang/en/block_private_files.php:managemyfiles"
+msgid "Manage my files"
+msgstr "マイファイルを管理する"
+
+#. pluginname
+#: blocks/private_files/lang/en/block_private_files.php:2
+msgctxt "blocks/private_files/lang/en/block_private_files.php:pluginname"
+msgid "My private files"
+msgstr "マイプライベートファイル"
+
+#. privatefiles
+#: blocks/private_files/lang/en/block_private_files.php:3
+msgctxt "blocks/private_files/lang/en/block_private_files.php:privatefiles"
+msgid "Private files"
+msgstr "プライベートファイル"
+
+#. private_files:addinstance
+#: blocks/private_files/lang/en/block_private_files.php:4
+msgctxt ""
+"blocks/private_files/lang/en/block_private_files.php:private_files:addinstance"
+msgid "Add a new private files block"
+msgstr "新しいプライベートファイルブロックを追加する"
+
+#. private_files:myaddinstance
+#: blocks/private_files/lang/en/block_private_files.php:5
+msgctxt ""
+"blocks/private_files/lang/en/block_private_files.php:private_files:myaddinstance"
+msgid "Add a new my private files block to My home"
+msgstr "新しいプライベートファイルブロックをマイホームに追加する"
+
+#. bestgrade
+#: blocks/quiz_results/lang/en/block_quiz_results.php:1
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:bestgrade"
+msgid "The highest grade:"
+msgstr "最高得点:"
+
+#. bestgrades
+#: blocks/quiz_results/lang/en/block_quiz_results.php:2
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:bestgrades"
+msgid "The {$a} highest grades:"
+msgstr "ベスト {$a}:"
+
+#. bestgroupgrade
+#: blocks/quiz_results/lang/en/block_quiz_results.php:3
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:bestgroupgrade"
+msgid "The group with the highest average:"
+msgstr "最高平均点のグループ:"
+
+#. bestgroupgrades
+#: blocks/quiz_results/lang/en/block_quiz_results.php:4
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:bestgroupgrades"
+msgid "The {$a} groups with the highest average:"
+msgstr "ベスト {$a}:"
+
+#. config_format_absolute
+#: blocks/quiz_results/lang/en/block_quiz_results.php:5
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:config_format_absolute"
+msgid "Absolute numbers"
+msgstr "絶対数"
+
+#. config_format_fraction
+#: blocks/quiz_results/lang/en/block_quiz_results.php:6
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:config_format_fraction"
+msgid "Fractions"
+msgstr "分数"
+
+#. config_format_percentage
+#: blocks/quiz_results/lang/en/block_quiz_results.php:7
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:config_format_percentage"
+msgid "Percentages"
+msgstr "パーセンテージ"
+
+#. config_grade_format
+#: blocks/quiz_results/lang/en/block_quiz_results.php:8
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:config_grade_format"
+msgid "Display grades as:"
+msgstr "評点の表示方法:"
+
+#. config_name_format
+#: blocks/quiz_results/lang/en/block_quiz_results.php:9
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:config_name_format"
+msgid "Privacy level for displayed results:"
+msgstr "結果表示のプライバシーレベル:"
+
+#. config_names_anon
+#: blocks/quiz_results/lang/en/block_quiz_results.php:10
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:config_names_anon"
+msgid "Anonymous results"
+msgstr "匿名結果"
+
+#. config_names_full
+#: blocks/quiz_results/lang/en/block_quiz_results.php:11
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:config_names_full"
+msgid "Display full names"
+msgstr "フルネームを表示する"
+
+#. config_names_id
+#: blocks/quiz_results/lang/en/block_quiz_results.php:12
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:config_names_id"
+msgid "Display only ID numbers"
+msgstr "IDナンバーのみ表示する"
+
+#. config_no_quizzes_in_course
+#: blocks/quiz_results/lang/en/block_quiz_results.php:13
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:config_no_quizzes_in_course"
+msgid ""
+"This course does not contain any quiz activities . You must add at least one"
+" before you are able to use this block correctly."
+msgstr "このコースには、小テストが含まれていません。このブロックを使用するため、少なくとも1つのコースを追加してください。"
+
+#. config_select_quiz
+#: blocks/quiz_results/lang/en/block_quiz_results.php:14
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:config_select_quiz"
+msgid "Which quiz should this block display results from?"
+msgstr "どの小テストの結果をこのブロックで表示しますか?"
+
+#. config_show_best
+#: blocks/quiz_results/lang/en/block_quiz_results.php:15
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:config_show_best"
+msgid "How many of the highest grades should be shown (0 to disable)?"
+msgstr "何件の最高評点を表示しますか (0 は非表示) ?"
+
+#. config_show_worst
+#: blocks/quiz_results/lang/en/block_quiz_results.php:16
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:config_show_worst"
+msgid "How many of the lowest grades should be shown (0 to disable)?"
+msgstr "何件の最低評点を表示しますか (0 は非表示) ?"
+
+#. configuredtoshownothing
+#: blocks/quiz_results/lang/en/block_quiz_results.php:17
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:configuredtoshownothing"
+msgid ""
+"This block's configuration currently does not allow it to show any results. "
+"You may want to either configure it or hide it."
+msgstr "このブロックでは、小テスト結果を表示しないよう、設定されています。ブロックを表示するように設定するか、ブロックを非表示にしてください。"
+
+#. config_use_groups
+#: blocks/quiz_results/lang/en/block_quiz_results.php:18
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:config_use_groups"
+msgid "Show groups instead of students (only if the quiz supports groups)?"
+msgstr "学生の代わりにグループを表示しますか (小テストがグループをサポートする場合のみ)?"
+
+#. error_emptyquizid
+#: blocks/quiz_results/lang/en/block_quiz_results.php:19
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:error_emptyquizid"
+msgid ""
+"There is an error right now with this block: you need to select which quiz "
+"it should display results from."
+msgstr "このブロックにエラーが発生しました: あなたは、結果を表示する小テストを選択する必要があります。"
+
+#. error_emptyquizrecord
+#: blocks/quiz_results/lang/en/block_quiz_results.php:20
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:error_emptyquizrecord"
+msgid ""
+"There is an error right now with this block: the selected quiz does not seem"
+" to exist in the database."
+msgstr "このブロックにエラーが発生しました: 選択した小テストは、データベースに存在していないようです。"
+
+#. error_nogroupsexist
+#: blocks/quiz_results/lang/en/block_quiz_results.php:21
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:error_nogroupsexist"
+msgid ""
+"There is an error right now with this block: it is set to display grades in "
+"group mode, but the course has no defined groups."
+msgstr "このブロックにエラーが発生しました: グループモードが設定されていますが、コースにグループが定義されていないようです。"
+
+#. pluginname
+#: blocks/quiz_results/lang/en/block_quiz_results.php:22
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:pluginname"
+msgid "Quiz results"
+msgstr "小テスト結果"
+
+#. quiz_results:addinstance
+#: blocks/quiz_results/lang/en/block_quiz_results.php:23
+msgctxt ""
+"blocks/quiz_results/lang/en/block_quiz_results.php:quiz_results:addinstance"
+msgid "Add a new quiz results block"
+msgstr "新しい小テスト結果ブロックを追加する"
+
+#. worstgrade
+#: blocks/quiz_results/lang/en/block_quiz_results.php:24
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:worstgrade"
+msgid "The lowest grade:"
+msgstr "最低得点:"
+
+#. worstgrades
+#: blocks/quiz_results/lang/en/block_quiz_results.php:25
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:worstgrades"
+msgid "The {$a} lowest grades:"
+msgstr "ワースト {$a}:"
+
+#. worstgroupgrade
+#: blocks/quiz_results/lang/en/block_quiz_results.php:26
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:worstgroupgrade"
+msgid "The group with the lowest average:"
+msgstr "最低平均点のグループ:"
+
+#. worstgroupgrades
+#: blocks/quiz_results/lang/en/block_quiz_results.php:27
+msgctxt "blocks/quiz_results/lang/en/block_quiz_results.php:worstgroupgrades"
+msgid "The {$a} groups with the lowest average:"
+msgstr "ワースト {$a}:"
+
+#. pluginname
+#: blocks/recent_activity/lang/en/block_recent_activity.php:1
+msgctxt "blocks/recent_activity/lang/en/block_recent_activity.php:pluginname"
+msgid "Recent activity"
+msgstr "最近の活動"
+
+#. recent_activity:addinstance
+#: blocks/recent_activity/lang/en/block_recent_activity.php:2
+msgctxt ""
+"blocks/recent_activity/lang/en/block_recent_activity.php:recent_activity:addinstance"
+msgid "Add a new recent activity block"
+msgstr "新しい最近の活動ブロックを追加する"
+
+#. addfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:1
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:addfeed"
+msgid "Add a news feed URL:"
+msgstr "ニュースフィードURIを追加する:"
+
+#. addheadlineblock
+#: blocks/rss_client/lang/en/block_rss_client.php:2
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:addheadlineblock"
+msgid "Add RSS headline block"
+msgstr "RSSヘッドラインブロックを追加する"
+
+#. addnew
+#: blocks/rss_client/lang/en/block_rss_client.php:3
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:addnew"
+msgid "Add new"
+msgstr "RSSを追加する"
+
+#. addnewfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:4
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:addnewfeed"
+msgid "Add a new feed"
+msgstr "新しいフィードを追加する"
+
+#. cannotmakemodification
+#: blocks/rss_client/lang/en/block_rss_client.php:5
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:cannotmakemodification"
+msgid ""
+"You are not allowed to make modifications to this RSS feed at this time."
+msgstr "現在、あなたは、このRSSフィードを修正することはできません。"
+
+#. choosefeedlabel
+#: blocks/rss_client/lang/en/block_rss_client.php:6
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:choosefeedlabel"
+msgid "Choose the feeds which you would like to make available in this block:"
+msgstr "あなたがこのブロックで使用したいフィードを選択してください:"
+
+#. clientchannellink
+#: blocks/rss_client/lang/en/block_rss_client.php:7
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:clientchannellink"
+msgid "Source site..."
+msgstr "ソースサイト ..."
+
+#. clientnumentries
+#: blocks/rss_client/lang/en/block_rss_client.php:8
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:clientnumentries"
+msgid "The default number of entries to show per feed."
+msgstr "表示するフィードごとのデフォルトエントリ数です。"
+
+#. clientshowchannellinklabel
+#: blocks/rss_client/lang/en/block_rss_client.php:9
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:clientshowchannellinklabel"
+msgid ""
+"Should a link to the original site (channel link) be displayed? (Note that "
+"if no feed link is supplied in the news feed then no link will be shown) :"
+msgstr "オリジナルサイト (チャンネルリンク) のリンクを表示しますか? (ニュースフィードにリンクが提供されていない場合、リンクは表示されませんので注意してください):"
+
+#. clientshowimagelabel
+#: blocks/rss_client/lang/en/block_rss_client.php:10
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:clientshowimagelabel"
+msgid "Show channel image if available :"
+msgstr "利用可能な場合、チャンネルイメージを表示する:"
+
+#. configblock
+#: blocks/rss_client/lang/en/block_rss_client.php:11
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:configblock"
+msgid "Configure this block"
+msgstr "このブロックを設定する"
+
+#. couldnotfindfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:12
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:couldnotfindfeed"
+msgid "Could not find feed with id"
+msgstr "指定されたIDのフィードが見つかりませんでした。"
+
+#. customtitlelabel
+#: blocks/rss_client/lang/en/block_rss_client.php:13
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:customtitlelabel"
+msgid "Custom title (leave blank to use title supplied by feed):"
+msgstr "カスタムタイトル (フィードより提供されたタイトルを使用する場合は空白):"
+
+#. deletefeedconfirm
+#: blocks/rss_client/lang/en/block_rss_client.php:14
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:deletefeedconfirm"
+msgid "Are you sure you want to delete this feed?"
+msgstr "本当にこのフィードを削除してもよろしいですか?"
+
+#. disabledrssfeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:15
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:disabledrssfeeds"
+msgid "RSS feeds are disabled"
+msgstr "RSSフィードは、無効にされています。"
+
+#. displaydescriptionlabel
+#: blocks/rss_client/lang/en/block_rss_client.php:16
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:displaydescriptionlabel"
+msgid "Display each link's description?"
+msgstr "それぞれのリンクの説明を表示しますか?"
+
+#. editafeed
+#: blocks/rss_client/lang/en/block_rss_client.php:17
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:editafeed"
+msgid "Edit a feed"
+msgstr "フィードを編集する"
+
+#. editfeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:18
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:editfeeds"
+msgid "Edit, subscribe or unsubscribe from RSS/Atom news feeds"
+msgstr "RSS/Atomニュースフィードを編集、購読または購読解除する"
+
+#. editnewsfeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:19
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:editnewsfeeds"
+msgid "Edit news feeds"
+msgstr "ニュースフィードを編集する"
+
+#. editrssblock
+#: blocks/rss_client/lang/en/block_rss_client.php:20
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:editrssblock"
+msgid "Edit RSS headline block"
+msgstr "RSSヘッドラインブロックを編集する"
+
+#. enableautodiscovery
+#: blocks/rss_client/lang/en/block_rss_client.php:21
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:enableautodiscovery"
+msgid "Enable auto-discovery of feeds?"
+msgstr "オートディスカバリを有効にしますか?"
+
+#. enableautodiscovery_help
+#: blocks/rss_client/lang/en/block_rss_client.php:22
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:enableautodiscovery_help"
+msgid ""
+"If enabled, feeds on web pages are found automatically. For example, if "
+"http://docs.moodle.org is entered, then "
+"http://docs.moodle.org/en/index.php?title=Special:RecentChanges&feed=rss "
+"would be found."
+msgstr "<p>このオプションを有効にすることで、フィードのリンクが提供されていない場合、Moodleは自動的にウェブページからフィードを探します。</p>\n<p>例えば、Moodle DocsのURIを入力した場合:\n<pre>http://docs.moodle.org</pre>\nMoodleは購読するため、自動的に最新の変更に関するフィードを探します:\n<pre>http://docs.moodle.org/en/index.php?title=Special:RecentChanges&amp;feed=rss</pre>\n</p>"
+
+#. errorloadingfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:23
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:errorloadingfeed"
+msgid "Error loading this RSS feed ({$a})"
+msgstr "RSSフィード ({$a}) のローディング中にエラーが発生しました。"
+
+#. feed
+#: blocks/rss_client/lang/en/block_rss_client.php:24
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:feed"
+msgid "Feed"
+msgstr "フィード"
+
+#. feedadded
+#: blocks/rss_client/lang/en/block_rss_client.php:25
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:feedadded"
+msgid "News feed added"
+msgstr "新しいフィードが追加されました。"
+
+#. feeddeleted
+#: blocks/rss_client/lang/en/block_rss_client.php:26
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:feeddeleted"
+msgid "News feed deleted"
+msgstr "フィードが削除されました。"
+
+#. feeds
+#: blocks/rss_client/lang/en/block_rss_client.php:27
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:feeds"
+msgid "News feeds"
+msgstr "ニュースフィード"
+
+#. feedsaddedit
+#: blocks/rss_client/lang/en/block_rss_client.php:28
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:feedsaddedit"
+msgid "Add/edit feeds"
+msgstr "フィードを追加/編集する"
+
+#. feedsconfigurenewinstance
+#: blocks/rss_client/lang/en/block_rss_client.php:29
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:feedsconfigurenewinstance"
+msgid "Click here to configure this block to display RSS feeds."
+msgstr "このブロックがRSSフィードを表示するよう設定するには、ここをクリックしてください。"
+
+#. feedsconfigurenewinstance2
+#: blocks/rss_client/lang/en/block_rss_client.php:30
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:feedsconfigurenewinstance2"
+msgid ""
+"Click the edit icon above to configure this block to display RSS feeds."
+msgstr "このブロックがRSSフィードを表示できるようにするには、上の編集アイコンをクリックしてください。"
+
+#. feedupdated
+#: blocks/rss_client/lang/en/block_rss_client.php:31
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:feedupdated"
+msgid "News feed updated"
+msgstr "ニュースフィードが更新されました。"
+
+#. feedurl
+#: blocks/rss_client/lang/en/block_rss_client.php:32
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:feedurl"
+msgid "Feed URL"
+msgstr "フィードURI"
+
+#. findmorefeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:33
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:findmorefeeds"
+msgid "Find more RSS feeds"
+msgstr "さらにRSSフィードを探す"
+
+#. managefeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:34
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:managefeeds"
+msgid "Manage all my feeds"
+msgstr "マイフィードすべてを管理する"
+
+#. nofeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:35
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:nofeeds"
+msgid "There are no RSS feeds defined for this site."
+msgstr "このサイトに設定されたRSSフィードはありません。"
+
+#. numentries
+#: blocks/rss_client/lang/en/block_rss_client.php:36
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:numentries"
+msgid "Entries per feed"
+msgstr "フィードあたりのエントリ数"
+
+#. pickfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:37
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:pickfeed"
+msgid "Pick a news feed"
+msgstr "ニュースフィードを取得する"
+
+#. pluginname
+#: blocks/rss_client/lang/en/block_rss_client.php:38
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:pluginname"
+msgid "Remote RSS feeds"
+msgstr "リモートRSSフィード"
+
+#. remotenewsfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:39
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:remotenewsfeed"
+msgid "Remote news feed"
+msgstr "リモートニュースフィード"
+
+#. rss_client:addinstance
+#: blocks/rss_client/lang/en/block_rss_client.php:40
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:rss_client:addinstance"
+msgid "Add a new remote RSS feeds block"
+msgstr "新しいリモートRSSフィードブロックを追加する"
+
+#. rss_client:createprivatefeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:41
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:rss_client:createprivatefeeds"
+msgid "Create private RSS feeds"
+msgstr "プライベートRSSフィードを作成する"
+
+#. rss_client:createsharedfeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:42
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:rss_client:createsharedfeeds"
+msgid "Create shared RSS feeds"
+msgstr "共有RSSフィードを作成する"
+
+#. rss_client:manageanyfeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:43
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:rss_client:manageanyfeeds"
+msgid "Manage any RSS feeds"
+msgstr "すべてのRSSフィードを管理する"
+
+#. rss_client:manageownfeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:44
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:rss_client:manageownfeeds"
+msgid "Manage own RSS feeds"
+msgstr "自分のRSSフィードを管理する"
+
+#. rss_client:myaddinstance
+#: blocks/rss_client/lang/en/block_rss_client.php:45
+msgctxt ""
+"blocks/rss_client/lang/en/block_rss_client.php:rss_client:myaddinstance"
+msgid "Add a new RSS feeds block to My home"
+msgstr "新しいリモートRSSフィードブロックをマイホームに追加する"
+
+#. seeallfeeds
+#: blocks/rss_client/lang/en/block_rss_client.php:46
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:seeallfeeds"
+msgid "See all feeds"
+msgstr "すべてのフィードを表示する"
+
+#. sharedfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:47
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:sharedfeed"
+msgid "Shared feed"
+msgstr "共有フィード"
+
+#. shownumentrieslabel
+#: blocks/rss_client/lang/en/block_rss_client.php:48
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:shownumentrieslabel"
+msgid "Max number entries to show per block."
+msgstr "ブロックに表示する最大エントリ数です。"
+
+#. submitters
+#: blocks/rss_client/lang/en/block_rss_client.php:49
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:submitters"
+msgid ""
+"Who will be allowed to define new RSS feeds? Defined feeds are available for"
+" any page on your site."
+msgstr "誰が新しいRSSフィードを設定できますか? 設定することで、あなたのサイトのページすべてにフィードを追加することができます。"
+
+#. submitters2
+#: blocks/rss_client/lang/en/block_rss_client.php:50
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:submitters2"
+msgid "Submitters"
+msgstr "配信者"
+
+#. timeout
+#: blocks/rss_client/lang/en/block_rss_client.php:51
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:timeout"
+msgid ""
+"Time in minutes before an RSS feed expires in cache. Note that this time "
+"defines the minimum time before expiry; the feed will be refreshed in cache "
+"on the next cron execution after expiry. Recommended values are 30 mins or "
+"greater."
+msgstr "キャッシュ内のRSSフィードの有効期限が切れる時間 (分) です。この時間には有効期限の最短時間を設定します。有効期限後の次のcron実行により、キャッシュ内のRSSフィードがリフレッシュされます。推奨設定値は、30分またはそれ以上です。"
+
+#. timeout2
+#: blocks/rss_client/lang/en/block_rss_client.php:52
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:timeout2"
+msgid "Timeout"
+msgstr "タイムアウト"
+
+#. timeoutdesc
+#: blocks/rss_client/lang/en/block_rss_client.php:53
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:timeoutdesc"
+msgid "Time in minutes for an RSS feed to live in cache."
+msgstr "RSSフィードキャッシュの保存期間 (分) です。"
+
+#. updatefeed
+#: blocks/rss_client/lang/en/block_rss_client.php:54
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:updatefeed"
+msgid "Update a news feed URL:"
+msgstr "ニュースフィードURIを更新する:"
+
+#. viewfeed
+#: blocks/rss_client/lang/en/block_rss_client.php:55
+msgctxt "blocks/rss_client/lang/en/block_rss_client.php:viewfeed"
+msgid "View feed"
+msgstr "フィードを表示する"
+
+#. advancedsearch
+#: blocks/search_forums/lang/en/block_search_forums.php:1
+msgctxt "blocks/search_forums/lang/en/block_search_forums.php:advancedsearch"
+msgid "Advanced search"
+msgstr "検索オプション"
+
+#. pluginname
+#: blocks/search_forums/lang/en/block_search_forums.php:2
+msgctxt "blocks/search_forums/lang/en/block_search_forums.php:pluginname"
+msgid "Search forums"
+msgstr "フォーラムを検索する"
+
+#. search_forums:addinstance
+#: blocks/search_forums/lang/en/block_search_forums.php:3
+msgctxt ""
+"blocks/search_forums/lang/en/block_search_forums.php:search_forums:addinstance"
+msgid "Add a new search forums block"
+msgstr "新しいフォーラム検索ブロックを追加する"
+
+#. incby1
+#: blocks/section_links/lang/en/block_section_links.php:1
+msgctxt "blocks/section_links/lang/en/block_section_links.php:incby1"
+msgid "Increase by"
+msgstr "増分値"
+
+#. incby1_help
+#: blocks/section_links/lang/en/block_section_links.php:2
+msgctxt "blocks/section_links/lang/en/block_section_links.php:incby1_help"
+msgid ""
+"This is the value the section is incremented each time a section link is "
+"displayed starting at 1."
+msgstr "この値は毎回セクションリンクが1から開始される場合に増分されるセクションです。"
+
+#. incby2
+#: blocks/section_links/lang/en/block_section_links.php:3
+msgctxt "blocks/section_links/lang/en/block_section_links.php:incby2"
+msgid "Alternative increase by"
+msgstr "代替増分値"
+
+#. incby2_help
+#: blocks/section_links/lang/en/block_section_links.php:4
+msgctxt "blocks/section_links/lang/en/block_section_links.php:incby2_help"
+msgid ""
+"This is the value the section is incremented each time a section link is "
+"displayed starting at 1."
+msgstr "この値は毎回セクションリンクが1から開始される場合に増分されるセクションです。"
+
+#. jumptocurrenttopic
+#: blocks/section_links/lang/en/block_section_links.php:5
+msgctxt ""
+"blocks/section_links/lang/en/block_section_links.php:jumptocurrenttopic"
+msgid "Jump to current topic"
+msgstr "現在のトピックへ移動する"
+
+#. jumptocurrentweek
+#: blocks/section_links/lang/en/block_section_links.php:6
+msgctxt ""
+"blocks/section_links/lang/en/block_section_links.php:jumptocurrentweek"
+msgid "Jump to current week"
+msgstr "現在の週へ移動する"
+
+#. numsections1
+#: blocks/section_links/lang/en/block_section_links.php:7
+msgctxt "blocks/section_links/lang/en/block_section_links.php:numsections1"
+msgid "Number of sections"
+msgstr "セクション数"
+
+#. numsections1_help
+#: blocks/section_links/lang/en/block_section_links.php:8
+msgctxt ""
+"blocks/section_links/lang/en/block_section_links.php:numsections1_help"
+msgid ""
+"Once the number of sections in the course reaches this number then the "
+"increment by value is used."
+msgstr "この値にコース内セクション数が到達した場合、増分値が使用されます。"
+
+#. numsections2
+#: blocks/section_links/lang/en/block_section_links.php:9
+msgctxt "blocks/section_links/lang/en/block_section_links.php:numsections2"
+msgid "Alternative number of sections"
+msgstr "代替セクション数"
+
+#. numsections2_help
+#: blocks/section_links/lang/en/block_section_links.php:10
+msgctxt ""
+"blocks/section_links/lang/en/block_section_links.php:numsections2_help"
+msgid ""
+"Once the number of sections in the course reaches this number then the "
+"Alternative increment by value is used."
+msgstr "この値にコース内セクション数が到達した場合、増分値が使用されます。"
+
+#. pluginname
+#: blocks/section_links/lang/en/block_section_links.php:11
+msgctxt "blocks/section_links/lang/en/block_section_links.php:pluginname"
+msgid "Section links"
+msgstr "セクションリンク"
+
+#. section_links:addinstance
+#: blocks/section_links/lang/en/block_section_links.php:12
+msgctxt ""
+"blocks/section_links/lang/en/block_section_links.php:section_links:addinstance"
+msgid "Add a new section links block"
+msgstr "新しいセクションリンクブロックを追加する"
+
+#. topics
+#: blocks/section_links/lang/en/block_section_links.php:13
+msgctxt "blocks/section_links/lang/en/block_section_links.php:topics"
+msgid "Topics"
+msgstr "トピック"
+
+#. weeks
+#: blocks/section_links/lang/en/block_section_links.php:14
+msgctxt "blocks/section_links/lang/en/block_section_links.php:weeks"
+msgid "Weeks"
+msgstr "週"
+
+#. alreadyselfcompleted
+#: blocks/selfcompletion/lang/en/block_selfcompletion.php:1
+msgctxt ""
+"blocks/selfcompletion/lang/en/block_selfcompletion.php:alreadyselfcompleted"
+msgid "You have already marked yourself as complete in this course"
+msgstr "このコースにおいて、あなたはすでに自分自身で完了したとマークしています。"
+
+#. completecourse
+#: blocks/selfcompletion/lang/en/block_selfcompletion.php:2
+msgctxt ""
+"blocks/selfcompletion/lang/en/block_selfcompletion.php:completecourse"
+msgid "Complete course"
+msgstr "コースを完了する"
+
+#. pluginname
+#: blocks/selfcompletion/lang/en/block_selfcompletion.php:3
+msgctxt "blocks/selfcompletion/lang/en/block_selfcompletion.php:pluginname"
+msgid "Self completion"
+msgstr "自己完了"
+
+#. selfcompletion:addinstance
+#: blocks/selfcompletion/lang/en/block_selfcompletion.php:4
+msgctxt ""
+"blocks/selfcompletion/lang/en/block_selfcompletion.php:selfcompletion:addinstance"
+msgid "Add a new self completion block"
+msgstr "新しい自己完了ブロックを追加する"
+
+#. selfcompletionnotenabled
+#: blocks/selfcompletion/lang/en/block_selfcompletion.php:5
+msgctxt ""
+"blocks/selfcompletion/lang/en/block_selfcompletion.php:selfcompletionnotenabled"
+msgid "The self completion criteria has not been enabled for this course"
+msgstr "このコースでは自己完了クライテリアが有効にされていません。"
+
+#. enabledock
+#: blocks/settings/lang/en/block_settings.php:1
+msgctxt "blocks/settings/lang/en/block_settings.php:enabledock"
+msgid "Allow the user to dock this block"
+msgstr "ユーザにこのブロックのドックを許可する"
+
+#. pluginname
+#: blocks/settings/lang/en/block_settings.php:2
+msgctxt "blocks/settings/lang/en/block_settings.php:pluginname"
+msgid "Administration"
+msgstr "管理"
+
+#. settings:addinstance
+#: blocks/settings/lang/en/block_settings.php:3
+msgctxt "blocks/settings/lang/en/block_settings.php:settings:addinstance"
+msgid "Add a new administration block"
+msgstr "新しい管理ブロックを追加する"
+
+#. settings:myaddinstance
+#: blocks/settings/lang/en/block_settings.php:4
+msgctxt "blocks/settings/lang/en/block_settings.php:settings:myaddinstance"
+msgid "Add a new administration block to My home"
+msgstr "マイホームに新しい管理ブロックを追加する"
+
+#. pluginname
+#: blocks/site_main_menu/lang/en/block_site_main_menu.php:1
+msgctxt "blocks/site_main_menu/lang/en/block_site_main_menu.php:pluginname"
+msgid "Main menu"
+msgstr "メインメニュー"
+
+#. site_main_menu:addinstance
+#: blocks/site_main_menu/lang/en/block_site_main_menu.php:2
+msgctxt ""
+"blocks/site_main_menu/lang/en/block_site_main_menu.php:site_main_menu:addinstance"
+msgid "Add a new main menu block"
+msgstr "新しいメインメニューブロックを追加する"
+
+#. pluginname
+#: blocks/social_activities/lang/en/block_social_activities.php:1
+msgctxt ""
+"blocks/social_activities/lang/en/block_social_activities.php:pluginname"
+msgid "Social activities"
+msgstr "社会活動"
+
+#. social_activities:addinstance
+#: blocks/social_activities/lang/en/block_social_activities.php:2
+msgctxt ""
+"blocks/social_activities/lang/en/block_social_activities.php:social_activities:addinstance"
+msgid "Add a new social activities block"
+msgstr "新しい社会活動ブロックを追加する"
+
+#. configtitle
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:1
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:configtitle"
+msgid "Title"
+msgstr "タイトル"
+
+#. date-posted-asc
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:2
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:date-posted-asc"
+msgid "Date posted ASC"
+msgstr "投稿日の昇順"
+
+#. date-posted-desc
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:3
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:date-posted-desc"
+msgid "Date posted DESC"
+msgstr "投稿日の降順"
+
+#. date-taken-asc
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:4
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:date-taken-asc"
+msgid "Date taken ASC"
+msgstr "撮影日の昇順"
+
+#. date-taken-desc
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:5
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:date-taken-desc"
+msgid "Date taken DESC"
+msgstr "撮影日の降順"
+
+#. defaulttile
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:6
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:defaulttile"
+msgid "Flickr"
+msgstr "Flickr"
+
+#. getfromphotoset
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:7
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:getfromphotoset"
+msgid "Get photos from photoset with id"
+msgstr "次のIDに関連するフォトセットの写真を取得する"
+
+#. includerelatedtags
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:8
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:includerelatedtags"
+msgid "Include related tags in query"
+msgstr "問い合わせに関連するタグを含む"
+
+#. interestingness-asc
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:9
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:interestingness-asc"
+msgid "Interestingness ASC"
+msgstr "興味の昇順"
+
+#. interestingness-desc
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:10
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:interestingness-desc"
+msgid "Interestingness DESC"
+msgstr "興味の降順"
+
+#. numberofphotos
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:11
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:numberofphotos"
+msgid "Number of photos"
+msgstr "写真数"
+
+#. pluginname
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:12
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:pluginname"
+msgid "Flickr"
+msgstr "Flickr"
+
+#. relevance
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:13
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:relevance"
+msgid "Relevance"
+msgstr "妥当性"
+
+#. sortby
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:14
+msgctxt "blocks/tag_flickr/lang/en/block_tag_flickr.php:sortby"
+msgid "Sort by"
+msgstr "並べ替え"
+
+#. tag_flickr:addinstance
+#: blocks/tag_flickr/lang/en/block_tag_flickr.php:15
+msgctxt ""
+"blocks/tag_flickr/lang/en/block_tag_flickr.php:tag_flickr:addinstance"
+msgid "Add a new flickr block"
+msgstr "新しいflickrブロックを追加する"
+
+#. anycategory
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:1
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:anycategory"
+msgid "Any category"
+msgstr "すべてのカテゴリ"
+
+#. autosvehicles
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:2
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:autosvehicles"
+msgid "Autos &amp; Vehicles"
+msgstr "自動車と乗り物"
+
+#. category
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:3
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:category"
+msgid "Category"
+msgstr "カテゴリ"
+
+#. comedy
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:4
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:comedy"
+msgid "Comedy"
+msgstr "コメディ"
+
+#. configtitle
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:5
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:configtitle"
+msgid "Title"
+msgstr "タイトル"
+
+#. education
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:6
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:education"
+msgid "Education"
+msgstr "教育"
+
+#. entertainment
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:7
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:entertainment"
+msgid "Entertainment"
+msgstr "エンターテイメント"
+
+#. filmsanimation
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:8
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:filmsanimation"
+msgid "Films &amp; Animation"
+msgstr "映画とアニメ"
+
+#. gadgetsgames
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:9
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:gadgetsgames"
+msgid "Gadgets &amp; Games"
+msgstr "ゲームとガジェット"
+
+#. howtodiy
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:10
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:howtodiy"
+msgid "How-to &amp; DIY"
+msgstr "ハウツーDIY"
+
+#. includeonlyvideosfromplaylist
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:11
+msgctxt ""
+"blocks/tag_youtube/lang/en/block_tag_youtube.php:includeonlyvideosfromplaylist"
+msgid "Include only videos from the playlist with id"
+msgstr "次のIDに関連する再生リストのビデオのみ含む"
+
+#. music
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:12
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:music"
+msgid "Music"
+msgstr "音楽"
+
+#. newspolitics
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:13
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:newspolitics"
+msgid "News &amp; Politics"
+msgstr "ニュースと政治"
+
+#. numberofvideos
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:14
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:numberofvideos"
+msgid "Number of videos"
+msgstr "ビデオ数"
+
+#. peopleblogs
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:15
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:peopleblogs"
+msgid "People &amp; Blogs"
+msgstr "ブログと人"
+
+#. petsanimals
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:16
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:petsanimals"
+msgid "Pets &amp; Animals"
+msgstr "ペットと動物"
+
+#. pluginname
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:17
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:pluginname"
+msgid "Youtube"
+msgstr "Youtube"
+
+#. scienceandtech
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:18
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:scienceandtech"
+msgid "Science &amp; Tech"
+msgstr "科学と技術"
+
+#. sports
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:19
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:sports"
+msgid "Sports"
+msgstr "スポーツ"
+
+#. tag_youtube:addinstance
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:20
+msgctxt ""
+"blocks/tag_youtube/lang/en/block_tag_youtube.php:tag_youtube:addinstance"
+msgid "Add a new youtube block"
+msgstr "新しいYouTubeブロックを追加する"
+
+#. travel
+#: blocks/tag_youtube/lang/en/block_tag_youtube.php:21
+msgctxt "blocks/tag_youtube/lang/en/block_tag_youtube.php:travel"
+msgid "Travel &amp; Places"
+msgstr "旅行と訪問スポット"
+
+#. add
+#: blocks/tags/lang/en/block_tags.php:1
+msgctxt "blocks/tags/lang/en/block_tags.php:add"
+msgid "Add"
+msgstr "追加"
+
+#. alltags
+#: blocks/tags/lang/en/block_tags.php:2
+msgctxt "blocks/tags/lang/en/block_tags.php:alltags"
+msgid "All tags:"
+msgstr "すべてのタグ:"
+
+#. arrowtitle
+#: blocks/tags/lang/en/block_tags.php:3
+msgctxt "blocks/tags/lang/en/block_tags.php:arrowtitle"
+msgid "Click here to enter the suggested text (grey letters)."
+msgstr "推奨テキスト (グレー文字) を入力するには、ここをクリックしてください。"
+
+#. configtitle
+#: blocks/tags/lang/en/block_tags.php:4
+msgctxt "blocks/tags/lang/en/block_tags.php:configtitle"
+msgid "Block title"
+msgstr "ブロックタイトル"
+
+#. coursetags
+#: blocks/tags/lang/en/block_tags.php:5
+msgctxt "blocks/tags/lang/en/block_tags.php:coursetags"
+msgid "Course tags:"
+msgstr "コースタグ:"
+
+#. defaultdisplay
+#: blocks/tags/lang/en/block_tags.php:6
+msgctxt "blocks/tags/lang/en/block_tags.php:defaultdisplay"
+msgid "Tag type to display"
+msgstr "表示するタグタイプ"
+
+#. disabledtags
+#: blocks/tags/lang/en/block_tags.php:7
+msgctxt "blocks/tags/lang/en/block_tags.php:disabledtags"
+msgid "Tags are disabled"
+msgstr "タグは無効にされています。"
+
+#. edit
+#: blocks/tags/lang/en/block_tags.php:8
+msgctxt "blocks/tags/lang/en/block_tags.php:edit"
+msgid "edit..."
+msgstr "編集 ..."
+
+#. editdeletemytag
+#: blocks/tags/lang/en/block_tags.php:9
+msgctxt "blocks/tags/lang/en/block_tags.php:editdeletemytag"
+msgid "Delete tag from this course:"
+msgstr "このコースからタグを削除する:"
+
+#. editmytags
+#: blocks/tags/lang/en/block_tags.php:10
+msgctxt "blocks/tags/lang/en/block_tags.php:editmytags"
+msgid "My tags - shortcuts to all your tagged courses."
+msgstr "マイタグ - タグ付けされた、あなたのコースすべてへのショートカットです。"
+
+#. editmytagsfor
+#: blocks/tags/lang/en/block_tags.php:11
+msgctxt "blocks/tags/lang/en/block_tags.php:editmytagsfor"
+msgid "Edit my tags for {$a}"
+msgstr "{$a} のマイタグを編集する"
+
+#. editnopersonaltags
+#: blocks/tags/lang/en/block_tags.php:12
+msgctxt "blocks/tags/lang/en/block_tags.php:editnopersonaltags"
+msgid "No personal tags have been created yet."
+msgstr "まだパーソナルタグは作成されていません。"
+
+#. edittags
+#: blocks/tags/lang/en/block_tags.php:13
+msgctxt "blocks/tags/lang/en/block_tags.php:edittags"
+msgid "Edit my tags..."
+msgstr "マイタグを編集する ..."
+
+#. edittagthisunit
+#: blocks/tags/lang/en/block_tags.php:14
+msgctxt "blocks/tags/lang/en/block_tags.php:edittagthisunit"
+msgid "Add tag to this course:"
+msgstr "このコースにタグ付けする:"
+
+#. editthiscoursetags
+#: blocks/tags/lang/en/block_tags.php:15
+msgctxt "blocks/tags/lang/en/block_tags.php:editthiscoursetags"
+msgid "My tags for this course are {$a}"
+msgstr "このコースのマイタグは: {$a}"
+
+#. edittitle
+#: blocks/tags/lang/en/block_tags.php:16
+msgctxt "blocks/tags/lang/en/block_tags.php:edittitle"
+msgid "My tags"
+msgstr "マイタグ"
+
+#. entries
+#: blocks/tags/lang/en/block_tags.php:17
+msgctxt "blocks/tags/lang/en/block_tags.php:entries"
+msgid "entries"
+msgstr "エントリ"
+
+#. entry
+#: blocks/tags/lang/en/block_tags.php:18
+msgctxt "blocks/tags/lang/en/block_tags.php:entry"
+msgid "entry"
+msgstr "エントリ"
+
+#. jserror1
+#: blocks/tags/lang/en/block_tags.php:19
+msgctxt "blocks/tags/lang/en/block_tags.php:jserror1"
+msgid "Tags must have between one and 50 characters. Please adjust your tag."
+msgstr "タグは半角1文字以上50文字以下にしてください。あなたのタグを修正してください。"
+
+#. jserror2
+#: blocks/tags/lang/en/block_tags.php:20
+msgctxt "blocks/tags/lang/en/block_tags.php:jserror2"
+msgid ""
+"Tags cannot contain these special characters - backslash, less than (<) or "
+"greater than (>). Please adjust your tag."
+msgstr "タグはこれらの特殊文字を含むことができません - バックスラッシュ、大なり記号 (>)、小なり記号 (<)。あなたのタグを修正してください。"
+
+#. login
+#: blocks/tags/lang/en/block_tags.php:21
+msgctxt "blocks/tags/lang/en/block_tags.php:login"
+msgid "log in"
+msgstr "ログイン"
+
+#. more
+#: blocks/tags/lang/en/block_tags.php:22
+msgctxt "blocks/tags/lang/en/block_tags.php:more"
+msgid "more..."
+msgstr "詳細 ..."
+
+#. moreorder
+#: blocks/tags/lang/en/block_tags.php:23
+msgctxt "blocks/tags/lang/en/block_tags.php:moreorder"
+msgid "Order:"
+msgstr "並べ替え順:"
+
+#. moreorderalpha
+#: blocks/tags/lang/en/block_tags.php:24
+msgctxt "blocks/tags/lang/en/block_tags.php:moreorderalpha"
+msgid "Alphabetical"
+msgstr "アルファベット順"
+
+#. moreorderdate
+#: blocks/tags/lang/en/block_tags.php:25
+msgctxt "blocks/tags/lang/en/block_tags.php:moreorderdate"
+msgid "Date created"
+msgstr "作成日時"
+
+#. moreorderpop
+#: blocks/tags/lang/en/block_tags.php:26
+msgctxt "blocks/tags/lang/en/block_tags.php:moreorderpop"
+msgid "Popularity"
+msgstr "人気度"
+
+#. moreshow
+#: blocks/tags/lang/en/block_tags.php:27
+msgctxt "blocks/tags/lang/en/block_tags.php:moreshow"
+msgid "Show:"
+msgstr "表示:"
+
+#. moreshowalltags
+#: blocks/tags/lang/en/block_tags.php:28
+msgctxt "blocks/tags/lang/en/block_tags.php:moreshowalltags"
+msgid "All tags"
+msgstr "すべてのタグ"
+
+#. moreshowcommtags
+#: blocks/tags/lang/en/block_tags.php:29
+msgctxt "blocks/tags/lang/en/block_tags.php:moreshowcommtags"
+msgid "Non-official tags"
+msgstr "非オフィシャルタグ"
+
+#. moreshowcoursetags
+#: blocks/tags/lang/en/block_tags.php:30
+msgctxt "blocks/tags/lang/en/block_tags.php:moreshowcoursetags"
+msgid "Tags for '{$a}'"
+msgstr "「 {$a} 」のタグ"
+
+#. moreshowmytags
+#: blocks/tags/lang/en/block_tags.php:31
+msgctxt "blocks/tags/lang/en/block_tags.php:moreshowmytags"
+msgid "My tags"
+msgstr "マイタグ"
+
+#. moreshowofficialtags
+#: blocks/tags/lang/en/block_tags.php:32
+msgctxt "blocks/tags/lang/en/block_tags.php:moreshowofficialtags"
+msgid "Official tags"
+msgstr "オフィシャルタグ"
+
+#. moretags
+#: blocks/tags/lang/en/block_tags.php:33
+msgctxt "blocks/tags/lang/en/block_tags.php:moretags"
+msgid "Show and filter more tags"
+msgstr "タグ詳細を表示およびフィルタする"
+
+#. moretitle
+#: blocks/tags/lang/en/block_tags.php:34
+msgctxt "blocks/tags/lang/en/block_tags.php:moretitle"
+msgid "More tags"
+msgstr "タグ詳細"
+
+#. morewelcome
+#: blocks/tags/lang/en/block_tags.php:35
+msgctxt "blocks/tags/lang/en/block_tags.php:morewelcome"
+msgid ""
+"Welcome to the 'More tags' tag cloud.Tags are user created links to things. Tags allow you to categorise and link things\n"
+"like your favourite courses, your blogs or your profile with your own words.\n"
+"Different groups of tags may be displayed with the links on the 'Show:' line,\n"
+"and may be reordered with the links on the 'Order:' line."
+msgstr "「タグ詳細」タグクラウドへようこそ。タグはユーザにより作成されたリンクです。タグでは、お気に入りのコース、あなたのブログまたはプロファイルを、あなたの言葉でカテゴリ分けすることができます。異なるグループのタグは「表示:」行にリンクとして表示され、「並べ替え順:」行で並べ替えることができます。"
+
+#. mycoursetags
+#: blocks/tags/lang/en/block_tags.php:36
+msgctxt "blocks/tags/lang/en/block_tags.php:mycoursetags"
+msgid "My course tags:"
+msgstr "マイコースタグ:"
+
+#. mytags
+#: blocks/tags/lang/en/block_tags.php:37
+msgctxt "blocks/tags/lang/en/block_tags.php:mytags"
+msgid "My tags:"
+msgstr "マイタグ:"
+
+#. notagsyet
+#: blocks/tags/lang/en/block_tags.php:38
+msgctxt "blocks/tags/lang/en/block_tags.php:notagsyet"
+msgid "No tags yet"
+msgstr "まだタグはありません。"
+
+#. please
+#: blocks/tags/lang/en/block_tags.php:39
+msgctxt "blocks/tags/lang/en/block_tags.php:please"
+msgid "Please"
+msgstr "あなたのお気に入りにコースにタグ付けするには"
+
+#. pluginname
+#: blocks/tags/lang/en/block_tags.php:40
+msgctxt "blocks/tags/lang/en/block_tags.php:pluginname"
+msgid "Tags"
+msgstr "タグ"
+
+#. select
+#: blocks/tags/lang/en/block_tags.php:41
+msgctxt "blocks/tags/lang/en/block_tags.php:select"
+msgid "Select..."
+msgstr "選択 ..."
+
+#. showcoursetags
+#: blocks/tags/lang/en/block_tags.php:42
+msgctxt "blocks/tags/lang/en/block_tags.php:showcoursetags"
+msgid "Show course tags"
+msgstr "コースタグを表示する"
+
+#. showcoursetagsdef
+#: blocks/tags/lang/en/block_tags.php:43
+msgctxt "blocks/tags/lang/en/block_tags.php:showcoursetagsdef"
+msgid ""
+"Display the course tagging features in the tags block, allowing students to "
+"tag courses."
+msgstr "タグブロック内にコースタグ機能を表示することで、学生にコースのタグ付けを許可します。"
+
+#. suggestedtagthisunit
+#: blocks/tags/lang/en/block_tags.php:44
+msgctxt "blocks/tags/lang/en/block_tags.php:suggestedtagthisunit"
+msgid "Suggested tag to this course:"
+msgstr "このコースに対する推奨タグ:"
+
+#. tags
+#: blocks/tags/lang/en/block_tags.php:45
+msgctxt "blocks/tags/lang/en/block_tags.php:tags"
+msgid "tags"
+msgstr "タグ"
+
+#. tags:addinstance
+#: blocks/tags/lang/en/block_tags.php:46
+msgctxt "blocks/tags/lang/en/block_tags.php:tags:addinstance"
+msgid "Add a new tags block"
+msgstr "新しいタグブロックを追加する"
+
+#. tags:myaddinstance
+#: blocks/tags/lang/en/block_tags.php:47
+msgctxt "blocks/tags/lang/en/block_tags.php:tags:myaddinstance"
+msgid "Add a new tags block to My home"
+msgstr "新しいタグブロックをマイホームに追加する"
+
+#. tagthisunit
+#: blocks/tags/lang/en/block_tags.php:48
+msgctxt "blocks/tags/lang/en/block_tags.php:tagthisunit"
+msgid "Tag this course:"
+msgstr "このコースにタグ付けする:"
+
+#. tagunits
+#: blocks/tags/lang/en/block_tags.php:49
+msgctxt "blocks/tags/lang/en/block_tags.php:tagunits"
+msgid "to tag your favourite courses"
+msgstr "してください。"

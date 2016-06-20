@@ -1,0 +1,5 @@
+mysql -u uid -p にて　mysqlモードとし、下記のコマンドを入力して、データベースとそれをアクセスするユーザにgrantを設定する。
+
+mysql> CREATE DATABASE pobrowser DEFAULT CHARACTER SET utf8 COLLATE utf8_general_ci;
+mysql> GRANT ALL ON pobrowser.* TO po_user@'localhost' IDENTIFIED BY 'po_password';
+mysql> FLUSH PRIVILEGES;

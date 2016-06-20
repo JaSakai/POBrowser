@@ -1,0 +1,103 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:37+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. pluginname
+#: user/profile/field/checkbox/lang/en/profilefield_checkbox.php:1
+msgctxt ""
+"user/profile/field/checkbox/lang/en/profilefield_checkbox.php:pluginname"
+msgid "Checkbox"
+msgstr "チェックボックス"
+
+#. currentdatedefault
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:1
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:currentdatedefault"
+msgid "Check to use current date as default"
+msgstr "現在日付をデフォルトに使用するにはチェックしてください。"
+
+#. defaultdate
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:2
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:defaultdate"
+msgid "Default date"
+msgstr "デフォルト日付"
+
+#. endyear
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:3
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:endyear"
+msgid "End year"
+msgstr "終了年"
+
+#. notset
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:4
+msgctxt "user/profile/field/datetime/lang/en/profilefield_datetime.php:notset"
+msgid "Not set"
+msgstr "未設定"
+
+#. pluginname
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:5
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:pluginname"
+msgid "Date/Time"
+msgstr "日付/時間"
+
+#. specifydatedefault
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:6
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:specifydatedefault"
+msgid "or specify a date"
+msgstr "または特定日付"
+
+#. startyear
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:7
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:startyear"
+msgid "Start year"
+msgstr "開始年"
+
+#. startyearafterend
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:8
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:startyearafterend"
+msgid "The start year can't occur after the end year"
+msgstr "開始年は終了年の後に設定できません。"
+
+#. wanttime
+#: user/profile/field/datetime/lang/en/profilefield_datetime.php:9
+msgctxt ""
+"user/profile/field/datetime/lang/en/profilefield_datetime.php:wanttime"
+msgid "Include time?"
+msgstr "時間を含みますか?"
+
+#. pluginname
+#: user/profile/field/menu/lang/en/profilefield_menu.php:1
+msgctxt "user/profile/field/menu/lang/en/profilefield_menu.php:pluginname"
+msgid "Dropdown menu"
+msgstr "ドロップダウンメニュー"
+
+#. pluginname
+#: user/profile/field/text/lang/en/profilefield_text.php:1
+msgctxt "user/profile/field/text/lang/en/profilefield_text.php:pluginname"
+msgid "Text input"
+msgstr "テキスト入力"
+
+#. pluginname
+#: user/profile/field/textarea/lang/en/profilefield_textarea.php:1
+msgctxt ""
+"user/profile/field/textarea/lang/en/profilefield_textarea.php:pluginname"
+msgid "Text area"
+msgstr "テキストエリア"

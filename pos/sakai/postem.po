@@ -1,0 +1,788 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-03-04 04:05+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. title
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:1
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title"
+msgid "Post'Em"
+msgstr "集合ボックス"
+
+#. create_update
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:2
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:create_update"
+msgid "Add/Update Feedback File"
+msgstr "フィードバックファイルを追加または更新"
+
+#. feedback_instructions
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:3
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:feedback_instructions"
+msgid "Instructions:"
+msgstr "手順:"
+
+#. feedback_first
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:4
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:feedback_first"
+msgid "Your feedback file must be saved in .csv format. "
+msgstr "フィードバックファイルは .csv に保存されなければなりません．"
+
+#. feedback_second
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:5
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:feedback_second"
+msgid "The first column of your file must contain individual usernames."
+msgstr "ファイルの最初の列には個々のユーザ名がなければなりません．"
+
+#. feedback_third
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:6
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:feedback_third"
+msgid "The first row of your file must contain headings."
+msgstr "ファイルの最初の行にはヘッダ情報がなければなりません．"
+
+#. release
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:7
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:release"
+msgid "Release feedback to participants?"
+msgstr "参加者にフィードバックを公開しますか?"
+
+#. yes
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:8
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:yes"
+msgid "Yes"
+msgstr "はい"
+
+#. no
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:9
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:no"
+msgid "No"
+msgstr "いいえ"
+
+#. released
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:10
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:released"
+msgid "Released"
+msgstr "公開済み"
+
+#. missing_title
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:11
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:missing_title"
+msgid "Alert: A title is required."
+msgstr "警告: タイトルが必要です．"
+
+#. missing_csv
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:12
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:missing_csv"
+msgid "Alert: Please choose a file to post."
+msgstr "警告: ポストするファイルを選択してください．"
+
+#. invalid_ext
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:13
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:invalid_ext"
+msgid ""
+"Alert: The file \"{0}\" that you uploaded is not a valid file type. Please "
+"make sure your file is saved as a *.csv file and try again."
+msgstr "警告: アップロードしたファイル「{0}」は有効なファイルタイプではありません．*.csv ファイルとして保存されているか確認し，再度試してください．"
+
+#. duplicate_title
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:14
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:duplicate_title"
+msgid "Alert: That title is already in use."
+msgstr "警告: そのタイトルはすでに使用されています．"
+
+#. title_too_long
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:15
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title_too_long"
+msgid ""
+"Alert: The title contains {0} characters. Your title may not exceed {1} "
+"characters."
+msgstr "警告: タイトルは {0} 文字あります．タイトルは半角英数字で {1} 文字を越えることはできません．"
+
+#. choose_username
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:16
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:choose_username"
+msgid "Select a Participant:"
+msgstr "参加者を選択:"
+
+#. has_headers
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:17
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:has_headers"
+msgid "Feedback has a header row"
+msgstr "フィードバックにヘッダ行があります"
+
+#. has_students
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:18
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:has_students"
+msgid "This feedback is for {0} student(s)."
+msgstr "このフィードバックは {0} 人の学生用です．"
+
+#. title_verify
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:19
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title_verify"
+msgid "Verify Upload"
+msgstr "アップロードを検証"
+
+#. just_uploaded
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:20
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:just_uploaded"
+msgid "You have just uploaded a feedback or template file."
+msgstr "フィードバックまたはテンプレートファイルがアップロードされました．"
+
+#. first_record
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:21
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:first_record"
+msgid "This is how the first participant record appears."
+msgstr "最初の参加者の記録はこのように表示されます．"
+
+#. if_not_correct
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:22
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:if_not_correct"
+msgid ""
+"If it is not correct, click the Back button, make changes to your text file,"
+" and upload it again."
+msgstr "正しくなければ，「戻る」ボタンをクリックし，テキストファイルに変更を加え，再度アップロードします．"
+
+#. view_student
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:23
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:view_student"
+msgid "View Participant"
+msgstr "参加者を表示"
+
+#. perm_error
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:24
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:perm_error"
+msgid "You do not have permission for this action."
+msgstr "このアクションに対する権限がありません．"
+
+#. gradebook_titles
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:25
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_titles"
+msgid "Title"
+msgstr "タイトル"
+
+#. gradebook_choosefile
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:26
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_choosefile"
+msgid "Choose a CSV file or URL from Resources"
+msgstr "リソースからCSVファイルあるいはURLを選択して下さい．"
+
+#. gradebook_feedbackavail
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:27
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_feedbackavail"
+msgid "Feedback Availability"
+msgstr "フィードバック有効期間"
+
+#. gradebook_creators
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:28
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_creators"
+msgid "Creator"
+msgstr "作成者"
+
+#. gradebook_lastmodifiedby
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:29
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_lastmodifiedby"
+msgid "Modified By"
+msgstr "修正者 "
+
+#. gradebook_lastmodified
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:30
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_lastmodified"
+msgid "Last Modified"
+msgstr "最終修正時刻"
+
+#. gradebook_view
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:31
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_view"
+msgid "view"
+msgstr "表示"
+
+#. gradebook_preview
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:32
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_preview"
+msgid "view participant"
+msgstr "参加者を表示"
+
+#. gradebook_update
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:33
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_update"
+msgid "update"
+msgstr "更新"
+
+#. gradebook_delete
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:34
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_delete"
+msgid "delete"
+msgstr "削除"
+
+#. gradebook_title
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:35
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:gradebook_title"
+msgid "Title"
+msgstr "タイトル"
+
+#. grade_view
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:36
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:grade_view"
+msgid "Your Feedback"
+msgstr "フィードバック"
+
+#. back
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:37
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:back"
+msgid "Back"
+msgstr "戻る"
+
+#. student_lastchecked
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:38
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:student_lastchecked"
+msgid "Last Checked"
+msgstr "最後の確認"
+
+#. delete_confirm
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:39
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:delete_confirm"
+msgid "Are you sure you want to delete this item?"
+msgstr "このアイテムを削除してもよろしいですか?"
+
+#. username
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:40
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:username"
+msgid "Username"
+msgstr "ユーザ名"
+
+#. title_view
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:41
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title_view"
+msgid "view"
+msgstr "表示"
+
+#. title_new
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:42
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title_new"
+msgid "create/update"
+msgstr "作成または更新"
+
+#. template
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:43
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:template"
+msgid "template"
+msgstr "テンプレート"
+
+#. csv_download
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:44
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:csv_download"
+msgid "download"
+msgstr "ダウンロード"
+
+#. title_list
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:45
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title_list"
+msgid "List"
+msgstr "一覧"
+
+#. title_edit
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:46
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title_edit"
+msgid "Edit"
+msgstr "編集"
+
+#. bar_save
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:47
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:bar_save"
+msgid "Save"
+msgstr "保存"
+
+#. bar_new
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:48
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:bar_new"
+msgid "Add"
+msgstr "追加"
+
+#. bar_post
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:49
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:bar_post"
+msgid "Post"
+msgstr "投稿"
+
+#. bar_delete
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:50
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:bar_delete"
+msgid "Delete"
+msgstr "削除"
+
+#. error_permission
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:51
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:error_permission"
+msgid "permission error {0}"
+msgstr "権限エラー {0} です"
+
+#. cancel
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:52
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. upload
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:53
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:upload"
+msgid "Upload File"
+msgstr "アップロードファイル"
+
+#. select_participant
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:54
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:select_participant"
+msgid "No participant is selected."
+msgstr "参加者が選択されていません．"
+
+#. missing_single_username
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:55
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:missing_single_username"
+msgid "Alert: The following field does not contain a username: "
+msgstr "警告: 次のフィールドにユーザ名が含まれていません:"
+
+#. missing_mult_usernames
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:56
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:missing_mult_usernames"
+msgid "Alert: The following fields do not contain a username: "
+msgstr "警告: 次のフィールドにユーザ名が含まれていません:"
+
+#. missing_location
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:57
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:missing_location"
+msgid "Column 1, Row {0}"
+msgstr "第 1 列，第 {0} 行"
+
+#. missing_username_dir
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:58
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:missing_username_dir"
+msgid ""
+"To continue, you must first provide a username for all participants in the "
+"file."
+msgstr "続ける場合は，まず，ファイル中のすべての参加者についてユーザ名を指定しなければなりません．"
+
+#. single_invalid_username
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:59
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:single_invalid_username"
+msgid ""
+"Alert: The following username is not associated with a participant in this "
+"site: "
+msgstr "警告: 次のユーザ名はこのサイトの参加者に関連づけられていません:"
+
+#. mult_invalid_usernames
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:60
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:mult_invalid_usernames"
+msgid ""
+"Alert: The following usernames are not associated with participants in this "
+"site: "
+msgstr "警告: 次のユーザ名はこのサイトの参加者に関連づけられていません:"
+
+#. mult_invalid_usernames_dir
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:61
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:mult_invalid_usernames_dir"
+msgid ""
+"To continue, you must first add these participants to the site or remove the"
+" participants from the file. "
+msgstr "続ける場合は，まず，これらのサイト参加者を追加するか，ファイルから参加者を削除しなければなりません．"
+
+#. single_invalid_username_dir
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:62
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:single_invalid_username_dir"
+msgid ""
+"To continue, you must first add this participant to the site or remove the "
+"participant from the file. "
+msgstr "続ける場合は，まず，これらのサイト参加者を追加するか，ファイルから参加者を削除しなければなりません．"
+
+#. invalid_username
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:63
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:invalid_username"
+msgid "{0}"
+msgstr "{0}"
+
+#. single_duplicate_username
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:64
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:single_duplicate_username"
+msgid ""
+"Alert: The following username appears more than once in the uploaded file:"
+msgstr "警告: 次のユーザ名がアップロードされたファイルの中に1回以上出てきます:"
+
+#. mult_duplicate_usernames
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:65
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:mult_duplicate_usernames"
+msgid ""
+"Alert: The following usernames appear more than once in the uploaded file:"
+msgstr "警告: 次のユーザ名がアップロードされたファイルの中に1回以上出てきます:"
+
+#. duplicate_username
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:66
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:duplicate_username"
+msgid "{0}"
+msgstr "{0}"
+
+#. duplicate_username_dir
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:67
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:duplicate_username_dir"
+msgid ""
+"To continue, you must ensure there are no duplicate usernames in the file."
+msgstr "続ける場合は，ファイルの中でユーザ名が重複していないことを確認しなければなりません．"
+
+#. no_gradebooks
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:68
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:no_gradebooks"
+msgid "There are currently no items at this location."
+msgstr "この場所には現在，アイテムはありません．"
+
+#. no_gradebook_selected
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:69
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:no_gradebook_selected"
+msgid "Sorry, no gradebook currently selected."
+msgstr "申し訳ありません，現在，成績簿が選択されていません．"
+
+#. no_grades_for_user
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:70
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:no_grades_for_user"
+msgid "No grades for current user in gradebook {0}."
+msgstr "成績簿に現在のユーザに対する成績がありません． {0}."
+
+#. no_grades_in_gradebook
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:71
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:no_grades_in_gradebook"
+msgid "No grades exist in gradebook {0}."
+msgstr "成績簿に成績がありません {0}."
+
+#. blank_headings
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:72
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:blank_headings"
+msgid ""
+"Alert: The first row of your file must contain headings. The heading cannot "
+"be left blank."
+msgstr "警告: ファイルの第1列目にはヘッダ情報が含まれていなければなりません．ヘッダ情報は空にできません．"
+
+#. heading_too_long
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:73
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:heading_too_long"
+msgid ""
+"Alert: Each column heading in your uploaded file may not exceed {0} "
+"characters."
+msgstr "警告: アップロードしたファイルの各カラムヘッダは{0}文字を越えることはできません．"
+
+#. data_truncated_warning
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:74
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:data_truncated_warning"
+msgid ""
+"Some data in your uploaded file exceeded the {0} character limit and was "
+"truncated."
+msgstr "アップロードしたファイルに{0}文字制限を超えているものがありましたので打ち切られました．"
+
+#. title_label
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:75
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:title_label"
+msgid "Title:"
+msgstr "タイトル:"
+
+#. invalid_delim
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:76
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:invalid_delim"
+msgid "Alert: Please select a valid delimiter for your file.  "
+msgstr "警告: ファイルに対して有効な区切り文字を選択してください．"
+
+#. template_too_long
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:77
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:template_too_long"
+msgid ""
+"Alert: The uploaded template file contains {0} characters. Your template "
+"file may not exceed {1} characters."
+msgstr "警告: 阿婦ロードされたテンプレートファイルには {0} 文字あります．テンプレートファイルは半角英数字で {1} 文字を越えることはできません．"
+
+#. sort_title_asc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:78
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_title_asc"
+msgid "Sort by Title ascending"
+msgstr "タイトルで昇順にソート"
+
+#. sort_title_desc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:79
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_title_desc"
+msgid "Sort by Title descending"
+msgstr "タイトルで降順にソート"
+
+#. sort_creator_asc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:80
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_creator_asc"
+msgid "Sort by Creator ascending"
+msgstr "作成者で昇順にソート"
+
+#. sort_creator_desc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:81
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_creator_desc"
+msgid "Sort by Creator descending"
+msgstr "作成者で降順にソート"
+
+#. sort_mod_by_asc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:82
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_mod_by_asc"
+msgid "Sort by Modified By ascending"
+msgstr "修正者で昇順にソート"
+
+#. sort_mod_by_desc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:83
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_mod_by_desc"
+msgid "Sort by Modified By descending"
+msgstr "修正者で降順にソート"
+
+#. sort_mod_date_asc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:84
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_mod_date_asc"
+msgid "Sort by Last Modified Date ascending"
+msgstr "最終修正日時で昇順にソート"
+
+#. sort_mod_date_desc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:85
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_mod_date_desc"
+msgid "Sort by Last Modified Date descending"
+msgstr "最終修正日時で降順にソート"
+
+#. sort_released_asc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:86
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_released_asc"
+msgid "Sort by Release Status ascending"
+msgstr "リリース状態で昇順にソート"
+
+#. sort_released_desc
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:87
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_released_desc"
+msgid "Sort by Release Status descending"
+msgstr "リリース状態で降順にソート"
+
+#. sort_title
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:88
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_title"
+msgid "Sort by Title"
+msgstr "タイトルでソート"
+
+#. sort_creator
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:89
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_creator"
+msgid "Sort by Creator"
+msgstr "作成者でソート"
+
+#. sort_mod_by
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:90
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_mod_by"
+msgid "Sort by Modified By"
+msgstr "修正者でソート"
+
+#. sort_mod_date
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:91
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_mod_date"
+msgid "Sort by Last Modified Date"
+msgstr "最終修正日時でソート"
+
+#. sort_released
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:92
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:sort_released"
+msgid "Sort by Release Status"
+msgstr "リリース状態でソート"
+
+#. upload_file_size_error
+#: postem/postem-app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:93
+msgctxt ""
+"postem/postem-"
+"app/src/bundle/org/sakaiproject/tool/postem/bundle/Messages.properties:upload_file_size_error"
+msgid ""
+"The uploaded file is too large. You may not upload a file greater than {0} "
+"MB."
+msgstr "アップロードされたファイルが大き過ぎます．{0} MB を超えるファイルをアップロードすることはできません．"

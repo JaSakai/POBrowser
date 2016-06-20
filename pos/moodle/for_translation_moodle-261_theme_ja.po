@@ -1,0 +1,2206 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:37+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. choosereadme
+#: theme/afterburner/lang/en/theme_afterburner.php:1
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"> <div class=\"theme_screenshot\">\n"
+"\n"
+"  <h2>Afterburner</h2>\n"
+"  <img src=\"afterburner/pix/screenshot.jpg\" />\n"
+"\n"
+"  <h3>Theme Discussion Forum:</h3>\n"
+"  <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p>\n"
+"\n"
+"  <h3>Theme Credits</h3>\n"
+"  <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p>\n"
+"\n"
+"  <h3>Theme Documentation:</h3>\n"
+"  <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n"
+" </div>\n"
+" <div class=\"theme_description\">\n"
+"  <h2>About</h2>\n"
+"  <p>Afterburner is a three-column, fluid-width theme coded for Moodle 2.0. It makes use of custom menus that appear below the site title on every page. An added function, which allows users to login and logout, has now been integrated into the custom menu for this theme.</p>\n"
+"  <h2>Parents</h2>\n"
+"  <p>This theme is built on Base, a parent theme included in the Moodle core. If you wish to modify aspects of this theme, beyond the settings offered, we advise creating a new theme using this theme and Base theme as parent themes, so any updates to these parent themes, in the core, will find their way into your new theme.</p>\n"
+"  <h2>Credits</h2>\n"
+"  <p>This design was originally created for Moodle 1.9 by Patrick Malley of NewSchool Learning (www.newschoollearning.com)from an original design by Rocket Themes (www.rockettheme.com) before being ported to Moodle 2.0 by Mary Evans of NewSchool Learning (contact@newschoollearning.com).</p>\n"
+"  <h2>License</h2>\n"
+"  <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</p>\n"
+" </div>\n"
+"</div>"
+msgstr "<div class=\"clearfix\"> <div class=\"theme_screenshot\">\n\n <h2>Afterburner</h2>\n <img src=\"afterburner/pix/screenshot.jpg\" />\n\n <h3>Theme Discussion Forum:</h3>\n <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p>\n\n <h3>Theme Credits</h3>\n <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p>\n\n <h3>Theme Documentation:</h3>\n <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n </div>\n <div class=\"theme_description\">\n <h2>About</h2>\n <p>Afterburner is a three-column, fluid-width theme coded for Moodle 2.0. It makes use of custom menus that appear below the site title on every page. An added function, which allows users to login and logout, has now been integrated into the custom menu for this theme.</p>\n\n <h2>Parents</h2>\n <p>This theme is built on Base, a parent theme included in the Moodle core. If you wish to modify aspects of this theme, beyond the settings offered, we advise creating a new theme using this theme and Base theme as parent themes, so any updates to these parent themes, in the core, will find their way into your new theme.</p>\n\n <h2>Credits</h2>\n <p>This design was originally created for Moodle 1.9 by Patrick Malley of NewSchool Learning (www.newschoollearning.com)from an original design by Rocket Themes (www.rockettheme.com) before being ported to Moodle 2.0 by Mary Evans of NewSchool Learning (contact@newschoollearning.com).</p>\n\n <h2>License</h2>\n <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</p>\n </div>\n </div>"
+
+#. configtitle
+#: theme/afterburner/lang/en/theme_afterburner.php:2
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:configtitle"
+msgid "Afterburner Custom Settings"
+msgstr "Afterburnerカスタム設定"
+
+#. customcss
+#: theme/afterburner/lang/en/theme_afterburner.php:3
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/afterburner/lang/en/theme_afterburner.php:4
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:customcssdesc"
+msgid ""
+"Whatever CSS rules you add to this textarea will be reflected in every page,"
+" making for easier customization of this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. footnote
+#: theme/afterburner/lang/en/theme_afterburner.php:5
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:footnote"
+msgid "Footnote"
+msgstr "フットノート"
+
+#. footnotedesc
+#: theme/afterburner/lang/en/theme_afterburner.php:6
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:footnotedesc"
+msgid ""
+"Whatever you add to this textarea will be displayed in the footer of every "
+"page."
+msgstr "このテキストエリアのコンテンツは、すべてのページのフッタに表示されます。"
+
+#. logo
+#: theme/afterburner/lang/en/theme_afterburner.php:7
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:logo"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. logodesc
+#: theme/afterburner/lang/en/theme_afterburner.php:8
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:logodesc"
+msgid ""
+"Please add your custom logo if you want to replace the default logo for this"
+" theme.<br />For your information, the default logo is a JPG image 320px "
+"(wide) by 75px (high)"
+msgstr "このテーマのデフォルトロゴと置換したい場合、あなたのカスタムロゴを追加してください。<br />ご参考までに、デフォルトロゴイメージの幅は320px、高さは75pxのJPGイメージです。"
+
+#. pluginname
+#: theme/afterburner/lang/en/theme_afterburner.php:9
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:pluginname"
+msgid "Afterburner"
+msgstr "Afterburner"
+
+#. region-side-post
+#: theme/afterburner/lang/en/theme_afterburner.php:10
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/afterburner/lang/en/theme_afterburner.php:11
+msgctxt "theme/afterburner/lang/en/theme_afterburner.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/anomaly/lang/en/theme_anomaly.php:1
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Anomaly</h2><img"
+" src=\"anomaly/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Anomaly is a fluid-width, "
+"three-column Moodle 2.0 theme with rounded corners. <h2>Tweaks</h2><p>This "
+"theme is built upon the Base theme inside the Moodle core. If you want to "
+"modify this theme, we recommend that you first duplicate it, then rename it "
+"before making your changes. This will prevent your customized theme from "
+"being overwritten by future Moodle upgrades, and you'll still have the "
+"original files if you make a mess. More information on modifying themes can "
+"be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This"
+" theme was originally designed for Moodle 1.9 by Patrick Malley. It was then"
+" coded for 2.0 and is maintained by Sam Hemelryk at Moodle HQ. He can be "
+"contacted at sam@moodle.com.</p><h2>License</h2><p>This, and all other "
+"themes included in the Moodle core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Anomaly</h2><img src=\"anomaly/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Anomaly is a fluid-width, three-column Moodle 2.0 theme with rounded corners. <h2>Tweaks</h2><p>This theme is built upon the Base theme inside the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This theme was originally designed for Moodle 1.9 by Patrick Malley. It was then coded for 2.0 and is maintained by Sam Hemelryk at Moodle HQ. He can be contacted at sam@moodle.com.</p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. configtitle
+#: theme/anomaly/lang/en/theme_anomaly.php:2
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:configtitle"
+msgid "Anomaly Theme"
+msgstr "Anomalyテーマ"
+
+#. customcss
+#: theme/anomaly/lang/en/theme_anomaly.php:3
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/anomaly/lang/en/theme_anomaly.php:4
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:customcssdesc"
+msgid ""
+"Whatever CSS rules you add to this Custom CSS box will be reflected in every"
+" page, making for easier customization of this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. pluginname
+#: theme/anomaly/lang/en/theme_anomaly.php:5
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:pluginname"
+msgid "Anomaly"
+msgstr "Anomaly"
+
+#. region-side-post
+#: theme/anomaly/lang/en/theme_anomaly.php:6
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/anomaly/lang/en/theme_anomaly.php:7
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. tagline
+#: theme/anomaly/lang/en/theme_anomaly.php:8
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:tagline"
+msgid "Tagline"
+msgstr "タグライン"
+
+#. taglinedesc
+#: theme/anomaly/lang/en/theme_anomaly.php:9
+msgctxt "theme/anomaly/lang/en/theme_anomaly.php:taglinedesc"
+msgid ""
+"Whatever text you add to this Tagline text box will be displayed below the "
+"heading on the front page of your Moodle site only."
+msgstr "このタグラインテキストボックスに入力したテキストは、あなたのMoodleサイトのみのフロントページヘッディングの下に表示されます。"
+
+#. choosereadme
+#: theme/arialist/lang/en/theme_arialist.php:1
+msgctxt "theme/arialist/lang/en/theme_arialist.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\">\t<div class=\"theme_screenshot\">\n"
+"\n"
+"\t\t<h2>Arialist</h2>\n"
+"\t\t<img src=\"arialist/pix/screenshot.png\" />\n"
+"\n"
+"\t\t<h3>Theme Discussion Forum:</h3>\n"
+"\t\t<p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p>\n"
+"\n"
+"\t\t<h3>Theme Credits</h3>\n"
+"\t\t<p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p>\n"
+"\n"
+"\t\t<h3>Theme Documentation:</h3>\n"
+"\t\t<p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p>\n"
+"\n"
+"\t\t<h3>Report a bug:</h3>\n"
+"\t\t<p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n"
+"\t</div>\n"
+"\n"
+"\t<div class=\"theme_description\">\n"
+"\n"
+"\t\t<h2>About</h2>\n"
+"\t\t<p>Arialist is a very clean and simple two-column, fluid-width theme for Moodle 2.0.</p>\n"
+"\n"
+"\t\t<h2>Tweaks</h2>\n"
+"\t\t<p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p>\n"
+"\n"
+"\t<h2>Credits</h2>\n"
+"\t<p>This theme was coded and is maintained by Patrick Malley of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p>\n"
+"\n"
+"\t\t<h2>License</h2>\n"
+"\t\t<p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.\n"
+"\t</div>\n"
+"</div>"
+msgstr "<div class=\"clearfix\"> <div class=\"theme_screenshot\"> <h2>Arialist</h2> <img src=\"arialist/pix/screenshot.png\" /> <h3>Theme Discussion Forum:</h3> <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p> <h3>Theme Credits</h3> <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p> <h3>Theme Documentation:</h3> <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p> <h3>Report a bug:</h3> <p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p> </div> <div class=\"theme_description\"> <h2>About</h2> <p>Arialist is a very clean and simple two-column, fluid-width theme for Moodle 2.0.</p> <h2>Tweaks</h2> <p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p> <h2>Credits</h2> <p>This theme was coded and is maintained by Patrick Malley of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p> <h2>License</h2> <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>. </div> </div>"
+
+#. configtitle
+#: theme/arialist/lang/en/theme_arialist.php:2
+msgctxt "theme/arialist/lang/en/theme_arialist.php:configtitle"
+msgid "Arialist settings"
+msgstr "Arialist設定"
+
+#. customcss
+#: theme/arialist/lang/en/theme_arialist.php:3
+msgctxt "theme/arialist/lang/en/theme_arialist.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/arialist/lang/en/theme_arialist.php:4
+msgctxt "theme/arialist/lang/en/theme_arialist.php:customcssdesc"
+msgid ""
+"Any CSS you enter here will be added to every page allowing your to easily "
+"customise this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. linkcolor
+#: theme/arialist/lang/en/theme_arialist.php:5
+msgctxt "theme/arialist/lang/en/theme_arialist.php:linkcolor"
+msgid "Link colour"
+msgstr "リンク色"
+
+#. linkcolordesc
+#: theme/arialist/lang/en/theme_arialist.php:6
+msgctxt "theme/arialist/lang/en/theme_arialist.php:linkcolordesc"
+msgid "This sets the link colour for the theme."
+msgstr "ここではテーマのリンク色を設定します。"
+
+#. logo
+#: theme/arialist/lang/en/theme_arialist.php:7
+msgctxt "theme/arialist/lang/en/theme_arialist.php:logo"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. logodesc
+#: theme/arialist/lang/en/theme_arialist.php:8
+msgctxt "theme/arialist/lang/en/theme_arialist.php:logodesc"
+msgid ""
+"Enter the URL to an image to use as the logo for this site. Should be "
+"http://www.yoursite.com/path/to/logo.png"
+msgstr "このサイトのロゴとして使用されるイメージのURIを入力してください。次のように入力します: http://www.yoursite.com/path/to/logo.png"
+
+#. pluginname
+#: theme/arialist/lang/en/theme_arialist.php:9
+msgctxt "theme/arialist/lang/en/theme_arialist.php:pluginname"
+msgid "Arialist"
+msgstr "Arialist"
+
+#. region-side-post
+#: theme/arialist/lang/en/theme_arialist.php:10
+msgctxt "theme/arialist/lang/en/theme_arialist.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/arialist/lang/en/theme_arialist.php:11
+msgctxt "theme/arialist/lang/en/theme_arialist.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. regionwidth
+#: theme/arialist/lang/en/theme_arialist.php:12
+msgctxt "theme/arialist/lang/en/theme_arialist.php:regionwidth"
+msgid "Column width"
+msgstr "カラム幅"
+
+#. regionwidthdesc
+#: theme/arialist/lang/en/theme_arialist.php:13
+msgctxt "theme/arialist/lang/en/theme_arialist.php:regionwidthdesc"
+msgid ""
+"This sets the width of the two block regions that form the left and right "
+"columns."
+msgstr "ここでは左右のカラムを形成するブロックの幅を設定します。"
+
+#. tagline
+#: theme/arialist/lang/en/theme_arialist.php:14
+msgctxt "theme/arialist/lang/en/theme_arialist.php:tagline"
+msgid "Tagline"
+msgstr "タグライン"
+
+#. taglinedesc
+#: theme/arialist/lang/en/theme_arialist.php:15
+msgctxt "theme/arialist/lang/en/theme_arialist.php:taglinedesc"
+msgid ""
+"A short tagline to be displayed under the site name on the front page.<br "
+"/><em>(Will not be displayed with logo.)</em>"
+msgstr "フロントページのサイト名下部に短いタグラインが表示されます。<br />(ロゴは表示されません)"
+
+#. choosereadme
+#: theme/base/lang/en/theme_base.php:1
+msgctxt "theme/base/lang/en/theme_base.php:choosereadme"
+msgid ""
+"Base is a special minimalist theme with only basic layout. It is intended as"
+" a starting point for other themes to build upon.  It is not recommend to "
+"actually choose this theme for production sites!"
+msgstr "Baseは基本的なレイアウトのみ含む、特別な最小限のテーマです。これは他のテーマを開発するための出発点であることを意図されています。実運用サイトにはこのテーマの選択をお勧めできません!"
+
+#. pluginname
+#: theme/base/lang/en/theme_base.php:2
+msgctxt "theme/base/lang/en/theme_base.php:pluginname"
+msgid "Base"
+msgstr "Base"
+
+#. region-side-post
+#: theme/base/lang/en/theme_base.php:3
+msgctxt "theme/base/lang/en/theme_base.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/base/lang/en/theme_base.php:4
+msgctxt "theme/base/lang/en/theme_base.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/binarius/lang/en/theme_binarius.php:1
+msgctxt "theme/binarius/lang/en/theme_binarius.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div "
+"class=\"theme_screenshot\"><h2>Binarius</h2><img "
+"src=\"binarius/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h3>About</h3><p>Binarius is a two-column, "
+"fluid-width theme for Moodle 2.0. <h3>Tweaks</h3><p>This theme is built upon"
+" both Base and Canvas, two parent themes included in the Moodle core. If you"
+" want to modify this theme, we recommend that you first duplicate it, then "
+"rename it before making your changes. This will prevent your customized "
+"theme from being overwritten by future Moodle upgrades, and you'll still "
+"have the original files if you make a mess. More information on modifying "
+"themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h3>Credits</h3><p>This"
+" theme was coded and is maintained by Patrick Malley of NewSchool Learning. "
+"He can be contacted by email at "
+"contact@newschoollearning.com.</p><h3>License</h3><p>This, and all other "
+"themes included in the Moodle core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Binarius</h2><img src=\"binarius/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h3>About</h3><p>Binarius is a two-column, fluid-width theme for Moodle 2.0. <h3>Tweaks</h3><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h3>Credits</h3><p>This theme was coded and is maintained by Patrick Malley of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com.</p><h3>License</h3><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. pluginname
+#: theme/binarius/lang/en/theme_binarius.php:2
+msgctxt "theme/binarius/lang/en/theme_binarius.php:pluginname"
+msgid "Binarius"
+msgstr "Binarius"
+
+#. region-side-post
+#: theme/binarius/lang/en/theme_binarius.php:3
+msgctxt "theme/binarius/lang/en/theme_binarius.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/binarius/lang/en/theme_binarius.php:4
+msgctxt "theme/binarius/lang/en/theme_binarius.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/bootstrapbase/lang/en/theme_bootstrapbase.php:1
+msgctxt "theme/bootstrapbase/lang/en/theme_bootstrapbase.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Bootstrap Base</h2><img class=img-polaroid src=\"bootstrap/pix/screenshot.jpg\" />\n"
+"<h3>Theme Credits</h3>\n"
+"<p>\n"
+"<h3>Moodle twitter Bootstrap theme</h3>\n"
+"<p>\n"
+"This theme is based on the Bootstrap CSS framework, version 2.3\n"
+"</p>\n"
+"<p>\n"
+"<a href=\"http://getbootstrap.com\">http://getbootstrap.com</a>\n"
+"</p>\n"
+"<p>\n"
+"This is a GPL theme that is available on GitHub:\n"
+"</p>\n"
+"<p>\n"
+"<a href=https://github.com/bmbrands/theme_bootstrap\">https://github.com/bmbrands/theme_bootstrap</a>\n"
+"</p>\n"
+"<p>\n"
+"Feel free to modify / improve / share\n"
+"</p>\n"
+"<p>\n"
+"This theme has been created with the help of:\n"
+"Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans\n"
+"</p>\n"
+"<p>\n"
+"Authors: Bas Brands, David Scotson<br>\n"
+"Contact: bas@sonsbeekmedia.nl<br>\n"
+"Website: <a href=\"http://www.basbrands.nl\">www.basbrands.nl</a><br>\n"
+"</p>\n"
+"\n"
+"<h3>Reporting bugs</h3>\n"
+"\n"
+"<p>You can report bugs on the <a href=\"https://github.com/bmbrands/theme_bootstrap/issues\">github page</a> for this theme or\n"
+"on the Moodle tracker</p>\n"
+"\n"
+"<h3>More information</h3>\n"
+"<ul>\n"
+"<li><a href=\"https://github.com/bmbrands/theme_bootstrap/wiki\">Wiki page for this theme</a>\n"
+"<li><a href=\"http://docs.moodle.org/23/en/bootstrap-Theme\">Bootstrap on Moodle docs</a></li>\n"
+"<li><a href=\"http://theming.sonsbeekmedia.nl/\">Theme testing playground </a></li>\n"
+"</ul>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Bootstrap Base</h2><img class=img-polaroid src=\"bootstrap/pix/screenshot.jpg\" />\n<h3>Theme Credits</h3>\n<p>\n<h3>Moodle twitter Bootstrap theme</h3>\n<p>\nThis theme is based on the Bootstrap CSS framework, version 2.3\n</p>\n<p>\n<a href=\"http://getbootstrap.com\">http://getbootstrap.com</a>\n</p>\n<p>\nThis is a GPL theme that is available on GitHub:\n</p>\n<p>\n<a href=https://github.com/bmbrands/theme_bootstrap\">https://github.com/bmbrands/theme_bootstrap</a>\n</p>\n<p>\nFeel free to modify / improve / share\n</p>\n<p>\nThis theme has been created with the help of:\nStuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans\n</p>\n<p>\nAuthors: Bas Brands, David Scotson<br>\nContact: bas@sonsbeekmedia.nl<br>\nWebsite: <a href=\"http://www.basbrands.nl\">www.basbrands.nl</a><br>\n</p>\n\n<h3>Reporting bugs</h3>\n\n<p>You can report bugs on the <a href=\"https://github.com/bmbrands/theme_bootstrap/issues\">github page</a> for this theme or\non the Moodle tracker</p>\n\n<h3>More information</h3>\n<ul>\n<li><a href=\"https://github.com/bmbrands/theme_bootstrap/wiki\">Wiki page for this theme</a>\n<li><a href=\"http://docs.moodle.org/23/en/bootstrap-Theme\">Bootstrap on Moodle docs</a></li>\n<li><a href=\"http://theming.sonsbeekmedia.nl/\">Theme testing playground\n</a></li>\n</ul>"
+
+#. pluginname
+#: theme/bootstrapbase/lang/en/theme_bootstrapbase.php:2
+msgctxt "theme/bootstrapbase/lang/en/theme_bootstrapbase.php:pluginname"
+msgid "Bootstrap Base"
+msgstr "Bootstrap Base"
+
+#. region-side-post
+#: theme/bootstrapbase/lang/en/theme_bootstrapbase.php:3
+msgctxt "theme/bootstrapbase/lang/en/theme_bootstrapbase.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/bootstrapbase/lang/en/theme_bootstrapbase.php:4
+msgctxt "theme/bootstrapbase/lang/en/theme_bootstrapbase.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/boxxie/lang/en/theme_boxxie.php:1
+msgctxt "theme/boxxie/lang/en/theme_boxxie.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Boxxie</h2><img "
+"src=\"boxxie/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Boxxie is a fluid-width, "
+"three-column theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme is built upon"
+" both Base and Canvas, two parent themes included in the Moodle core. If you"
+" want to modify this theme, we recommend that you first duplicate it then "
+"rename it before making your changes. This will prevent your customized "
+"theme from being overwritten by future Moodle upgrades, and you'll still "
+"have the original files if you make a mess. More information on modifying "
+"themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This"
+" theme was coded and is maintained by Patrick Malley. He can be contacted by"
+" email at contact@newschoollearning.com. </p><h3>License</h3><p>This, and "
+"all other themes included in the Moodle core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Boxxie</h2><img src=\"boxxie/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Boxxie is a fluid-width, three-column theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This theme was coded and is maintained by Patrick Malley. He can be contacted by email at contact@newschoollearning.com. </p> <h3>License</h3><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. pluginname
+#: theme/boxxie/lang/en/theme_boxxie.php:2
+msgctxt "theme/boxxie/lang/en/theme_boxxie.php:pluginname"
+msgid "Boxxie"
+msgstr "Boxxie"
+
+#. region-side-post
+#: theme/boxxie/lang/en/theme_boxxie.php:3
+msgctxt "theme/boxxie/lang/en/theme_boxxie.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/boxxie/lang/en/theme_boxxie.php:4
+msgctxt "theme/boxxie/lang/en/theme_boxxie.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/brick/lang/en/theme_brick.php:1
+msgctxt "theme/brick/lang/en/theme_brick.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"> <div class=\"theme_screenshot\"> <h2 style"
+"=\"padding-top:0.5em;\">Brick</h2> <img src=\"brick/pix/screenshot.png\" /> "
+"<h3>Theme Discussion Forum:</h3> <p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p>"
+" <h3>Theme Documentation:</h3> <p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p>"
+" <h3>Theme Credits</h3> <p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p>"
+" <h3>Report a bug:</h3> <p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p> </div> "
+"<div class=\"theme_description\"> <h2>About</h2> <p>Brick is a two-column, "
+"fluid-width theme for Moodle 2.0. You can change the theme colour scheme via"
+" the theme settings page.</p> <h2>Tweaks</h2> <p>This theme is built upon "
+"both Base and Canvas, two parent themes included in the Moodle core. If you "
+"wish to modify aspects of this theme beyond the settings offered, we advise "
+"creating a new theme that uses this theme, Base, and Canvas all as parents. "
+"This will ensure updates to any of those themes in the core will find their "
+"way into your new theme.</p> <h2>Credits</h2> <p>This theme was coded and is"
+" maintained by John Stabinger of NewSchool Learning. He can be contacted by "
+"email at contact@newschoollearning.com. </p> <h2>License</h2> <p>This, and "
+"all other themes included in the Moodle core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</p> </div> </div>"
+msgstr "<div class=\"clearfix\"> <div class=\"theme_screenshot\"> <h2 style=\"padding-top:0.5em;\">Brick</h2> <img src=\"brick/pix/screenshot.png\" /> <h3>Theme Discussion Forum:</h3> <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p> <h3>Theme Documentation:</h3> <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p> <h3>Theme Credits</h3> <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p> <h3>Report a bug:</h3> <p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p> </div> <div class=\"theme_description\"> <h2>About</h2> <p>Brick is a two-column, fluid-width theme for Moodle 2.0. You can change the theme colour scheme via the theme settings page.</p> <h2>Tweaks</h2> <p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you wish to modify aspects of this theme beyond the settings offered, we advise creating a new theme that uses this theme, Base, and Canvas all as parents. This will ensure updates to any of those themes in the core will find their way into your new theme.</p> <h2>Credits</h2> <p>This theme was coded and is maintained by John Stabinger of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p> <h2>License</h2> <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</p> </div> </div>"
+
+#. configtitle
+#: theme/brick/lang/en/theme_brick.php:2
+msgctxt "theme/brick/lang/en/theme_brick.php:configtitle"
+msgid "Brick settings"
+msgstr "Brick設定"
+
+#. headingcolor
+#: theme/brick/lang/en/theme_brick.php:3
+msgctxt "theme/brick/lang/en/theme_brick.php:headingcolor"
+msgid "Heading colour"
+msgstr "ヘッディングカラー"
+
+#. headingcolordesc
+#: theme/brick/lang/en/theme_brick.php:4
+msgctxt "theme/brick/lang/en/theme_brick.php:headingcolordesc"
+msgid ""
+"This is the heading colour for large headings (site news, my courses) and "
+"other headings."
+msgstr "大きな見出し (サイトニュース、マイコース) および他のヘッディングカラー (見出し色) です。"
+
+#. linkcolor
+#: theme/brick/lang/en/theme_brick.php:5
+msgctxt "theme/brick/lang/en/theme_brick.php:linkcolor"
+msgid "link"
+msgstr "リンク色"
+
+#. linkcolordesc
+#: theme/brick/lang/en/theme_brick.php:6
+msgctxt "theme/brick/lang/en/theme_brick.php:linkcolordesc"
+msgid "Set the colour of links in the theme. Use html hex code."
+msgstr "テーマ内のリンク色を設定します。HTML16進コードを使用してください。"
+
+#. linkhover
+#: theme/brick/lang/en/theme_brick.php:7
+msgctxt "theme/brick/lang/en/theme_brick.php:linkhover"
+msgid "linkhover"
+msgstr "リンクホバー"
+
+#. linkhoverdesc
+#: theme/brick/lang/en/theme_brick.php:8
+msgctxt "theme/brick/lang/en/theme_brick.php:linkhoverdesc"
+msgid "Set the colour of links (on hover) in the theme. Use html hex code."
+msgstr "テーマ内のリンク色 (ホバー時) を設定します。HTML16進コードを使用してください。"
+
+#. logo
+#: theme/brick/lang/en/theme_brick.php:9
+msgctxt "theme/brick/lang/en/theme_brick.php:logo"
+msgid "logo"
+msgstr "ロゴ"
+
+#. logodesc
+#: theme/brick/lang/en/theme_brick.php:10
+msgctxt "theme/brick/lang/en/theme_brick.php:logodesc"
+msgid ""
+"Change the logo of this theme by entering the URL to a new one (i.e., "
+"http://www.somesite/animage.png). As a reference, the default logo is 265px "
+"wide by 60px high. A transparent PNG will work best."
+msgstr "新しいロゴのURIを入力することで、このテーマのロゴを変更します (例 http://www.somesite/animage.png)。ご参考までに、デフォルトロゴのサイズは幅265px、高さ60pxです。 透過的なpngが最適です。"
+
+#. maincolor
+#: theme/brick/lang/en/theme_brick.php:11
+msgctxt "theme/brick/lang/en/theme_brick.php:maincolor"
+msgid "Main colour"
+msgstr "メインカラー"
+
+#. maincolordesc
+#: theme/brick/lang/en/theme_brick.php:12
+msgctxt "theme/brick/lang/en/theme_brick.php:maincolordesc"
+msgid ""
+"Set the colour hex code of the header, dock bar and other areas. Looks best "
+"as a dark or saturated colour."
+msgstr "ヘッダ、ドックバーおよび他の場所の色を16進で設定します。暗色または飽和色が見栄えよく表示されます。"
+
+#. maincolorlink
+#: theme/brick/lang/en/theme_brick.php:13
+msgctxt "theme/brick/lang/en/theme_brick.php:maincolorlink"
+msgid "Main colour link"
+msgstr "メインカラーリンク"
+
+#. maincolorlinkdesc
+#: theme/brick/lang/en/theme_brick.php:14
+msgctxt "theme/brick/lang/en/theme_brick.php:maincolorlinkdesc"
+msgid "Link colour for menu bar and block titles."
+msgstr "メニューバーおよびブロックタイトルのリンク色です。"
+
+#. pluginname
+#: theme/brick/lang/en/theme_brick.php:15
+msgctxt "theme/brick/lang/en/theme_brick.php:pluginname"
+msgid "Brick"
+msgstr "Brick"
+
+#. region-side-post
+#: theme/brick/lang/en/theme_brick.php:16
+msgctxt "theme/brick/lang/en/theme_brick.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/brick/lang/en/theme_brick.php:17
+msgctxt "theme/brick/lang/en/theme_brick.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/canvas/lang/en/theme_canvas.php:1
+msgctxt "theme/canvas/lang/en/theme_canvas.php:choosereadme"
+msgid "Canvas, a Moodle 2.0 parent theme by Patrick Malley."
+msgstr "Canvas, a Moodle 2.0 parent theme by Patrick Malley."
+
+#. pluginname
+#: theme/canvas/lang/en/theme_canvas.php:2
+msgctxt "theme/canvas/lang/en/theme_canvas.php:pluginname"
+msgid "Canvas"
+msgstr "キャンバス"
+
+#. region-side-post
+#: theme/canvas/lang/en/theme_canvas.php:3
+msgctxt "theme/canvas/lang/en/theme_canvas.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/canvas/lang/en/theme_canvas.php:4
+msgctxt "theme/canvas/lang/en/theme_canvas.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/clean/lang/en/theme_clean.php:1
+msgctxt "theme/clean/lang/en/theme_clean.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"well\">\n"
+"<h2>Clean</h2>\n"
+"<p><img class=img-polaroid src=\"clean/pix/screenshot.jpg\" /></p>\n"
+"</div>\n"
+"<div class=\"well\">\n"
+"<h3>About</h3>\n"
+"<p>Clean is a modified Moodle bootstrap theme which inherits styles and renderers from its parent theme.</p>\n"
+"<h3>Parents</h3>\n"
+"<p>This theme is based upon the Bootstrap theme, which was created for Moodle 2.5, with the help of:<br>\n"
+"Stuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>\n"
+"<h3>Theme Credits</h3>\n"
+"<p>Authors: Bas Brands, David Scotson, Mary Evans<br>\n"
+"Contact: bas@sonsbeekmedia.nl<br>\n"
+"Website: <a href=\"http://www.basbrands.nl\">www.basbrands.nl</a>\n"
+"</p>\n"
+"<h3>Report a bug:</h3>\n"
+"<p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n"
+"<h3>More information</h3>\n"
+"<p><a href=\"clean/README.txt\">How to copy and customise this theme.</a></p>\n"
+"</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"well\">\n<h2>Clean</h2>\n<p><img class=img-polaroid src=\"clean/pix/screenshot.jpg\" /></p>\n</div>\n<div class=\"well\">\n<h3>About</h3>\n<p>Clean is a modified Moodle bootstrap theme which inherits styles and renderers from its parent theme.</p>\n<h3>Parents</h3>\n<p>This theme is based upon the Bootstrap theme, which was created for Moodle 2.5, with the help of:<br>\nStuart Lamour, Mark Aberdour, Paul Hibbitts, Mary Evans.</p>\n<h3>Theme Credits</h3>\n<p>Authors: Bas Brands, David Scotson, Mary Evans<br> Contact: bas@sonsbeekmedia.nl<br>\nWebsite: <a href=\"http://www.basbrands.nl\">www.basbrands.nl</a> </p>\n<h3>Report a bug:</h3>\n<p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n<h3>More information</h3>\n<p><a href=\"clean/README.txt\">How to copy and customise this theme.</a></p> </div></div>"
+
+#. configtitle
+#: theme/clean/lang/en/theme_clean.php:2
+msgctxt "theme/clean/lang/en/theme_clean.php:configtitle"
+msgid "Clean"
+msgstr "Clean"
+
+#. customcss
+#: theme/clean/lang/en/theme_clean.php:3
+msgctxt "theme/clean/lang/en/theme_clean.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/clean/lang/en/theme_clean.php:4
+msgctxt "theme/clean/lang/en/theme_clean.php:customcssdesc"
+msgid ""
+"Whatever CSS rules you add to this textarea will be reflected in every page,"
+" making for easier customization of this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. footnote
+#: theme/clean/lang/en/theme_clean.php:5
+msgctxt "theme/clean/lang/en/theme_clean.php:footnote"
+msgid "Footnote"
+msgstr "フットノート"
+
+#. footnotedesc
+#: theme/clean/lang/en/theme_clean.php:6
+msgctxt "theme/clean/lang/en/theme_clean.php:footnotedesc"
+msgid ""
+"Whatever you add to this textarea will be displayed in the footer throughout"
+" your Moodle site."
+msgstr "このテキストエリアのコンテンツは、すべてのページのフッタに表示されます。"
+
+#. invert
+#: theme/clean/lang/en/theme_clean.php:7
+msgctxt "theme/clean/lang/en/theme_clean.php:invert"
+msgid "Invert navbar"
+msgstr "ナビゲーションバーを反転する"
+
+#. invertdesc
+#: theme/clean/lang/en/theme_clean.php:8
+msgctxt "theme/clean/lang/en/theme_clean.php:invertdesc"
+msgid ""
+"Swaps text and background for the navbar at the top of the page between "
+"black and white."
+msgstr "ページトップのナビゲーションバーのテキストおよび背景色を黒と白の間で入れ替えます。"
+
+#. logo
+#: theme/clean/lang/en/theme_clean.php:9
+msgctxt "theme/clean/lang/en/theme_clean.php:logo"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. logodesc
+#: theme/clean/lang/en/theme_clean.php:10
+msgctxt "theme/clean/lang/en/theme_clean.php:logodesc"
+msgid ""
+"Please upload your custom logo here if you want to add it to the header.<br>If the height of your logo is more than 75px add the following CSS rule to the Custom CSS box below.<br>\n"
+"a.logo {height: 100px;} or whatever height in pixels the logo is."
+msgstr "ヘッダに追加したい場合、あなたのカスタムロゴをここにアップロードしてください。<br />あなたのロゴの高さが75px以上の場合、以下のカスタムCSSボックスに下記のCSSルールを追加してください。<br />\na.logo {height: 100px;} またはロゴの高さをピクセルで記述します。"
+
+#. pluginname
+#: theme/clean/lang/en/theme_clean.php:11
+msgctxt "theme/clean/lang/en/theme_clean.php:pluginname"
+msgid "Clean"
+msgstr "Clean"
+
+#. region-side-post
+#: theme/clean/lang/en/theme_clean.php:12
+msgctxt "theme/clean/lang/en/theme_clean.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/clean/lang/en/theme_clean.php:13
+msgctxt "theme/clean/lang/en/theme_clean.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. blockcolumnwidth
+#: theme/formal_white/lang/en/theme_formal_white.php:1
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:blockcolumnwidth"
+msgid "Blocks column width"
+msgstr "ブロックカラム幅"
+
+#. blockcolumnwidthdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:2
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:blockcolumnwidthdesc"
+msgid ""
+"This sets the blocks column width for the theme. <strong>If width is lower "
+"than 200px (blockcolumnwidth-2*blockpadding), the calendar block is not able"
+" to fit.</strong>"
+msgstr "ここではブロックカラム幅を設定します。<strong>200px以下の幅 (blockcolumnwidth-2*blockpadding) を指定した場合、カレンダーブロックが正常に表示されません</strong>。"
+
+#. blockcontentbgc
+#: theme/formal_white/lang/en/theme_formal_white.php:3
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:blockcontentbgc"
+msgid "Blocks content background colour"
+msgstr "ブロックコンテンツ背景色"
+
+#. blockcontentbgcdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:4
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:blockcontentbgcdesc"
+msgid "This sets the blocks content background colour for the theme."
+msgstr "ここではテーマのブロックコンテンツ背景色を設定します。"
+
+#. blockpadding
+#: theme/formal_white/lang/en/theme_formal_white.php:5
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:blockpadding"
+msgid "Margin around blocks"
+msgstr "ブロック周囲のマージン"
+
+#. blockpaddingdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:6
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:blockpaddingdesc"
+msgid "This sets the margin between each block and the containing column."
+msgstr "ここではそれぞれのブロックおよび含まれるカラム間のマージンを設定します。"
+
+#. blueberry
+#: theme/formal_white/lang/en/theme_formal_white.php:7
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:blueberry"
+msgid "blueberry"
+msgstr "ブルーベリー"
+
+#. choosereadme
+#: theme/formal_white/lang/en/theme_formal_white.php:8
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\">    <div class=\"theme_screenshot\">\n"
+"        <h2>Formal White</h2>\n"
+"        <img src=\"formal_white/pix/screenshot.gif\" />\n"
+"\n"
+"        <h3>Theme Discussion Forum:</h3>\n"
+"        <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p>\n"
+"\n"
+"        <h3>Theme Credits</h3>\n"
+"        <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p>\n"
+"\n"
+"        <h3>Theme Documentation:</h3>\n"
+"        <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p>\n"
+"\n"
+"        <h3>Report a bug:</h3>\n"
+"        <p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n"
+"    </div>\n"
+"    <div class=\"theme_description\">\n"
+"        <h2>About</h2>\n"
+"        <p>Formal White is a fluid-width, three-column theme ported over to 2.0 from Moodle 1.X.</p>\n"
+"        <h2>Tweaks</h2>\n"
+"        <p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p>\n"
+"    <h2>Credits</h2>\n"
+"    <p>This theme was coded and is maintained by MediaTouch 2000. </p>\n"
+"        <h2>License</h2>\n"
+"        <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.\n"
+"    </div>\n"
+"</div>"
+msgstr "<div class=\"clearfix\"> <div class=\"theme_screenshot\"> <h2>Formal White</h2> <img src=\"formal_white/pix/screenshot.gif\" /> <h3>Theme Discussion Forum:</h3> <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p> <h3>Theme Credits</h3> <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p> <h3>Theme Documentation:</h3> <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p> <h3>Report a bug:</h3> <p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p> </div> <div class=\"theme_description\"> <h2>About</h2> <p>Formal White is a fluid-width, three-column theme ported over to 2.0 from Moodle 1.X.</p> <h2>Tweaks</h2> <p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p> <h2>Credits</h2> <p>This theme was coded and is maintained by MediaTouch 2000. </p> <h2>License</h2> <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>. </div> </div>"
+
+#. configtitle
+#: theme/formal_white/lang/en/theme_formal_white.php:9
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:configtitle"
+msgid "Formal white theme"
+msgstr "Formal_whiteテーマ"
+
+#. creditstomoodleorg
+#: theme/formal_white/lang/en/theme_formal_white.php:10
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:creditstomoodleorg"
+msgid "Display credits to moodle.org"
+msgstr "moodle.orgに謝辞を表示する"
+
+#. creditstomoodleorgdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:11
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:creditstomoodleorgdesc"
+msgid "Display the usual small moodle logo at the bottom of the page"
+msgstr "ページ最下部に通常のスモールmoodleロゴを表示する"
+
+#. ctmo_ineverypage
+#: theme/formal_white/lang/en/theme_formal_white.php:12
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:ctmo_ineverypage"
+msgid "in every page"
+msgstr "すべてのページ"
+
+#. ctmo_no
+#: theme/formal_white/lang/en/theme_formal_white.php:13
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:ctmo_no"
+msgid "never"
+msgstr "なし"
+
+#. ctmo_onfrontpageonly
+#: theme/formal_white/lang/en/theme_formal_white.php:14
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:ctmo_onfrontpageonly"
+msgid "in the front page only"
+msgstr "フロントページのみ"
+
+#. customcss
+#: theme/formal_white/lang/en/theme_formal_white.php:15
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:16
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:customcssdesc"
+msgid ""
+"Any CSS you enter here will be added to every page allowing your to easily customise this theme. For example, it is possible to change colour of links adding one or more of the following:<pre>a:link, a:visited, a:hover, a:active, a:focus {color:blue;}</pre>\n"
+"Please adjust colors and CSS rules to fit your needs."
+msgstr "このテーマを簡単にカスタマイズできるよう、あなたがここに入力したCSSはすべてのページに表示されます。例えば、次の内容の1つまたはそれ以上を入力することで、リンク色を変更することができます: <pre>a:link, a:visited, a:hover, a:active, a:focus {color:blue;}</pre> あなたの希望に応じて、色およびCSSルールを調整してください。"
+
+#. customlogourl
+#: theme/formal_white/lang/en/theme_formal_white.php:17
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:customlogourl"
+msgid "Custom logo"
+msgstr "カスタムロゴ"
+
+#. customlogourldesc
+#: theme/formal_white/lang/en/theme_formal_white.php:18
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:customlogourldesc"
+msgid ""
+"Change the logo for this theme by entering the full or relative URL to an "
+"image you wish to use (i.e. http://www.yoursite.tld/mylogo.png or "
+"../path/to/your/logo.png). As a reference the default logo is 200px wide, "
+"50px high and a transparent png will work best."
+msgstr "あなたが使用したいイメージのフルまたは相対URIを入力することで、このテーマのロゴを変更します (例 http://www.yoursite.tld/mylogo.png または ../path/to/your/logo.png)。ご参考までに、デフォルトロゴの幅は200px、高さは50pxです。透過pngの使用が最適です。"
+
+#. displayheading
+#: theme/formal_white/lang/en/theme_formal_white.php:19
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:displayheading"
+msgid "Display page heading"
+msgstr "ページヘッディングを表示する"
+
+#. displaylogo
+#: theme/formal_white/lang/en/theme_formal_white.php:20
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:displaylogo"
+msgid "Display logo"
+msgstr "ロゴを表示する"
+
+#. fontsizereference
+#: theme/formal_white/lang/en/theme_formal_white.php:21
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:fontsizereference"
+msgid "Font size reference"
+msgstr "フォントサイズリファレンス"
+
+#. fontsizereferencedesc
+#: theme/formal_white/lang/en/theme_formal_white.php:22
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:fontsizereferencedesc"
+msgid ""
+"This allows you to set the default font size for this theme. It is not "
+"recommended to set this higher than 13px as it is known to cause display "
+"problems with certain blocks."
+msgstr "ここではあなたがこのテーマのデフォルトフォントサイズを設定することができます。特定のブロックで表示に問題が生じるため、13px以上のフォントサイズの設定はお勧めできません。"
+
+#. footnote
+#: theme/formal_white/lang/en/theme_formal_white.php:23
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:footnote"
+msgid "Footnote"
+msgstr "フットノート"
+
+#. footnotedesc
+#: theme/formal_white/lang/en/theme_formal_white.php:24
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:footnotedesc"
+msgid ""
+"The content from this textarea will be displayed in the footer of every "
+"page."
+msgstr "このテキストエリアのコンテンツは、すべてのページのフッタに表示されます。"
+
+#. framemargin
+#: theme/formal_white/lang/en/theme_formal_white.php:25
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:framemargin"
+msgid "Frame margin"
+msgstr "フレームマージン"
+
+#. framemargindesc
+#: theme/formal_white/lang/en/theme_formal_white.php:26
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:framemargindesc"
+msgid ""
+"Room between the frame and the edge of the browser window. (This setting "
+"will be ignored if \"{$a}\" is requested)."
+msgstr "ブラウザウィンドウの端とフレームの間のスペースです (「 {$a} 」がリクエストされた場合、この設定は無視されます)。"
+
+#. frontpagelogourl
+#: theme/formal_white/lang/en/theme_formal_white.php:27
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:frontpagelogourl"
+msgid "Custom front page logo"
+msgstr "カスタムフットページロゴ"
+
+#. frontpagelogourldesc
+#: theme/formal_white/lang/en/theme_formal_white.php:28
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:frontpagelogourldesc"
+msgid ""
+"Change the logo that is displayed on the front page of your site by entering"
+" the full or relative URL to the image you wish to use (i.e. "
+"http://www.yoursite.tld/myfrontpagelogo.png or ../path/to/your/logo.png). "
+"This setting overrides the custom logo setting. As a reference the default "
+"logo is 300px wide, 80px high and a transparent png will work best."
+msgstr "あなたが使用したいイメージのフルまたは相対URIを入力することで、サイトのフロントページに表示されるロゴを変更します (例 http://www.yoursite.tld/myfrontpagelogo.png または ../path/to/your/logo.png)。この設定はカスタムロゴの設定をオーバーライドします。ご参考までに、デフォルトロゴの幅は300px、高さは80pxです。透過pngの使用が最適です。"
+
+#. headerbgc
+#: theme/formal_white/lang/en/theme_formal_white.php:29
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:headerbgc"
+msgid "Header background colour"
+msgstr "ヘッダ背景色"
+
+#. headerbgcdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:30
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:headerbgcdesc"
+msgid "This sets the blocks header background colour for the theme."
+msgstr "ここではテーマのブロックヘッダの背景色を設定します。"
+
+#. headercontent
+#: theme/formal_white/lang/en/theme_formal_white.php:31
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:headercontent"
+msgid "Header content"
+msgstr "ヘッダコンテンツ"
+
+#. headercontentdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:32
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:headercontentdesc"
+msgid "Choose whether display moodle logo or page heading text in the header."
+msgstr "ヘッダに表示するMoodleロゴまたはテキストを選択してください。"
+
+#. lblockcolumnbgc
+#: theme/formal_white/lang/en/theme_formal_white.php:33
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:lblockcolumnbgc"
+msgid "Left column background colour"
+msgstr "左カラム背景色"
+
+#. lblockcolumnbgcdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:34
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:lblockcolumnbgcdesc"
+msgid "This sets the left column background colour for the theme."
+msgstr "ここではテーマの左カラム背景色を設定します。"
+
+#. lemon
+#: theme/formal_white/lang/en/theme_formal_white.php:35
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:lemon"
+msgid "lemon"
+msgstr "レモン"
+
+#. lime
+#: theme/formal_white/lang/en/theme_formal_white.php:36
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:lime"
+msgid "lime"
+msgstr "ライム"
+
+#. mink
+#: theme/formal_white/lang/en/theme_formal_white.php:37
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:mink"
+msgid "mink"
+msgstr "ミンク"
+
+#. noframe
+#: theme/formal_white/lang/en/theme_formal_white.php:38
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:noframe"
+msgid "Formal white 1.9 look"
+msgstr "Formal white 1.9ブロック"
+
+#. noframedesc
+#: theme/formal_white/lang/en/theme_formal_white.php:39
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:noframedesc"
+msgid ""
+"Select this option to require your moodle page to look like moodle 1.*, "
+"alias, without the surrounding frame."
+msgstr "あなたのMoodleページをMoodle 1.*、フレームなしのエイリアスのように表示したい場合、このオプションを選択してください。"
+
+#. orange
+#: theme/formal_white/lang/en/theme_formal_white.php:40
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:orange"
+msgid "orange"
+msgstr "オレンジ"
+
+#. peach
+#: theme/formal_white/lang/en/theme_formal_white.php:41
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:peach"
+msgid "peach"
+msgstr "ピーチ"
+
+#. pluginname
+#: theme/formal_white/lang/en/theme_formal_white.php:42
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:pluginname"
+msgid "Formal white"
+msgstr "Formal white"
+
+#. rblockcolumnbgc
+#: theme/formal_white/lang/en/theme_formal_white.php:43
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:rblockcolumnbgc"
+msgid "Right column background colour"
+msgstr "右カラム背景色"
+
+#. rblockcolumnbgcdesc
+#: theme/formal_white/lang/en/theme_formal_white.php:44
+msgctxt ""
+"theme/formal_white/lang/en/theme_formal_white.php:rblockcolumnbgcdesc"
+msgid ""
+"This sets the right column background colour for the theme. If you leave "
+"this empty the left column background colour will be used."
+msgstr "ここではテーマの右カラム背景色を設定します。空白にした場合、左カラム背景色が使用されます。"
+
+#. region-side-post
+#: theme/formal_white/lang/en/theme_formal_white.php:45
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/formal_white/lang/en/theme_formal_white.php:46
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. silver
+#: theme/formal_white/lang/en/theme_formal_white.php:47
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:silver"
+msgid "silver"
+msgstr "シルバー"
+
+#. trendcolor
+#: theme/formal_white/lang/en/theme_formal_white.php:48
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:trendcolor"
+msgid "Trend color"
+msgstr "トレンドカラー"
+
+#. trendcolordesc
+#: theme/formal_white/lang/en/theme_formal_white.php:49
+msgctxt "theme/formal_white/lang/en/theme_formal_white.php:trendcolordesc"
+msgid "Choose the general trend for the color of the theme."
+msgstr "テーマカラーの一般的な傾向を選択してください。"
+
+#. choosereadme
+#: theme/formfactor/lang/en/theme_formfactor.php:1
+msgctxt "theme/formfactor/lang/en/theme_formfactor.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div "
+"class=\"theme_screenshot\"><h2>FormFactor</h2><img "
+"src=\"formfactor/pix/screenshot.jpg\" /><h3>Theme Discussion "
+"Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>FormFactor is a fluid-width, "
+"three-column theme for Moodle 2.0 that was created by Patrick "
+"Malley.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two "
+"parent themes included in the Moodle core. If you want to modify this theme,"
+" we recommend that you first duplicate it then rename it before making your "
+"changes. This will prevent your customized theme from being overwritten by "
+"future Moodle upgrades, and you'll still have the original files if you make"
+" a mess. More information on modifying themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2>"
+"  <p>This theme was coded and is maintained by Patrick Malley of NewSchool "
+"Learning. He can be contacted by email at contact@newschoollearning.com. "
+"</p><h2>License</h2><p>This, and all other themes included in the Moodle "
+"core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>FormFactor</h2><img src=\"formfactor/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>FormFactor is a fluid-width, three-column theme for Moodle 2.0 that was created by Patrick Malley.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2> <p>This theme was coded and is maintained by Patrick Malley of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. pluginname
+#: theme/formfactor/lang/en/theme_formfactor.php:2
+msgctxt "theme/formfactor/lang/en/theme_formfactor.php:pluginname"
+msgid "FormFactor"
+msgstr "FormFactor"
+
+#. region-side-post
+#: theme/formfactor/lang/en/theme_formfactor.php:3
+msgctxt "theme/formfactor/lang/en/theme_formfactor.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/formfactor/lang/en/theme_formfactor.php:4
+msgctxt "theme/formfactor/lang/en/theme_formfactor.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/fusion/lang/en/theme_fusion.php:1
+msgctxt "theme/fusion/lang/en/theme_fusion.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\">\t<div class=\"theme_screenshot\">\n"
+"\n"
+"\t\t<h2>Fusion</h2>\n"
+"\t\t<img src=\"fusion/pix/screenshot.jpg\" />\n"
+"\n"
+"\t\t<h3>Theme Discussion Forum:</h3>\n"
+"\t\t<p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p>\n"
+"\n"
+"\t\t<h3>Theme Credits</h3>\n"
+"\t\t<p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p>\n"
+"\n"
+"\t\t<h3>Theme Documentation:</h3>\n"
+"\t\t<p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n"
+"\t</div>\n"
+"\n"
+"\t<div class=\"theme_description\">\n"
+"\n"
+"\t\t<h2>About</h2>\n"
+"\t\t<p>Fusion is a two-column, fluid-width theme coded for Moodle 2.0. It makes use of custom menus that appear above the site title on every page. It also includes a basic settings page allowing you to change link color, add a tagline above the site name on the front page, and add text to the footer.</p>\n"
+"\n"
+"\t\t<h2>Parents</h2>\n"
+"\t\t<p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you wish to modify aspects of this theme beyond the settings offered, we advise creating a new  theme using this theme, Base and Canvas all as parents so updates to any of those themes in the core will find their way into your new theme.</p>\n"
+"\n"
+"\t\t<h2>Credits</h2>\n"
+"\t\t<p>This design was originally created by Digital Nature (hello@digitalnature.ro) before being ported to Moodle by Patrick Malley (patrick@newschoollearning.com).\n"
+"\t\t<h2>License</h2>\n"
+"\t\t<p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.\n"
+"\t</div>\n"
+"</div>"
+msgstr "<div class=\"clearfix\"> <div class=\"theme_screenshot\"> <h2>Fusion</h2> <img src=\"fusion/pix/screenshot.jpg\" /> <h3>Theme Discussion Forum:</h3> <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p> <h3>Theme Credits</h3> <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p> <h3>Theme Documentation:</h3> <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p> </div> <div class=\"theme_description\"> <h2>About</h2> <p>Fusion is a two-column, fluid-width theme coded for Moodle 2.0. It makes use of custom menus that appear above the site title on every page. It also includes a basic settings page allowing you to change link color, add a tagline above the site name on the front page, and add text to the footer.</p> <h2>Parents</h2> <p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you wish to modify aspects of this theme beyond the settings offered, we advise creating a new theme using this theme, Base and Canvas all as parents so updates to any of those themes in the core will find their way into your new theme.</p> <h2>Credits</h2> <p>This design was originally created by Digital Nature (hello@digitalnature.ro) before being ported to Moodle by Patrick Malley (patrick@newschoollearning.com). <h2>License</h2> <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>. </div> </div>"
+
+#. configtitle
+#: theme/fusion/lang/en/theme_fusion.php:2
+msgctxt "theme/fusion/lang/en/theme_fusion.php:configtitle"
+msgid "Fusion settings"
+msgstr "Fusion設定"
+
+#. customcss
+#: theme/fusion/lang/en/theme_fusion.php:3
+msgctxt "theme/fusion/lang/en/theme_fusion.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/fusion/lang/en/theme_fusion.php:4
+msgctxt "theme/fusion/lang/en/theme_fusion.php:customcssdesc"
+msgid ""
+"Any CSS you enter here will be added to every page allowing your to easily "
+"customise this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. footertext
+#: theme/fusion/lang/en/theme_fusion.php:5
+msgctxt "theme/fusion/lang/en/theme_fusion.php:footertext"
+msgid "Footertext"
+msgstr "フッタテキスト"
+
+#. footertextdesc
+#: theme/fusion/lang/en/theme_fusion.php:6
+msgctxt "theme/fusion/lang/en/theme_fusion.php:footertextdesc"
+msgid "Set a footnote or footer text."
+msgstr "フッタノートまたはフッタテキストを設定します。"
+
+#. linkcolor
+#: theme/fusion/lang/en/theme_fusion.php:7
+msgctxt "theme/fusion/lang/en/theme_fusion.php:linkcolor"
+msgid "Link colour"
+msgstr "リンク色"
+
+#. linkcolordesc
+#: theme/fusion/lang/en/theme_fusion.php:8
+msgctxt "theme/fusion/lang/en/theme_fusion.php:linkcolordesc"
+msgid "This sets the link colour for the theme."
+msgstr "ここではテーマのリンク色を設定します。"
+
+#. pluginname
+#: theme/fusion/lang/en/theme_fusion.php:9
+msgctxt "theme/fusion/lang/en/theme_fusion.php:pluginname"
+msgid "Fusion"
+msgstr "Fusion"
+
+#. region-side-post
+#: theme/fusion/lang/en/theme_fusion.php:10
+msgctxt "theme/fusion/lang/en/theme_fusion.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/fusion/lang/en/theme_fusion.php:11
+msgctxt "theme/fusion/lang/en/theme_fusion.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. tagline
+#: theme/fusion/lang/en/theme_fusion.php:12
+msgctxt "theme/fusion/lang/en/theme_fusion.php:tagline"
+msgid "Tagline"
+msgstr "タグライン"
+
+#. taglinedesc
+#: theme/fusion/lang/en/theme_fusion.php:13
+msgctxt "theme/fusion/lang/en/theme_fusion.php:taglinedesc"
+msgid ""
+"A short tagline to be displayed under the site name on the front page.<br />"
+msgstr "フロントページのサイト名下部に短いタグラインが表示されます。<br />"
+
+#. choosereadme
+#: theme/leatherbound/lang/en/theme_leatherbound.php:1
+msgctxt "theme/leatherbound/lang/en/theme_leatherbound.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div "
+"class=\"theme_screenshot\"><h2>Leatherbound</h2><img "
+"src=\"leatherbound/pix/screenshot.jpg\" /><h3>Theme Discussion "
+"Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Leatherbound is a fluid-width,"
+" three-column theme for Moodle 2.0 that was created by Patrick "
+"Malley.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two "
+"parent themes included in the Moodle core. If you want to modify this theme,"
+" we recommend that you first duplicate it then rename it before making your "
+"changes. This will prevent your customized theme from being overwritten by "
+"future Moodle upgrades, and you'll still have the original files if you make"
+" a mess. More information on modifying themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This"
+" theme was coded and is maintained by Patrick Malley of NewSchool Learning. "
+"He can be contacted by email at contact@newschoollearning.com. "
+"</p><h2>License</h2><p>This, and all other themes included in the Moodle "
+"core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Leatherbound</h2><img src=\"leatherbound/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Leatherbound is a fluid-width, three-column theme for Moodle 2.0 that was created by Patrick Malley.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This theme was coded and is maintained by Patrick Malley of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. pluginname
+#: theme/leatherbound/lang/en/theme_leatherbound.php:2
+msgctxt "theme/leatherbound/lang/en/theme_leatherbound.php:pluginname"
+msgid "Leatherbound"
+msgstr "Leatherbound"
+
+#. region-side-post
+#: theme/leatherbound/lang/en/theme_leatherbound.php:3
+msgctxt "theme/leatherbound/lang/en/theme_leatherbound.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/leatherbound/lang/en/theme_leatherbound.php:4
+msgctxt "theme/leatherbound/lang/en/theme_leatherbound.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. background
+#: theme/magazine/lang/en/theme_magazine.php:1
+msgctxt "theme/magazine/lang/en/theme_magazine.php:background"
+msgid "background"
+msgstr "背景画像"
+
+#. backgrounddesc
+#: theme/magazine/lang/en/theme_magazine.php:2
+msgctxt "theme/magazine/lang/en/theme_magazine.php:backgrounddesc"
+msgid ""
+"Change the background image by entering the URL to a new image. (i.e., "
+"http://www.somesite/mybackground.jpg)."
+msgstr "新しいイメージのURIを入力することで背景画像を変更します (例 http://www.somesite/mybackground.jpg)。"
+
+#. blockcolor
+#: theme/magazine/lang/en/theme_magazine.php:3
+msgctxt "theme/magazine/lang/en/theme_magazine.php:blockcolor"
+msgid "Block colour"
+msgstr "ブロックカラー"
+
+#. blockcolordesc
+#: theme/magazine/lang/en/theme_magazine.php:4
+msgctxt "theme/magazine/lang/en/theme_magazine.php:blockcolordesc"
+msgid "This is for the block header font colour."
+msgstr "これはブロックヘッダのフォント色です。"
+
+#. choosereadme
+#: theme/magazine/lang/en/theme_magazine.php:5
+msgctxt "theme/magazine/lang/en/theme_magazine.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div "
+"class=\"theme_screenshot\"><h2>Magazine</h2><img "
+"src=\"magazine/pix/screenshot.png\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Magazine is a three column "
+"fluid-width theme for Moodle 2.0. <h2>Tweaks</h2><p>This theme is built upon"
+" both Base and Canvas, two parent themes included in the Moodle core. If you"
+" want to modify this theme, we recommend that you first duplicate it, then "
+"rename it before making your changes. This will prevent your customized "
+"theme from being overwritten by future Moodle upgrades, and you'll still "
+"have the original files if you make a mess. More information on modifying "
+"themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This"
+" theme was coded and is maintained by John Stabinger of NewSchool Learning. "
+"He can be contacted by email at contact@newschoollearning.com. "
+"</p><h2>License</h2><p>This, and all other themes included in the Moodle "
+"core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>. Some icons used in this theme are from the Splashy Icon set and"
+" are freely available at http://splashyfish.com/icons/. </div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Magazine</h2><img src=\"magazine/pix/screenshot.png\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Magazine is a three column fluid-width theme for Moodle 2.0. <h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2><p>This theme was coded and is maintained by John Stabinger of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>. Some icons used in this theme are from the Splashy Icon set and are freely available at http://splashyfish.com/icons/. </div></div>"
+
+#. configtitle
+#: theme/magazine/lang/en/theme_magazine.php:6
+msgctxt "theme/magazine/lang/en/theme_magazine.php:configtitle"
+msgid "Magazine theme"
+msgstr "Magazine theme"
+
+#. forumback
+#: theme/magazine/lang/en/theme_magazine.php:7
+msgctxt "theme/magazine/lang/en/theme_magazine.php:forumback"
+msgid "forumback"
+msgstr "フォーラム背景"
+
+#. forumbackdesc
+#: theme/magazine/lang/en/theme_magazine.php:8
+msgctxt "theme/magazine/lang/en/theme_magazine.php:forumbackdesc"
+msgid "Set the background colour of forum post subject."
+msgstr "フォーラム投稿件名の背景色を設定します。"
+
+#. headingcolor
+#: theme/magazine/lang/en/theme_magazine.php:9
+msgctxt "theme/magazine/lang/en/theme_magazine.php:headingcolor"
+msgid "Heading colour"
+msgstr "ヘッディングカラー"
+
+#. headingcolordesc
+#: theme/magazine/lang/en/theme_magazine.php:10
+msgctxt "theme/magazine/lang/en/theme_magazine.php:headingcolordesc"
+msgid ""
+"This is the heading colour for large headings (site news, my courses) and "
+"other headings."
+msgstr "大きな見出し (サイトニュース、マイコース) および他のヘッディングカラー (見出し色) です。"
+
+#. linkcolor
+#: theme/magazine/lang/en/theme_magazine.php:11
+msgctxt "theme/magazine/lang/en/theme_magazine.php:linkcolor"
+msgid "link"
+msgstr "リンク色"
+
+#. linkcolordesc
+#: theme/magazine/lang/en/theme_magazine.php:12
+msgctxt "theme/magazine/lang/en/theme_magazine.php:linkcolordesc"
+msgid "Set the colour of links in the theme. Use html hex code."
+msgstr "テーマ内のリンク色を設定します。HTML16進コードを使用してください。"
+
+#. linkhover
+#: theme/magazine/lang/en/theme_magazine.php:13
+msgctxt "theme/magazine/lang/en/theme_magazine.php:linkhover"
+msgid "linkhover"
+msgstr "リンクホバー"
+
+#. linkhoverdesc
+#: theme/magazine/lang/en/theme_magazine.php:14
+msgctxt "theme/magazine/lang/en/theme_magazine.php:linkhoverdesc"
+msgid "Set the colour of links (on hover) in the theme. Use html hex code."
+msgstr "テーマ内のリンク色 (ホバー時) を設定します。HTML16進コードを使用してください。"
+
+#. logo
+#: theme/magazine/lang/en/theme_magazine.php:15
+msgctxt "theme/magazine/lang/en/theme_magazine.php:logo"
+msgid "logo"
+msgstr "ロゴ"
+
+#. logodesc
+#: theme/magazine/lang/en/theme_magazine.php:16
+msgctxt "theme/magazine/lang/en/theme_magazine.php:logodesc"
+msgid ""
+"Change the logo of this theme by entering the URL to a new one (i.e., "
+"http://www.somesite/animage.png). As a reference, the default logo is 300px "
+"wide by 80px high. A transparent .png will work best."
+msgstr "新しいロゴのURIを入力することで、このテーマのロゴを変更します (例 http://www.somesite/animage.png)。参考として、デフォルトロゴのサイズは幅300px、高さ80pxです。 透過的な.pngが最適です。"
+
+#. maincolor
+#: theme/magazine/lang/en/theme_magazine.php:17
+msgctxt "theme/magazine/lang/en/theme_magazine.php:maincolor"
+msgid "Main colour"
+msgstr "メインカラー"
+
+#. maincoloraccent
+#: theme/magazine/lang/en/theme_magazine.php:18
+msgctxt "theme/magazine/lang/en/theme_magazine.php:maincoloraccent"
+msgid "Main colour accent"
+msgstr "メインカラーアクセント"
+
+#. maincoloraccentdesc
+#: theme/magazine/lang/en/theme_magazine.php:19
+msgctxt "theme/magazine/lang/en/theme_magazine.php:maincoloraccentdesc"
+msgid ""
+"Dark accent colour for the dock bar and header borders. Should be slightly "
+"darker than the main colour."
+msgstr "ドックカラーおよびヘッダボーダーの暗めのアクセント色です。メインカラーより少しだけ暗めに設定してください。"
+
+#. maincolordesc
+#: theme/magazine/lang/en/theme_magazine.php:20
+msgctxt "theme/magazine/lang/en/theme_magazine.php:maincolordesc"
+msgid ""
+"Set the colour hex code of the header, dock bar and other areas. Looks best "
+"as a dark or saturated colour."
+msgstr "ヘッダ、ドックバーおよび他の場所の色を16進で設定します。暗色または飽和色が見栄えよく表示されます。"
+
+#. pluginname
+#: theme/magazine/lang/en/theme_magazine.php:21
+msgctxt "theme/magazine/lang/en/theme_magazine.php:pluginname"
+msgid "Magazine"
+msgstr "Magazine"
+
+#. region-side-post
+#: theme/magazine/lang/en/theme_magazine.php:22
+msgctxt "theme/magazine/lang/en/theme_magazine.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/magazine/lang/en/theme_magazine.php:23
+msgctxt "theme/magazine/lang/en/theme_magazine.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. backgroundcolor
+#: theme/nimble/lang/en/theme_nimble.php:1
+msgctxt "theme/nimble/lang/en/theme_nimble.php:backgroundcolor"
+msgid "Header background"
+msgstr "ヘッダ背景色"
+
+#. backgroundcolordesc
+#: theme/nimble/lang/en/theme_nimble.php:2
+msgctxt "theme/nimble/lang/en/theme_nimble.php:backgroundcolordesc"
+msgid "Change the background colour of the header."
+msgstr "ヘッダの背景色を変更します。"
+
+#. choosereadme
+#: theme/nimble/lang/en/theme_nimble.php:3
+msgctxt "theme/nimble/lang/en/theme_nimble.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\">\t<div class=\"theme_screenshot\">\n"
+"\n"
+"\t\t<h2>Nimble</h2>\n"
+"\t\t<img src=\"nimble/pix/screenshot.png\" />\n"
+"\n"
+"\t\t<h3>Theme Discussion Forum:</h3>\n"
+"\t\t<p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p>\n"
+"\n"
+"\t\t<h3>Theme Credits</h3>\n"
+"\t\t<p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p>\n"
+"\n"
+"\t\t<h3>Theme Documentation:</h3>\n"
+"\t\t<p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p>\n"
+"\t</div>\n"
+"\n"
+"\t<div class=\"theme_description\">\n"
+"\n"
+"\t\t<h2>About</h2>\n"
+"\t\t<p>Nimble is a two-column, fluid-width theme coded for Moodle 2.0. It makes use of custom menus that appear above the site title on every page. It also includes a basic settings page allowing you to change link color, add a tagline next the site name on the front page, and add text to the footer.</p>\n"
+"\n"
+"\t\t<h2>Parents</h2>\n"
+"\t\t<p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you wish to modify aspects of this theme beyond the settings offered, we advise creating a new  theme using this theme, Base and Canvas all as parents so updates to any of those themes in the core will find their way into your new theme.</p>\n"
+"\n"
+"\t\t<h2>Credits</h2>\n"
+"\t\t<p>This design was created for Moodle by Patrick Malley (patrick@newschoollearning.com) with help from John Stabinger (john@newschoollearning.com).\n"
+"\t\t<h2>License</h2>\n"
+"\t\t<p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.\n"
+"\t</div>\n"
+"</div>"
+msgstr "<div class=\"clearfix\"> <div class=\"theme_screenshot\"> <h2>Nimble</h2> <img src=\"nimble/pix/screenshot.png\" /> <h3>Theme Discussion Forum:</h3> <p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p> <h3>Theme Credits</h3> <p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p> <h3>Theme Documentation:</h3> <p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p> </div> <div class=\"theme_description\"> <h2>About</h2> <p>Nimble is a two-column, fluid-width theme coded for Moodle 2.0. It makes use of custom menus that appear above the site title on every page. It also includes a basic settings page allowing you to change link color, add a tagline next the site name on the front page, and add text to the footer.</p> <h2>Parents</h2> <p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you wish to modify aspects of this theme beyond the settings offered, we advise creating a new theme using this theme, Base and Canvas all as parents so updates to any of those themes in the core will find their way into your new theme.</p> <h2>Credits</h2> <p>This design was created for Moodle by Patrick Malley (patrick@newschoollearning.com) with help from John Stabinger (john@newschoollearning.com). <h2>License</h2> <p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>. </div> </div>"
+
+#. footerline
+#: theme/nimble/lang/en/theme_nimble.php:4
+msgctxt "theme/nimble/lang/en/theme_nimble.php:footerline"
+msgid "Footerline"
+msgstr "フッタライン"
+
+#. footerlinedesc
+#: theme/nimble/lang/en/theme_nimble.php:5
+msgctxt "theme/nimble/lang/en/theme_nimble.php:footerlinedesc"
+msgid "Add some text (copyright info, etc.) to the footer."
+msgstr "フッタにテキスト (著作権情報等) を追加します。"
+
+#. linkcolor
+#: theme/nimble/lang/en/theme_nimble.php:6
+msgctxt "theme/nimble/lang/en/theme_nimble.php:linkcolor"
+msgid "Link colour"
+msgstr "リンク色"
+
+#. linkcolordesc
+#: theme/nimble/lang/en/theme_nimble.php:7
+msgctxt "theme/nimble/lang/en/theme_nimble.php:linkcolordesc"
+msgid "Set the colour of links in the theme. Use html hex code."
+msgstr "ここではテーマのリンク色を設定します。HTML16進コードを使用してください。"
+
+#. linkhover
+#: theme/nimble/lang/en/theme_nimble.php:8
+msgctxt "theme/nimble/lang/en/theme_nimble.php:linkhover"
+msgid "Menu hover colour"
+msgstr "メニューホバー色"
+
+#. linkhoverdesc
+#: theme/nimble/lang/en/theme_nimble.php:9
+msgctxt "theme/nimble/lang/en/theme_nimble.php:linkhoverdesc"
+msgid "Set the colour of the menu on hover in the theme. Use html hex code."
+msgstr "テーマ内のリンク色 (ホバー時) を設定します。HTML16進コードを使用してください。"
+
+#. pluginname
+#: theme/nimble/lang/en/theme_nimble.php:10
+msgctxt "theme/nimble/lang/en/theme_nimble.php:pluginname"
+msgid "Nimble"
+msgstr "Nimble"
+
+#. region-side-post
+#: theme/nimble/lang/en/theme_nimble.php:11
+msgctxt "theme/nimble/lang/en/theme_nimble.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/nimble/lang/en/theme_nimble.php:12
+msgctxt "theme/nimble/lang/en/theme_nimble.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. tagline
+#: theme/nimble/lang/en/theme_nimble.php:13
+msgctxt "theme/nimble/lang/en/theme_nimble.php:tagline"
+msgid "Tagline"
+msgstr "タグライン"
+
+#. taglinedesc
+#: theme/nimble/lang/en/theme_nimble.php:14
+msgctxt "theme/nimble/lang/en/theme_nimble.php:taglinedesc"
+msgid "Set a tagline to appear under the site name on the front page."
+msgstr "フロントページのサイト名下部に表示されるタグラインを設定します。"
+
+#. choosereadme
+#: theme/nonzero/lang/en/theme_nonzero.php:1
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Nonzero</h2><img"
+" src=\"nonzero/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Nonzero is a nontraditional, "
+"three-column, fluid-width theme for Moodle. It's nontraditional in the sense"
+" that it uses a fresh three-column layout that displays the content to the "
+"left of both block columns.<h2>Tweaks</h2><p>This theme is built upon both "
+"Base and Canvas, two parent themes included in the Moodle core. If you want "
+"to modify this theme, we recommend that you first duplicate it, then rename "
+"it before making your changes. This will prevent your customized theme from "
+"being overwritten by future Moodle upgrades, and you'll still have the "
+"original files if you make a mess. More information on modifying themes can "
+"be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2>\t<p>This"
+" theme was coded and is maintained by Patrick Malley of NewSchool Learning. "
+"He can be contacted by email at contact@newschoollearning.com. "
+"</p><h2>License</h2><p>This, and all other themes included in the Moodle "
+"core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Nonzero</h2><img src=\"nonzero/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Nonzero is a nontraditional, three-column, fluid-width theme for Moodle. It's nontraditional in the sense that it uses a fresh three-column layout that displays the content to the left of both block columns.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2> <p>This theme was coded and is maintained by Patrick Malley of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. configtitle
+#: theme/nonzero/lang/en/theme_nonzero.php:2
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:configtitle"
+msgid "Nonzero settings"
+msgstr "Nonzero設定"
+
+#. customcss
+#: theme/nonzero/lang/en/theme_nonzero.php:3
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/nonzero/lang/en/theme_nonzero.php:4
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:customcssdesc"
+msgid ""
+"Any CSS you enter here will be added to every page allowing your to easily "
+"customise this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. pluginname
+#: theme/nonzero/lang/en/theme_nonzero.php:5
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:pluginname"
+msgid "Nonzero"
+msgstr "Nonzero"
+
+#. regionpostwidth
+#: theme/nonzero/lang/en/theme_nonzero.php:6
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:regionpostwidth"
+msgid "Right column width"
+msgstr "右カラム幅"
+
+#. regionpostwidthdesc
+#: theme/nonzero/lang/en/theme_nonzero.php:7
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:regionpostwidthdesc"
+msgid "This sets the width of the block region that forms the right column."
+msgstr "ここでは右カラムを形成するブロックの幅を設定します。"
+
+#. regionprewidth
+#: theme/nonzero/lang/en/theme_nonzero.php:8
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:regionprewidth"
+msgid "Left column width"
+msgstr "左カラム幅"
+
+#. regionprewidthdesc
+#: theme/nonzero/lang/en/theme_nonzero.php:9
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:regionprewidthdesc"
+msgid ""
+"This sets the width of the block region that forms the left column. This "
+"column is displayed in the middle of the page while using blog layout"
+msgstr "ここでは左カラムを形成するブロックの幅を設定します。ブログレイアウトを使用する場合、このカラムはページ中央に表示されます。"
+
+#. region-side-post
+#: theme/nonzero/lang/en/theme_nonzero.php:10
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/nonzero/lang/en/theme_nonzero.php:11
+msgctxt "theme/nonzero/lang/en/theme_nonzero.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/overlay/lang/en/theme_overlay.php:1
+msgctxt "theme/overlay/lang/en/theme_overlay.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>overlay</h2><img"
+" src=\"overlay/pix/screenshot.png\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>overlay is a nontraditional, "
+"three-column, fluid-width theme for Moodle. It's nontraditional in the sense"
+" that it uses a fresh three-column layout that displays the content to the "
+"left of both block columns.<h2>Tweaks</h2><p>This theme is built upon both "
+"Base and Canvas, two parent themes included in the Moodle core. If you want "
+"to modify this theme, we recommend that you first duplicate it, then rename "
+"it before making your changes. This will prevent your customized theme from "
+"being overwritten by future Moodle upgrades, and you'll still have the "
+"original files if you make a mess. More information on modifying themes can "
+"be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2>\t<p>This"
+" theme was coded and is maintained by John Stabinger of NewSchool Learning. "
+"He can be contacted by email at contact@newschoollearning.com. "
+"</p><h2>License</h2><p>This, and all other themes included in the Moodle "
+"core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>overlay</h2><img src=\"overlay/pix/screenshot.png\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>overlay is a nontraditional, three-column, fluid-width theme for Moodle. It's nontraditional in the sense that it uses a fresh three-column layout that displays the content to the left of both block columns.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it, then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2> <p>This theme was coded and is maintained by John Stabinger of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. configtitle
+#: theme/overlay/lang/en/theme_overlay.php:2
+msgctxt "theme/overlay/lang/en/theme_overlay.php:configtitle"
+msgid "Overlay settings"
+msgstr "Overlay設定"
+
+#. customcss
+#: theme/overlay/lang/en/theme_overlay.php:3
+msgctxt "theme/overlay/lang/en/theme_overlay.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/overlay/lang/en/theme_overlay.php:4
+msgctxt "theme/overlay/lang/en/theme_overlay.php:customcssdesc"
+msgid ""
+"Any CSS you enter here will be added to every page allowing your to easily "
+"customise this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. footertext
+#: theme/overlay/lang/en/theme_overlay.php:5
+msgctxt "theme/overlay/lang/en/theme_overlay.php:footertext"
+msgid "Footertext"
+msgstr "フッタテキスト"
+
+#. footertextdesc
+#: theme/overlay/lang/en/theme_overlay.php:6
+msgctxt "theme/overlay/lang/en/theme_overlay.php:footertextdesc"
+msgid "Set a footnote or footer text."
+msgstr "フッタノートまたはフッタテキストを設定します。"
+
+#. headercolor
+#: theme/overlay/lang/en/theme_overlay.php:7
+msgctxt "theme/overlay/lang/en/theme_overlay.php:headercolor"
+msgid "Header colour"
+msgstr "ヘッダ色"
+
+#. headercolordesc
+#: theme/overlay/lang/en/theme_overlay.php:8
+msgctxt "theme/overlay/lang/en/theme_overlay.php:headercolordesc"
+msgid "Header background colour."
+msgstr "ヘッダの背景色です。"
+
+#. linkcolor
+#: theme/overlay/lang/en/theme_overlay.php:9
+msgctxt "theme/overlay/lang/en/theme_overlay.php:linkcolor"
+msgid "Link colour"
+msgstr "リンク色"
+
+#. linkcolordesc
+#: theme/overlay/lang/en/theme_overlay.php:10
+msgctxt "theme/overlay/lang/en/theme_overlay.php:linkcolordesc"
+msgid "This sets the link colour for the theme."
+msgstr "ここではテーマのリンク色を設定します。"
+
+#. pluginname
+#: theme/overlay/lang/en/theme_overlay.php:11
+msgctxt "theme/overlay/lang/en/theme_overlay.php:pluginname"
+msgid "Overlay"
+msgstr "Overlay"
+
+#. region-side-post
+#: theme/overlay/lang/en/theme_overlay.php:12
+msgctxt "theme/overlay/lang/en/theme_overlay.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/overlay/lang/en/theme_overlay.php:13
+msgctxt "theme/overlay/lang/en/theme_overlay.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/serenity/lang/en/theme_serenity.php:1
+msgctxt "theme/serenity/lang/en/theme_serenity.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div "
+"class=\"theme_screenshot\"><h2>Serenity</h2><img "
+"src=\"serenity/pix/screenshot.png\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Serenity is a fluid-width, "
+"three-column theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme is built upon"
+" both Base and Canvas, two parent themes included in the Moodle core. If you"
+" want to modify this theme, we recommend that you first duplicate it then "
+"rename it before making your changes. This will prevent your customized "
+"theme from being overwritten by future Moodle upgrades, and you'll still "
+"have the original files if you make a mess. More information on modifying "
+"themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2>\t<p>This"
+" theme was coded and is maintained by Patrick Malley of NewSchool Learning. "
+"He can be contacted by email at contact@newschoollearning.com. "
+"</p><h2>License</h2><p>This, and all other themes included in the Moodle "
+"core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Serenity</h2><img src=\"serenity/pix/screenshot.png\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Serenity is a fluid-width, three-column theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2> <p>This theme was coded and is maintained by Patrick Malley of NewSchool Learning. He can be contacted by email at contact@newschoollearning.com. </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. pluginname
+#: theme/serenity/lang/en/theme_serenity.php:2
+msgctxt "theme/serenity/lang/en/theme_serenity.php:pluginname"
+msgid "Serenity"
+msgstr "Serenity"
+
+#. region-side-post
+#: theme/serenity/lang/en/theme_serenity.php:3
+msgctxt "theme/serenity/lang/en/theme_serenity.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/serenity/lang/en/theme_serenity.php:4
+msgctxt "theme/serenity/lang/en/theme_serenity.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/sky_high/lang/en/theme_sky_high.php:1
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Sky "
+"High</h2><img src=\"sky_high/pix/screenshot.png\" /><h3>Theme Discussion "
+"Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Sky High is a fluid-width, "
+"three-column (blog style) theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme "
+"is built upon both Base and Canvas, two parent themes included in the Moodle"
+" core. If you want to modify this theme, we recommend that you first "
+"duplicate it then rename it before making your changes. This will prevent "
+"your customized theme from being overwritten by future Moodle upgrades, and "
+"you'll still have the original files if you make a mess. More information on"
+" modifying themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2>\t<p>This"
+" theme was designed by Julian Ridden (julian@moodle.com.au). It was coded "
+"and is maintained by John Stabinger of NewSchool Learning "
+"(contact@newschoollearning.com). </p><h2>License</h2><p>This, and all other "
+"themes included in the Moodle core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Sky High</h2><img src=\"sky_high/pix/screenshot.png\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Sky High is a fluid-width, three-column (blog style) theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2> <p>This theme was designed by Julian Ridden (julian@moodle.com.au). It was coded and is maintained by John Stabinger of NewSchool Learning (contact@newschoollearning.com). </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. configtitle
+#: theme/sky_high/lang/en/theme_sky_high.php:2
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:configtitle"
+msgid "Sky High settings"
+msgstr "Sky High設定"
+
+#. customcss
+#: theme/sky_high/lang/en/theme_sky_high.php:3
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/sky_high/lang/en/theme_sky_high.php:4
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:customcssdesc"
+msgid ""
+"Any CSS you enter here will be added to every page allowing your to easily "
+"customise this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. footnote
+#: theme/sky_high/lang/en/theme_sky_high.php:5
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:footnote"
+msgid "Footnote"
+msgstr "フットノート"
+
+#. footnotedesc
+#: theme/sky_high/lang/en/theme_sky_high.php:6
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:footnotedesc"
+msgid ""
+"The content from this textarea will be displayed in the footer of every "
+"page."
+msgstr "このテキストエリアのコンテンツはすべてのページのフッタに表示されます。"
+
+#. logo
+#: theme/sky_high/lang/en/theme_sky_high.php:7
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:logo"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. logodesc
+#: theme/sky_high/lang/en/theme_sky_high.php:8
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:logodesc"
+msgid ""
+"Enter the URL to an image to use as the logo for this site. Should be "
+"http://www.yoursite.com/path/to/logo.png. The logo should be 50px high."
+msgstr "このサイトのロゴとして使用されるイメージのURIを入力してください。次のように入力します: http://www.yoursite.com/path/to/logo.png　ロゴの高さは50pxにしてください。"
+
+#. pluginname
+#: theme/sky_high/lang/en/theme_sky_high.php:9
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:pluginname"
+msgid "Sky High"
+msgstr "Sky High"
+
+#. region-side-post
+#: theme/sky_high/lang/en/theme_sky_high.php:10
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/sky_high/lang/en/theme_sky_high.php:11
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. regionwidth
+#: theme/sky_high/lang/en/theme_sky_high.php:12
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:regionwidth"
+msgid "Column width"
+msgstr "カラム幅"
+
+#. regionwidthdesc
+#: theme/sky_high/lang/en/theme_sky_high.php:13
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:regionwidthdesc"
+msgid ""
+"This sets the width of the two block regions that form the left and right "
+"columns."
+msgstr "ここでは左右のカラムを形成するブロックの幅を設定します。"
+
+#. tagline
+#: theme/sky_high/lang/en/theme_sky_high.php:14
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:tagline"
+msgid "Tagline"
+msgstr "タグライン"
+
+#. taglinedesc
+#: theme/sky_high/lang/en/theme_sky_high.php:15
+msgctxt "theme/sky_high/lang/en/theme_sky_high.php:taglinedesc"
+msgid ""
+"The content from this textarea will be displayed under the Site name on the "
+"Homepage"
+msgstr "このテキストエリアのコンテンツはフロントページのサイト名下部に表示されます。"
+
+#. choosereadme
+#: theme/splash/lang/en/theme_splash.php:1
+msgctxt "theme/splash/lang/en/theme_splash.php:choosereadme"
+msgid ""
+"<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Splash</h2><img "
+"src=\"splash/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a "
+"href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme"
+" Credits</h3><p><a "
+"href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme"
+" Documentation:</h3><p><a "
+"href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report"
+" a bug:</h3><p><a "
+"href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div"
+" class=\"theme_description\"><h2>About</h2><p>Splash is a fluid-width, "
+"three-column theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme is built upon"
+" both Base and Canvas, two parent themes included in the Moodle core. If you"
+" want to modify this theme, we recommend that you first duplicate it then "
+"rename it before making your changes. This will prevent your customized "
+"theme from being overwritten by future Moodle upgrades, and you'll still "
+"have the original files if you make a mess. More information on modifying "
+"themes can be found in the <a "
+"href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2>"
+" <p>This theme was coded and is maintained by Caroline Kennedy of Synergy "
+"Learning. She can be contacted by email at caroline.kennedy@synergy-"
+"learningw.com. </p><h2>License</h2><p>This, and all other themes included in"
+" the Moodle core, are licensed under the <a "
+"href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public "
+"License</a>.</div></div>"
+msgstr "<div class=\"clearfix\"><div class=\"theme_screenshot\"><h2>Splash</h2><img src=\"splash/pix/screenshot.jpg\" /><h3>Theme Discussion Forum:</h3><p><a href=\"http://moodle.org/mod/forum/view.php?id=46\">http://moodle.org/mod/forum/view.php?id=46</a></p><h3>Theme Credits</h3><p><a href=\"http://docs.moodle.org/en/Theme_credits\">http://docs.moodle.org/en/Theme_credits</a></p><h3>Theme Documentation:</h3><p><a href=\"http://docs.moodle.org/en/Themes\">http://docs.moodle.org/en/Themes</a></p><h3>Report a bug:</h3><p><a href=\"http://tracker.moodle.org\">http://tracker.moodle.org</a></p></div><div class=\"theme_description\"><h2>About</h2><p>Splash is a fluid-width, three-column theme for Moodle 2.0.<h2>Tweaks</h2><p>This theme is built upon both Base and Canvas, two parent themes included in the Moodle core. If you want to modify this theme, we recommend that you first duplicate it then rename it before making your changes. This will prevent your customized theme from being overwritten by future Moodle upgrades, and you'll still have the original files if you make a mess. More information on modifying themes can be found in the <a href=\"http://docs.moodle.org/en/Theme\">MoodleDocs</a>.</p><h2>Credits</h2> <p>This theme was coded and is maintained by Caroline Kennedy of Synergy Learning. She can be contacted by email at caroline.kennedy@synergy-learningw.com. </p><h2>License</h2><p>This, and all other themes included in the Moodle core, are licensed under the <a href=\"http://www.gnu.org/licenses/gpl.html\">GNU General Public License</a>.</div></div>"
+
+#. configtitle
+#: theme/splash/lang/en/theme_splash.php:2
+msgctxt "theme/splash/lang/en/theme_splash.php:configtitle"
+msgid "Splash Theme settings"
+msgstr "Splashテーマ設定"
+
+#. customcss
+#: theme/splash/lang/en/theme_splash.php:3
+msgctxt "theme/splash/lang/en/theme_splash.php:customcss"
+msgid "Custom CSS"
+msgstr "カスタムCSS"
+
+#. customcssdesc
+#: theme/splash/lang/en/theme_splash.php:4
+msgctxt "theme/splash/lang/en/theme_splash.php:customcssdesc"
+msgid ""
+"Any CSS you enter here will be added to every page allowing your to easily "
+"customise this theme."
+msgstr "このテーマのカスタマイズを容易にするよう、あなたがここで入力したCSSはすべてのページに追加されます。"
+
+#. defaulttagline
+#: theme/splash/lang/en/theme_splash.php:5
+msgctxt "theme/splash/lang/en/theme_splash.php:defaulttagline"
+msgid "Virtual learning center"
+msgstr "バーチャル学習センター"
+
+#. footnote
+#: theme/splash/lang/en/theme_splash.php:6
+msgctxt "theme/splash/lang/en/theme_splash.php:footnote"
+msgid "Footnote"
+msgstr "フットノート"
+
+#. footnotedesc
+#: theme/splash/lang/en/theme_splash.php:7
+msgctxt "theme/splash/lang/en/theme_splash.php:footnotedesc"
+msgid ""
+"The content from this textarea will be displayed in the footer of every "
+"page. E.g: your copyright info."
+msgstr "このテキストエリアのコンテンツはすべてのページのフッタに表示されます。"
+
+#. hide_tagline
+#: theme/splash/lang/en/theme_splash.php:8
+msgctxt "theme/splash/lang/en/theme_splash.php:hide_tagline"
+msgid "Hide tagline"
+msgstr "タグラインを隠す"
+
+#. hide_taglinedesc
+#: theme/splash/lang/en/theme_splash.php:9
+msgctxt "theme/splash/lang/en/theme_splash.php:hide_taglinedesc"
+msgid "Check this box to hide the tagline under the logo."
+msgstr "ロゴの下にあるタグラインを隠すには、このチェックボックスをチェックしてください。"
+
+#. loginhere
+#: theme/splash/lang/en/theme_splash.php:10
+msgctxt "theme/splash/lang/en/theme_splash.php:loginhere"
+msgid "Login here!"
+msgstr "ログイン!"
+
+#. logo
+#: theme/splash/lang/en/theme_splash.php:11
+msgctxt "theme/splash/lang/en/theme_splash.php:logo"
+msgid "Logo"
+msgstr "ロゴ"
+
+#. logodesc
+#: theme/splash/lang/en/theme_splash.php:12
+msgctxt "theme/splash/lang/en/theme_splash.php:logodesc"
+msgid ""
+"Enter the URL to an image to use as the logo for this site. E.g: "
+"http://www.yoursite.com/path/to/logo.png. The logo should be max 230px wide."
+msgstr "このサイトのロゴとして使用されるイメージのURIを入力してください。次のように入力します: http://www.yoursite.com/path/to/logo.png ロゴの最大幅は230pxにしてください。"
+
+#. pluginname
+#: theme/splash/lang/en/theme_splash.php:13
+msgctxt "theme/splash/lang/en/theme_splash.php:pluginname"
+msgid "Splash"
+msgstr "Splash"
+
+#. region-side-post
+#: theme/splash/lang/en/theme_splash.php:14
+msgctxt "theme/splash/lang/en/theme_splash.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/splash/lang/en/theme_splash.php:15
+msgctxt "theme/splash/lang/en/theme_splash.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. tagline
+#: theme/splash/lang/en/theme_splash.php:16
+msgctxt "theme/splash/lang/en/theme_splash.php:tagline"
+msgid "Tagline"
+msgstr "タグライン"
+
+#. taglinedesc
+#: theme/splash/lang/en/theme_splash.php:17
+msgctxt "theme/splash/lang/en/theme_splash.php:taglinedesc"
+msgid ""
+"The content from this textarea will be displayed under the Site logo on the "
+"Homepage"
+msgstr "このテキストエリアのコンテンツはホームページのサイトロゴの下に表示されます。"
+
+#. usergreeting
+#: theme/splash/lang/en/theme_splash.php:18
+msgctxt "theme/splash/lang/en/theme_splash.php:usergreeting"
+msgid "Hi {$a}!"
+msgstr "Hi {$a}!"
+
+#. welcome
+#: theme/splash/lang/en/theme_splash.php:19
+msgctxt "theme/splash/lang/en/theme_splash.php:welcome"
+msgid "Welcome, {$a}"
+msgstr "ようこそ {$a} さん"
+
+#. choosereadme
+#: theme/standard/lang/en/theme_standard.php:1
+msgctxt "theme/standard/lang/en/theme_standard.php:choosereadme"
+msgid ""
+"This theme is a very basic white theme, with a minimum amount of CSS added "
+"to the base theme to make it actually usable."
+msgstr "このテーマは使いやすいように、baseテーマに最小限のCSSを追加した非常に基本的な白色のテーマです。"
+
+#. pluginname
+#: theme/standard/lang/en/theme_standard.php:2
+msgctxt "theme/standard/lang/en/theme_standard.php:pluginname"
+msgid "Standard"
+msgstr "Standard"
+
+#. region-side-post
+#: theme/standard/lang/en/theme_standard.php:3
+msgctxt "theme/standard/lang/en/theme_standard.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/standard/lang/en/theme_standard.php:4
+msgctxt "theme/standard/lang/en/theme_standard.php:region-side-pre"
+msgid "Left"
+msgstr "左"
+
+#. choosereadme
+#: theme/standardold/lang/en/theme_standardold.php:1
+msgctxt "theme/standardold/lang/en/theme_standardold.php:choosereadme"
+msgid ""
+"This theme is designed specifically to work on IE6 and other old browsers.\n"
+"The Moodle 2.0 release notes state that IE6 is no longer supported however we have not gone out of our way to ensure it does not work and as such it should in the most part work fine barring numerous minor visual issues.\n"
+"\n"
+"This theme is here so that those who are stuck with IE6 can still have a usable theme, although specific areas of Moodle may still cause problems or fail to function correctly.\n"
+"It differs from the standard theme only by the layouts, rather than using the floating div layout that puts the content first this theme uses a table for layout much like the theme's in Moodle 1.9.\n"
+"\n"
+"Because IE6 is not supported Moodle HQ will not be spending copious amounts of time on getting it 100% functional. Please if you find a bug with IE6 and this theme - find a solution as well. Then create a bug report at tracker.moodle.org and provide both a detailed example of where to find and how to replicate the bug as well as the solution you found. This way we can continue to improve the theme and it's IE6 support."
+msgstr "テーブルベースのレイアウトを使用したレガシー標準テーマです。廃止されたCSSスタイルを含みます。"
+
+#. pluginname
+#: theme/standardold/lang/en/theme_standardold.php:2
+msgctxt "theme/standardold/lang/en/theme_standardold.php:pluginname"
+msgid "Standard (legacy)"
+msgstr "Standard (レガシー)"
+
+#. region-side-post
+#: theme/standardold/lang/en/theme_standardold.php:3
+msgctxt "theme/standardold/lang/en/theme_standardold.php:region-side-post"
+msgid "Right"
+msgstr "右"
+
+#. region-side-pre
+#: theme/standardold/lang/en/theme_standardold.php:4
+msgctxt "theme/standardold/lang/en/theme_standardold.php:region-side-pre"
+msgid "Left"
+msgstr "左"

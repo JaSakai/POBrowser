@@ -1,0 +1,982 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015-2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-04-01 00:31+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. announcement.metadata
+#: dashboard/bundles/resources/dash_entity.properties:1
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.metadata"
+msgid "Posted by {user-name} on {news-time}. "
+msgstr "\"{user-name}\" による投稿 ({news-time})"
+
+#. announcement.attachments
+#: dashboard/bundles/resources/dash_entity.properties:2
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.attachments"
+msgid "Attachments: {0}"
+msgstr "添付: {0}"
+
+#. announcement.news.time
+#: dashboard/bundles/resources/dash_entity.properties:3
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.news.time"
+msgid "Date posted: {0}"
+msgstr "投稿日時: {0}"
+
+#. announcement.user.name
+#: dashboard/bundles/resources/dash_entity.properties:4
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.user.name"
+msgid "Posted by: {0}"
+msgstr "投稿者: \"{0}\""
+
+#. announcement.info.link
+#: dashboard/bundles/resources/dash_entity.properties:5
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.info.link"
+msgid "View in Site"
+msgstr "サイトで表示"
+
+#. announcement.grouped.created
+#: dashboard/bundles/resources/dash_entity.properties:6
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.grouped.created"
+msgid "{0} announcements added to {1}"
+msgstr "{0} 件のお知らせが \"{1}\" に追加されました"
+
+#. announcement.grouped.updated
+#: dashboard/bundles/resources/dash_entity.properties:7
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.grouped.updated"
+msgid "{0} announcements revised in {1}"
+msgstr "{0} 件のお知らせが \"{1}\" で編集されました"
+
+#. announcement.added
+#: dashboard/bundles/resources/dash_entity.properties:8
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:announcement.added"
+msgid "added"
+msgstr "アナウンスの追加:"
+
+#. assignment.data
+#: dashboard/bundles/resources/dash_entity.properties:9
+msgctxt "dashboard/bundles/resources/dash_entity.properties:assignment.data"
+msgid "Due: {due-time}. Accept until: {close-time}. {grade-type}."
+msgstr "締切日時: {due-time}，受理期限: {close-time}．成績種別: {grade-type}"
+
+#. assignment.data.with.maxpoint
+#: dashboard/bundles/resources/dash_entity.properties:10
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.data.with.maxpoint"
+msgid ""
+"Due: {due-time}. Accept until: {close-time}. {grade-type}. Max points: "
+"{grade-max}."
+msgstr "締切日時: {due-time}，受理期限: {close-time}．成績種別: {grade-type}，最高点: {grade-max}"
+
+#. assignment.metadata
+#: dashboard/bundles/resources/dash_entity.properties:11
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.metadata"
+msgid "Posted by {user-name} on {news-time}. Assignment opened {open-time}."
+msgstr "\"{user-name}\" による投稿 ({news-time})，課題公開日時: {open-time}."
+
+#. assignment.description
+#: dashboard/bundles/resources/dash_entity.properties:12
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.description"
+msgid "Description"
+msgstr "説明"
+
+#. assignment.attachments
+#: dashboard/bundles/resources/dash_entity.properties:13
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.attachments"
+msgid "Attachments"
+msgstr "添付ファイル"
+
+#. assignment.calendar.time
+#: dashboard/bundles/resources/dash_entity.properties:14
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.calendar.time"
+msgid "Due date: {0}"
+msgstr "締切日時: {0}"
+
+#. assignment.user.name
+#: dashboard/bundles/resources/dash_entity.properties:15
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.user.name"
+msgid "Created by: {0}"
+msgstr "作成者: {0}"
+
+#. assignment.news.time
+#: dashboard/bundles/resources/dash_entity.properties:16
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.news.time"
+msgid "Date created: {0}"
+msgstr "作成日時: {0}"
+
+#. assignment.open.time
+#: dashboard/bundles/resources/dash_entity.properties:17
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.open.time"
+msgid "Open: {0}"
+msgstr "公開: {0}"
+
+#. assignment.due.time
+#: dashboard/bundles/resources/dash_entity.properties:18
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.due.time"
+msgid "Due: {0}"
+msgstr "締切: {0}"
+
+#. assignment.close.time
+#: dashboard/bundles/resources/dash_entity.properties:19
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.close.time"
+msgid "Accept Until: {0}"
+msgstr "受理期限: {0}"
+
+#. assignment.info.link
+#: dashboard/bundles/resources/dash_entity.properties:20
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.info.link"
+msgid "View in Site"
+msgstr "サイトで表示"
+
+#. assignment.grade.type
+#: dashboard/bundles/resources/dash_entity.properties:21
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.grade.type"
+msgid "Grade: {0} "
+msgstr "採点: {0}"
+
+#. assignment.max.grade
+#: dashboard/bundles/resources/dash_entity.properties:22
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.max.grade"
+msgid "max ({0})"
+msgstr "最大 ({0})"
+
+#. assignment.submission.status
+#: dashboard/bundles/resources/dash_entity.properties:23
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.submission.status"
+msgid "Status: {0}"
+msgstr "状態: \"{0}\""
+
+#. assignment.due.date
+#: dashboard/bundles/resources/dash_entity.properties:24
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.due.date"
+msgid "Due date"
+msgstr "締切日時"
+
+#. assignment.close.date
+#: dashboard/bundles/resources/dash_entity.properties:25
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.close.date"
+msgid "Accept until "
+msgstr "受理期限"
+
+#. assignment.grouped.created
+#: dashboard/bundles/resources/dash_entity.properties:26
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.grouped.created"
+msgid "{0} assignments added to {1}"
+msgstr "{0} 件の課題が \"{1}\" に追加されました"
+
+#. assignment.grouped.updated
+#: dashboard/bundles/resources/dash_entity.properties:27
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:assignment.grouped.updated"
+msgid "{0} assignments revised in {1}"
+msgstr "{0} 件の課題が \"{1}\" で編集されました"
+
+#. assignment.added
+#: dashboard/bundles/resources/dash_entity.properties:28
+msgctxt "dashboard/bundles/resources/dash_entity.properties:assignment.added"
+msgid "added"
+msgstr "アナウンスの追加:"
+
+#. samigo.data
+#: dashboard/bundles/resources/dash_entity.properties:29
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.data"
+msgid "Due: {due-time}. Accept until: {close-time}."
+msgstr "締切日時: {due-time}．受理期限: {close-time}．"
+
+#. samigo.data.with.maxpoint
+#: dashboard/bundles/resources/dash_entity.properties:30
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:samigo.data.with.maxpoint"
+msgid "Due: {due-time}. Accept until: {close-time}. Max points: {grade-max}."
+msgstr "締切日時: {due-time}．受理期限: {close-time}．最高点: {grade-max}．"
+
+#. samigo.metadata
+#: dashboard/bundles/resources/dash_entity.properties:31
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.metadata"
+msgid ""
+"Published by {user-name} on {news-time}. Assessment opened {open-time}."
+msgstr "\"{user-name}\" による投稿 ({news-time})，課題公開日時: {open-time}."
+
+#. samigo.description
+#: dashboard/bundles/resources/dash_entity.properties:32
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:samigo.description"
+msgid "Description"
+msgstr "説明"
+
+#. samigo.calendar.time
+#: dashboard/bundles/resources/dash_entity.properties:33
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:samigo.calendar.time"
+msgid "Due date: {0}"
+msgstr "締切日時: {0}"
+
+#. samigo.user.name
+#: dashboard/bundles/resources/dash_entity.properties:34
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.user.name"
+msgid "Created by: {0}"
+msgstr "作成者: {0}"
+
+#. samigo.news.time
+#: dashboard/bundles/resources/dash_entity.properties:35
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.news.time"
+msgid "Date created: {0}"
+msgstr "作成日時: {0}"
+
+#. samigo.open.time
+#: dashboard/bundles/resources/dash_entity.properties:36
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.open.time"
+msgid "Open: {0}"
+msgstr "公開: {0}"
+
+#. samigo.due.time
+#: dashboard/bundles/resources/dash_entity.properties:37
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.due.time"
+msgid "Due: {0}"
+msgstr "締切: {0}"
+
+#. samigo.close.time
+#: dashboard/bundles/resources/dash_entity.properties:38
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.close.time"
+msgid "Accept Until: {0}"
+msgstr "受理期限: {0}"
+
+#. samigo.info.link
+#: dashboard/bundles/resources/dash_entity.properties:39
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.info.link"
+msgid "View in Site"
+msgstr "サイトで表示"
+
+#. samigo.max.grade
+#: dashboard/bundles/resources/dash_entity.properties:40
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.max.grade"
+msgid "max ({0})"
+msgstr "最大 ({0})"
+
+#. samigo.due.date
+#: dashboard/bundles/resources/dash_entity.properties:41
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.due.date"
+msgid "Due date"
+msgstr "締切日時"
+
+#. samigo.close.date
+#: dashboard/bundles/resources/dash_entity.properties:42
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.close.date"
+msgid "Accept until "
+msgstr "受理期限"
+
+#. samigo.grouped.created
+#: dashboard/bundles/resources/dash_entity.properties:43
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:samigo.grouped.created"
+msgid "{0} assignments added to {1}"
+msgstr "{0} 件の課題が \"{1}\" に追加されました"
+
+#. samigo.grouped.updated
+#: dashboard/bundles/resources/dash_entity.properties:44
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:samigo.grouped.updated"
+msgid "{0} assignments revised in {1}"
+msgstr "{0} 件の課題が \"{1}\" で編集されました"
+
+#. samigo.added
+#: dashboard/bundles/resources/dash_entity.properties:45
+msgctxt "dashboard/bundles/resources/dash_entity.properties:samigo.added"
+msgid "added"
+msgstr "追加されました."
+
+#. resource.user.name
+#: dashboard/bundles/resources/dash_entity.properties:46
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.user.name"
+msgid "Posted by: {0}"
+msgstr "投稿者: \"{0}\""
+
+#. resource.news.time
+#: dashboard/bundles/resources/dash_entity.properties:47
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.news.time"
+msgid "Date posted: {0}"
+msgstr "投稿日時: {0}"
+
+#. resource.info.link.file
+#: dashboard/bundles/resources/dash_entity.properties:48
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.info.link.file"
+msgid "Download File ({0} bytes)"
+msgstr "ファイルをダウンロード ({0} バイト)"
+
+#. resource.info.link.text
+#: dashboard/bundles/resources/dash_entity.properties:49
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.info.link.text"
+msgid "View Text"
+msgstr "テキストを表示"
+
+#. resource.info.link.html
+#: dashboard/bundles/resources/dash_entity.properties:50
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.info.link.html"
+msgid "View Page"
+msgstr "ページを表示"
+
+#. resource.info.link.url
+#: dashboard/bundles/resources/dash_entity.properties:51
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.info.link.url"
+msgid "Go to Site"
+msgstr "サイトへ移動"
+
+#. resource.info.link.citationlist
+#: dashboard/bundles/resources/dash_entity.properties:52
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.info.link.citationlist"
+msgid "View Citation List"
+msgstr "文献一覧を表示"
+
+#. resource.grouped.created
+#: dashboard/bundles/resources/dash_entity.properties:53
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.grouped.created"
+msgid "{0} resources added to {1}"
+msgstr "{0} 件のリソースが \"{1}\" に追加されました."
+
+#. resource.grouped.updated
+#: dashboard/bundles/resources/dash_entity.properties:54
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:resource.grouped.updated"
+msgid "{0} resources revised in {1}"
+msgstr "{0} 件のリソースが \"{1}\" で修正されました."
+
+#. resource.added
+#: dashboard/bundles/resources/dash_entity.properties:55
+msgctxt "dashboard/bundles/resources/dash_entity.properties:resource.added"
+msgid "added"
+msgstr "アナウンスの追加:"
+
+#. resource.updated
+#: dashboard/bundles/resources/dash_entity.properties:56
+msgctxt "dashboard/bundles/resources/dash_entity.properties:resource.updated"
+msgid "revised"
+msgstr "編集済"
+
+#. resource.metadata
+#: dashboard/bundles/resources/dash_entity.properties:57
+msgctxt "dashboard/bundles/resources/dash_entity.properties:resource.metadata"
+msgid "Posted by {user-name} on {news-time}. "
+msgstr "\"{user-name}\" による投稿 ({news-time})"
+
+#. dropbox.added
+#: dashboard/bundles/resources/dash_entity.properties:58
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dropbox.added"
+msgid "added to Drop Box"
+msgstr "提出箱に追加されました."
+
+#. dropbox.updated
+#: dashboard/bundles/resources/dash_entity.properties:59
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dropbox.updated"
+msgid "revised in Drop Box"
+msgstr "提出箱で修正されました."
+
+#. dropbox.grouped.created
+#: dashboard/bundles/resources/dash_entity.properties:60
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dropbox.grouped.created"
+msgid "{0} resources added to {1} Drop Box"
+msgstr "{0} 件のリソースが \"{1}\" 提出箱に追加されました."
+
+#. dropbox.grouped.updated
+#: dashboard/bundles/resources/dash_entity.properties:61
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dropbox.grouped.updated"
+msgid "{0} resources revised in {1} Drop Box"
+msgstr "{0} 件のリソースが \"{1}\" 提出箱で修正されました."
+
+#. schedule.info.link
+#: dashboard/bundles/resources/dash_entity.properties:62
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:schedule.info.link"
+msgid "View in Site"
+msgstr "サイトで表示"
+
+#. schedule.news.time
+#: dashboard/bundles/resources/dash_entity.properties:63
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:schedule.news.time"
+msgid "Date posted: {0}"
+msgstr "投稿日時: {0}"
+
+#. schedule.metadata
+#: dashboard/bundles/resources/dash_entity.properties:64
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.metadata"
+msgid "Event date: {calendar-time}. Posted on {news-time}"
+msgstr "イベント日時: {calendar-time} (投稿日時: {news-time})"
+
+#. schedule.key1
+#: dashboard/bundles/resources/dash_entity.properties:65
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key1"
+msgid "Academic Calendar "
+msgstr "学事カレンダ"
+
+#. schedule.key2
+#: dashboard/bundles/resources/dash_entity.properties:66
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key2"
+msgid "Activity "
+msgstr "予定"
+
+#. schedule.key3
+#: dashboard/bundles/resources/dash_entity.properties:67
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key3"
+msgid "Cancellation "
+msgstr "取消"
+
+#. schedule.key4
+#: dashboard/bundles/resources/dash_entity.properties:68
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key4"
+msgid "Class section - Discussion"
+msgstr "クラスセクション - ディスカッション"
+
+#. schedule.key5
+#: dashboard/bundles/resources/dash_entity.properties:69
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key5"
+msgid "Class section - Lab"
+msgstr "クラスセクション - 実験"
+
+#. schedule.key6
+#: dashboard/bundles/resources/dash_entity.properties:70
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key6"
+msgid "Class section - Lecture "
+msgstr "クラスセクション - 講義"
+
+#. schedule.key7
+#: dashboard/bundles/resources/dash_entity.properties:71
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key7"
+msgid "Class section - Small Group  "
+msgstr "クラス(小グループ)"
+
+#. schedule.key8
+#: dashboard/bundles/resources/dash_entity.properties:72
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key8"
+msgid "Class session"
+msgstr "クラスセッション"
+
+#. schedule.key9
+#: dashboard/bundles/resources/dash_entity.properties:73
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key9"
+msgid "Computer Session  "
+msgstr "コンピュータ　セッション"
+
+#. schedule.key10
+#: dashboard/bundles/resources/dash_entity.properties:74
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key10"
+msgid "Deadline"
+msgstr "締切"
+
+#. schedule.key11
+#: dashboard/bundles/resources/dash_entity.properties:75
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key11"
+msgid "Exam"
+msgstr "試験"
+
+#. schedule.key12
+#: dashboard/bundles/resources/dash_entity.properties:76
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key12"
+msgid "Meeting "
+msgstr "ミーティング"
+
+#. schedule.key13
+#: dashboard/bundles/resources/dash_entity.properties:77
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key13"
+msgid "Multidisciplinary Conference  "
+msgstr "学術会議"
+
+#. schedule.key14
+#: dashboard/bundles/resources/dash_entity.properties:78
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key14"
+msgid "Quiz"
+msgstr "クイズ"
+
+#. schedule.key15
+#: dashboard/bundles/resources/dash_entity.properties:79
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key15"
+msgid "Special event  "
+msgstr "特別なイベント"
+
+#. schedule.key16
+#: dashboard/bundles/resources/dash_entity.properties:80
+msgctxt "dashboard/bundles/resources/dash_entity.properties:schedule.key16"
+msgid "Web Assignment  "
+msgstr "ウェブ課題"
+
+#. schedule.grouped.title
+#: dashboard/bundles/resources/dash_entity.properties:81
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:schedule.grouped.title"
+msgid "{0} events added to the {1} calendar"
+msgstr "{0} 件のイベントが \"{1}\" カレンダに追加されました"
+
+#. dash.calendar.title
+#: dashboard/bundles/resources/dash_entity.properties:82
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.title"
+msgid "Assignments & Events"
+msgstr "課題およびイベント"
+
+#. dash.calendar.upcoming
+#: dashboard/bundles/resources/dash_entity.properties:83
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.upcoming"
+msgid "Upcoming"
+msgstr "もうすぐ"
+
+#. dash.calendar.past
+#: dashboard/bundles/resources/dash_entity.properties:84
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.past"
+msgid "Past"
+msgstr "過去"
+
+#. dash.calendar.starred
+#: dashboard/bundles/resources/dash_entity.properties:85
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.starred"
+msgid "Starred"
+msgstr "星付き"
+
+#. dash.calendar.hidden
+#: dashboard/bundles/resources/dash_entity.properties:86
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.hidden"
+msgid "Hidden"
+msgstr "非表示"
+
+#. dash.calendar.noupcoming
+#: dashboard/bundles/resources/dash_entity.properties:87
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.noupcoming"
+msgid "You have no upcoming items."
+msgstr "今度のアイテムはありません．"
+
+#. dash.calendar.nopast
+#: dashboard/bundles/resources/dash_entity.properties:88
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.nopast"
+msgid "You have no past items."
+msgstr "過去のアイテムはありません．"
+
+#. dash.calendar.nostarred
+#: dashboard/bundles/resources/dash_entity.properties:89
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.nostarred"
+msgid "You have not starred any items."
+msgstr "アイテムを星付きにできません．"
+
+#. dash.calendar.nohidden
+#: dashboard/bundles/resources/dash_entity.properties:90
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.nohidden"
+msgid "You have not hidden any items."
+msgstr "アイテムを非表示にできません"
+
+#. dash.calendar.linksCount
+#: dashboard/bundles/resources/dash_entity.properties:91
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.linksCount"
+msgid "{0} items"
+msgstr "{0} 件"
+
+#. dash.calendar.linksCount0
+#: dashboard/bundles/resources/dash_entity.properties:92
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.linksCount0"
+msgid "No items"
+msgstr "アイテムなし"
+
+#. dash.calendar.linksCount1
+#: dashboard/bundles/resources/dash_entity.properties:93
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.linksCount1"
+msgid "Showing 1 item"
+msgstr "1 件を表示中"
+
+#. dash.calendar.linksCount2
+#: dashboard/bundles/resources/dash_entity.properties:94
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.linksCount2"
+msgid "Showing item {0} of {1} items"
+msgstr "{0} / {1} 件を表示中"
+
+#. dash.calendar.linksCount3
+#: dashboard/bundles/resources/dash_entity.properties:95
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.calendar.linksCount3"
+msgid "Showing {0} to {1} of {2} items"
+msgstr "{0} - {1} / {2} 件を表示中"
+
+#. dash.pager.range
+#: dashboard/bundles/resources/dash_entity.properties:96
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.pager.range"
+msgid "{0}-{1}"
+msgstr "{0}-{1}"
+
+#. dash.motd.title
+#: dashboard/bundles/resources/dash_entity.properties:97
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.motd.title"
+msgid "Message of the day"
+msgstr "今日のメッセージ"
+
+#. dash.news.title
+#: dashboard/bundles/resources/dash_entity.properties:98
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.news.title"
+msgid "Recent Activity"
+msgstr "最近のアクティビティ"
+
+#. dash.news.current
+#: dashboard/bundles/resources/dash_entity.properties:99
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.news.current"
+msgid "Updates"
+msgstr "更新"
+
+#. dash.news.starred
+#: dashboard/bundles/resources/dash_entity.properties:100
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.news.starred"
+msgid "Starred"
+msgstr "星付き"
+
+#. dash.news.hidden
+#: dashboard/bundles/resources/dash_entity.properties:101
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.news.hidden"
+msgid "Hidden"
+msgstr "非表示"
+
+#. dash.news.nocurrent
+#: dashboard/bundles/resources/dash_entity.properties:102
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.nocurrent"
+msgid "You have no recent items."
+msgstr "最近のアイテムはありません．"
+
+#. dash.news.nostarred
+#: dashboard/bundles/resources/dash_entity.properties:103
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.nostarred"
+msgid "You have not starred any recent items. "
+msgstr "星付きの最近のアイテムはありません．"
+
+#. dash.news.nohidden
+#: dashboard/bundles/resources/dash_entity.properties:104
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.nohidden"
+msgid "You have not hidden any recent items."
+msgstr "非表示の最近のアイテムはありません．"
+
+#. dash.news.linksCount
+#: dashboard/bundles/resources/dash_entity.properties:105
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.linksCount"
+msgid "{0} items"
+msgstr "{0} 件"
+
+#. dash.news.linksCount0
+#: dashboard/bundles/resources/dash_entity.properties:106
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.linksCount0"
+msgid "No items"
+msgstr "アイテムなし"
+
+#. dash.news.linksCount1
+#: dashboard/bundles/resources/dash_entity.properties:107
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.linksCount1"
+msgid "Showing 1 item"
+msgstr "1 件を表示中"
+
+#. dash.news.linksCount2
+#: dashboard/bundles/resources/dash_entity.properties:108
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.linksCount2"
+msgid "Showing item {0} of {1} items"
+msgstr "{0} / {1} 件を表示中"
+
+#. dash.news.linksCount3
+#: dashboard/bundles/resources/dash_entity.properties:109
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.news.linksCount3"
+msgid "Showing {0} to {1} of {2} items"
+msgstr "{0} - {1} / {2} 件を表示中"
+
+#. dash.star
+#: dashboard/bundles/resources/dash_entity.properties:110
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.star"
+msgid "Star this"
+msgstr "これを星付きにする"
+
+#. dash.unstar
+#: dashboard/bundles/resources/dash_entity.properties:111
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.unstar"
+msgid "Unstar this"
+msgstr "これを星なしにする"
+
+#. dash.hide
+#: dashboard/bundles/resources/dash_entity.properties:112
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.hide"
+msgid "Hide this"
+msgstr "これを非表示にする"
+
+#. dash.show
+#: dashboard/bundles/resources/dash_entity.properties:113
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.show"
+msgid "Show this"
+msgstr "これを表示"
+
+#. dash.details
+#: dashboard/bundles/resources/dash_entity.properties:114
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.details"
+msgid "(click to view details)"
+msgstr "(詳細を表示する場合はクリックします)"
+
+#. dash.grouped.title
+#: dashboard/bundles/resources/dash_entity.properties:115
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.grouped.title"
+msgid "{0} items of type {1} added to the {2} site"
+msgstr "{0} 件の種別「{1}」が「{2}」サイトに追加されました."
+
+#. dash.grouped.more.status
+#: dashboard/bundles/resources/dash_entity.properties:116
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.grouped.more.status"
+msgid "Showing {0} of {1} items"
+msgstr "{0} / {1} 件を表示中"
+
+#. dash.grouped.more.link
+#: dashboard/bundles/resources/dash_entity.properties:117
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.grouped.more.link"
+msgid "Show more..."
+msgstr "多く表示 ..."
+
+#. dash.date.minute.ago
+#: dashboard/bundles/resources/dash_entity.properties:118
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.minute.ago"
+msgid "1 minute ago"
+msgstr "1 分前"
+
+#. dash.date.minutes.ago
+#: dashboard/bundles/resources/dash_entity.properties:119
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.minutes.ago"
+msgid "{0} minutes ago"
+msgstr "{0} 分前"
+
+#. dash.date.hour.ago
+#: dashboard/bundles/resources/dash_entity.properties:120
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.hour.ago"
+msgid "1 hour ago"
+msgstr "1 時間前"
+
+#. dash.date.hours.ago
+#: dashboard/bundles/resources/dash_entity.properties:121
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.hours.ago"
+msgid "{0} hours ago"
+msgstr "{0} 時間前"
+
+#. dash.date.today
+#: dashboard/bundles/resources/dash_entity.properties:122
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.date.today"
+msgid "Today "
+msgstr "今日"
+
+#. dash.date.today.time
+#: dashboard/bundles/resources/dash_entity.properties:123
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.today.time"
+msgid "Today {0}"
+msgstr "今日 {0}"
+
+#. dash.date.tomorrow.time
+#: dashboard/bundles/resources/dash_entity.properties:124
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.tomorrow.time"
+msgid "Tomorrow {0}"
+msgstr "明日 {0}"
+
+#. dash.date.yesterday
+#: dashboard/bundles/resources/dash_entity.properties:125
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.yesterday"
+msgid "Yesterday "
+msgstr "昨日"
+
+#. dash.date.yesterday.time
+#: dashboard/bundles/resources/dash_entity.properties:126
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.yesterday.time"
+msgid "Yesterday {0} "
+msgstr "昨日 {0}"
+
+#. dash.date.unknown.time
+#: dashboard/bundles/resources/dash_entity.properties:127
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.date.unknown.time"
+msgid "Unknown time"
+msgstr "時刻不明"
+
+#. dash.ajax.hide.success
+#: dashboard/bundles/resources/dash_entity.properties:128
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.hide.success"
+msgid "Item is now hidden"
+msgstr "アイテムを非表示にしました"
+
+#. dash.ajax.show.success
+#: dashboard/bundles/resources/dash_entity.properties:129
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.show.success"
+msgid "Item is no longer hidden"
+msgstr "アイテムを非表示でなくしました"
+
+#. dash.ajax.star.success
+#: dashboard/bundles/resources/dash_entity.properties:130
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.star.success"
+msgid "Item is now starred"
+msgstr "アイテムを星付きにしました"
+
+#. dash.ajax.unstar.success
+#: dashboard/bundles/resources/dash_entity.properties:131
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.unstar.success"
+msgid "Item is no longer starred"
+msgstr "アイテムを星なしにしました"
+
+#. dash.ajax.hide.failed
+#: dashboard/bundles/resources/dash_entity.properties:132
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.hide.failed"
+msgid "Update failed. Item is still showing."
+msgstr "更新に失敗しました．アイテムはまだ表示されています．"
+
+#. dash.ajax.show.failed
+#: dashboard/bundles/resources/dash_entity.properties:133
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.show.failed"
+msgid "Update failed. Item is still hidden."
+msgstr "更新に失敗しました．アイテムはまだ非表示のままです．"
+
+#. dash.ajax.star.failed
+#: dashboard/bundles/resources/dash_entity.properties:134
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.star.failed"
+msgid "Update failed. Item is not starred."
+msgstr "更新に失敗しました．アイテムは星付きではありません．"
+
+#. dash.ajax.unstar.failed
+#: dashboard/bundles/resources/dash_entity.properties:135
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.ajax.unstar.failed"
+msgid "Update failed. Item is still starred."
+msgstr "更新に失敗しました．アイテムはまだ星付きです．"
+
+#. dash.ajax.failed
+#: dashboard/bundles/resources/dash_entity.properties:136
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.ajax.failed"
+msgid "Update failed. No changes made."
+msgstr "更新に失敗しました．変更は行われていません．"
+
+#. dash.updated
+#: dashboard/bundles/resources/dash_entity.properties:137
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.updated"
+msgid "revised"
+msgstr "編集済"
+
+#. dash.attachment
+#: dashboard/bundles/resources/dash_entity.properties:138
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.attachment"
+msgid "Attachment"
+msgstr "添付"
+
+#. dash.generic.error
+#: dashboard/bundles/resources/dash_entity.properties:139
+msgctxt ""
+"dashboard/bundles/resources/dash_entity.properties:dash.generic.error"
+msgid "You may have logged out or the item is no longer available."
+msgstr "ログアウトしたかアイテムはもはや利用可能ではありません．"
+
+#. dash.notset
+#: dashboard/bundles/resources/dash_entity.properties:140
+msgctxt "dashboard/bundles/resources/dash_entity.properties:dash.notset"
+msgid "Not set"
+msgstr "設定されていません"
+
+#. page.title
+#: dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:1
+msgctxt ""
+"dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:page.title"
+msgid "Dashboard"
+msgstr "ダッシュボード"
+
+#. link.dashboard
+#: dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:2
+msgctxt ""
+"dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:link.dashboard"
+msgid "Dash"
+msgstr "ダッシュ"
+
+#. link.dashboard.tooltip
+#: dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:3
+msgctxt ""
+"dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:link.dashboard.tooltip"
+msgid "Go to the dashboard page"
+msgstr "ダッシュボードページへ移動"
+
+#. link.options
+#: dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:4
+msgctxt ""
+"dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:link.options"
+msgid "Options"
+msgstr "オプション"
+
+#. link.options.tooltip
+#: dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:5
+msgctxt ""
+"dashboard/tool/src/java/org/sakaiproject/dash/tool/MyApplication.properties:link.options.tooltip"
+msgid "This is another page"
+msgstr "これは別のページです."

@@ -1,0 +1,2323 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:27+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. accesCAS
+#: auth/cas/lang/en/auth_cas.php:1
+msgctxt "auth/cas/lang/en/auth_cas.php:accesCAS"
+msgid "CAS users"
+msgstr "CASユーザ"
+
+#. accesNOCAS
+#: auth/cas/lang/en/auth_cas.php:2
+msgctxt "auth/cas/lang/en/auth_cas.php:accesNOCAS"
+msgid "other users"
+msgstr "他のユーザ"
+
+#. auth_cas_auth_user_create
+#: auth/cas/lang/en/auth_cas.php:3
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_auth_user_create"
+msgid "Create users externally"
+msgstr "外部にユーザを作成する"
+
+#. auth_cas_baseuri
+#: auth/cas/lang/en/auth_cas.php:4
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_baseuri"
+msgid ""
+"URI of the server (nothing if no baseUri)<br />For example, if the CAS "
+"server responds to host.domaine.fr/CAS/ then<br />cas_baseuri = CAS/"
+msgstr "サーバのURI (ベースURIが無い場合は空白)<br />CASサーバが host.domaine.fr/CAS/ に応答する場合、<br />cas_baseuri = CAS/"
+
+#. auth_cas_baseuri_key
+#: auth/cas/lang/en/auth_cas.php:5
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_baseuri_key"
+msgid "Base URI"
+msgstr "ベースURI"
+
+#. auth_cas_broken_password
+#: auth/cas/lang/en/auth_cas.php:6
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_broken_password"
+msgid ""
+"You cannot proceed without changing your password, however there is no "
+"available page for changing it. Please contact your Moodle Administrator."
+msgstr "あなたのパスワードを変更せずに進むことはできませんが、利用できるパスワード変更ページがありません。あなたのMoodle管理者にご連絡ください。"
+
+#. auth_cas_cantconnect
+#: auth/cas/lang/en/auth_cas.php:7
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_cantconnect"
+msgid "LDAP part of CAS-module cannot connect to server: {$a}"
+msgstr "CASモジュールのLDAPがサーバに接続できません: {$a}"
+
+#. auth_cas_casversion
+#: auth/cas/lang/en/auth_cas.php:8
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_casversion"
+msgid "CAS protocol version"
+msgstr "CASプロトコルバージョン"
+
+#. auth_cas_certificate_check
+#: auth/cas/lang/en/auth_cas.php:9
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_certificate_check"
+msgid "Select 'yes' if you want to validate the server certificate"
+msgstr "あなたがサーバ証明書を認証したい場合、「Yes」を選択してください。"
+
+#. auth_cas_certificate_check_key
+#: auth/cas/lang/en/auth_cas.php:10
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_certificate_check_key"
+msgid "Server validation"
+msgstr "サーバ認証"
+
+#. auth_cas_certificate_path
+#: auth/cas/lang/en/auth_cas.php:11
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_certificate_path"
+msgid ""
+"Path of the CA chain file (PEM Format) to validate the server certificate"
+msgstr "サーバ証明書を認証するためのCAチェーンファイル (PEMフォーマット) のパスです。"
+
+#. auth_cas_certificate_path_empty
+#: auth/cas/lang/en/auth_cas.php:12
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_certificate_path_empty"
+msgid ""
+"If you turn on Server validation, you need to specify a certificate path"
+msgstr "あなたがサーバ妥当性を有効にした場合、証明書パスを指定する必要があります。"
+
+#. auth_cas_certificate_path_key
+#: auth/cas/lang/en/auth_cas.php:13
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_certificate_path_key"
+msgid "Certificate path"
+msgstr "証明書パス"
+
+#. auth_cas_changepasswordurl
+#: auth/cas/lang/en/auth_cas.php:14
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_changepasswordurl"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_cas_create_user
+#: auth/cas/lang/en/auth_cas.php:15
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_create_user"
+msgid ""
+"Turn this on if you want to insert CAS-authenticated users in Moodle "
+"database. If not then only users who already exist in the Moodle database "
+"can log in."
+msgstr "MoodleデータベースにCAS認証済みユーザを追加したい場合、「Yes」を選択してください。「No」を選択した場合、Moodleデータベースに登録されているユーザのみログインできます。"
+
+#. auth_cas_create_user_key
+#: auth/cas/lang/en/auth_cas.php:16
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_create_user_key"
+msgid "Create user"
+msgstr "ユーザを作成する"
+
+#. auth_casdescription
+#: auth/cas/lang/en/auth_cas.php:17
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_casdescription"
+msgid ""
+"This method uses a CAS server (Central Authentication Service) to "
+"authenticate users in a Single Sign On environment (SSO). You can also use a"
+" simple LDAP authentication. If the given username and password are valid "
+"according to CAS, Moodle creates a new user entry in its database, taking "
+"user attributes from LDAP if required. On following logins only the username"
+" and password are checked."
+msgstr "この認証方法では、単一ログイン環境 (Single Sign On environment: SSO) にて、CASサーバ (Central Authentication Service) をユーザ認証に使用します。シンプルLDAP認証を使用することもできます。ユーザ名とパスワードがCASで認証された場合、Moodleは新しいユーザエントリをデータベースに作成します。また、必要であれば、LDAPよりユーザ属性を取得します。次回からは、ユーザ名およびパスワードのみ確認されます。"
+
+#. auth_cas_enabled
+#: auth/cas/lang/en/auth_cas.php:18
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_enabled"
+msgid "Turn this on if you want to use CAS authentication."
+msgstr "CAS認証を使用したい場合、「Yes」を選択してください。"
+
+#. auth_cas_hostname
+#: auth/cas/lang/en/auth_cas.php:19
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_hostname"
+msgid "Hostname of the CAS server <br />eg: host.domain.fr"
+msgstr "CASサーバのホスト名<br />例: host.domaine.fr"
+
+#. auth_cas_hostname_key
+#: auth/cas/lang/en/auth_cas.php:20
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_hostname_key"
+msgid "Hostname"
+msgstr "ホスト名"
+
+#. auth_cas_invalidcaslogin
+#: auth/cas/lang/en/auth_cas.php:21
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_invalidcaslogin"
+msgid "Sorry, your login has failed - you could not be authorised"
+msgstr "申し訳ございません、ログインに失敗しました - あなたは認証されませんでした。"
+
+#. auth_cas_language
+#: auth/cas/lang/en/auth_cas.php:22
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_language"
+msgid "Select language for authentication pages"
+msgstr "認証ページ言語の選択"
+
+#. auth_cas_language_key
+#: auth/cas/lang/en/auth_cas.php:23
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_language_key"
+msgid "Language"
+msgstr "言語"
+
+#. auth_cas_logincas
+#: auth/cas/lang/en/auth_cas.php:24
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_logincas"
+msgid "Secure connection access"
+msgstr "セキュアコネクション・アクセス"
+
+#. auth_cas_logoutcas
+#: auth/cas/lang/en/auth_cas.php:25
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_logoutcas"
+msgid ""
+"Select 'yes' if you want to logout from CAS when you disconnect from Moodle"
+msgstr "Moodleからのログアウト時、CASからログアウトしたい場合、「Yes」を選択してください。"
+
+#. auth_cas_logoutcas_key
+#: auth/cas/lang/en/auth_cas.php:26
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_logoutcas_key"
+msgid "CAS logout option"
+msgstr "CASログアウトオプション"
+
+#. auth_cas_logout_return_url
+#: auth/cas/lang/en/auth_cas.php:27
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_logout_return_url"
+msgid ""
+"Provide the URL that CAS users shall be redirected to after logging out.<br "
+"/>If left empty, users will be redirected to the location that moodle will "
+"redirect users to"
+msgstr "CASユーザのログアウト後にリダイレクトされるURIを提供してください。<br />空白の場合、Moodleがユーザをリダイレクトする場所にリダイレクトされます。"
+
+#. auth_cas_logout_return_url_key
+#: auth/cas/lang/en/auth_cas.php:28
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_logout_return_url_key"
+msgid "Alternative logout return URL"
+msgstr "代替ログアウト戻りURI"
+
+#. auth_cas_multiauth
+#: auth/cas/lang/en/auth_cas.php:29
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_multiauth"
+msgid ""
+"Select 'yes' if you want to have multi-authentication (CAS + other "
+"authentication)"
+msgstr "マルチ認証 (CAS + 他の認証) を使用したい場合、「Yes」を選択してください。"
+
+#. auth_cas_multiauth_key
+#: auth/cas/lang/en/auth_cas.php:30
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_multiauth_key"
+msgid "Multi-authentication"
+msgstr "マルチ認証"
+
+#. auth_casnotinstalled
+#: auth/cas/lang/en/auth_cas.php:31
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_casnotinstalled"
+msgid "Cannot use CAS authentication. The PHP LDAP module is not installed."
+msgstr "CAS認証を使用できません。PHP LDAPモジュールがインストールされていません。"
+
+#. auth_cas_port
+#: auth/cas/lang/en/auth_cas.php:32
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_port"
+msgid "Port of the CAS server"
+msgstr "CASサーバのポート"
+
+#. auth_cas_port_key
+#: auth/cas/lang/en/auth_cas.php:33
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_port_key"
+msgid "Port"
+msgstr "ポート"
+
+#. auth_cas_proxycas
+#: auth/cas/lang/en/auth_cas.php:34
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_proxycas"
+msgid "Select 'yes' if you use CAS in proxy-mode"
+msgstr "CASをプロクシモードで使用したい場合、「Yes」を選択してください。"
+
+#. auth_cas_proxycas_key
+#: auth/cas/lang/en/auth_cas.php:35
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_proxycas_key"
+msgid "Proxy mode"
+msgstr "プロクシモード"
+
+#. auth_cas_server_settings
+#: auth/cas/lang/en/auth_cas.php:36
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_server_settings"
+msgid "CAS server configuration"
+msgstr "CASサーバ設定"
+
+#. auth_cas_text
+#: auth/cas/lang/en/auth_cas.php:37
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_text"
+msgid "Secure connection"
+msgstr "セキュアコネクション"
+
+#. auth_cas_use_cas
+#: auth/cas/lang/en/auth_cas.php:38
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_use_cas"
+msgid "Use CAS"
+msgstr "CASを使用する"
+
+#. auth_cas_version
+#: auth/cas/lang/en/auth_cas.php:39
+msgctxt "auth/cas/lang/en/auth_cas.php:auth_cas_version"
+msgid "CAS protocol version to use"
+msgstr "使用するCASプロトコルバージョン"
+
+#. CASform
+#: auth/cas/lang/en/auth_cas.php:40
+msgctxt "auth/cas/lang/en/auth_cas.php:CASform"
+msgid "Authentication choice"
+msgstr "認証選択"
+
+#. noldapserver
+#: auth/cas/lang/en/auth_cas.php:41
+msgctxt "auth/cas/lang/en/auth_cas.php:noldapserver"
+msgid "No LDAP server configured for CAS! Syncing disabled."
+msgstr "CAS用にLDAPサーバが設定されていません! 同期は無効にされました。"
+
+#. pluginname
+#: auth/cas/lang/en/auth_cas.php:42
+msgctxt "auth/cas/lang/en/auth_cas.php:pluginname"
+msgid "CAS server (SSO)"
+msgstr "CASサーバ (SSO)"
+
+#. auth_dbcantconnect
+#: auth/db/lang/en/auth_db.php:1
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbcantconnect"
+msgid "Could not connect to the specified authentication database..."
+msgstr "指定された認証データベースに接続できませんでした ..."
+
+#. auth_dbchangepasswordurl_key
+#: auth/db/lang/en/auth_db.php:2
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbchangepasswordurl_key"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_dbdebugauthdb
+#: auth/db/lang/en/auth_db.php:3
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbdebugauthdb"
+msgid "Debug ADOdb"
+msgstr "ADOdbデバッグ"
+
+#. auth_dbdebugauthdbhelp
+#: auth/db/lang/en/auth_db.php:4
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbdebugauthdbhelp"
+msgid ""
+"Debug ADOdb connection to external database - use when getting empty page "
+"during login. Not suitable for production sites."
+msgstr "外部データベースへのADOdbデバッグ接続 - ログイン時に空白ページが表示される場合、使用してください。実稼動サイトには適していません。"
+
+#. auth_dbdeleteuser
+#: auth/db/lang/en/auth_db.php:5
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbdeleteuser"
+msgid "Deleted user {$a->name} id {$a->id}"
+msgstr "削除ユーザ {$a->name} id {$a->id}"
+
+#. auth_dbdeleteusererror
+#: auth/db/lang/en/auth_db.php:6
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbdeleteusererror"
+msgid "Error deleting user {$a}"
+msgstr "ユーザ {$a} の削除中にエラーが発生しました。"
+
+#. auth_dbdescription
+#: auth/db/lang/en/auth_db.php:7
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbdescription"
+msgid ""
+"This method uses an external database table to check whether a given "
+"username and password is valid.  If the account is a new one, then "
+"information from other fields may also be copied across into Moodle."
+msgstr "ここではユーザ名およびパスワードが有効であるか確認するため、外部データベースを使用します。新しいアカウントを作成する場合、他のフィールドの情報がMoodleに複製されます。"
+
+#. auth_dbextencoding
+#: auth/db/lang/en/auth_db.php:8
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbextencoding"
+msgid "External db encoding"
+msgstr "外部データベースエンコーディング"
+
+#. auth_dbextencodinghelp
+#: auth/db/lang/en/auth_db.php:9
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbextencodinghelp"
+msgid "Encoding used in external database"
+msgstr "外部データベースで使用されるエンコーディング"
+
+#. auth_dbextrafields
+#: auth/db/lang/en/auth_db.php:10
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbextrafields"
+msgid ""
+"These fields are optional.  You can choose to pre-fill some Moodle user "
+"fields with information from the <b>external database fields</b> that you "
+"specify here. <p>If you leave these blank, then defaults will be "
+"used.</p><p>In either case, the user will be able to edit all of these "
+"fields after they log in.</p>"
+msgstr "これらのフィールドは、任意項目です。あなたは、<b>外部データベースフィールド</b>より、事前に入力されたMoodleユーザフィールドを選択することもできます。<p>空白の場合、デフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後、すべてのフィールドを編集することができます。</p>"
+
+#. auth_dbfieldpass
+#: auth/db/lang/en/auth_db.php:11
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbfieldpass"
+msgid "Name of the field containing passwords"
+msgstr "パスワードを含んだフィールド名"
+
+#. auth_dbfieldpass_key
+#: auth/db/lang/en/auth_db.php:12
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbfieldpass_key"
+msgid "Password field"
+msgstr "パスワードフィールド"
+
+#. auth_dbfielduser
+#: auth/db/lang/en/auth_db.php:13
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbfielduser"
+msgid "Name of the field containing usernames"
+msgstr "ユーザ名を含んだフィールド名"
+
+#. auth_dbfielduser_key
+#: auth/db/lang/en/auth_db.php:14
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbfielduser_key"
+msgid "Username field"
+msgstr "ユーザ名フィールド"
+
+#. auth_dbhost
+#: auth/db/lang/en/auth_db.php:15
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbhost"
+msgid ""
+"The computer hosting the database server. Use a system DSN entry if using "
+"ODBC."
+msgstr "データベースサーバが稼動しているコンピュータです。ODBCを使用している場合、システムDSNエントリを使用してください。"
+
+#. auth_dbhost_key
+#: auth/db/lang/en/auth_db.php:16
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbhost_key"
+msgid "Host"
+msgstr "ホスト"
+
+#. auth_dbinsertuser
+#: auth/db/lang/en/auth_db.php:17
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbinsertuser"
+msgid "Inserted user {$a->name} id {$a->id}"
+msgstr "登録ユーザ {$a->name} id {$a->id}"
+
+#. auth_dbinsertuserduplicate
+#: auth/db/lang/en/auth_db.php:18
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbinsertuserduplicate"
+msgid ""
+"Error inserting user {$a->username} - user with this username was already "
+"created through '{$a->auth}' plugin."
+msgstr "ユーザ {$a->username} の追加中にエラーが発生しました - このユーザ名のユーザはすでに「 {$a->auth} 」プラグイン経由で作成されています。"
+
+#. auth_dbinsertusererror
+#: auth/db/lang/en/auth_db.php:19
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbinsertusererror"
+msgid "Error inserting user {$a}"
+msgstr "ユーザ登録エラー {$a}"
+
+#. auth_dbname
+#: auth/db/lang/en/auth_db.php:20
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbname"
+msgid "Name of the database itself. Leave empty if using an ODBC DSN."
+msgstr "データベース名です。ODBC DSNを使用している場合、空白のままにしてください。"
+
+#. auth_dbname_key
+#: auth/db/lang/en/auth_db.php:21
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbname_key"
+msgid "DB name"
+msgstr "データベース名"
+
+#. auth_dbpass
+#: auth/db/lang/en/auth_db.php:22
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbpass"
+msgid "Password matching the above username"
+msgstr "上記ユーザ名に合致するパスワード"
+
+#. auth_dbpass_key
+#: auth/db/lang/en/auth_db.php:23
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbpass_key"
+msgid "Password"
+msgstr "パスワード"
+
+#. auth_dbpasstype
+#: auth/db/lang/en/auth_db.php:24
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbpasstype"
+msgid ""
+"<p>Specify the format that the password field is using. MD5 hashing is "
+"useful for connecting to other common web applications like PostNuke.</p> "
+"<p>Use 'internal' if you want to the external DB to manage usernames &amp; "
+"email addresses, but Moodle to manage passwords. If you use 'internal', you "
+"<i>must</i> provide a populated email address field in the external DB, and "
+"you must execute both admin/cron.php and auth/db/cli/sync_users.php "
+"regularly. Moodle will send an email to new users with a temporary "
+"password.</p>"
+msgstr "<p>パスワードフィールドで使用するフォーマットを指定してください。MD5暗号化はPostNukeのような他の一般的なウェブアプリケーションへの接続に有用です。</p><p>あなたが外部データベースにユーザ名およびメールアドレスを管理させて、Moodleにはパスワードを管理させたい場合、「内部」を使用してください。「内部」を使用する場合、外部データベースのメールアドレスフィールドを提供して、定期的に admin/cron.php および auth/db/cli/sync_users.php を実行してください。Moodleが新しいユーザに仮パスワード含んだメールを送信します。</p>"
+
+#. auth_dbpasstype_key
+#: auth/db/lang/en/auth_db.php:25
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbpasstype_key"
+msgid "Password format"
+msgstr "パスワードフォーマット"
+
+#. auth_dbreviveduser
+#: auth/db/lang/en/auth_db.php:26
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbreviveduser"
+msgid "Revived user {$a->name} id {$a->id}"
+msgstr "回復ユーザ {$a->name} id {$a->id}"
+
+#. auth_dbrevivedusererror
+#: auth/db/lang/en/auth_db.php:27
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbrevivedusererror"
+msgid "Error reviving user {$a}"
+msgstr "ユーザ {$a} の回復中にエラーが発生しました。"
+
+#. auth_dbsetupsql
+#: auth/db/lang/en/auth_db.php:28
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbsetupsql"
+msgid "SQL setup command"
+msgstr "SQLセットアップコマンド"
+
+#. auth_dbsetupsqlhelp
+#: auth/db/lang/en/auth_db.php:29
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbsetupsqlhelp"
+msgid ""
+"SQL command for special database setup, often used to setup communication "
+"encoding - example for MySQL and PostgreSQL: <em>SET NAMES 'utf8'</em>"
+msgstr "特別データベースセットアップ用のSQLコマンドです。多くの場合、コミュニケーションエンコーディングに使用されます - 例 MySQLおよびPostgreSQL: <em>SET NAMES 'utf8'</em>"
+
+#. auth_dbsuspenduser
+#: auth/db/lang/en/auth_db.php:30
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbsuspenduser"
+msgid "Suspended user {$a->name} id {$a->id}"
+msgstr "一時停止ユーザ {$a->name} id {$a->id}"
+
+#. auth_dbsuspendusererror
+#: auth/db/lang/en/auth_db.php:31
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbsuspendusererror"
+msgid "Error suspending user {$a}"
+msgstr "ユーザ {$a} の一時停止中にエラーが発生しました。"
+
+#. auth_dbsybasequoting
+#: auth/db/lang/en/auth_db.php:32
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbsybasequoting"
+msgid "Use sybase quotes"
+msgstr "Sybaseクオートを使用する"
+
+#. auth_dbsybasequotinghelp
+#: auth/db/lang/en/auth_db.php:33
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbsybasequotinghelp"
+msgid ""
+"Sybase style single quote escaping - needed for Oracle, MS SQL and some "
+"other databases. Do not use for MySQL!"
+msgstr "Sybaseスタイルのシングルクオートエスケープです - Oracle、MS SQLおよび他のデータベースに必要です。MySQLには使用しないでください!"
+
+#. auth_dbtable
+#: auth/db/lang/en/auth_db.php:34
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbtable"
+msgid "Name of the table in the database"
+msgstr "データベースのテーブル名"
+
+#. auth_dbtable_key
+#: auth/db/lang/en/auth_db.php:35
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbtable_key"
+msgid "Table"
+msgstr "テーブル"
+
+#. auth_dbtype
+#: auth/db/lang/en/auth_db.php:36
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbtype"
+msgid ""
+"The database type (See the <a "
+"href=\"http://phplens.com/adodb/supported.databases.html\" "
+"target=\"_blank\">ADOdb documentation</a> for details)"
+msgstr "データベースタイプ (詳細は、<a href=\"http://phplens.com/adodb/supported.databases.html\" target=\"_blank\">ADOdbドキュメンテーション</a>をご覧ください)"
+
+#. auth_dbtype_key
+#: auth/db/lang/en/auth_db.php:37
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbtype_key"
+msgid "Database"
+msgstr "データベース"
+
+#. auth_dbupdatinguser
+#: auth/db/lang/en/auth_db.php:38
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbupdatinguser"
+msgid "Updating user {$a->name} id {$a->id}"
+msgstr "更新ユーザ {$a->name} id {$a->id}"
+
+#. auth_dbuser
+#: auth/db/lang/en/auth_db.php:39
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbuser"
+msgid "Username with read access to the database"
+msgstr "データベースへのリードアクセス用のユーザ名"
+
+#. auth_dbuser_key
+#: auth/db/lang/en/auth_db.php:40
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbuser_key"
+msgid "DB user"
+msgstr "データベースユーザ"
+
+#. auth_dbusernotexist
+#: auth/db/lang/en/auth_db.php:41
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbusernotexist"
+msgid "Cannot update non-existent user: {$a}"
+msgstr "登録されていないユーザを更新できません: {$a}"
+
+#. auth_dbuserstoadd
+#: auth/db/lang/en/auth_db.php:42
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbuserstoadd"
+msgid "User entries to add: {$a}"
+msgstr "追加するユーザエントリ: {$a}"
+
+#. auth_dbuserstoremove
+#: auth/db/lang/en/auth_db.php:43
+msgctxt "auth/db/lang/en/auth_db.php:auth_dbuserstoremove"
+msgid "User entries to remove: {$a}"
+msgstr "削除するユーザエントリ: {$a}"
+
+#. pluginname
+#: auth/db/lang/en/auth_db.php:44
+msgctxt "auth/db/lang/en/auth_db.php:pluginname"
+msgid "External database"
+msgstr "外部データベース"
+
+#. auth_emaildescription
+#: auth/email/lang/en/auth_email.php:1
+msgctxt "auth/email/lang/en/auth_email.php:auth_emaildescription"
+msgid ""
+"<p>Email-based self-registration enables a user to create their own account "
+"via a 'Create new account' button on the login page. The user then receives "
+"an email containing a secure link to a page where they can confirm their "
+"account. Future logins just check the username and password against the "
+"stored values in the Moodle database.</p><p>Note: In addition to enabling "
+"the plugin, email-based self-registration must also be selected from the "
+"self registration drop-down menu on the 'Manage authentication' page.</p>"
+msgstr "<p>Eメールによる自己登録では、ログインページの「アカウントを作成する」ボタンをクリックすることでユーザが自分のアカウントを作成することができます。アカウント作成後、ユーザはアカウントを確認するための安全なリンクが含まれたメールを受信します。その後のログインでは、Moodleデータベース内に保存された値とユーザ名およびパスワードが比較されます。</p><p>注意: 「Eメールによる自己登録」プラグインを有効にするのと同時に、「認証管理」ページ内の「自己登録」ドロップダウンメニューの「Eメールによる自己登録」を選択する必要があります。</p>"
+
+#. auth_emailnoemail
+#: auth/email/lang/en/auth_email.php:2
+msgctxt "auth/email/lang/en/auth_email.php:auth_emailnoemail"
+msgid "Tried to send you an email but failed!"
+msgstr "あなたへのメール送信を試みましたが、失敗しました!"
+
+#. auth_emailrecaptcha
+#: auth/email/lang/en/auth_email.php:3
+msgctxt "auth/email/lang/en/auth_email.php:auth_emailrecaptcha"
+msgid ""
+"Adds a visual/audio confirmation form element to the signup page for email "
+"self-registering users. This protects your site against spammers and "
+"contributes to a worthwhile cause. See "
+"http://www.google.com/recaptcha/learnmore for more details. <br /><em>PHP "
+"cURL extension is required.</em>"
+msgstr "Eメールによる自己登録ユーザのため、サインアップページにビジュアル/オーディオ確認フォームエレメントを追加します。これは、あなたのサイトをスパム発信者から守り、価値ある活動に貢献します。詳細は、http://www.google.com/recaptcha/learnmore をご覧ください。<br />PHP cURL拡張モジュールが必須です。"
+
+#. auth_emailrecaptcha_key
+#: auth/email/lang/en/auth_email.php:4
+msgctxt "auth/email/lang/en/auth_email.php:auth_emailrecaptcha_key"
+msgid "Enable reCAPTCHA element"
+msgstr "reCAPTCHAエレメントを有効にする"
+
+#. auth_emailsettings
+#: auth/email/lang/en/auth_email.php:5
+msgctxt "auth/email/lang/en/auth_email.php:auth_emailsettings"
+msgid "Settings"
+msgstr "設定"
+
+#. pluginname
+#: auth/email/lang/en/auth_email.php:6
+msgctxt "auth/email/lang/en/auth_email.php:pluginname"
+msgid "Email-based self-registration"
+msgstr "Eメールによる自己登録"
+
+#. auth_fcchangepasswordurl
+#: auth/fc/lang/en/auth_fc.php:1
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcchangepasswordurl"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_fcconnfail
+#: auth/fc/lang/en/auth_fc.php:2
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcconnfail"
+msgid "Connection failed with Errno: {$a->no} and Error String: {$a->str}"
+msgstr "接続に失敗しました。エラー番号: {$a->no}  およびエラーストリング: {$a->str}"
+
+#. auth_fccreators
+#: auth/fc/lang/en/auth_fc.php:3
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fccreators"
+msgid ""
+"List of groups whose members are allowed to create new courses. Separate "
+"multiple groups with ';'. Names must be spelled exactly as on FirstClass "
+"server. System is case-sensitive."
+msgstr "メンバーが新しいコース作成を許可されているグループの一覧です。複数のグループは、「;」で区切ってください。グループ名はFirstClassサーバと厳密に同じ名称にしてください。システムは、大文字と小文字を区別します。"
+
+#. auth_fccreators_key
+#: auth/fc/lang/en/auth_fc.php:4
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fccreators_key"
+msgid "Creators"
+msgstr "コース作成者"
+
+#. auth_fcdescription
+#: auth/fc/lang/en/auth_fc.php:5
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcdescription"
+msgid ""
+"This method uses a FirstClass server to check whether a given username and "
+"password is valid."
+msgstr "ここではユーザ名およびパスワードが有効であるか確認するため、FisrtClassサーバを使用します。"
+
+#. auth_fcfppport
+#: auth/fc/lang/en/auth_fc.php:6
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcfppport"
+msgid "Server port (3333 is the most common)"
+msgstr "サーバポート (3333が最も一般的です)"
+
+#. auth_fcfppport_key
+#: auth/fc/lang/en/auth_fc.php:7
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcfppport_key"
+msgid "Port"
+msgstr "ポート"
+
+#. auth_fchost
+#: auth/fc/lang/en/auth_fc.php:8
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fchost"
+msgid "The FirstClass server address. Use the IP number or DNS name."
+msgstr "FirstClassサーバアドレスです。IPアドレスまたはDNS名を使用してください。"
+
+#. auth_fchost_key
+#: auth/fc/lang/en/auth_fc.php:9
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fchost_key"
+msgid "Host"
+msgstr "ホスト"
+
+#. auth_fcpasswd
+#: auth/fc/lang/en/auth_fc.php:10
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcpasswd"
+msgid "Password for the account above."
+msgstr "上記アカウントのパスワード"
+
+#. auth_fcpasswd_key
+#: auth/fc/lang/en/auth_fc.php:11
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcpasswd_key"
+msgid "Password"
+msgstr "パスワード"
+
+#. auth_fcuserid
+#: auth/fc/lang/en/auth_fc.php:12
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcuserid"
+msgid "Userid for FirstClass account with privilege 'Subadministrator' set."
+msgstr "権限「Subadministrator」セットを持ったFirstClassアカウントのユーザIDです。"
+
+#. auth_fcuserid_key
+#: auth/fc/lang/en/auth_fc.php:13
+msgctxt "auth/fc/lang/en/auth_fc.php:auth_fcuserid_key"
+msgid "User ID"
+msgstr "ユーザID"
+
+#. pluginname
+#: auth/fc/lang/en/auth_fc.php:14
+msgctxt "auth/fc/lang/en/auth_fc.php:pluginname"
+msgid "FirstClass server"
+msgstr "FirstClassサーバ"
+
+#. auth_imapchangepasswordurl_key
+#: auth/imap/lang/en/auth_imap.php:1
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imapchangepasswordurl_key"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_imapdescription
+#: auth/imap/lang/en/auth_imap.php:2
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imapdescription"
+msgid ""
+"This method uses an IMAP server to check whether a given username and "
+"password is valid."
+msgstr "ここではユーザ名およびパスワードが有効であるか確認するため、IMAPサーバを使用します。"
+
+#. auth_imaphost
+#: auth/imap/lang/en/auth_imap.php:3
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imaphost"
+msgid "The IMAP server address. Use the IP number, not DNS name."
+msgstr "IMAPサーバアドレスです。DNS名ではなく、IPアドレスを使用してください。"
+
+#. auth_imaphost_key
+#: auth/imap/lang/en/auth_imap.php:4
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imaphost_key"
+msgid "Host"
+msgstr "ホスト"
+
+#. auth_imapnotinstalled
+#: auth/imap/lang/en/auth_imap.php:5
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imapnotinstalled"
+msgid "Cannot use IMAP authentication. The PHP IMAP module is not installed."
+msgstr "IMAP認証を使用できません。PHP IMAPモジュールがインストールされていません。"
+
+#. auth_imapport
+#: auth/imap/lang/en/auth_imap.php:6
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imapport"
+msgid "IMAP server port number. Usually this is 143 or 993."
+msgstr "IMAPサーバポート番号です。通常、143または993です。"
+
+#. auth_imapport_key
+#: auth/imap/lang/en/auth_imap.php:7
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imapport_key"
+msgid "Port"
+msgstr "ポート"
+
+#. auth_imaptype
+#: auth/imap/lang/en/auth_imap.php:8
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imaptype"
+msgid ""
+"The IMAP server type.  IMAP servers can have different types of "
+"authentication and negotiation."
+msgstr "IMAPサーバタイプです。IMAPサーバでは、異なるタイプの認証およびネゴシエーションを使用することができます。"
+
+#. auth_imaptype_key
+#: auth/imap/lang/en/auth_imap.php:9
+msgctxt "auth/imap/lang/en/auth_imap.php:auth_imaptype_key"
+msgid "Type"
+msgstr "タイプ"
+
+#. pluginname
+#: auth/imap/lang/en/auth_imap.php:10
+msgctxt "auth/imap/lang/en/auth_imap.php:pluginname"
+msgid "IMAP server"
+msgstr "IMAPサーバ"
+
+#. auth_ldap_ad_create_req
+#: auth/ldap/lang/en/auth_ldap.php:1
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_ad_create_req"
+msgid ""
+"Cannot create the new account in Active Directory. Make sure you meet all "
+"the requirements for this to work (LDAPS connection, bind user with adequate"
+" rights, etc.)"
+msgstr "Active Directoryに新しいアカウントを作成できません。アカウントを作成するためのすべての必要条件 (LDAPSコネクション、必要な権限を持ったユーザのバインド等) に合致しているか確認してください。"
+
+#. auth_ldap_attrcreators
+#: auth/ldap/lang/en/auth_ldap.php:2
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_attrcreators"
+msgid ""
+"List of groups or contexts whose members are allowed to create attributes. "
+"Separate multiple groups with ';'. Usually something like "
+"'cn=teachers,ou=staff,o=myorg'"
+msgstr "メンバーが属性の作成を許可されているグループまたはコンテクストの一覧です。複数のグループは、「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。"
+
+#. auth_ldap_attrcreators_key
+#: auth/ldap/lang/en/auth_ldap.php:3
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_attrcreators_key"
+msgid "Attribute creators"
+msgstr "属性作成者"
+
+#. auth_ldap_auth_user_create_key
+#: auth/ldap/lang/en/auth_ldap.php:4
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_auth_user_create_key"
+msgid "Create users externally"
+msgstr "外部にユーザを作成する"
+
+#. auth_ldap_bind_dn
+#: auth/ldap/lang/en/auth_ldap.php:5
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_bind_dn"
+msgid ""
+"If you want to use bind-user to search users, specify it here. Something "
+"like 'cn=ldapuser,ou=public,o=org'"
+msgstr "あなたがユーザ検索にバインドユーザを使用したい場合、ここで指定してください。「cn=ldapuser,ou=public,o=org」のように指定します。"
+
+#. auth_ldap_bind_dn_key
+#: auth/ldap/lang/en/auth_ldap.php:6
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_bind_dn_key"
+msgid "Distinguished name"
+msgstr "識別名"
+
+#. auth_ldap_bind_pw
+#: auth/ldap/lang/en/auth_ldap.php:7
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_bind_pw"
+msgid "Password for bind-user."
+msgstr "ユーザバインドのパスワード"
+
+#. auth_ldap_bind_pw_key
+#: auth/ldap/lang/en/auth_ldap.php:8
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_bind_pw_key"
+msgid "Password"
+msgstr "パスワード"
+
+#. auth_ldap_bind_settings
+#: auth/ldap/lang/en/auth_ldap.php:9
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_bind_settings"
+msgid "Bind settings"
+msgstr "バインド設定"
+
+#. auth_ldap_changepasswordurl_key
+#: auth/ldap/lang/en/auth_ldap.php:10
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_changepasswordurl_key"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_ldap_contexts
+#: auth/ldap/lang/en/auth_ldap.php:11
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_contexts"
+msgid ""
+"List of contexts where users are located. Separate different contexts with "
+"';'. For example: 'ou=users,o=org; ou=others,o=org'"
+msgstr "ユーザが配置されているコンテクスト一覧です。異なるコンテクストは「;」で区切ってください。例 「ou=users,o=org; ou=others,o=org」"
+
+#. auth_ldap_contexts_key
+#: auth/ldap/lang/en/auth_ldap.php:12
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_contexts_key"
+msgid "Contexts"
+msgstr "コンテクスト"
+
+#. auth_ldap_create_context
+#: auth/ldap/lang/en/auth_ldap.php:13
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_create_context"
+msgid ""
+"If you enable user creation with email confirmation, specify the context "
+"where users are created. This context should be different from other users "
+"to prevent security issues. You don't need to add this context to "
+"ldap_context-variable, Moodle will search for users from this context "
+"automatically.<br /><b>Note!</b> You have to modify the method user_create()"
+" in file auth/ldap/auth.php to make user creation work"
+msgstr "メールによるアカウント登録確認でユーザを作成する場合、ユーザが作成されるコンテクストを指定してください。セキュリティの観点から、このコンテクストはユーザごとに異なるものにしてください。このコンテクストからMoodleが自動的にユーザを探しますので、このコンテクストをldap_context-vaiableに追加する必要はありません。<br /><b>注意!</b> ユーザ作成を動作させるため、auth/ldap/auth.phpファイルのuser_create() 関数を修正する必要があります。"
+
+#. auth_ldap_create_context_key
+#: auth/ldap/lang/en/auth_ldap.php:14
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_create_context_key"
+msgid "Context for new users"
+msgstr "新しいユーザのコンテクスト"
+
+#. auth_ldap_create_error
+#: auth/ldap/lang/en/auth_ldap.php:15
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_create_error"
+msgid "Error creating user in LDAP."
+msgstr "LDAPユーザ作成中にエラーが発生しました。"
+
+#. auth_ldap_creators
+#: auth/ldap/lang/en/auth_ldap.php:16
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_creators"
+msgid ""
+"List of groups or contexts whose members are allowed to create new courses. "
+"Separate multiple groups with ';'. Usually something like "
+"'cn=teachers,ou=staff,o=myorg'"
+msgstr "メンバーが新しいコースの作成を許可されているグループの一覧です。複数のグループは、「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。"
+
+#. auth_ldap_creators_key
+#: auth/ldap/lang/en/auth_ldap.php:17
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_creators_key"
+msgid "Creators"
+msgstr "コース作成者"
+
+#. auth_ldapdescription
+#: auth/ldap/lang/en/auth_ldap.php:18
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldapdescription"
+msgid ""
+"This method provides authentication against an external LDAP server.                                  If the given username and password are valid, Moodle creates a new user\n"
+"                                  entry in its database. This module can read user attributes from LDAP and prefill\n"
+"                                  wanted fields in Moodle.  For following logins only the username and\n"
+"                                  password are checked."
+msgstr "この方法では外部のLDAPサーバに対して認証を提供します。ユーザ名およびパスワードが正しい場合、Moodleは新しいユーザをデータベースに作成します。このモジュールはユーザ属性をLDAPから取得して、Moodleのフィールドに入力します。認証後のログインではユーザ名およびパスワードのみ確認されます。"
+
+#. auth_ldap_expiration_desc
+#: auth/ldap/lang/en/auth_ldap.php:19
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_expiration_desc"
+msgid ""
+"Select No to disable expired password checking or LDAP to read "
+"passwordexpiration time directly from LDAP"
+msgstr "パスワードチェックの有効期限を無効にする場合、またはLDAPがLDAPサーバから直接passwordexpirationを参照する場合、「No」を選択してください。"
+
+#. auth_ldap_expiration_key
+#: auth/ldap/lang/en/auth_ldap.php:20
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_expiration_key"
+msgid "Expiration"
+msgstr "有効期限切れ"
+
+#. auth_ldap_expiration_warning_desc
+#: auth/ldap/lang/en/auth_ldap.php:21
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_expiration_warning_desc"
+msgid "Number of days before password expiration warning is issued."
+msgstr "パスワードの有効期限切れを警告するまでの日数を入力してください。"
+
+#. auth_ldap_expiration_warning_key
+#: auth/ldap/lang/en/auth_ldap.php:22
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_expiration_warning_key"
+msgid "Expiration warning"
+msgstr "有効期限切れを警告"
+
+#. auth_ldap_expireattr_desc
+#: auth/ldap/lang/en/auth_ldap.php:23
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_expireattr_desc"
+msgid ""
+"Optional: overrides ldap-attribute that stores password expiration time"
+msgstr "任意: パスワード有効期限を保持するldap属性をオーバーライドします。"
+
+#. auth_ldap_expireattr_key
+#: auth/ldap/lang/en/auth_ldap.php:24
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_expireattr_key"
+msgid "Expiration attribute"
+msgstr "有効期限切れ属性"
+
+#. auth_ldapextrafields
+#: auth/ldap/lang/en/auth_ldap.php:25
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldapextrafields"
+msgid ""
+"These fields are optional.  You can choose to pre-fill some Moodle user "
+"fields with information from the <b>LDAP fields</b> that you specify here. "
+"<p>If you leave these fields blank, then nothing will be transferred from "
+"LDAP and Moodle defaults will be used instead.</p><p>In either case, the "
+"user will be able to edit all of these fields after they log in.</p>"
+msgstr "これらのフィールドは、任意項目です。<b>LDAPフィールド</b>より事前に入力されたMoodleユーザフィールドを選択することも可能です。<p>空白の場合、LDAPよりデータは転送されず、代わりにMoodleのデフォルト値が使用されます。</p><p>どちらの場合でも、ユーザはログイン後、すべてのフィールドを編集することができます。</p>"
+
+#. auth_ldap_graceattr_desc
+#: auth/ldap/lang/en/auth_ldap.php:26
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_graceattr_desc"
+msgid "Optional: Overrides  gracelogin attribute"
+msgstr "任意: 猶予ログイン属性をオーバーライドします。"
+
+#. auth_ldap_gracelogin_key
+#: auth/ldap/lang/en/auth_ldap.php:27
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_gracelogin_key"
+msgid "Grace login attribute"
+msgstr "猶予ログイン属性"
+
+#. auth_ldap_gracelogins_desc
+#: auth/ldap/lang/en/auth_ldap.php:28
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_gracelogins_desc"
+msgid ""
+"Enable LDAP gracelogin support. After password has expired user can login "
+"until gracelogin count is 0. Enabling this setting displays grace login "
+"message if password is expired."
+msgstr "LDAPの猶予ログインサポートを有効にします。パスワードの有効期限が切れた後、猶予ログインカウントがゼロになるまでログインすることができます。この設定を「Yes」にすることで、パスワードが期限切れになった場合、猶予ログインメッセージが表示されます。"
+
+#. auth_ldap_gracelogins_key
+#: auth/ldap/lang/en/auth_ldap.php:29
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_gracelogins_key"
+msgid "Grace logins"
+msgstr "猶予ログイン"
+
+#. auth_ldap_groupecreators
+#: auth/ldap/lang/en/auth_ldap.php:30
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_groupecreators"
+msgid ""
+"List of groups or contexts whose members are allowed to create groups. "
+"Separate multiple groups with ';'. Usually something like "
+"'cn=teachers,ou=staff,o=myorg'"
+msgstr "メンバーがグループの作成を許可されているグループまたはコンテクストの一覧です。複数のグループは、「;」で区切ってください。通常、「cn=teachers,ou=staff,o=myorg」のように指定します。"
+
+#. auth_ldap_groupecreators_key
+#: auth/ldap/lang/en/auth_ldap.php:31
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_groupecreators_key"
+msgid "Group creators"
+msgstr "グループ作成者"
+
+#. auth_ldap_host_url
+#: auth/ldap/lang/en/auth_ldap.php:32
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_host_url"
+msgid ""
+"Specify LDAP host in URL-form like 'ldap://ldap.myorg.com/' or "
+"'ldaps://ldap.myorg.com/' Separate multipleservers with ';' to get failover "
+"support."
+msgstr "LDAPホストのURIを「ldap://ldap.myorg.com/」または「ldaps://ldap.myorg.com/」のように明示してください。複数サーバのフェイルオーバーをサポートするには「;」で区切ってください。"
+
+#. auth_ldap_host_url_key
+#: auth/ldap/lang/en/auth_ldap.php:33
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_host_url_key"
+msgid "Host URL"
+msgstr "ホストURI"
+
+#. auth_ldap_ldap_encoding
+#: auth/ldap/lang/en/auth_ldap.php:34
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_ldap_encoding"
+msgid ""
+"Specify encoding used by LDAP server. Most probably utf-8, MS AD v2 uses "
+"default platform encoding such as cp1252, cp1250, etc."
+msgstr "LDAPサーバで使用するエンコーディングを指定してください。ほとんどの場合、UTF-8ですが、MS AD v2ユーザデフォルトプラットフォームのエンコーディングでは、cp1252、cp1250等のようになります。"
+
+#. auth_ldap_ldap_encoding_key
+#: auth/ldap/lang/en/auth_ldap.php:35
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_ldap_encoding_key"
+msgid "LDAP encoding"
+msgstr "LDAPエンコーディング"
+
+#. auth_ldap_login_settings
+#: auth/ldap/lang/en/auth_ldap.php:36
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_login_settings"
+msgid "Login settings"
+msgstr "ログイン設定"
+
+#. auth_ldap_memberattribute
+#: auth/ldap/lang/en/auth_ldap.php:37
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_memberattribute"
+msgid ""
+"Optional: Overrides user member attribute, when users belongs to a group. "
+"Usually 'member'"
+msgstr "任意: ユーザがグループに属している場合、ユーザメンバーをオーバライドします。通常、「member」です。"
+
+#. auth_ldap_memberattribute_isdn
+#: auth/ldap/lang/en/auth_ldap.php:38
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_memberattribute_isdn"
+msgid "Optional: Overrides handling of member attribute values, either 0 or 1"
+msgstr "任意: メンバー属性値を0または1でオーバーライドします。"
+
+#. auth_ldap_memberattribute_isdn_key
+#: auth/ldap/lang/en/auth_ldap.php:39
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_memberattribute_isdn_key"
+msgid "Member attribute uses dn"
+msgstr "ユーザDNのメンバー属性"
+
+#. auth_ldap_memberattribute_key
+#: auth/ldap/lang/en/auth_ldap.php:40
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_memberattribute_key"
+msgid "Member attribute"
+msgstr "メンバー属性"
+
+#. auth_ldap_noconnect
+#: auth/ldap/lang/en/auth_ldap.php:41
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_noconnect"
+msgid "LDAP-module cannot connect to server: {$a}"
+msgstr "LDAPモジュールがサーバに接続できません: {$a}"
+
+#. auth_ldap_noconnect_all
+#: auth/ldap/lang/en/auth_ldap.php:42
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_noconnect_all"
+msgid "LDAP-module cannot connect to any servers: {$a}"
+msgstr "LDAPモジュールがすべてのサーバに接続できません: {$a}"
+
+#. auth_ldap_noextension
+#: auth/ldap/lang/en/auth_ldap.php:43
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_noextension"
+msgid ""
+"<em>The PHP LDAP module does not seem to be present. Please ensure it is "
+"installed and enabled if you want to use this authentication plugin.</em>"
+msgstr "<em>警告: PHP LDAPモジュールがインストールされていないようです。あなたがこの認証プラグインを使用したい場合、インストールおよび有効にされているかどうか確認してください。</em>"
+
+#. auth_ldap_no_mbstring
+#: auth/ldap/lang/en/auth_ldap.php:44
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_no_mbstring"
+msgid "You need the mbstring extension to create users in Active Directory."
+msgstr "Active Directoryにアカウントを作成するには、mbstring拡張モジュールが必要です。"
+
+#. auth_ldapnotinstalled
+#: auth/ldap/lang/en/auth_ldap.php:45
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldapnotinstalled"
+msgid "Cannot use LDAP authentication. The PHP LDAP module is not installed."
+msgstr "LDAP認証を使用できません。PHP LDAPモジュールがインストールされていません。"
+
+#. auth_ldap_objectclass
+#: auth/ldap/lang/en/auth_ldap.php:46
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_objectclass"
+msgid ""
+"Optional: Overrides objectClass used to name/search users on ldap_user_type."
+" Usually you dont need to chage this."
+msgstr "任意: ldap_user_typeのname/searchユーザで使用されるオブジェクトクラスをオーバーライドします。通常、この設定を変更する必要はありません。"
+
+#. auth_ldap_objectclass_key
+#: auth/ldap/lang/en/auth_ldap.php:47
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_objectclass_key"
+msgid "Object class"
+msgstr "オブジェクトクラス"
+
+#. auth_ldap_opt_deref
+#: auth/ldap/lang/en/auth_ldap.php:48
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_opt_deref"
+msgid ""
+"Determines how aliases are handled during search. Select one of the "
+"following values: \"No\" (LDAP_DEREF_NEVER) or \"Yes\" (LDAP_DEREF_ALWAYS)"
+msgstr "検索時、エイリアスをどのように扱うか、次の値から選択してください: 「No」 (LDAP_DEREF_NEVER) または 「Yes」 (LDAP_DEREF_ALWAYS)"
+
+#. auth_ldap_opt_deref_key
+#: auth/ldap/lang/en/auth_ldap.php:49
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_opt_deref_key"
+msgid "Dereference aliases"
+msgstr "エイリアスの修飾参照"
+
+#. auth_ldap_passtype
+#: auth/ldap/lang/en/auth_ldap.php:50
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_passtype"
+msgid "Specify the format of new or changed passwords in LDAP server."
+msgstr "LDAPサーバで使用する新規または変更パスワードのフォーマットを指定してください。"
+
+#. auth_ldap_passtype_key
+#: auth/ldap/lang/en/auth_ldap.php:51
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_passtype_key"
+msgid "Password format"
+msgstr "パスワードフォーマット"
+
+#. auth_ldap_passwdexpire_settings
+#: auth/ldap/lang/en/auth_ldap.php:52
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_passwdexpire_settings"
+msgid "LDAP password expiration settings."
+msgstr "LDAPパスワード有効期限設定"
+
+#. auth_ldap_preventpassindb
+#: auth/ldap/lang/en/auth_ldap.php:53
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_preventpassindb"
+msgid "Select yes to prevent passwords from being stored in Moodle's DB."
+msgstr "Moodleデータベースにパスワードが保存されることを防ぐには、「Yes」を選択してください。"
+
+#. auth_ldap_preventpassindb_key
+#: auth/ldap/lang/en/auth_ldap.php:54
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_preventpassindb_key"
+msgid "Hide passwords"
+msgstr "パスワードを秘匿する"
+
+#. auth_ldap_search_sub
+#: auth/ldap/lang/en/auth_ldap.php:55
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_search_sub"
+msgid "Search users from subcontexts."
+msgstr "サブコンテクストからユーザを検索します。"
+
+#. auth_ldap_search_sub_key
+#: auth/ldap/lang/en/auth_ldap.php:56
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_search_sub_key"
+msgid "Search subcontexts"
+msgstr "サブコンテクストを検索する"
+
+#. auth_ldap_server_settings
+#: auth/ldap/lang/en/auth_ldap.php:57
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_server_settings"
+msgid "LDAP server settings"
+msgstr "LDAPサーバ設定"
+
+#. auth_ldap_unsupportedusertype
+#: auth/ldap/lang/en/auth_ldap.php:58
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_unsupportedusertype"
+msgid "auth: ldap user_create() does not support selected usertype: {$a}"
+msgstr "auth: ldap user_create() は選択された次のユーザタイプをサポートしていません: {$a}"
+
+#. auth_ldap_update_userinfo
+#: auth/ldap/lang/en/auth_ldap.php:59
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_update_userinfo"
+msgid ""
+"Update user information (firstname, lastname, address..) from LDAP to "
+"Moodle.  Specify \"Data mapping\" settings as you need."
+msgstr "LDAPよりMoodleのユーザ情報 (姓、名、住所等) を更新します。必要に応じて、「データマッピング」設定を指定してください。"
+
+#. auth_ldap_user_attribute
+#: auth/ldap/lang/en/auth_ldap.php:60
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_user_attribute"
+msgid ""
+"Optional: Overrides the attribute used to name/search users. Usually 'cn'."
+msgstr "任意: name/searchユーザに使用される属性をオーバーライドします。通常は「cn」です。"
+
+#. auth_ldap_user_attribute_key
+#: auth/ldap/lang/en/auth_ldap.php:61
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_user_attribute_key"
+msgid "User attribute"
+msgstr "ユーザ属性"
+
+#. auth_ldap_user_exists
+#: auth/ldap/lang/en/auth_ldap.php:62
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_user_exists"
+msgid "LDAP username already exists."
+msgstr "LDAPユーザ名は、すでに登録されています。"
+
+#. auth_ldap_user_settings
+#: auth/ldap/lang/en/auth_ldap.php:63
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_user_settings"
+msgid "User lookup settings"
+msgstr "ユーザルックアップ設定"
+
+#. auth_ldap_user_type
+#: auth/ldap/lang/en/auth_ldap.php:64
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_user_type"
+msgid ""
+"Select how users are stored in LDAP. This setting also specifies how login "
+"expiration, grace logins and user creation will work."
+msgstr "ユーザがどのようにLDAPに保存されるか選択してください。また、この設定では、どのようにログイン有効期限、猶予ログイン、ユーザ作成が動作するか指定します。"
+
+#. auth_ldap_user_type_key
+#: auth/ldap/lang/en/auth_ldap.php:65
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_user_type_key"
+msgid "User type"
+msgstr "ユーザタイプ"
+
+#. auth_ldap_usertypeundefined
+#: auth/ldap/lang/en/auth_ldap.php:66
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_usertypeundefined"
+msgid ""
+"config.user_type not defined or function ldap_expirationtime2unix does not "
+"support selected type!"
+msgstr "config.user_typeが定義されていないか、動作していません。ldap_expirationtime2unixは、選択されたユーザタイプをサポートしません!"
+
+#. auth_ldap_usertypeundefined2
+#: auth/ldap/lang/en/auth_ldap.php:67
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_usertypeundefined2"
+msgid ""
+"config.user_type not defined or function ldap_unixi2expirationtime does not "
+"support selected type!"
+msgstr "config.user_typeが定義されていないか、動作していません。ldap_unixi2expirationtimeは、選択されたユーザタイプをサポートしません!"
+
+#. auth_ldap_version
+#: auth/ldap/lang/en/auth_ldap.php:68
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_version"
+msgid "The version of the LDAP protocol your server is using."
+msgstr "あなたのサーバが使用しているLDAPプロトコルのバージョンです。"
+
+#. auth_ldap_version_key
+#: auth/ldap/lang/en/auth_ldap.php:69
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ldap_version_key"
+msgid "Version"
+msgstr "バージョン"
+
+#. auth_ntlmsso
+#: auth/ldap/lang/en/auth_ldap.php:70
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso"
+msgid "NTLM SSO"
+msgstr "NTLM SSO"
+
+#. auth_ntlmsso_enabled
+#: auth/ldap/lang/en/auth_ldap.php:71
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_enabled"
+msgid ""
+"Set to yes to attempt Single Sign On with the NTLM domain. "
+"<strong>Note:</strong> this requires additional setup on the webserver to "
+"work, see <a "
+"href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>"
+msgstr "「Yes」にした場合、NTLMドメインでシングルサインオンを試みます。<strong>注意:</strong> 動作させるには、ウェブサーバに対して追加のセットアップが必要です。詳細は、 <a href=\"http://docs.moodle.org/en/NTLM_authentication\">http://docs.moodle.org/en/NTLM_authentication</a>をご覧ください。"
+
+#. auth_ntlmsso_enabled_key
+#: auth/ldap/lang/en/auth_ldap.php:72
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_enabled_key"
+msgid "Enable"
+msgstr "有効"
+
+#. auth_ntlmsso_ie_fastpath
+#: auth/ldap/lang/en/auth_ldap.php:73
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_ie_fastpath"
+msgid ""
+"Set to enable the NTLM SSO fast path (bypasses certain steps if the client's"
+" browser is MS Internet Explorer)."
+msgstr "有効にした場合、NTLM SSO高速経路 (fast path) が有効にされます (クライアントブラウザがMS Internet Explorerの場合、特定のステップをバイパスします)。"
+
+#. auth_ntlmsso_ie_fastpath_attempt
+#: auth/ldap/lang/en/auth_ldap.php:74
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_ie_fastpath_attempt"
+msgid "Attempt NTLM with all browsers"
+msgstr "すべてのブラウザにNTLMを試みます"
+
+#. auth_ntlmsso_ie_fastpath_key
+#: auth/ldap/lang/en/auth_ldap.php:75
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_ie_fastpath_key"
+msgid "MS IE fast path?"
+msgstr "MS IE fast path?"
+
+#. auth_ntlmsso_ie_fastpath_yesattempt
+#: auth/ldap/lang/en/auth_ldap.php:76
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_ie_fastpath_yesattempt"
+msgid "Yes, attempt NTLM other browsers"
+msgstr "はい、他のブラウザにNTLMを試みます"
+
+#. auth_ntlmsso_ie_fastpath_yesform
+#: auth/ldap/lang/en/auth_ldap.php:77
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_ie_fastpath_yesform"
+msgid "Yes, all other browsers use standard login form"
+msgstr "はい、他のすべてのブラウザでは標準的なログインフォームを使用します"
+
+#. auth_ntlmsso_maybeinvalidformat
+#: auth/ldap/lang/en/auth_ldap.php:78
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_maybeinvalidformat"
+msgid ""
+"Unable to extract the username from the REMOTE_USER header. Is the "
+"configured format right?"
+msgstr "REMOTE_USERヘッダからユーザ名を抽出できません。フォーマットは正しく設定されていますか?"
+
+#. auth_ntlmsso_missing_username
+#: auth/ldap/lang/en/auth_ldap.php:79
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_missing_username"
+msgid "You need to specify at least %username% in the remote username format"
+msgstr "あなたはリモートユーザ名フォーマットに少なくとも %username% を指定する必要があります。"
+
+#. auth_ntlmsso_remoteuserformat
+#: auth/ldap/lang/en/auth_ldap.php:80
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_remoteuserformat"
+msgid ""
+"If you have chosen 'NTLM' in 'Authentication type', you can specify the "
+"remote username format here. If you leave this empty, the default "
+"DOMAINusername format will be used. You can use the optional <b>%domain%</b>"
+" placeholder to specify where the domain name appears, and the mandatory "
+"<b>%username%</b> placeholder to specify where the username appears. <br "
+"/><br />Some widely used formats are <tt>%domain%%username%</tt> (MS Windows"
+" default), <tt>%domain%/%username%</tt>, <tt>%domain%+%username%</tt> and "
+"just <tt>%username%</tt> (if there is no domain part)."
+msgstr "「認証タイプ」に「NTLM」を選択した場合、あなたはここでリモートユーザ名フォーマットを指定することができます。空白にした場合、デフォルトのDOMAINusernameフォーマットが使用されます。あなたはドメイン名の表示場所に関して、任意で<b>%domain%</b>プレースホルダを使用することができます。 また、必須の<b>%username%</b>プレースホルダはユーザ名が表示される場所を指定します。<br /><br />広く使われているフォーマットは次のとおりです:<tt>%domain%%username%</tt> (MS Windowsデフォルト)、<tt>%domain%/%username%</tt>、<tt>%domain%+%username%</tt>、<tt>%username%</tt> (ドメインの部分がない場合)"
+
+#. auth_ntlmsso_remoteuserformat_key
+#: auth/ldap/lang/en/auth_ldap.php:81
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_remoteuserformat_key"
+msgid "Remote username format"
+msgstr "リモートユーザ名フォーマット"
+
+#. auth_ntlmsso_subnet
+#: auth/ldap/lang/en/auth_ldap.php:82
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_subnet"
+msgid ""
+"If set, it will only attempt SSO with clients in this subnet. Format: "
+"xxx.xxx.xxx.xxx/bitmask. Separate multiple subnets with ',' (comma)."
+msgstr "設定した場合、このサブネットの中のクライアントのみSSOを試みます。フォーマット: xxx.xxx.xxx.xxx/ビットマスク　複数のサブネットはカンマ (,) で区切ってください。"
+
+#. auth_ntlmsso_subnet_key
+#: auth/ldap/lang/en/auth_ldap.php:83
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_subnet_key"
+msgid "Subnet"
+msgstr "サブネット"
+
+#. auth_ntlmsso_type
+#: auth/ldap/lang/en/auth_ldap.php:84
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_type"
+msgid ""
+"The authentication method configured in the web server to authenticate the "
+"users (if in doubt, choose NTLM)"
+msgstr "ユーザを認証するためサーバで設定された認証メソッドです (分からない場合、NTLMを選択してください)。"
+
+#. auth_ntlmsso_type_key
+#: auth/ldap/lang/en/auth_ldap.php:85
+msgctxt "auth/ldap/lang/en/auth_ldap.php:auth_ntlmsso_type_key"
+msgid "Authentication type"
+msgstr "認証タイプ"
+
+#. connectingldap
+#: auth/ldap/lang/en/auth_ldap.php:86
+msgctxt "auth/ldap/lang/en/auth_ldap.php:connectingldap"
+msgid "Connecting to LDAP server..."
+msgstr "LDAPサーバに接続中 ..."
+
+#. creatingtemptable
+#: auth/ldap/lang/en/auth_ldap.php:87
+msgctxt "auth/ldap/lang/en/auth_ldap.php:creatingtemptable"
+msgid "Creating temporary table {$a}"
+msgstr "一時テーブル {$a} の作成"
+
+#. didntfindexpiretime
+#: auth/ldap/lang/en/auth_ldap.php:88
+msgctxt "auth/ldap/lang/en/auth_ldap.php:didntfindexpiretime"
+msgid "password_expire() didn't find expiration time."
+msgstr "password_expire() が有効期限を見つけることができませんでした。"
+
+#. didntgetusersfromldap
+#: auth/ldap/lang/en/auth_ldap.php:89
+msgctxt "auth/ldap/lang/en/auth_ldap.php:didntgetusersfromldap"
+msgid "Did not get any users from LDAP -- error? -- exiting"
+msgstr "LDAPサーバからユーザを取得できませんでした。"
+
+#. gotcountrecordsfromldap
+#: auth/ldap/lang/en/auth_ldap.php:90
+msgctxt "auth/ldap/lang/en/auth_ldap.php:gotcountrecordsfromldap"
+msgid "Got {$a} records from LDAP"
+msgstr "LDAPから {$a} レコードを取得しました。"
+
+#. morethanoneuser
+#: auth/ldap/lang/en/auth_ldap.php:91
+msgctxt "auth/ldap/lang/en/auth_ldap.php:morethanoneuser"
+msgid ""
+"Strange! More than one user record found in ldap. Only using the first one."
+msgstr "変です! LDAPに1名以上のユーザレコードが見つかりました。最初のユーザレコードのみ使用します。"
+
+#. needbcmath
+#: auth/ldap/lang/en/auth_ldap.php:92
+msgctxt "auth/ldap/lang/en/auth_ldap.php:needbcmath"
+msgid ""
+"You need the BCMath extension to use grace logins with Active Directory"
+msgstr "Active Directoryに猶予ログインするには、BCMath拡張モジュールが必要です。"
+
+#. needmbstring
+#: auth/ldap/lang/en/auth_ldap.php:93
+msgctxt "auth/ldap/lang/en/auth_ldap.php:needmbstring"
+msgid ""
+"You need the mbstring extension to change passwords in Active Directory"
+msgstr "Active Directoryのパスワードを変更するには、mbstring拡張モジュールが必要です。"
+
+#. nodnforusername
+#: auth/ldap/lang/en/auth_ldap.php:94
+msgctxt "auth/ldap/lang/en/auth_ldap.php:nodnforusername"
+msgid "Error in user_update_password(). No DN for: {$a->username}"
+msgstr "user_update_password() にエラーが発生しました。{$a->username} のDNがありません。"
+
+#. noemail
+#: auth/ldap/lang/en/auth_ldap.php:95
+msgctxt "auth/ldap/lang/en/auth_ldap.php:noemail"
+msgid "Tried to send you an email but failed!"
+msgstr "あなたへのメール送信を試みましたが、失敗しました!"
+
+#. notcalledfromserver
+#: auth/ldap/lang/en/auth_ldap.php:96
+msgctxt "auth/ldap/lang/en/auth_ldap.php:notcalledfromserver"
+msgid "Should not be called from the web server!"
+msgstr "ウェブサーバからコールされるべきではありません!"
+
+#. noupdatestobedone
+#: auth/ldap/lang/en/auth_ldap.php:97
+msgctxt "auth/ldap/lang/en/auth_ldap.php:noupdatestobedone"
+msgid "No updates to be done"
+msgstr "更新されたデータはありません。"
+
+#. nouserentriestoremove
+#: auth/ldap/lang/en/auth_ldap.php:98
+msgctxt "auth/ldap/lang/en/auth_ldap.php:nouserentriestoremove"
+msgid "No user entries to be removed"
+msgstr "削除するユーザエントリがありません。"
+
+#. nouserentriestorevive
+#: auth/ldap/lang/en/auth_ldap.php:99
+msgctxt "auth/ldap/lang/en/auth_ldap.php:nouserentriestorevive"
+msgid "No user entries to be revived"
+msgstr "回復するユーザエントリがありません。"
+
+#. nouserstobeadded
+#: auth/ldap/lang/en/auth_ldap.php:100
+msgctxt "auth/ldap/lang/en/auth_ldap.php:nouserstobeadded"
+msgid "No users to be added"
+msgstr "追加するユーザがありません。"
+
+#. ntlmsso_attempting
+#: auth/ldap/lang/en/auth_ldap.php:101
+msgctxt "auth/ldap/lang/en/auth_ldap.php:ntlmsso_attempting"
+msgid "Attempting Single Sign On via NTLM..."
+msgstr "NTLM経由でシングルサインオン実行中 ..."
+
+#. ntlmsso_failed
+#: auth/ldap/lang/en/auth_ldap.php:102
+msgctxt "auth/ldap/lang/en/auth_ldap.php:ntlmsso_failed"
+msgid "Auto-login failed, try the normal login page..."
+msgstr "自動ログインに失敗しました、通常のログインページへ移動します ..."
+
+#. ntlmsso_isdisabled
+#: auth/ldap/lang/en/auth_ldap.php:103
+msgctxt "auth/ldap/lang/en/auth_ldap.php:ntlmsso_isdisabled"
+msgid "NTLM SSO is disabled."
+msgstr "NTLM SSOは、無効にされています。"
+
+#. ntlmsso_unknowntype
+#: auth/ldap/lang/en/auth_ldap.php:104
+msgctxt "auth/ldap/lang/en/auth_ldap.php:ntlmsso_unknowntype"
+msgid "Unknown ntlmsso type!"
+msgstr "不明なntlmssoタイプです!"
+
+#. pagedresultsnotsupp
+#: auth/ldap/lang/en/auth_ldap.php:105
+msgctxt "auth/ldap/lang/en/auth_ldap.php:pagedresultsnotsupp"
+msgid ""
+"LDAP paged results not supported (either your PHP version lacks support or "
+"you have configured Moodle to use LDAP protocol version 2)"
+msgstr "LDAP結果ページ処理はサポートされていません (あなたのPHPバージョンがサポートしていないか、MoodleがLDAPプロトコルバージョン2を使用するよう設定されています)。"
+
+#. pagesize
+#: auth/ldap/lang/en/auth_ldap.php:106
+msgctxt "auth/ldap/lang/en/auth_ldap.php:pagesize"
+msgid ""
+"Make sure this value is smaller than your LDAP server result set size limit "
+"(the maximum number of entries that can be returned in a single query)"
+msgstr "この値があなたのLDAPサーバ結果設定サイズ制限 (1回のクエリで返すことのできる最大エントリ数) より小さいことを確認してください。"
+
+#. pagesize_key
+#: auth/ldap/lang/en/auth_ldap.php:107
+msgctxt "auth/ldap/lang/en/auth_ldap.php:pagesize_key"
+msgid "Page Size"
+msgstr "ページサイズ"
+
+#. pluginname
+#: auth/ldap/lang/en/auth_ldap.php:108
+msgctxt "auth/ldap/lang/en/auth_ldap.php:pluginname"
+msgid "LDAP server"
+msgstr "LDAPサーバ"
+
+#. pluginnotenabled
+#: auth/ldap/lang/en/auth_ldap.php:109
+msgctxt "auth/ldap/lang/en/auth_ldap.php:pluginnotenabled"
+msgid "Plugin not enabled!"
+msgstr "プラグインが有効にされていません!"
+
+#. renamingnotallowed
+#: auth/ldap/lang/en/auth_ldap.php:110
+msgctxt "auth/ldap/lang/en/auth_ldap.php:renamingnotallowed"
+msgid "User renaming not allowed in LDAP"
+msgstr "LDAPでのユーザ名変更が許可されていません。"
+
+#. rootdseerror
+#: auth/ldap/lang/en/auth_ldap.php:111
+msgctxt "auth/ldap/lang/en/auth_ldap.php:rootdseerror"
+msgid "Error querying rootDSE for Active Directory"
+msgstr "Active DirectoryのrootDSEクエリにエラーが発生しました。"
+
+#. start_tls
+#: auth/ldap/lang/en/auth_ldap.php:112
+msgctxt "auth/ldap/lang/en/auth_ldap.php:start_tls"
+msgid "Use regular LDAP service (port 389) with TLS encryption"
+msgstr "TLS暗号化による標準LDAPサービス (ポート389) を使用する"
+
+#. start_tls_key
+#: auth/ldap/lang/en/auth_ldap.php:113
+msgctxt "auth/ldap/lang/en/auth_ldap.php:start_tls_key"
+msgid "Use TLS"
+msgstr "TLSを使用する"
+
+#. updatepasserror
+#: auth/ldap/lang/en/auth_ldap.php:114
+msgctxt "auth/ldap/lang/en/auth_ldap.php:updatepasserror"
+msgid ""
+"Error in user_update_password(). Error code: {$a->errno}; Error string: "
+"{$a->errstring}"
+msgstr "user_update_password() にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}"
+
+#. updatepasserrorexpire
+#: auth/ldap/lang/en/auth_ldap.php:115
+msgctxt "auth/ldap/lang/en/auth_ldap.php:updatepasserrorexpire"
+msgid ""
+"Error in user_update_password() when reading password expiration time. Error"
+" code: {$a->errno}; Error string: {$a->errstring}"
+msgstr "パスワードの有効期限読み込み中、user_update_password() にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}"
+
+#. updatepasserrorexpiregrace
+#: auth/ldap/lang/en/auth_ldap.php:116
+msgctxt "auth/ldap/lang/en/auth_ldap.php:updatepasserrorexpiregrace"
+msgid ""
+"Error in user_update_password() when modifying expirationtime and/or "
+"gracelogins. Error code: {$a->errno}; Error string: {$a->errstring}"
+msgstr "パスワード有効期限または猶予ログインの修正中、user_update_password() にエラーが発生しました。エラーコード: {$a->errno}  エラーストリング: {$a->errstring}"
+
+#. updateremfail
+#: auth/ldap/lang/en/auth_ldap.php:117
+msgctxt "auth/ldap/lang/en/auth_ldap.php:updateremfail"
+msgid ""
+"Error updating LDAP record. Error code: {$a->errno}; Error string: "
+"{$a->errstring}<br/>Key ({$a->key}) - old moodle value: '{$a->ouvalue}' new "
+"value: '{$a->nuvalue}'"
+msgstr "LDAPレコードの更新中にエラーが発生しました。エラーコード: {$a->errno}; エラーストリング: {$a->errstring}<br/>キー ({$a->key}) - 古いMoodle値: {$a->ouvalue}  新しい値: {$a->nuvalue}"
+
+#. updateremfailamb
+#: auth/ldap/lang/en/auth_ldap.php:118
+msgctxt "auth/ldap/lang/en/auth_ldap.php:updateremfailamb"
+msgid ""
+"Failed to update LDAP with ambiguous field {$a->key}; old moodle value: "
+"'{$a->ouvalue}', new value: '{$a->nuvalue}'"
+msgstr "LDAPのあいまいなフィールド {$a->key} の更新に失敗しました。古いMoodle値: {$a->ouvalue}  新しい値: {$a->nuvalue}"
+
+#. updateusernotfound
+#: auth/ldap/lang/en/auth_ldap.php:119
+msgctxt "auth/ldap/lang/en/auth_ldap.php:updateusernotfound"
+msgid ""
+"Could not find user while updating externally. Details follow: search base: "
+"'{$a->userdn}'; search filter: '(objectClass=*)'; search attributes: "
+"{$a->attribs}"
+msgstr "外部データの更新中、ユーザを見つけることができませんでした。詳細は次のとおりです: 検索ベース: {$a->userdn}  検索フィルタ: (objectClass=*)  検索属性: {$a->attribs}"
+
+#. useracctctrlerror
+#: auth/ldap/lang/en/auth_ldap.php:120
+msgctxt "auth/ldap/lang/en/auth_ldap.php:useracctctrlerror"
+msgid "Error getting userAccountControl for {$a}"
+msgstr "{$a} のuserAccountControl取得中にエラーが発生しました。"
+
+#. user_activatenotsupportusertype
+#: auth/ldap/lang/en/auth_ldap.php:121
+msgctxt "auth/ldap/lang/en/auth_ldap.php:user_activatenotsupportusertype"
+msgid "auth: ldap user_activate() does not support selected usertype: {$a}"
+msgstr "auth: ldap user_activate() は選択された次のユーザタイプをサポートしません: {$a}"
+
+#. user_disablenotsupportusertype
+#: auth/ldap/lang/en/auth_ldap.php:122
+msgctxt "auth/ldap/lang/en/auth_ldap.php:user_disablenotsupportusertype"
+msgid "auth: ldap user_disable() does not support selected usertype: {$a}"
+msgstr "auth: ldap user_disable() は選択された次のユーザタイプをサポートしません: {$a}"
+
+#. userentriestoadd
+#: auth/ldap/lang/en/auth_ldap.php:123
+msgctxt "auth/ldap/lang/en/auth_ldap.php:userentriestoadd"
+msgid "User entries to be added: {$a}"
+msgstr "追加されるユーザエントリ: {$a}"
+
+#. userentriestoremove
+#: auth/ldap/lang/en/auth_ldap.php:124
+msgctxt "auth/ldap/lang/en/auth_ldap.php:userentriestoremove"
+msgid "User entries to be removed: {$a}"
+msgstr "削除されるユーザエントリ: {$a}"
+
+#. userentriestorevive
+#: auth/ldap/lang/en/auth_ldap.php:125
+msgctxt "auth/ldap/lang/en/auth_ldap.php:userentriestorevive"
+msgid "User entries to be revived: {$a}"
+msgstr "回復されるユーザエントリ: {$a}"
+
+#. userentriestoupdate
+#: auth/ldap/lang/en/auth_ldap.php:126
+msgctxt "auth/ldap/lang/en/auth_ldap.php:userentriestoupdate"
+msgid "User entries to be updated: {$a}"
+msgstr "更新されるユーザエントリ: {$a}"
+
+#. usernotfound
+#: auth/ldap/lang/en/auth_ldap.php:127
+msgctxt "auth/ldap/lang/en/auth_ldap.php:usernotfound"
+msgid "User not found in LDAP"
+msgstr "LDAPにユーザが見つかりませんでした。"
+
+#. auth_manualdescription
+#: auth/manual/lang/en/auth_manual.php:1
+msgctxt "auth/manual/lang/en/auth_manual.php:auth_manualdescription"
+msgid ""
+"This method removes any way for users to create their own accounts.  All "
+"accounts must be manually created by the admin user."
+msgstr "この方法では、ユーザによるユーザアカウント作成機能を停止します。すべてのアカウントは、管理者により手動で作成される必要があります。"
+
+#. pluginname
+#: auth/manual/lang/en/auth_manual.php:2
+msgctxt "auth/manual/lang/en/auth_manual.php:pluginname"
+msgid "Manual accounts"
+msgstr "手動アカウント"
+
+#. auth_mnet_auto_add_remote_users
+#: auth/mnet/lang/en/auth_mnet.php:1
+msgctxt "auth/mnet/lang/en/auth_mnet.php:auth_mnet_auto_add_remote_users"
+msgid ""
+"When set to Yes, a local user record is auto-created when a remote user logs"
+" in for the first time."
+msgstr "「Yes」にした場合、リモートユーザの初回ログイン時、ローカルユーザのレコードが自動作成されます。"
+
+#. auth_mnetdescription
+#: auth/mnet/lang/en/auth_mnet.php:2
+msgctxt "auth/mnet/lang/en/auth_mnet.php:auth_mnetdescription"
+msgid ""
+"Users are authenticated according to the web of trust defined in your Moodle"
+" Network settings."
+msgstr "あなたのMoodleネットワーク設定で定義されたウェブ認証方法に従って、ユーザが認証されます。"
+
+#. auth_mnet_roamin
+#: auth/mnet/lang/en/auth_mnet.php:3
+msgctxt "auth/mnet/lang/en/auth_mnet.php:auth_mnet_roamin"
+msgid "These host's users can roam in to your site"
+msgstr "次のホストのユーザは、あなたのサイトを散策できます"
+
+#. auth_mnet_roamout
+#: auth/mnet/lang/en/auth_mnet.php:4
+msgctxt "auth/mnet/lang/en/auth_mnet.php:auth_mnet_roamout"
+msgid "Your users can roam out to these hosts"
+msgstr "あなたのユーザは、次のホストを散策できます"
+
+#. auth_mnet_rpc_negotiation_timeout
+#: auth/mnet/lang/en/auth_mnet.php:5
+msgctxt "auth/mnet/lang/en/auth_mnet.php:auth_mnet_rpc_negotiation_timeout"
+msgid "The timeout in seconds for authentication over the XMLRPC transport."
+msgstr "XMLRPCトランスポートによる認証のタイムアウト (秒)"
+
+#. auto_add_remote_users
+#: auth/mnet/lang/en/auth_mnet.php:6
+msgctxt "auth/mnet/lang/en/auth_mnet.php:auto_add_remote_users"
+msgid "Auto add remote users"
+msgstr "リモートユーザを自動的に追加する"
+
+#. pluginname
+#: auth/mnet/lang/en/auth_mnet.php:7
+msgctxt "auth/mnet/lang/en/auth_mnet.php:pluginname"
+msgid "MNet authentication"
+msgstr "MNetネットワーク認証"
+
+#. rpc_negotiation_timeout
+#: auth/mnet/lang/en/auth_mnet.php:8
+msgctxt "auth/mnet/lang/en/auth_mnet.php:rpc_negotiation_timeout"
+msgid "RPC negotiation timeout"
+msgstr "RPCネゴシエーションタイムアウト"
+
+#. sso_idp_description
+#: auth/mnet/lang/en/auth_mnet.php:9
+msgctxt "auth/mnet/lang/en/auth_mnet.php:sso_idp_description"
+msgid ""
+"Publish this service to allow your users to roam to the {$a} site without "
+"having to re-login there. <ul><li><em>Dependency</em>: You must also "
+"<strong>subscribe</strong> to the SSO (Service Provider) service on "
+"{$a}.</li></ul><br />Subscribe to this service to allow authenticated users "
+"from {$a} to access your site without having to re-login. "
+"<ul><li><em>Dependency</em>: You must also <strong>publish</strong> the SSO "
+"(Service Provider) service to {$a}.</li></ul><br />"
+msgstr "このサービスを公開することで、あなたのユーザは再度ログインせずに {$a} サイトを散策することができます。<ul><li><em>従属関係</em>: あなたは {$a} のSSO (サービスプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、{$a} からの認証済みユーザは、再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは {$a} にSSO (サービスプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />"
+
+#. sso_idp_name
+#: auth/mnet/lang/en/auth_mnet.php:10
+msgctxt "auth/mnet/lang/en/auth_mnet.php:sso_idp_name"
+msgid "SSO  (Identity Provider)"
+msgstr "SSO (アイデンティティプロバイダ)"
+
+#. sso_mnet_login_refused
+#: auth/mnet/lang/en/auth_mnet.php:11
+msgctxt "auth/mnet/lang/en/auth_mnet.php:sso_mnet_login_refused"
+msgid "Username {$a->user} is not permitted to login from {$a->host}."
+msgstr "ユーザ名 {$a->user} は、{$a->host} からのログインを許可されていません。"
+
+#. sso_sp_description
+#: auth/mnet/lang/en/auth_mnet.php:12
+msgctxt "auth/mnet/lang/en/auth_mnet.php:sso_sp_description"
+msgid ""
+"Publish  this service to allow authenticated users from {$a} to access your "
+"site without having to re-login. <ul><li><em>Dependency</em>: You must also "
+"<strong>subscribe</strong> to the SSO (Identity Provider) service on "
+"{$a}.</li></ul><br />Subscribe to this service to allow your users to roam "
+"to the {$a} site without having to re-login there. "
+"<ul><li><em>Dependency</em>: You must also <strong>publish</strong> the SSO "
+"(Identity Provider) service to {$a}.</li></ul><br />"
+msgstr "このサービスを公開することで、{$a} からの認証済みユーザは、再度ログインせずにあなたのサイトにアクセスできます。<ul><li><em>従属関係</em>: あなたは {$a} のSSO (アイデンティティプロバイダ) サービスに<strong>登録</strong>する必要があります。</li></ul><br />このサービスに登録することで、あなたのユーザは再度ログインせずに {$a} サイトを散策することができます。<ul><li><em>従属関係</em>: あなたは {$a} にSSO (アイデンティティプロバイダ) サービスを<strong>公開</strong>する必要があります。</li></ul><br />"
+
+#. sso_sp_name
+#: auth/mnet/lang/en/auth_mnet.php:13
+msgctxt "auth/mnet/lang/en/auth_mnet.php:sso_sp_name"
+msgid "SSO (Service Provider)"
+msgstr "SSO (サービスプロバイダ)"
+
+#. auth_nntpchangepasswordurl_key
+#: auth/nntp/lang/en/auth_nntp.php:1
+msgctxt "auth/nntp/lang/en/auth_nntp.php:auth_nntpchangepasswordurl_key"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_nntpdescription
+#: auth/nntp/lang/en/auth_nntp.php:2
+msgctxt "auth/nntp/lang/en/auth_nntp.php:auth_nntpdescription"
+msgid ""
+"This method uses an NNTP server to check whether a given username and "
+"password is valid."
+msgstr "ここではユーザ名およびパスワードが有効であるか確認するため、NNTPサーバを使用します。"
+
+#. auth_nntphost
+#: auth/nntp/lang/en/auth_nntp.php:3
+msgctxt "auth/nntp/lang/en/auth_nntp.php:auth_nntphost"
+msgid "The NNTP server address. Use the IP number, not DNS name."
+msgstr "NNTPサーバアドレスです。DNS名ではなく、IPアドレスを使用してください。"
+
+#. auth_nntphost_key
+#: auth/nntp/lang/en/auth_nntp.php:4
+msgctxt "auth/nntp/lang/en/auth_nntp.php:auth_nntphost_key"
+msgid "Host"
+msgstr "ホスト"
+
+#. auth_nntpnotinstalled
+#: auth/nntp/lang/en/auth_nntp.php:5
+msgctxt "auth/nntp/lang/en/auth_nntp.php:auth_nntpnotinstalled"
+msgid "Cannot use NNTP authentication. The PHP IMAP module is not installed."
+msgstr "NNTP認証を使用できません。PHP IMAPモジュールがインストールされていません。"
+
+#. auth_nntpport
+#: auth/nntp/lang/en/auth_nntp.php:6
+msgctxt "auth/nntp/lang/en/auth_nntp.php:auth_nntpport"
+msgid "Server port (119 is the most common)"
+msgstr "サーバポート (119が最も一般的です)"
+
+#. auth_nntpport_key
+#: auth/nntp/lang/en/auth_nntp.php:7
+msgctxt "auth/nntp/lang/en/auth_nntp.php:auth_nntpport_key"
+msgid "Port"
+msgstr "ポート"
+
+#. pluginname
+#: auth/nntp/lang/en/auth_nntp.php:8
+msgctxt "auth/nntp/lang/en/auth_nntp.php:pluginname"
+msgid "NNTP server"
+msgstr "NNTPサーバ"
+
+#. auth_nologindescription
+#: auth/nologin/lang/en/auth_nologin.php:1
+msgctxt "auth/nologin/lang/en/auth_nologin.php:auth_nologindescription"
+msgid ""
+"Auxiliary plugin that prevents user to login into system and also discards "
+"any mail sent to the user. Can be used to <em>suspend</em> user accounts."
+msgstr "システムへのユーザログインを停止するための予備的なプラグインです。ユーザ宛に送信されるメールもすべて破棄されます。ユーザアカウントを「一時停止」する場合に使用することができます。"
+
+#. pluginname
+#: auth/nologin/lang/en/auth_nologin.php:2
+msgctxt "auth/nologin/lang/en/auth_nologin.php:pluginname"
+msgid "No login"
+msgstr "ログインなし"
+
+#. auth_nonedescription
+#: auth/none/lang/en/auth_none.php:1
+msgctxt "auth/none/lang/en/auth_none.php:auth_nonedescription"
+msgid ""
+"Users can sign in and create valid accounts immediately, with no "
+"authentication against an external server and no confirmation via email.  Be"
+" careful using this option - think of the security and administration "
+"problems this could cause."
+msgstr "ユーザはログインして外部サーバおよびメールによる認証なしで、直ちに有効なアカウントを作成することができます。このオプションを使用する場合、十分に注意してください - セキュリティおよび管理上の問題が発生する可能性を考慮してください。"
+
+#. pluginname
+#: auth/none/lang/en/auth_none.php:2
+msgctxt "auth/none/lang/en/auth_none.php:pluginname"
+msgid "No authentication"
+msgstr "認証なし"
+
+#. auth_pamdescription
+#: auth/pam/lang/en/auth_pam.php:1
+msgctxt "auth/pam/lang/en/auth_pam.php:auth_pamdescription"
+msgid ""
+"This method uses PAM to access the native usernames on this server. You have"
+" to install <a href=\"http://www.math.ohio-"
+"state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a> in order to use "
+"this module."
+msgstr "この方法では、サーバのネイティブユーザ名にアクセスする手段として、PAMを使用します。このモジュールを使用するためには、<a href=\"http://www.math.ohio-state.edu/~ccunning/pam_auth/\">PHP4 PAM Authentication</a>がインストールされている必要があります。"
+
+#. auth_passwordisexpired
+#: auth/pam/lang/en/auth_pam.php:2
+msgctxt "auth/pam/lang/en/auth_pam.php:auth_passwordisexpired"
+msgid "Your password is expired. Do you want change your password now?"
+msgstr "あなたのパスワードの有効期限が切れました。パスワードを変更しますか?"
+
+#. auth_passwordwillexpire
+#: auth/pam/lang/en/auth_pam.php:3
+msgctxt "auth/pam/lang/en/auth_pam.php:auth_passwordwillexpire"
+msgid ""
+"Your password will expire in {$a} days. Do you want change your password "
+"now?"
+msgstr "あなたのパスワードの有効期限は、{$a} 日で切れます。パスワードを変更しますか?"
+
+#. pluginname
+#: auth/pam/lang/en/auth_pam.php:4
+msgctxt "auth/pam/lang/en/auth_pam.php:pluginname"
+msgid "PAM (Pluggable Authentication Modules)"
+msgstr "PAM (Pluggable Authentication Modules)"
+
+#. auth_pop3changepasswordurl_key
+#: auth/pop3/lang/en/auth_pop3.php:1
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3changepasswordurl_key"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_pop3description
+#: auth/pop3/lang/en/auth_pop3.php:2
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3description"
+msgid ""
+"This method uses a POP3 server to check whether a given username and "
+"password is valid."
+msgstr "ここではユーザ名およびパスワードが有効であるか確認するため、POP3サーバを使用します。"
+
+#. auth_pop3host
+#: auth/pop3/lang/en/auth_pop3.php:3
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3host"
+msgid "The POP3 server address. Use the IP number, not DNS name."
+msgstr "POP3サーバアドレスです。DNS名ではなく、IPアドレスを使用してください。"
+
+#. auth_pop3host_key
+#: auth/pop3/lang/en/auth_pop3.php:4
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3host_key"
+msgid "Host"
+msgstr "ホスト"
+
+#. auth_pop3mailbox
+#: auth/pop3/lang/en/auth_pop3.php:5
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3mailbox"
+msgid "Name of the mailbox to attempt a connection with.  (usually INBOX)"
+msgstr "接続を試みるメールボックス名 (通常「INBOX」です)"
+
+#. auth_pop3mailbox_key
+#: auth/pop3/lang/en/auth_pop3.php:6
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3mailbox_key"
+msgid "Mailbox"
+msgstr "メールボックス"
+
+#. auth_pop3notinstalled
+#: auth/pop3/lang/en/auth_pop3.php:7
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3notinstalled"
+msgid "Cannot use POP3 authentication. The PHP IMAP module is not installed."
+msgstr "POP3認証を使用できません。PHP IMAPモジュールがインストールされていません。"
+
+#. auth_pop3port
+#: auth/pop3/lang/en/auth_pop3.php:8
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3port"
+msgid "Server port (110 is the most common, 995 is common for SSL)"
+msgstr "サーバポート (110は最も一般的、995は一般的なSSL用)"
+
+#. auth_pop3port_key
+#: auth/pop3/lang/en/auth_pop3.php:9
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3port_key"
+msgid "Port"
+msgstr "ポート"
+
+#. auth_pop3type
+#: auth/pop3/lang/en/auth_pop3.php:10
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3type"
+msgid ""
+"Server type. If your server uses certificate security, choose pop3cert."
+msgstr "サーバタイプです。セキュリティ証明が必要な場合、pop3certを選択してください。"
+
+#. auth_pop3type_key
+#: auth/pop3/lang/en/auth_pop3.php:11
+msgctxt "auth/pop3/lang/en/auth_pop3.php:auth_pop3type_key"
+msgid "Type"
+msgstr "タイプ"
+
+#. pluginname
+#: auth/pop3/lang/en/auth_pop3.php:12
+msgctxt "auth/pop3/lang/en/auth_pop3.php:pluginname"
+msgid "POP3 server"
+msgstr "POP3サーバ"
+
+#. auth_radiuschangepasswordurl_key
+#: auth/radius/lang/en/auth_radius.php:1
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiuschangepasswordurl_key"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_radiusdescription
+#: auth/radius/lang/en/auth_radius.php:2
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiusdescription"
+msgid ""
+"This method uses a <a "
+"href=\"http://en.wikipedia.org/wiki/RADIUS\">RADIUS</a> server to check "
+"whether a given username and password is valid."
+msgstr "ここではユーザ名およびパスワードが有効であるか確認するため、<a href=\"http://en.wikipedia.org/wiki/RADIUS\">RADIUS</a>サーバを使用します。"
+
+#. auth_radiushost
+#: auth/radius/lang/en/auth_radius.php:3
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiushost"
+msgid "Address of the RADIUS server"
+msgstr "RADIUSサーバのアドレス"
+
+#. auth_radiushost_key
+#: auth/radius/lang/en/auth_radius.php:4
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiushost_key"
+msgid "Host"
+msgstr "ホスト"
+
+#. auth_radiusnasport
+#: auth/radius/lang/en/auth_radius.php:5
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiusnasport"
+msgid "Port to use to connect"
+msgstr "接続に使用するポート"
+
+#. auth_radiusnasport_key
+#: auth/radius/lang/en/auth_radius.php:6
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiusnasport_key"
+msgid "Port"
+msgstr "ポート"
+
+#. auth_radiussecret
+#: auth/radius/lang/en/auth_radius.php:7
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiussecret"
+msgid "Shared secret"
+msgstr "共有鍵"
+
+#. auth_radiussecret_key
+#: auth/radius/lang/en/auth_radius.php:8
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiussecret_key"
+msgid "Secret"
+msgstr "鍵"
+
+#. auth_radiustype
+#: auth/radius/lang/en/auth_radius.php:9
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiustype"
+msgid "Choose an authentication scheme to use with the RADIUS server."
+msgstr "RADIUSサーバで使用する認証スキームを選択してください。"
+
+#. auth_radiustypechapmd5
+#: auth/radius/lang/en/auth_radius.php:10
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiustypechapmd5"
+msgid "CHAP MD5"
+msgstr "CHAP MD5"
+
+#. auth_radiustype_key
+#: auth/radius/lang/en/auth_radius.php:11
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiustype_key"
+msgid "Authentication"
+msgstr "認証"
+
+#. auth_radiustypemschapv1
+#: auth/radius/lang/en/auth_radius.php:12
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiustypemschapv1"
+msgid "Microsoft CHAP version 1"
+msgstr "Microsoft CHAP version 1"
+
+#. auth_radiustypemschapv2
+#: auth/radius/lang/en/auth_radius.php:13
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiustypemschapv2"
+msgid "Microsoft CHAP version 2"
+msgstr "Microsoft CHAP version 2"
+
+#. auth_radiustypepap
+#: auth/radius/lang/en/auth_radius.php:14
+msgctxt "auth/radius/lang/en/auth_radius.php:auth_radiustypepap"
+msgid "PAP"
+msgstr "PAP"
+
+#. pluginname
+#: auth/radius/lang/en/auth_radius.php:15
+msgctxt "auth/radius/lang/en/auth_radius.php:pluginname"
+msgid "RADIUS server"
+msgstr "RADIUSサーバ"
+
+#. auth_shib_auth_method
+#: auth/shibboleth/lang/en/auth_shibboleth.php:1
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_auth_method"
+msgid "Authentication method name"
+msgstr "認証方法名"
+
+#. auth_shib_auth_method_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:2
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_auth_method_description"
+msgid ""
+"Provide a name for the Shibboleth authentication method that is familiar to "
+"your users. This could be the name of your Shibboleth federation, e.g. "
+"<tt>SWITCHaai Login</tt> or <tt>InCommon Login</tt> or similar."
+msgstr "Shibboleth認証方法に関して、あなたのユーザに知られている名称を入力してください。あなたのシボレス連盟の名称を使用することもできます 例) <tt>SWITCHaai Login</tt>または<tt>InCommon Login</tt>または同様の名称。"
+
+#. auth_shibbolethdescription
+#: auth/shibboleth/lang/en/auth_shibboleth.php:3
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shibbolethdescription"
+msgid ""
+"Using this method users are created and authenticated using <a "
+"href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>.<br />Be sure to "
+"read the <a href=\"../auth/shibboleth/README.txt\">README</a> for Shibboleth"
+" on how to set up your Moodle with Shibboleth"
+msgstr "この方法を使用することで、<a href=\"http://shibboleth.internet2.edu/\">Shibboleth</a>を使用して、ユーザが作成および認証されます。<br />あなたが使用しているMoodleにShibbolethを設定するには、<a href=\"../auth/shibboleth/README.txt\">README</a> をご覧ください。"
+
+#. auth_shibboleth_errormsg
+#: auth/shibboleth/lang/en/auth_shibboleth.php:4
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shibboleth_errormsg"
+msgid "Please select the organization you are member of!"
+msgstr "あなたがメンバーになっている組織を選択してください!"
+
+#. auth_shibboleth_login
+#: auth/shibboleth/lang/en/auth_shibboleth.php:5
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shibboleth_login"
+msgid "Shibboleth login"
+msgstr "Shibbolethログイン"
+
+#. auth_shibboleth_login_long
+#: auth/shibboleth/lang/en/auth_shibboleth.php:6
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shibboleth_login_long"
+msgid "Login to Moodle via Shibboleth"
+msgstr "Shibboleth経由でMoodleにログインする"
+
+#. auth_shibboleth_manual_login
+#: auth/shibboleth/lang/en/auth_shibboleth.php:7
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shibboleth_manual_login"
+msgid "Manual login"
+msgstr "手動ログイン"
+
+#. auth_shibboleth_select_member
+#: auth/shibboleth/lang/en/auth_shibboleth.php:8
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shibboleth_select_member"
+msgid "I'm a member of ..."
+msgstr "私は ..."
+
+#. auth_shibboleth_select_organization
+#: auth/shibboleth/lang/en/auth_shibboleth.php:9
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shibboleth_select_organization"
+msgid ""
+"For authentication via Shibboleth, please select your organization from the "
+"drop down list:"
+msgstr "Shibboleth経由の認証のため、あなたの組織をドロップダウンリストから選択してください。"
+
+#. auth_shib_changepasswordurl
+#: auth/shibboleth/lang/en/auth_shibboleth.php:10
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_changepasswordurl"
+msgid "Password-change URL"
+msgstr "パスワード変更URI"
+
+#. auth_shib_contact_administrator
+#: auth/shibboleth/lang/en/auth_shibboleth.php:11
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_contact_administrator"
+msgid ""
+"In case you are not associated with the given organizations and you need "
+"access to a course on this server, please contact the <a "
+"href=\"mailto:{$a}\">Moodle Administrator</a>."
+msgstr "あなたが組織との関係がなく、このサーバのコースにアクセスする必要がある場合、<a href=\"mailto:{$a}\">Moodle管理者</a>にご連絡ください。"
+
+#. auth_shib_convert_data
+#: auth/shibboleth/lang/en/auth_shibboleth.php:12
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_convert_data"
+msgid "Data modification API"
+msgstr "データ修正API"
+
+#. auth_shib_convert_data_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:13
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_convert_data_description"
+msgid ""
+"You can use this API to further modify the data provided by Shibboleth. Read"
+" the <a href=\"../auth/shibboleth/README.txt\">README</a> for further "
+"instructions."
+msgstr "あなたがShibbolethから提供されるデータを修正したい場合、このAPIを使用することができます。詳細は、<a href=\"../auth/shibboleth/README.txt\">README</a>をご覧ください。"
+
+#. auth_shib_convert_data_warning
+#: auth/shibboleth/lang/en/auth_shibboleth.php:14
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_convert_data_warning"
+msgid "The file does not exist or is not readable by the webserver process!"
+msgstr "ファイルが存在しないか、ウェブサーバプロセスで読み取れません!"
+
+#. auth_shib_idp_list
+#: auth/shibboleth/lang/en/auth_shibboleth.php:15
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_idp_list"
+msgid "Identity providers"
+msgstr "アイデンティティプロバイダ"
+
+#. auth_shib_idp_list_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:16
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_idp_list_description"
+msgid ""
+"Provide a list of Identity Provider entityIDs to let the user choose from on"
+" the login page.<br />On each line there must be a comma-separated tuple for"
+" entityID of the IdP (see the Shibboleth metadata file) and Name of IdP as "
+"it shall be displayed in the drop-down list.<br />As an optional third "
+"parameter you can add the location of a Shibboleth session initiator that "
+"shall be used in case your Moodle installation is part of a multi federation"
+" setup."
+msgstr "ログインページでユーザが選択できるよう、アイデンティティプロバイダのエンティティIDリストを入力してください。<br />それぞれの行では、アイデンティティプロバイダのエンティティIDにカンマ区切りのタプル (tuple) を追加してください (詳細は、Shibbolethメタデータファイルをご覧ください)。アイデンティティプロバイダ名がドロップダウンリストに表示されます。<br />あなたのMoodleが複数連盟設定の一部にある場合、任意の第3パラメータとして、Shibbolethセッションイニシエータのロケーションを追加することができます。"
+
+#. auth_shib_instructions
+#: auth/shibboleth/lang/en/auth_shibboleth.php:17
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_instructions"
+msgid ""
+"Use the <a href=\"{$a}\">Shibboleth login</a> to get access via Shibboleth, "
+"if your institution supports it.<br />Otherwise, use the normal login form "
+"shown here."
+msgstr "あなたの機関がShibbolethをサポートしている場合、Shibboleth経由のアクセスには、<a href=\"{$a}\">Shibbolethログイン</a>を使用してください。 <br />Shibbolethをサポートしていない場合、ここに表示される通常ログインを使用してください。"
+
+#. auth_shib_instructions_help
+#: auth/shibboleth/lang/en/auth_shibboleth.php:18
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_instructions_help"
+msgid ""
+"Here you should provide custom instructions for your users to explain "
+"Shibboleth.  It will be shown on the login page in the instructions section."
+" The instructions must include a link to \"<b>{$a}</b>\" that users click "
+"when they want to log in."
+msgstr "Shibbolethに関して、あなたのユーザに提示する説明文です。 これは、ログインページの説明セクションに表示されます。Shibbolethユーザが簡単にログインできるよう、「<b>{$a}</b>」 のようなリンクを入れてください。"
+
+#. auth_shib_integrated_wayf
+#: auth/shibboleth/lang/en/auth_shibboleth.php:19
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_integrated_wayf"
+msgid "Moodle WAYF service"
+msgstr "Moodle WAYFサービス"
+
+#. auth_shib_integrated_wayf_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:20
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_integrated_wayf_description"
+msgid ""
+"If you check this, Moodle will use its own WAYF service instead of the one "
+"configured for Shibboleth. Moodle will display a drop-down list on this "
+"alternative login page where the user has to select his Identity Provider."
+msgstr "チェックした場合、Shibbolethで設定されたWAYFサービスを使用するのではなく、Moodleは独自のWAYFサービスを使用します。この代替ログインページのため、Moodleはユーザがアイデンティティプロバイダを選択できるドロップダウンリストを表示します。"
+
+#. auth_shib_logout_return_url
+#: auth/shibboleth/lang/en/auth_shibboleth.php:21
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_logout_return_url"
+msgid "Alternative logout return URL"
+msgstr "代替ログアウト戻りURI"
+
+#. auth_shib_logout_return_url_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:22
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_logout_return_url_description"
+msgid ""
+"Provide the URL that Shibboleth users shall be redirected to after logging "
+"out.<br />If left empty, users will be redirected to the location that "
+"moodle will redirect users to"
+msgstr "ログアウト後、ShibbolethユーザがリダイレクトされるURIを入力してください。<br />空にした場合、ユーザはMoodleがリダイレクトする場所にリダイレクトされます。"
+
+#. auth_shib_logout_url
+#: auth/shibboleth/lang/en/auth_shibboleth.php:23
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_logout_url"
+msgid "Shibboleth Service Provider logout handler URL"
+msgstr "ShibbolethサービスプロバイダのログアウトハンドラURI"
+
+#. auth_shib_logout_url_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:24
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_logout_url_description"
+msgid ""
+"Provide the URL to the Shibboleth Service Provider logout handler. This "
+"typically is <tt>/Shibboleth.sso/Logout</tt>"
+msgstr "ShibbolethサービスプロバイダのログアウトハンドラのURIを入力してください。一般的に、<tt>/Shibboleth.sso/Logout</tt>のようになります。"
+
+#. auth_shib_no_organizations_warning
+#: auth/shibboleth/lang/en/auth_shibboleth.php:25
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_no_organizations_warning"
+msgid ""
+"If you want to use the integrated WAYF service, you must provide a coma-"
+"separated list of Identity Provider entityIDs, their names and optionally a "
+"session initiator."
+msgstr "あなたが統合WAYFサービスを利用したい場合、カンマで区切ったアイデンティティプロバイダのエンティティID、名称およびセッションイニシエータのリストを入力してください。"
+
+#. auth_shib_only
+#: auth/shibboleth/lang/en/auth_shibboleth.php:26
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_only"
+msgid "Shibboleth only"
+msgstr "Shibbolethのみ"
+
+#. auth_shib_only_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:27
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_only_description"
+msgid "Check this option if a Shibboleth authentication shall be enforced"
+msgstr "Shibboleth認証を強制する場合、このオプションをチェックしてください。"
+
+#. auth_shib_username_description
+#: auth/shibboleth/lang/en/auth_shibboleth.php:28
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:auth_shib_username_description"
+msgid ""
+"Name of the webserver Shibboleth environment variable that shall be used as "
+"Moodle username"
+msgstr "Moodleユーザ名として使用されるShibbolethウェブサーバ環境のユーザ名"
+
+#. pluginname
+#: auth/shibboleth/lang/en/auth_shibboleth.php:29
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:pluginname"
+msgid "Shibboleth"
+msgstr "Shibboleth"
+
+#. shib_invalid_account_error
+#: auth/shibboleth/lang/en/auth_shibboleth.php:30
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:shib_invalid_account_error"
+msgid ""
+"You seem to be Shibboleth authenticated but Moodle has no valid account for "
+"your username. Your account may not exist or it may have been suspended."
+msgstr "あなたは正常にShibboleth認証できたようですが、あなたの有効なユーザ名がMoodleにはありません。あなたのアカウントは存在しないか、利用停止にされている可能性があります。"
+
+#. shib_no_attributes_error
+#: auth/shibboleth/lang/en/auth_shibboleth.php:31
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:shib_no_attributes_error"
+msgid ""
+"You seem to be Shibboleth authenticated but Moodle didn't receive any user "
+"attributes. Please check that your Identity Provider releases the necessary "
+"attributes ({$a}) to the Service Provider Moodle is running on or inform the"
+" webmaster of this server."
+msgstr "あなたはShibbolethによりユーザ認証したようですが、Moodleはユーザ属性を受信していません。Moodleが稼動しているサービスプロバイダに対して必要な属性 ({$a}) をアイデンティティプロバイダが発行しているか確認、またはこのサーバの管理者に連絡してください。"
+
+#. shib_not_all_attributes_error
+#: auth/shibboleth/lang/en/auth_shibboleth.php:32
+msgctxt ""
+"auth/shibboleth/lang/en/auth_shibboleth.php:shib_not_all_attributes_error"
+msgid ""
+"Moodle needs certain Shibboleth attributes which are not present in your "
+"case. The attributes are: {$a}<br />Please contact the webmaster of this "
+"server or your Identity Provider."
+msgstr "あなたの場合、存在していないShibboleth属性をMoodleが必要としているようです。属性は次のとおりです: {$a}<br />このサーバの管理者またはアイデンティティプロバイダにご連絡ください。"
+
+#. shib_not_set_up_error
+#: auth/shibboleth/lang/en/auth_shibboleth.php:33
+msgctxt "auth/shibboleth/lang/en/auth_shibboleth.php:shib_not_set_up_error"
+msgid ""
+"Shibboleth authentication doesn't seem to be set up correctly because no "
+"Shibboleth environment variables are present for this page. Please consult "
+"the <a href=\"README.txt\">README</a> for further instructions on how to set"
+" up Shibboleth authentication or contact the webmaster of this Moodle "
+"installation."
+msgstr "Shibboleth環境変数がこのページに存在していないため、Shibboleth認証が正しく設定されていないようです。Shibboleth認証の設定に関するさらなる情報は、<a href=\"README.txt\">README</a>を参照、またはこのMoodleをインストールした管理者に連絡してください。"
+
+#. auth_webservicedescription
+#: auth/webservice/lang/en/auth_webservice.php:1
+msgctxt ""
+"auth/webservice/lang/en/auth_webservice.php:auth_webservicedescription"
+msgid ""
+"This authentication method should be used for accounts that are exclusively "
+"for use by web service clients."
+msgstr "この認証メソッドはウェブサービスクライアントによる排他利用アカウントのため使用されるべきです。"
+
+#. pluginname
+#: auth/webservice/lang/en/auth_webservice.php:2
+msgctxt "auth/webservice/lang/en/auth_webservice.php:pluginname"
+msgid "Web services authentication"
+msgstr "ウェブサービス認証"

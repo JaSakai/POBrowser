@@ -1,0 +1,194 @@
+# 
+# Translators:
+msgid ""
+msgstr ""
+"Project-Id-Version: moodle-2.6.1\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2014-02-12 10:12+00:00\n"
+"PO-Revision-Date: 2014-05-10 08:28+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/projects/p/moodle-261/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. activitytype
+#: course/format/singleactivity/lang/en/format_singleactivity.php:1
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:activitytype"
+msgid "Type of activity"
+msgstr "活動タイプ"
+
+#. activitytype_help
+#: course/format/singleactivity/lang/en/format_singleactivity.php:2
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:activitytype_help"
+msgid "Choose the type of activity or resource to use in this course"
+msgstr "このコースで使用する活動タイプまたはリソースを選択してください。"
+
+#. defactivitytype
+#: course/format/singleactivity/lang/en/format_singleactivity.php:3
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:defactivitytype"
+msgid "Default type of activity"
+msgstr "デフォルト活動タイプ"
+
+#. defactivitytypedesc
+#: course/format/singleactivity/lang/en/format_singleactivity.php:4
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:defactivitytypedesc"
+msgid ""
+"Specify the activity type that will be selected by default when creating a "
+"new course"
+msgstr "新しいコース作成時にデフォルトで選択される活動タイプを指定してください。"
+
+#. erroractivitytype
+#: course/format/singleactivity/lang/en/format_singleactivity.php:5
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:erroractivitytype"
+msgid "Type of activity is not set up in Course settings"
+msgstr "コース設定で活動タイプが設定されていません。"
+
+#. orphaned
+#: course/format/singleactivity/lang/en/format_singleactivity.php:6
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:orphaned"
+msgid "Orphaned"
+msgstr "迷子"
+
+#. orphanedwarning
+#: course/format/singleactivity/lang/en/format_singleactivity.php:7
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:orphanedwarning"
+msgid "These activities are unreachable by users!"
+msgstr "これらの活動にユーザはアクセスできません!"
+
+#. pluginname
+#: course/format/singleactivity/lang/en/format_singleactivity.php:8
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:pluginname"
+msgid "Single activity format"
+msgstr "単一活動フォーマット"
+
+#. warningchangeformat
+#: course/format/singleactivity/lang/en/format_singleactivity.php:9
+msgctxt ""
+"course/format/singleactivity/lang/en/format_singleactivity.php:warningchangeformat"
+msgid ""
+"When changing the existing course format to \"Single activity\" make sure "
+"that you removed all extra activities from the course including the \"News "
+"forum\". Note that sections structure may be modified."
+msgstr "既存のコースフォーマットを「単一活動」に変更する場合、コースから「ニュースフォーラム」を含む追加された活動すべてを削除したことを確認してください。セクション構造も変更されることに留意してください。"
+
+#. pluginname
+#: course/format/social/lang/en/format_social.php:1
+msgctxt "course/format/social/lang/en/format_social.php:pluginname"
+msgid "Social format"
+msgstr "ソーシャルフォーマット"
+
+#. sectionname
+#: course/format/social/lang/en/format_social.php:2
+msgctxt "course/format/social/lang/en/format_social.php:sectionname"
+msgid "section"
+msgstr "セクション"
+
+#. currentsection
+#: course/format/topics/lang/en/format_topics.php:1
+msgctxt "course/format/topics/lang/en/format_topics.php:currentsection"
+msgid "This topic"
+msgstr "このトピック"
+
+#. hidefromothers
+#: course/format/topics/lang/en/format_topics.php:2
+msgctxt "course/format/topics/lang/en/format_topics.php:hidefromothers"
+msgid "Hide topic"
+msgstr "トピックを隠す"
+
+#. page-course-view-topics
+#: course/format/topics/lang/en/format_topics.php:3
+msgctxt ""
+"course/format/topics/lang/en/format_topics.php:page-course-view-topics"
+msgid "Any course main page in topics format"
+msgstr "トピックフォーマット内のコースメインページすべて"
+
+#. page-course-view-topics-x
+#: course/format/topics/lang/en/format_topics.php:4
+msgctxt ""
+"course/format/topics/lang/en/format_topics.php:page-course-view-topics-x"
+msgid "Any course page in topics format"
+msgstr "トピックフォーマット内すべてのコースページ"
+
+#. pluginname
+#: course/format/topics/lang/en/format_topics.php:5
+msgctxt "course/format/topics/lang/en/format_topics.php:pluginname"
+msgid "Topics format"
+msgstr "トピックフォーマット"
+
+#. section0name
+#: course/format/topics/lang/en/format_topics.php:6
+msgctxt "course/format/topics/lang/en/format_topics.php:section0name"
+msgid "General"
+msgstr "一般"
+
+#. sectionname
+#: course/format/topics/lang/en/format_topics.php:7
+msgctxt "course/format/topics/lang/en/format_topics.php:sectionname"
+msgid "Topic"
+msgstr "トピック"
+
+#. showfromothers
+#: course/format/topics/lang/en/format_topics.php:8
+msgctxt "course/format/topics/lang/en/format_topics.php:showfromothers"
+msgid "Show topic"
+msgstr "トピックを表示する"
+
+#. currentsection
+#: course/format/weeks/lang/en/format_weeks.php:1
+msgctxt "course/format/weeks/lang/en/format_weeks.php:currentsection"
+msgid "This week"
+msgstr "この週"
+
+#. hidefromothers
+#: course/format/weeks/lang/en/format_weeks.php:2
+msgctxt "course/format/weeks/lang/en/format_weeks.php:hidefromothers"
+msgid "Hide week"
+msgstr "週を隠す"
+
+#. page-course-view-weeks
+#: course/format/weeks/lang/en/format_weeks.php:3
+msgctxt "course/format/weeks/lang/en/format_weeks.php:page-course-view-weeks"
+msgid "Any course main page in weeks format"
+msgstr "ウィークリーフォーマット内のコースメインページすべて"
+
+#. page-course-view-weeks-x
+#: course/format/weeks/lang/en/format_weeks.php:4
+msgctxt ""
+"course/format/weeks/lang/en/format_weeks.php:page-course-view-weeks-x"
+msgid "Any course page in weeks format"
+msgstr "ウィークリーフォーマット内すべてのコースページ"
+
+#. pluginname
+#: course/format/weeks/lang/en/format_weeks.php:5
+msgctxt "course/format/weeks/lang/en/format_weeks.php:pluginname"
+msgid "Weekly format"
+msgstr "ウィークリーフォーマット"
+
+#. section0name
+#: course/format/weeks/lang/en/format_weeks.php:6
+msgctxt "course/format/weeks/lang/en/format_weeks.php:section0name"
+msgid "General"
+msgstr "一般"
+
+#. sectionname
+#: course/format/weeks/lang/en/format_weeks.php:7
+msgctxt "course/format/weeks/lang/en/format_weeks.php:sectionname"
+msgid "Week"
+msgstr "週"
+
+#. showfromothers
+#: course/format/weeks/lang/en/format_weeks.php:8
+msgctxt "course/format/weeks/lang/en/format_weeks.php:showfromothers"
+msgid "Show week"
+msgstr "週を表示する"

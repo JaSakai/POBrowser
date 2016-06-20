@@ -1,0 +1,140 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
+"PO-Revision-Date: 2016-03-31 05:17+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. connection.error
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:1
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:connection.error"
+msgid "Connection failed"
+msgstr "コネクションに失敗しました"
+
+#. config.portlet.title
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:2
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:config.portlet.title"
+msgid "Enter the tool title:"
+msgstr "ツールタイトルを入力:"
+
+#. config.portlet.url
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:3
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:config.portlet.url"
+msgid "Enter the RSS feed URL:"
+msgstr "RSSフィードURLを入力:"
+
+#. config.portlet.maxitems
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:4
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:config.portlet.maxitems"
+msgid "Max items to display:"
+msgstr "表示する最大アイテム："
+
+#. config.button.submit
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:5
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:config.button.submit"
+msgid "Save configuration"
+msgstr "設定を保存"
+
+#. config.button.cancel
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:6
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:config.button.cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
+#. error.form.readonly.error
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:7
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:error.form.readonly.error"
+msgid "Attempt to set value onto readonly field."
+msgstr "リードオンリーフォールドに値を設定しようとしています．"
+
+#. error.form.save.error
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:8
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:error.form.save.error"
+msgid "Saving your preferences failed."
+msgstr "設定の保存に失敗しました・"
+
+#. error.no.remote.data
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:9
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:error.no.remote.data"
+msgid ""
+"No data was returned from the remote server. Please ensure the URL added is "
+"correct."
+msgstr "リモートサーバからデータが返されませんでした．追加したURLが正しいことを確認して下さい．"
+
+#. error.no.config
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:10
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:error.no.config"
+msgid "Please configure this news tool before using."
+msgstr "使用する前にこのニュースツールを設定して下さい．"
+
+#. error.heading.general
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:11
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:error.heading.general"
+msgid "An error has occurred"
+msgstr "エラーが発生しました"
+
+#. error.heading.config
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:12
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:error.heading.config"
+msgid "Not yet configured"
+msgstr "まだ未設定です"
+
+#. edit.preconfigured
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:13
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:edit.preconfigured"
+msgid ""
+"This tool is mostly pre-configured by the Portal Administrator and cannot be"
+" altered, however you can personalise the available settings below."
+msgstr "このツールはポータル管理者によって大抵は事前に設定され変更できませんが，以下の利用可能な設定をパーソナライズできます．"
+
+#. view.attachment.default
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:14
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:view.attachment.default"
+msgid "Attachment"
+msgstr "添付ファイル"
+
+#. error.no.content
+#: simple-rss-portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:15
+msgctxt ""
+"simple-rss-"
+"portlet/src/main/java/au/edu/anu/portal/portlets/rss/utils/messages.properties:error.no.content"
+msgid "No current news/notices."
+msgstr "ニュース/警告は現在ありません．"
