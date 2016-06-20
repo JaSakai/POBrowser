@@ -9,12 +9,12 @@ Pythonにて開発しました。理由としてはgettext POファイルをた�
 データベースにPOをインポートするPOImporterとそれらを検索するPOBrowserから構成されます。
 
 ###### POBrowser
-* pobrowser.py: メインプログラムです。
+* pobrowser.py: データベースを各種条件にて検索するためのメインプログラムです。
 * views/*.tpl：PythonフレームワークBottle用テンプレートです。
 * pobrowser.conf: MySQL関連設定などを記載します。
 
 ###### POImporter
-* poimporter.py: メインプロログラムです。
+* poimporter.py: POファイルをデータベースにインポートするメインプロログラムです。
 * pos/{oss名}/*.po: データベースにインポートされるPOファイルです。
 * DB_setting_example.txt: データベース環境構築事例です。
 
