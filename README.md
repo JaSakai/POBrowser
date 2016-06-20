@@ -7,13 +7,17 @@
 ###### POBrowser
 * pobrowser.py: メインプログラムです。
 * views/*.tpl：PythonフレームワークBottle用テンプレートです。
+* pobrowser.conf: MySQL関連設定などを記載します。
 
 ###### POImporter
 * poimporter.py: メインプロログラムです。
 * pos/{oss名}/*.po: データベースにインポートされるPOファイルです。
-* 
+* DB_setting_example.txt: データベース環境構築事例
 
-#### 実行環境 (AWS CentOS 6)
+#### 実行環境
+下記環境にて稼働しています。
+* AWS LINUX amzn-ami-hvm-2016.03.2.x86_64-gp2 (ami-6154bb00)
+* OSX Yosemite (10.10.5))
 
 ######yumにて導入
 * python 2.7.10
@@ -36,4 +40,11 @@
 * wheel (0.24.0)
 * WTForms (2.1)
 
-#### 環境設定
+#### 環境設定および実行
+1. 実行環境を構築します。
+2. git clone にてPOBrowserのソースコード(ワークツリー)をダウンロードします。
+3. MySQLにmysqlでアクセスし、DB_setting_example.txtを参考にしてデータベースおよびユーザを設定します。
+4. POBrowserディレクトリにて python poimporter.py を実行します。これによりデータペースにテーブルが作成されます。データベース名、ユーザ名などを変更するには、pobrowser.confを変更してください。
+5. POBrowserディレクトリにて python pobrowser.py を実行します。ブラウザにてlocalhost:8080/pobrowser でアクセスします。
+
+
