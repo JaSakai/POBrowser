@@ -14,17 +14,17 @@ from datetime import datetime
 import ConfigParser
 
 def getconf():
-    config = ConfigParser.ConfigParser()
-    config.read("pobrowser.conf")
+	config = ConfigParser.ConfigParser()
+	config.read("pobrowser.conf")
 
-    user = config.get("mysql", "user")
-    password = config.get("mysql", "password")
-    server = config.get("mysql", "server")
-    database = config.get("mysql", "database")
+	user = config.get("mysql", "user")
+	password = config.get("mysql", "password")
+	server = config.get("mysql", "server")
+	database = config.get("mysql", "database")
 
-    table = config.get("misc", "table")
+	table = config.get("misc", "table")
 
-    return {'mysql':"mysql://%s:%s@%s/%s?charset=utf8" % (user, password, server, database),'table':table}
+	return {'mysql':"mysql://%s:%s@%s/%s?charset=utf8" % (user, password, server, database),'table':table}
 
 engine = create_engine(getconf()['mysql'], echo=True)
 Base = declarative.declarative_base()
