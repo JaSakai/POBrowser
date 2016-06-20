@@ -26,7 +26,7 @@ def getconf():
 
 	return {'mysql':"mysql://%s:%s@%s/%s?charset=utf8" % (user, password, server, database),'table':table}
 
-engine = create_engine(getconf()['mysql'], echo=True)
+engine = create_engine(getconf()['mysql'])
 Base = declarative.declarative_base()
 
 class Po(Base):
