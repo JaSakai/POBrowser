@@ -16,8 +16,8 @@
         <table class="table table-striped" style="table-layout:fixed;">
             <thead>
             <tr>
-                <th style="width:40px;">id</th>
-                <th style="width:40px;">OSS</th>
+                <th style="width:45px;">id</th>
+                <th style="width:55px;">OSS</th>
                 <th style="width:120px;">Module</th>
                 <th style="width:500px;">msgid</th>
                 <th style="width:500px;">msgstr</th>

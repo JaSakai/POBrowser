@@ -64,7 +64,7 @@ def span(a, b):
     # detect a correlation for two spans by keyword 
     # a: tuple: start and end positions in byte for 1st kwyword
     # b: tuple: start and end positions in byte for 2nd kwyword 
-    # to be used with finction "tab"
+    # to be used with finction "tag"
 
     if a[1] < b[0]:
         x = [a,b]

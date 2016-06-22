@@ -34,7 +34,7 @@
 	    例2：英単語のみの検索の場合<br>
 	    　Search Term:　 =grade</li>
 	    <li>検索対象のPOはSakaiが初期値ですが、Moodle、MaharaのPOも対象とする場合にはチェックボックスをクリックします。</li>
-	    <li>検索結果表示画面からこの画面に戻るには、右上に表示される[TOPページ]ボタンをクリックします。</li>
+	    <li>検索結果表示画面からこの画面に戻るには、右上に表示される <a class="btn btn-info">TOPページ</a> ボタンをクリックします。</li>
 	  </ul>
 	  </div>
 	  <div class="tab-pane" id="2">
