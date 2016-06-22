@@ -219,6 +219,7 @@ def do_search(db):
         filters_oss.append(Pos.oss.like(oss))
 
     poquery = db.query(Pos).filter(and_(*filters_msgid)).filter(and_(*filters_msgstr)).filter(or_(*filters_oss))
+    db.close()
     polist = poquery.all()
     for i, row in enumerate(polist):
         row.msgid = strip_tags(row.msgid)
