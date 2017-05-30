@@ -53,6 +53,10 @@ Pythonにて開発しました。理由としてはgettext POファイルを処�
 4. POBrowserディレクトリにて python poimporter.py を実行します。これによりデータペースにテーブルが作成されます。データベース名、ユーザ名などを変更するには、pobrowser.confを変更してください。
 5. POBrowserディレクトリにて python pobrowser.py を実行します。ブラウザにてlocalhost:8080/pobrowser でアクセスします。
 
+#### ライセンス
+* ECL V2.0
+* mahara, moodle, tecfolio の各POファイルはそれぞれのOSSのライセンスに準じます。
+
  <hr>
 
 # POBrowser
@@ -108,3 +112,7 @@ These platforms are proven to run POBrowser and POImporter.
 3. Login MySQL by mysql commnad、configure database and user to refere DB_setting_example.txt.
 4. Run python poimporter.py in POBrowser directory. Tables are created in a database. If database name and/or user name will be changed, settings in pobrowser.conf should be changed as well.
 5. Run python pobrowser.py in POBrowser directory. Then access http://localhost:8080/pobrowser.
+
+#### License
+* ECL V2.0
+* License of PO such as mahara, moodle, tecfolio depends on their OSS licenses.
