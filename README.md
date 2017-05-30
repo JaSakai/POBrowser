@@ -54,7 +54,8 @@ Pythonにて開発しました。理由としてはgettext POファイルを処�
 5. POBrowserディレクトリにて python pobrowser.py を実行します。ブラウザにてlocalhost:8080/pobrowser でアクセスします。
 
 <HR>
-## POBrowser
+
+# POBrowser
 POBrowser enables to cross search PO files generated after translating OSS for higher eduction.
 Database includes PO from Sakai, Moodle, Mahara.
 
