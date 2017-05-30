@@ -25,7 +25,7 @@ Pythonにて開発しました。理由としてはgettext POファイルを処�
 * AWS LINUX amzn-ami-hvm-2016.03.2.x86_64-gp2 (ami-6154bb00)
 * OSX Yosemite (10.10.5))
 
-######yumにて導入(Amazon LINUX)
+###### yumにて導入(Amazon LINUX)
 * python 2.7.10
 * MySQL 5.6.25
 * Apache 2.2.31
@@ -35,7 +35,7 @@ Pythonにて開発しました。理由としてはgettext POファイルを処�
 * mysql-devel  <= MySQL-pythonの前提
 * gcc  <= MySQL-pythonの前提
 
-######pipにて導入
+###### pipにて導入
 * bottle (0.12.9)
 * bottle-sqlalchemy (0.4.3)
 * MySQL-python (1.2.5) 
@@ -53,7 +53,7 @@ Pythonにて開発しました。理由としてはgettext POファイルを処�
 4. POBrowserディレクトリにて python poimporter.py を実行します。これによりデータペースにテーブルが作成されます。データベース名、ユーザ名などを変更するには、pobrowser.confを変更してください。
 5. POBrowserディレクトリにて python pobrowser.py を実行します。ブラウザにてlocalhost:8080/pobrowser でアクセスします。
 
-<HR>
+ <hr>
 
 # POBrowser
 POBrowser enables to cross search PO files generated after translating OSS for higher eduction.
