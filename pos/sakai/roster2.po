@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-01-06 08:14+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-06 08:49+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -544,3 +544,73 @@ msgctxt ""
 "roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:no_visits_yet"
 msgid "None yet"
 msgstr "なし"
+
+#. permissions_header
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:77
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_header"
+msgid "Permission"
+msgstr "権限"
+
+#. permissions_allmembers
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:78
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_allmembers"
+msgid "View all participants"
+msgstr "すべての参加者を表示"
+
+#. permissions_hidden
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:79
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_hidden"
+msgid "View hidden participants"
+msgstr "非表示の参加者を表示"
+
+#. permissions_groups
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:80
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_groups"
+msgid "View groups"
+msgstr "グループを表示"
+
+#. permissions_enrollment
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:81
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_enrollment"
+msgid "View participants' enrollment status"
+msgstr "参加者の履修登録状態を表示"
+
+#. permissions_profile
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:82
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_profile"
+msgid "View participants' profile"
+msgstr "参加者のプロフィールを表示"
+
+#. permissions_email
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:83
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_email"
+msgid "View participants' email"
+msgstr "参加者のメールを表示"
+
+#. permissions_photo
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:84
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_photo"
+msgid "View participants' official photo"
+msgstr "参加者の公式写真を表示"
+
+#. permissions_visits
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:85
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_visits"
+msgid "View participants' site visits"
+msgstr "参加者のサイトアクセス数を表示"
+
+#. permissions_export
+#: roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:86
+msgctxt ""
+"roster2/src/i18n/org/sakaiproject/roster/i18n/ui.properties:permissions_export"
+msgid "Export roster"
+msgstr "名簿をエクスポート"

@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-05 00:22+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-21 04:46+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -636,7 +636,7 @@ msgctxt "user/user-tool/tool/src/bundle/admin.properties:import.process.msg"
 msgid ""
 "The following data was found in the uploaded file. If this is correct, click"
 " 'Continue'. "
-msgstr "次のデータがアップロードしたファイルに見つかりました．これが正しい場合は \"続ける\" をクリックします．"
+msgstr "次のデータがアップロードしたファイルに見つかりました．これが正しい場合は 「続ける」をクリックします．"
 
 #. import.process.info
 #: user/user-tool/tool/src/bundle/admin.properties:97
@@ -826,15 +826,23 @@ msgctxt ""
 msgid "Privacy Status"
 msgstr "プライバシー状態"
 
-#. prefs_hidden
+#. prefs_sites
 #: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:6
 msgctxt ""
-"user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:prefs_hidden"
-msgid "Hidden Sites"
-msgstr "非表示サイト"
+"user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:prefs_sites"
+msgid "Sites"
+msgstr "サイト"
+
+#. prefs_site_tab_display_format
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:7
+msgctxt ""
+"user/user-tool-prefs/tool/src/bundle/user-tool-"
+"prefs.properties:prefs_site_tab_display_format"
+msgid "Site Tab Display Format"
+msgstr "サイトタブの表示フォーマット"
 
 #. prefs_element_locked
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:7
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:8
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:prefs_element_locked"
@@ -843,21 +851,21 @@ msgid ""
 msgstr "この要素はここでは置き換えることはできません．下の要素はロックされています．"
 
 #. update_pref
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:8
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:9
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:update_pref"
 msgid "Update Preferences"
 msgstr "設定を更新"
 
 #. cancel_pref
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:9
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:10
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:cancel_pref"
 msgid "Cancel Changes"
 msgstr "変更をキャンセル"
 
 #. update_success
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:10
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:11
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:update_success"
@@ -865,7 +873,7 @@ msgid "Your preferences have been updated successfully."
 msgstr "* 設定は正しく保存されました．"
 
 #. hideshowdesc_toggle_hide
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:11
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:12
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:hideshowdesc_toggle_hide"
@@ -873,7 +881,7 @@ msgid "Hide Sites"
 msgstr "サイトを非表示"
 
 #. hideshowdesc_toggle_show
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:12
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:13
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:hideshowdesc_toggle_show"
@@ -881,7 +889,7 @@ msgid "Show Sites"
 msgstr "サイトを表示"
 
 #. noti_inst_second
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:13
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:14
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:noti_inst_second"
@@ -891,7 +899,7 @@ msgid ""
 msgstr "メールを通じて優先度の高い通知をすべて受け取ります．優先度の低い通知を以下でセットします．"
 
 #. noti_add_site
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:14
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:15
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:noti_add_site"
@@ -899,7 +907,7 @@ msgid "Add a site"
 msgstr "サイトを追加"
 
 #. moresite_projects
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:15
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:16
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:moresite_projects"
@@ -907,7 +915,7 @@ msgid "PROJECTS"
 msgstr "プロジェクト"
 
 #. moresite_portfolios
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:16
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:17
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:moresite_portfolios"
@@ -915,7 +923,7 @@ msgid "PORTFOLIOS"
 msgstr "ポートフォリオ"
 
 #. moresite_administration
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:17
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:18
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:moresite_administration"
@@ -923,7 +931,7 @@ msgid "ADMINISTRATION"
 msgstr "管理"
 
 #. moresite_other
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:18
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:19
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:moresite_other"
@@ -931,14 +939,14 @@ msgid "OTHER"
 msgstr "その他"
 
 #. moresite_scs
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:19
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:20
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:moresite_scs"
 msgid "SCS Courses"
 msgstr "SCS コース"
 
 #. moresite_no_term
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:20
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:21
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:moresite_no_term"
@@ -946,7 +954,7 @@ msgid "COURSES WITH NO TERM"
 msgstr "期間のないコース"
 
 #. noti_prefs_title
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:21
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:22
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:noti_prefs_title"
@@ -954,7 +962,7 @@ msgid "Override {0} Preferences: Add Site(s)"
 msgstr "\"{0}\" 設定を上書き: サイトを追加"
 
 #. noti_prefs_instr
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:22
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:23
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:noti_prefs_instr"
@@ -964,7 +972,7 @@ msgid ""
 msgstr "特定のサイトのデフォルト設定を上書きする場合は，変更したいサイト横のボックスをチェックし， \"サイトを追加\" をクリックします．"
 
 #. noti_prefs_add
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:23
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:24
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:noti_prefs_add"
@@ -972,7 +980,7 @@ msgid "Add Site(s)"
 msgstr "サイトを追加"
 
 #. noti_prefs_cancel
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:24
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:25
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:noti_prefs_cancel"
@@ -980,7 +988,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. tab_inst_1
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:25
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:26
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:tab_inst_1"
 msgid ""
@@ -990,7 +998,7 @@ msgid ""
 msgstr "サイトを非表示にする場合は，「タブに表示されるサイト」からサイトを選択し，左矢印を使って「タブに表示されないサイト」にサイトを移動します．サイトを表示する場合は，「タブに表示しないサイト」からサイトを選択し，右矢印を使って「タブに表示されるサイト」にサイトを移動します．変更を行う場合は「設定を更新」をクリックします．"
 
 #. tab_inst_2
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:26
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:27
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:tab_inst_2"
 msgid ""
@@ -1003,7 +1011,7 @@ msgid ""
 msgstr "タブ内のサイトの順番を変更する場合は，「タブに表示されるサイト」からサイトを選択し，上下矢印を使用してタブ内のサイトの順番を変更します．変更を行う場合は「設定を更新」をクリックします．"
 
 #. tab_inst_3
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:27
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:28
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:tab_inst_3"
 msgid ""
@@ -1013,7 +1021,7 @@ msgid ""
 msgstr "ワークサイトナビゲーションの目立つ場所に表示されるサイトを変更する場合は，「表示」数を更新します．そして，「設定を更新」をクリックし修正します．"
 
 #. tab_inst_save
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:28
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:29
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_inst_save"
@@ -1023,7 +1031,7 @@ msgid ""
 msgstr "修正し終えたら，「設定を更新」をクリックして保存してください．"
 
 #. tab_not_vis_inst
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:29
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:30
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_not_vis_inst"
@@ -1031,14 +1039,14 @@ msgid "Sites not visible in Tabs"
 msgstr "タブに表示されないサイト:"
 
 #. tab_vis_inst
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:30
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:31
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:tab_vis_inst"
 msgid "Sites visible in Tabs"
 msgstr "タブに表示されるサイト:"
 
 #. tab_move_inst
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:31
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:32
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_inst"
@@ -1046,7 +1054,7 @@ msgid "Move selected"
 msgstr "選択したものを移動"
 
 #. tab_move_inst_re
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:32
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:33
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_inst_re"
@@ -1054,7 +1062,7 @@ msgid "Hide selected site"
 msgstr "選択したものを削除"
 
 #. tab_move_all_inst
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:33
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:34
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_all_inst"
@@ -1062,7 +1070,7 @@ msgid "Make all sites visible"
 msgstr "すべて移動"
 
 #. tab_move_all_inst_re
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:34
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:35
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_all_inst_re"
@@ -1070,14 +1078,14 @@ msgid "Hide all sites"
 msgstr "すべて削除"
 
 #. tab_move_up
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:35
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:36
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:tab_move_up"
 msgid "Move selected site up in list"
 msgstr "一覧の中で上に移動"
 
 #. tab_move_down
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:36
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:37
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_down"
@@ -1085,14 +1093,14 @@ msgid "Move selected site down in list"
 msgstr "一覧の中で下に移動"
 
 #. tab_move_top
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:37
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:38
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:tab_move_top"
 msgid "Move selected site to top of list"
 msgstr "一覧の最初へ移動"
 
 #. tab_move_bottom
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:38
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:39
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_bottom"
@@ -1100,7 +1108,7 @@ msgid "Move selected site to bottom of list"
 msgstr "一覧の最後へ移動"
 
 #. tabs_move_top
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:39
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:40
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tabs_move_top"
@@ -1108,7 +1116,7 @@ msgid "Move selected sites to top of this list"
 msgstr "選択したサイトを一覧の一番上に移動"
 
 #. tabs_move_bottom
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:40
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:41
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tabs_move_bottom"
@@ -1116,7 +1124,7 @@ msgid "Move selected sites to bottom of this list"
 msgstr "選択したサイトを一覧の一番下に移動"
 
 #. tabs_move_left
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:41
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:42
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tabs_move_left"
@@ -1124,7 +1132,7 @@ msgid "Move selected sites to top of list on left"
 msgstr "選択したサイトを左の一覧の一番上に移動"
 
 #. tabs_move_right
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:42
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:43
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tabs_move_right"
@@ -1132,7 +1140,7 @@ msgid "Move selected sites to top of list on right"
 msgstr "選択したサイトを右の一覧の一番上に移動"
 
 #. tabs_screen_reader_label
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:43
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:44
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tabs_screen_reader_label"
@@ -1140,7 +1148,7 @@ msgid "Select "
 msgstr "選択"
 
 #. tab_move_rone
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:44
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:45
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_rone"
@@ -1148,7 +1156,7 @@ msgid ">"
 msgstr ">"
 
 #. tab_move_lone
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:45
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:46
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_lone"
@@ -1156,7 +1164,7 @@ msgid "<"
 msgstr "<"
 
 #. tab_move_rall
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:46
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:47
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_rall"
@@ -1164,7 +1172,7 @@ msgid ">>"
 msgstr ">>"
 
 #. tab_move_lall
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:47
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:48
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tab_move_lall"
@@ -1172,14 +1180,14 @@ msgid "<<"
 msgstr "<<"
 
 #. tab_count
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:48
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:49
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:tab_count"
 msgid "Tabs displayed:"
 msgstr "表示されるタブ数:"
 
 #. time_inst
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:49
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:50
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:time_inst"
 msgid ""
@@ -1188,7 +1196,7 @@ msgid ""
 msgstr "カレンダーのような選択した {0} ツールのローカルタイムゾーンを選択して下さい．現在 のタイムゾーン {1} "
 
 #. locale_msg
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:50
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:51
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:locale_msg"
 msgid ""
@@ -1197,7 +1205,7 @@ msgid ""
 msgstr "言語(及び国)設定を選択してください．現在の言語設定:"
 
 #. privacy_title
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:51
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:52
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_title"
@@ -1205,7 +1213,7 @@ msgid "Privacy Status"
 msgstr "プライバシー状態"
 
 #. privacy_default
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:52
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:53
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_default"
@@ -1213,7 +1221,7 @@ msgid "Default Status"
 msgstr "デフォルト状態"
 
 #. privacy_item_visible
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:53
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:54
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_item_visible"
@@ -1221,7 +1229,7 @@ msgid "Make me visible when I am added to sites by default"
 msgstr "デフォルトでサイトに追加されたとき表示する"
 
 #. privacy_item_hidden
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:54
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:55
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_item_hidden"
@@ -1229,7 +1237,7 @@ msgid "Hide me when I am added to sites by default"
 msgstr "デフォルトでサイトに追加されたときに非表示にする"
 
 #. privacy_stmt1
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:55
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:56
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_stmt1"
@@ -1240,7 +1248,7 @@ msgid ""
 msgstr "現在，このサイトの状態は "
 
 #. privacy_specific_site
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:56
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:57
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_specific_site"
@@ -1248,7 +1256,7 @@ msgid "Set status for a specific site"
 msgstr "指定したサイトの状態を設定"
 
 #. privacy_stmt_show
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:57
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:58
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_stmt_show"
@@ -1258,7 +1266,7 @@ msgid ""
 msgstr "にセットされています．他のユーザは，あなたの名前をクラス名簿で見ることができ，サイトを通じて連絡を取ることができます．"
 
 #. privacy_stmt_hide
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:58
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:59
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_stmt_hide"
@@ -1268,7 +1276,7 @@ msgid ""
 msgstr "にセットされています．他のユーザは，あなたの名前をクラス名簿で見ることができませんので，サイトを通じて連絡をとることはできません．"
 
 #. privacy_all_sites
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:59
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:60
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_all_sites"
@@ -1276,7 +1284,7 @@ msgid "Change your status in all your sites"
 msgstr "すべてのサイトの状態を変更"
 
 #. privacy_change_directions
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:60
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:61
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_change_directions"
@@ -1284,7 +1292,7 @@ msgid "If you would like to change your status, check the box next to"
 msgstr "状態を変更したい場合は，"
 
 #. privacy_change_directions2
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:61
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:62
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_change_directions2"
@@ -1292,7 +1300,7 @@ msgid "and then click the Update button below."
 msgstr "の横をチェックし，下の「更新」ボタンをクリックします．"
 
 #. privacy_note
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:62
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:63
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:privacy_note"
 msgid ""
@@ -1301,14 +1309,14 @@ msgid ""
 msgstr "注意: 他のサイトでのプライバシー状態を表示する場合は，「マイワークスペース」サイトから「設定」を選びます．"
 
 #. move_up_msg
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:63
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:64
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:move_up_msg"
 msgid "Please select at least one site to move up."
 msgstr "少なくともサイトを一つ選択し上に移動してください．"
 
 #. move_down_msg
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:64
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:65
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:move_down_msg"
@@ -1316,7 +1324,7 @@ msgid "Please select at least one site to move down."
 msgstr "少なくともサイトを一つ選択し下に移動してください．"
 
 #. remove_from_sites_msg
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:65
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:66
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:remove_from_sites_msg"
@@ -1324,7 +1332,7 @@ msgid "Please select a site to remove from Sites Visible in Tabs."
 msgstr "「タブに表示されるサイト」から削除するサイトを選択してください．"
 
 #. add_to_sites_msg
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:66
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:67
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:add_to_sites_msg"
@@ -1332,28 +1340,28 @@ msgid "Please select a site to add to Sites Visible in Tabs."
 msgstr "「タブに表示されるサイト」に追加するサイトを選択してください．"
 
 #. user_missing
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:67
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:68
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:user_missing"
 msgid "UserId is missing."
 msgstr "UserId が不明です．"
 
 #. remove_all
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:68
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:69
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:remove_all"
 msgid "Cannot remove all tabs from top navigation"
 msgstr "トップナビゲーションからすべてのタブを削除することはできません"
 
 #. min_tabs
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:69
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:70
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:min_tabs"
 msgid "Must have at least %d tabs on top navigation bar"
 msgstr "トップナビゲーションバーには少なくとも %d 個のタブがある必要があります"
 
 #. privacy_check_hide
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:70
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:71
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_check_hide"
@@ -1361,7 +1369,7 @@ msgid "Hide Me"
 msgstr "自分を隠す"
 
 #. privacy_check_show
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:71
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:72
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_check_show"
@@ -1369,7 +1377,7 @@ msgid "Show Me"
 msgstr "自分を表示"
 
 #. privacy_update
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:72
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:73
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_update"
@@ -1377,7 +1385,7 @@ msgid "Update"
 msgstr "更新"
 
 #. privacy_choose
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:73
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:74
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_choose"
@@ -1385,7 +1393,7 @@ msgid "Choose a site "
 msgstr "サイトを選択してください"
 
 #. privacy_no_choices
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:74
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:75
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_no_choices"
@@ -1393,7 +1401,7 @@ msgid "No sites to choose from, you must be a member in at least one site."
 msgstr "選択できるサイトがありません．少なくとも一つのサイトのメンバである必要があります．"
 
 #. privacy_show_all
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:75
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:76
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_show_all"
@@ -1401,7 +1409,7 @@ msgid "Show Me in All Sites"
 msgstr "すべてのサイトで自分を表示"
 
 #. privacy_hide_all
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:76
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:77
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_hide_all"
@@ -1409,7 +1417,7 @@ msgid "Hide Me in All Sites"
 msgstr "すべてのサイトで自分を隠す"
 
 #. privacy_update_title
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:77
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:78
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_update_title"
@@ -1417,7 +1425,7 @@ msgid "Update Privacy Status"
 msgstr "プライバシー状態を更新"
 
 #. privacy_show_title
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:78
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:79
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_show_title"
@@ -1425,7 +1433,7 @@ msgid "Set privacy to Show for all sites"
 msgstr "すべてのサイトで表示するようにプライバシーをセット"
 
 #. privacy_hide_title
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:79
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:80
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_hide_title"
@@ -1433,7 +1441,7 @@ msgid "Set privacy to Hide for all sites"
 msgstr "すべてのサイトで隠すようにプライバシーをセット"
 
 #. privacy_visible
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:80
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:81
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_visible"
@@ -1441,7 +1449,7 @@ msgid "visible"
 msgstr "表示"
 
 #. privacy_hidden
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:81
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:82
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_hidden"
@@ -1449,7 +1457,7 @@ msgid "hidden"
 msgstr "非表示"
 
 #. privacy_show_all_set
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:82
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:83
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_show_all_set"
@@ -1459,7 +1467,7 @@ msgid ""
 msgstr "すべてのサイトの状態が表示にセットされました．他のユーザは，クラス名簿であなたの名前を見ることができ，サイトを通じて連絡を取ることができます．"
 
 #. privacy_hide_all_set
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:83
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:84
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_hide_all_set"
@@ -1469,7 +1477,7 @@ msgid ""
 msgstr "すべてのサイトの状態が非表示にセットされました．他のユーザは，クラス名簿であなたの名前を見ることができませんので，サイトを通じて連絡を取ることはできません．"
 
 #. privacy_site_not_selected
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:84
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:85
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_site_not_selected"
@@ -1477,7 +1485,7 @@ msgid "Please select a site in order to change your status."
 msgstr "状態を変更する場合はサイトを選択してください．"
 
 #. privacy_choice_heading
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:85
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:86
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_choice_heading"
@@ -1485,7 +1493,7 @@ msgid "Please set your privacy status preference:"
 msgstr "プライバシー状態設定をセットしてください:"
 
 #. privacy_choice_hidden
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:86
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:87
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_choice_hidden"
@@ -1493,7 +1501,7 @@ msgid "Remain hidden in this site"
 msgstr "このサイトでは自分を非表示のままにする"
 
 #. privacy_choice_visible
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:87
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:88
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_choice_visible"
@@ -1501,7 +1509,7 @@ msgid "Make me visible in this site"
 msgstr "このサイトで自分を表示する"
 
 #. privacy_choice_later
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:88
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:89
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_choice_later"
@@ -1509,17 +1517,17 @@ msgid "Ask me again later"
 msgstr "後で再び確認する"
 
 #. privacy_change_later_instructions
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:89
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:90
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:privacy_change_later_instructions"
 msgid ""
-"To change your privacy settings in the future, visit<br />My Workspace > "
-"Preferences > Privacy Status"
-msgstr "プライバシー設定を将来変更する場合は，「マイワークスペース」→「設定」→「プライバシー状態」に移動します"
+"To change your privacy settings in the future, visit<br />Home > Preferences"
+" > Privacy Status"
+msgstr "プライバシ設定を将来変更する場合は，下記に移動します <br />マイワークスペース → 設定 → プライバシ状態"
 
 #. tabDisplay_prompt
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:90
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:91
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tabDisplay_prompt"
@@ -1527,30 +1535,30 @@ msgid "Show tabs as:"
 msgstr "次をタブとして表示:"
 
 #. tabDisplay_coursecode
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:91
-msgctxt ""
-"user/user-tool-prefs/tool/src/bundle/user-tool-"
-"prefs.properties:tabDisplay_coursecode"
-msgid "Course code (e.g. F13-ACCT-134C-01)"
-msgstr "コースコード (例 F13-ACCT-134C-01)"
-
-#. tabDisplay_coursename
 #: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:92
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
+"prefs.properties:tabDisplay_coursecode"
+msgid "Site Title"
+msgstr "サイトタイトル"
+
+#. tabDisplay_coursename
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:93
+msgctxt ""
+"user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:tabDisplay_coursename"
-msgid "Course name/description (e.g. First Year Accounting)"
-msgstr "コース名/説明 (例 First Year Accounting)"
+msgid "Site Short Description"
+msgstr "サイト短文説明"
 
 #. userPrefs
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:93
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:94
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:userPrefs"
 msgid "User Preference Values"
 msgstr "ユーザ属性値"
 
 #. userPrefs.action.key
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:94
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:95
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:userPrefs.action.key"
@@ -1561,9 +1569,29 @@ msgid ""
 msgstr "この操作はユーザIDとキーバリューを取得し，そのキーに対するユーザプリファレンス属性設定を返します．リクエストURLパタン： /direct/userPrefs/key/{user_id}/{key_value}.json with parameters"
 
 #. hidden_really_hide_confirm
-#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:95
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:96
 msgctxt ""
 "user/user-tool-prefs/tool/src/bundle/user-tool-"
 "prefs.properties:hidden_really_hide_confirm"
-msgid "Really hide one of your favorite sites?"
-msgstr "お気に入りサイトのひとつを本当に非表示にしますか ?"
+msgid ""
+"Hiding a favorite site will remove it from your favorites. Do you wish to "
+"continue?"
+msgstr "お気に入りサイトを非公開にするにはお気に入りから削除します．続けますか？"
+
+#. hidden_instructions
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:97
+msgctxt ""
+"user/user-tool-prefs/tool/src/bundle/user-tool-"
+"prefs.properties:hidden_instructions"
+msgid ""
+"Select a site or grouping of sites to hide from the Site Drawer.<br "
+"/><b>NOTE:</b> This will <b>not</b> affect the visibility of a site to "
+"students."
+msgstr "サイトドローワから非公開にするサイトまたはグループ化したサイトを選択して下さい．<br /><b>注意：</b> これは受講生へのサイトの見え方に影響<b>しません．</b>"
+
+#. hidden_title
+#: user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:98
+msgctxt ""
+"user/user-tool-prefs/tool/src/bundle/user-tool-prefs.properties:hidden_title"
+msgid "Hide From Site Drawer"
+msgstr "サイトドローワーから非表示"

@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-04 04:06+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-09-07 10:08+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -598,8 +598,14 @@ msgctxt ""
 msgid "Remove Link"
 msgstr "リンクを削除"
 
-#. java.selectparent
+#. title
 #: site-manage/site-manage-link-helper/src/bundle/link.properties:5
+msgctxt "site-manage/site-manage-link-helper/src/bundle/link.properties:title"
+msgid "Link to Parent Site"
+msgstr "親サイトへリンク"
+
+#. java.selectparent
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:6
 msgctxt ""
 "site-manage/site-manage-link-"
 "helper/src/bundle/link.properties:java.selectparent"
@@ -614,7 +620,7 @@ msgid ""
 msgstr "親サイトへこのサイトをリンクしても，親サイトやこのサイトのメンバシップや権限，ツールの振る舞いやツールのコンテンツに影響は与えません．親サイトへのリンクは，両方のサイトのメンバシップがあるユーザや両方のサイトを表示する権限を持っているユーザに対して，親サイト・子サイト間のサイトリンクを示すナビゲーションヒントやブレッドクラムナビゲーションが見えるようになることを単に意味しています．サイトは，自分を指し示す子サイトを複数持つことができますが，子サイトは一つの親サイトしか持つことはできません．"
 
 #. java.please.select
-#: site-manage/site-manage-link-helper/src/bundle/link.properties:6
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:7
 msgctxt ""
 "site-manage/site-manage-link-"
 "helper/src/bundle/link.properties:java.please.select"
@@ -622,7 +628,7 @@ msgid "---- Please Select Parent Site----"
 msgstr "---- 親サイトを選択して下さい ----"
 
 #. java.currentparent
-#: site-manage/site-manage-link-helper/src/bundle/link.properties:7
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:8
 msgctxt ""
 "site-manage/site-manage-link-"
 "helper/src/bundle/link.properties:java.currentparent"
@@ -630,7 +636,7 @@ msgid "Current Parent Site:"
 msgstr "現在の親サイト:"
 
 #. error.cannot.update
-#: site-manage/site-manage-link-helper/src/bundle/link.properties:8
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:9
 msgctxt ""
 "site-manage/site-manage-link-"
 "helper/src/bundle/link.properties:error.cannot.update"
@@ -638,7 +644,7 @@ msgid "Could not set parent id for site."
 msgstr "親サイト ID を設定することができませんでした．"
 
 #. error.cannot.remove
-#: site-manage/site-manage-link-helper/src/bundle/link.properties:9
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:10
 msgctxt ""
 "site-manage/site-manage-link-"
 "helper/src/bundle/link.properties:error.cannot.remove"
@@ -646,7 +652,7 @@ msgid "Could not remove parent id from site."
 msgstr "サイトから親サイト ID を削除することができませんでした．"
 
 #. error.cannot.access
-#: site-manage/site-manage-link-helper/src/bundle/link.properties:10
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:11
 msgctxt ""
 "site-manage/site-manage-link-"
 "helper/src/bundle/link.properties:error.cannot.access"
@@ -654,14 +660,14 @@ msgid "Error accessing site information."
 msgstr "サイト情報へアクセス中のエラー"
 
 #. error.nosites
-#: site-manage/site-manage-link-helper/src/bundle/link.properties:11
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:12
 msgctxt ""
 "site-manage/site-manage-link-helper/src/bundle/link.properties:error.nosites"
 msgid "You do not have access to any suitable parent sites."
 msgstr "適切な親サイトへのアクセス権限がありません．"
 
 #. alert.parent.removed
-#: site-manage/site-manage-link-helper/src/bundle/link.properties:12
+#: site-manage/site-manage-link-helper/src/bundle/link.properties:13
 msgctxt ""
 "site-manage/site-manage-link-"
 "helper/src/bundle/link.properties:alert.parent.removed"
@@ -1582,8 +1588,8 @@ msgstr "マイ非アクティブサイト"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.my"
-msgid "My Workspace"
-msgstr "マイワークスペース"
+msgid "Home"
+msgstr "ホーム"
 
 #. java.nosites
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:5
@@ -1901,8 +1907,9 @@ msgstr "エイリアス \"{0}\" はロックされています．"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.addalias"
-msgid "You do not have permission to add alias."
-msgstr "エイリアスを追加する権限がありません．"
+msgid ""
+"You do not have permission to add an alias or you can't use this alias."
+msgstr "エイリアスを追加する権限がないかこのエイリアスを使えません．"
 
 #. java.delalias
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:44
@@ -2105,8 +2112,8 @@ msgstr "承認を要求　対象: "
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.coursesite"
-msgid "Course Site for "
-msgstr "次のコースサイト: "
+msgid "Course Site for"
+msgstr "次のコースサイト"
 
 #. java.approval2
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:69
@@ -2560,8 +2567,8 @@ msgstr "メールエイリアスはすでに使用されています．"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.home"
-msgid "Home"
-msgstr "ホーム"
+msgid "Overview"
+msgstr "概要"
 
 #. java.help
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:125
@@ -2728,7 +2735,7 @@ msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.permission"
 msgid "You do not have permission to add the site {0}."
-msgstr "サイトを追加する権限ありません {0}."
+msgstr "サイトを追加する権限がありません {0}."
 
 #. java.recent
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:145
@@ -4001,8 +4008,8 @@ msgstr "このコースコードを含むサイトが既に存在しますが，
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:nscourse.select_anyways"
-msgid "select anyway? "
-msgstr "とにかく選択しますか? "
+msgid "select anyway?"
+msgstr "それでも選択しますか?"
 
 #. nscourse.change_button
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:301
@@ -4043,8 +4050,8 @@ msgctxt ""
 "tool/tool/src/bundle/sitesetupgeneric.properties:nscourse.select"
 msgid ""
 "Please select the appropriate course/section(s) to add to your site. "
-"Selecting multiple class/sections will combine them in a single site. "
-msgstr "コースサイトに含まれるコースまたはセクションを選択します．"
+"Selecting multiple class/sections will combine them in a single site."
+msgstr "サイトに追加する適切なコースまたはセクションを選択して下さい．複数のクラスまたはセクションを選択すると一つのサイトにそれらを紐付けます．"
 
 #. nscourse.add_course_not_listed
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:306
@@ -4334,16 +4341,16 @@ msgid ""
 " the username of a person that can verify you can create this site (e.g. "
 "department head, previous semester instructor).  An email requesting "
 "authorization will be sent to this person. If there are multiple instructors"
-" for the course, please separate the usernames with comma signs. "
-msgstr "この時点ではあなたが教員であることを確認できません．このサイトを作成できるかどうかを確認することができる方のユーザ名を入力してください（例: 学科長，前期の教員）．権限を要求するメールがその方に送付されます．"
+" for the course, please separate the usernames with comma signs."
+msgstr "現時点ではあなたが担当者であることを確認できません．このサイトを作成できるかどうかを確認することができる方のユーザ名を入力して下さい（例: 学科長，前期の担当者）．権限を要求するメールがその方に送信されます．"
 
 #. man.notverifyfuture1
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:340
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:man.notverifyfuture1"
-msgid "The official roster for your class will be available  "
-msgstr "あなたのクラスの正規の名簿は学期の開始"
+msgid "The official roster for your class will be available"
+msgstr "あなたのクラスの正規の受講者名簿は有効になります"
 
 #. man.notverifyfuture2
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:341
@@ -4898,7 +4905,7 @@ msgstr "外観"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitediconf.term"
-msgid "Term\t"
+msgid "Term"
 msgstr "学期"
 
 #. sitediconf.bac
@@ -5211,7 +5218,6 @@ msgctxt ""
 msgid ""
 "<strong>Copy Users:</strong> users specified in the template will be copied "
 "to your new site. This usually consist of support staff from your school."
-"    "
 msgstr "<strong>ユーザコピー:</strong>テンプレートで指定されたユーザは新しいサイトにコピーされます．通常は学部からのサポートスタッフにより構成されます．"
 
 #. sitetype.template.copy.content.info
@@ -5222,7 +5228,7 @@ msgctxt ""
 msgid ""
 "<strong>Copy Content:</strong> content included in the template will be "
 "copied to your site. This may consist of material selected by your campus, "
-"school or department.  "
+"school or department."
 msgstr "<strong>コンテンツコピー:</strong>テンプレートに含まれるコンテンツはサイトにコピーされます．これはキャンパス，学部，学科によって選択された素材から構成されます．"
 
 #. sitetype.template.publish.now
@@ -5231,8 +5237,8 @@ msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitetype.template.publish.now"
 msgid ""
-"<strong>Publish Site:</strong> site will be published inmediately. Leave "
-"unchecked to keep as a private draft.  "
+"<strong>Publish Site:</strong> site will be published immediately. Leave "
+"unchecked to keep as a private draft."
 msgstr "<strong>サイト公開:</strong>サイトは今すぐ公開されます．個人ドラフトのままにするにはチェックを外しておいて下さい．"
 
 #. sitetype.chothetyp.withouttemplate
@@ -5582,7 +5588,7 @@ msgstr "このサイトは編集中です．しばらくしてから再試行し
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:size.bytes"
-msgid "{0} bytes "
+msgid "{0} bytes"
 msgstr "{0} バイト"
 
 #. size.gb
@@ -5590,7 +5596,7 @@ msgstr "{0} バイト"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:size.gb"
-msgid "{0} GB "
+msgid "{0} GB"
 msgstr "{0} GB "
 
 #. size.kb
@@ -5598,7 +5604,7 @@ msgstr "{0} GB "
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:size.kb"
-msgid "{0} KB "
+msgid "{0} KB"
 msgstr "{0} KB "
 
 #. size.mb
@@ -5606,7 +5612,7 @@ msgstr "{0} KB "
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:size.mb"
-msgid "{0} MB "
+msgid "{0} MB"
 msgstr "{0} MB "
 
 #. sitegen.siteinfolist.previous
@@ -5736,7 +5742,7 @@ msgctxt ""
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.siteinfolist.anonjoin"
 msgid ""
 "Anyone (including non-logged in users), site participants and joinable by "
-"any logged in user "
+"any logged in user"
 msgstr "すべて(ログインしてないユーザを含む)，サイト参加者およびログインユーザにより参加可能"
 
 #. sitegen.siteinfolist.auth
@@ -6128,15 +6134,15 @@ msgstr "ロールの説明"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.siteinfolist.nomaintainuser"
-msgid "The site has to have at least one user with role "
-msgstr "サイトにはロールを持つユーザが一人以上必要です"
+msgid "The site has to have at least one user with role"
+msgstr "サイトにはロールを持つユーザが一人以上必要です."
 
 #. sitegen.siteinfolist.lastmaintainuser
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:559
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.siteinfolist.lastmaintainuser"
-msgid "Cannot delete last user with role {0} (i.e. 'maintainer')  "
+msgid "Cannot delete last user with role {0} (i.e. 'maintainer')"
 msgstr "ロール {0} (例えば 'maintainer') を持つ最後のユーザを削除できません"
 
 #. sitegen.siteinfolist.lastmaintainuseractive
@@ -6152,7 +6158,7 @@ msgstr "ロール {0} を持つ最後のユーザを無効にできません"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.siteinfolist.siteurl"
-msgid "Site URL "
+msgid "Site URL"
 msgstr "サイト URL"
 
 #. sitegen.siteinfolist.close
@@ -6552,8 +6558,8 @@ msgctxt ""
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.gloacc1"
 msgid ""
 "Global access settings allow you to decide who has access to your site once "
-"it is published. "
-msgstr "公開後は，グローバルアクセス設定によりサイトへ誰をアクセスさせるか決定することができます．"
+"it is published."
+msgstr "公開後は，グローバルアクセス設定によりサイトに誰をアクセスさせるかを決定することができます．"
 
 #. ediacc.gloacc2
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:611
@@ -6634,7 +6640,7 @@ msgctxt ""
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.yousitcan"
 msgid ""
 "In addition to the participants you've added, you can open your site so that"
-" anyone with a valid login can join it. "
+" anyone with a valid login can join it."
 msgstr "サイトには参加者として追加したユーザがアクセスすることができます．サイトに他のユーザにアクセスさせたいですか?"
 
 #. ediacc.yousitcan.warn
@@ -6830,7 +6836,7 @@ msgstr "警告:"
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:pubuncon.apub"
-msgid "A published site is viewable to all participants. "
+msgid "A published site is viewable to all participants."
 msgstr "公開されたサイトは参加者すべてが見ることができます．"
 
 #. pubuncon.bac
@@ -6904,7 +6910,7 @@ msgctxt ""
 "tool/tool/src/bundle/sitesetupgeneric.properties:pubuncon.unpub"
 msgid ""
 "Unpublished sites are only viewable to those with permission to setup the "
-"site. "
+"site."
 msgstr "未公開サイトはサイトセットアップの権限を持つユーザにのみ表示されます．"
 
 #. pubuncon.unpubli
@@ -7078,8 +7084,8 @@ msgstr "\"リソース\" ファイルストレージクオータを保持しま�
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitdup.curquot"
-msgid "Currently set to "
-msgstr "現在の設定"
+msgid "Currently set to"
+msgstr "現在の設定:"
 
 #. sitdup.yesdupequota
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:674
@@ -7097,8 +7103,16 @@ msgctxt ""
 msgid "No, reset to default"
 msgstr "いいえ，デフォルトにリセットします"
 
-#. sitegen.sitedel.remov
+#. sitdup.dupscoredata
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:676
+msgctxt ""
+"site-manage/site-manage-"
+"tool/tool/src/bundle/sitesetupgeneric.properties:sitdup.dupscoredata"
+msgid "Copy {0} selections for gradebook items"
+msgstr "成績簿アイテムに対し選択 {0} をコピー"
+
+#. sitegen.sitedel.remov
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:677
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.remov"
@@ -7106,7 +7120,7 @@ msgid "Removing Site..."
 msgstr "サイトを削除しています..."
 
 #. sitegen.sitedel.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:677
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:678
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.alert"
@@ -7114,7 +7128,7 @@ msgid "Alert:"
 msgstr "警告:"
 
 #. sitegen.sitedel.deleting
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:678
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:679
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.deleting"
@@ -7122,19 +7136,19 @@ msgid "Deleting a site removes all content and cannot be undone."
 msgstr "サイトを削除するとすべてのコンテンツが削除され，復元することはできません．"
 
 #. sitegen.sitedel.deleting1
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:679
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:680
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.deleting1"
 msgid ""
 "Deleting a site removes the entire site's content and is not recoverable - "
 "no one else will be able to access the deleted site. If you are trying to "
-"remove yourself from the site, use the Membership tool in your My Workspace "
-"to unjoin the site."
-msgstr "サイトを削除すると，サイトのコンテンツ全体が削除され，復元することはできません．削除されたサイトには誰もアクセスすることはできなくなります．サイトから自分自身を削除する場合は，サイトに不参加にするためにマイワークスペースの「メンバシップツール」を使用します．"
+"remove yourself from the site, use the Membership tool in your Home to "
+"unjoin the site."
+msgstr "サイトを削除すると，サイトのコンテンツ全体が削除され，復元することはできません．削除されたサイトには誰もアクセスすることはできなくなります．サイトから自分自身を削除する場合は，サイトから参加を解除にするためにホームの「メンバシップツール」を使用します．"
 
 #. sitegen.sitedel.you
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:680
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:681
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.you"
@@ -7142,7 +7156,7 @@ msgid "You have selected the following site for removal:"
 msgstr "削除するために次のサイトが選択されています: "
 
 #. sitegen.sitedel.you2
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:681
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:682
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.you2"
@@ -7150,7 +7164,7 @@ msgid "You have selected the following sites for removal:"
 msgstr "削除するために次のサイトが選択されています: "
 
 #. sitegen.sitedel.remove
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:682
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:683
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.remove"
@@ -7158,7 +7172,7 @@ msgid "Remove"
 msgstr "削除"
 
 #. sitegen.sitedel.cancel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:683
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:684
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.cancel"
@@ -7166,7 +7180,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. sitegen.sitedel.remov.soft
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:684
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:685
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.remov.soft"
@@ -7174,21 +7188,21 @@ msgid "Softly Deleting Site..."
 msgstr "ソフト的にサイトを削除..."
 
 #. sitegen.sitedel.soft
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:685
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:686
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.soft"
 msgid ""
 "This site will be 'softly deleted' but will remain accessible to you via the"
 " \"View softly deleted Sites\" option in the Worksite Setup tool which is "
-"found in My Workspace. It will eventually be purged as per the schedule set "
-"by your System Administrator.<p>Participants will no longer be able to "
-"access the site, however the contents of the site will be preserved and you "
-"can restore access to the site at any time before it is purged.</p>"
-msgstr "このサイトは'ソフト的に削除'されますがマイワークスペースのサイトセットアップツールにある\"ソフト的に削除されたサイトの表示\"オプションにてアクセスが維持されます．システム管理者によって設定されたスケジュールの通りに削除されることがあります．<p>参加者はサイトにアクセスできなくなりますが，サイトのコンテンツは保存されそれが削除される前にいつでもサイトにリストアアクセスすることができます．</p>"
+"found in Home. It will eventually be purged as per the schedule set by your "
+"System Administrator.<p>Participants will no longer be able to access the "
+"site, however the contents of the site will be preserved and you can restore"
+" access to the site at any time before it is purged.</p>"
+msgstr "このサイトは「ソフト的に削除」されますがホームのサイトセットアップツールにある「ソフト的に削除されたサイトの表示」オプションにてアクセスが維持されます．システム管理者によって設定されたスケジュールの通りに削除されることがあります．<p>参加者はサイトにアクセスできなくなりますが，サイトのコンテンツは保存されそれが削除される前にいつでもサイトにリストアアクセスすることができます．</p>"
 
 #. sitegen.sitedel.you.soft
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:686
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:687
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.you.soft"
@@ -7196,7 +7210,7 @@ msgid "You have selected the following site for soft deletion:"
 msgstr "ソフト的に削除するために次のサイトが選択されています:"
 
 #. sitegen.sitedel.you2.soft
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:687
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:688
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.you2.soft"
@@ -7204,7 +7218,7 @@ msgid "You have selected the following sites for soft deletion:"
 msgstr "ソフト的に削除するために次のサイトが選択されています:"
 
 #. sitegen.sitedel.softly.delete
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:688
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:689
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.softly.delete"
@@ -7212,7 +7226,7 @@ msgid "Mark for deletion"
 msgstr "削除をマークする"
 
 #. sitegen.removpart.confirm
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:689
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:690
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.confirm"
@@ -7220,7 +7234,7 @@ msgid "Confirming removal of participants from"
 msgstr "次から参加者を削除することを確認しています："
 
 #. sitegen.removpart.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:690
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:691
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.alert"
@@ -7228,7 +7242,7 @@ msgid "Alert:"
 msgstr "警告:"
 
 #. sitegen.removpart.following
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:691
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:692
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.following"
@@ -7238,7 +7252,7 @@ msgid ""
 msgstr "下の「終了」ボタンをクリックすると，次のところにはアクセスできなくなります．"
 
 #. sitegen.removpart.name
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:692
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:693
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.name"
@@ -7246,7 +7260,7 @@ msgid "Name"
 msgstr "名前"
 
 #. sitegen.removpart.username
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:693
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:694
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.username"
@@ -7254,7 +7268,7 @@ msgid "Username"
 msgstr "ユーザ名"
 
 #. sitegen.removpart.role
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:694
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:695
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.role"
@@ -7262,7 +7276,7 @@ msgid "Role"
 msgstr "ロール"
 
 #. sitegen.removpart.participant
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:695
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:696
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.participant"
@@ -7273,7 +7287,7 @@ msgid ""
 msgstr "以下に一覧表示された参加者は，コースに正規に登録されているため削除することができません．しかし，「ロールを変更」コマンド（「確認」「アクセスを編集」の下にあります）をクリックすることによりサイトでのロールを変更することができます．"
 
 #. sitegen.removpart.finish
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:696
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:697
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.finish"
@@ -7281,7 +7295,7 @@ msgid "Finish"
 msgstr "終了"
 
 #. sitegen.removpart.back
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:697
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:698
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.back"
@@ -7289,7 +7303,7 @@ msgid "Back"
 msgstr "戻る"
 
 #. sitegen.removpart.cancel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:698
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:699
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.removpart.cancel"
@@ -7297,7 +7311,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. sitegen.pubunpub.revi
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:699
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:700
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.revi"
@@ -7305,7 +7319,7 @@ msgid "Revising publish status for $validator.escapeHtml($title)"
 msgstr "$validator.escapeHtml($title) の公開状態を確認しています"
 
 #. sitegen.pubunpub.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:700
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:701
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.alert"
@@ -7313,7 +7327,7 @@ msgid "Alert:"
 msgstr "警告:"
 
 #. sitegen.pubunpub.when
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:701
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:702
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.when"
@@ -7323,7 +7337,7 @@ msgid ""
 msgstr "サイトが公開されますと，サイトが利用可能になったことを知らせるメールが自動的にすべての参加者に送信されます．"
 
 #. sitegen.pubunpub.send
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:702
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:703
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.send"
@@ -7331,7 +7345,7 @@ msgid "Send an email to all participants announcing the site's availability"
 msgstr "サイトが利用可能になったことを参加者すべてに知らせるメールを送信します．"
 
 #. sitegen.pubunpub.donot
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:703
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:704
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.donot"
@@ -7339,7 +7353,7 @@ msgid "Do not send an email announcing the site's availability"
 msgstr "このサイトが利用可能になったことを知らせるメールを送信しません"
 
 #. sitegen.pubunpub.continue
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:704
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:705
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.continue"
@@ -7347,7 +7361,7 @@ msgid "Continue"
 msgstr "続ける"
 
 #. sitegen.pubunpub.back
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:705
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:706
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.back"
@@ -7355,7 +7369,7 @@ msgid "Back"
 msgstr "戻る"
 
 #. sitegen.pubunpub.cancel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:706
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:707
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.pubunpub.cancel"
@@ -7363,7 +7377,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. sitegen.addcourse.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:707
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:708
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.alert"
@@ -7371,7 +7385,7 @@ msgid "Alert:"
 msgstr "警告:"
 
 #. sitegen.addcourse.adding
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:708
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:709
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.adding"
@@ -7379,7 +7393,7 @@ msgid "Request Site Access:"
 msgstr "サイトへのアクセスを申請:"
 
 #. sitegen.addcourse.please
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:709
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:710
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.please"
@@ -7388,7 +7402,7 @@ msgid ""
 msgstr "クラスサイトに次のセクションを追加することを確認してください．"
 
 #. sitegen.addcourse.class
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:710
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:711
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.class"
@@ -7396,7 +7410,7 @@ msgid "Class Information"
 msgstr "クラス情報"
 
 #. sitegen.addcourse.foll
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:711
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:712
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.foll"
@@ -7404,7 +7418,7 @@ msgid "The following class(es) were already assigned to this site:"
 msgstr "次のクラスがこのサイトにすでに割り当てられていました:"
 
 #. sitegen.addcourse.you
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:712
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:713
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.you"
@@ -7412,7 +7426,7 @@ msgid "You have indicated the following class(es) to add to this site:"
 msgstr "このサイトに追加するために次のクラスが指定されています:"
 
 #. sitegen.addcourse.add
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:713
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:714
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.add"
@@ -7420,7 +7434,7 @@ msgid "Add Class(es)"
 msgstr "クラスを追加"
 
 #. sitegen.addcourse.cancel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:714
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:715
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.cancel"
@@ -7428,7 +7442,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. sitegen.addcourse.back
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:715
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:716
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.addcourse.back"
@@ -7436,7 +7450,7 @@ msgid "Back"
 msgstr "戻る"
 
 #. setperfor
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:716
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:717
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:setperfor"
@@ -7444,7 +7458,7 @@ msgid "Set permissions for Site Info in worksite"
 msgstr "ワークサイトのサイト情報への権限をセット"
 
 #. theisa
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:717
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:718
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:theisa"
@@ -7454,7 +7468,7 @@ msgid ""
 msgstr "サイトがすでに編集中であるため，この時点では権限がセットできません．続ける前に他のツールの権限設定を閉じてください．"
 
 #. permis
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:718
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:719
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:permis"
@@ -7462,7 +7476,7 @@ msgid "Permissions..."
 msgstr "許可・権限..."
 
 #. gen.proces
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:719
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:720
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:gen.proces"
@@ -7470,7 +7484,7 @@ msgid "Processing......"
 msgstr "処理しています......"
 
 #. atleastonetool
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:720
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:721
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:atleastonetool"
@@ -7478,7 +7492,7 @@ msgid "Please select at least one tool."
 msgstr "最低一つはツールを選択してください．"
 
 #. java.group
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:721
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:722
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.group"
@@ -7486,7 +7500,7 @@ msgid "Manage Groups"
 msgstr "グループを管理"
 
 #. group.membership
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:722
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:723
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.membership"
@@ -7494,7 +7508,7 @@ msgid "Group Membership"
 msgstr "グループメンバシップ"
 
 #. group.description
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:723
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:724
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.description"
@@ -7502,7 +7516,7 @@ msgid "Description"
 msgstr "説明"
 
 #. group.list
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:724
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:725
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.list"
@@ -7510,7 +7524,7 @@ msgid "Group List"
 msgstr "グループ一覧"
 
 #. group.title
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:725
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:726
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.title"
@@ -7518,7 +7532,7 @@ msgid "Title"
 msgstr "タイトル"
 
 #. group.title.same
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:726
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:727
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.title.same"
@@ -7526,7 +7540,7 @@ msgid "Same group title has been used. Please choose a different one."
 msgstr "同じグループタイトルが使用されています．違うものを選んでください．"
 
 #. group.number
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:727
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:728
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.number"
@@ -7534,7 +7548,7 @@ msgid "Size"
 msgstr "サイズ"
 
 #. group.tablesummary
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:728
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:729
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.tablesummary"
@@ -7544,7 +7558,7 @@ msgid ""
 msgstr "表にはサイトグループの情報があります．1列目はグループのタイトル，2列目はグループメンバ数です．ヘッダにはソートのためのリンクがあります．"
 
 #. group.siteinfo.tablesummary
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:729
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:730
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.siteinfo.tablesummary"
@@ -7554,7 +7568,7 @@ msgid ""
 msgstr "表には，サイトグループの情報があります．カラム 1 は「グループタイトル」，カラム 2 は「グループメンバ数」です．"
 
 #. group.sorttitleasc
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:730
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:731
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.sorttitleasc"
@@ -7562,7 +7576,7 @@ msgid "Sort by title ascendingly"
 msgstr "タイトルで昇順にソート"
 
 #. group.sorttitledesc
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:731
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:732
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.sorttitledesc"
@@ -7570,7 +7584,7 @@ msgid "Sort by title descendinly"
 msgstr "タイトルで降順にソート"
 
 #. group.sortnumberasc
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:732
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:733
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.sortnumberasc"
@@ -7578,7 +7592,7 @@ msgid "Sort by group member number ascendingly"
 msgstr "グループメンバ番号で昇順にソート"
 
 #. group.sortnumberdesc
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:733
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:734
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.sortnumberdesc"
@@ -7586,7 +7600,7 @@ msgid "Sort by group member number descendingly"
 msgstr "グループメンバ番号で降順にソート"
 
 #. group.newgroup
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:734
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:735
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.newgroup"
@@ -7594,7 +7608,7 @@ msgid "Create New Group"
 msgstr "新しいグループを作成"
 
 #. group.editgroup
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:735
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:736
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.editgroup"
@@ -7602,7 +7616,7 @@ msgid "Edit Group"
 msgstr "グループを編集"
 
 #. group.nogroup
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:736
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:737
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:group.nogroup"
@@ -7610,7 +7624,7 @@ msgid "There are no groups defined."
 msgstr "定義されているグループがありません．"
 
 #. editgroup.instruction
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:737
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:738
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.instruction"
@@ -7620,7 +7634,7 @@ msgid ""
 msgstr "サイトメンバ一覧のメンバを選択しグループに追加します．グループリストのメンバを選択します．変更を保存する場合は「更新」をクリックします．"
 
 #. editgroup.membership
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:738
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:739
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.membership"
@@ -7628,7 +7642,7 @@ msgid "Membership"
 msgstr "メンバシップ"
 
 #. editgroup.remove
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:739
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:740
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.remove"
@@ -7636,7 +7650,7 @@ msgid "Remove?"
 msgstr "削除?"
 
 #. editgroup.selectremovechecked
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:740
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:741
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.selectremovechecked"
@@ -7644,7 +7658,7 @@ msgid "Select to remove"
 msgstr "削除する場合は選択"
 
 #. editgroup.removechecked
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:741
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:742
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.removechecked"
@@ -7652,7 +7666,7 @@ msgid "Remove Checked"
 msgstr "選択されたものを削除"
 
 #. editgroup.revise
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:742
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:743
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.revise"
@@ -7660,7 +7674,7 @@ msgid "Edit"
 msgstr "確認"
 
 #. editgroup.update
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:743
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:744
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.update"
@@ -7668,7 +7682,7 @@ msgid "Update"
 msgstr "更新"
 
 #. editgroup.back
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:744
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:745
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.back"
@@ -7676,7 +7690,7 @@ msgid "Back"
 msgstr "戻る"
 
 #. editgroup.cancel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:745
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:746
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.cancel"
@@ -7684,7 +7698,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. editgroup.addmember
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:746
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:747
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.addmember"
@@ -7692,7 +7706,7 @@ msgid "Add to group >"
 msgstr "グループに追加 >"
 
 #. editgroup.removemember
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:747
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:748
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.removemember"
@@ -7700,7 +7714,7 @@ msgid "< Remove"
 msgstr "< 削除"
 
 #. editgroup.generallist
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:748
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:749
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.generallist"
@@ -7708,7 +7722,7 @@ msgid "Site Member List"
 msgstr "サイトメンバー一覧"
 
 #. editgroup.grouplist
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:749
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:750
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.grouplist"
@@ -7716,7 +7730,7 @@ msgid "Group Member List"
 msgstr "グループメンバ一覧"
 
 #. editgroup.titlemissing
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:750
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:751
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.titlemissing"
@@ -7724,7 +7738,7 @@ msgid "You need to specify the group title."
 msgstr "グループタイトルを指定する必要があります．"
 
 #. editgroup.removegroups
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:751
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:752
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.removegroups"
@@ -7732,7 +7746,7 @@ msgid "Delete Groups"
 msgstr "グループを削除"
 
 #. editgroup.groupdel.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:752
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:753
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.groupdel.alert"
@@ -7744,7 +7758,7 @@ msgid ""
 msgstr "グループは完全に削除されます．選択されたグループに使うツールは削除後に正常に動作しないかもしれません．グループを削除する前にサイトのグループでどのようなツールが利用されているかをチェックすることを推奨します．次のグループを削除してもよろしいですか?"
 
 #. editgroup.site.permission.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:753
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:754
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.site.permission.alert"
@@ -7752,7 +7766,7 @@ msgid "You are not allowed to make changes to the site."
 msgstr "このサイトに変更を加えることが許可されていません．"
 
 #. editgroup.site.notfound.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:754
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:755
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:editgroup.site.notfound.alert"
@@ -7760,7 +7774,7 @@ msgid "Site not found."
 msgstr "サイトが見つかりません．"
 
 #. sitedicla.edit_roster
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:755
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:756
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.edit_roster"
@@ -7768,7 +7782,7 @@ msgid "Edit Roster Access for"
 msgstr "次の名簿アクセスを編集:  "
 
 #. sitedicla.requested
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:756
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:757
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.requested"
@@ -7776,7 +7790,7 @@ msgid "(requested)"
 msgstr "(要求済み)"
 
 #. sitedicla.import_materials
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:757
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:758
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.import_materials"
@@ -7784,7 +7798,7 @@ msgid "Import Materials From Archive File"
 msgstr "ファイルから素材をインポート"
 
 #. sitedicla.choose_file
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:758
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:759
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.choose_file"
@@ -7792,7 +7806,7 @@ msgid "Choose a file to import"
 msgstr "インポートするファイルを選択"
 
 #. sitedicla.file
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:759
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:760
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.file"
@@ -7800,7 +7814,7 @@ msgid "File"
 msgstr "ファイル"
 
 #. sitedicla.import
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:760
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:761
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.import"
@@ -7808,7 +7822,7 @@ msgid "Import"
 msgstr "インポート"
 
 #. sitedicla.copy_materials
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:761
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:762
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.copy_materials"
@@ -7816,7 +7830,7 @@ msgid "Copy Materials from Other Sites"
 msgstr "他のサイトから素材をコピー"
 
 #. sitedicla.choose_materials
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:762
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:763
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.choose_materials"
@@ -7824,7 +7838,7 @@ msgid "Choose material to copy this site."
 msgstr "このサイトをコピーする素材をを選択します．"
 
 #. sitedicla.copy_message
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:763
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:764
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.copy_message"
@@ -7836,7 +7850,7 @@ msgid ""
 msgstr "所有している他のサイトから素材を再利用（コピー）することを選択できます．ファイルから素材をインポートことを選択する場合は，一つのサイトからの素材のコピーしかできません．すべての素材がコピーされますが，スケジュールエントリのようなアイテムの日時は更新されません．"
 
 #. sitedicla.copying
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:764
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:765
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.copying"
@@ -7844,7 +7858,7 @@ msgid "Copy this existing material..."
 msgstr "この存在する素材をコピー..."
 
 #. sitedicla.move
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:765
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:766
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.move"
@@ -7852,7 +7866,7 @@ msgid "Move"
 msgstr "移動"
 
 #. sitedicla.move_into
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:766
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:767
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.move_into"
@@ -7860,7 +7874,7 @@ msgid "...into my current site"
 msgstr "...現在のサイトへ"
 
 #. sitedicla.copybtn
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:767
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:768
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.copybtn"
@@ -7868,7 +7882,7 @@ msgid "Copy Materials"
 msgstr "素材をコピー"
 
 #. sitedicla.cancel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:768
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:769
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitedicla.cancel"
@@ -7876,7 +7890,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. tool.news.desc
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:769
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:770
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:tool.news.desc"
@@ -7884,7 +7898,7 @@ msgid "For viewing content from"
 msgstr "サイト内の次のコンテンツ表示のため:"
 
 #. tool.webcontent.desc1
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:770
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:771
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:tool.webcontent.desc1"
@@ -7892,7 +7906,7 @@ msgid "For accessing content from"
 msgstr "サイト内のコンテンツアクセスのため:"
 
 #. tool.webcontent.desc2
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:771
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:772
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:tool.webcontent.desc2"
@@ -7900,7 +7914,7 @@ msgid "within the site."
 msgstr "サイト内です．"
 
 #. user.notdefined
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:772
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:773
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:user.notdefined"
@@ -7908,7 +7922,7 @@ msgid "Cannot find a user with id"
 msgstr "指定された ID のユーザが見つかりません"
 
 #. importFile.size
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:773
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:774
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:importFile.size"
@@ -7916,7 +7930,7 @@ msgid "The upload size limit of {0} MB has been exceeded."
 msgstr "アップロードサイズ制限 {0}: を超過しています．"
 
 #. importFile.exceeded
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:774
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:775
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:importFile.exceeded"
@@ -7924,7 +7938,7 @@ msgid "has been exceeded."
 msgstr "が超えています．"
 
 #. importFile.choosefile
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:775
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:776
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:importFile.choosefile"
@@ -7932,7 +7946,7 @@ msgid "Please choose the file to import."
 msgstr "インポートするファイルを選んでください．"
 
 #. importFile.invalidfile
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:776
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:777
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:importFile.invalidfile"
@@ -7940,7 +7954,7 @@ msgid "Please choose a valid archive file to import."
 msgstr "インポートする正しいアーカイブファイルを選んでください．"
 
 #. alert.protocol
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:777
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:778
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:alert.protocol"
@@ -7948,7 +7962,7 @@ msgid "Please use a valid web address."
 msgstr "有効なウェブアドレスを使用してください．"
 
 #. sitesetupquestion.alert
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:778
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:779
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitesetupquestion.alert"
@@ -7956,7 +7970,7 @@ msgid "Please answer the required question(s)."
 msgstr "必須の質問に回答してください．"
 
 #. sitinfimp.importgrades
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:779
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:780
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.importgrades"
@@ -7964,7 +7978,7 @@ msgid "Import Data"
 msgstr "データをインポート"
 
 #. sitinfimp.selection
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:780
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:781
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.selection"
@@ -7972,7 +7986,7 @@ msgid "Please choose a method below to proceed:"
 msgstr "方法を一つ選んで進んでください:"
 
 #. sitinfimp.migrate
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:781
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:782
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.migrate"
@@ -7980,7 +7994,7 @@ msgid "I would like to replace my data"
 msgstr "自分のデータを置き換えたい"
 
 #. sitinfimp.migrate.info
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:782
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:783
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.migrate.info"
@@ -7990,7 +8004,7 @@ msgid ""
 msgstr "既存のデータが，インポートしたデータですべて上書きされます．この方法により「成績簿」設定をインポートすることができます．"
 
 #. sitinfimp.import
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:783
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:784
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.import"
@@ -7998,7 +8012,7 @@ msgid "I would like to merge my data"
 msgstr "自分のデータをマージしたい"
 
 #. sitinfimp.import.info
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:784
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:785
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.import.info"
@@ -8008,7 +8022,7 @@ msgid ""
 msgstr "インポートあれたデータは既存のデータにマージされます．この方法では「成績簿」設定はインポートされません．"
 
 #. sitinfimp.import.user
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:785
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:786
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.import.user"
@@ -8016,7 +8030,7 @@ msgid "I would like to merge my user(s)"
 msgstr "自分のユーザをマージします"
 
 #. sitinfimp.import.user.info
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:786
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:787
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.import.user.info"
@@ -8026,7 +8040,7 @@ msgid ""
 msgstr "インポートされたユーザは既存ユーザにマージされます．名簿で提供されたユーザのインポートではありません．"
 
 #. sitinfimp.replace
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:787
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:788
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.replace"
@@ -8037,7 +8051,7 @@ msgid ""
 msgstr "自分が所有している他のサイトから素材をインポートすることにより，自分のサイトにある素材を置き換えることができます．既存のデータはすべて上書きされ，インポートしたデータにより置き換えられます．"
 
 #. sitinfimp.choose
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:788
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:789
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.choose"
@@ -8045,17 +8059,17 @@ msgid "Choose the material you want to re-use from this site."
 msgstr "このサイトから再利用したい素材を選びます．"
 
 #. sitinfimp.wikinote
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:789
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:790
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitinfimp.wikinote"
 msgid ""
 "(Existing content will be archived and can be accessed from the History "
-"link) "
-msgstr "(既存のコンテンツはアーカイブされ，「履歴」リンクからアクセスすることができます) "
+"link)"
+msgstr "(既存のコンテンツはアーカイブされ， \"履歴\" リンクからアクセスすることができます)"
 
 #. site_group_title_length_limit
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:790
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:791
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:site_group_title_length_limit"
@@ -8064,7 +8078,7 @@ msgid ""
 msgstr "タイトル長は {0} 文字を越えることはできません．より短いタイトルを入力してください．"
 
 #. print
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:791
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:792
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:print"
@@ -8072,7 +8086,7 @@ msgid "Printable Version"
 msgstr "印刷用バージョン"
 
 #. description.linebreak
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:792
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:793
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:description.linebreak"
@@ -8082,7 +8096,7 @@ msgid ""
 msgstr "サイト説明は，HTML の改行ではない改行文字を含んで更新されています．新しいフォーマットで表示するために，変更内容を確認して保存してください．"
 
 #. sitecopy.copymembers
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:793
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:794
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitecopy.copymembers"
@@ -8090,7 +8104,7 @@ msgid "Copy the site members also?"
 msgstr "サイトメンバもコピーしますか?"
 
 #. sitmansav.sitid
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:794
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:795
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitmansav.sitid"
@@ -8098,7 +8112,7 @@ msgid "Site Id:"
 msgstr "サイト ID:"
 
 #. check.all
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:795
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:796
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:check.all"
@@ -8106,7 +8120,7 @@ msgid "Select/unselect all worksites"
 msgstr "すべてのワークサイトを選択／選択解除"
 
 #. check.all.part
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:796
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:797
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:check.all.part"
@@ -8114,7 +8128,7 @@ msgid "Select/unselect all participants"
 msgstr "すべての参加者を選択／選択解除"
 
 #. noterm_class
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:797
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:798
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:noterm_class"
@@ -8124,7 +8138,7 @@ msgid ""
 msgstr "担当者としてあなたが一覧にある名簿は選択した学期に対しては見つかりませんでした．"
 
 #. java.couldntlocate
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:798
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:799
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.couldntlocate"
@@ -8133,7 +8147,7 @@ msgid ""
 msgstr "ID が \"{0}\" のサイトを見つけることができませんでした．サポートに問い合わせて下さい．"
 
 #. sitegen.roledescription.maintain
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:799
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:800
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.roledescription.maintain"
@@ -8142,32 +8156,32 @@ msgid ""
 msgstr "コンテンツおよびサイトへの参加者の両方を読み出し，修正，削除および追加できます．"
 
 #. sitegen.roledescription.Instructor
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:800
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:801
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.roledescription.Instructor"
 msgid ""
-"Can read, revise, delete and add both content and participants to a site. "
+"Can read, revise, delete and add both content and participants to a site."
 msgstr "コンテンツおよびサイトへの参加者の両方を読み出し，修正，削除および追加できます．"
 
 #. sitegen.roledescription.access
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:801
-msgctxt ""
-"site-manage/site-manage-"
-"tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.roledescription.access"
-msgid "Can read content, and add content to a site where appropriate. "
-msgstr "コンテンツを読み出すとともに適切なサイトにコンテンツを追加できます．"
-
-#. sitegen.roledescription.Student
 #: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:802
 msgctxt ""
 "site-manage/site-manage-"
+"tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.roledescription.access"
+msgid "Can read content, and add content to a site where appropriate."
+msgstr "コンテンツを読み出すとともに適切なサイトにコンテンツを追加できます．"
+
+#. sitegen.roledescription.Student
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:803
+msgctxt ""
+"site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.roledescription.Student"
-msgid "Can read content, and add content to a site where appropriate. "
+msgid "Can read content, and add content to a site where appropriate."
 msgstr "コンテンツを読み出すとともに適切なサイトにコンテンツを追加できます．"
 
 #. sitegen.roledescription.TeachingAssistant
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:803
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:804
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.roledescription.TeachingAssistant"
@@ -8175,7 +8189,7 @@ msgid "Can read, add, and revise most content in their sections."
 msgstr "セクション中のほとんどのコンテンツを読み出し，追加および修正できます．"
 
 #. sitegen.siteinfolist.modify
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:804
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:805
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.siteinfolist.modify"
@@ -8183,7 +8197,7 @@ msgid "Modification date"
 msgstr "修正日時"
 
 #. sitegen.siteinfolist.usermodify
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:805
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:806
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.siteinfolist.usermodify"
@@ -8191,7 +8205,7 @@ msgid "Modified by"
 msgstr "修正者"
 
 #. useOfficialDescription
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:806
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:807
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:useOfficialDescription"
@@ -8199,7 +8213,7 @@ msgid "Use Official Description"
 msgstr "サイト情報に科目詳細情報を付加"
 
 #. shopping.header
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:807
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:808
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.header"
@@ -8207,7 +8221,7 @@ msgid "Shopping Period Access"
 msgstr "お試し期間アクセス"
 
 #. shopping.start.label
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:808
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:809
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.start.label"
@@ -8215,7 +8229,7 @@ msgid "Start Date"
 msgstr "開始日時"
 
 #. shopping.end.label
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:809
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:810
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.end.label"
@@ -8223,7 +8237,7 @@ msgid "End Date"
 msgstr "終了日時"
 
 #. shopping.visibility.label
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:810
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:811
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.visibility.label"
@@ -8231,7 +8245,7 @@ msgid "Visibility"
 msgstr "閲覧方法"
 
 #. shopping.role.label
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:811
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:812
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.role.label"
@@ -8239,7 +8253,7 @@ msgid "Role"
 msgstr "ロール"
 
 #. shopping.role.instructions
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:812
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:813
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.role.instructions"
@@ -8247,7 +8261,7 @@ msgid "Shoppers have the same access as this realm/role."
 msgstr "お試しもこのレルムまたはロールと同じアクセスになります．"
 
 #. shopping.instructions
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:813
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:814
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.instructions"
@@ -8262,7 +8276,7 @@ msgid ""
 msgstr "ツールの追加/削除/更新と (ログインした)ユーザと利用したツールのアクセス管理ができます.　<ul><li>追加または更新する場合は，設定を上書きするためのボックスをチェックし，下のフィールドに入力します．</li><li>削除する場合は，不参加リンクをクリックし，設定チェックボックスの上書きをチェック，すべてのフィールドをクリアし，すべてのオプションをなしに設定します．</li><li>設定をリセットする場合は，設定チェックボックスの上書きをチェックし保存します．</li></ul>この設定が有効になるには10-15分掛かることをご了承ください."
 
 #. shopping.instructions.view
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:814
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:815
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.instructions.view"
@@ -8272,7 +8286,7 @@ msgid ""
 msgstr "サイトのショッピング期間設定を上書きする権限がありません．"
 
 #. shopping.noauth
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:815
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:816
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.noauth"
@@ -8280,7 +8294,7 @@ msgid "none"
 msgstr "none"
 
 #. shopping.showTools.label
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:816
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:817
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.showTools.label"
@@ -8288,7 +8302,7 @@ msgid "Show Tools"
 msgstr "ツールを表示"
 
 #. shopping.showTools.authLabel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:817
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:818
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.showTools.authLabel"
@@ -8296,7 +8310,7 @@ msgid "Logged In"
 msgstr "ログインした"
 
 #. shopping.showTools.publicLabel
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:818
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:819
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.showTools.publicLabel"
@@ -8304,7 +8318,7 @@ msgid "Public"
 msgstr "パブリック"
 
 #. shopping.override.label
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:819
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:820
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.override.label"
@@ -8312,7 +8326,7 @@ msgid "Override inherited settings"
 msgstr "継承設定を上書き"
 
 #. shopping.optout.label
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:820
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:821
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.optout.label"
@@ -8320,7 +8334,7 @@ msgid "Opt My Site Out of Shopping Period"
 msgstr "自分のサイトをお試し期間から外す"
 
 #. shopping.showTools.warning
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:821
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:822
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.showTools.warning"
@@ -8331,7 +8345,7 @@ msgid ""
 msgstr "お試し期間中にユーザに表示するツールを選択しません.お試し期間から外す場合, 再度更新をクリックする必要はありません."
 
 #. shopping.showTools.publicTitle
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:822
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:823
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.showTools.publicTitle"
@@ -8339,7 +8353,7 @@ msgid "Select tools you want to open for shopping"
 msgstr "お試し中に公開したいツールを選択します."
 
 #. shopping.showTools.authTitle
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:823
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:824
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:shopping.showTools.authTitle"
@@ -8347,7 +8361,7 @@ msgid "Select tools you want to open for shopping"
 msgstr "お試し中に公開したいツールを選択します."
 
 #. selectAll
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:824
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:825
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:selectAll"
@@ -8355,7 +8369,7 @@ msgid "Select All"
 msgstr "すべて選択"
 
 #. daAccess.header
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:825
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:826
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:daAccess.header"
@@ -8363,7 +8377,7 @@ msgid "Users with Delegated Access"
 msgstr "代理アクセス権限をもつユーザ"
 
 #. daAccess.instructions
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:826
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:827
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:daAccess.instructions"
@@ -8375,7 +8389,7 @@ msgid ""
 msgstr "以下の一覧には，サイトへのアクセス権限をもつユーザが表示されています．\"レルム\" カラムおよび \"ロール\" カラムはこのサイト内でのユーザのアクセス権限を指定しています．\"制限付きツール\" カラムに一覧表示されているツールに関係なく，これらのユーザはサイト内のすべてのツールにアクセスすることができます．"
 
 #. daAccess.tableheader.name
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:827
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:828
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:daAccess.tableheader.name"
@@ -8383,7 +8397,7 @@ msgid "Name"
 msgstr "名前"
 
 #. daAccess.tableheader.eid
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:828
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:829
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:daAccess.tableheader.eid"
@@ -8391,7 +8405,7 @@ msgid "EID"
 msgstr "EID"
 
 #. daAccess.tableheader.realm
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:829
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:830
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:daAccess.tableheader.realm"
@@ -8399,7 +8413,7 @@ msgid "Realm"
 msgstr "レルム"
 
 #. daAccess.tableheader.role
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:830
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:831
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:daAccess.tableheader.role"
@@ -8407,7 +8421,7 @@ msgid "Role"
 msgstr "ロール"
 
 #. daAccess.tableheader.restrictedTools
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:831
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:832
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:daAccess.tableheader.restrictedTools"
@@ -8415,7 +8429,7 @@ msgid "Restricted Tools"
 msgstr "制限付きツール"
 
 #. ltiTools.external
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:832
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:833
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ltiTools.external"
@@ -8423,7 +8437,7 @@ msgid "External Tools:"
 msgstr "外部ツール:"
 
 #. ltiTools.usage
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:833
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:834
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ltiTools.usage"
@@ -8431,7 +8445,7 @@ msgid "(Used in {0} sites)"
 msgstr "({0} サイドで使用中)"
 
 #. ltiTools.custom.instruction
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:834
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:835
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ltiTools.custom.instruction"
@@ -8439,7 +8453,7 @@ msgid "Please enter the information for external tools"
 msgstr "外部ツールに対する情報を入力してください"
 
 #. tool.group.default
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:835
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:836
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:tool.group.default"
@@ -8447,7 +8461,7 @@ msgid "General"
 msgstr "一般"
 
 #. importQueued
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:836
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:837
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:importQueued"
@@ -8458,7 +8472,7 @@ msgid ""
 msgstr "インポート処理はキューされました．インポートが完了したときにメールを受信します．メールは15分以内に届きます．このメールを受信するまではインポートされた素材はこのコースに表示されません．"
 
 #. importQueuedNoEmail
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:837
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:838
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:importQueuedNoEmail"
@@ -8468,7 +8482,7 @@ msgid ""
 msgstr "インポートプロセスはキューされました．サイトへのインポートプロセスが完了するまで15分お待ち下さい．"
 
 #. archive.createsite
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:838
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:839
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite"
@@ -8476,7 +8490,7 @@ msgid "Create site from archive"
 msgstr "アーカイブからサイトを作成"
 
 #. archive.createsite.info
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:839
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:840
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.info"
@@ -8486,7 +8500,7 @@ msgid ""
 msgstr "既存のサイトアーカイブを新たなサイトのベースとして利用することができ，アーカイブからのコンテンツが新たなサイトに追加されます．"
 
 #. archive.createsite.info.2
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:840
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:841
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.info.2"
@@ -8494,7 +8508,7 @@ msgid "Content from the site archive will be imported into the new site."
 msgstr "サイトアーカイブからのコンテツは新たなサイトにインポートされます．"
 
 #. archive.createsite.type
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:841
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:842
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.type"
@@ -8502,7 +8516,7 @@ msgid "New site type"
 msgstr "新規サイト種別"
 
 #. archive.createsite.term
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:842
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:843
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.term"
@@ -8510,7 +8524,7 @@ msgid "New site term"
 msgstr "新規サイト期間"
 
 #. archive.createsite.choose
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:843
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:844
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.choose"
@@ -8518,7 +8532,7 @@ msgid "Choose archive"
 msgstr "アーカイブ選択"
 
 #. archive.createsite.upload
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:844
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:845
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.upload"
@@ -8526,7 +8540,7 @@ msgid "Upload archive"
 msgstr "アーカイブ更新"
 
 #. archive.createsite.missingfile
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:845
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:846
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.missingfile"
@@ -8534,7 +8548,7 @@ msgid "You must upload a site archive zip file"
 msgstr "サイトアーカイブのZIPファイルをアップロードする必要があります．"
 
 #. archive.createsite.invalidfile
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:846
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:847
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.invalidfile"
@@ -8542,7 +8556,7 @@ msgid "Invalid file"
 msgstr "無効なファイル"
 
 #. archive.createsite.missingtype
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:847
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:848
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.missingtype"
@@ -8550,7 +8564,7 @@ msgid "You must select the new site type"
 msgstr "新しいサイトタイプを選択する必要があります"
 
 #. archive.createsite.failedupload
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:848
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:849
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.failedupload"
@@ -8558,7 +8572,7 @@ msgid "An error occurred uploading the archive."
 msgstr "アーカイブのアプロード中にエラーが発生しました．"
 
 #. archive.createsite.failedmerge
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:849
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:850
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.failedmerge"
@@ -8566,7 +8580,7 @@ msgid "An error occurred merging the archive contents."
 msgstr "アーカイブコンテンツのマージ中にエラーが発生しました．"
 
 #. archive.createsite.confirm
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:850
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:851
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.confirm"
@@ -8574,7 +8588,7 @@ msgid "Creating site from archive"
 msgstr "アーカイブからサイトを作成中"
 
 #. archive.createsite.confirm.none
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:851
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:852
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:archive.createsite.confirm.none"
@@ -8582,7 +8596,7 @@ msgid "None"
 msgstr "なし"
 
 #. ediacc.joinExcludeFromPublic
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:852
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:853
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.joinExcludeFromPublic"
@@ -8590,7 +8604,7 @@ msgid "Exclude this site from the publicly available list of joinable sites"
 msgstr "誰でも閲覧できる参加可能なサイト一覧からこのサイトを除外"
 
 #. ediacc.joinLimitByAccountType
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:853
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:854
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.joinLimitByAccountType"
@@ -8598,7 +8612,7 @@ msgid "Limit join to specific accounts"
 msgstr "特定のアカウントに参加を制限"
 
 #. ediacc.additionJoinAccessOptions
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:854
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:855
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.additionJoinAccessOptions"
@@ -8606,7 +8620,7 @@ msgid "Additional Options:"
 msgstr "追加オプション:"
 
 #. ediacc.joinToGroup
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:855
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:856
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.joinToGroup"
@@ -8614,7 +8628,7 @@ msgid "Add joining members to specified group:"
 msgstr "特定のグループに参加メンバを追加:"
 
 #. ediacc.joinGroupNoSelection
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:856
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:857
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.joinGroupNoSelection"
@@ -8622,7 +8636,7 @@ msgid "None"
 msgstr "なし"
 
 #. ediacc.groupEnabledLocalDiabledGlobal
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:857
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:858
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.groupEnabledLocalDiabledGlobal"
@@ -8632,7 +8646,7 @@ msgid ""
 msgstr "このオプションはシステム全体にわたって無効になっています．メンバーの参加はグループに対して行われません．"
 
 #. ediacc.notifyEnabledLocalDisabledGlobal
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:858
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:859
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.notifyEnabledLocalDisabledGlobal"
@@ -8642,7 +8656,7 @@ msgid ""
 msgstr "このオプションはシステム全体にわたって無効になっています．誰かがサイトに参加したときメール通知を受け取れません．"
 
 #. ediacc.excludeEnabledLocalDisabledGlobal
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:859
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:860
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.excludeEnabledLocalDisabledGlobal"
@@ -8652,16 +8666,16 @@ msgid ""
 msgstr "このオプションはシステム全体にわたって無効になっています．このサイトは誰でも閲覧できる参加可能なサイトに表示されます．"
 
 #. ediacc.limitEnabledLocalDisabledGlobal
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:860
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:861
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.limitEnabledLocalDisabledGlobal"
 msgid ""
-"This option has been disabled system-wide. Any user can join this site. "
+"This option has been disabled system-wide. Any user can join this site."
 msgstr "このオプションはシステム全体にわたって無効になっています．どのユーザでもこのサイトに参加できます．"
 
 #. ediacc.selectAtLeastOneAccountType
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:861
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:862
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.selectAtLeastOneAccountType"
@@ -8669,7 +8683,7 @@ msgid "You must select at least one account type below."
 msgstr "少なくとも下の一つのアカウント種別を選択する必要があります．"
 
 #. ediacc.noAccountTypesSelected
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:862
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:863
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:ediacc.noAccountTypesSelected"
@@ -8680,7 +8694,7 @@ msgid ""
 msgstr "特定のアカウントをもつユーザにこのサイトへの参加を制限することを選択できますが，アカウントタイプが選択されませんでした．少なくとも一つの参加可能なアカウントタイプを選択するか，アカウントタイプの制限を選択解除してください．"
 
 #. sinfo.mathjax.name
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:863
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:864
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sinfo.mathjax.name"
@@ -8688,7 +8702,7 @@ msgid "LaTeX"
 msgstr "LaTeX"
 
 #. sinfo.mathjax.allowForSite
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:864
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:865
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sinfo.mathjax.allowForSite"
@@ -8698,7 +8712,7 @@ msgid ""
 msgstr "このサイトにおけるLaTeX mathの表示を可能にします．「ツールを管理」ページにてこの設定を適用するためのツールを選択して下さい．"
 
 #. sinfo.mathjax.instructions
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:865
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:866
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sinfo.mathjax.instructions"
@@ -8709,7 +8723,7 @@ msgid ""
 msgstr "{0} はLaTeXにて書かれる数式を表示できます. LaTeXコードにおけるデリミタとして $$ もしくは \\( および \\) を使って下さい．数式が下記に表示されるためのツールを選択して下さい．"
 
 #. sinfo.mathjax.confirmEnabled
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:866
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:867
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sinfo.mathjax.confirmEnabled"
@@ -8717,7 +8731,7 @@ msgid "You have enabled the display of LaTeX math in"
 msgstr "LaTeX math の表示を可能にしました"
 
 #. sinfo.mathjax.allowed
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:867
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:868
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sinfo.mathjax.allowed"
@@ -8727,7 +8741,7 @@ msgid ""
 msgstr "有効になりました．この設定を適用する特定のツールに関しては「ツールを管理」ページを参照して下さい．"
 
 #. sinfo.mathjax.notAllowed
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:868
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:869
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sinfo.mathjax.notAllowed"
@@ -8735,7 +8749,7 @@ msgid "Disabled"
 msgstr "無効"
 
 #. java.sites.deleted
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:869
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:870
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.sites.deleted"
@@ -8743,7 +8757,7 @@ msgid "Softly Deleted Sites"
 msgstr "ソフト的に削除したサイト"
 
 #. java.restore
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:870
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:871
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.restore"
@@ -8751,7 +8765,7 @@ msgid "Restore"
 msgstr "リストア"
 
 #. list.sortbysoftlydeleted
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:871
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:872
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:list.sortbysoftlydeleted"
@@ -8759,7 +8773,7 @@ msgid "Sort by softly deleted status"
 msgstr "ソフト的に削除した状態でソート"
 
 #. list.softlydeleted
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:872
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:873
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:list.softlydeleted"
@@ -8767,7 +8781,7 @@ msgid "Softly Deleted"
 msgstr "ソフト的に削除"
 
 #. list.restore
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:873
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:874
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:list.restore"
@@ -8775,7 +8789,7 @@ msgid "Restore"
 msgstr "リストア"
 
 #. list.sortbysoftlydeleted.asc
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:874
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:875
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:list.sortbysoftlydeleted.asc"
@@ -8783,7 +8797,7 @@ msgid "Sort by softly deleted status ascending"
 msgstr "ソフト的に削除した状態で昇順にソート"
 
 #. list.sortbysoftlydeleted.desc
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:875
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:876
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:list.sortbysoftlydeleted.desc"
@@ -8791,7 +8805,7 @@ msgid "Sort by softly deleted status descending"
 msgstr "ソフト的に削除した状態で降順にソート"
 
 #. softly.deleted.already
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:876
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:877
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:softly.deleted.already"
@@ -8801,7 +8815,7 @@ msgid ""
 msgstr "選択された一つ以上のサイトは削除のためにマークされており選択から削除されました．"
 
 #. softly.deleted.already2
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:877
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:878
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:softly.deleted.already2"
@@ -8811,7 +8825,7 @@ msgid ""
 msgstr "選択されたサイトは削除がマークされませんでしたので何の操作も必要ありません．"
 
 #. softly.deleted.restore.nopermission
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:878
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:879
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:softly.deleted.restore.nopermission"
@@ -8819,7 +8833,7 @@ msgid "You cannot restore that site as you do not have permission."
 msgstr "権限がないためサイトをリストアできません．"
 
 #. softly.deleted.invalidsite
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:879
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:880
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:softly.deleted.invalidsite"
@@ -8827,7 +8841,7 @@ msgid "You cannot restore that site as it no longer exists."
 msgstr "サイトが存在しないためサイトをリストアできません．"
 
 #. java.delete.hard
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:880
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:881
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:java.delete.hard"
@@ -8835,7 +8849,7 @@ msgid "Hard Delete"
 msgstr "物理的削除"
 
 #. sitegen.sitedel.hard
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:881
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:882
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.hard"
@@ -8845,7 +8859,7 @@ msgid ""
 msgstr "注意：物理的削除を選択したので，サイトはシステムから削除されるツールコンテンツを持つことになります．"
 
 #. sitegen.sitedel.hard.button
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:882
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:883
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:sitegen.sitedel.hard.button"
@@ -8853,7 +8867,7 @@ msgid "Hard delete"
 msgstr "物理的削除"
 
 #. import.newtool
-#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:883
+#: site-manage/site-manage-tool/tool/src/bundle/sitesetupgeneric.properties:884
 msgctxt ""
 "site-manage/site-manage-"
 "tool/tool/src/bundle/sitesetupgeneric.properties:import.newtool"
@@ -9612,8 +9626,24 @@ msgctxt ""
 msgid "There are no groups defined."
 msgstr "定義されているグループがありません．"
 
-#. editgroup.instruction
+#. group.role_prefix
 #: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:9
+msgctxt ""
+"site-manage/site-manage-group-section-role-"
+"helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.role_prefix"
+msgid "Role: "
+msgstr "ロール:"
+
+#. group.section_prefix
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:10
+msgctxt ""
+"site-manage/site-manage-group-section-role-"
+"helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.section_prefix"
+msgid "Section: "
+msgstr "セクション:"
+
+#. editgroup.instruction
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:11
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.instruction"
@@ -9623,7 +9653,7 @@ msgid ""
 msgstr "サイトメンバ一覧のメンバを選択しグループに追加します．グループ一覧のメンバを選択して削除します．変更を保存するには \"{0}\" をクリックします．"
 
 #. editgroup.membership
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:10
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:12
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.membership"
@@ -9631,7 +9661,7 @@ msgid "Membership"
 msgstr "メンバーシップ"
 
 #. editgroup.remove
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:11
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:13
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.remove"
@@ -9639,7 +9669,7 @@ msgid "Remove?"
 msgstr "削除?"
 
 #. editgroup.removechecked
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:12
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:14
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.removechecked"
@@ -9647,7 +9677,7 @@ msgid "Remove Checked"
 msgstr "選択されたものを削除"
 
 #. editgroup.new
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:13
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:15
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.new"
@@ -9655,7 +9685,7 @@ msgid "Add"
 msgstr "追加"
 
 #. editgroup.revise
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:14
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:16
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.revise"
@@ -9663,7 +9693,7 @@ msgid "Edit"
 msgstr "編集"
 
 #. editgroup.update
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:15
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:17
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.update"
@@ -9671,7 +9701,7 @@ msgid "Update"
 msgstr "更新"
 
 #. editgroup.back
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:16
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:18
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.back"
@@ -9679,7 +9709,7 @@ msgid "Back"
 msgstr "戻る"
 
 #. editgroup.cancel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:17
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:19
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.cancel"
@@ -9687,7 +9717,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. editgroup.generallist
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:18
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:20
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.generallist"
@@ -9695,7 +9725,7 @@ msgid "Site Member List"
 msgstr "サイトメンバ一覧"
 
 #. editgroup.grouplist
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:19
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:21
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.grouplist"
@@ -9703,7 +9733,7 @@ msgid "Group Member List"
 msgstr "グループメンバ一覧"
 
 #. editgroup.titlemissing
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:20
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:22
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.titlemissing"
@@ -9711,7 +9741,7 @@ msgid "You need to specify the group title."
 msgstr "グループタイトルを指定する必要があります．"
 
 #. editgroup.removegroups
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:21
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:23
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.removegroups"
@@ -9719,7 +9749,7 @@ msgid "Delete Groups"
 msgstr "グループを削除"
 
 #. editgroup.groupdel.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:22
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:24
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.groupdel.alert"
@@ -9731,7 +9761,7 @@ msgid ""
 msgstr "グループは完全に削除されます．選択されたグループに使うツールは削除後に正常に動作しないかもしれません．グループを削除する前にサイトのグループでどのようなツールが利用されているかをチェックすることを推奨します．次のグループを削除してもよろしいですか?"
 
 #. editgroup.site.permission.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:23
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:25
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.site.permission.alert"
@@ -9739,7 +9769,7 @@ msgid "You are not allowed to make changes to the site."
 msgstr "このサイトに変更を加える権限がありません．"
 
 #. editgroup.site.notfound.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:24
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:26
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:editgroup.site.notfound.alert"
@@ -9747,7 +9777,7 @@ msgid "Site not found."
 msgstr "サイトが見つかりません．"
 
 #. none
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:25
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:27
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:none"
@@ -9755,7 +9785,7 @@ msgid "--None--"
 msgstr "--なし--"
 
 #. groupList.selectAllNone
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:26
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:28
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:groupList.selectAllNone"
@@ -9763,7 +9793,7 @@ msgid "Select All/None"
 msgstr "すべてを選択する/なし"
 
 #. delete_group_tooltip
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:27
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:29
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:delete_group_tooltip"
@@ -9773,7 +9803,7 @@ msgid ""
 msgstr "最初にグループを選択してから，以下の \"選択したものを削除\" ボタンを押して下さい．削除確認ページへ移動します．"
 
 #. delete_group_nogroup
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:28
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:30
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:delete_group_nogroup"
@@ -9781,7 +9811,7 @@ msgid "Please choose at least one group to be deleted."
 msgstr "削除するグループを少なくとも一つ選択して下さい．"
 
 #. update
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:29
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:31
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:update"
@@ -9789,7 +9819,7 @@ msgid "Update"
 msgstr "更新"
 
 #. cancel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:30
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:32
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:cancel"
@@ -9797,7 +9827,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. group.auto.newgroup
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:31
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:33
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.auto.newgroup"
@@ -9805,7 +9835,7 @@ msgid "Auto Groups"
 msgstr "オートグループ"
 
 #. group.autocreate.newgroups
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:32
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:34
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.autocreate.newgroups"
@@ -9813,7 +9843,7 @@ msgid "Create New Group(s)"
 msgstr "新しいグループを作成"
 
 #. group.autocreate.selectrosterorrole
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:33
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:35
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.autocreate.selectrosterorrole"
@@ -9821,7 +9851,7 @@ msgid "Please select at least one roster or role."
 msgstr "名簿かロールを少なくとも一つ選択して下さい．"
 
 #. group.autocreate.instructions
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:34
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:36
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.autocreate.instructions"
@@ -9832,7 +9862,7 @@ msgid ""
 msgstr "選択された項目に対するグループを作成するためコースの名簿かロールを選択して下さい．関連する表から一つの名簿かロールを選択すると，その項目のメンバからランダムなサブグループを作成できます．"
 
 #. group.autocreate.section.postfix
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:35
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:37
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.autocreate.section.postfix"
@@ -9840,7 +9870,7 @@ msgid "(group)"
 msgstr "(グループ)"
 
 #. table.roster_select
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:36
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:38
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:table.roster_select"
@@ -9848,7 +9878,7 @@ msgid "Select"
 msgstr "選択"
 
 #. table.roster_title
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:37
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:39
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:table.roster_title"
@@ -9856,7 +9886,7 @@ msgid "Course Roster"
 msgstr "コース名簿"
 
 #. table.role_select
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:38
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:40
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:table.role_select"
@@ -9864,7 +9894,7 @@ msgid "Select"
 msgstr "選択"
 
 #. table.role_title
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:39
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:41
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:table.role_title"
@@ -9872,7 +9902,7 @@ msgid "Role"
 msgstr "ロール"
 
 #. instruction.role
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:40
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:42
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:instruction.role"
@@ -9880,7 +9910,7 @@ msgid "Select roles"
 msgstr "ロールを選択"
 
 #. instruction.header.roster
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:41
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:43
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:instruction.header.roster"
@@ -9888,7 +9918,7 @@ msgid "From Rosters"
 msgstr "名簿から"
 
 #. instruction.header.role
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:42
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:44
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:instruction.header.role"
@@ -9896,7 +9926,7 @@ msgid "From Roles"
 msgstr "ロールから"
 
 #. randomOptionLabel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:43
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:45
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:randomOptionLabel"
@@ -9904,7 +9934,7 @@ msgid "Create random groups from members with the selected role."
 msgstr "選択したロールのメンバからランダムなグループを作成します．"
 
 #. roleOptionLabel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:44
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:46
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:roleOptionLabel"
@@ -9912,7 +9942,7 @@ msgid "Create a single group for the selected role."
 msgstr "選択されたロールに対して単一のグループを作成します．"
 
 #. rosterOptionLabel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:45
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:47
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:rosterOptionLabel"
@@ -9920,7 +9950,7 @@ msgid "Create a single group for the selected roster."
 msgstr "選択された名簿に対して単一のグループを作成します．"
 
 #. rosterRandomOptionLabel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:46
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:48
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:rosterRandomOptionLabel"
@@ -9928,7 +9958,7 @@ msgid "Create random groups from members in the selected roster."
 msgstr "選択された名簿のメンバからランダムなグループを作成します．"
 
 #. splitByGroupsLabel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:47
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:49
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:splitByGroupsLabel"
@@ -9936,7 +9966,7 @@ msgid "Split by number of groups needed"
 msgstr "必要なグループ数で分ける"
 
 #. splitByUsersLabel
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:48
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:50
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:splitByUsersLabel"
@@ -9944,7 +9974,7 @@ msgid "Split by number of users needed per group"
 msgstr "グループごとに必要なユーザ数で分ける"
 
 #. group.title
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:49
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:51
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.title"
@@ -9952,7 +9982,7 @@ msgid "Group Title"
 msgstr "グループタイトル"
 
 #. group.joinable-set
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:50
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:52
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group"
@@ -9961,7 +9991,7 @@ msgid "Joinable Set"
 msgstr "参加可能なセット"
 
 #. randomGroupsLegend
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:51
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:53
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:randomGroupsLegend"
@@ -9969,7 +9999,7 @@ msgid "Options"
 msgstr "オプション"
 
 #. group.unit
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:52
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:54
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.unit"
@@ -9977,7 +10007,7 @@ msgid "Number of groups"
 msgstr "グループ数"
 
 #. user.unit
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:53
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:55
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:user.unit"
@@ -9985,7 +10015,7 @@ msgid "Number of users per group"
 msgstr "グループごとのユーザ数"
 
 #. numToSplit.user.empty.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:54
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:56
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:numToSplit.user.empty.alert"
@@ -9993,7 +10023,7 @@ msgid "The number of users per group field is required."
 msgstr "\"グループごとのユーザ数\" は必須です．"
 
 #. numToSplit.group.empty.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:55
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:57
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:numToSplit.group.empty.alert"
@@ -10001,7 +10031,7 @@ msgid "The number of groups field is required."
 msgstr "\"グループ数\" は必須です．"
 
 #. numToSplit.user.notanumber.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:56
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:58
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:numToSplit.user.notanumber.alert"
@@ -10011,7 +10041,7 @@ msgid ""
 msgstr "\"グループごとのユーザ数\" は正の整数でなければなりません．"
 
 #. numToSplit.group.notanumber.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:57
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:59
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:numToSplit.group.notanumber.alert"
@@ -10020,7 +10050,7 @@ msgid ""
 msgstr "\"グループ数\" は正の整数でなければなりません．"
 
 #. groupTitle.empty.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:58
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:60
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:groupTitle.empty.alert"
@@ -10028,7 +10058,7 @@ msgid "Group title is required when randomly creating groups."
 msgstr "ランダムにグループを生成する場合， \"グループタイトル\" は必須です．"
 
 #. exist.group.roster
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:59
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:61
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:exist.group.roster"
@@ -10036,7 +10066,7 @@ msgid "(A group with this roster already exists)"
 msgstr "(この名簿のグループはすでに存在します)"
 
 #. exist.group.role
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:60
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:62
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:exist.group.role"
@@ -10044,7 +10074,7 @@ msgid "(A group with this role already exists) "
 msgstr "(このロールのグループはすでに存在します)"
 
 #. group.allow.view.membership
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:61
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:63
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.allow.view.membership"
@@ -10052,7 +10082,7 @@ msgid "Allow members to see the other members of this group"
 msgstr "このグループの他のメンバをメンバが見ることができる"
 
 #. group.allow.view.membership2
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:62
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:64
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.allow.view.membership2"
@@ -10060,7 +10090,7 @@ msgid "Allow members to see the other members of these groups after joining"
 msgstr "参加した後にこれらのグループの他のメンバーをメンバが見ることができる"
 
 #. group.allow.unjoinable
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:63
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:65
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.allow.unjoinable"
@@ -10068,7 +10098,7 @@ msgid "Allow members to unjoin (leave) groups in this set after joining"
 msgstr "参加した後にこのセットのグループからメンバが参加解除する(離れる) ことができる"
 
 #. group.joinable.create
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:64
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:66
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.create"
@@ -10076,7 +10106,7 @@ msgid "Create New Joinable Set"
 msgstr "新しい参加可能なセットを作成"
 
 #. group.joinable.title
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:65
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:67
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.title"
@@ -10084,7 +10114,7 @@ msgid "Create Joinable Set"
 msgstr "参加可能なセットを作成"
 
 #. group.joinable.title.edit
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:66
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:68
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.title.edit"
@@ -10092,7 +10122,7 @@ msgid "Edit Joinable Set"
 msgstr "参加可能なセットを編集"
 
 #. group.joinable.desc
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:67
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:69
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.desc"
@@ -10103,7 +10133,7 @@ msgid ""
 msgstr "参加可能なセットはユーザが参加することができる自動的に作成されたグループで構成されます．それぞれのセットのグループはセット名で始まり一意の番号で終わります．個人はセットあたりひとつのグループに参加できます．"
 
 #. group.joinable.setname
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:68
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:70
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.setname"
@@ -10111,7 +10141,7 @@ msgid "Set name:"
 msgstr "セット名:"
 
 #. group.joinable.numOfGroups
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:69
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:71
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.numOfGroups"
@@ -10119,7 +10149,7 @@ msgid "Number of groups:"
 msgstr "グループ数:"
 
 #. group.joinable.maxMembers
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:70
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:72
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.maxMembers"
@@ -10127,7 +10157,7 @@ msgid "Max members per group:"
 msgstr "グループあたりの最大メンバー数:"
 
 #. group.joinable.maxMembers2
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:71
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:73
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.maxMembers2"
@@ -10135,7 +10165,7 @@ msgid "Max members:"
 msgstr "最大メンバー数:"
 
 #. group.joinable.allowPreview
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:72
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:74
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.allowPreview"
@@ -10143,7 +10173,7 @@ msgid "Allow user to see group membership before joining"
 msgstr "参加する前にグループメンバーシップをユーザが見ることができる"
 
 #. numGroups.empty.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:73
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:75
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:numGroups.empty.alert"
@@ -10151,7 +10181,7 @@ msgid "Number of groups is required and should be a valid number"
 msgstr "グループ数は必須で有効な数でなければなりません"
 
 #. numGroups.zero.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:74
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:76
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:numGroups.zero.alert"
@@ -10159,7 +10189,7 @@ msgid "Number of groups should be a value greater than 0."
 msgstr "グループ数は0以上の値である必要があります．"
 
 #. maxMembers.zero.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:75
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:77
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:maxMembers.zero.alert"
@@ -10167,7 +10197,7 @@ msgid "Max number of members should be a value greater than 0."
 msgstr "メンバの最大数は0以上の値である必要があります．"
 
 #. maxMembers.empty.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:76
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:78
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:maxMembers.empty.alert"
@@ -10175,7 +10205,7 @@ msgid "Max number of members is required and should be a valid number"
 msgstr "メンバの最大数は必須で有効な数でなければなりません"
 
 #. maxGroups.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:77
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:79
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:maxGroups.alert"
@@ -10183,7 +10213,7 @@ msgid "Max number of groups you can create is 1000"
 msgstr "作成できる最大グループ数は1000です"
 
 #. group.joinable.currentgroups
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:78
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:80
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.currentgroups"
@@ -10191,7 +10221,7 @@ msgid "Current groups:"
 msgstr "現在のグループ:"
 
 #. group.joinable.additionalGroups
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:79
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:81
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.additionalGroups"
@@ -10199,7 +10229,7 @@ msgid "Generate Additional Groups"
 msgstr "追加のグループを生成する"
 
 #. group.joinable.pendingGroups
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:80
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:82
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.pendingGroups"
@@ -10207,7 +10237,7 @@ msgid "Pending groups:"
 msgstr "保留中のグループ："
 
 #. group.joinable.pendingGroups.disclaimer
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:81
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:83
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.pendingGroups.disclaimer"
@@ -10215,7 +10245,7 @@ msgid "These groups will be created when you save your changes."
 msgstr "変更を保存するときにブループが作成されます．"
 
 #. group.joinable.edit.saveChanges
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:82
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:84
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.edit.saveChanges"
@@ -10223,7 +10253,7 @@ msgid "Save Changes"
 msgstr "変更を保存"
 
 #. group.joinable.usersNotInSet
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:83
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:85
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.usersNotInSet"
@@ -10231,7 +10261,7 @@ msgid "Users who have not yet joined a group in this set"
 msgstr "このセットのグループにまだ参加していないユーザ"
 
 #. group.members
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:84
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:86
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.members"
@@ -10239,7 +10269,7 @@ msgid "Members"
 msgstr "メンバー"
 
 #. group.joinable.generate
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:85
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:87
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.generate"
@@ -10247,7 +10277,7 @@ msgid "Generate"
 msgstr "生成"
 
 #. group.joinable.delete
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:86
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:88
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.delete"
@@ -10255,7 +10285,7 @@ msgid "Delete Set"
 msgstr "セットを削除"
 
 #. group.joinable.set
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:87
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:89
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.joinable.set"
@@ -10263,7 +10293,7 @@ msgid "Joinable set:"
 msgstr "参加可能なセット:"
 
 #. joinableset.duplicate.alert
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:88
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:90
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:joinableset.duplicate.alert"
@@ -10271,7 +10301,7 @@ msgid "The set name has been used already. Please choose a different one."
 msgstr "セット名がすでに使用されています．違うものを選んでください．"
 
 #. site_group_title_length_limit
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:89
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:91
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:site_group_title_length_limit"
@@ -10280,7 +10310,7 @@ msgid ""
 msgstr "タイトルの長さは {0} 文字を超えることはできません．より短いタイトルを入力して下さい．"
 
 #. group.import
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:90
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:92
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.import"
@@ -10288,7 +10318,7 @@ msgid "Import from file"
 msgstr "ファイルからインポート"
 
 #. group.importinstruction
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:91
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:93
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:group.importinstruction"
@@ -10296,7 +10326,7 @@ msgid "Import groups from a spreadsheet or csv file"
 msgstr "スプレッドシートまたは CSV ファイルからグループをインポート"
 
 #. import1.title
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:92
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:94
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import1.title"
@@ -10304,7 +10334,7 @@ msgid "Upload a file containing the groups you wish to create"
 msgstr "作成したいグループを含むファイルをアップロード"
 
 #. import1.instr.req.header
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:93
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:95
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import1.instr.req.header"
@@ -10312,7 +10342,7 @@ msgid "File requirements"
 msgstr "ファイル仕様"
 
 #. import1.instr.req.1
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:94
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:96
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import1.instr.req.1"
@@ -10322,7 +10352,7 @@ msgid ""
 msgstr "CSV ファイルには，列: グループタイトル, ユーザ名にグループ詳細を含める必要があります:"
 
 #. import1.instr.req.2
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:95
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:97
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import1.instr.req.2"
@@ -10332,7 +10362,7 @@ msgid ""
 msgstr "列は上の順序である必要がありますが，<b>列ヘッダを含めない</b>で下さい．"
 
 #. import1.instr.req.3
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:96
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:98
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import1.instr.req.3"
@@ -10342,7 +10372,7 @@ msgid ""
 msgstr "フィールドは，フィールド間に空白を入れずカンマで区切るとともに，各フィールドに空白が含まれる場合はフィールドをダブルクォートで囲む必要があります．"
 
 #. import1.error
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:97
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:99
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import1.error"
@@ -10352,7 +10382,7 @@ msgid ""
 msgstr "アップロードしたファイルは読み込み可能ではありませんでした．ファイルが正しい形式になっているかを確認し，再度試して下さい．"
 
 #. import1.continue
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:98
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:100
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import1.continue"
@@ -10360,7 +10390,7 @@ msgid "Continue"
 msgstr "続ける"
 
 #. import2.check
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:99
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:101
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.check"
@@ -10368,7 +10398,7 @@ msgid "Verify the imported data"
 msgstr "インポートされたデータを確認します"
 
 #. import2.error
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:100
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:102
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.error"
@@ -10379,17 +10409,17 @@ msgid ""
 msgstr "提供したデータには無効なユーザが含まれているか，ユーザがサイトに属していません (赤で強調)．これらの問題を正した後，やり直して下さい．"
 
 #. import2.okay
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:101
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:103
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.okay"
 msgid ""
 "The following data was found in the uploaded file. If this is correct, click"
 " 'Continue'."
-msgstr "次のデータがアップロードしたファイルに見つかりました．これが正しい場合は \"続ける\" をクリックします．"
+msgstr "次のデータがアップロードしたファイルに見つかりました．これが正しい場合は「続ける」をクリックします．"
 
 #. import2.grouptitle
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:102
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:104
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.grouptitle"
@@ -10397,7 +10427,7 @@ msgid "Group Title"
 msgstr "グループタイトル"
 
 #. import2.userid
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:103
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:105
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.userid"
@@ -10405,7 +10435,7 @@ msgid "User ID"
 msgstr "ユーザ ID"
 
 #. import2.continue
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:104
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:106
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.continue"
@@ -10413,7 +10443,7 @@ msgid "Import groups"
 msgstr "グループをインポート"
 
 #. import2.couldntimportgroups
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:105
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:107
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.couldntimportgroups"
@@ -10422,7 +10452,7 @@ msgid ""
 msgstr "グループのインポート中にエラーが発生しました．管理者に連絡して下さい．"
 
 #. import2.groupexists
-#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:106
+#: site-manage/site-manage-group-section-role-helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:108
 msgctxt ""
 "site-manage/site-manage-group-section-role-"
 "helper/tool/src/bundle/org/sakaiproject/site/tool/managegroupsectionrole/bundle/Messages.properties:import2.groupexists"
@@ -10987,9 +11017,8 @@ msgstr "あなたのパスワードは"
 msgctxt ""
 "site-manage/site-manage-"
 "impl/impl/src/bundle/UserNotificationProvider.properties:java.passwordis2"
-msgid ""
-"You can later go to the Account tool in your My Workspace site to reset it."
-msgstr "リセットする場合は，マイワークスペースサイトのアカウントツールにアクセスすることができます．"
+msgid "You can later go to the Account tool in your Home site to reset it."
+msgstr "リセットする場合はホームサイトのアカウントツールに後でアクセスします．"
 
 #. java.togeta1
 #: site-manage/site-manage-impl/impl/src/bundle/UserNotificationProvider.properties:9

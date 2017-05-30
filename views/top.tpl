@@ -2,7 +2,7 @@
 
 <div class="jumbotron">
 <h1 class='page-header'>PO Browser</h1>
-<p>大学教育に利用される各種OSSの翻訳をキーワード検索します。</p>
+<p>大学教育を支援する各種OSSの翻訳事例を検索します。</p>
 </div>
 <p>次の入力域に検索語を入力してください。</p>
 
@@ -19,6 +19,7 @@
 	  <li class="active"><a href="#1" data-toggle="tab">利用方法</a></li>
 	  <li><a href="#2" data-toggle="tab">What is POBrowser?</a></li>
 	  <li><a href="#3" data-toggle="tab">データソース</a></li>
+	  <li><a href="#4" data-toggle="tab">バージョン</a></li>
 	</ul>
 	<div class="tab-content">
 	  <div class="tab-pane active" id="1">
@@ -34,7 +35,7 @@
 	    例2：英単語のみの検索の場合<br>
 	    　Search Term:　 =grade</li>
 	    <li>検索対象のPOはSakaiが初期値ですが、Moodle、MaharaのPOも対象とする場合にはチェックボックスをクリックします。</li>
-	    <li>検索結果表示画面からこの画面に戻るには、右上に表示される <a class="btn btn-info">TOPページ</a> ボタンをクリックします。</li>
+	    <li>検索結果表示画面からこの画面に戻るには、右上に表示される <a class="btn btn-info btn-xs">TOPページ</a> ボタンをクリックします。</li>
 	  </ul>
 	  </div>
 	  <div class="tab-pane" id="2">
@@ -44,7 +45,7 @@
 	    <li>それぞれのシステムもしくはモジュール単位で使われる用語を検索できます。</li>
 	    <li>一つの用語に対してそれぞれのシステムにおける翻訳を参照できます。</li>
 	    <li>それぞれのシステムの翻訳結果をPOファイルに変換して、それをデータベース化しています。</li>
-	    <li>2012-2014年度の科研費における研究成果です。
+	    <li>2012-2014年度の科研費における研究成果です。</li>
 		</ul>
 	  </div>	  
 	  <div class="tab-pane" id="3">
@@ -63,6 +64,13 @@
 		 	</ul>
 		</ul>
 	  </div>
+	  <div class="tab-pane" id="4">
+	  <br>
+	    <ul>
+	    <li>POBrowser Version 2016.6.28</li>
+	    <li>POImporter Version 2016.6.28</li>	    
+		</ul>
+	  </div>		  
 	</div>
 </div>
 </div>

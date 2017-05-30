@@ -51,7 +51,8 @@ session = Session()
 # msgidおよびmsgstrがmax_lengthを越えたらそのレコードはスキップする。
 max_length = 400
 
-for oss in ['sakai','moodle','mahara','tecfolio']:
+# for oss in ['sakai','moodle','mahara','tecfolio']:
+for oss in ['sakai','moodle','mahara']:
 	po_dir = 'pos/' + oss + '/'
 
 	# ディレクトリ内のファイルをリストする

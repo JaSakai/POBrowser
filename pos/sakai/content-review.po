@@ -1,0 +1,118 @@
+# 
+# Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2016
+msgid ""
+msgstr ""
+"Project-Id-Version: sakai-trunk\n"
+"Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-06 06:06+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Language: ja\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+
+#. 123
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:1
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:123"
+msgid "Assignment title missing or incorrect length"
+msgstr "課題タイトルがないか正しい長さではありません"
+
+#. 1007
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:2
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1007"
+msgid "The file you have uploaded is too big."
+msgstr "アップロードしたファイルが大きすぎます．"
+
+#. 1009
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:3
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1009"
+msgid ""
+"Invalid file type! Valid types are: MS Word (DOC, DOCX), Acrobat PDF, "
+"PostScript, Text, HTML, WordPerfect (WPD) and Rich Text Format.  Please make"
+" sure the format of your file is one of the valid file types."
+msgstr "無効なファイル形式です！有効な形式は：MS Word (DOC, DOCX), Acrobat PDF, PostScript, Text, HTML, WordPerfect (WPD) and　リッチテキスト形式です．ファイル形式が正しいファイル形式であることを確認してください． "
+
+#. 1010
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:4
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1010"
+msgid ""
+"The paper you are trying to submit does not contain 100 characters of text."
+msgstr "提出しようとしている論文は100文字の本文を含んでいません．"
+
+#. 1011
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:5
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1011"
+msgid ""
+"The paper you are trying to submit is incorrectly formatted.  There seems to"
+" be spaces between each letter in your paper.  Please try submitting again "
+"or contact our helpdesk if the problem persists."
+msgstr "提出しようとしている論文は不正な形式です．論文中の文字間に空白があるようです．再提出するか，もし問題が続くのであればヘルプデスクに連絡してください．"
+
+#. 1013
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:6
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1013"
+msgid "You must submit more than 20 words of text."
+msgstr "20ワード以上の本文を提出してください．"
+
+#. 1019
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:7
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1019"
+msgid "Paper title exceeds maximum of 200 characters"
+msgstr "論文タイトルが200文字の最大を超えています"
+
+#. 1023
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:8
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1023"
+msgid ""
+"We're sorry, but we could not read the PDF you submitted. Please make sure "
+"that the file is not password protected and contains selectable text rather "
+"than scanned images."
+msgstr "提出されたPDFが読めません．ファイルがパスワードで保護されていないか，スキャンされたイメージ以外の選択可能な本文を含むことを確認してください．"
+
+#. 1024
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:9
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1024"
+msgid ""
+"The paper you are trying to submit does not meet our criteria for a "
+"legitimate paper. Please try submitting again or contact our helpdesk if the"
+" problem persists."
+msgstr "提出しようとしている論文は適正な論文の基準を満たしていません．再提出するか，もし問題が続くのであればヘルプデスクに連絡してください．"
+
+#. 302
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:10
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:302"
+msgid ""
+"MD5 not authenticated - the MD5 in the URL does not match the MD5 calculated"
+msgstr "MD5が認証がされませんでした - URLのMD5が計算されたMD5に合っていません"
+
+#. 208
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:11
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:208"
+msgid ""
+"An error occurred enrolling the student in the Turnitin class. Please "
+"contact the helpdesk"
+msgstr "Turnitinクラスに受講生を登録中にエラーが発生しました．ヘルプデスクに連絡して下さい．"
+
+#. 1000
+#: content-review/impl/turnitin/src/main/resources/turnitin.properties:12
+msgctxt ""
+"content-review/impl/turnitin/src/main/resources/turnitin.properties:1000"
+msgid ""
+"The due date for this assignment has passed. Please see your instructor to "
+"request a late submission."
+msgstr "このテストの締切日時が過ぎています．遅延提出を要求するには担当者に確認して下さい．"

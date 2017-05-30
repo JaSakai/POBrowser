@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-31 06:35+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-06 11:56+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3725,12 +3725,13 @@ msgid ""
 "user"
 msgstr "現在ログインしているユーザに対するプロフィールのフロントページ表示に転送します"
 
-#. my.redirect./{prefix}/profile/{userUuid}
+#. my.redirect./{prefix}/profile-view/{userUuid}
 #: profile2/bundle/src/resources/my.properties:3
 msgctxt ""
-"profile2/bundle/src/resources/my.properties:my.redirect./{prefix}/profile/{userUuid}"
-msgid "Redirects to the front page view of the profile for the specified user"
-msgstr "指定したユーザに対するプロフィールのフロントページ表示に転送します．"
+"profile2/bundle/src/resources/my.properties:my.redirect./{prefix}/profile-"
+"view/{userUuid}"
+msgid "Redirects to the profile view for the specified user"
+msgstr "指定したユーザに対するプロフィールビューに転送します．"
 
 #. my.redirect./{prefix}/messages
 #: profile2/bundle/src/resources/my.properties:4
@@ -3739,10 +3740,10 @@ msgctxt ""
 msgid "Redirects to the messages page for the currently logged in user"
 msgstr "現在ログインしているユーザに対するメッセージページに転送します"
 
-#. my.redirect./{prefix}/messages/{thread}
+#. my.redirect./{prefix}/messages/thread/{thread}
 #: profile2/bundle/src/resources/my.properties:5
 msgctxt ""
-"profile2/bundle/src/resources/my.properties:my.redirect./{prefix}/messages/{thread}"
+"profile2/bundle/src/resources/my.properties:my.redirect./{prefix}/messages/thread/{thread}"
 msgid ""
 "Redirects to a specific thread in the messages page for the currently logged"
 " in user"

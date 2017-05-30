@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-31 06:23+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-06 05:17+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -1192,8 +1192,16 @@ msgid ""
 "citations it has)?"
 msgstr "本当にこのセクション（およびセクションが持つサブセクションや文献）を削除してもよろしいですか?"
 
-#. new.citations.list
+#. nested.delete.description.confirm
 #: citations/citations-util/util/src/bundle/citations.properties:149
+msgctxt ""
+"citations/citations-"
+"util/util/src/bundle/citations.properties:nested.delete.description.confirm"
+msgid "Are you sure you want to delete this description?"
+msgstr "本当にこの説明を削除してもよろしいですか?"
+
+#. new.citations.list
+#: citations/citations-util/util/src/bundle/citations.properties:150
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:new.citations.list"
@@ -1201,56 +1209,56 @@ msgid "New Citation List "
 msgstr "新しい文献一覧"
 
 #. citation.count
-#: citations/citations-util/util/src/bundle/citations.properties:150
+#: citations/citations-util/util/src/bundle/citations.properties:151
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:citation.count"
 msgid "{0} citations"
 msgstr "{0} 個の文献"
 
 #. action.edit
-#: citations/citations-util/util/src/bundle/citations.properties:151
+#: citations/citations-util/util/src/bundle/citations.properties:152
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:action.edit"
 msgid "edit"
 msgstr "編集"
 
 #. title.edit
-#: citations/citations-util/util/src/bundle/citations.properties:152
+#: citations/citations-util/util/src/bundle/citations.properties:153
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.edit"
 msgid "Edit Citation"
 msgstr "文献を編集"
 
 #. submit.edit
-#: citations/citations-util/util/src/bundle/citations.properties:153
+#: citations/citations-util/util/src/bundle/citations.properties:154
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:submit.edit"
 msgid "Save Changes"
 msgstr "変更を保存"
 
 #. cancel.edit
-#: citations/citations-util/util/src/bundle/citations.properties:154
+#: citations/citations-util/util/src/bundle/citations.properties:155
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:cancel.edit"
 msgid "Cancel Changes"
 msgstr "変更をキャンセル"
 
 #. action.remove
-#: citations/citations-util/util/src/bundle/citations.properties:155
+#: citations/citations-util/util/src/bundle/citations.properties:156
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:action.remove"
 msgid "remove"
 msgstr "削除"
 
 #. title.remove
-#: citations/citations-util/util/src/bundle/citations.properties:156
+#: citations/citations-util/util/src/bundle/citations.properties:157
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.remove"
 msgid "Remove Citation"
 msgstr "文献を削除"
 
 #. addAction.create
-#: citations/citations-util/util/src/bundle/citations.properties:157
+#: citations/citations-util/util/src/bundle/citations.properties:158
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:addAction.create"
@@ -1258,7 +1266,7 @@ msgid "Create New Citation"
 msgstr "新しい文献を作成"
 
 #. description.create
-#: citations/citations-util/util/src/bundle/citations.properties:158
+#: citations/citations-util/util/src/bundle/citations.properties:159
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:description.create"
@@ -1266,28 +1274,28 @@ msgid "Add a citation by typing in data."
 msgstr "データに入力することで文献を追加"
 
 #. title.create
-#: citations/citations-util/util/src/bundle/citations.properties:159
+#: citations/citations-util/util/src/bundle/citations.properties:160
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.create"
 msgid "Add Citation"
 msgstr "文献を追加"
 
 #. submit.create
-#: citations/citations-util/util/src/bundle/citations.properties:160
+#: citations/citations-util/util/src/bundle/citations.properties:161
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:submit.create"
 msgid "Save Citation"
 msgstr "文献を保存"
 
 #. cancel.create
-#: citations/citations-util/util/src/bundle/citations.properties:161
+#: citations/citations-util/util/src/bundle/citations.properties:162
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:cancel.create"
 msgid "Cancel Citation"
 msgstr "文献をキャンセル"
 
 #. addanother.create
-#: citations/citations-util/util/src/bundle/citations.properties:162
+#: citations/citations-util/util/src/bundle/citations.properties:163
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:addanother.create"
@@ -1295,14 +1303,14 @@ msgid "Add another"
 msgstr "他を追加"
 
 #. action.search
-#: citations/citations-util/util/src/bundle/citations.properties:163
+#: citations/citations-util/util/src/bundle/citations.properties:164
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:action.search"
 msgid "Search Library Resources"
 msgstr "図書館リソースを検索"
 
 #. description.search
-#: citations/citations-util/util/src/bundle/citations.properties:164
+#: citations/citations-util/util/src/bundle/citations.properties:165
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:description.search"
@@ -1310,7 +1318,7 @@ msgid "Search library catalog, article databases, and other resources."
 msgstr "図書館カタログ，文献データベース，および他のリソースを検索します．"
 
 #. title.basic.search
-#: citations/citations-util/util/src/bundle/citations.properties:165
+#: citations/citations-util/util/src/bundle/citations.properties:166
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:title.basic.search"
@@ -1318,7 +1326,7 @@ msgid "Search Library Resources - Basic Search"
 msgstr "図書館リソースを検索 - 基本検索"
 
 #. title.adv.search
-#: citations/citations-util/util/src/bundle/citations.properties:166
+#: citations/citations-util/util/src/bundle/citations.properties:167
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:title.adv.search"
@@ -1326,35 +1334,35 @@ msgid "Search Library Resources - Advanced Search"
 msgstr "図書館リソースを検索 - 詳細検索"
 
 #. submit.search
-#: citations/citations-util/util/src/bundle/citations.properties:167
+#: citations/citations-util/util/src/bundle/citations.properties:168
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:submit.search"
 msgid "Search"
 msgstr "検索"
 
 #. cancel.search
-#: citations/citations-util/util/src/bundle/citations.properties:168
+#: citations/citations-util/util/src/bundle/citations.properties:169
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:cancel.search"
 msgid "Cancel"
 msgstr "キャンセル"
 
 #. wait.search
-#: citations/citations-util/util/src/bundle/citations.properties:169
+#: citations/citations-util/util/src/bundle/citations.properties:170
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:wait.search"
 msgid "Searching..."
 msgstr "検索しています..."
 
 #. select.search
-#: citations/citations-util/util/src/bundle/citations.properties:170
+#: citations/citations-util/util/src/bundle/citations.properties:171
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:select.search"
 msgid "Select search category"
 msgstr "検索カタログを選択"
 
 #. dbSelected.search
-#: citations/citations-util/util/src/bundle/citations.properties:171
+#: citations/citations-util/util/src/bundle/citations.properties:172
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:dbSelected.search"
@@ -1362,7 +1370,7 @@ msgid "databases selected:"
 msgstr "選択されたデータベース:"
 
 #. select.sub.search
-#: citations/citations-util/util/src/bundle/citations.properties:172
+#: citations/citations-util/util/src/bundle/citations.properties:173
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:select.sub.search"
@@ -1370,7 +1378,7 @@ msgid "Select sub-category"
 msgstr "サブカテゴリを選択"
 
 #. empty.cat.search
-#: citations/citations-util/util/src/bundle/citations.properties:173
+#: citations/citations-util/util/src/bundle/citations.properties:174
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:empty.cat.search"
@@ -1378,7 +1386,7 @@ msgid "Selected category contains no searchable databases"
 msgstr "選択したカテゴリには検索可能なデータベースはありません"
 
 #. link.dbshow.search
-#: citations/citations-util/util/src/bundle/citations.properties:174
+#: citations/citations-util/util/src/bundle/citations.properties:175
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:link.dbshow.search"
@@ -1386,7 +1394,7 @@ msgid "Show Descriptions"
 msgstr "説明を表示"
 
 #. link.dbhide.search
-#: citations/citations-util/util/src/bundle/citations.properties:175
+#: citations/citations-util/util/src/bundle/citations.properties:176
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:link.dbhide.search"
@@ -1394,7 +1402,7 @@ msgid "Hide Descriptions"
 msgstr "説明を非表示"
 
 #. alt.dbshow.search
-#: citations/citations-util/util/src/bundle/citations.properties:176
+#: citations/citations-util/util/src/bundle/citations.properties:177
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:alt.dbshow.search"
@@ -1402,7 +1410,7 @@ msgid "Show Description"
 msgstr "説明を表示"
 
 #. alt.dbhide.search
-#: citations/citations-util/util/src/bundle/citations.properties:177
+#: citations/citations-util/util/src/bundle/citations.properties:178
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:alt.dbhide.search"
@@ -1410,21 +1418,21 @@ msgid "Hide Description"
 msgstr "説明を非表示"
 
 #. dbLoad.search
-#: citations/citations-util/util/src/bundle/citations.properties:178
+#: citations/citations-util/util/src/bundle/citations.properties:179
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:dbLoad.search"
 msgid "Loading Databases..."
 msgstr "データベースを読み込んでいます..."
 
 #. terms.search
-#: citations/citations-util/util/src/bundle/citations.properties:179
+#: citations/citations-util/util/src/bundle/citations.properties:180
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:terms.search"
 msgid "Enter search terms"
 msgstr "検索語を入力"
 
 #. link.basic.search
-#: citations/citations-util/util/src/bundle/citations.properties:180
+#: citations/citations-util/util/src/bundle/citations.properties:181
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:link.basic.search"
@@ -1432,7 +1440,7 @@ msgid "Basic Search"
 msgstr "基本検索"
 
 #. link.adv.search
-#: citations/citations-util/util/src/bundle/citations.properties:181
+#: citations/citations-util/util/src/bundle/citations.properties:182
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:link.adv.search"
@@ -1440,7 +1448,7 @@ msgid "Advanced Search"
 msgstr "詳細検索"
 
 #. pageSize.search
-#: citations/citations-util/util/src/bundle/citations.properties:182
+#: citations/citations-util/util/src/bundle/citations.properties:183
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:pageSize.search"
@@ -1448,7 +1456,7 @@ msgid "Page Size"
 msgstr "ページサイズ"
 
 #. maxRecords.search
-#: citations/citations-util/util/src/bundle/citations.properties:183
+#: citations/citations-util/util/src/bundle/citations.properties:184
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:maxRecords.search"
@@ -1456,7 +1464,7 @@ msgid "Maximum Records"
 msgstr "最大レコード数"
 
 #. startRecord.search
-#: citations/citations-util/util/src/bundle/citations.properties:184
+#: citations/citations-util/util/src/bundle/citations.properties:185
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:startRecord.search"
@@ -1464,7 +1472,7 @@ msgid "Start Record"
 msgstr "開始レコード"
 
 #. no.terms.search
-#: citations/citations-util/util/src/bundle/citations.properties:185
+#: citations/citations-util/util/src/bundle/citations.properties:186
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:no.terms.search"
@@ -1472,7 +1480,7 @@ msgid "Please enter search terms to try again"
 msgstr "検索語を入力し再度試してください"
 
 #. no.databases.search
-#: citations/citations-util/util/src/bundle/citations.properties:186
+#: citations/citations-util/util/src/bundle/citations.properties:187
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:no.databases.search"
@@ -1480,14 +1488,14 @@ msgid "Please select at least one database to conduct a search"
 msgstr "検索を実行するためには少なくとも一つのデータベースを選択してください"
 
 #. clear.search
-#: citations/citations-util/util/src/bundle/citations.properties:187
+#: citations/citations-util/util/src/bundle/citations.properties:188
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:clear.search"
 msgid "Clear Form"
 msgstr "フォームをクリア"
 
 #. label.new.search
-#: citations/citations-util/util/src/bundle/citations.properties:188
+#: citations/citations-util/util/src/bundle/citations.properties:189
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:label.new.search"
@@ -1495,7 +1503,7 @@ msgid "New Search"
 msgstr "新しい検索"
 
 #. label.back.search
-#: citations/citations-util/util/src/bundle/citations.properties:189
+#: citations/citations-util/util/src/bundle/citations.properties:190
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:label.back.search"
@@ -1503,7 +1511,7 @@ msgid "Back to Add Citations"
 msgstr "「文献を追加」に戻る"
 
 #. label.back.fromlist
-#: citations/citations-util/util/src/bundle/citations.properties:190
+#: citations/citations-util/util/src/bundle/citations.properties:191
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:label.back.fromlist"
@@ -1511,28 +1519,28 @@ msgid "Back to Review Citation List"
 msgstr "「文献一覧の確認」に戻る"
 
 #. noTerms.search
-#: citations/citations-util/util/src/bundle/citations.properties:191
+#: citations/citations-util/util/src/bundle/citations.properties:192
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:noTerms.search"
 msgid "Please supply at least one search term."
 msgstr "検索語を少なくとも一つ入力してください．"
 
 #. noDbs.search
-#: citations/citations-util/util/src/bundle/citations.properties:192
+#: citations/citations-util/util/src/bundle/citations.properties:193
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:noDbs.search"
 msgid "Please select at least one database to search."
 msgstr "検索するデータベースを少なくとも一つ選択してください．"
 
 #. error.search
-#: citations/citations-util/util/src/bundle/citations.properties:193
+#: citations/citations-util/util/src/bundle/citations.properties:194
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:error.search"
 msgid "Unable to process your request at this time, please try again later."
 msgstr "今はリクエストを処理することができません．後で再度試してください．"
 
 #. instr.results.main
-#: citations/citations-util/util/src/bundle/citations.properties:194
+#: citations/citations-util/util/src/bundle/citations.properties:195
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:instr.results.main"
@@ -1540,7 +1548,7 @@ msgid "Click \"{0}\" to add a citation to the citation list."
 msgstr "文献一覧に文献を追加する場合は「{0}」をクリックします．"
 
 #. instr.results.sub
-#: citations/citations-util/util/src/bundle/citations.properties:195
+#: citations/citations-util/util/src/bundle/citations.properties:196
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:instr.results.sub"
@@ -1550,28 +1558,28 @@ msgid ""
 msgstr "選択されたデータベース内で別の検索を実行する場合は検索語を変更します．異なるデータベースセットを検索する場合は「{0}」をクリックします．"
 
 #. no.results
-#: citations/citations-util/util/src/bundle/citations.properties:196
+#: citations/citations-util/util/src/bundle/citations.properties:197
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:no.results"
 msgid "No results found to match your query"
 msgstr "クエリに一致する結果が見つかりませんでした"
 
 #. title.results
-#: citations/citations-util/util/src/bundle/citations.properties:197
+#: citations/citations-util/util/src/bundle/citations.properties:198
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.results"
 msgid "Search Results"
 msgstr "検索結果"
 
 #. add.results
-#: citations/citations-util/util/src/bundle/citations.properties:198
+#: citations/citations-util/util/src/bundle/citations.properties:199
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:add.results"
 msgid "Add"
 msgstr "追加"
 
 #. add_alt.results
-#: citations/citations-util/util/src/bundle/citations.properties:199
+#: citations/citations-util/util/src/bundle/citations.properties:200
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:add_alt.results"
@@ -1579,84 +1587,84 @@ msgid "Remove from citation list"
 msgstr "文献一覧から削除"
 
 #. remove.results
-#: citations/citations-util/util/src/bundle/citations.properties:200
+#: citations/citations-util/util/src/bundle/citations.properties:201
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:remove.results"
 msgid "Remove"
 msgstr "削除"
 
 #. first.results
-#: citations/citations-util/util/src/bundle/citations.properties:201
+#: citations/citations-util/util/src/bundle/citations.properties:202
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:first.results"
 msgid "First Page"
 msgstr "最初のページ"
 
 #. last.results
-#: citations/citations-util/util/src/bundle/citations.properties:202
+#: citations/citations-util/util/src/bundle/citations.properties:203
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:last.results"
 msgid "Last Page"
 msgstr "最後のページ"
 
 #. next.results
-#: citations/citations-util/util/src/bundle/citations.properties:203
+#: citations/citations-util/util/src/bundle/citations.properties:204
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:next.results"
 msgid "Next Page"
 msgstr "次ページ"
 
 #. prev.results
-#: citations/citations-util/util/src/bundle/citations.properties:204
+#: citations/citations-util/util/src/bundle/citations.properties:205
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:prev.results"
 msgid "Previous Page"
 msgstr "前ページ"
 
 #. wait.results
-#: citations/citations-util/util/src/bundle/citations.properties:205
+#: citations/citations-util/util/src/bundle/citations.properties:206
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:wait.results"
 msgid "Loading..."
 msgstr "読み込んでいます..."
 
 #. show10.results
-#: citations/citations-util/util/src/bundle/citations.properties:206
+#: citations/citations-util/util/src/bundle/citations.properties:207
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:show10.results"
 msgid "Show 10 items per page"
 msgstr "ページ当たりアイテムを 10 個表示"
 
 #. show20.results
-#: citations/citations-util/util/src/bundle/citations.properties:207
+#: citations/citations-util/util/src/bundle/citations.properties:208
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:show20.results"
 msgid "Show 20 items per page"
 msgstr "ページ当たりアイテムを 20 個表示"
 
 #. show30.results
-#: citations/citations-util/util/src/bundle/citations.properties:208
+#: citations/citations-util/util/src/bundle/citations.properties:209
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:show30.results"
 msgid "Show 30 items per page"
 msgstr "ページ当たりアイテムを 30 個表示"
 
 #. show40.results
-#: citations/citations-util/util/src/bundle/citations.properties:209
+#: citations/citations-util/util/src/bundle/citations.properties:210
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:show40.results"
 msgid "Show 40 items per page"
 msgstr "ページ当たりアイテムを 40 個表示"
 
 #. show50.results
-#: citations/citations-util/util/src/bundle/citations.properties:210
+#: citations/citations-util/util/src/bundle/citations.properties:211
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:show50.results"
 msgid "Show 50 items per page"
 msgstr "ページ当たりアイテムを 50 個表示"
 
 #. showing.results
-#: citations/citations-util/util/src/bundle/citations.properties:211
+#: citations/citations-util/util/src/bundle/citations.properties:212
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:showing.results"
@@ -1664,7 +1672,7 @@ msgid "(viewing {0} - {1} of {2})"
 msgstr "({0}-{1}/{2} を表示)"
 
 #. link.show.results
-#: citations/citations-util/util/src/bundle/citations.properties:212
+#: citations/citations-util/util/src/bundle/citations.properties:213
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:link.show.results"
@@ -1672,7 +1680,7 @@ msgid "Abstract View"
 msgstr "概要表示"
 
 #. link.hide.results
-#: citations/citations-util/util/src/bundle/citations.properties:213
+#: citations/citations-util/util/src/bundle/citations.properties:214
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:link.hide.results"
@@ -1680,7 +1688,7 @@ msgid "Title View"
 msgstr "タイトル表示"
 
 #. label.back.results
-#: citations/citations-util/util/src/bundle/citations.properties:214
+#: citations/citations-util/util/src/bundle/citations.properties:215
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:label.back.results"
@@ -1688,7 +1696,7 @@ msgid "Back to Search Results"
 msgstr "「検索結果」に戻る"
 
 #. summary.results
-#: citations/citations-util/util/src/bundle/citations.properties:215
+#: citations/citations-util/util/src/bundle/citations.properties:216
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:summary.results"
@@ -1696,7 +1704,7 @@ msgid "Search results table"
 msgstr "検索結果表"
 
 #. link.show.readonly
-#: citations/citations-util/util/src/bundle/citations.properties:216
+#: citations/citations-util/util/src/bundle/citations.properties:217
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:link.show.readonly"
@@ -1704,7 +1712,7 @@ msgid "Citation View"
 msgstr "文献表示"
 
 #. subjects.result
-#: citations/citations-util/util/src/bundle/citations.properties:217
+#: citations/citations-util/util/src/bundle/citations.properties:218
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:subjects.result"
@@ -1712,7 +1720,7 @@ msgid "Subject(s):"
 msgstr "主題(s):"
 
 #. abstract.result
-#: citations/citations-util/util/src/bundle/citations.properties:218
+#: citations/citations-util/util/src/bundle/citations.properties:219
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:abstract.result"
@@ -1720,7 +1728,7 @@ msgid "Abstract:"
 msgstr "抄録:"
 
 #. nodetails.result
-#: citations/citations-util/util/src/bundle/citations.properties:219
+#: citations/citations-util/util/src/bundle/citations.properties:220
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:nodetails.result"
@@ -1728,14 +1736,14 @@ msgid "No subject or abstract information available"
 msgstr "利用可能な主題または抄録情報がありません"
 
 #. title.review
-#: citations/citations-util/util/src/bundle/citations.properties:220
+#: citations/citations-util/util/src/bundle/citations.properties:221
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.review"
 msgid "Edit Citation List"
 msgstr "文献一覧を編集"
 
 #. instr.main.review
-#: citations/citations-util/util/src/bundle/citations.properties:221
+#: citations/citations-util/util/src/bundle/citations.properties:222
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:instr.main.review"
@@ -1745,7 +1753,7 @@ msgid ""
 msgstr "以下の文献を表示したり，編集したり，削除したりします．ライブラリリソース内の文献の位置を決める場合は「{0}」をクリックします．"
 
 #. instr.sub.review
-#: citations/citations-util/util/src/bundle/citations.properties:222
+#: citations/citations-util/util/src/bundle/citations.properties:223
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:instr.sub.review"
@@ -1753,35 +1761,35 @@ msgid "Click \"{0}\" to title and save this citation list to your resources."
 msgstr "文献一覧にタイトルをつけ，自分のリソースに保存する場合は「{0}」をクリックします．"
 
 #. search.problem
-#: citations/citations-util/util/src/bundle/citations.properties:223
+#: citations/citations-util/util/src/bundle/citations.properties:224
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:search.problem"
 msgid "Unable to search at this time. Please try again later."
 msgstr "今は検索することができません．再度試してください．"
 
 #. title.close
-#: citations/citations-util/util/src/bundle/citations.properties:224
+#: citations/citations-util/util/src/bundle/citations.properties:225
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.close"
 msgid "This window is no longer needed."
 msgstr "このウィンドウはもはや必要ありません．"
 
 #. subtitle.close
-#: citations/citations-util/util/src/bundle/citations.properties:225
+#: citations/citations-util/util/src/bundle/citations.properties:226
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:subtitle.close"
 msgid "Please click \"Close\" button."
 msgstr "「閉じる」ボタンをクリックしてください．"
 
 #. button.close
-#: citations/citations-util/util/src/bundle/citations.properties:226
+#: citations/citations-util/util/src/bundle/citations.properties:227
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:button.close"
 msgid "Close"
 msgstr "閉じる"
 
 #. keyword.adv.search
-#: citations/citations-util/util/src/bundle/citations.properties:227
+#: citations/citations-util/util/src/bundle/citations.properties:228
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:keyword.adv.search"
@@ -1789,7 +1797,7 @@ msgid "Keyword:"
 msgstr "キーワード:"
 
 #. author.adv.search
-#: citations/citations-util/util/src/bundle/citations.properties:228
+#: citations/citations-util/util/src/bundle/citations.properties:229
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:author.adv.search"
@@ -1797,7 +1805,7 @@ msgid "Author:"
 msgstr "著者:"
 
 #. titletext.adv.search
-#: citations/citations-util/util/src/bundle/citations.properties:229
+#: citations/citations-util/util/src/bundle/citations.properties:230
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:titletext.adv.search"
@@ -1805,7 +1813,7 @@ msgid "Title:"
 msgstr "タイトル:"
 
 #. subject.adv.search
-#: citations/citations-util/util/src/bundle/citations.properties:230
+#: citations/citations-util/util/src/bundle/citations.properties:231
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:subject.adv.search"
@@ -1813,7 +1821,7 @@ msgid "Subject:"
 msgstr "主題:"
 
 #. year.adv.search
-#: citations/citations-util/util/src/bundle/citations.properties:231
+#: citations/citations-util/util/src/bundle/citations.properties:232
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:year.adv.search"
@@ -1821,21 +1829,21 @@ msgid "Year:"
 msgstr "年:"
 
 #. title.error
-#: citations/citations-util/util/src/bundle/citations.properties:232
+#: citations/citations-util/util/src/bundle/citations.properties:233
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.error"
 msgid "There was an error."
 msgstr "エラーがありました．"
 
 #. subtitle.error
-#: citations/citations-util/util/src/bundle/citations.properties:233
+#: citations/citations-util/util/src/bundle/citations.properties:234
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:subtitle.error"
 msgid "Please click the \"done\" button to close this window."
 msgstr "このウィンドウを閉じる場合は「完了」ボタンをクリックしてください．"
 
 #. subtitle.error.restart
-#: citations/citations-util/util/src/bundle/citations.properties:234
+#: citations/citations-util/util/src/bundle/citations.properties:235
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:subtitle.error.restart"
@@ -1845,63 +1853,63 @@ msgid ""
 msgstr "「リセット」ボタンをクリックしてこのウィンドウを閉じ，「リソース」エリアに戻ってください．"
 
 #. cancel.error
-#: citations/citations-util/util/src/bundle/citations.properties:235
+#: citations/citations-util/util/src/bundle/citations.properties:236
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:cancel.error"
 msgid "Done"
 msgstr "完了"
 
 #. alert.access
-#: citations/citations-util/util/src/bundle/citations.properties:236
+#: citations/citations-util/util/src/bundle/citations.properties:237
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:alert.access"
 msgid "Cannot access the citation"
 msgstr "文献にアクセスできません"
 
 #. type.select
-#: citations/citations-util/util/src/bundle/citations.properties:237
+#: citations/citations-util/util/src/bundle/citations.properties:238
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.select"
 msgid "Select Citation Type"
 msgstr "文献種別を選択"
 
 #. wait.list
-#: citations/citations-util/util/src/bundle/citations.properties:238
+#: citations/citations-util/util/src/bundle/citations.properties:239
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:wait.list"
 msgid "Processing..."
 msgstr "処理しています..."
 
 #. action.view
-#: citations/citations-util/util/src/bundle/citations.properties:239
+#: citations/citations-util/util/src/bundle/citations.properties:240
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:action.view"
 msgid "view citation"
 msgstr "文献を表示"
 
 #. title.view
-#: citations/citations-util/util/src/bundle/citations.properties:240
+#: citations/citations-util/util/src/bundle/citations.properties:241
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.view"
 msgid "Citation Details"
 msgstr "文献の詳細"
 
 #. cancel.view
-#: citations/citations-util/util/src/bundle/citations.properties:241
+#: citations/citations-util/util/src/bundle/citations.properties:242
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:cancel.view"
 msgid "Done"
 msgstr "完了"
 
 #. type.view
-#: citations/citations-util/util/src/bundle/citations.properties:242
+#: citations/citations-util/util/src/bundle/citations.properties:243
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.view"
 msgid "Type"
 msgstr "種別"
 
 #. label.edit.view
-#: citations/citations-util/util/src/bundle/citations.properties:243
+#: citations/citations-util/util/src/bundle/citations.properties:244
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:label.edit.view"
@@ -1909,7 +1917,7 @@ msgid "Edit Citation"
 msgstr "文献を編集"
 
 #. nullUrlLabel.view
-#: citations/citations-util/util/src/bundle/citations.properties:244
+#: citations/citations-util/util/src/bundle/citations.properties:245
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:nullUrlLabel.view"
@@ -1917,14 +1925,14 @@ msgid "Related Link"
 msgstr "関連リンク"
 
 #. error.gscholar
-#: citations/citations-util/util/src/bundle/citations.properties:245
+#: citations/citations-util/util/src/bundle/citations.properties:246
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:error.gscholar"
 msgid "An error has occurred"
 msgstr "エラーが発生しました"
 
 #. error.sub.gscholar
-#: citations/citations-util/util/src/bundle/citations.properties:246
+#: citations/citations-util/util/src/bundle/citations.properties:247
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:error.sub.gscholar"
@@ -1934,21 +1942,21 @@ msgid ""
 msgstr "このウィンドウを閉じて，現在の文献一覧から Google Scholar 検索を再度起動してください．"
 
 #. error.notfound
-#: citations/citations-util/util/src/bundle/citations.properties:247
+#: citations/citations-util/util/src/bundle/citations.properties:248
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:error.notfound"
 msgid "Couldn't find details of citation to add."
 msgstr "追加する文献の詳細を見つけることができませんでした．"
 
 #. error.noid
-#: citations/citations-util/util/src/bundle/citations.properties:248
+#: citations/citations-util/util/src/bundle/citations.properties:249
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:error.noid"
 msgid "Couldn't find the Citation List to add citation to."
 msgstr "文献を追加する文献一覧を見つけることができませんでした．"
 
 #. error.unavailable
-#: citations/citations-util/util/src/bundle/citations.properties:249
+#: citations/citations-util/util/src/bundle/citations.properties:250
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:error.unavailable"
@@ -1956,7 +1964,7 @@ msgid "Couldn't add citation as server is currently overloaded."
 msgstr "サーバが現在高負荷のため，文献を追加できませんでした．"
 
 #. error.permission
-#: citations/citations-util/util/src/bundle/citations.properties:250
+#: citations/citations-util/util/src/bundle/citations.properties:251
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:error.permission"
@@ -1965,21 +1973,21 @@ msgid ""
 msgstr "変更する権限がないため一覧に文献を追加できませんでした．"
 
 #. back.gscholar
-#: citations/citations-util/util/src/bundle/citations.properties:251
+#: citations/citations-util/util/src/bundle/citations.properties:252
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:back.gscholar"
 msgid "Back "
 msgstr "Google Scholar に戻る"
 
 #. title.gscholar
-#: citations/citations-util/util/src/bundle/citations.properties:252
+#: citations/citations-util/util/src/bundle/citations.properties:253
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:title.gscholar"
 msgid "Citation added to \"{0}\""
 msgstr "文献を「{0}」に追加しました"
 
 #. window.gscholar
-#: citations/citations-util/util/src/bundle/citations.properties:253
+#: citations/citations-util/util/src/bundle/citations.properties:254
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:window.gscholar"
@@ -1987,14 +1995,14 @@ msgid "Import"
 msgstr "インポート"
 
 #. close.gscholar
-#: citations/citations-util/util/src/bundle/citations.properties:254
+#: citations/citations-util/util/src/bundle/citations.properties:255
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:close.gscholar"
 msgid "Close Window"
 msgstr "ウィンドウを閉じる"
 
 #. close.integration
-#: citations/citations-util/util/src/bundle/citations.properties:255
+#: citations/citations-util/util/src/bundle/citations.properties:256
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:close.integration"
@@ -2002,7 +2010,7 @@ msgid "Close Window"
 msgstr "ウィンドウを閉じる"
 
 #. error.disconnect.integration
-#: citations/citations-util/util/src/bundle/citations.properties:256
+#: citations/citations-util/util/src/bundle/citations.properties:257
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:error.disconnect.integration"
@@ -2010,7 +2018,7 @@ msgid "This Library Resource Search window can no longer access the editor"
 msgstr "このライブラリリソース検索ウィンドウはエディタでアクセスすることがもはやできません"
 
 #. instr.results.integration
-#: citations/citations-util/util/src/bundle/citations.properties:257
+#: citations/citations-util/util/src/bundle/citations.properties:258
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:instr.results.integration"
@@ -2018,35 +2026,35 @@ msgid "Click \"{0}\" to add a citation to your text."
 msgstr "テキストに文献を追加する場合は「{0}」をクリックします．"
 
 #. type.article
-#: citations/citations-util/util/src/bundle/citations.properties:258
+#: citations/citations-util/util/src/bundle/citations.properties:259
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.article"
 msgid "Journal Article"
 msgstr "雑誌文献"
 
 #. type.audio
-#: citations/citations-util/util/src/bundle/citations.properties:259
+#: citations/citations-util/util/src/bundle/citations.properties:260
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.audio"
 msgid "Audio Recording"
 msgstr "オーディオ録音"
 
 #. type.book
-#: citations/citations-util/util/src/bundle/citations.properties:260
+#: citations/citations-util/util/src/bundle/citations.properties:261
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.book"
 msgid "Book"
 msgstr "書籍"
 
 #. type.chapter
-#: citations/citations-util/util/src/bundle/citations.properties:261
+#: citations/citations-util/util/src/bundle/citations.properties:262
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.chapter"
 msgid "Book Section"
 msgstr "書籍セクション"
 
 #. type.electronic
-#: citations/citations-util/util/src/bundle/citations.properties:262
+#: citations/citations-util/util/src/bundle/citations.properties:263
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:type.electronic"
@@ -2054,42 +2062,42 @@ msgid "Electronic Citation"
 msgstr "電子引用"
 
 #. type.proceed
-#: citations/citations-util/util/src/bundle/citations.properties:263
+#: citations/citations-util/util/src/bundle/citations.properties:264
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.proceed"
 msgid "Conference Proceeding"
 msgstr "会議予稿集"
 
 #. type.report
-#: citations/citations-util/util/src/bundle/citations.properties:264
+#: citations/citations-util/util/src/bundle/citations.properties:265
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.report"
 msgid "Report"
 msgstr "報告"
 
 #. type.thesis
-#: citations/citations-util/util/src/bundle/citations.properties:265
+#: citations/citations-util/util/src/bundle/citations.properties:266
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.thesis"
 msgid "Thesis"
 msgstr "学位論文"
 
 #. type.video
-#: citations/citations-util/util/src/bundle/citations.properties:266
+#: citations/citations-util/util/src/bundle/citations.properties:267
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.video"
 msgid "Video Recording"
 msgstr "ビデオ録画"
 
 #. type.unknown
-#: citations/citations-util/util/src/bundle/citations.properties:267
+#: citations/citations-util/util/src/bundle/citations.properties:268
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:type.unknown"
 msgid "Unknown"
 msgstr "未知"
 
 #. article.abstract
-#: citations/citations-util/util/src/bundle/citations.properties:268
+#: citations/citations-util/util/src/bundle/citations.properties:269
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.abstract"
@@ -2097,14 +2105,14 @@ msgid "Abstract"
 msgstr "抄録"
 
 #. article.author
-#: citations/citations-util/util/src/bundle/citations.properties:269
+#: citations/citations-util/util/src/bundle/citations.properties:270
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.author"
 msgid "Author(s)"
 msgstr "著者"
 
 #. article.creator
-#: citations/citations-util/util/src/bundle/citations.properties:270
+#: citations/citations-util/util/src/bundle/citations.properties:271
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.creator"
@@ -2112,14 +2120,14 @@ msgid "Author(s)"
 msgstr "著者"
 
 #. article.doi
-#: citations/citations-util/util/src/bundle/citations.properties:271
+#: citations/citations-util/util/src/bundle/citations.properties:272
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.doi"
 msgid "DOI"
 msgstr "DOI"
 
 #. article.endPage
-#: citations/citations-util/util/src/bundle/citations.properties:272
+#: citations/citations-util/util/src/bundle/citations.properties:273
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.endPage"
@@ -2127,7 +2135,7 @@ msgid "End Page"
 msgstr "終了ページ"
 
 #. article.locIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:273
+#: citations/citations-util/util/src/bundle/citations.properties:274
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.locIdentifier"
@@ -2135,7 +2143,7 @@ msgid "Call Number"
 msgstr "請求記号"
 
 #. article.isnIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:274
+#: citations/citations-util/util/src/bundle/citations.properties:275
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.isnIdentifier"
@@ -2143,7 +2151,7 @@ msgid "ISSN"
 msgstr "ISSN"
 
 #. article.inlineCitation
-#: citations/citations-util/util/src/bundle/citations.properties:275
+#: citations/citations-util/util/src/bundle/citations.properties:276
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.inlineCitation"
@@ -2151,7 +2159,7 @@ msgid "Citation"
 msgstr "文献"
 
 #. article.Language
-#: citations/citations-util/util/src/bundle/citations.properties:276
+#: citations/citations-util/util/src/bundle/citations.properties:277
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.Language"
@@ -2159,14 +2167,14 @@ msgid "Language"
 msgstr "言語"
 
 #. article.notes
-#: citations/citations-util/util/src/bundle/citations.properties:277
+#: citations/citations-util/util/src/bundle/citations.properties:278
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.notes"
 msgid "Notes"
 msgstr "追加情報"
 
 #. article.openURL
-#: citations/citations-util/util/src/bundle/citations.properties:278
+#: citations/citations-util/util/src/bundle/citations.properties:279
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.openURL"
@@ -2174,7 +2182,7 @@ msgid "Open URL"
 msgstr "公開 URL"
 
 #. article.dateRetrieved
-#: citations/citations-util/util/src/bundle/citations.properties:279
+#: citations/citations-util/util/src/bundle/citations.properties:280
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.dateRetrieved"
@@ -2182,42 +2190,42 @@ msgid "Date Retrieved"
 msgstr "取得日"
 
 #. article.date
-#: citations/citations-util/util/src/bundle/citations.properties:280
+#: citations/citations-util/util/src/bundle/citations.properties:281
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.date"
 msgid "Date"
 msgstr "公開日"
 
 #. article.issue
-#: citations/citations-util/util/src/bundle/citations.properties:281
+#: citations/citations-util/util/src/bundle/citations.properties:282
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.issue"
 msgid "Issue"
 msgstr "号"
 
 #. article.volume
-#: citations/citations-util/util/src/bundle/citations.properties:282
+#: citations/citations-util/util/src/bundle/citations.properties:283
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.volume"
 msgid "Volume"
 msgstr "巻"
 
 #. article.note
-#: citations/citations-util/util/src/bundle/citations.properties:283
+#: citations/citations-util/util/src/bundle/citations.properties:284
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.note"
 msgid "Note(s)"
 msgstr "追加情報"
 
 #. article.pages
-#: citations/citations-util/util/src/bundle/citations.properties:284
+#: citations/citations-util/util/src/bundle/citations.properties:285
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.pages"
 msgid "Pages"
 msgstr "ページ"
 
 #. article.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:285
+#: citations/citations-util/util/src/bundle/citations.properties:286
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.sourceTitle"
@@ -2225,14 +2233,14 @@ msgid "Journal Title"
 msgstr "雑誌名"
 
 #. article.rights
-#: citations/citations-util/util/src/bundle/citations.properties:286
+#: citations/citations-util/util/src/bundle/citations.properties:287
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.rights"
 msgid "Rights"
 msgstr "権利管理"
 
 #. article.startPage
-#: citations/citations-util/util/src/bundle/citations.properties:287
+#: citations/citations-util/util/src/bundle/citations.properties:288
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.startPage"
@@ -2240,7 +2248,7 @@ msgid "Start Page"
 msgstr "開始ページ"
 
 #. article.subject
-#: citations/citations-util/util/src/bundle/citations.properties:288
+#: citations/citations-util/util/src/bundle/citations.properties:289
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.subject"
@@ -2248,14 +2256,14 @@ msgid "Subject(s)"
 msgstr "主題"
 
 #. article.title
-#: citations/citations-util/util/src/bundle/citations.properties:289
+#: citations/citations-util/util/src/bundle/citations.properties:290
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.title"
 msgid "Article Title"
 msgstr "雑誌タイトル"
 
 #. article.typeOfResource
-#: citations/citations-util/util/src/bundle/citations.properties:290
+#: citations/citations-util/util/src/bundle/citations.properties:291
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:article.typeOfResource"
@@ -2263,42 +2271,42 @@ msgid "Journal Article"
 msgstr "雑誌論文"
 
 #. article.year
-#: citations/citations-util/util/src/bundle/citations.properties:291
+#: citations/citations-util/util/src/bundle/citations.properties:292
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:article.year"
 msgid "Year"
 msgstr "年"
 
 #. book.abstract
-#: citations/citations-util/util/src/bundle/citations.properties:292
+#: citations/citations-util/util/src/bundle/citations.properties:293
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.abstract"
 msgid "Abstract"
 msgstr "抄録"
 
 #. book.author
-#: citations/citations-util/util/src/bundle/citations.properties:293
+#: citations/citations-util/util/src/bundle/citations.properties:294
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.author"
 msgid "Author(s)"
 msgstr "著者"
 
 #. book.creator
-#: citations/citations-util/util/src/bundle/citations.properties:294
+#: citations/citations-util/util/src/bundle/citations.properties:295
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.creator"
 msgid "Author(s)"
 msgstr "著者"
 
 #. book.doi
-#: citations/citations-util/util/src/bundle/citations.properties:295
+#: citations/citations-util/util/src/bundle/citations.properties:296
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.doi"
 msgid "DOI"
 msgstr "DOI"
 
 #. book.locIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:296
+#: citations/citations-util/util/src/bundle/citations.properties:297
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:book.locIdentifier"
@@ -2306,7 +2314,7 @@ msgid "Call Number"
 msgstr "請求記号"
 
 #. book.isnIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:297
+#: citations/citations-util/util/src/bundle/citations.properties:298
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:book.isnIdentifier"
@@ -2314,7 +2322,7 @@ msgid "ISBN"
 msgstr "ISBN"
 
 #. book.inlineCitation
-#: citations/citations-util/util/src/bundle/citations.properties:298
+#: citations/citations-util/util/src/bundle/citations.properties:299
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:book.inlineCitation"
@@ -2322,28 +2330,28 @@ msgid "Citation"
 msgstr "文献"
 
 #. book.Language
-#: citations/citations-util/util/src/bundle/citations.properties:299
+#: citations/citations-util/util/src/bundle/citations.properties:300
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.Language"
 msgid "Language"
 msgstr "言語"
 
 #. book.notes
-#: citations/citations-util/util/src/bundle/citations.properties:300
+#: citations/citations-util/util/src/bundle/citations.properties:301
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.notes"
 msgid "Notes"
 msgstr "追加情報"
 
 #. book.openURL
-#: citations/citations-util/util/src/bundle/citations.properties:301
+#: citations/citations-util/util/src/bundle/citations.properties:302
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.openURL"
 msgid "Open URL"
 msgstr "公開 URL"
 
 #. book.dateRetrieved
-#: citations/citations-util/util/src/bundle/citations.properties:302
+#: citations/citations-util/util/src/bundle/citations.properties:303
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:book.dateRetrieved"
@@ -2351,35 +2359,35 @@ msgid "Date Retrieved"
 msgstr "取得日"
 
 #. book.date
-#: citations/citations-util/util/src/bundle/citations.properties:303
+#: citations/citations-util/util/src/bundle/citations.properties:304
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.date"
 msgid "Date"
 msgstr "公開日"
 
 #. book.edition
-#: citations/citations-util/util/src/bundle/citations.properties:304
+#: citations/citations-util/util/src/bundle/citations.properties:305
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.edition"
 msgid "Edition"
 msgstr "版"
 
 #. book.editor
-#: citations/citations-util/util/src/bundle/citations.properties:305
+#: citations/citations-util/util/src/bundle/citations.properties:306
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.editor"
 msgid "Editor(s)"
 msgstr "版"
 
 #. book.note
-#: citations/citations-util/util/src/bundle/citations.properties:306
+#: citations/citations-util/util/src/bundle/citations.properties:307
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.note"
 msgid "Note(s)"
 msgstr "追加情報"
 
 #. book.publicationLocation
-#: citations/citations-util/util/src/bundle/citations.properties:307
+#: citations/citations-util/util/src/bundle/citations.properties:308
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:book.publicationLocation"
@@ -2387,14 +2395,14 @@ msgid "Publication Location"
 msgstr "出版場所"
 
 #. book.publisher
-#: citations/citations-util/util/src/bundle/citations.properties:308
+#: citations/citations-util/util/src/bundle/citations.properties:309
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.publisher"
 msgid "Publisher"
 msgstr "出版社"
 
 #. book.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:309
+#: citations/citations-util/util/src/bundle/citations.properties:310
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:book.sourceTitle"
@@ -2402,28 +2410,28 @@ msgid "Series Title"
 msgstr "シリーズタイトル"
 
 #. book.rights
-#: citations/citations-util/util/src/bundle/citations.properties:310
+#: citations/citations-util/util/src/bundle/citations.properties:311
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.rights"
 msgid "Rights"
 msgstr "権利管理"
 
 #. book.subject
-#: citations/citations-util/util/src/bundle/citations.properties:311
+#: citations/citations-util/util/src/bundle/citations.properties:312
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.subject"
 msgid "Subject(s)"
 msgstr "主題"
 
 #. book.title
-#: citations/citations-util/util/src/bundle/citations.properties:312
+#: citations/citations-util/util/src/bundle/citations.properties:313
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.title"
 msgid "Book Title"
 msgstr "書籍タイトル"
 
 #. book.typeOfResource
-#: citations/citations-util/util/src/bundle/citations.properties:313
+#: citations/citations-util/util/src/bundle/citations.properties:314
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:book.typeOfResource"
@@ -2431,14 +2439,14 @@ msgid "Book"
 msgstr "書籍"
 
 #. book.year
-#: citations/citations-util/util/src/bundle/citations.properties:314
+#: citations/citations-util/util/src/bundle/citations.properties:315
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:book.year"
 msgid "Year"
 msgstr "年"
 
 #. chapter.abstract
-#: citations/citations-util/util/src/bundle/citations.properties:315
+#: citations/citations-util/util/src/bundle/citations.properties:316
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.abstract"
@@ -2446,14 +2454,14 @@ msgid "Abstract"
 msgstr "抄録"
 
 #. chapter.author
-#: citations/citations-util/util/src/bundle/citations.properties:316
+#: citations/citations-util/util/src/bundle/citations.properties:317
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.author"
 msgid "Author(s)"
 msgstr "著者"
 
 #. chapter.creator
-#: citations/citations-util/util/src/bundle/citations.properties:317
+#: citations/citations-util/util/src/bundle/citations.properties:318
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.creator"
@@ -2461,21 +2469,21 @@ msgid "Author(s)"
 msgstr "著者"
 
 #. chapter.doi
-#: citations/citations-util/util/src/bundle/citations.properties:318
+#: citations/citations-util/util/src/bundle/citations.properties:319
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.doi"
 msgid "DOI"
 msgstr "DOI"
 
 #. chapter.editor
-#: citations/citations-util/util/src/bundle/citations.properties:319
+#: citations/citations-util/util/src/bundle/citations.properties:320
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.editor"
 msgid "Editor(s)"
 msgstr "編集者"
 
 #. chapter.endPage
-#: citations/citations-util/util/src/bundle/citations.properties:320
+#: citations/citations-util/util/src/bundle/citations.properties:321
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.endPage"
@@ -2483,7 +2491,7 @@ msgid "End Page"
 msgstr "終了ページ"
 
 #. chapter.locIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:321
+#: citations/citations-util/util/src/bundle/citations.properties:322
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.locIdentifier"
@@ -2491,7 +2499,7 @@ msgid "Call Number"
 msgstr "請求記号"
 
 #. chapter.isnIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:322
+#: citations/citations-util/util/src/bundle/citations.properties:323
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.isnIdentifier"
@@ -2499,7 +2507,7 @@ msgid "ISBN"
 msgstr "ISBN"
 
 #. chapter.inlineCitation
-#: citations/citations-util/util/src/bundle/citations.properties:323
+#: citations/citations-util/util/src/bundle/citations.properties:324
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.inlineCitation"
@@ -2507,7 +2515,7 @@ msgid "Citation"
 msgstr "文献"
 
 #. chapter.Language
-#: citations/citations-util/util/src/bundle/citations.properties:324
+#: citations/citations-util/util/src/bundle/citations.properties:325
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.Language"
@@ -2515,14 +2523,14 @@ msgid "Language"
 msgstr "言語"
 
 #. chapter.notes
-#: citations/citations-util/util/src/bundle/citations.properties:325
+#: citations/citations-util/util/src/bundle/citations.properties:326
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.notes"
 msgid "Notes"
 msgstr "追加情報"
 
 #. chapter.openURL
-#: citations/citations-util/util/src/bundle/citations.properties:326
+#: citations/citations-util/util/src/bundle/citations.properties:327
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.openURL"
@@ -2530,7 +2538,7 @@ msgid "Open URL"
 msgstr "公開 URL"
 
 #. chapter.dateRetrieved
-#: citations/citations-util/util/src/bundle/citations.properties:327
+#: citations/citations-util/util/src/bundle/citations.properties:328
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.dateRetrieved"
@@ -2538,14 +2546,14 @@ msgid "Date Retrieved"
 msgstr "取得日"
 
 #. chapter.date
-#: citations/citations-util/util/src/bundle/citations.properties:328
+#: citations/citations-util/util/src/bundle/citations.properties:329
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.date"
 msgid "Date"
 msgstr "公開日"
 
 #. chapter.edition
-#: citations/citations-util/util/src/bundle/citations.properties:329
+#: citations/citations-util/util/src/bundle/citations.properties:330
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.edition"
@@ -2553,14 +2561,14 @@ msgid "Edition"
 msgstr "版"
 
 #. chapter.note
-#: citations/citations-util/util/src/bundle/citations.properties:330
+#: citations/citations-util/util/src/bundle/citations.properties:331
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.note"
 msgid "Note(s)"
 msgstr "追加情報"
 
 #. chapter.publicationLocation
-#: citations/citations-util/util/src/bundle/citations.properties:331
+#: citations/citations-util/util/src/bundle/citations.properties:332
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.publicationLocation"
@@ -2568,7 +2576,7 @@ msgid "Publication Location"
 msgstr "出版場所"
 
 #. chapter.publisher
-#: citations/citations-util/util/src/bundle/citations.properties:332
+#: citations/citations-util/util/src/bundle/citations.properties:333
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.publisher"
@@ -2576,14 +2584,14 @@ msgid "Publisher"
 msgstr "出版社"
 
 #. chapter.pages
-#: citations/citations-util/util/src/bundle/citations.properties:333
+#: citations/citations-util/util/src/bundle/citations.properties:334
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.pages"
 msgid "Pages"
 msgstr "ページ"
 
 #. chapter.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:334
+#: citations/citations-util/util/src/bundle/citations.properties:335
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.sourceTitle"
@@ -2591,14 +2599,14 @@ msgid "Book Title"
 msgstr "書籍タイトル"
 
 #. chapter.rights
-#: citations/citations-util/util/src/bundle/citations.properties:335
+#: citations/citations-util/util/src/bundle/citations.properties:336
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.rights"
 msgid "Rights"
 msgstr "権利管理"
 
 #. chapter.startPage
-#: citations/citations-util/util/src/bundle/citations.properties:336
+#: citations/citations-util/util/src/bundle/citations.properties:337
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.startPage"
@@ -2606,7 +2614,7 @@ msgid "Start Page"
 msgstr "開始ページ"
 
 #. chapter.subject
-#: citations/citations-util/util/src/bundle/citations.properties:337
+#: citations/citations-util/util/src/bundle/citations.properties:338
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.subject"
@@ -2614,14 +2622,14 @@ msgid "Subject(s)"
 msgstr "主題"
 
 #. chapter.title
-#: citations/citations-util/util/src/bundle/citations.properties:338
+#: citations/citations-util/util/src/bundle/citations.properties:339
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.title"
 msgid "Section Title"
 msgstr "セクションタイトル"
 
 #. chapter.typeOfResource
-#: citations/citations-util/util/src/bundle/citations.properties:339
+#: citations/citations-util/util/src/bundle/citations.properties:340
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:chapter.typeOfResource"
@@ -2629,49 +2637,49 @@ msgid "Book Section"
 msgstr "書籍セクション"
 
 #. chapter.year
-#: citations/citations-util/util/src/bundle/citations.properties:340
+#: citations/citations-util/util/src/bundle/citations.properties:341
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:chapter.year"
 msgid "Year"
 msgstr "年"
 
 #. descr.abstract
-#: citations/citations-util/util/src/bundle/citations.properties:341
+#: citations/citations-util/util/src/bundle/citations.properties:342
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.abstract"
 msgid "The abstract returned by the vendor"
 msgstr "ベンダーにより提供された抄録"
 
 #. descr.author
-#: citations/citations-util/util/src/bundle/citations.properties:342
+#: citations/citations-util/util/src/bundle/citations.properties:343
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.author"
 msgid "the person who made the work"
 msgstr "研究を行った人"
 
 #. descr.creator
-#: citations/citations-util/util/src/bundle/citations.properties:343
+#: citations/citations-util/util/src/bundle/citations.properties:344
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.creator"
 msgid "the person who made the work"
 msgstr "研究を行った人"
 
 #. descr.doi
-#: citations/citations-util/util/src/bundle/citations.properties:344
+#: citations/citations-util/util/src/bundle/citations.properties:345
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.doi"
 msgid "Digital Object Identifier"
 msgstr "ディジタルオブジェクト識別子"
 
 #. descr.endPage
-#: citations/citations-util/util/src/bundle/citations.properties:345
+#: citations/citations-util/util/src/bundle/citations.properties:346
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.endPage"
 msgid "end page"
 msgstr "終了ページ"
 
 #. descr.locIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:346
+#: citations/citations-util/util/src/bundle/citations.properties:347
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.locIdentifier"
@@ -2679,7 +2687,7 @@ msgid "Library of Congress number"
 msgstr "国会図書番号"
 
 #. descr.isnIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:347
+#: citations/citations-util/util/src/bundle/citations.properties:348
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.isnIdentifier"
@@ -2687,7 +2695,7 @@ msgid "ISBN or ISSN"
 msgstr "ISBN または ISSN"
 
 #. descr.inlineCitation
-#: citations/citations-util/util/src/bundle/citations.properties:348
+#: citations/citations-util/util/src/bundle/citations.properties:349
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.inlineCitation"
@@ -2695,21 +2703,21 @@ msgid "Inline citation information that is sometimes part of record metadata"
 msgstr "レコードメタデータの一部でもあるインライン文献情報"
 
 #. descr.Language
-#: citations/citations-util/util/src/bundle/citations.properties:349
+#: citations/citations-util/util/src/bundle/citations.properties:350
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.Language"
 msgid "language"
 msgstr "言語"
 
 #. descr.notes
-#: citations/citations-util/util/src/bundle/citations.properties:350
+#: citations/citations-util/util/src/bundle/citations.properties:351
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.notes"
 msgid "everything else"
 msgstr "他すべて"
 
 #. descr.dateRetrieved
-#: citations/citations-util/util/src/bundle/citations.properties:351
+#: citations/citations-util/util/src/bundle/citations.properties:352
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.dateRetrieved"
@@ -2717,28 +2725,28 @@ msgid "when retrieved"
 msgstr "取得した日付"
 
 #. descr.date
-#: citations/citations-util/util/src/bundle/citations.properties:352
+#: citations/citations-util/util/src/bundle/citations.properties:353
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.date"
 msgid "whatever date info we get"
 msgstr "情報を取得した日付等"
 
 #. descr.edition
-#: citations/citations-util/util/src/bundle/citations.properties:353
+#: citations/citations-util/util/src/bundle/citations.properties:354
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.edition"
 msgid "Edition of a book or versioned document"
 msgstr "書籍の版または版付けされた文書"
 
 #. descr.issue
-#: citations/citations-util/util/src/bundle/citations.properties:354
+#: citations/citations-util/util/src/bundle/citations.properties:355
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.issue"
 msgid "Issue number of the journal"
 msgstr "雑誌の号数"
 
 #. descr.publicationLocation
-#: citations/citations-util/util/src/bundle/citations.properties:355
+#: citations/citations-util/util/src/bundle/citations.properties:356
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.publicationLocation"
@@ -2746,7 +2754,7 @@ msgid "Where published"
 msgstr "出版された場所"
 
 #. descr.publisher
-#: citations/citations-util/util/src/bundle/citations.properties:356
+#: citations/citations-util/util/src/bundle/citations.properties:357
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.publisher"
@@ -2754,21 +2762,21 @@ msgid "publsher info (sponsoring inst for report)"
 msgstr "出版社情報 (報告の資金提供組織)"
 
 #. descr.volume
-#: citations/citations-util/util/src/bundle/citations.properties:357
+#: citations/citations-util/util/src/bundle/citations.properties:358
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.volume"
 msgid "Volume of the journal"
 msgstr "雑誌の巻名"
 
 #. descr.pages
-#: citations/citations-util/util/src/bundle/citations.properties:358
+#: citations/citations-util/util/src/bundle/citations.properties:359
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.pages"
 msgid "Range (1-3) or list (1-2; 4) of pages"
 msgstr "ページ範囲 (1-3) またはページリスト (1-2; 4)"
 
 #. descr.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:359
+#: citations/citations-util/util/src/bundle/citations.properties:360
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.sourceTitle"
@@ -2776,14 +2784,14 @@ msgid "Title of container (book for a chapter, journal, etc.)"
 msgstr "コンテナ(章が収録されている書籍，文献など)のタイトル "
 
 #. descr.rights
-#: citations/citations-util/util/src/bundle/citations.properties:360
+#: citations/citations-util/util/src/bundle/citations.properties:361
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.rights"
 msgid "Copyright and licensing information"
 msgstr "著作権およびライセンス供与情報"
 
 #. descr.startPage
-#: citations/citations-util/util/src/bundle/citations.properties:361
+#: citations/citations-util/util/src/bundle/citations.properties:362
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.startPage"
@@ -2791,7 +2799,7 @@ msgid "start page"
 msgstr "開始ページ"
 
 #. descr.subject
-#: citations/citations-util/util/src/bundle/citations.properties:362
+#: citations/citations-util/util/src/bundle/citations.properties:363
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.subject"
 msgid ""
@@ -2799,14 +2807,14 @@ msgid ""
 msgstr "ベンダーにより提供される管理された語彙等から抽出されたキーワード"
 
 #. descr.title
-#: citations/citations-util/util/src/bundle/citations.properties:363
+#: citations/citations-util/util/src/bundle/citations.properties:364
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.title"
 msgid "the title"
 msgstr "タイトル"
 
 #. descr.typeOfResource
-#: citations/citations-util/util/src/bundle/citations.properties:364
+#: citations/citations-util/util/src/bundle/citations.properties:365
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:descr.typeOfResource"
@@ -2814,14 +2822,14 @@ msgid "is this a book, article, or what?"
 msgstr "これは，書籍か，論文か，何か他のものですか?"
 
 #. descr.year
-#: citations/citations-util/util/src/bundle/citations.properties:365
+#: citations/citations-util/util/src/bundle/citations.properties:366
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:descr.year"
 msgid "year of publication"
 msgstr "出版年"
 
 #. report.abstract
-#: citations/citations-util/util/src/bundle/citations.properties:366
+#: citations/citations-util/util/src/bundle/citations.properties:367
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.abstract"
@@ -2829,35 +2837,35 @@ msgid "Abstract"
 msgstr "抄録"
 
 #. report.author
-#: citations/citations-util/util/src/bundle/citations.properties:367
+#: citations/citations-util/util/src/bundle/citations.properties:368
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.author"
 msgid "Author(s)"
 msgstr "著者"
 
 #. report.creator
-#: citations/citations-util/util/src/bundle/citations.properties:368
+#: citations/citations-util/util/src/bundle/citations.properties:369
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.creator"
 msgid "Author(s)"
 msgstr "著者"
 
 #. report.doi
-#: citations/citations-util/util/src/bundle/citations.properties:369
+#: citations/citations-util/util/src/bundle/citations.properties:370
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.doi"
 msgid "DOI"
 msgstr "DOI"
 
 #. report.editor
-#: citations/citations-util/util/src/bundle/citations.properties:370
+#: citations/citations-util/util/src/bundle/citations.properties:371
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.editor"
 msgid "Editor(s)"
 msgstr "編集者"
 
 #. report.locIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:371
+#: citations/citations-util/util/src/bundle/citations.properties:372
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.locIdentifier"
@@ -2865,7 +2873,7 @@ msgid "Call Number"
 msgstr "請求記号"
 
 #. report.isnIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:372
+#: citations/citations-util/util/src/bundle/citations.properties:373
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.isnIdentifier"
@@ -2873,7 +2881,7 @@ msgid "ISBN"
 msgstr "ISBN"
 
 #. report.inlineCitation
-#: citations/citations-util/util/src/bundle/citations.properties:373
+#: citations/citations-util/util/src/bundle/citations.properties:374
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.inlineCitation"
@@ -2881,7 +2889,7 @@ msgid "Citation"
 msgstr "文献"
 
 #. report.Language
-#: citations/citations-util/util/src/bundle/citations.properties:374
+#: citations/citations-util/util/src/bundle/citations.properties:375
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.Language"
@@ -2889,14 +2897,14 @@ msgid "Language"
 msgstr "言語"
 
 #. report.notes
-#: citations/citations-util/util/src/bundle/citations.properties:375
+#: citations/citations-util/util/src/bundle/citations.properties:376
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.notes"
 msgid "Notes"
 msgstr "追加情報"
 
 #. report.dateRetrieved
-#: citations/citations-util/util/src/bundle/citations.properties:376
+#: citations/citations-util/util/src/bundle/citations.properties:377
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.dateRetrieved"
@@ -2904,28 +2912,28 @@ msgid "Date Retrieved"
 msgstr "取得日"
 
 #. report.date
-#: citations/citations-util/util/src/bundle/citations.properties:377
+#: citations/citations-util/util/src/bundle/citations.properties:378
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.date"
 msgid "Full Date"
 msgstr "公開日"
 
 #. report.edition
-#: citations/citations-util/util/src/bundle/citations.properties:378
+#: citations/citations-util/util/src/bundle/citations.properties:379
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.edition"
 msgid "Edition"
 msgstr "版"
 
 #. report.note
-#: citations/citations-util/util/src/bundle/citations.properties:379
+#: citations/citations-util/util/src/bundle/citations.properties:380
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.note"
 msgid "Note(s)"
 msgstr "追加情報"
 
 #. report.publicationLocation
-#: citations/citations-util/util/src/bundle/citations.properties:380
+#: citations/citations-util/util/src/bundle/citations.properties:381
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.publicationLocation"
@@ -2933,7 +2941,7 @@ msgid "Publication Location"
 msgstr "出版場所"
 
 #. report.publisher
-#: citations/citations-util/util/src/bundle/citations.properties:381
+#: citations/citations-util/util/src/bundle/citations.properties:382
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.publisher"
@@ -2941,21 +2949,21 @@ msgid "Institution"
 msgstr "出版社"
 
 #. report.pages
-#: citations/citations-util/util/src/bundle/citations.properties:382
+#: citations/citations-util/util/src/bundle/citations.properties:383
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.pages"
 msgid "Pages"
 msgstr "ページ"
 
 #. report.rights
-#: citations/citations-util/util/src/bundle/citations.properties:383
+#: citations/citations-util/util/src/bundle/citations.properties:384
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.rights"
 msgid "Rights"
 msgstr "権利管理"
 
 #. report.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:384
+#: citations/citations-util/util/src/bundle/citations.properties:385
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.sourceTitle"
@@ -2963,21 +2971,21 @@ msgid "Series Title"
 msgstr "シリーズタイトル"
 
 #. report.subject
-#: citations/citations-util/util/src/bundle/citations.properties:385
+#: citations/citations-util/util/src/bundle/citations.properties:386
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.subject"
 msgid "Keywords"
 msgstr "キーワード"
 
 #. report.title
-#: citations/citations-util/util/src/bundle/citations.properties:386
+#: citations/citations-util/util/src/bundle/citations.properties:387
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.title"
 msgid "Report Title"
 msgstr "報告タイトル"
 
 #. report.typeOfResource
-#: citations/citations-util/util/src/bundle/citations.properties:387
+#: citations/citations-util/util/src/bundle/citations.properties:388
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:report.typeOfResource"
@@ -2985,21 +2993,21 @@ msgid "Report"
 msgstr "報告"
 
 #. report.openURL
-#: citations/citations-util/util/src/bundle/citations.properties:388
+#: citations/citations-util/util/src/bundle/citations.properties:389
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.openURL"
 msgid "Open URL"
 msgstr "公開 URL"
 
 #. report.year
-#: citations/citations-util/util/src/bundle/citations.properties:389
+#: citations/citations-util/util/src/bundle/citations.properties:390
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:report.year"
 msgid "Year"
 msgstr "年"
 
 #. unknown.abstract
-#: citations/citations-util/util/src/bundle/citations.properties:390
+#: citations/citations-util/util/src/bundle/citations.properties:391
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.abstract"
@@ -3007,14 +3015,14 @@ msgid "Abstract"
 msgstr "抄録"
 
 #. unknown.author
-#: citations/citations-util/util/src/bundle/citations.properties:391
+#: citations/citations-util/util/src/bundle/citations.properties:392
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.author"
 msgid "Author(s)"
 msgstr "著者"
 
 #. unknown.creator
-#: citations/citations-util/util/src/bundle/citations.properties:392
+#: citations/citations-util/util/src/bundle/citations.properties:393
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.creator"
@@ -3022,14 +3030,14 @@ msgid "Author(s)"
 msgstr "著者"
 
 #. unknown.date
-#: citations/citations-util/util/src/bundle/citations.properties:393
+#: citations/citations-util/util/src/bundle/citations.properties:394
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.date"
 msgid "Publication Date"
 msgstr "出版日"
 
 #. unknown.dateRetrieved
-#: citations/citations-util/util/src/bundle/citations.properties:394
+#: citations/citations-util/util/src/bundle/citations.properties:395
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.dateRetrieved"
@@ -3037,21 +3045,21 @@ msgid "Date Retrieved"
 msgstr "取得日"
 
 #. unknown.doi
-#: citations/citations-util/util/src/bundle/citations.properties:395
+#: citations/citations-util/util/src/bundle/citations.properties:396
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.doi"
 msgid "DOI"
 msgstr "DOI"
 
 #. unknown.editor
-#: citations/citations-util/util/src/bundle/citations.properties:396
+#: citations/citations-util/util/src/bundle/citations.properties:397
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.editor"
 msgid "Editor(s)"
 msgstr "編集者"
 
 #. unknown.edition
-#: citations/citations-util/util/src/bundle/citations.properties:397
+#: citations/citations-util/util/src/bundle/citations.properties:398
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.edition"
@@ -3059,7 +3067,7 @@ msgid "Edition"
 msgstr "版"
 
 #. unknown.endPage
-#: citations/citations-util/util/src/bundle/citations.properties:398
+#: citations/citations-util/util/src/bundle/citations.properties:399
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.endPage"
@@ -3067,7 +3075,7 @@ msgid "End Page"
 msgstr "終了ページ"
 
 #. unknown.locIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:399
+#: citations/citations-util/util/src/bundle/citations.properties:400
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.locIdentifier"
@@ -3075,7 +3083,7 @@ msgid "Call Number"
 msgstr "請求記号"
 
 #. unknown.isnIdentifier
-#: citations/citations-util/util/src/bundle/citations.properties:400
+#: citations/citations-util/util/src/bundle/citations.properties:401
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.isnIdentifier"
@@ -3083,7 +3091,7 @@ msgid "ISBN or ISSN"
 msgstr "ISBN または ISSN"
 
 #. unknown.inlineCitation
-#: citations/citations-util/util/src/bundle/citations.properties:401
+#: citations/citations-util/util/src/bundle/citations.properties:402
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.inlineCitation"
@@ -3091,7 +3099,7 @@ msgid "Citation"
 msgstr "文献"
 
 #. unknown.Language
-#: citations/citations-util/util/src/bundle/citations.properties:402
+#: citations/citations-util/util/src/bundle/citations.properties:403
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.Language"
@@ -3099,14 +3107,14 @@ msgid "Language"
 msgstr "言語"
 
 #. unknown.notes
-#: citations/citations-util/util/src/bundle/citations.properties:403
+#: citations/citations-util/util/src/bundle/citations.properties:404
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.notes"
 msgid "Notes"
 msgstr "追加情報"
 
 #. unknown.openURL
-#: citations/citations-util/util/src/bundle/citations.properties:404
+#: citations/citations-util/util/src/bundle/citations.properties:405
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.openURL"
@@ -3114,21 +3122,21 @@ msgid "Open URL"
 msgstr "公開 URL"
 
 #. unknown.issue
-#: citations/citations-util/util/src/bundle/citations.properties:405
+#: citations/citations-util/util/src/bundle/citations.properties:406
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.issue"
 msgid "Issue"
 msgstr "号"
 
 #. unknown.note
-#: citations/citations-util/util/src/bundle/citations.properties:406
+#: citations/citations-util/util/src/bundle/citations.properties:407
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.note"
 msgid "Note(s)"
 msgstr "追加情報"
 
 #. unknown.publicationLocation
-#: citations/citations-util/util/src/bundle/citations.properties:407
+#: citations/citations-util/util/src/bundle/citations.properties:408
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.publicationLocation"
@@ -3136,7 +3144,7 @@ msgid "Publication Location"
 msgstr "出版社所在地"
 
 #. unknown.publisher
-#: citations/citations-util/util/src/bundle/citations.properties:408
+#: citations/citations-util/util/src/bundle/citations.properties:409
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.publisher"
@@ -3144,14 +3152,14 @@ msgid "Publisher"
 msgstr "出版社"
 
 #. unknown.pages
-#: citations/citations-util/util/src/bundle/citations.properties:409
+#: citations/citations-util/util/src/bundle/citations.properties:410
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.pages"
 msgid "Pages"
 msgstr "ページ"
 
 #. unknown.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:410
+#: citations/citations-util/util/src/bundle/citations.properties:411
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.sourceTitle"
@@ -3159,14 +3167,14 @@ msgid "Source Title"
 msgstr "ソースタイトル"
 
 #. unknown.rights
-#: citations/citations-util/util/src/bundle/citations.properties:411
+#: citations/citations-util/util/src/bundle/citations.properties:412
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.rights"
 msgid "Rights"
 msgstr "権利管理"
 
 #. unknown.startPage
-#: citations/citations-util/util/src/bundle/citations.properties:412
+#: citations/citations-util/util/src/bundle/citations.properties:413
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.startPage"
@@ -3174,7 +3182,7 @@ msgid "Start Page"
 msgstr "開始ページ"
 
 #. unknown.subject
-#: citations/citations-util/util/src/bundle/citations.properties:413
+#: citations/citations-util/util/src/bundle/citations.properties:414
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.subject"
@@ -3182,14 +3190,14 @@ msgid "Subject(s)"
 msgstr "主題"
 
 #. unknown.title
-#: citations/citations-util/util/src/bundle/citations.properties:414
+#: citations/citations-util/util/src/bundle/citations.properties:415
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.title"
 msgid "Title"
 msgstr "タイトル"
 
 #. unknown.typeOfResource
-#: citations/citations-util/util/src/bundle/citations.properties:415
+#: citations/citations-util/util/src/bundle/citations.properties:416
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:unknown.typeOfResource"
@@ -3197,21 +3205,21 @@ msgid "Unknown"
 msgstr "未確認"
 
 #. unknown.volume
-#: citations/citations-util/util/src/bundle/citations.properties:416
+#: citations/citations-util/util/src/bundle/citations.properties:417
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.volume"
 msgid "Volume"
 msgstr "巻"
 
 #. unknown.year
-#: citations/citations-util/util/src/bundle/citations.properties:417
+#: citations/citations-util/util/src/bundle/citations.properties:418
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:unknown.year"
 msgid "Year"
 msgstr "年"
 
 #. proceed.creator
-#: citations/citations-util/util/src/bundle/citations.properties:418
+#: citations/citations-util/util/src/bundle/citations.properties:419
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:proceed.creator"
@@ -3219,21 +3227,21 @@ msgid "Author(s)"
 msgstr "著者"
 
 #. proceed.note
-#: citations/citations-util/util/src/bundle/citations.properties:419
+#: citations/citations-util/util/src/bundle/citations.properties:420
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:proceed.note"
 msgid "Note(s)"
 msgstr "追加情報"
 
 #. proceed.pages
-#: citations/citations-util/util/src/bundle/citations.properties:420
+#: citations/citations-util/util/src/bundle/citations.properties:421
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:proceed.pages"
 msgid "Pages"
 msgstr "ページ"
 
 #. proceed.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:421
+#: citations/citations-util/util/src/bundle/citations.properties:422
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:proceed.sourceTitle"
@@ -3241,28 +3249,28 @@ msgid "Source Title"
 msgstr "ソースタイトル"
 
 #. proceed.title
-#: citations/citations-util/util/src/bundle/citations.properties:422
+#: citations/citations-util/util/src/bundle/citations.properties:423
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:proceed.title"
 msgid "Title"
 msgstr "タイトル"
 
 #. proceed.volume
-#: citations/citations-util/util/src/bundle/citations.properties:423
+#: citations/citations-util/util/src/bundle/citations.properties:424
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:proceed.volume"
 msgid "Volume"
 msgstr "巻"
 
 #. proceed.year
-#: citations/citations-util/util/src/bundle/citations.properties:424
+#: citations/citations-util/util/src/bundle/citations.properties:425
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:proceed.year"
 msgid "Year"
 msgstr "年"
 
 #. electronic.abstract
-#: citations/citations-util/util/src/bundle/citations.properties:425
+#: citations/citations-util/util/src/bundle/citations.properties:426
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:electronic.abstract"
@@ -3270,7 +3278,7 @@ msgid "Abstract"
 msgstr "抄録"
 
 #. electronic.sourceTitle
-#: citations/citations-util/util/src/bundle/citations.properties:426
+#: citations/citations-util/util/src/bundle/citations.properties:427
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:electronic.sourceTitle"
@@ -3278,7 +3286,7 @@ msgid "Source Title"
 msgstr "ソースタイトル"
 
 #. electronic.subject
-#: citations/citations-util/util/src/bundle/citations.properties:427
+#: citations/citations-util/util/src/bundle/citations.properties:428
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:electronic.subject"
@@ -3286,7 +3294,7 @@ msgid "Subject(s)"
 msgstr "主題"
 
 #. electronic.title
-#: citations/citations-util/util/src/bundle/citations.properties:428
+#: citations/citations-util/util/src/bundle/citations.properties:429
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:electronic.title"
@@ -3294,7 +3302,7 @@ msgid "Title"
 msgstr "タイトル"
 
 #. electronic.year
-#: citations/citations-util/util/src/bundle/citations.properties:429
+#: citations/citations-util/util/src/bundle/citations.properties:430
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:electronic.year"
@@ -3302,28 +3310,28 @@ msgid "Year"
 msgstr "年"
 
 #. thesis.creator
-#: citations/citations-util/util/src/bundle/citations.properties:430
+#: citations/citations-util/util/src/bundle/citations.properties:431
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:thesis.creator"
 msgid "Author(s)"
 msgstr "著者"
 
 #. thesis.note
-#: citations/citations-util/util/src/bundle/citations.properties:431
+#: citations/citations-util/util/src/bundle/citations.properties:432
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:thesis.note"
 msgid "Note(s)"
 msgstr "追加情報"
 
 #. thesis.pages
-#: citations/citations-util/util/src/bundle/citations.properties:432
+#: citations/citations-util/util/src/bundle/citations.properties:433
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:thesis.pages"
 msgid "Pages"
 msgstr "ページ"
 
 #. thesis.publisher
-#: citations/citations-util/util/src/bundle/citations.properties:433
+#: citations/citations-util/util/src/bundle/citations.properties:434
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:thesis.publisher"
@@ -3331,35 +3339,35 @@ msgid "Publisher"
 msgstr "出版社"
 
 #. thesis.subject
-#: citations/citations-util/util/src/bundle/citations.properties:434
+#: citations/citations-util/util/src/bundle/citations.properties:435
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:thesis.subject"
 msgid "Subject(s)"
 msgstr "主題"
 
 #. thesis.title
-#: citations/citations-util/util/src/bundle/citations.properties:435
+#: citations/citations-util/util/src/bundle/citations.properties:436
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:thesis.title"
 msgid "Title"
 msgstr "タイトル"
 
 #. thesis.year
-#: citations/citations-util/util/src/bundle/citations.properties:436
+#: citations/citations-util/util/src/bundle/citations.properties:437
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:thesis.year"
 msgid "Year"
 msgstr "年"
 
 #. reorder.title
-#: citations/citations-util/util/src/bundle/citations.properties:437
+#: citations/citations-util/util/src/bundle/citations.properties:438
 msgctxt ""
 "citations/citations-util/util/src/bundle/citations.properties:reorder.title"
 msgid "Reordering:"
 msgstr "順序変更:"
 
 #. reorder.instruction
-#: citations/citations-util/util/src/bundle/citations.properties:438
+#: citations/citations-util/util/src/bundle/citations.properties:439
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:reorder.instruction"
@@ -3369,7 +3377,7 @@ msgid ""
 msgstr "タイトル等でソート可能になるとともに，文献一覧が今定義された順番付けを持ちました．順序変更するには一覧アイテムをドラッグ&ドロップし，保存をクリックします．"
 
 #. savecite.delete.missing_params
-#: citations/citations-util/util/src/bundle/citations.properties:439
+#: citations/citations-util/util/src/bundle/citations.properties:440
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.delete.missing_params"
@@ -3377,7 +3385,7 @@ msgid "Must supply resource-id and citation-id to remove citation."
 msgstr "文献を削除するにはリソースIDと文献IDを入力してください．"
 
 #. savecite.delete.invalid_uuid
-#: citations/citations-util/util/src/bundle/citations.properties:440
+#: citations/citations-util/util/src/bundle/citations.properties:441
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.delete.invalid_uuid"
@@ -3385,7 +3393,7 @@ msgid "Invalid resource identifier."
 msgstr "無効なリソース識別子"
 
 #. savecite.delete.not_permitted
-#: citations/citations-util/util/src/bundle/citations.properties:441
+#: citations/citations-util/util/src/bundle/citations.properties:442
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.delete.not_permitted"
@@ -3393,7 +3401,7 @@ msgid "You do not have permission to remove citations from this resource."
 msgstr "リソースから文献を削除する権限がありません．"
 
 #. savecite.delete.internal
-#: citations/citations-util/util/src/bundle/citations.properties:442
+#: citations/citations-util/util/src/bundle/citations.properties:443
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.delete.internal"
@@ -3401,7 +3409,7 @@ msgid "Server could not process request at this time."
 msgstr "今サーバは要求を処理できませんでした．"
 
 #. savecite.button.add_more
-#: citations/citations-util/util/src/bundle/citations.properties:443
+#: citations/citations-util/util/src/bundle/citations.properties:444
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.button.add_more"
@@ -3409,7 +3417,7 @@ msgid "Return to search results to add more citations."
 msgstr "複数の文献を追加するには検索結果に戻ります．"
 
 #. savecite.button.done
-#: citations/citations-util/util/src/bundle/citations.properties:444
+#: citations/citations-util/util/src/bundle/citations.properties:445
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.button.done"
@@ -3417,7 +3425,7 @@ msgid "Close the search window and return to your citation list."
 msgstr "検索ウィンドウを閉じて文献リストに戻ります．"
 
 #. savecite.button.cancel
-#: citations/citations-util/util/src/bundle/citations.properties:445
+#: citations/citations-util/util/src/bundle/citations.properties:446
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.button.cancel"
@@ -3425,7 +3433,7 @@ msgid "Remove all of these citations and return to your citation list."
 msgstr "すべての文献を削除して文献リストに戻ります．"
 
 #. savecite.cancel
-#: citations/citations-util/util/src/bundle/citations.properties:446
+#: citations/citations-util/util/src/bundle/citations.properties:447
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.cancel"
@@ -3433,7 +3441,7 @@ msgid "Cancel"
 msgstr "キャンセル"
 
 #. savecite.title.success
-#: citations/citations-util/util/src/bundle/citations.properties:447
+#: citations/citations-util/util/src/bundle/citations.properties:448
 msgctxt ""
 "citations/citations-"
 "util/util/src/bundle/citations.properties:savecite.title.success"

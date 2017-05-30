@@ -1,11 +1,12 @@
 # 
 # Translators:
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-02-24 23:00+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-20 09:15+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -660,7 +661,7 @@ msgctxt ""
 "rwiki/rwiki-"
 "tool/tool/src/bundle/uk/ac/cam/caret/sakai/rwiki/tool/bundle/Messages.properties:jsp_error_permission_denied_message"
 msgid "You do not have the correct permissions."
-msgstr "正しい権限を持っていません"
+msgstr "正しい権限がありません．"
 
 #. jsp_error_unknown_exception
 #: rwiki/rwiki-tool/tool/src/bundle/uk/ac/cam/caret/sakai/rwiki/tool/bundle/Messages.properties:50
@@ -3746,7 +3747,7 @@ msgctxt ""
 "rwiki/rwiki-"
 "impl/impl/src/bundle/uk/ac/cam/caret/sakai/rwiki/component/bundle/Messages.properties:RWikiObjectServiceImpl.75"
 msgid "Failed to add "
-msgstr "追懐に失敗しました"
+msgstr "追加に失敗しました"
 
 #. RWikiObjectServiceImpl.76
 #: rwiki/rwiki-impl/impl/src/bundle/uk/ac/cam/caret/sakai/rwiki/component/bundle/Messages.properties:96
@@ -4015,9 +4016,8 @@ msgstr " サイトから送信されました．\n"
 msgctxt ""
 "rwiki/rwiki-"
 "impl/impl/src/bundle/uk/ac/cam/caret/sakai/rwiki/component/bundle/Messages.properties:SiteEmailNotificationRWiki.36"
-msgid ""
-"You can modify how you receive notifications at My Workspace > Preferences."
-msgstr "どのように通知を受け取るかは，マイワークスペース→設定で変更することができます．"
+msgid "You can modify how you receive notifications at Home > Preferences."
+msgstr "通知受信設定は，ホーム→設定で修正することができます．"
 
 #. XLSTChangesHandler.19
 #: rwiki/rwiki-impl/impl/src/bundle/uk/ac/cam/caret/sakai/rwiki/component/bundle/Messages.properties:129

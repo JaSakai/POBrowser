@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-02 22:04+0000\n"
-"Last-Translator: JaSakai i18n Group <i18n@sakaiproject.jp>\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-06 11:44+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -49,8 +49,8 @@ msgstr "使用方法情報表示をカスタマイズ"
 #. gen.custom.workspace
 #: web/web-tool/tool/src/bundle/iframe.properties:6
 msgctxt "web/web-tool/tool/src/bundle/iframe.properties:gen.custom.workspace"
-msgid "Customize My Workspace Info Display"
-msgstr "マイ・ワークサイト情報表示をカスタマイズ"
+msgid "Customize Home Info Display"
+msgstr "ホーム情報表示をカスタマイズ"
 
 #. gen.height
 #: web/web-tool/tool/src/bundle/iframe.properties:7
@@ -248,8 +248,8 @@ msgstr "入力された高さが正しくありませんでした．"
 #: web/web-tool/tool/src/bundle/iframe.properties:39
 msgctxt ""
 "web/web-tool/tool/src/bundle/iframe.properties:gen.info.title.message"
-msgid "My Workspace Information Message"
-msgstr "マイワークスペース情報メッセージ"
+msgid "Home Information Message"
+msgstr "ホーム情報メッセージ"
 
 #. gen.trouble.loading
 #: web/web-tool/tool/src/bundle/iframe.properties:40
@@ -309,8 +309,8 @@ msgstr "使用方法情報表示をカスタマイズ"
 #. gen.custom.workspace
 #: web/web-portlet/src/bundle/iframe.properties:6
 msgctxt "web/web-portlet/src/bundle/iframe.properties:gen.custom.workspace"
-msgid "Customize My Workspace Info Display"
-msgstr "マイ・ワークサイト情報表示をカスタマイズ"
+msgid "Customize Home Info Display"
+msgstr "ホーム情報表示をカスタマイズ"
 
 #. gen.height
 #: web/web-portlet/src/bundle/iframe.properties:7
@@ -513,8 +513,8 @@ msgstr "入力された高さが正しくありませんでした．"
 #. gen.info.title.message
 #: web/web-portlet/src/bundle/iframe.properties:40
 msgctxt "web/web-portlet/src/bundle/iframe.properties:gen.info.title.message"
-msgid "My Workspace Information Message"
-msgstr "マイワークスペース情報メッセージ"
+msgid "Home Information Message"
+msgstr "ホーム情報メッセージ"
 
 #. gen.info.maximize
 #: web/web-portlet/src/bundle/iframe.properties:41

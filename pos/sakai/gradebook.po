@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-04 04:05+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-09-08 15:56+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -352,7 +352,7 @@ msgctxt ""
 "gradebook/app/ui/src/webapp/WEB-INF/bundle/messages.properties:gradebook"
 ".grade-gradebook-item.entry_type_letter"
 msgid "Letter Grade"
-msgstr "評定文字"
+msgstr "文字成績"
 
 #. gradebook.grade-gradebook-item.gradebook_item_legend
 #: gradebook/app/ui/src/webapp/WEB-INF/bundle/messages.properties:42
@@ -392,7 +392,7 @@ msgctxt ""
 "gradebook/app/ui/src/webapp/WEB-INF/bundle/messages.properties:gradebook"
 ".grade-gradebook-item.letter_label"
 msgid "Letter Grade"
-msgstr "評定文字"
+msgstr "文字成績"
 
 #. gradebook.grade-gradebook-item.instructor_comments
 #: gradebook/app/ui/src/webapp/WEB-INF/bundle/messages.properties:47
@@ -476,7 +476,7 @@ msgstr "成績簿アイテムおよび成績簿ツール表示に任せる特別
 #: gradebook/app/ui/src/java/gradebook.properties:2
 msgctxt "gradebook/app/ui/src/java/gradebook.properties:gradebook.action.site"
 msgid ""
-"Retrieve the Gradebook items for a site. The request url pattern: "
+"Retrieve the Gradebook items for a site. The request url pattern is: "
 "/direct/gradebook/site/{siteId}.{format}"
 msgstr "サイトの成績簿アイテムを取得します．リクエスト URL パタン：/direct/gradebook/site/{siteId}.{format}"
 
@@ -485,7 +485,7 @@ msgstr "サイトの成績簿アイテムを取得します．リクエスト UR
 msgctxt "gradebook/app/ui/src/java/gradebook.properties:gradebook.action.item"
 msgid ""
 "Retrieve details of an assignment grading specified by the assignment name. "
-"The request url pattern: "
+"The request url pattern is: "
 "/direct/gradebook/item/{siteId}/{assignmentName}.{format}"
 msgstr "課題名によって指定される課題評価の詳細を取得します．リクエスト URL パタン： /direct/gradebook/item/{siteId}/{assignmentName}.{format}"
 
@@ -493,9 +493,20 @@ msgstr "課題名によって指定される課題評価の詳細を取得しま
 #: gradebook/app/ui/src/java/gradebook.properties:4
 msgctxt "gradebook/app/ui/src/java/gradebook.properties:gradebook.action.my"
 msgid ""
-"Retrieve all my grades for all of my sites. The request url pattern: "
+"Retrieve all my grades for all of my sites. The request url pattern is: "
 "/direct/gradebook/my.{format}"
 msgstr "すべてのサイトのすべての成績を取得します．リクエスト URL パタン：/direct/gradebook/my.{format}"
+
+#. gradebook.action.batch
+#: gradebook/app/ui/src/java/gradebook.properties:5
+msgctxt ""
+"gradebook/app/ui/src/java/gradebook.properties:gradebook.action.batch"
+msgid ""
+"Retrieve the gradebook data for a single site or a batch of sites. Each "
+"siteId should be comma separated. Requester must be a super user or an "
+"instructor in every site requested or it will be skipped. The request url "
+"pattern is: /direct/gradebook/batch.{format}?siteIds=ID1,ID2,ID3,IDn"
+msgstr "一つのサイトまたは一群のサイトの成績簿データを取得します．それぞれのサイトIDはコンマで区切ります．リクエスタはそれぞれの要求されたサイトの特権ユーザあるいは教員でなければならず，そうでないとスキップされます．リクエストURLパタン：/direct/gradebook/batch.{format}?siteIds=ID1,ID2,ID3,IDn"
 
 #. course_grade_name
 #: gradebook/app/ui/src/bundle/org/sakaiproject/tool/gradebook/bundle/Messages.properties:1
@@ -1659,7 +1670,7 @@ msgstr "成績を上書き"
 msgctxt ""
 "gradebook/app/ui/src/bundle/org/sakaiproject/tool/gradebook/bundle/Messages.properties:course_grade_details_export_course_grades_options_coursegrade"
 msgid "Course Grade"
-msgstr "コース評定"
+msgstr "コース成績"
 
 #. course_grade_details_export_course_grades_options_lastmod
 #: gradebook/app/ui/src/bundle/org/sakaiproject/tool/gradebook/bundle/Messages.properties:162
@@ -3465,7 +3476,7 @@ msgid ""
 "You may not set values for both Drop Highest/Drop Lowest and Keep Highest "
 "for the same category. To continue, remove the value for either Drop "
 "Highest/Drop Lowest or Keep Highest."
-msgstr "同じカテゴリに対する \"最高点を除外\" \"最低点を除外\" と， \"最高点を採用\" の両方の値を設定することはできません． \"最高点を除外\" \"最低点を除外\" または \"最高点を採用\" のいずれかの値を削除して下さい．"
+msgstr "同じカテゴリに対する 「最高点を除外」「最低点を除外」と， 「最高点を採用」の両方の値を設定することはできません．「最高点を除外」「最低点を除外」または 「最高点を採用」のいずれかの値を削除して下さい．"
 
 #. cat_relativeweight_not_valid
 #: gradebook/app/ui/src/bundle/org/sakaiproject/tool/gradebook/bundle/Messages.properties:407
@@ -4028,7 +4039,7 @@ msgstr "成績入力基準"
 msgctxt ""
 "gradebook/app/ui/src/bundle/org/sakaiproject/tool/gradebook/bundle/Messages.properties:grade_scale_grade"
 msgid "Grade"
-msgstr "採点"
+msgstr "成績"
 
 #. grade_entry_invalid
 #: gradebook/app/ui/src/bundle/org/sakaiproject/tool/gradebook/bundle/Messages.properties:478

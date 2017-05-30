@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-04 04:05+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-06 08:18+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -3294,7 +3294,7 @@ msgstr "必須アイテムには {0} がマークされています．"
 #: content/content-bundles/resources/types.properties:163
 msgctxt "content/content-bundles/resources/types.properties:instr.text"
 msgid "Type in the text and click 'Continue' at the bottom."
-msgstr "テキストを入力し，一番下の \"続ける\" をクリックします．"
+msgstr "テキストを入力し，一番下の 「続ける」をクリックします．"
 
 #. instr.title
 #: content/content-bundles/resources/types.properties:164
@@ -3318,9 +3318,9 @@ msgid ""
 " the upload. Note that you cannot upload more than {0} MB of material at "
 "once.<br /><br />Copyright: It is your personal responsibility to verify "
 "that you have permission from the copyright holder to upload the file(s) to "
-"this web site. Text, graphics and other media files may all be subject to "
+"this website. Text, graphics and other media files may all be subject to "
 "copyright control even if your site is restricted to site members."
-msgstr "ファイルは個別もしくはZIPアーカイブでアップロードされます．ファイル操作メニューでアップロードした後にZIPを展開します．アップロードを完了する前にファイルを削除するには，それらの隣にあるXをクリックします．アップロードを完了する準備ができたときにファイルアップロードをクリックします．一度に{0} MB以上の教材をアップロードすることはできません．<br /><br />著作権：　このwebサイトにファイルをアップロードする著作権保有者からあなたが許可されていることを確認する個人的な責任があります．テキスト，グラフィックス，また他のメディアのファイルは，例えそのサイトがサイトメンバーに制限されていても，著作権がすべてに適用されます．"
+msgstr "ファイルは個別もしくはZIPアーカイブでアップロードされます．ファイル操作メニューでアップロードした後にZIPを展開します．アップロードを完了する前にファイルを削除するには，それらの隣にあるXをクリックします．アップロードを完了する準備ができたときにファイルアップロードをクリックします．一度に{0} MB以上の教材をアップロードすることはできません．<br /><br />著作権：　このWebサイトにファイルをアップロードする著作権保有者からあなたが許可されていることを確認する個人的な責任があります．テキスト，グラフィックス，また他のメディアのファイルは，例えそのサイトがサイトメンバーに制限されていても，著作権がすべてに適用されます．"
 
 #. instr.dnd.uploads
 #: content/content-bundles/resources/types.properties:167
@@ -3330,10 +3330,10 @@ msgid ""
 "uploading via the file''s Action menu. Click Continue when ready to complete"
 " the upload. Note that you cannot upload more than {0} MB of material at "
 "once.<br /> Copyright: It is your personal responsibility to verify that you"
-" have permission from the copyright holder to upload the file(s) to this web"
-" site. Text, graphics and other media files may all be subject to copyright "
-"control even if your site is restricted to site members."
-msgstr "ファイルは個別もしくはZIPアーカイブでアップロードされます．ファイル操作メニューでアップロードした後にZIPを展開します．アップロードを完了する準備ができたときに継続をクリックします．一度に{0} MB以上の教材をアップロードすることはできません．<br />著作権：　このwebサイトにファイルをアップロードする著作権保有者からあなたが許可されていることを確認する個人的な責任があります．テキスト，グラフィックス，また他のメディアのファイルは，例えそのサイトがサイトメンバーに制限されていても，著作権がすべてに適用されます．"
+" have permission from the copyright holder to upload the file(s) to this "
+"website. Text, graphics and other media files may all be subject to "
+"copyright control even if your site is restricted to site members."
+msgstr "ファイルは個別もしくはZIPアーカイブでアップロードされます．ファイル操作メニューでアップロードした後にZIPを展開します．アップロードを完了する準備ができたときに「続ける」をクリックします．一度に{0} MB以上の教材をアップロードすることはできません．<br /><br />著作権：　このWebサイトにファイルをアップロードする著作権保有者からあなたが許可されていることを確認する個人的な責任があります．テキスト，グラフィックス，また他のメディアのファイルは，例えそのサイトがサイトメンバーに制限されていても，著作権がすべてに適用されます．"
 
 #. instr.url
 #: content/content-bundles/resources/types.properties:168

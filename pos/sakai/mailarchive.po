@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-02-27 16:59+0000\n"
-"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-08-14 22:00+0000\n"
+"Last-Translator: JaSakai i18n Group <i18n@sakaiproject.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -107,9 +107,8 @@ msgstr "この自動通知メッセージは「{2}」サイトから「{0}」({1
 #: mailarchive/mailarchive-impl/impl/src/bundle/siteemaanc.properties:13
 msgctxt ""
 "mailarchive/mailarchive-impl/impl/src/bundle/siteemaanc.properties:automsg2"
-msgid ""
-"You can modify how you receive notifications at My Workspace > Preferences."
-msgstr "通知方法の修正は「ワークスペース→設定」で行います．"
+msgid "You can modify how you receive notifications at Home > Preferences."
+msgstr "通知受信設定は，ホーム→設定で修正することができます．"
 
 #. prefs_title
 #: mailarchive/mailarchive-impl/impl/src/bundle/mailarchive-noti-prefs.properties:1
@@ -190,56 +189,6 @@ msgstr "サイトメンバでないか，メンバであってもメールをサ
 msgctxt ""
 "mailarchive/mailarchive-"
 "subetha/src/bundle/sakaimailet.properties:err_no_subject"
-msgid "No subject"
-msgstr "件名なし"
-
-#. err_questions
-#: mailarchive/mailarchive-james/james/src/bundle/sakaimailet.properties:1
-msgctxt ""
-"mailarchive/mailarchive-"
-"james/james/src/bundle/sakaimailet.properties:err_questions"
-msgid "If you have further questions about this feature, please email {0}"
-msgstr "この機能についてさらに質問がある場合は，{0} 宛にメールをお送り下さい．"
-
-#. err_email_off
-#: mailarchive/mailarchive-james/james/src/bundle/sakaimailet.properties:2
-msgctxt ""
-"mailarchive/mailarchive-"
-"james/james/src/bundle/sakaimailet.properties:err_email_off"
-msgid ""
-"Your message cannot be delivered because the site you are emailing does not "
-"have the email feature turned on. Please contact the site owner to ask about"
-" enabling this feature on the site."
-msgstr "メールしようとしているサイトがメール機能をオンにしていないため，メッセージを配送することができません．サイト所有者に連絡してサイトのこの機能を有効にするようお問い合わせ下さい．"
-
-#. err_addr_unknown
-#: mailarchive/mailarchive-james/james/src/bundle/sakaimailet.properties:3
-msgctxt ""
-"mailarchive/mailarchive-"
-"james/james/src/bundle/sakaimailet.properties:err_addr_unknown"
-msgid "Your message cannot be delivered because the address is unknown."
-msgstr "アドレスが不明なため，メッセージを配送することができません．"
-
-#. err_not_member
-#: mailarchive/mailarchive-james/james/src/bundle/sakaimailet.properties:4
-msgctxt ""
-"mailarchive/mailarchive-"
-"james/james/src/bundle/sakaimailet.properties:err_not_member"
-msgid ""
-"Your message cannot be delivered because you are not a member of the site, "
-"or you are a member but don't have the permission to send email to the site,"
-" or because you are registered with a different email address. If you are "
-"sending email from the correct email address, and you believe your email "
-"should be accepted at the site please contact the site owner and have them "
-"check the permission settings for the email archive tool under 'Permissions'"
-" for that tool."
-msgstr "サイトメンバでないか，メンバであってもメールをサイトに送信する権限がないか，あるいは，異なるメールアドレスを登録しているため，メッセージを配送することができません．"
-
-#. err_no_subject
-#: mailarchive/mailarchive-james/james/src/bundle/sakaimailet.properties:5
-msgctxt ""
-"mailarchive/mailarchive-"
-"james/james/src/bundle/sakaimailet.properties:err_no_subject"
 msgid "No subject"
 msgstr "件名なし"
 

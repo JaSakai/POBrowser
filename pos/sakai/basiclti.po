@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-31 06:30+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-09-09 15:54+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -42,8 +42,8 @@ msgstr "サイト情報表示をカスタマイズ"
 #. gen.custom.workspace
 #: basiclti/web-ifp/src/bundle/iframe.properties:5
 msgctxt "basiclti/web-ifp/src/bundle/iframe.properties:gen.custom.workspace"
-msgid "Customize My Workspace Info Display"
-msgstr "マイ・ワークサイト情報表示をカスタマイズ"
+msgid "Customize Home Info Display"
+msgstr "ホーム情報表示をカスタマイズ"
 
 #. gen.height
 #: basiclti/web-ifp/src/bundle/iframe.properties:6
@@ -2038,6 +2038,62 @@ msgctxt ""
 msgid "Unable to remove tool placement"
 msgstr "ツール配置を削除することができません"
 
+#. export.title
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:104
+msgctxt "basiclti/basiclti-impl/src/bundle/ltiservice.properties:export.title"
+msgid "Title"
+msgstr "タイトル:"
+
+#. export.url
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:105
+msgctxt "basiclti/basiclti-impl/src/bundle/ltiservice.properties:export.url"
+msgid "URL"
+msgstr "URL"
+
+#. export.sitetitle
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:106
+msgctxt ""
+"basiclti/basiclti-impl/src/bundle/ltiservice.properties:export.sitetitle"
+msgid "Site Title"
+msgstr "サイトタイトル"
+
+#. export.siteid
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:107
+msgctxt ""
+"basiclti/basiclti-impl/src/bundle/ltiservice.properties:export.siteid"
+msgid "Site ID"
+msgstr "サイト ID"
+
+#. export.createdat
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:108
+msgctxt ""
+"basiclti/basiclti-impl/src/bundle/ltiservice.properties:export.createdat"
+msgid "Added On"
+msgstr "追加"
+
+#. export.sitecontactname
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:109
+msgctxt ""
+"basiclti/basiclti-"
+"impl/src/bundle/ltiservice.properties:export.sitecontactname"
+msgid "Site Owner"
+msgstr "サイト所有者"
+
+#. export.sitecontactemail
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:110
+msgctxt ""
+"basiclti/basiclti-"
+"impl/src/bundle/ltiservice.properties:export.sitecontactemail"
+msgid "Site Contact"
+msgstr "サイト連絡先"
+
+#. content.attribution
+#: basiclti/basiclti-impl/src/bundle/ltiservice.properties:111
+msgctxt ""
+"basiclti/basiclti-impl/src/bundle/ltiservice.properties:content.attribution"
+msgid "Department"
+msgstr "学科"
+
 #. gen.options
 #: basiclti/basiclti-tool/src/bundle/ltitool.properties:1
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:gen.options"
@@ -2379,15 +2435,36 @@ msgid ""
 "launched.</p>"
 msgstr "<p>注意: すべてのツールは起動するためのヌルでないサイト ID を持つ必要があります．</p>"
 
-#. contentitem.link
+#. content.export.csv
 #: basiclti/basiclti-tool/src/bundle/ltitool.properties:51
+msgctxt ""
+"basiclti/basiclti-tool/src/bundle/ltitool.properties:content.export.csv"
+msgid "Export to CSV"
+msgstr "CSV にエクスポート"
+
+#. content.export.excel
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:52
+msgctxt ""
+"basiclti/basiclti-tool/src/bundle/ltitool.properties:content.export.excel"
+msgid "Export to Excel"
+msgstr "Excelにエクスポート"
+
+#. content.attribution
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:53
+msgctxt ""
+"basiclti/basiclti-tool/src/bundle/ltitool.properties:content.attribution"
+msgid "Department"
+msgstr "学科"
+
+#. contentitem.link
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:54
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:contentitem.link"
 msgid "Launch External Tool Configuration"
 msgstr "外部ツール設定を起動する"
 
 #. contentitem.detail
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:52
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:55
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:contentitem.detail"
 msgid ""
@@ -2397,7 +2474,7 @@ msgid ""
 msgstr "このツールは自己構成ができます．ツールの構成機能を使う際に問題がある場合は，ツールを構成するためにこの画面に戻って下さい．"
 
 #. error.contentitem.missing.returnurl
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:53
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:56
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.contentitem.missing.returnurl"
@@ -2405,7 +2482,7 @@ msgid "Missing returnUrl on ContentItemResponse"
 msgstr "ContentItemResponse に returnUrl がありません"
 
 #. error.contentitem.missing.data
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:54
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:57
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.contentitem.missing.data"
@@ -2413,14 +2490,14 @@ msgid "Missing data= parameter on ContentItemResponse"
 msgstr "ContentItemResponse に data= parameter がありません"
 
 #. error.contentitem.bad
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:55
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:58
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.contentitem.bad"
 msgid "Error in returned ContentItemResponse"
 msgstr "返されたContentItemResponse にエラーがあります"
 
 #. error.contentitem.missing
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:56
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:59
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.contentitem.missing"
@@ -2428,7 +2505,7 @@ msgid "Missing tool key in ContentItemResponse"
 msgstr "ContentItemResponse にツールキーがありません"
 
 #. error.contentitem.incorrect
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:57
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:60
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.contentitem.incorrect"
@@ -2436,7 +2513,7 @@ msgid "Incorrect tool key in ContentItemResponse"
 msgstr "ContentItemResponse に不正なツールキーがあります"
 
 #. error.contentitem.no.validate
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:58
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:61
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.contentitem.no.validate"
@@ -2444,7 +2521,7 @@ msgid "OAuth validation error"
 msgstr "OAuth検証エラー"
 
 #. error.contentitem.no.ltilink
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:59
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:62
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.contentitem.no.ltilink"
@@ -2452,13 +2529,13 @@ msgid "Missing LtiLinkItem in ContentItemResponse @graph"
 msgstr "ContentItemResponse @graph に LtiLinkItem がありません"
 
 #. link.add
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:60
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:63
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:link.add"
 msgid "Adding Site Nagivation Link"
 msgstr "サイトナビゲーションリンクを追加"
 
 #. link.add.detail
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:61
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:64
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:link.add.detail"
 msgid ""
 "<p>This will add a link to this tool to your site navigation.  When you add "
@@ -2466,34 +2543,34 @@ msgid ""
 msgstr "<p>これにより，あなたのサイトナビゲーションにこのツールへのリンクが追加されます．リンクを追加すると，ナビゲーションを更新するためにページ全体がリセットされます．</p>"
 
 #. link.button.text
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:62
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:65
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:link.button.text"
 msgid "Button Text"
 msgstr "ボタンテキスト"
 
 #. error.link.add.fail
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:63
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:66
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.link.add.fail"
 msgid "Link Addition Failed"
 msgstr "リンク追加に失敗"
 
 #. success.link.add
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:64
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:67
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:success.link.add"
 msgid "Linked"
 msgstr "リンク日時"
 
 #. link.remove
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:65
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:68
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:link.remove"
 msgid "Removing Site Nagivation Link"
 msgstr "サイトナビゲーションリンクを削除"
 
 #. link.remove.detail
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:66
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:69
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:link.remove.detail"
 msgid ""
@@ -2503,58 +2580,58 @@ msgid ""
 msgstr "<p>これにより，あなたのサイトナビゲーションからこのツールへのリンクが削除されます．リンクを削除すると，ナビゲーションを更新するためにページ全体がリセットされます．</p>"
 
 #. error.link.remove.fail
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:67
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:70
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.link.remove.fail"
 msgid "Link Addition Failed"
 msgstr "リンク追加に失敗"
 
 #. success.link.remove
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:68
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:71
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:success.link.remove"
 msgid "Link removed"
 msgstr "リンクが削除されました"
 
 #. success.deleted
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:69
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:72
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:success.deleted"
 msgid "Deleted"
 msgstr "削除部分"
 
 #. success.created
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:70
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:73
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:success.created"
 msgid "Created"
 msgstr "作成日時"
 
 #. success.updated
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:71
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:74
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:success.updated"
 msgid "Updated"
 msgstr "修正日時"
 
 #. success.linked
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:72
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:75
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:success.linked"
 msgid "Linked"
 msgstr "リンク日時"
 
 #. error.delete.fail
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:73
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:76
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.delete.fail"
 msgid "Delete failed"
 msgstr "削除に失敗しました"
 
 #. error.link.fail
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:74
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:77
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.link.fail"
 msgid "Link failed"
 msgstr "リンクに失敗しました"
 
 #. error.placement.not.removed
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:75
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:78
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.placement.not.removed"
@@ -2562,35 +2639,35 @@ msgid "Unable to remove tool placement"
 msgstr "ツール配置を削除することができません"
 
 #. error.maintain.edit
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:76
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:79
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.maintain.edit"
 msgid "Must be site maintainer to edit"
 msgstr "編集するためにはサイト保守者である必要があります"
 
 #. error.maintain.view
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:77
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:80
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.maintain.view"
 msgid "Must be site maintainer to view"
 msgstr "表示するためにはサイト保守者である必要があります"
 
 #. error.maintain.delete
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:78
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:81
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.maintain.delete"
 msgid "Must be site maintainer to view"
 msgstr "表示するためにはサイト保守者である必要があります"
 
 #. error.maintain.link
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:79
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:82
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.maintain.link"
 msgid "Must be site maintainer to manage links"
 msgstr "リンクを管理するためにはサイト保守者である必要があります"
 
 #. error.register.not.ready
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:80
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:83
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.register.not.ready"
@@ -2598,21 +2675,21 @@ msgid "This deployment is not ready to be registered"
 msgstr "この配備はまだ登録することができません"
 
 #. error.deploy.not.found
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:81
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:84
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.deploy.not.found"
 msgid "Deployment not found"
 msgstr "配備が見つかりませんでした."
 
 #. error.deploy.missing
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:82
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:85
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.deploy.missing"
 msgid "Deployment is missing or improperly configured."
 msgstr "配備がされていないか正しく設定されていません．"
 
 #. error.activate.not.ready
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:83
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:86
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.activate.not.ready"
@@ -2620,35 +2697,35 @@ msgid "This deployment is not ready to be activated"
 msgstr "この配備はまだ有効化できません"
 
 #. error.deploy.badstate
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:84
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:87
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.deploy.badstate"
 msgid "Deployment is in the wrong state to register"
 msgstr "配備が登録するには不正な状態です．"
 
 #. error.deploy.badproxy
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:85
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:88
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.deploy.badproxy"
 msgid "This deployment has a broken reg_profile."
 msgstr "この配備に壊れたreg_profile があります． "
 
 #. error.deploy.noreg
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:86
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:89
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.deploy.noreg"
 msgid "This deployment is has no registration url."
 msgstr "この配備には登録URLがありません．"
 
 #. error.deploy.partial
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:87
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:90
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.deploy.partial"
 msgid "Deployment is incomplete, missing a key and secret."
 msgstr "配備が未完了で，キーとシークレットがありません．"
 
 #. error.deploy.not.config
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:88
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:91
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.deploy.not.config"
 msgid ""
@@ -2657,77 +2734,77 @@ msgid ""
 msgstr "このサーバはLTI2が設定されていません．サンプル構成は使えます．プロダクションではサンプルデータを使わないで下さい．"
 
 #. error.admin.edit
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:89
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:92
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.admin.edit"
 msgid "Must be site adminstrator to edit"
 msgstr "編集するためにはサイト管理者である必要があります"
 
 #. error.admin.view
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:90
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:93
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.admin.view"
 msgid "Must be site administrator to view"
 msgstr "表示するためにはサイト管理者である必要があります"
 
 #. error.admin.delete
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:91
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:94
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.admin.delete"
 msgid "Must be site administrator to view"
 msgstr "表示するためにはサイト管理者である必要があります"
 
 #. error.admin.activate
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:92
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:95
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.admin.activate"
 msgid "Must be an administrator to activate"
 msgstr "有効化するためにはサイト管理者である必要があります"
 
 #. error.admin.register
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:93
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:96
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.admin.register"
 msgid "Must be an administrator to register "
 msgstr "登録するためにはサイト管理者である必要があります"
 
 #. error.id.not.found
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:94
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:97
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.id.not.found"
 msgid "ID not found"
 msgstr "ID が見つかりませんでした"
 
 #. error.content.not.found
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:95
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:98
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.content.not.found"
 msgid "Tool configuration not found"
 msgstr "ツール設定が見つかりませんでした."
 
 #. error.tool.not.found
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:96
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:99
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.tool.not.found"
 msgid "Tool not found"
 msgstr "ツールが見つかりませんでした."
 
 #. error.missing.return
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:97
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:100
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.missing.return"
 msgid "Called as helper without return URL"
 msgstr "リターン URL なしでヘルパーとしてコールされました"
 
 #. error.need.key.secret
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:98
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:101
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:error.need.key.secret"
 msgid "This tool will not function without a key and secret."
 msgstr "このツールはキーおよびシークレットなしでは機能しません．"
 
 #. error.link.placement.update
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:99
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:102
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:error.link.placement.update"
@@ -2735,7 +2812,7 @@ msgid "Error updating placement information in configuration item"
 msgstr "設定アイテム中の配置情報を更新中のエラーです"
 
 #. need.tool.info
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:100
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:103
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:need.tool.info"
 msgid ""
 "<p>Note: This tool was imported and needs a key and secret before it will "
@@ -2743,144 +2820,176 @@ msgid ""
 msgstr "<p>注意: このツールはインポートされたもので，機能させるためにはキーおよびシークレットが必要です．</p>"
 
 #. need.tool.secret
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:101
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:104
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:need.tool.secret"
 msgid "Tool secret"
 msgstr "ツールのシークレット"
 
 #. need.tool.key
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:102
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:105
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:need.tool.key"
 msgid "Tool key"
 msgstr "ツールのキー"
 
 #. bl_launch
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:103
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:106
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_launch"
 msgid "URL"
 msgstr "URL"
 
 #. bl_title
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:104
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:107
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_title"
 msgid "Title"
 msgstr "タイトル"
 
 #. bl_url
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:105
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:108
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_url"
 msgid "URL"
 msgstr "URL"
 
 #. bl_site
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:106
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:109
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_site"
 msgid "Site ID"
 msgstr "サイト ID"
 
+#. bl_sitetitle
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:110
+msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_sitetitle"
+msgid "Site Title"
+msgstr "サイトタイトル"
+
+#. bl_created_at
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:111
+msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_created_at"
+msgid "Added On"
+msgstr "追加"
+
+#. bl_sitecontactname
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:112
+msgctxt ""
+"basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_sitecontactname"
+msgid "Site Owner"
+msgstr "サイト所有者"
+
+#. bl_sitecontactemail
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:113
+msgctxt ""
+"basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_sitecontactemail"
+msgid "Site Contact"
+msgstr "サイト連絡先"
+
 #. bl_use
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:107
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:114
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_use"
 msgid "Uses"
 msgstr "使用"
 
 #. bl_action
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:108
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:115
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_action"
 msgid "Action"
 msgstr "操作"
 
 #. bl_page
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:109
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:116
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_page"
 msgid "Site Navigation"
 msgstr "サイトナビゲーション"
 
 #. bl_matchpattern
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:110
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:117
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_matchpattern"
 msgid "URL to match"
 msgstr "マッチする URL"
 
 #. bl_addlink
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:111
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:118
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_addlink"
 msgid "Add Site Link"
 msgstr "サイトリンクを追加"
 
 #. bl_removelink
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:112
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:119
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bl_removelink"
 msgid "Remove Site Link"
 msgstr "サイトリンクを削除"
 
 #. bad.operation
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:113
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:120
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:bad.operation"
 msgid "You attempted an improper operation."
 msgstr "無効な操作が行われました．"
 
 #. operation.complete
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:114
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:121
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:operation.complete"
 msgid "Operation complete"
 msgstr "操作は完了しました"
 
 #. operation.refreshing
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:115
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:122
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:operation.refreshing"
 msgid "Resetting navigation via window refresh..."
 msgstr "ウィンドウを更新して，ナビゲーションをリセットします..."
 
 #. add.to.site
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:116
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:123
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:add.to.site"
 msgid "Create Tool Link"
 msgstr "ツールリンクを作成"
 
 #. add.tool.to.site
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:117
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:124
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:add.tool.to.site"
 msgid "Create Tool Link "
 msgstr "ツールリンクを作成"
 
 #. add.to.system
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:118
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:125
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:add.to.system"
 msgid "Install LTI 1.1 Tool"
 msgstr "LTI 1.1 ツールインストール"
 
+#. select.showall
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:126
+msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:select.showall"
+msgid "Show All"
+msgstr "すべてを表示"
+
 #. deploy.put
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:119
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:127
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.put"
 msgid "LTI 2.x Installation "
 msgstr "LTI 2.x インストール"
 
 #. deploy.in.system
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:120
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:128
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.in.system"
 msgid "LTI 2.x Installation"
 msgstr "LTI 2.x インストール"
 
 #. deploy.register
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:121
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:129
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.register"
 msgid "Registering external tools"
 msgstr "外部ツールを登録する"
 
 #. deploy.activate
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:122
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:130
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.activate"
 msgid "Activating Deployment"
 msgstr "配備を有効化中"
 
 #. deploy.activate.note
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:123
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:131
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.activate.note"
 msgid ""
@@ -2890,7 +2999,7 @@ msgid ""
 msgstr "<p>この配備を有効にすると，配備のなかのツールがインストールされるか，システムにおいて更新されます．有効化はツール登録処理を完了させます．</p>"
 
 #. deploy.activate.badlaunch
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:124
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:132
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:deploy.activate.badlaunch"
@@ -2898,34 +3007,34 @@ msgid "Bad launch in deploy"
 msgstr "配備における不正な起動"
 
 #. deploy.activate.notools
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:125
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:133
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.activate.notools"
 msgid "There are no tools to activate"
 msgstr "有効化するツールがありません"
 
 #. deploy.parse.exception
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:126
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:134
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.parse.exception"
 msgid "Unable to parse provider profile"
 msgstr "プロバイダプロフィールを構文解析できません"
 
 #. deploy.delete
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:127
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:135
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.delete"
 msgid "Deleting Deployment"
 msgstr "配備を削除中"
 
 #. deploy.delete.sure
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:128
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:136
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.delete.sure"
 msgid "Are you sure you want to delete this deployment?"
 msgstr "本当にこの配備を削除してもよろしいですか?"
 
 #. deploy.data
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:129
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:137
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.data"
 msgid ""
 "This deployment supports :tools tools and :contents placements in :sites "
@@ -2933,13 +3042,13 @@ msgid ""
 msgstr "この配備は :ツール　ツール　および : サイト　サイトの : コンテンツプレースメントをサポートします．"
 
 #. add.deploy
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:130
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:138
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:add.deploy"
 msgid "Install LTI 2.x Tool"
 msgstr "LTI 2.x ツールインストール"
 
 #. deploy.description.system
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:131
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:139
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:deploy.description.system"
@@ -2947,19 +3056,19 @@ msgid "Deployments currently in this system"
 msgstr "このシステムの現在の配備"
 
 #. deploy.table
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:132
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:140
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.table"
 msgid "Deployments"
 msgstr "配備"
 
 #. deploy.none
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:133
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:141
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.none"
 msgid "No LTI 2.x Deployments found"
 msgstr "LTI 2.x 配備が見つかりませんでした"
 
 #. deploy.note
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:134
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:142
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.note"
 msgid ""
 "<p>These are LTI 2.x Tools. To add a tool you need a Tool Deployment "
@@ -2967,38 +3076,51 @@ msgid ""
 msgstr "<p>これらはLTI 2.x ツールです．ツールを追加するにはツール配備URLが必要です．</p>"
 
 #. deploy.provider.name
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:135
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:143
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:deploy.provider.name"
 msgid "Activating tools from: "
 msgstr "ツールを有効化中: "
 
 #. search.title
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:136
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:144
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:search.title"
 msgid "Search by Title"
 msgstr "タイトルで検索"
 
 #. search.url
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:137
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:145
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:search.url"
 msgid "Search by URL"
 msgstr "URL で検索"
 
 #. search.siteid
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:138
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:146
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:search.siteid"
 msgid "Search by Site ID"
 msgstr "サイト ID で検索"
 
+#. search.sitetitle
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:147
+msgctxt ""
+"basiclti/basiclti-tool/src/bundle/ltitool.properties:search.sitetitle"
+msgid "Search by Site Title"
+msgstr "サイトタイトルで検索"
+
 #. search.uses
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:139
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:148
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:search.uses"
 msgid "Search by Usage"
 msgstr "使用頻度で検索"
 
+#. searchby
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:149
+msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:searchby"
+msgid "Search by {0}"
+msgstr "{0}で検索"
+
 #. register.may.popup
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:140
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:150
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:register.may.popup"
 msgid ""
@@ -3008,7 +3130,7 @@ msgid ""
 msgstr "登録プロセスはポップアップウィンドウを開くことがあります．ポップアップウィンドウを開く場合，登録が完了したら，このページに戻りマニュアルで配備を有効にして下さい．"
 
 #. register.external.pre.launch
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:141
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:151
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:register.external.pre.launch"
@@ -3019,7 +3141,7 @@ msgid ""
 msgstr "実際のインストールをするため新たなウィンドウに外部のWebサイトを今起動しています．プロセスが完了したら，このウィンドウに戻り有効化プロセスを継続するか配備一覧に戻ってください．"
 
 #. register.external.post.launch
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:142
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:152
 msgctxt ""
 "basiclti/basiclti-"
 "tool/src/bundle/ltitool.properties:register.external.post.launch"
@@ -3030,14 +3152,14 @@ msgid ""
 msgstr "登録プロセスが成功したら，次のステップは登録の有効化です．登録プロセスに問題があれば，登録をやり直す必要があります．"
 
 #. register.popup.text
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:143
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:153
 msgctxt ""
 "basiclti/basiclti-tool/src/bundle/ltitool.properties:register.popup.text"
 msgid "Continue to registration web site"
 msgstr "Webサイト登録を継続"
 
 #. register.done
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:144
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:154
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:register.done"
 msgid ""
 "The external tool has completed its registration process.  If the "
@@ -3047,7 +3169,7 @@ msgid ""
 msgstr "外部ツールは登録プロセスを完了しました．登録プロセスが成功したら，次のステップは登録の有効化です．登録プロセスに問題があれば，登録をやり直す必要があります．"
 
 #. register.close
-#: basiclti/basiclti-tool/src/bundle/ltitool.properties:145
+#: basiclti/basiclti-tool/src/bundle/ltitool.properties:155
 msgctxt "basiclti/basiclti-tool/src/bundle/ltitool.properties:register.close"
 msgid "Close this window"
 msgstr "ウィンドウを閉じる"

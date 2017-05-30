@@ -1,13 +1,13 @@
 # 
 # Translators:
 # JaSakai i18n Group <i18n@sakaiproject.jp>, 2015
-# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-02-24 22:58+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-22 10:07+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -140,8 +140,8 @@ msgctxt ""
 msgid ""
 "<hr/><br/>This automatic notification message was sent by {0} (<a "
 "href=\"{1}\">{1}</a>).<br/> You can modify how you receive notifications at "
-"My Workspace > Preferences.<br/>"
-msgstr "この自動通知メッセージは {0} (<a href=\"{1}\">{1}</a>)\" により送信されました．<br/> お知らせの通知設定は \"マイワークスペース→設定\" から修正することができます．"
+"Home > Preferences.<br/>"
+msgstr "この自動通知メッセージは {0} (<a href=\"{1}\">{1}</a>)\" により送信されました．<br/> お知らせの通知設定は \"ホーム→設定\" から修正することができます．"
 
 #. noti.tag
 #: announcement/announcement-impl/impl/src/bundle/siteemaanc.properties:7
@@ -151,8 +151,8 @@ msgctxt ""
 msgid ""
 "---------------------- \n"
 " This automatic notification message was sent by {0} ({1}).\n"
-" You can modify how you receive notifications at My Workspace > Preferences.\n"
-msgstr "---------------------- \nこの自動通知メッセージは {0} ({1}) によって送信されました．\nお知らせの通知設定は \"マイワークスペース > 設定\" から修正することができます．\n"
+" You can modify how you receive notifications at Home > Preferences.\n"
+msgstr "---------------------- \nこの自動通知メッセージは {0} ({1}) によって送信されました．\nお知らせの通知設定は \"ホーム > 設定\" から修正することができます．\n"
 
 #. at_date
 #: announcement/announcement-impl/impl/src/bundle/siteemaanc.properties:8
@@ -957,7 +957,7 @@ msgctxt ""
 "announcement/announcement-"
 "tool/tool/src/bundle/announcement.properties:gen.editdraft"
 msgid "Edit draft announcement"
-msgstr "ドラフトのアナウンスを編集"
+msgstr "ドラフトのお知らせを編集"
 
 #. gen.editdraft.subject
 #: announcement/announcement-tool/tool/src/bundle/announcement.properties:89
@@ -965,7 +965,7 @@ msgctxt ""
 "announcement/announcement-"
 "tool/tool/src/bundle/announcement.properties:gen.editdraft.subject"
 msgid "Edit draft announcement {0}"
-msgstr "お知らせのドラフトを編集 {0}"
+msgstr "ドラフトのお知らせを編集 {0}"
 
 #. gen.editann.subject
 #: announcement/announcement-tool/tool/src/bundle/announcement.properties:90
@@ -1367,7 +1367,7 @@ msgctxt ""
 "announcement/announcement-"
 "tool/tool/src/bundle/announcement.properties:revise.revise"
 msgid "Edit Announcement"
-msgstr "アナウンスを編集"
+msgstr "お知らせを編集"
 
 #. revise.complete
 #: announcement/announcement-tool/tool/src/bundle/announcement.properties:140
@@ -1401,13 +1401,13 @@ msgctxt ""
 msgid "Announcement"
 msgstr "アナウンス"
 
-#. revise.announcement.star
+#. revise.announcement.body
 #: announcement/announcement-tool/tool/src/bundle/announcement.properties:144
 msgctxt ""
 "announcement/announcement-"
-"tool/tool/src/bundle/announcement.properties:revise.announcement.star"
-msgid "<span class=\"reqStar\">*</span>Body"
-msgstr "<span class=\"reqStar\">*</span> ボディ"
+"tool/tool/src/bundle/announcement.properties:revise.announcement.body"
+msgid "Body"
+msgstr "本文"
 
 #. revise.subject
 #: announcement/announcement-tool/tool/src/bundle/announcement.properties:145

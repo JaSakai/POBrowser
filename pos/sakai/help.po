@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-31 11:51+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-21 04:51+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -27,8 +27,15 @@ msgctxt "help/help-component/src/bundle/TutorialMessages.properties:previous"
 msgid "Back"
 msgstr "戻る"
 
-#. introToSakai_p1.title
+#. endTutorial
 #: help/help-component/src/bundle/TutorialMessages.properties:3
+msgctxt ""
+"help/help-component/src/bundle/TutorialMessages.properties:endTutorial"
+msgid "OK, Got it"
+msgstr "OK，わかりました"
+
+#. introToSakai_p1.title
+#: help/help-component/src/bundle/TutorialMessages.properties:4
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_p1.title"
@@ -36,7 +43,7 @@ msgid "Welcome to {0}"
 msgstr "{0}へようこそ"
 
 #. introToSakai_p1.body
-#: help/help-component/src/bundle/TutorialMessages.properties:4
+#: help/help-component/src/bundle/TutorialMessages.properties:5
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_p1.body"
@@ -47,7 +54,7 @@ msgid ""
 msgstr "{0} は学習，教育，研究，および共同作業を支援するサイトを提供する\n適応性のあるLMSです．<br/><br/>システムを操作するための基本を紹介しましょう．"
 
 #. introToSakai_sitenav.title
-#: help/help-component/src/bundle/TutorialMessages.properties:5
+#: help/help-component/src/bundle/TutorialMessages.properties:6
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_sitenav.title"
@@ -55,20 +62,19 @@ msgid "Site Navigation"
 msgstr "サイトナビゲーション"
 
 #. introToSakai_sitenav.body
-#: help/help-component/src/bundle/TutorialMessages.properties:6
+#: help/help-component/src/bundle/TutorialMessages.properties:7
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_sitenav.body"
 msgid ""
 "Your sites are displayed as links across the top, starting with your own "
-"private My Workspace <span class=\"no-wrap\">( <i class=\"fa fa-home tut-"
-"icon-home\"></i> ).</span><br/><br/>My Workspace gives you an overview of "
-"the activity in your sites and allows you to personalize your {0} "
-"experience."
-msgstr "サイトはリンクとして表示され，あなたのマイワークスペース<span class=\"no-wrap\">( <i class=\"fa fa-home tut-icon-home\"></i> )から始まります．</span><br/><br/>マイワークスペースはあなたのサイトのアクティビティの概要を示し，{0} のエクスペリエンスをパーソナライズできます．"
+"private Home <span class=\"no-wrap\">( <i class=\"fa fa-home tut-icon-"
+"home\"></i> ).</span><br/><br/>Home gives you an overview of the activity in"
+" your sites and allows you to personalize your {0} experience."
+msgstr "サイトはリンクとして表示され，あなたのホーム<span class=\"no-wrap\">( <i class=\"fa fa-home tut-icon-home\"></i> )から始まります．</span><br/><br/>ホームはあなたのサイトのアクティビティの概要を示し，{0} のエクスペリエンスをパーソナライズできます．"
 
 #. introToSakai_allsites.title
-#: help/help-component/src/bundle/TutorialMessages.properties:7
+#: help/help-component/src/bundle/TutorialMessages.properties:8
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_allsites.title"
@@ -76,7 +82,7 @@ msgid "Sites"
 msgstr "サイト"
 
 #. introToSakai_allsites.body
-#: help/help-component/src/bundle/TutorialMessages.properties:8
+#: help/help-component/src/bundle/TutorialMessages.properties:9
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_allsites.body"
@@ -85,11 +91,11 @@ msgid ""
 "Sites</span> button opens your sites drawer, which displays links to all of "
 "your visible sites organized by term or category.<br/><br/>From the sites "
 "drawer, you can star your most-used sites and access your own private site "
-"called My Workspace."
-msgstr "<span class=\"no-wrap\"><i class=\"fa fa-th tut-icon-sites\"></i> サイト</span> ボタンでサイトドローワーを開きます．それは学期もしくはカテゴリーで構成されるすべてのサイトへのリンクを表示します．<br/><br/>サイトドローワーから最も利用するサイトをブックマークしたりマイワークスペースと呼ばれる個人のサイトにアクセスできます．"
+"called Home."
+msgstr "<span class=\"no-wrap\"><i class=\"fa fa-th tut-icon-sites\"></i> サイト</span> ボタンでサイトドローワーを開きます．それは学期もしくはカテゴリーで構成されるすべてのサイトへのリンクを表示します．<br/><br/>サイトドローワーから最も利用するサイトをブックマークしたりホームと呼ばれる個人のサイトにアクセスできます．"
 
 #. introToSakai_moreButton.title
-#: help/help-component/src/bundle/TutorialMessages.properties:9
+#: help/help-component/src/bundle/TutorialMessages.properties:10
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_moreButton.title"
@@ -97,7 +103,7 @@ msgid "Sites"
 msgstr "サイト"
 
 #. introToSakai_moreButton.body
-#: help/help-component/src/bundle/TutorialMessages.properties:10
+#: help/help-component/src/bundle/TutorialMessages.properties:11
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_moreButton.body"
@@ -109,7 +115,7 @@ msgid ""
 msgstr "<span class=\"no-wrap\"><i class=\"fa fa-th tut-icon-sites\"></i> サイト</span> ボタンでサイトドローワーを開きます．それはすべてのサイトへのリンクを表示します．<br/><br/>サイトドローワーにおいて，サイトは学期もしくはカテゴリーで構成され，ナビゲーションのトップにピン止めされます．"
 
 #. introToSakai_toolMenu.title
-#: help/help-component/src/bundle/TutorialMessages.properties:11
+#: help/help-component/src/bundle/TutorialMessages.properties:12
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_toolMenu.title"
@@ -117,7 +123,7 @@ msgid "Tools Menu"
 msgstr "ツールメニュー"
 
 #. introToSakai_toolMenu.body
-#: help/help-component/src/bundle/TutorialMessages.properties:12
+#: help/help-component/src/bundle/TutorialMessages.properties:13
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_toolMenu.body"
@@ -129,7 +135,7 @@ msgid ""
 msgstr "現在のサイトのツールが左のメニューに表示されます．それぞれのツールは異なる機能を提供します．例えば，コンテンツの配布，課題の提示，共同作業の支援です．<br/><br/>それぞれのサイトの管理者，例えば講師ですが，サイトにおけるツールの選択および表示の仕方を管理します．"
 
 #. introToSakai_toolMenuNarrowView.title
-#: help/help-component/src/bundle/TutorialMessages.properties:13
+#: help/help-component/src/bundle/TutorialMessages.properties:14
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_toolMenuNarrowView.title"
@@ -137,7 +143,7 @@ msgid "Tools Menu"
 msgstr "ツールメニュー"
 
 #. introToSakai_toolMenuNarrowView.body
-#: help/help-component/src/bundle/TutorialMessages.properties:14
+#: help/help-component/src/bundle/TutorialMessages.properties:15
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_toolMenuNarrowView.body"
@@ -149,7 +155,7 @@ msgid ""
 msgstr "現在のサイトのツールがツールメニューに表示されます．それぞれのツールは異なる機能を提供します．例えば，コンテンツの配布，課題の提示，共同作業の支援です．<br/><br/>それぞれのサイトの管理者，例えば講師ですが，サイトにおけるツールの選択および表示の仕方を管理します．"
 
 #. introToSakai_refreshTool.title
-#: help/help-component/src/bundle/TutorialMessages.properties:15
+#: help/help-component/src/bundle/TutorialMessages.properties:16
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_refreshTool.title"
@@ -157,7 +163,7 @@ msgid "Breadcrumbs"
 msgstr "ブレッドクラム"
 
 #. introToSakai_refreshTool.body
-#: help/help-component/src/bundle/TutorialMessages.properties:16
+#: help/help-component/src/bundle/TutorialMessages.properties:17
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_refreshTool.body"
@@ -169,7 +175,7 @@ msgid ""
 msgstr "トップにあるパンくずリストはあなたがいるサイトと使っているツールを示します．<br /><br />ツール名をクリックもしくはタップするとツールのメインページに戻ります．サイトのホームページに戻るには，サイト名をクリックもしくはタップして下さい．"
 
 #. introToSakai_helpIcon.title
-#: help/help-component/src/bundle/TutorialMessages.properties:17
+#: help/help-component/src/bundle/TutorialMessages.properties:18
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_helpIcon.title"
@@ -177,7 +183,7 @@ msgid "Help"
 msgstr "ヘルプ"
 
 #. introToSakai_helpIcon.body
-#: help/help-component/src/bundle/TutorialMessages.properties:18
+#: help/help-component/src/bundle/TutorialMessages.properties:19
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_helpIcon.body"
@@ -189,7 +195,7 @@ msgid ""
 msgstr "{0} はそれぞれの機能に関するヘルプ情報を提供します．<br /><br />それぞれのツールのヘルプボタン<span class=\"no-wrap\">( <i class=\"fa fa-question tut-icon-help\"></i> )</span> は状況を判断し，そのツールに特有な情報を提供します．"
 
 #. introToSakai_profileTool.title
-#: help/help-component/src/bundle/TutorialMessages.properties:19
+#: help/help-component/src/bundle/TutorialMessages.properties:20
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_profileTool.title"
@@ -197,7 +203,7 @@ msgid "Account Menu"
 msgstr "アカウントメニュー"
 
 #. introToSakai_profileTool.body
-#: help/help-component/src/bundle/TutorialMessages.properties:20
+#: help/help-component/src/bundle/TutorialMessages.properties:21
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_profileTool.body"
@@ -209,7 +215,7 @@ msgid ""
 msgstr "アカウントメニューは個人のタスク，例えばアカウント管理，新規サイトの作成，{0}からのログアウトを含みます．<br/><br/>これだけです！このチュートリアルをまた見たいときにはアカウントメニューからチュートリアルを選んで再スタートできます．"
 
 #. introToSakai_pTutorialLocation.title
-#: help/help-component/src/bundle/TutorialMessages.properties:21
+#: help/help-component/src/bundle/TutorialMessages.properties:22
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_pTutorialLocation.title"
@@ -217,7 +223,7 @@ msgid "Tutorial"
 msgstr "チュートリアル"
 
 #. introToSakai_pTutorialLocation.body
-#: help/help-component/src/bundle/TutorialMessages.properties:22
+#: help/help-component/src/bundle/TutorialMessages.properties:23
 msgctxt ""
 "help/help-"
 "component/src/bundle/TutorialMessages.properties:introToSakai_pTutorialLocation.body"

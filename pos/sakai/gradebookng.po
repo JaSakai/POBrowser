@@ -5,9 +5,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-04-04 22:02+0000\n"
-"Last-Translator: JaSakai i18n Group <i18n@sakaiproject.jp>\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-09-09 11:51+0000\n"
+"Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -19,8 +19,8 @@ msgstr ""
 #: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:1
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:app.title"
-msgid "GradebookNG"
-msgstr "次世代成績簿"
+msgid "Gradebook"
+msgstr "成績簿"
 
 #. link.gradebook
 #: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:2
@@ -106,113 +106,148 @@ msgctxt ""
 msgid "Total:"
 msgstr "合計："
 
-#. label.due
+#. label.relativeweight
 #: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:14
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.relativeweight"
+msgid "Relative weight:"
+msgstr "相対重み："
+
+#. label.due
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:15
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.due"
 msgid "Due:"
 msgstr "締切"
 
 #. label.noduedate
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:15
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:16
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.noduedate"
 msgid "-"
 msgstr "-"
 
+#. label.percentage.valued
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:17
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.percentage.valued"
+msgid "{0}%"
+msgstr "{0}%"
+
+#. label.percentage.plain
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:18
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.percentage.plain"
+msgid "%"
+msgstr "%"
+
 #. label.coursegrade.released
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:16
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:19
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.coursegrade.released"
 msgid "Course grade has been released to students."
 msgstr "コース成績が受講者に公開されました．"
 
 #. label.coursegrade.notreleased
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:17
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:20
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.coursegrade.notreleased"
 msgid "Course grade has not been released to students."
 msgstr "コース成績は受講者に公開されませんでした．"
 
 #. label.coursegrade.nopermission
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:18
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:21
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.coursegrade.nopermission"
 msgid "-"
 msgstr "-"
 
 #. label.coursegrade.editsettings
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:19
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:22
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.coursegrade.editsettings"
 msgid "Edit Release Settings"
 msgstr "公開設定を編集"
 
 #. label.coursegrade.studentnotreleased
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:20
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:23
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.coursegrade.studentnotreleased"
 msgid "Not Yet Released"
 msgstr "未公開"
 
 #. label.gradeitem.externalapplabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:21
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:24
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.externalapplabel"
 msgid "Gradebook Item coming from {0}"
 msgstr "成績簿アイテムの出所 {0}"
 
 #. label.gradeitem.released
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:22
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:25
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.released"
 msgid "Gradebook Item has been released and is visible to students."
 msgstr "成績簿アイテムが公開され受講者に見えるようになりました．"
 
 #. label.gradeitem.notreleased
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:23
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:26
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.notreleased"
 msgid "Gradebook item is not visible to students."
 msgstr "成績簿アイテムは受講者に非表示です．"
 
 #. label.gradeitem.counted
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:24
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:27
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.counted"
 msgid "Gradebook Item is included in the course grade calculation."
 msgstr "成績簿アイテムはコース成績計算に含まれます．"
 
 #. label.gradeitem.notcounted
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:25
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:28
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.notcounted"
 msgid "Gradebook Item not included in course grade calculation."
 msgstr "成績簿アイテムはコース成績計算に含まれません．"
 
 #. label.gradeitem.extracredit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:26
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:29
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.extracredit"
 msgid "This is an Extra Credit Gradebook Item"
 msgstr "これは特別点の成績簿アイテムです．"
 
 #. label.gradeitem.extracreditcategory
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:27
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:30
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.extracreditcategory"
 msgid "This is an Extra Credit Category"
 msgstr "これは特別点カテゴリです"
 
 #. label.gradeitem.categoryaverage
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:28
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:31
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.categoryaverage"
 msgid "Category Average for {0}"
 msgstr "{0} のカテゴリ平均"
 
+#. label.gradeitem.categoryheadertooltip
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:32
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.categoryheadertooltip"
+msgid "Category: {0}"
+msgstr "カテゴリ：{0}"
+
+#. label.gradeitem.categoryandweightheadertooltip
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:33
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.gradeitem.categoryandweightheadertooltip"
+msgid "Category: {0}, Weight: {1}"
+msgstr "カテゴリ：{0}，重み：{1}"
+
 #. label.toolbar.gradeitemsummary
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:29
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:34
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemsummary"
 msgid ""
@@ -221,14 +256,14 @@ msgid ""
 msgstr "<span class='gb-item-summary-counts'><span class='total'>{1}</span> アイテム</span>の<span class='visible'>{0}</span>を表示中"
 
 #. label.toolbar.studentsummarypaginated
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:30
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:35
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.studentsummarypaginated"
 msgid "Showing {0} to {1} of {2} students"
 msgstr "{2} 人の受講者のうち {0}-{1} 人目を表示"
 
 #. label.toolbar.studentsummary
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:31
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:36
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.studentsummary"
 msgid ""
@@ -236,113 +271,127 @@ msgid ""
 "class=\"visible\">{0}</span></span> students"
 msgstr "<span class='gb-student-summary-counts'><span class=\"visible\">{0}</span></span>人の 受講生を表示"
 
+#. table.toolbar.categorytoggle
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:37
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:table.toolbar.categorytoggle"
+msgid "Group By Category"
+msgstr "カテゴリごとのグループ"
+
+#. label.toolbar.gradeitemstoggle
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:38
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemstoggle"
+msgid "Show/Hide Items"
+msgstr "アイテム表示／非表示"
+
 #. label.toolbar.gradeitemshowall
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:32
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:39
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemshowall"
 msgid "Show All"
 msgstr "すべてを表示"
 
 #. label.toolbar.gradeitemhideall
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:33
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:40
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemhideall"
 msgid "Hide All"
 msgstr "すべて非表示"
 
 #. label.toolbar.gradeitemshowthiscategory
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:34
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:41
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemshowthiscategory"
 msgid "Show this category"
 msgstr "このカテゴリを表示"
 
 #. label.toolbar.gradeitemhidethiscategory
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:35
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:42
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemhidethiscategory"
 msgid "Hide this category"
 msgstr "このカテゴリを非表示"
 
 #. label.toolbar.gradeitemshowonlythiscategory
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:36
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:43
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemshowonlythiscategory"
 msgid "Show only this category"
 msgstr "このカテゴリだけを表示"
 
 #. label.toolbar.gradeitemshowthisitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:37
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:44
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemshowthisitem"
 msgid "Show this item"
 msgstr "このアイテムを表示"
 
 #. label.toolbar.gradeitemhidethisitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:38
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:45
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemhidethisitem"
 msgid "Hide this item"
 msgstr "このアイテムを非表示"
 
 #. label.toolbar.gradeitemshowonlythisitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:39
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:46
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemshowonlythisitem"
 msgid "Show only this item"
 msgstr "このアイテムだけを表示"
 
 #. label.toolbar.categoryscorelabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:40
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:47
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.categoryscorelabel"
 msgid "{0} Score"
 msgstr "得点 {0} "
 
 #. label.toolbar.gradeitemshowonlythiscategoryscore
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:41
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:48
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemshowonlythiscategoryscore"
 msgid "Show only this column"
 msgstr "このカラムだけを表示"
 
 #. label.toolbar.gradeitemshowthiscategoryscore
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:42
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:49
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemshowthiscategoryscore"
 msgid "Show this column"
 msgstr "このカラムを表示"
 
 #. label.toolbar.gradeitemhidethiscategoryscore
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:43
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:50
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitemhidethiscategoryscore"
 msgid "Hide this column"
 msgstr "このカラムを非表示"
 
 #. label.toolbar.categorygroup.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:44
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:51
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.categorygroup.menulabel"
 msgid "Open menu for this category column"
 msgstr "このカテゴリー欄のメニューを開く"
 
 #. label.toolbar.gradeitem.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:45
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:52
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.gradeitem.menulabel"
 msgid "Open menu for this Gradebook Item column"
 msgstr "この成績簿アイテム欄のメニューを開く"
 
 #. label.toolbar.categoryaverage.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:46
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:53
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.toolbar.categoryaverage.menulabel"
 msgid "Open menu for this category score column"
 msgstr "このカテゴリースコア欄のメニューを開く"
 
 #. label.concurrentuserwarning
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:47
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:54
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.concurrentuserwarning"
 msgid ""
@@ -351,7 +400,7 @@ msgid ""
 msgstr "同僚がこの成績簿に変更を加えたことを確認して下さい．<br>最新の値であることを確認するためページをしばしばリフレッシュして下さい．"
 
 #. error.concurrentedit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:48
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:55
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:error.concurrentedit"
 msgid ""
@@ -360,266 +409,273 @@ msgid ""
 msgstr "同時編集が検知されました．最新の得点を見るためにツールをリフレッシュして下さい．"
 
 #. column.header.section
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:49
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:56
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.section"
 msgid "Section"
 msgstr "セクション:"
 
 #. column.header.students
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:50
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:57
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.students"
 msgid "Students"
 msgstr "学生"
 
 #. column.header.coursegrade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:51
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:58
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.coursegrade"
 msgid "Course Grade"
 msgstr "コース成績"
 
 #. filter.students
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:52
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:59
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:filter.students"
 msgid "Filter students"
 msgstr "受講者をフィルタ"
 
 #. filter.groups
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:53
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:60
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:filter.groups"
 msgid "Filter by group/section"
 msgstr "グループ/セクションでフィルタ"
 
 #. button.addgradeitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:54
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:61
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.addgradeitem"
 msgid "Add Gradebook Item"
 msgstr "成績簿アイテムを追加"
 
 #. button.savechanges
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:55
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:62
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.savechanges"
 msgid "Save Changes"
 msgstr "変更を保存"
 
 #. button.cancel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:56
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:63
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.cancel"
 msgid "Cancel"
 msgstr "キャンセル"
 
 #. button.done
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:57
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:64
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.done"
 msgid "Done"
 msgstr "完了"
 
 #. button.update
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:58
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:65
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.update"
 msgid "Update"
 msgstr "更新"
 
 #. button.savecomment
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:59
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:66
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.savecomment"
 msgid "Save Comment"
 msgstr "コメントを保存する"
 
 #. button.deleteitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:60
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:67
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.deleteitem"
 msgid "Delete"
 msgstr "削除"
 
 #. button.create
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:61
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:68
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.create"
 msgid "Create"
 msgstr "作成"
 
 #. button.clear
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:62
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:69
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.clear"
 msgid "Clear Changes"
 msgstr "変更をクリア"
 
 #. button.remove
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:63
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:70
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.remove"
 msgid "Remove"
 msgstr "削除"
 
 #. button.settingsexpandall
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:64
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:71
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.settingsexpandall"
 msgid "Expand All"
 msgstr "すべて展開"
 
 #. button.settingscollapseall
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:65
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:72
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.settingscollapseall"
 msgid "Collapse All"
 msgstr "すべて折り畳む"
 
 #. button.saveoverride
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:66
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:73
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.saveoverride"
 msgid "Save Course Grade Override"
 msgstr "コース成績の上書きを保存"
 
 #. button.print
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:67
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:74
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:button.print"
 msgid "Print"
 msgstr "印刷"
 
 #. heading.addgradeitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:68
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:75
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.addgradeitem"
 msgid "Add Gradebook Item"
 msgstr "成績簿アイテムを追加"
 
 #. heading.editgradeitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:69
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:76
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.editgradeitem"
 msgid "Edit Gradebook Item"
 msgstr "成績簿アイテムを編集"
 
 #. heading.studentsummary
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:70
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:77
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.studentsummary"
 msgid "Grade Summary for {0} ({1})"
 msgstr " {0} ({1}) の成績サマリ"
 
 #. heading.updateungradeditems
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:71
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:78
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.updateungradeditems"
 msgid "Set Score for Empty Cells"
 msgstr "空白のセルに得点を設定"
 
 #. heading.gradelog
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:72
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:79
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.gradelog"
 msgid "Grade Log for {0} ({1})"
 msgstr "{0} ({1}) の成績ログ"
 
 #. heading.editcomment
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:73
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:80
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.editcomment"
 msgid "Comment for {0} ({1}) - {2}"
 msgstr "コメント {0} ({1}) - {2}"
 
 #. heading.studentpage
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:74
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:81
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.studentpage"
 msgid "Grade Report for {0}"
 msgstr "{0}の成績レポート"
 
 #. heading.coursegrade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:75
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:82
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.coursegrade"
 msgid "Course Grade Override for {0} ({1})"
 msgstr "{0} ({1})のコース成績を上書き"
 
 #. heading.coursegradelog
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:76
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:83
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.coursegradelog"
 msgid "Course Grade Override Log for {0} ({1})"
 msgstr "{0} ({1})のコース成績を上書きしたログ"
 
 #. heading.zeroungradeditems
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:77
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:84
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:heading.zeroungradeditems"
 msgid "Set zero score for empty cells"
 msgstr "空白のセルに零点を設定する"
 
 #. formatter.studentname.LAST_NAME
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:78
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:85
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:formatter.studentname.LAST_NAME"
 msgid "%s, %s"
 msgstr "%s, %s"
 
 #. formatter.studentname.FIRST_NAME
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:79
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:86
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:formatter.studentname.FIRST_NAME"
 msgid "%s %s"
 msgstr "%s %s"
 
 #. label.addgradeitem.title
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:80
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:87
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.title"
 msgid "Title"
 msgstr "タイトル"
 
 #. label.addgradeitem.points
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:81
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:88
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.points"
 msgid "Point value"
 msgstr "配点"
 
+#. label.addgradeitem.percentage
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:89
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.percentage"
+msgid "Relative weight"
+msgstr "相対重み"
+
 #. label.addgradeitem.extracredit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:82
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:90
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.extracredit"
 msgid "Extra credit"
 msgstr "特別点"
 
 #. label.addgradeitem.due
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:83
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:91
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.due"
 msgid "Due date"
 msgstr "締切日時"
 
 #. label.addgradeitem.due.help
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:84
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:92
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.due.help"
 msgid "Select a date"
 msgstr "日時を選択"
 
 #. label.addgradeitem.category
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:85
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:93
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.category"
 msgid "Category"
 msgstr "カテゴリ"
 
 #. label.addgradeitem.nocategoryassigned
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:86
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:94
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.nocategoryassigned"
 msgid ""
@@ -628,119 +684,119 @@ msgid ""
 msgstr "カテゴリに割り当てられていないアイテムはコース成績計算ではカウントされません．"
 
 #. label.addgradeitem.release
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:87
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:95
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.release"
 msgid "Release item to students?"
 msgstr "アイテムを受講者に公開しますか？"
 
 #. label.addgradeitem.include
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:88
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:96
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.include"
 msgid "Include item in course grade calculations?"
 msgstr "コース成績計算にアイテムを含めますか？"
 
 #. label.addgradeitem.nocategories
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:89
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:97
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.nocategories"
 msgid "Categories have not been configured."
 msgstr "カテゴリーが設定されていません．"
 
 #. label.addgradeitem.categorywithweight
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:90
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:98
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.addgradeitem.categorywithweight"
 msgid "{0} ({1})"
 msgstr "{0} ({1})"
 
 #. error.addgradeitem.points
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:91
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:99
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:error.addgradeitem.points"
-msgid "Points required and must be great than zero."
-msgstr "ポイントは必須でゼロより大きな値である必要があります．"
+msgid "Points required and must be a number greater than zero."
+msgstr "ポイントは必須でゼロより大きな数である必要があります．"
 
 #. error.addgradeitem.title
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:92
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:100
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:error.addgradeitem.title"
 msgid "Title required and must be unique."
 msgstr "タイトルは必須でユニークである必要があります．"
 
 #. error.addgradeitem.exception
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:93
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:101
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:error.addgradeitem.exception"
 msgid "Error creating Assignment."
 msgstr "課題の作成中にエラーが発生しました．"
 
 #. notification.addgradeitem.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:94
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:102
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:notification.addgradeitem.success"
 msgid "Gradebook item ''{0}'' has been created."
 msgstr "成績簿アイテム \"{0}\" が作成されました．"
 
 #. label.editgradeitem.title
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:95
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:103
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.title"
 msgid "Title"
 msgstr "タイトル"
 
 #. label.editgradeitem.points
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:96
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:104
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.points"
 msgid "Point value"
 msgstr "配点"
 
 #. label.editgradeitem.extracredit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:97
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:105
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.extracredit"
 msgid "Extra credit"
 msgstr "特別点"
 
 #. label.editgradeitem.due
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:98
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:106
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.due"
 msgid "Due date"
 msgstr "締切日時"
 
 #. label.editgradeitem.due.help
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:99
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:107
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.due.help"
 msgid "Select a date"
 msgstr "日時を選択"
 
 #. label.editgradeitem.category
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:100
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:108
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.category"
 msgid "Category"
 msgstr "カテゴリ"
 
 #. label.editgradeitem.release
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:101
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:109
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.release"
 msgid "Release item to students?"
 msgstr "アイテムを受講者に公開しますか？"
 
 #. label.editgradeitem.include
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:102
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:110
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.editgradeitem.include"
 msgid "Include item in course grade calculations?"
 msgstr "コース成績計算にアイテムを含めますか？"
 
 #. label.updateungradeditems.instructions.1
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:103
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:111
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.instructions.1"
 msgid ""
@@ -749,7 +805,7 @@ msgid ""
 msgstr "すべての現在未採点（例：空白）のセルを上書きするために値を下に入力して下さい．"
 
 #. label.updateungradeditems.instructions.2
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:104
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:112
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.instructions.2"
 msgid ""
@@ -759,151 +815,151 @@ msgid ""
 msgstr "<b>注意：</b> 下の値はこの成績簿アイテムのなかで <b>未採点のスコア</b>にのみ適用されます． そして入力されている既存のスコアに影響を与えません<b>これは元に戻すことができません!</b>"
 
 #. label.updateungradeditems.grade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:105
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:113
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.grade"
 msgid "Grade Override"
 msgstr "成績を上書き"
 
 #. label.updateungradeditems.confirmation.title
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:106
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:114
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.confirmation.title"
 msgid "Set Score Confirmation"
-msgstr ""
+msgstr "得点確認設定"
 
 #. label.updateungradeditems.confirmation.general
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:107
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:115
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.confirmation.general"
 msgid ""
 "This action will apply the score <strong>{0}</strong> to students in "
 "<strong>{1}</strong>."
-msgstr ""
+msgstr "この操作で得点<strong>{0}</strong>が<strong>{1}</strong>で学生に適用されます．"
 
 #. label.updateungradeditems.confirmation.extracredit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:108
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:116
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.confirmation.extracredit"
 msgid ""
 "The supplied score is in excess of the maximum point value for this "
 "Gradebook item. Do you want to continue?"
-msgstr ""
+msgstr "提供されたスコアはこの成績簿アイテムの最高点を超えています．継続しますか？"
 
 #. label.updateungradeditems.confirmation.continue
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:109
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:117
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.confirmation.continue"
 msgid "Continue"
-msgstr ""
+msgstr "続ける"
 
 #. label.updateungradeditems.confirmation.cancel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:110
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:118
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.confirmation.cancel"
 msgid "Cancel"
-msgstr ""
+msgstr "キャンセル"
 
 #. label.updateungradeditems.groups
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:111
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:119
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.updateungradeditems.groups"
 msgid "Group / Section"
-msgstr ""
+msgstr "グループ/セクション"
 
 #. label.studentsummary.coursegrade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:112
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:120
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.coursegrade"
 msgid "Course Grade:"
 msgstr "コース成績:"
 
 #. label.studentsummary.gradeitems
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:113
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:121
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.gradeitems"
 msgid "Gradebook Items"
 msgstr "成績簿アイテム"
 
 #. label.studentsummary.outof
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:114
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:122
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.outof"
 msgid "/{0}"
 msgstr "/{0}"
 
 #. label.studentsummary.coursegrade.display
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:115
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:123
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.coursegrade.display"
 msgid "{0} ({1})"
 msgstr "{0} ({1})"
 
 #. label.studentsummary.coursegrade.none
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:116
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:124
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.coursegrade.none"
 msgid "Not yet available"
 msgstr "まだ利用できません"
 
 #. label.studentsummary.noduedate
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:117
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:125
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.noduedate"
 msgid "-"
 msgstr "-"
 
 #. label.studentsummary.instructorviewtab
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:118
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:126
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.instructorviewtab"
 msgid "Grade Summary"
 msgstr "成績サマリ"
 
 #. label.studentsummary.studentviewtab
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:119
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:127
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.studentviewtab"
 msgid "Student Review Mode"
 msgstr "受講生レビューモード"
 
 #. label.studentsummary.expandall
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:120
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:128
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.expandall"
 msgid "Expand All"
 msgstr "すべて展開"
 
 #. label.studentsummary.collapseall
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:121
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:129
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.collapseall"
 msgid "Collapse All"
 msgstr "すべて折り畳む"
 
 #. label.studentsummary.previous
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:122
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:130
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.previous"
 msgid "Previous Student"
 msgstr "前の受講者"
 
 #. label.studentsummary.next
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:123
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:131
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.next"
 msgid "Next Student"
 msgstr "次の受講者"
 
 #. label.studentsummary.coursegradenotreleased
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:124
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:132
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.coursegradenotreleased"
 msgid "Not Yet Released"
 msgstr "未公開"
 
 #. label.studentsummary.coursegradenotreleasedmessage
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:125
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:133
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.coursegradenotreleasedmessage"
 msgid ""
@@ -913,84 +969,91 @@ msgid ""
 msgstr "*最終のコース成績は受講者に公開されていません．最終のコース成績を受講者に公開するには，設定にある\"最終コース成績を学生に表示\"を選択してください． "
 
 #. label.studentsummary.categoryweight
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:126
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:134
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.categoryweight"
 msgid "({0})"
 msgstr "({0})"
 
 #. label.studentsummary.closeconfirmation.title
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:127
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:135
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.closeconfirmation.title"
 msgid "You are about to leave Student Review mode."
 msgstr "あなたは受講生レビューモードから離れようとしています．"
 
 #. label.studentsummary.closeconfirmation.content
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:128
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:136
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.closeconfirmation.content"
 msgid "Unreleased grades and other students' data will become visible."
 msgstr "未公開の成績および受講生のデータが表示されます．"
 
 #. label.studentsummary.closeconfirmation.continue
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:129
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:137
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.closeconfirmation.continue"
 msgid "Continue"
 msgstr "続ける"
 
 #. label.studentsummary.closeconfirmation.cancel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:130
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:138
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.studentsummary.closeconfirmation.cancel"
 msgid "Cancel"
 msgstr "キャンセル"
 
 #. column.header.studentsummary.gradebookitem
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:131
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:139
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.studentsummary.gradebookitem"
 msgid "Gradebook Item"
 msgstr "成績簿アイテム"
 
 #. column.header.studentsummary.duedate
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:132
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:140
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.studentsummary.duedate"
 msgid "Due Date"
 msgstr "締切日"
 
 #. column.header.studentsummary.grade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:133
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:141
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.studentsummary.grade"
 msgid "Grade"
 msgstr "成績"
 
 #. column.header.studentsummary.weight
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:134
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:142
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.studentsummary.weight"
 msgid "Weight"
 msgstr "加重"
 
 #. column.header.studentsummary.comments
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:135
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:143
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.studentsummary.comments"
 msgid "Comments"
 msgstr "コメント"
 
+#. column.header.studentsummary.category
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:144
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.studentsummary.category"
+msgid "Category"
+msgstr "カテゴリ"
+
 #. importExport.export.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:136
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:145
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.heading"
 msgid "Export"
 msgstr "エクスポート"
 
 #. importExport.export.description
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:137
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:146
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.description"
 msgid ""
@@ -999,14 +1062,14 @@ msgid ""
 msgstr "成績/構造をお好きなスプレッドシートアプリケーションの成績簿に入力するため成績簿をCSVファイルでエキスポートします．"
 
 #. importExport.import.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:138
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:147
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.import.heading"
 msgid "Import"
 msgstr "インポート"
 
 #. importExport.import.description
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:139
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:148
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.import.description"
 msgid ""
@@ -1015,7 +1078,7 @@ msgid ""
 msgstr "下の成績簿の編集済のCSVをアップロードすることにより選択的に新たな成績/成績簿アイテムを成績簿にインポートします．"
 
 #. importExport.template.description
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:140
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:149
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.template.description"
 msgid ""
@@ -1024,21 +1087,35 @@ msgid ""
 msgstr "注意：アップロードされたスプレッドシートの形式は上のダウンロード可能な成績簿ファイルの規約に合っていなければなりません．"
 
 #. importExport.template.button.fullGradebook
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:141
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:150
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.template.button.fullGradebook"
-msgid "Download Gradebook"
-msgstr "成績簿ダウンロード"
+msgid "Export Gradebook"
+msgstr "成績簿エクスポート"
+
+#. importExport.template.button.customGradebook
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:151
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.template.button.customGradebook"
+msgid "Download Custom Export"
+msgstr "カスタムエクスポートダウンロード"
+
+#. importExport.template.button.advancedOptions
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:152
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.template.button.advancedOptions"
+msgid "Custom Export"
+msgstr "カスタムエクスポート"
 
 #. importExport.selection.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:142
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:153
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.heading"
 msgid "Gradebook Item Import Selection"
 msgstr "成績簿アイテムインポート選択"
 
 #. importExport.selection.description
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:143
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:154
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.description"
 msgid ""
@@ -1048,39 +1125,74 @@ msgid ""
 msgstr "システムはファイルアップロードしたコンテンツを解析し必要に応じ新規/更新情報を識別します．"
 
 #. importExport.selection.note
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:144
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:155
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.note"
 msgid ""
 "<strong>Note:</strong> Selecting \"Update\" items will override existing "
-"scores for that item."
-msgstr "<strong>注意：</strong> \"更新\"アイテムを選択するとそのアイテムに対する既存のスコアが上書きされます．"
+"values for that item."
+msgstr "<strong>注意：</strong> \"更新\"アイテムを選択するとそのアイテムに対する既存の値が上書きされます．"
 
 #. importExport.selection.details
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:145
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:156
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.details"
 msgid ""
-"If selecting new items, you will be asked to confirm their Settings on the "
+"If selecting new items, you will be asked to confirm their settings on the "
 "following screen(s)."
 msgstr "新たなアイテムを選択すると次の画面でその設定を確認されます．"
 
+#. importExport.selection.checkall
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:157
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.checkall"
+msgid "Check/uncheck all"
+msgstr "すべて選択/選択解除"
+
+#. importExport.selection.title
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:158
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.title"
+msgid "Title"
+msgstr "タイトル"
+
+#. importExport.selection.points
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:159
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.points"
+msgid "Points"
+msgstr "得点"
+
+#. importExport.selection.status
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:160
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.status"
+msgid "Status"
+msgstr "状態"
+
+#. importExport.selection.noneselected
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:161
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.noneselected"
+msgid "You must select at least one item."
+msgstr "あなたは少なくとも1つのアイテムを選択する必要があります．"
+
 #. importExport.createItem.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:146
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:162
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.createItem.heading"
 msgid "New Item Creation ({0} of {1})"
 msgstr "新たなアイテム作成({1}のうち{0} )"
 
 #. importExport.confirmation.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:147
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:163
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.heading"
 msgid "Confirmation"
 msgstr "確認"
 
 #. importExport.confirmation.description
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:148
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:164
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.description"
 msgid ""
@@ -1089,189 +1201,401 @@ msgid ""
 msgstr "<strong>終了</strong>をクリックすると, 次のインポート操作が完了します："
 
 #. importExport.confirmation.update.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:149
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:165
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.update.heading"
 msgid "Updating Scores for Existing Gradebook Item(s):"
 msgstr "既存成績簿アイテムのスコアを更新中："
 
 #. importExport.confirmation.create.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:150
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:166
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.create.heading"
 msgid "Creating New Gradebook Item(s):"
 msgstr "成績簿アイテムを作成中："
 
+#. importExport.confirmation.modify.heading
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:167
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.modify.heading"
+msgid "Modifying Existing Gradebook Item(s):"
+msgstr "既存成績簿アイテムを修正中："
+
+#. importExport.confirmation.title
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:168
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.title"
+msgid "Title"
+msgstr "タイトル:"
+
+#. importExport.confirmation.points
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:169
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.points"
+msgid "Points"
+msgstr "点数"
+
 #. importExport.confirmation.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:151
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:170
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.success"
-msgid "Gradebook Items Imported successfully!"
+msgid "Gradebook items imported successfully!"
 msgstr "成績簿アイテムが正常にインポートされました!"
 
 #. importExport.confirmation.failure
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:152
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:171
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.confirmation.failure"
-msgid "Errors during Gradebook Item Import!"
-msgstr "成績簿アイテムのインポート中のエラー!"
+msgid "Errors during gradebook item import."
+msgstr "成績簿アイテムのインポート中のエラー．"
 
 #. importExport.status.0
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:153
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:172
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.status.0"
 msgid "Update"
 msgstr "更新"
 
 #. importExport.status.1
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:154
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:173
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.status.1"
 msgid "New"
 msgstr "新規"
 
 #. importExport.status.2
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:155
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:174
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.status.2"
 msgid "No changes"
 msgstr "変更なし"
 
 #. importExport.status.3
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:156
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:175
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.status.3"
 msgid "Unknown"
 msgstr "未知"
 
 #. importExport.status.4
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:157
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:176
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.status.4"
 msgid "From {0}"
 msgstr "開始 {0}"
 
+#. importExport.status.5
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:177
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.status.5"
+msgid "Update"
+msgstr "更新"
+
 #. importExport.button.continue
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:158
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:178
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.button.continue"
 msgid "Continue"
 msgstr "続ける"
 
 #. importExport.button.cancel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:159
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:179
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.button.cancel"
 msgid "Cancel"
 msgstr "キャンセル"
 
 #. importExport.button.back
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:160
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:180
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.button.back"
 msgid "Back"
 msgstr "戻る"
 
 #. importExport.button.next
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:161
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:181
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.button.next"
 msgid "Next"
 msgstr "次"
 
 #. importExport.button.finish
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:162
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:182
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.button.finish"
 msgid "Finish"
 msgstr "終了"
 
+#. importExport.export.format.csv
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:183
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.format.csv"
+msgid "CSV"
+msgstr "CSV"
+
+#. importExport.export.format.pdf
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:184
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.format.pdf"
+msgid "PDF"
+msgstr "PDF"
+
+#. importExport.export.format.excel
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:185
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.format.excel"
+msgid "Excel"
+msgstr "Excel"
+
+#. importExport.export.advancedOption.description
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:186
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.description"
+msgid "Select from the options below to customize your Gradebook export."
+msgstr "成績簿エクスポートをカスタマイズする場合は下のオプションから選択します．"
+
+#. importExport.export.advancedOption.warning
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:187
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.warning"
+msgid ""
+"Note: customized exports can <strong>not</strong> be imported back into the "
+"system."
+msgstr "注意：カスタマイズエクスポートはシステムに入れ直すことが<strong>できません．</strong> "
+
+#. importExport.export.advancedOption.exportFormat
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:188
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.exportFormat"
+msgid "Export File Format"
+msgstr "エクスポートファイルフォーマット"
+
+#. importExport.export.advancedOption.includeStudentName
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:189
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeStudentName"
+msgid "Student Name"
+msgstr "受講者名"
+
+#. importExport.export.advancedOption.includePoints
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:190
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includePoints"
+msgid "Total Points"
+msgstr "合計点"
+
+#. importExport.export.advancedOption.includeLastLogDate
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:191
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeLastLogDate"
+msgid "Last Log Date"
+msgstr "最終ログ日付"
+
+#. importExport.export.advancedOption.includeCourseGrade
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:192
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeCourseGrade"
+msgid "Course Grade"
+msgstr "コース成績"
+
+#. importExport.export.advancedOption.includeStudentId
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:193
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeStudentId"
+msgid "Student ID"
+msgstr "受講者 ID"
+
+#. importExport.export.advancedOption.includeCalculatedGrade
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:194
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeCalculatedGrade"
+msgid "Calculated Course Grade"
+msgstr "計算されたコース成績"
+
+#. importExport.export.advancedOption.includeGradeOverride
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:195
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeGradeOverride"
+msgid "Grade Override"
+msgstr "成績を上書き"
+
+#. importExport.export.advancedOption.includeGradeItemScores
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:196
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeGradeItemScores"
+msgid "Gradebook Item Scores"
+msgstr "成績簿アイテム得点"
+
+#. importExport.export.advancedOption.includeGradeItemComments
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:197
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.advancedOption.includeGradeItemComments"
+msgid "Gradebook Item Comments"
+msgstr "成績簿アイテムコメント"
+
+#. importExport.export.csv.headers.studentId
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:198
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.studentId"
+msgid "Student ID"
+msgstr "受講者ID"
+
+#. importExport.export.csv.headers.studentName
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:199
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.studentName"
+msgid "Student Name"
+msgstr "受講者名"
+
+#. importExport.export.csv.headers.points
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:200
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.points"
+msgid "Total Points"
+msgstr "合計点"
+
+#. importExport.export.csv.headers.courseGrade
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:201
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.courseGrade"
+msgid "Course Grade"
+msgstr "コース成績"
+
+#. importExport.export.csv.headers.calculatedGrade
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:202
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.calculatedGrade"
+msgid "Calculated Grade"
+msgstr "計算された成績"
+
+#. importExport.export.csv.headers.gradeOverride
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:203
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.gradeOverride"
+msgid "Grade Override"
+msgstr "成績を上書き"
+
+#. importExport.export.csv.headers.lastLogDate
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:204
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.lastLogDate"
+msgid "Last Log Date"
+msgstr "最終ログ日付"
+
+#. importExport.export.csv.headers.example.points
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:205
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.example.points"
+msgid "Example Assignment With Points"
+msgstr "点数あり例題課題"
+
+#. importExport.export.csv.headers.example.nopoints
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:206
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.example.nopoints"
+msgid "Example Assignment With No Points"
+msgstr "点数なし例題課題"
+
+#. importExport.export.csv.headers.example.pointscomments
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:207
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.example.pointscomments"
+msgid "Example Assignment With Points And Comments"
+msgstr "点数およびコメントあり例題課題"
+
+#. importExport.export.csv.headers.example.ignore
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:208
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.export.csv.headers.example.ignore"
+msgid "This column will be ignored"
+msgstr "このカラムは無視されます"
+
 #. assignment.option.edit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:163
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:209
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:assignment.option.edit"
 msgid "Edit Item Details"
 msgstr "アイテムの詳細を編集"
 
 #. assignment.option.viewgradestatistics
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:164
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:210
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:assignment.option.viewgradestatistics"
 msgid "View Grade Statistics"
 msgstr "成績の統計を表示"
 
 #. assignment.option.moveleft
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:165
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:211
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:assignment.option.moveleft"
 msgid "Move Left"
 msgstr "左へ"
 
 #. assignment.option.moveright
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:166
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:212
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:assignment.option.moveright"
 msgid "Move Right"
 msgstr "右へ"
 
 #. assignment.option.hide
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:167
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:213
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:assignment.option.hide"
 msgid "Hide Item"
 msgstr "アイテムを非表示"
 
 #. assignment.option.setungraded
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:168
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:214
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:assignment.option.setungraded"
 msgid "Set Score for Empty Cells"
 msgstr "空白のセルに得点を設定"
 
 #. assignment.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:169
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:215
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:assignment.menulabel"
 msgid "Open menu for {0} column"
 msgstr "{0} 欄のメニューを開く"
 
 #. message.edititem.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:170
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:216
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:message.edititem.success"
 msgid "Gradebook item ''{0}'' has been updated."
 msgstr "成績簿アイテム \"{0}\" が更新されました．"
 
 #. message.edititem.error
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:171
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:217
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:message.edititem.error"
 msgid "An error occurred updating the Gradebook item."
 msgstr "成績簿アイテムの更新中にエラーが発生しました．"
 
 #. message.editcomment.error
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:172
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:218
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:message.editcomment.error"
 msgid "An error occurred editing the comment."
 msgstr "コメントの編集中にエラーが発生しました．"
 
 #. message.addcoursegradeoverride.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:173
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:219
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:message.addcoursegradeoverride.success"
 msgid "The course grade was updated."
 msgstr "コース成績が更新されました．"
 
 #. message.addcoursegradeoverride.error
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:174
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:220
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:message.addcoursegradeoverride.error"
 msgid "An error occurred updating the course grade."
 msgstr "コース成績の更新中にエラーが発生しました．"
 
 #. message.addcoursegradeoverride.invalid
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:175
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:221
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:message.addcoursegradeoverride.invalid"
 msgid ""
@@ -1280,63 +1604,73 @@ msgid ""
 msgstr "現在この成績簿で採点用スキーマが使用中のため入力されたコース成績は無効です．"
 
 #. message.updateungradeditems.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:176
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:222
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:message.updateungradeditems.success"
 msgid "The ungraded items were updated."
 msgstr "未採点のアイテムが更新されました．"
 
+#. gradespage.caption
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:223
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:gradespage.caption"
+msgid ""
+"Rows of student names. Columns of gradebook items. Press enter key in a cell"
+" to add or edit a grade. Two tabs to move through each cell. Filter list "
+"with accesskey F."
+msgstr "受講者名列．成績簿アイテム欄．成績を追加もしくは編集するにはセル内でEnterキーを押して下さい．それぞれのセル間を移動するふたつのタブ．アクセスキー F とともに一覧をフィルタ．"
+
 #. grade.option.viewlog
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:177
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:224
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.option.viewlog"
 msgid "Grade Log"
 msgstr "成績ログ"
 
 #. grade.log.entry
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:178
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:225
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.log.entry"
 msgid "{0} - Score set to <b>{1}</b> by {2}"
 msgstr "{0} - スコアは{2}による<b>{1}</b> に設定されました"
 
 #. grade.log.none
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:179
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:226
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.log.none"
 msgid "No grades have been entered for this cell."
 msgstr "このセルには成績が入力されていません．"
 
 #. grade.outof
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:180
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:227
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.outof"
 msgid "/{0}"
 msgstr "/{0}"
 
 #. grade.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:181
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:228
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.menulabel"
 msgid "Open menu for student {0} and assignment {1} cell"
 msgstr "受講者{0} および 課題{1} のセルのメニューを開く"
 
 #. grade.notifications.hascomment
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:182
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:229
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.hascomment"
 msgid "Gradebook item has comments"
 msgstr "成績簿アイテムにコメントがあります"
 
 #. grade.notifications.haserror
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:183
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:230
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.haserror"
 msgid "An error occurred saving this item score."
 msgstr "このアイテムの点数を保存中にエラーが発生しました．"
 
 #. grade.notifications.overlimit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:184
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:231
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.overlimit"
 msgid ""
@@ -1344,7 +1678,7 @@ msgid ""
 msgstr "スコアはアイテムの最高点を超えており，特別点を提供しています．"
 
 #. grade.notifications.concurrentedit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:185
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:232
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.concurrentedit"
 msgid ""
@@ -1353,7 +1687,7 @@ msgid ""
 msgstr "同時編集が検知されました．最新の得点を見るためにツールをリフレッシュして下さい．"
 
 #. grade.notifications.concurrenteditbyuser
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:186
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:233
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.concurrenteditbyuser"
 msgid ""
@@ -1363,7 +1697,7 @@ msgid ""
 msgstr "<span class=\"gb-concurrent-edit-user\">{0}</span> がスコアを<span class=\"gb-concurrent-edit-time\">{1}</span>に編集しました．最新の得点を見るためにツールをリフレッシュして下さい．"
 
 #. grade.notifications.isexternal
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:187
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:234
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.isexternal"
 msgid ""
@@ -1372,7 +1706,7 @@ msgid ""
 msgstr "成績簿アイテムが外部ツールからインポートされそのツール内からのみ編集できます．"
 
 #. grade.notifications.invalid
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:188
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:235
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.invalid"
 msgid ""
@@ -1381,49 +1715,56 @@ msgid ""
 msgstr "アイテムのスコアは最大10の整数と2桁の正の数/10進数である必要があります．"
 
 #. grade.notifications.readonly
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:189
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:236
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.readonly"
 msgid "Insufficient privileges to edit this Gradebook item score"
 msgstr "この成績簿のアイテムスコアを編集するための十分な権限がありません"
 
 #. grade.notifications.revert
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:190
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:237
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.revert"
 msgid "Revert to Previous Score"
-msgstr ""
+msgstr "前の得点に戻す"
 
-#. comment.option.add
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:191
+#. grade.notifications.saved
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:238
 msgctxt ""
-"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:comment.option.add"
-msgid "Add Comment"
-msgstr "コメントを追加"
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.saved"
+msgid "All changes saved."
+msgstr "すべての変更が保存されました"
+
+#. grade.notifications.error
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:239
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:grade.notifications.error"
+msgid "Errors were detected. See cell notifications below."
+msgstr "エラーが見つかりました．下のセルの通知を見て下さい．"
 
 #. comment.option.edit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:192
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:240
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:comment.option.edit"
-msgid "Edit Comment"
-msgstr "コメントを編集"
+msgid "Add/Edit Comment"
+msgstr "コメント追加/編集"
 
 #. comment.option.external
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:193
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:241
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:comment.option.external"
 msgid "Editable in {0} tool"
 msgstr " {0} ツール内で編集できます"
 
 #. delete.label
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:194
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:242
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:delete.label"
 msgid "Delete Item"
 msgstr "アイテムを削除"
 
 #. delete.warning
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:195
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:243
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:delete.warning"
 msgid ""
@@ -1432,63 +1773,70 @@ msgid ""
 msgstr "この成績簿アイテムの削除は元に戻すことができず，入力されたスコアは成績簿から削除されることに注意して下さい．"
 
 #. delete.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:196
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:244
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:delete.success"
 msgid "Gradebook item ''{0}'' has been deleted."
 msgstr "成績簿アイテム ''{0}'' が削除されました．"
 
 #. sortbyname.option.first
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:197
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:245
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:sortbyname.option.first"
 msgid "Order By First Name"
 msgstr "名でソート"
 
 #. sortbyname.option.last
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:198
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:246
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:sortbyname.option.last"
 msgid "Order By Last Name"
 msgstr "姓でソート"
 
 #. students.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:199
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:247
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:students.menulabel"
 msgid "Open menu for the students column"
 msgstr "受講生欄のメニューを開く"
 
 #. groups.all
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:200
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:248
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:groups.all"
 msgid "All Sections/Groups"
 msgstr "すべてのセクションまたはグループ"
 
+#. groups.available
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:249
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:groups.available"
+msgid "Available Sections/Groups"
+msgstr "利用できるセクション/グループ"
+
 #. categories.all
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:201
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:250
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:categories.all"
 msgid "All Categories"
 msgstr "すべてのカテゴリ"
 
 #. label.nocategoryscore
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:202
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:251
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.nocategoryscore"
 msgid "-"
 msgstr "-"
 
 #. errorpage.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:203
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:252
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:errorpage.heading"
 msgid "Something went wrong"
 msgstr "何かがうまく行きませんでした"
 
 #. errorpage.text
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:204
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:253
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:errorpage.text"
 msgid ""
@@ -1497,70 +1845,70 @@ msgid ""
 msgstr "リフレッシュして再度試してみて下さい．ここに戻れれば，次のエラー番号をITサポートに知らせて下さい：<b>{0}</b>.．"
 
 #. settingspage.main.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:205
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:254
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.main.heading"
 msgid "Settings"
 msgstr "設定"
 
 #. settingspage.gradeentry.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:206
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:255
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradeentry.heading"
 msgid "Grade Entry"
 msgstr "成績入力"
 
 #. settingspage.graderelease.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:207
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:256
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.graderelease.heading"
 msgid "Grade Release Rules"
 msgstr "成績発表ルール"
 
 #. settingspage.categories.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:208
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:257
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.heading"
 msgid "Categories & Weighting"
 msgstr "カテゴリ及び重み付け"
 
 #. settingspage.gradingschema.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:209
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:258
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradingschema.heading"
 msgid "Grading Schema"
 msgstr "成績スキーマ"
 
 #. settingspage.gradeentry.text
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:210
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:259
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradeentry.text"
 msgid "How will graders enter grades into this gradebook?"
 msgstr "成績をどのように入力しますか?"
 
 #. settingspage.gradeentry.points
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:211
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:260
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradeentry.points"
 msgid "Points"
 msgstr "点数"
 
 #. settingspage.gradeentry.percentages
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:212
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:261
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradeentry.percentages"
 msgid "Percentages"
 msgstr "パーセンテージ"
 
 #. settingspage.graderelease.label
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:213
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:262
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.graderelease.label"
 msgid "Display released Gradebook items to students"
 msgstr "公開された成績簿アイテムを学生に表示する"
 
 #. settingspage.graderelease.instructions
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:214
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:263
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.graderelease.instructions"
 msgid ""
@@ -1569,42 +1917,42 @@ msgid ""
 msgstr "成績簿アイテムを作成したり編集したりすると成績簿アイテムを受講者に発表することができます．"
 
 #. settingspage.displaycoursegrade.label
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:215
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:264
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.label"
 msgid "Display final course grade to students"
 msgstr "最終のコース成績を受講者に表示"
 
 #. settingspage.displaycoursegrade.lettergrade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:216
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:265
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.lettergrade"
 msgid "Letter Grade"
 msgstr "文字成績"
 
 #. settingspage.displaycoursegrade.percentage
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:217
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:266
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.percentage"
 msgid "Percentage"
 msgstr "パーセンテージ"
 
 #. settingspage.displaycoursegrade.points
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:218
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:267
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.points"
 msgid "Points"
 msgstr "点数"
 
 #. settingspage.displaycoursegrade.preview
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:219
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:268
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.preview"
 msgid "Preview"
 msgstr "プレビュー"
 
 #. settingspage.displaycoursegrade.preview-none
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:220
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:269
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade"
 ".preview-none"
@@ -1612,7 +1960,7 @@ msgid "-"
 msgstr "-"
 
 #. settingspage.displaycoursegrade.preview-letter
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:221
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:270
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade"
 ".preview-letter"
@@ -1620,7 +1968,7 @@ msgid "B+"
 msgstr "B+"
 
 #. settingspage.displaycoursegrade.preview-percentage-first
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:222
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:271
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade"
 ".preview-percentage-first"
@@ -1628,7 +1976,7 @@ msgid "88%"
 msgstr "88%"
 
 #. settingspage.displaycoursegrade.preview-percentage-second
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:223
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:272
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade"
 ".preview-percentage-second"
@@ -1636,7 +1984,7 @@ msgid "(88%)"
 msgstr "(88%)"
 
 #. settingspage.displaycoursegrade.preview-points-first
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:224
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:273
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade"
 ".preview-points-first"
@@ -1644,24 +1992,33 @@ msgid "176/200"
 msgstr "176/200"
 
 #. settingspage.displaycoursegrade.preview-points-second
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:225
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:274
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade"
 ".preview-points-second"
 msgid "[176/200]"
 msgstr "[176/200]"
 
-#. settingspage.displaycoursegrade.instructions
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:226
+#. settingspage.displaycoursegrade.instructions.1
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:275
 msgctxt ""
-"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.instructions"
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.instructions.1"
 msgid ""
 "Choose the options for formatting the course grade. You must choose at least"
 " one option."
 msgstr "コース成績をフォーマットするオプションを選択して下さい．最低ひとつのオプションを選択して下さい．"
 
+#. settingspage.displaycoursegrade.instructions.2
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:276
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.instructions.2"
+msgid ""
+"Note that you cannot choose 'Points' if the gradebook is setup with "
+"'Categories & weighting'."
+msgstr "成績簿が 'カテゴリおよび重み付け'で設定されている場合 '点数' は選択できません． "
+
 #. settingspage.displaycoursegrade.notenough
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:227
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:277
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.notenough"
 msgid ""
@@ -1670,7 +2027,7 @@ msgid ""
 msgstr "コース成績表示が選択されましたがフォーマットオプションが選択されていません．"
 
 #. settingspage.displaycoursegrade.incompatible
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:228
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:278
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.displaycoursegrade.incompatible"
 msgid ""
@@ -1679,126 +2036,126 @@ msgid ""
 msgstr "重み付けカテゴリが有効な場合，点数はコース成績として表示されません．異なるコース成績の表示オプションを選択して下さい．"
 
 #. settingspage.categories.none
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:229
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:279
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.none"
 msgid "No categories"
 msgstr "カテゴリなし"
 
 #. settingspage.categories.categoriesonly
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:230
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:280
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.categoriesonly"
 msgid "Categories only"
 msgstr "カテゴリだけ"
 
 #. settingspage.categories.categoriesweighting
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:231
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:281
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.categoriesweighting"
 msgid "Categories & weighting"
 msgstr "カテゴリ及び重み付け"
 
 #. settingspage.categories.drophighest
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:232
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:282
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.drophighest"
 msgid "Enable drop highest"
 msgstr "最高点の除外を有効化"
 
 #. settingspage.categories.droplowest
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:233
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:283
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.droplowest"
 msgid "Enable drop lowest"
 msgstr "最低点の除外を有効化"
 
 #. settingspage.categories.keephighest
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:234
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:284
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.keephighest"
 msgid "Enable keep highest"
 msgstr "最高点の採用を有効化"
 
 #. settingspage.categories.add
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:235
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:285
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.add"
 msgid "Add a category"
 msgstr "カテゴリを追加"
 
 #. settingspage.categories.items
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:236
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:286
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.items"
 msgid "{0} items(s)"
 msgstr "{0} 件"
 
 #. settingspage.categories.categorycolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:237
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:287
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.categorycolhead"
 msgid "Category"
 msgstr "カテゴリ"
 
 #. settingspage.categories.weightcolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:238
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:288
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.weightcolhead"
 msgid "%"
 msgstr "%"
 
 #. settingspage.categories.extracreditcolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:239
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:289
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.extracreditcolhead"
 msgid "Extra Credit"
 msgstr "特別点"
 
 #. settingspage.categories.itemscolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:240
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:290
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.itemscolhead"
 msgid "Gradebook Items"
 msgstr "成績簿アイテム"
 
 #. settingspage.categories.drophighestcolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:241
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:291
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.drophighestcolhead"
 msgid "Drop Highest"
 msgstr "最高点を除外"
 
 #. settingspage.categories.droplowestcolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:242
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:292
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.droplowestcolhead"
 msgid "Drop Lowest"
 msgstr "最低点を除外"
 
 #. settingspage.categories.keephighestcolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:243
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:293
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.keephighestcolhead"
 msgid "Keep Highest"
 msgstr "最高点を採用"
 
 #. settingspage.categories.removecolhead
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:244
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:294
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.removecolhead"
 msgid "Remove"
 msgstr "削除"
 
 #. settingspage.categories.total
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:245
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:295
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.total"
 msgid "Total:"
 msgstr "合計："
 
 #. settingspage.categories.instructions.1
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:246
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:296
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.instructions.1"
 msgid ""
@@ -1807,7 +2164,7 @@ msgid ""
 msgstr "成績簿アイテムがカテゴリに割り当てられていれば，カテゴリは表示されます．"
 
 #. settingspage.categories.instructions.2
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:247
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:297
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.instructions.2"
 msgid ""
@@ -1816,84 +2173,128 @@ msgid ""
 msgstr "最高点の除外，最低点の除外，および最高点の採用を有効化するには，カテゴリ内のすべての成績簿アイテムの点数の値が同じである必要があります．"
 
 #. settingspage.categories.instructions.3
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:248
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:298
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.instructions.3"
+msgid ""
+"Drop highest and keep highest, and drop lowest and keep highest are mutually"
+" exclusive and cannot be used together."
+msgstr "最高点の除外と最高点の採用，最低点の除外と最高点の採用は相互に排他的で併用できません．"
+
+#. settingspage.categories.instructions.4
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:299
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.instructions.4"
 msgid "Extra credit categories do not participate in the overall weightings."
 msgstr "特別点のカテゴリは全体の重み付けに関係しません．"
 
+#. settingspage.categories.instructions.5
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:300
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.instructions.5"
+msgid ""
+"Note that you cannot choose 'Categories & weighting' if the final course "
+"grade is setup with 'Points'."
+msgstr "最終コース成績が '点数'で設定されている場合 'カテゴリおよび重み付け' は選択できません． "
+
+#. settingspage.categories.instructions.6
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:301
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.instructions.6"
+msgid ""
+"If 'Categories & weighting' are enabled, any uncategorized items will "
+"automatically be excluded from the course grade."
+msgstr "'カテゴリ及び重み付け'が有効であれば，カテゴリ化されないアイテムは自動的にコース成績から除外されます．"
+
 #. settingspage.categories.runningtotalerror
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:249
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:302
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.categories.runningtotalerror"
 msgid "Weighting for the categories must equal 100%"
 msgstr "カテゴリの重み付けは100%でなければなりません"
 
 #. settingspage.gradingschema.type
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:250
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:303
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradingschema.type"
 msgid "Grade Type"
 msgstr "評定タイプ"
 
 #. settingspage.gradingschema.grade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:251
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:304
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradingschema.grade"
 msgid "Grade"
 msgstr "成績"
 
 #. settingspage.gradingschema.minpercent
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:252
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:305
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.gradingschema.minpercent"
 msgid "Minimum %"
 msgstr "最低 %"
 
 #. settingspage.update.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:253
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:306
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.update.success"
 msgid "The settings were successfully updated"
 msgstr "設定が正常に更新されました．"
 
 #. settingspage.update.failure.categorymissingweight
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:254
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:307
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.update.failure.categorymissingweight"
 msgid "No weight specified for a category, but weightings enabled"
 msgstr "カテゴリに重みが指定されていませんが，重み付けは有効です"
 
 #. settingspage.update.failure.categoryweighttotals
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:255
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:308
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.update.failure.categoryweighttotals"
 msgid "Weightings for the categories must equal 100%"
 msgstr "カテゴリの重み付けは100%でなければなりません"
 
 #. settingspage.update.failure.categoryweightnumber
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:256
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:309
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.update.failure.categoryweightnumber"
 msgid "The category % entered is not a valid number."
 msgstr "入力されたカテゴリ%は有効な数字ではありません．"
 
 #. settingspage.update.failure.categorynameconflict
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:257
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:310
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.update.failure.categorynameconflict"
 msgid "Category names must be unique."
 msgstr "カテゴリ名 はユニークにして下さい．"
 
+#. settingspage.update.failure.categorydropkeepenabled
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:311
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.update.failure.categorydropkeepenabled"
+msgid ""
+"The combination of drop highest, drop lowest and keep highest was invalid."
+msgstr "最高点の除外，最低点の除外，および最高点の採用の組み合わせは無効です．"
+
+#. settingspage.update.failure.gradingschemamapping
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:312
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:settingspage.update.failure.gradingschemamapping"
+msgid ""
+"The grading schema could not be updated as it would leave some course grade "
+"overrides in an unmappable state."
+msgstr "それがマッピングできない状態でコース成績が上書きのままになっていたため成績スキーマは更新されませんでした．"
+
 #. permissionspage.main.heading
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:258
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:313
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.main.heading"
 msgid "Grader Permissions"
 msgstr "採点者権限"
 
 #. permissionspage.instructions.noteachingassistants
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:259
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:314
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.instructions.noteachingassistants"
 msgid ""
@@ -1902,7 +2303,7 @@ msgid ""
 msgstr "サイトに定義されているティーチングアシスタントが現在いません．ティーチングアシスタントは特別な採点者権限を設定して定義する必要があります．"
 
 #. permissionspage.instructions.nocategoriesorsections
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:260
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:315
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.instructions.nocategoriesorsections"
 msgid ""
@@ -1912,90 +2313,97 @@ msgid ""
 msgstr "成績簿のカテゴリやサイトで定義されているセクションまたはグループはありません．カテゴリやセクションまたはグループは採点者権限を指定するためには定義する必要があります．"
 
 #. permissionspage.instructions.ok
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:261
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:316
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.instructions.ok"
 msgid ""
 "Grading permissions can be specified for each teaching assistant in this "
-"site. By default, a teaching assistant has permission to grade anything "
-"within their assigned sections/groups. <b>Adding or modifying these rules "
-"overrides the default permission and restricts their capabilities within "
-"your specifications below.</b> Delete all rules to revert to the default "
-"permission setting."
-msgstr "採点者権限はこのサイトの各ティーチングアシスタントに対して指定できます．デフォルトでは，ティーチングアシスタントには，割り当てられたセクションまたはグループ内のすべてについて採点する権限が与えられます．<b>これらの規則を追加したり修正したりすると，デフォルト権限を上書きし，以下の指定内の権限に制限されます．</b> すべての規則を削除するとデフォルト権限設定に戻ります．"
+"site. To apply permissions for a TA, select from the rules below. Multiple "
+"rules may be applied. <b>Adding or modifying these rules overrides the "
+"default permission and restricts their capabilities within your "
+"specifications below.</b> To revert to the default permissions for the TA, "
+"delete all rules."
+msgstr "採点者権限はこのサイトの各ティーチングアシスタントに対して指定できます．TAに対する権限を適用するには下記の規則から選択して下さい．複数の規則を適用できます．<b>これらの規則を追加したり修正したりすると，デフォルト権限を上書きし，以下の指定内の権限に制限されます．</b> すべての規則を削除するとTAに対するデフォルト権限に戻ります．"
 
 #. permissionspage.instructions.choose
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:262
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:317
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.instructions.choose"
 msgid "Select a grader to edit"
 msgstr "編集する採点者を選択"
 
 #. permissionspage.instructions.norules
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:263
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:318
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.instructions.norules"
 msgid "There are currently no rules defined for this grader."
 msgstr "この採点者に定義されている規則はありません．"
 
 #. permissionspage.instructions.coursegrade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:264
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:319
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.instructions.coursegrade"
 msgid "Allow grader to see course grade for selected section(s) below."
 msgstr "採点者は下記の選択したセクションに対するコース成績を参照できます．"
 
 #. permissionspage.item.can
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:265
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:320
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.item.can"
 msgid "Can"
 msgstr "Can"
 
 #. permissionspage.item.in
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:266
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:321
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.item.in"
 msgid "in"
 msgstr "場所: "
 
 #. permissionspage.addrule
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:267
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:322
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.addrule"
 msgid "Add Rule"
 msgstr "ルールを追加"
 
 #. permissionspage.label.tausername
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:268
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:323
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.label.tausername"
 msgid "{0} ({1})"
 msgstr "{0} ({1})"
 
 #. permissionspage.function.view
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:269
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:324
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.function.view"
 msgid "View"
 msgstr "表示:"
 
 #. permissionspage.function.grade
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:270
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:325
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.function.grade"
 msgid "Grade"
 msgstr "成績"
 
+#. permissionspage.allgradeitems
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:326
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.allgradeitems"
+msgid "All Gradebook items"
+msgstr "すべての成績簿アイテム"
+
 #. permissionspage.update.success
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:271
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:327
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:permissionspage.update.success"
 msgid "The permissions were successfully updated"
 msgstr "権限が正常に更新されました．"
 
 #. no-assignments.label
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:272
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:328
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties"
 ":no-assignments.label"
@@ -2003,7 +2411,7 @@ msgid "There are no Gradebook items"
 msgstr "成績簿アイテムがありません．"
 
 #. no-students.label
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:273
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:329
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties"
 ":no-students.label"
@@ -2011,154 +2419,154 @@ msgid "There are no students with Gradebook items"
 msgstr "成績簿アイテムに受講生がいません．"
 
 #. gradebookpage.uncategorised
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:274
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:330
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:gradebookpage.uncategorised"
 msgid "Uncategorized"
 msgstr "カテゴリ化されていません"
 
 #. label.statistics.title
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:275
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:331
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.title"
 msgid "Grade Statistics for {0}"
 msgstr "\"{0}\" の成績統計"
 
 #. label.statistics.average
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:276
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:332
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.average"
 msgid "Average (Mean) Score"
 msgstr "平均(相加平均)得点"
 
 #. label.statistics.averagevalue
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:277
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:333
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.averagevalue"
 msgid "{0} / {1} ({2})"
 msgstr "{0} / {1} ({2})"
 
 #. label.statistics.graded
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:278
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:334
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.graded"
 msgid "Total Graded Scores"
 msgstr "合計成績得点"
 
 #. label.statistics.median
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:279
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:335
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.median"
 msgid "Median Score"
 msgstr "中央値"
 
 #. label.statistics.medianvalue
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:280
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:336
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.medianvalue"
 msgid "{0} / {1} ({2})"
 msgstr "{0} / {1} ({2})"
 
 #. label.statistics.lowest
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:281
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:337
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.lowest"
 msgid "Lowest Score"
 msgstr "最低得点"
 
 #. label.statistics.lowestvalue
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:282
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:338
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.lowestvalue"
 msgid "{0} / {1} ({2})"
 msgstr "{0} / {1} ({2})"
 
 #. label.statistics.highest
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:283
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:339
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.highest"
 msgid "Highest Score"
 msgstr "最高得点"
 
 #. label.statistics.highestvalue
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:284
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:340
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.highestvalue"
 msgid "{0} / {1} ({2})"
 msgstr "{0} / {1} ({2})"
 
 #. label.statistics.deviation
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:285
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:341
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.deviation"
 msgid "Standard Deviation"
 msgstr "標準偏差"
 
 #. label.statistics.chart.extracredit
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:286
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:342
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.chart.extracredit"
 msgid "EC"
 msgstr "EC"
 
 #. label.statistics.chart.xaxis
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:287
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:343
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.chart.xaxis"
 msgid "Percentage Scored"
 msgstr "採点済パーセンテージ"
 
 #. label.statistics.chart.yaxis
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:288
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:344
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.chart.yaxis"
 msgid "Number of Students"
 msgstr "学生数"
 
 #. label.statistics.chart.tooltip
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:289
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:345
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.statistics.chart.tooltip"
 msgid "{2} score(s) in {1}% range"
 msgstr " {1}%範囲内にある得点{2}"
 
 #. coursegrade.option.override
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:290
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:346
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.option.override"
 msgid "Course Grade Override"
 msgstr "コース成績を上書き"
 
 #. coursegrade.option.overridelog
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:291
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:347
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.option.overridelog"
 msgid "Course Grade Override Log"
 msgstr "コース成績を上書きしたログ"
 
 #. coursegrade.option.setungraded
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:292
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:348
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.option.setungraded"
 msgid "Set Zero Score For Empty Cells"
 msgstr "空白のセルに零点を設定"
 
 #. coursegrade.header.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:293
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:349
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.header.menulabel"
 msgid "Open menu for Course Grade column"
 msgstr "このコース成績欄のメニューを開く"
 
 #. coursegrade.cell.menulabel
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:294
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:350
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.cell.menulabel"
 msgid "Open menu for Course Grade cell"
 msgstr "このコース成績セルのメニューを開く"
 
 #. label.zeroungradeditems.instructions.1
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:295
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:351
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.zeroungradeditems.instructions.1"
 msgid ""
@@ -2170,7 +2578,7 @@ msgid ""
 msgstr "項目が採点されると，成績簿は自動的に学生のコース階級を計算します．コース階級を正確に計算するには，すべての採点可能な項目が採点されていなければなりません．継続中の場合採点していない任意の成績項目をゼロとします．ゼロにしないと意図したよりはるかに高いコース階級になることがあります．"
 
 #. label.zeroungradeditems.instructions.2
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:296
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:352
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:label.zeroungradeditems.instructions.2"
 msgid ""
@@ -2179,35 +2587,35 @@ msgid ""
 msgstr "<b>注意:</b> 更新をクリックすると成績簿のすべての未採点のアイテムにゼロの評価をつけます．<b>これは元に戻すことはできません!</b>"
 
 #. coursegrade.option.viewlog
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:297
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:353
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.option.viewlog"
 msgid "Course Grade Override Log"
 msgstr "コース成績を上書きしたログ"
 
 #. coursegrade.log.entry.set
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:298
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:354
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.log.entry.set"
 msgid "{0} - Course Grade set to <b>{1}</b> by {2}"
 msgstr "{0} - コース成績は{2}による<b>{1}</b> に設定されました"
 
 #. coursegrade.log.entry.unset
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:299
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:355
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.log.entry.unset"
 msgid "{0} - Course Grade Override removed by {1}"
 msgstr "{0} - コース成績の上書きは{1}により削除"
 
 #. coursegrade.log.none
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:300
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:356
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.log.none"
 msgid "No course grade overrides have been entered."
 msgstr "コース成績の上書きは入力されていません．"
 
 #. coursegrade.override.instructions.1
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:301
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:357
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.override.instructions.1"
 msgid ""
@@ -2216,42 +2624,42 @@ msgid ""
 msgstr "最終コース成績上書きを入力し，希望する文字成績を下のフィールドに入力して下さい．+ および -　の両方の成績を入力できます．"
 
 #. column.header.coursegradeoverride.studentname
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:302
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:358
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.coursegradeoverride.studentname"
 msgid "Student Name"
 msgstr "受講生名"
 
 #. column.header.coursegradeoverride.studentid
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:303
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:359
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.coursegradeoverride.studentid"
 msgid "Student ID"
 msgstr "受講者 ID"
 
 #. column.header.coursegradeoverride.points
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:304
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:360
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.coursegradeoverride.points"
 msgid "Points"
 msgstr "得点"
 
 #. column.header.coursegradeoverride.calculated
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:305
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:361
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.coursegradeoverride.calculated"
 msgid "Calculated Grade"
 msgstr "計算された成績"
 
 #. column.header.coursegradeoverride.gradeoverride
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:306
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:362
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:column.header.coursegradeoverride.gradeoverride"
 msgid "Grade Override"
 msgstr "成績を上書き"
 
 #. coursegrade.display.percentage-first
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:307
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:363
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.display"
 ".percentage-first"
@@ -2259,7 +2667,7 @@ msgid "{0}"
 msgstr "{0}"
 
 #. coursegrade.display.percentage-second
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:308
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:364
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.display"
 ".percentage-second"
@@ -2267,7 +2675,7 @@ msgid "({0})"
 msgstr "({0})"
 
 #. coursegrade.display.points-first
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:309
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:365
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.display"
 ".points-first"
@@ -2275,7 +2683,7 @@ msgid "{0}/{1}"
 msgstr "{0}/{1}"
 
 #. coursegrade.display.points-second
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:310
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:366
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.display"
 ".points-second"
@@ -2283,7 +2691,7 @@ msgid "<br>[{0}/{1}]"
 msgstr "<br>[{0}/{1}]"
 
 #. coursegrade.display.points-none
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:311
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:367
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.display"
 ".points-none"
@@ -2291,28 +2699,28 @@ msgid "-"
 msgstr "-"
 
 #. coursegrade.display.none
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:312
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:368
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.display.none"
 msgid "-"
 msgstr "-"
 
 #. coursegrade.option.showpoints
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:313
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:369
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.option.showpoints"
 msgid "Show Points"
 msgstr "点数を表示"
 
 #. coursegrade.option.hidepoints
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:314
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:370
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:coursegrade.option.hidepoints"
 msgid "Hide points"
 msgstr "点数を非表示 "
 
 #. link.coursegradeoverride.revert.tooltip
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:315
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:371
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:link.coursegradeoverride.revert.tooltip"
 msgid ""
@@ -2320,8 +2728,166 @@ msgid ""
 msgstr "コース成績の上書きを削除し計算されたコース成績に戻す"
 
 #. link.coursegradeoverride.reverttocalculated
-#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:316
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:372
 msgctxt ""
 "gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:link.coursegradeoverride.reverttocalculated"
 msgid "Revert to calculated course grade"
 msgstr "計算されたコース成績に戻す"
+
+#. feedback.saving
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:373
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:feedback.saving"
+msgid "Saving..."
+msgstr "保存しています . . ."
+
+#. feedback.saved
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:374
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:feedback.saved"
+msgid "All changes saved."
+msgstr "すべての変更が保存されました．"
+
+#. feedback.error
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:375
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:feedback.error"
+msgid "Errors were detected. See cell notifications below."
+msgstr "エラーが見つかりました．下のセルの通知を見て下さい．"
+
+#. feedback.connectiontimeout
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:376
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:feedback.connectiontimeout"
+msgid "Unable to connect. Changes cannot be saved while offline."
+msgstr "接続できません．変更はオフィラインでは保存されません．"
+
+#. ta.nopermission
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:377
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:ta.nopermission"
+msgid ""
+"You do not have permission to view the gradebook. Please contact your "
+"instructor."
+msgstr "成績簿を表示する権限がありません．教員に連絡して下さい．"
+
+#. ta.roleswapped
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:378
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:ta.roleswapped"
+msgid "TA view of gradebook cannot be displayed."
+msgstr "成績簿のTAビューは表示できません．"
+
+#. error.addeditgradeitem.categorypoints
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:379
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:error.addeditgradeitem.categorypoints"
+msgid ""
+"This gradebook item is configured with a category that has drop highest/drop"
+" lowest/keep highest enabled. The points for this gradebook item must match "
+"the current maximum of {0}."
+msgstr "この成績簿アイテムは最高点を除外/最低点を除外/最高点を採用が有効化されたカテゴリで設定されています．この成績簿アイテムの点数は現在の最高点 {0} に合っていなければなりません．"
+
+#. error.addeditgradeitem.titlecharacters
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:380
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:error.addeditgradeitem.titlecharacters"
+msgid "Gradebook item names cannot contain *, #, [ or ] as they are reserved."
+msgstr "成績簿アイテム名は予約されている *, #, [ or ] を含むことができません．"
+
+#. importExport.error.grade
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:381
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.grade"
+msgid "An error occurred importing a grade. Please check the file."
+msgstr "成績のインポート中にエラーが発生しました．ファイルを確認して下さい．"
+
+#. importExport.error.comment
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:382
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.comment"
+msgid "An error occurred importing a comment. Please check the file."
+msgstr "コメントのインポート中にエラーが発生しました．ファイルを確認して下さい．"
+
+#. importExport.commentname
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:383
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.commentname"
+msgid "+ comments"
+msgstr "＋コメント"
+
+#. importExport.error.incorrecttype
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:384
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.incorrecttype"
+msgid "The file you uploaded was not recognised as a CSV or Excel file."
+msgstr "アップロードしたファイルはCSVまたはExcelファイルとして認識されませんでした．"
+
+#. importExport.error.incorrectformat
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:385
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.incorrectformat"
+msgid "The file you uploaded was not formatted correctly."
+msgstr "アップロードしたファイルは正しくフォーマットされていませんでした．"
+
+#. importExport.error.empty
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:386
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.empty"
+msgid "The file you uploaded was empty."
+msgstr "アップロードしたファイルは空でした．"
+
+#. importExport.error.commentnoitem
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:387
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.commentnoitem"
+msgid ""
+"A comment column was found but there was no corresponding gradebook item. "
+"Please review the uploaded file."
+msgstr "コメント欄が見つかりましたが対応する成績簿アイテムがありませんでした．アップロードしたファイルを確認して下さい．"
+
+#. importExport.error.pointsmodification
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:388
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.pointsmodification"
+msgid "There was an error updating the points for gradebook item ''{0}''."
+msgstr "成績簿アイテム''{0}''の点数を更新中にエラーが発生しました．"
+
+#. importExport.error.unknown
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:389
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.unknown"
+msgid ""
+"There was an error importing the file. Please try again or contact your "
+"local IT Support."
+msgstr "ファイルをインポート中にエラーがありました．再度試すかITサポートに連絡して下さい．"
+
+#. importExport.error.unknownstudent
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:390
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.unknownstudent"
+msgid ""
+"A student was found in the imported file but they could not be found in the "
+"site."
+msgstr "受講者がインポートされたファイルに見つかりましたがサイトには見つかりませんでした．"
+
+#. importExport.error.duplicatecolumn
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:391
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.error.duplicatecolumn"
+msgid "A duplicate column was found in the file."
+msgstr "重複するカラムがファイルに見つかりました．"
+
+#. importExport.selection.hideitems
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:392
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.hideitems"
+msgid "Hide items with no changes"
+msgstr "変更のないアイテムを非表示"
+
+#. importExport.selection.hideitemsallhidden
+#: gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:393
+msgctxt ""
+"gradebookng/tool/src/java/org/sakaiproject/gradebookng/GradebookNgApplication.properties:importExport.selection.hideitemsallhidden"
+msgid "There are no imported items that have any changes."
+msgstr "変更のあるインポートされたアイテムがありません．"

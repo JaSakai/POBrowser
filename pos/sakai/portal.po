@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-31 04:18+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-25 08:35+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -658,6 +658,61 @@ msgctxt ""
 msgid "No Placement"
 msgstr "プレースメントなし"
 
+#. connection.add
+#: portal/portal-impl/impl/src/bundle/profile-popup.properties:1
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/profile-popup.properties:connection.add"
+msgid "Add"
+msgstr "追加"
+
+#. connection.remove
+#: portal/portal-impl/impl/src/bundle/profile-popup.properties:2
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/profile-"
+"popup.properties:connection.remove"
+msgid "Remove"
+msgstr "削除"
+
+#. connection.incoming.request
+#: portal/portal-impl/impl/src/bundle/profile-popup.properties:3
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/profile-"
+"popup.properties:connection.incoming.request"
+msgid "This person wants to connect with you"
+msgstr "この人はあなたへの接続を希望しています"
+
+#. connection.accept
+#: portal/portal-impl/impl/src/bundle/profile-popup.properties:4
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/profile-"
+"popup.properties:connection.accept"
+msgid "Accept"
+msgstr "承認"
+
+#. connection.reject
+#: portal/portal-impl/impl/src/bundle/profile-popup.properties:5
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/profile-"
+"popup.properties:connection.reject"
+msgid "Reject"
+msgstr "拒否"
+
+#. connection.requested
+#: portal/portal-impl/impl/src/bundle/profile-popup.properties:6
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/profile-"
+"popup.properties:connection.requested"
+msgid "You've sent this person a connection request"
+msgstr "この人にコネクションリクエストを送りました"
+
+#. connection.cancel
+#: portal/portal-impl/impl/src/bundle/profile-popup.properties:7
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/profile-"
+"popup.properties:connection.cancel"
+msgid "Cancel"
+msgstr "キャンセル"
+
 #. cookie_notice_text
 #: portal/portal-impl/impl/src/bundle/sitenav.properties:1
 msgctxt ""
@@ -770,10 +825,10 @@ msgstr "コース: 学期なし"
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:sit_moretab_inst"
 msgid ""
-"<em>Hidden Sites</em> are not included in this menu. Access them in My "
-"Workspace -&gt; Worksite Setup.<br /> To hide a site, go to My Workspace -> "
-"Preferences -> Customize Tabs."
-msgstr "<em>非表示サイト</em> はこのメニューに含まれません．「マイワークスペース -&gt; ワークサイトセットアップ」で非表示サイトにアクセスします．<br /> サイトを非表示にする場合は，「マイワークスペース -&gt; 設定 -&gt; タブをカスタマイズ」へ移動します．"
+"<em>Hidden Sites</em> are not included in this menu. Access them in Home "
+"-&gt; Worksite Setup.<br /> To hide a site, go to Home -> Preferences -> "
+"Customize Tabs."
+msgstr "<em>非表示サイト</em> はこのメニューに含まれません．「ホーム -> ワークサイトセットアップ」で非表示サイトにアクセスします．<br /> サイトを非表示にする場合は，「ホーム -> 設定 -> タブをカスタマイズ」へ移動します．"
 
 #. sit_selectmessage
 #: portal/portal-impl/impl/src/bundle/sitenav.properties:18
@@ -787,8 +842,8 @@ msgstr "メニューをスクロールする場合は Alt キーを押しなが�
 #. sit_mywor
 #: portal/portal-impl/impl/src/bundle/sitenav.properties:19
 msgctxt "portal/portal-impl/impl/src/bundle/sitenav.properties:sit_mywor"
-msgid "My Workspace"
-msgstr "マイワークスペース"
+msgid "Home"
+msgstr "ホーム"
 
 #. sit_worksite
 #: portal/portal-impl/impl/src/bundle/sitenav.properties:20
@@ -1289,8 +1344,8 @@ msgstr "いいえ"
 #. return
 #: portal/portal-impl/impl/src/bundle/sitenav.properties:94
 msgctxt "portal/portal-impl/impl/src/bundle/sitenav.properties:return"
-msgid "Return to My Workspace"
-msgstr "マイ・ワークスペースに戻る"
+msgid "Return to Home"
+msgstr "ホームに戻る"
 
 #. pc_title
 #: portal/portal-impl/impl/src/bundle/sitenav.properties:95
@@ -1406,15 +1461,22 @@ msgctxt "portal/portal-impl/impl/src/bundle/sitenav.properties:short_url"
 msgid "Short URL"
 msgstr "短縮 URL"
 
-#. site_servertime_label
+#. site_buildinfo_label
 #: portal/portal-impl/impl/src/bundle/sitenav.properties:111
+msgctxt ""
+"portal/portal-impl/impl/src/bundle/sitenav.properties:site_buildinfo_label"
+msgid "Build Info:"
+msgstr "ビルド情報："
+
+#. site_servertime_label
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:112
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:site_servertime_label"
 msgid "Server Time:"
 msgstr "サーバシステム時間:"
 
 #. site_preferredtime_label
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:112
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:113
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:site_preferredtime_label"
@@ -1422,7 +1484,7 @@ msgid "Your Preferred Time:"
 msgstr "希望時間:"
 
 #. site_softly_deleted
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:113
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:114
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:site_softly_deleted"
 msgid ""
@@ -1431,27 +1493,27 @@ msgid ""
 msgstr "このサイトは削除マークが付けられシステム管理者によって設定されたスケジュールにより削除されます"
 
 #. pnotify_notice
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:114
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:115
 msgctxt "portal/portal-impl/impl/src/bundle/sitenav.properties:pnotify_notice"
 msgid "Notice"
 msgstr "警告"
 
 #. pc_video_off_checkbox
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:115
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:116
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:pc_video_off_checkbox"
 msgid "Disable video"
 msgstr "ビデオを無効にする"
 
 #. pc_video_status_setup
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:116
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:117
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:pc_video_status_setup"
 msgid "Setting up your video..."
 msgstr "ビデオ設定中..."
 
 #. pc_video_status_user_hung
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:117
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:118
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_user_hung"
@@ -1459,14 +1521,14 @@ msgid "User has hung up"
 msgstr "ユーザがコールを切りました"
 
 #. pc_video_status_hangup
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:118
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:119
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:pc_video_status_hangup"
 msgid "You have hung up!"
 msgstr "コールを切りました!"
 
 #. pc_video_status_user_refused
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:119
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:120
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_user_refused"
@@ -1474,7 +1536,7 @@ msgid "User refused your request"
 msgstr "ユーザがリクエストを拒否しました"
 
 #. pc_video_status_incoming_call
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:120
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:121
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_incoming_call"
@@ -1482,7 +1544,7 @@ msgid "You have an incoming call..."
 msgstr "着信中..."
 
 #. pc_video_status_call_timeout
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:121
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:122
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_call_timeout"
@@ -1490,7 +1552,7 @@ msgid "Call timeout!"
 msgstr "コール　タイムアウト!"
 
 #. pc_video_status_waiting_peer
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:122
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:123
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_waiting_peer"
@@ -1498,7 +1560,7 @@ msgid "Waiting for peer..."
 msgstr "相手待ち..."
 
 #. pc_video_status_call_accepted
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:123
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:124
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_call_accepted"
@@ -1506,7 +1568,7 @@ msgid "Call accepted, establishing connection..."
 msgstr "コール受理，接続を確立中..."
 
 #. pc_video_status_call_not_accepted
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:124
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:125
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_call_not_accepted"
@@ -1514,7 +1576,7 @@ msgid "Call not accepted or failed"
 msgstr "コールが拒否されたか失敗しました"
 
 #. pc_video_status_call_in_progress
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:125
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:126
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_call_in_progress"
@@ -1522,7 +1584,7 @@ msgid "Call in progress..."
 msgstr "コール中..."
 
 #. pc_video_status_answer_timeout
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:126
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:127
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_answer_timeout"
@@ -1530,7 +1592,7 @@ msgid "Answer timeout!"
 msgstr "回答がタイムアウト!"
 
 #. pc_video_status_connecting
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:127
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:128
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_connecting"
@@ -1538,7 +1600,7 @@ msgid "Connecting ..."
 msgstr "接続中 ..."
 
 #. pc_video_status_connection_established
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:128
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:129
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_connection_established"
@@ -1546,7 +1608,7 @@ msgid "Connection established"
 msgstr "コネクション確立"
 
 #. pc_video_status_call_failed
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:129
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:130
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_call_failed"
@@ -1554,7 +1616,7 @@ msgid "Call failed"
 msgstr "コールに失敗しました．"
 
 #. pc_video_status_you_ignored
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:130
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:131
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_status_you_ignored"
@@ -1562,21 +1624,21 @@ msgid "You ignored that call"
 msgstr "コールを無視しました"
 
 #. pc_video_accept_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:131
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:132
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:pc_video_accept_title"
 msgid "Accept video call"
 msgstr "ビデオコール受理"
 
 #. pc_video_ingnore_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:132
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:133
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:pc_video_ingnore_title"
 msgid "Ignore video call"
 msgstr "ビデオコール無視"
 
 #. pc_video_maximize_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:133
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:134
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_maximize_title"
@@ -1584,14 +1646,14 @@ msgid "Maximize video call"
 msgstr "ビデオコール最大化"
 
 #. pc_video_end_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:134
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:135
 msgctxt ""
 "portal/portal-impl/impl/src/bundle/sitenav.properties:pc_video_end_title"
 msgid "End video call"
 msgstr "ビデオコール終了"
 
 #. pc_video_do_videocall_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:135
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:136
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_do_videocall_title"
@@ -1599,7 +1661,7 @@ msgid "Do a video call"
 msgstr "ビデオコール実行"
 
 #. pc_video_unmute_local_audio_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:136
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:137
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_unmute_local_audio_title"
@@ -1607,7 +1669,7 @@ msgid "Unmute your audio"
 msgstr "オーディオの消音解除"
 
 #. pc_video_mute_local_audio_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:137
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:138
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_mute_local_audio_title"
@@ -1615,7 +1677,7 @@ msgid "Mute your audio"
 msgstr "オーディオの消音"
 
 #. pc_video_enable_local_video_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:138
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:139
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_enable_local_video_title"
@@ -1623,7 +1685,7 @@ msgid "Enable your video"
 msgstr "ビデオを有効にする"
 
 #. pc_video_disable_local_video_title
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:139
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:140
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_disable_local_video_title"
@@ -1631,7 +1693,7 @@ msgid "Disable your video"
 msgstr "ビデオを無効にする"
 
 #. pc_video_askforincoming
-#: portal/portal-impl/impl/src/bundle/sitenav.properties:140
+#: portal/portal-impl/impl/src/bundle/sitenav.properties:141
 msgctxt ""
 "portal/portal-"
 "impl/impl/src/bundle/sitenav.properties:pc_video_askforincoming"

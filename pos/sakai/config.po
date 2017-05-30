@@ -1,13 +1,13 @@
 # 
 # Translators:
 # JaSakai i18n Group <i18n@sakaiproject.jp>, 2015
-# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015
+# Yuji Tokiwa <tokiwa@yujitokiwa.jp>, 2015-2016
 msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-04 04:06+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-09-09 10:20+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -181,9 +181,8 @@ msgstr "自動通知メッセージの送信元: "
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/siteemacon/siteemacon.properties:21
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/siteemacon/siteemacon.properties:youcan"
-msgid ""
-"You can modify how you receive notifications at My Workspace > Preferences."
-msgstr "通知方法の修正は「ワークスペース→設定」で行います．"
+msgid "You can modify how you receive notifications at Home > Preferences."
+msgstr "通知受信設定は，ホーム→設定で修正することができます．"
 
 #. db.subj.upd
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/siteemacon/siteemacon.properties:22
@@ -262,9 +261,9 @@ msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/siteemacon/siteemacon.properties:db.text.prefs"
 msgid ""
 "This automatic notification message was sent by {0} ({1}) from the dropbox "
-"in the {2} site. You can modify how you receive notifications at My "
-"Workspace > Preferences."
-msgstr "この自動通知メッセージの送信元は {0} ({1}) のサイト「{2}」の課題提出箱です．通知方法の修正は「ワークスペース→設定」で行います．"
+"in the {2} site. You can modify how you receive notifications at Home > "
+"Preferences."
+msgstr "この自動通知メッセージの送信元は {0} ({1}) のサイト「{2}」の課題提出箱です．通知方法の修正は「ホーム→設定」で行います．"
 
 #. role.anon
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/authzimpl/authz-impl.properties:1
@@ -311,8 +310,8 @@ msgstr "この自動通知メッセージダイジェストは次のユーザに
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/emailimpl"
 "/email-impl.properties:youcan"
-msgid "You can modify your notification preferences in your My Workspace."
-msgstr "マイワークスペースで通知設定を修正できます．"
+msgid "You can modify your notification preferences in your Home."
+msgstr "ホームで通知設定を修正できます．"
 
 #. button.add
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/content/content.properties:1
@@ -6112,8 +6111,8 @@ msgstr "グループ外"
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:9
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:sakai.home.title"
-msgid "Home"
-msgstr "ホーム"
+msgid "Overview"
+msgstr "概要"
 
 #. sakai.home.description
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:10
@@ -6359,8 +6358,8 @@ msgstr "テスト・クイズからの成績や手動で入力した成績を保
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:44
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:sakai.gradebook.tool.title"
-msgid "Gradebook"
-msgstr "成績簿"
+msgid "Gradebook Classic"
+msgstr "成績簿クラシック"
 
 #. sakai.help.description
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:45
@@ -6388,15 +6387,15 @@ msgstr "サイト内で内部のウェブサイトにアクセスするための
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:48
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:sakai.iframe.myworkspace.description"
-msgid "For displaying information about a user's My Workspace"
-msgstr "ユーザのマイワークスペースに関する情報を表示するためのツールです．"
+msgid "For displaying information about a user's Home"
+msgstr "ユーザのホームに関する情報を表示するためのツールです．"
 
 #. sakai.iframe.myworkspace.title
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:49
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:sakai.iframe.myworkspace.title"
-msgid "My Workspace Information Display"
-msgstr "マイワークスペース情報表示"
+msgid "Home Information Display"
+msgstr "ホーム情報表示"
 
 #. sakai.iframe.service.description
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:50
@@ -7105,8 +7104,8 @@ msgstr "ユーザになる"
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:150
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:sakai.summary.calendar.description"
-msgid "Show a summary of calendar events in My Workspace"
-msgstr "マイワークスペースのカレンダーイベントの概要を表示"
+msgid "Show a summary of calendar events in Home"
+msgstr "ホームのカレンダーイベントの概要を表示"
 
 #. sakai.summary.calendar.title
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:151
@@ -7541,9 +7540,9 @@ msgstr "ダッシュボード"
 msgctxt ""
 "config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:sakai.dashboard.description"
 msgid ""
-"Unified My Workspace display of recent announcements, resources, "
-"assignments, calendar events, etc. "
-msgstr "最新のお知らせ，リソース，課題，カレンダーイベントなどをワークスペースにまとめて表示します．"
+"Unified Home display of recent announcements, resources, assignments, "
+"calendar events, etc. "
+msgstr "最新のお知らせ，リソース，課題，カレンダーイベントなどをホームにまとめて表示します．"
 
 #. sakai.signup.title
 #: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:212
@@ -7616,3 +7615,10 @@ msgid ""
 "Allows adminstrators to control permissions for all sites of a type and "
 "roles within that site"
 msgstr "管理者がサイト内の種別やロールに関しすべてのサイトの権限をコントールできるようにします．"
+
+#. sakai.gradebookng
+#: config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:222
+msgctxt ""
+"config/localization/bundles/src/bundle/org/sakaiproject/localization/bundle/tool/tools.properties:sakai.gradebookng"
+msgid "Gradebook"
+msgstr "成績簿"

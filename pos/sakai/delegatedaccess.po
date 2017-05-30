@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-02-24 23:00+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-06-06 06:08+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -904,20 +904,20 @@ msgstr "管理ツール"
 #: delegatedaccess/tool/src/java/org/sakaiproject/delegatedaccess/tool/DelegatedAccessApplication.properties:119
 msgctxt ""
 "delegatedaccess/tool/src/java/org/sakaiproject/delegatedaccess/tool/DelegatedAccessApplication.properties:add.da.myworkspace"
-msgid "Add Delegated Access to My Workspaces"
-msgstr "マイワークスペースに代理アクセス権限を付与"
+msgid "Add Delegated Access to Homes"
+msgstr "ホームに代理アクセス権限を付与"
 
 #. add.da.myworkspace.desc
 #: delegatedaccess/tool/src/java/org/sakaiproject/delegatedaccess/tool/DelegatedAccessApplication.properties:120
 msgctxt ""
 "delegatedaccess/tool/src/java/org/sakaiproject/delegatedaccess/tool/DelegatedAccessApplication.properties:add.da.myworkspace.desc"
 msgid ""
-"This adds the Delegated Access tool to all user's My Workspace sites for "
-"users who have any kind of permissions in Delegated Access.  By default, a "
-"user will have the Delegated Access tool added/removed when you update their"
-" permissions, however, sometimes you have to delete all My Workspaces to "
-"pick up a new My Workspace template."
-msgstr "代理アクセスのある権限を持つユーザに対するすべてのユーザのマイワークスペースサイトに代理アクセスツールを追加します．デフォルトでは，ユーザは権限を更新するとき追加/削除される代理アクセスツールを持ちますが，時として新しいマイワークスペーステンプレートを選択するためにすべてのマイワークスペースを削除する必要があります．"
+"This adds the Delegated Access tool to all user's Home sites for users who "
+"have any kind of permissions in Delegated Access.  By default, a user will "
+"have the Delegated Access tool added/removed when you update their "
+"permissions, however, sometimes you have to delete all Homes to pick up a "
+"new Home template."
+msgstr "代理アクセスのある権限を持つユーザに対するすべてのユーザのホームサイトに代理アクセスツールを追加します．デフォルトでは，ユーザは権限を更新するとき追加/削除される代理アクセスツールを持ちますが，時として新しいホームテンプレートを選択するためにすべてのホームを削除する必要があります．"
 
 #. addDaMyworkspaceTitle
 #: delegatedaccess/tool/src/java/org/sakaiproject/delegatedaccess/tool/DelegatedAccessApplication.properties:121
@@ -931,9 +931,9 @@ msgstr "マイワークスペースに代理アクセス権限を付与"
 msgctxt ""
 "delegatedaccess/tool/src/java/org/sakaiproject/delegatedaccess/tool/DelegatedAccessApplication.properties:success.addDaMyworkspace"
 msgid ""
-"You have successfully scheduled the job to add Delegated Access to user's My"
-" Workspace sites."
-msgstr "ユーザのマイワークスペースサイトに代理アクセスを付与するジョブは正常にスケジュールされました．"
+"You have successfully scheduled the job to add Delegated Access to user's "
+"Home sites."
+msgstr "ユーザのホームサイトに代理アクセスを付与するジョブは正常にスケジュールされました．"
 
 #. addDaMyworkspace.job.status.none
 #: delegatedaccess/tool/src/java/org/sakaiproject/delegatedaccess/tool/DelegatedAccessApplication.properties:123

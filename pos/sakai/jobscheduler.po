@@ -5,8 +5,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: sakai-trunk\n"
 "Report-Msgid-Bugs-To: ddeguchi@nagoya-u.jp\n"
-"POT-Creation-Date: 2016-04-04 22:01+00:00\n"
-"PO-Revision-Date: 2016-03-04 04:06+0000\n"
+"POT-Creation-Date: 2016-09-09 22:00+00:00\n"
+"PO-Revision-Date: 2016-09-09 15:34+0000\n"
 "Last-Translator: Yuji Tokiwa <tokiwa@yujitokiwa.jp>\n"
 "Language-Team: Japanese (http://www.transifex.com/apereo/sakai-trunk/language/ja/)\n"
 "MIME-Version: 1.0\n"
@@ -872,6 +872,274 @@ msgctxt ""
 msgid "This is description 2"
 msgstr "これは説明 2 です."
 
+#. path.base
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:1
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:path.base"
+msgid "Base Path"
+msgstr "ベースパス"
+
+#. path.base.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:2
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:path.base.description"
+msgid "Base directory appended to beginning of file paths"
+msgstr "ファイルパスの初めに追加されたベースディレクトリ"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.AcademicSessionProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:3
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.AcademicSessionProcessor.filename"
+msgid "Academic Session file"
+msgstr "アカデミックセッションファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.AcademicSessionProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:4
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.AcademicSessionProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.AcademicSessionProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.AcademicSessionProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseSetProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:5
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseSetProcessor.filename"
+msgid "Course Set file"
+msgstr "コース設定ファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseSetProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:6
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseSetProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseSetProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseSetProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CanonicalCourseProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:7
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CanonicalCourseProcessor.filename"
+msgid "Canonical Course file"
+msgstr "標準コースファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CanonicalCourseProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:8
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CanonicalCourseProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CanonicalCourseProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CanonicalCourseProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:9
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingProcessor.filename"
+msgid "Course Offering file"
+msgstr "コースオファリングファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:10
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingMemberProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:11
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingMemberProcessor.filename"
+msgid "Course Offering Member file"
+msgstr "コースオファリングメンバファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingMemberProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:12
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingMemberProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingMemberProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.CourseOfferingMemberProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionCategoryProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:13
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionCategoryProcessor.filename"
+msgid "Section Category file"
+msgstr "セクションカテゴリファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionCategoryProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:14
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionCategoryProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionCategoryProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionCategoryProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentSetProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:15
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentSetProcessor.filename"
+msgid "Enrollment Set file"
+msgstr "履修登録設定ファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentSetProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:16
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentSetProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentSetProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentSetProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:17
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionProcessor.filename"
+msgid "Section file"
+msgstr "セクションファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:18
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMeetingProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:19
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMeetingProcessor.filename"
+msgid "Section Meeting file"
+msgstr "セクションミーティングファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMeetingProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:20
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMeetingProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMeetingProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMeetingProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMemberProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:21
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMemberProcessor.filename"
+msgid "Section Member file"
+msgstr "セクションメンバファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMemberProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:22
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMemberProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMemberProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.SectionMemberProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:23
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentProcessor.filename"
+msgid "Enrollment file"
+msgstr "履修登録ファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:24
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.EnrollmentProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.InstructorProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:25
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.InstructorProcessor.filename"
+msgid "Instructor file"
+msgstr "教員ファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.InstructorProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:26
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.InstructorProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.InstructorProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.InstructorProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.MembershipProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:27
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.MembershipProcessor.filename"
+msgid "Membership file"
+msgstr "メンバシップファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.MembershipProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:28
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.MembershipProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.MembershipProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.MembershipProcessor"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.UserProcessor.filename
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:29
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.UserProcessor.filename"
+msgid "Users file"
+msgstr "ユーザファイル"
+
+#. org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.UserProcessor.description
+#: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:30
+msgctxt ""
+"jobscheduler/scheduler-component-"
+"shared/src/java/org/sakaiproject/component/app/scheduler/jobs/cm/Messages.properties:org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.UserProcessor.description"
+msgid ""
+"Overrides server configuration property "
+"filename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.UserProcessor"
+msgstr "サーバ構成プロパティを上書きします\nfilename@org.sakaiproject.component.app.scheduler.jobs.cm.processor.sis.UserProcessor"
+
 #. site.id
 #: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/backfilltool/Messages.properties:1
 msgctxt ""
@@ -965,8 +1233,8 @@ msgstr "ユーザサイトをスキップ"
 msgctxt ""
 "jobscheduler/scheduler-component-"
 "shared/src/java/org/sakaiproject/component/app/scheduler/jobs/backfilltool/Messages.properties:skip.user.sites.description"
-msgid "If true then the tool will also be added to user sites."
-msgstr "正しければユーザサイトにツールも追加します．"
+msgid "If false then the tool will also be added to user sites."
+msgstr "誤りであればユーザサイトにツールも追加します．"
 
 #. number.days
 #: jobscheduler/scheduler-component-shared/src/java/org/sakaiproject/component/app/scheduler/jobs/eventpurge/Messages.properties:1
